@@ -249,3 +249,50 @@ A form counts as *Tetun-shaped* if it is near-identical (L5 rule) to a Tetun for
 - *Test.* An AU test (10,000 RELL replicates) across all the resulting trees. A tree with p < 0.05 is rejected.
 
 **A3.5 Verdicts.** The step 8 outcomes are reported exactly as the rules give them. A separate section, labelled as the analyst's interpretation, weighs all the evidence: lexical, Bayesian, maximum-likelihood, sound change, contact and geography.
+
+### Addendum 4 (2026-10-10, post hoc expansion)
+
+Written after the step 1–8 results and the novelty check had been seen. Data extraction (E7) was run before this text was written. None of the analyses E8–E12 had been run. Nothing here changes the step 8 decision.
+
+**Aim.** Widen the comparison until it yields new data, then use that data on C1.
+
+**E7. Machine-readable Grimes and Edwards (2026) tables** (`src/18_ge_tables.py`, `derived/ge2026_tables/`).
+
+- Every comparative table in the book's LaTeX source with a PMP row is parsed, 257 tables in all.
+- Each form keeps the authors' bold-red highlighting of the reflex, and their grey marking of non-cognates.
+- Table rows are mapped to Glottocodes through the book's Appendix A, plus an alias list for abbreviated labels.
+- The book is CC-BY 4.0. This derived dataset carries the same licence and must be cited to Grimes and Edwards (2026).
+
+**E8. Expert reflex atlas.** For each language and PMP target segment, the distribution of expert-highlighted reflexes in cognate forms, from E7.
+
+**E9. Automatic reflex atlas.**
+
+- E2 is extended to all PMP consonants, every LexiRumah concept and every D1 Austronesian lect, using the same alignment rule as E2.
+- *Validation.* For each language that is in both atlases, check whether the automatic majority reflex equals the expert majority reflex, per target. Agreement is reported per target and per language.
+
+**E10. Sound-change character matrix.**
+
+- *Characters.* One multistate character per PMP target segment. The state is the language's majority reflex in E8, with reflexes grouped into classes: voiceless stop, voiced stop, fricative, h, glottal stop, ∅, nasal, liquid or rhotic, glide.
+- *Coding rule.* A language is coded for a target only if E8 has at least 2 cognate tokens for it.
+- *Taxa.* The 24 step-7 taxa, matched by Glottocode. When several E7 labels map to one Glottocode (Mambae varieties), all their tokens are pooled.
+
+**E11. Phonology-only and total-evidence trees** for the 24 taxa.
+
+- **(a) Phonology only.** IQ-TREE MK+G on E10, with 1,000 ultrafast bootstraps.
+- **(b) Total evidence, maximum likelihood.** IQ-TREE with two partitions: the 1,353 lexical characters under GTR2+FO+G4, and E10 under MK+G.
+- **(c) Total evidence, Bayesian.** MrBayes unconstrained, with a restriction partition (coding=noabsencesites, gamma) and a standard partition (Mk, gamma). The run length and sampling are as in A2.4.
+- **Reading, stated before running.** Report the support or posterior probability for:
+  - Lakalei-Idate + Central Timor (with Welaun);
+  - Timor-Babar including Lakalei-Idate;
+  - Lakalei-Idate + Eastern Timor.
+  
+  A support of 0.5 or more for one of them, and less for the others, counts as that grouping winning in that analysis. Anything else counts as unresolved.
+
+**E12. Tetun loans identified by sound change.** This automates the criterion Grimes and Edwards use for Welaun.
+
+- *Which forms.* LexiRumah forms in non-Tetun Timor lects that are Tetun look-alikes (L5).
+- *Classes.* Each form gets one of three labels:
+  - **probable loan**: one of its reflexes breaks the lect's own expert majority reflex (E8) and matches Tetun's;
+  - **probably inherited**: it shows the lect's own regular reflex where Tetun differs;
+  - **undecidable**: neither applies.
+- *Rerun.* Step 5 and the E11(b) tree are repeated with the probable loans removed, as a sensitivity check.
