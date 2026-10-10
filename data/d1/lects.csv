@@ -1,0 +1,71 @@
+ID,Name,Family,Glottocode,Latitude,Longitude,Group,Role,Concepts
+mamb1306,"Southern Mambae, Ainaro",Austronesian,mamb1306,-8.9918,125.5072,Mambae,Timor AN,139
+mamb1306-NWbar,"Northwest Mambae, Barzatete",Austronesian,mamb1306,-8.623507,125.380998,Mambae,Timor AN,128
+mamb1306-NWhat,"Northwest Mambae, Hatulia",Austronesian,mamb1306,-8.776468,125.357167,Mambae,Timor AN,127
+mamb1306-NWrai,"Northwest Mambae, Railaco",Austronesian,mamb1306,-8.674155,125.466788,Mambae,Timor AN,128
+mamb1306-Claul,"Central Mambae, Laulara",Austronesian,mamb1306,-8.619529,125.592092,Mambae,Timor AN,129
+mamb1306-Caile,"Central Mambae, Aileu Vila",Austronesian,mamb1306,-8.722089,125.564439,Mambae,Timor AN,129
+mamb1306-Cliqu,"Central Mambae, Liquidoe",Austronesian,mamb1306,-8.728878,125.7084,Mambae,Timor AN,128
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",Austronesian,mamb1306,-8.888349,125.563692,Mambae,Timor AN,126
+mamb1306-Sudo,"South Mambae, Hatu-Udo",Austronesian,mamb1306,-9.139849,125.59773,Mambae,Timor AN,128
+mamb1306-Sbeta,"South Mambae, Betano",Austronesian,mamb1306,-9.138586,125.73097,Mambae,Timor AN,125
+mamb1306-Slete,"South Mambae, Letefoho",Austronesian,mamb1306,-8.974955,125.647294,Mambae,Timor AN,148
+kema1243,Kemak,Austronesian,kema1243,-8.932926,125.212965,Kemak,Timor AN,140
+kema1243-kaila,"Kemak, Kailaku",Austronesian,kema1243,-8.999982,125.127782,Kemak,Timor AN,150
+kema1243-kutu,"Kemak, Kutubaba",Austronesian,kema1243,-8.977051,124.889898,Kemak,Timor AN,142
+kema1243-leol,"Kemak, Leolima",Austronesian,kema1243,-9.082981,124.932597,Kemak,Timor AN,148
+kema1243-lemi,"Kemak, Lemia",Austronesian,kema1243,-9.067662,124.942512,Kemak,Timor AN,148
+kema1243-sane,"Kemak, Saneri",Austronesian,kema1243,-9.062102,124.913644,Kemak,Timor AN,148
+kema1243-leos,"Kemak, Leosibe",Austronesian,kema1243,-9.0417,125.1558,Kemak,Timor AN,148
+kema1243-diir,"Kemak, Diirbati",Austronesian,kema1243,-9.084757,124.895251,Kemak,Timor AN,148
+tuku1254,Tokodede,Austronesian,tuku1254,-8.6128,125.2017,Tokodede,Timor AN,140
+west2547-welaun,Welaun,Austronesian,wela1235,-9.087594,124.985028,Welaun,Timor AN,150
+west2547-mahein,"Welaun, Mahein",Austronesian,wela1235,-9.0539,125.0606,Welaun,Timor AN,149
+idat1237,Idate,Austronesian,idat1237,-8.7719,125.9262,Idate,Timor AN,139
+idat1237-cribas,Idate,Austronesian,idat1237,-8.671212,125.991368,Idate,Timor AN,146
+laka1255,Lakalei,Austronesian,laka1255,-8.9581,125.7411,Lakalei,Timor AN,140
+tetu1246,Tetun Dili,Austronesian,tetu1246,-8.5478,125.5442,Tetun,Timor AN,140
+tetu1245-suai,"Tetun, Suai",Austronesian,sout2898,-9.314842,125.255396,Tetun,Timor AN,127
+habu1241,Habun,Austronesian,habu1241,-8.77,125.97,Habu,Timor AN,146
+waim1252,Waima'a,Austronesian,waim1252,-8.53,126.32,Kawaimina,Timor AN,150
+midi1237,Midiki,Austronesian,midi1237,-8.646986,126.146467,Kawaimina,Timor AN,146
+naue1237,Naueti,Austronesian,naue1237,-8.71,126.74,Kawaimina,Timor AN,140
+galo1243,Galolen,Austronesian,galo1243,-8.61,125.96,Galoli,Timor AN,122
+dadu1237,Dadu'a,Austronesian,dadu1237,-8.489721,125.903071,Dadu'a,Timor AN,142
+funa1237,Funai Helong,Austronesian,funa1237,-10.241153,123.689805,Helong,Timor AN,150
+koto1251,Kotos Amarasi,Austronesian,koto1251,-10.243786,123.872438,Meto,Timor AN,150
+rois1241,Ro'is Amarasi,Austronesian,rois1241,-10.291326,123.856114,Meto,Timor AN,148
+kusa1252,Kusa-Manea,Austronesian,kusa1252,-9.4684,124.822642,Meto,Timor AN,147
+term1237,Termanu,Austronesian,term1237,-10.692572,123.139261,Rote,Outgroup AN,146
+tiii1241,Tii,Austronesian,tiii1241,-10.862977,122.960898,Rote,Outgroup AN,140
+dela1252,Dela,Austronesian,dela1252,-10.890303,122.843183,Rote,Outgroup AN,139
+lole1239,Lole,Austronesian,lole1239,-10.81453,123.10599,Rote,Outgroup AN,149
+ring1244,Rikou,Austronesian,ring1244,-10.626703,123.397347,Rote,Outgroup AN,120
+eray1237,Ili'uun,Austronesian,eray1237,-7.744376,125.916523,Wetar,Outgroup AN,133
+ilma1240,"Ili'uun, Ilmaumau",Austronesian,ilma1240,-7.7864,125.8693,Wetar,Outgroup AN,141
+uhak1237,Perai,Austronesian,uhak1237,-7.5904,126.4923,Wetar,Outgroup AN,141
+ilpu1239,Aputai,Austronesian,ilpu1239,-7.828306,126.546137,Wetar,Outgroup AN,141
+kaha1239,Tugun,Austronesian,kaha1239,-7.7495,126.8272,Wetar,Outgroup AN,141
+kisa1266,Kisar,Austronesian,kisa1266,-8.05,127.18,Luangic-Kisaric,Outgroup AN,145
+roma1332,Roma,Austronesian,roma1332,-7.5951,127.45,Luangic-Kisaric,Outgroup AN,144
+luan1264,Luang,Austronesian,luan1264,-8.1793,128.7026,Luangic-Kisaric,Outgroup AN,145
+weta1243,Wetan,Austronesian,weta1243,-7.89949,129.538524,Luangic-Kisaric,Outgroup AN,141
+imro1237,Imroing,Austronesian,imro1237,-7.96675,129.64825,Babar,Outgroup AN,145
+tela1241,Tela-Masbuar,Austronesian,tela1241,-8.006131,129.674943,Babar,Outgroup AN,145
+daii1240,Dai,Austronesian,daii1240,-7.5616,129.6877,Babar,Outgroup AN,145
+nort2860,North Babar,Austronesian,nort2860,-7.811482,129.766333,Babar,Outgroup AN,144
+empl1237,Emplawas,Austronesian,empl1237,-8.046693,129.776371,Babar,Outgroup AN,141
+east2462,East Masela,Austronesian,east2462,-8.138883,129.854721,Babar,Outgroup AN,143
+sout2883,"Southeast Babar, Kokwari",Austronesian,sout2883,-7.9193,129.8622,Babar,Outgroup AN,142
+cent2072,Central Masela,Austronesian,cent2072,-8.158472,129.87017,Babar,Outgroup AN,145
+seri1255,Serili,Austronesian,seri1255,-8.121545,129.876837,Babar,Outgroup AN,145
+dawe1237,Dawera-Daweloor,Austronesian,dawe1237,-7.7018,130.0028,Babar,Outgroup AN,145
+sika1262-hewa,"Sika, Hewa",Austronesian,sika1262,-8.595056,122.707028,Flores-Lembata,Root AN,152
+lama1277-lewoi,"Ile Mandiri Lamaholot, Lewoingu",Austronesian,lama1277,-8.423064,122.816413,Flores-Lembata,Root AN,152
+keda1252,Kedang,Austronesian,keda1252,-8.2626,123.775,Flores-Lembata,Root AN,112
+buna1278-bobon,"Bunak, Bobonaro",Timor-Alor-Pantar,buna1278,-9.033683,125.323406,Bunak,TAP,152
+buna1278-malia,"Bunak, Maliana",Timor-Alor-Pantar,buna1278,-9.073689,125.214341,Bunak,TAP,135
+buna1278-suai,"Bunak, Suai",Timor-Alor-Pantar,buna1278,-9.221923,125.225417,Bunak,TAP,152
+fata1247,Fataluku,Timor-Alor-Pantar,fata1247,-8.4394,126.9821,East Timor TAP,TAP,152
+maka1316,Makasae,Timor-Alor-Pantar,maka1316,-8.548563,126.505903,East Timor TAP,TAP,152
+oira1263,Oirata,Timor-Alor-Pantar,oira1263,-8.09,127.2,East Timor TAP,TAP,144

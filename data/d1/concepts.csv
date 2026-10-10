@@ -1,0 +1,153 @@
+ID,English,Indonesian,Concepticon_ID,Semantic_Field
+knee,knee,lutut,1371.0,The body
+fat,fat,lemak,323.0,The body
+forest,forest,hutan,420.0,The physical world
+to_walk,walk,berjalan,1443.0,Motion
+sky,sky,langit,1732.0,The physical world
+thousand,thousand,seribuh,1843.0,Quantity
+to_sing,sing,menyanyi,1261.0,Speech and language
+egg,egg,telur,744.0,Food and drink
+two,two,dua,1498.0,Quantity
+ten,ten,sepuluh,1515.0,Quantity
+husband,husband,suami,1200.0,Kinship
+to_give,give,beri; kasih,1447.0,Possession
+woman,woman,perempuan,962.0,Kinship
+eye,eye,mata,1248.0,The body
+knife,knife,pisau,1352.0,Basic actions and technology
+tree,tree,pohon,906.0,Agriculture and vegetation
+coconut,coconut,kelapa,970.0,Agriculture and vegetation
+to_eat,eat,makan,1336.0,Food and drink
+to_come,come,datang,1446.0,Motion
+nose,nose,hidung,1221.0,The body
+five,five,lima,493.0,Quantity
+leaf,leaf,daun,628.0,Agriculture and vegetation
+to_know,know,tahu,3626.0,Cognition
+cold,cold,dingin,1287.0,Sense perception
+white,white,putih,1335.0,Sense perception
+to_swim,swim,berenang,1439.0,Motion
+to_hear,hear,dengar,1408.0,Sense perception
+smoke,smoke,asap,778.0,The physical world
+big,big,besar,1202.0,Spatial relations
+where,where?,di mana?,1237.0,Cognition
+inside,in; inside,di dalam,1606.0,Spatial relations
+to_kill,kill,bunuh,1417.0,The body
+liver,liver,hati,1224.0,The body
+to_cry,cry,menangis,1839.0,Emotions and values
+moon,moon,bulan (di langit),1313.0,The physical world
+road,road; path; way,jalan,667.0,Motion
+banana,banana,pisang,868.0,Agriculture and vegetation
+blind,blind,buta,1653.0,The body
+sand,sand,pasir,671.0,The physical world
+full,full,penuh,1429.0,Quantity
+twenty,twenty,dua puluh,1710.0,Quantity
+canoe,canoe,perahu,1970.0,Motion
+skin,skin,kulit,763.0,The body
+excrement,excrement,kotoran; tahi,675.0,The body
+long,long (stick),(kayu) panjang,1203.0,Spatial relations
+black,black,hitam,163.0,Sense perception
+soil,land; earth; soil,tanah,1228.0,The physical world
+near,near,dekat,1942.0,Spatial relations
+hot,hot,panas,1286.0,Sense perception
+1pl_incl,1pl incl,kita,1131.0,Kinship
+green,green,(daun) hijau,1425.0,Sense perception
+head,head,kepala,1256.0,The body
+three,three,tiga,492.0,Quantity
+to_bite,bite,(anjing) gigit,1403.0,The body
+bone,bone,tulang,1394.0,The body
+machete,machete,parang,2680.0,Food and drink
+1pl_excl,1pl excl,kami,1130.0,Kinship
+2sg_informal,2sg (informal),engkau; kau; kamu,1215.0,Kinship
+louse_in_hair,louse in hair; head louse; mother louse,kutu kepala,310.0,Animals
+snake,snake,ular,730.0,Animals
+man,man,laki-laki,1554.0,Kinship
+to_fall_from_above,fall (from above),jatuh (dari atas),1280.0,Motion
+to_sleep,sleep,tidur,1585.0,The body
+what,what?,apa?,1236.0,Cognition
+to_see,see,lihat,1409.0,Sense perception
+to_drink,drink,minum,1401.0,Food and drink
+grandfather,grandfather,kakek; opa,1383.0,Kinship
+sea,sea; sea water,laut; air laut,1474.0,The physical world
+fruit,fruit,buah,1507.0,Food and drink
+night,night,malam,1233.0,Time
+house,house,rumah,1252.0,The house
+sun,sun,matahari,1343.0,The physical world
+to_die,die,mati,1494.0,The body
+bird,bird,burung,937.0,Animals
+mountain,mountain,gunung,639.0,The physical world
+small,small,kecil,1246.0,Spatial relations
+there,there,sana,1937.0,Miscellaneous function words
+thin,thin (non-human),tipis,2308.0,Spatial relations
+mouth,mouth,mulut,674.0,The body
+dog,dog,anjing,2009.0,Animals
+root,root,akar,670.0,Agriculture and vegetation
+nine,nine,sembilan,1483.0,Quantity
+old_people,old; elderly (people),(orang) tua,2112.0,Time
+ash,(fireplace) ash,abu (tungku),646.0,The physical world
+this,this,ini,1214.0,Miscellaneous function words
+tongue,tongue,lidah,1205.0,The body
+stone,stone,batu,857.0,The physical world
+name,name,nama,1405.0,Speech and language
+below,below,bawah,1485.0,Spatial relations
+to_speak,speak,bicara,1623.0,Speech and language
+deaf,deaf,tuli,996.0,The body
+here,here,sini,136.0,Miscellaneous function words
+to_fly,fly,terbang,1441.0,Motion
+teeth,teeth,gigi,1380.0,The body
+mother,mother,mama,1216.0,Kinship
+four,four,empat,1500.0,Quantity
+grandmother,grandmother,nenek,1496.0,Kinship
+star,star,bintang,1430.0,The physical world
+red,red,merah,156.0,Sense perception
+to_sit,sit,duduk,1416.0,Spatial relations
+no_not,no; not,tidak; bukan,2279.0,Cognition
+salt,salt,garam,1274.0,Food and drink
+to_laugh,laugh,ketawa,1355.0,Emotions and values
+wife,wife,istri,1199.0,Kinship
+hair,hair,rambut,1040.0,The body
+far,far,jauh,1406.0,Spatial relations
+dry,dry,kering,1398.0,Sense perception
+neck,neck,leher,1333.0,The body
+eight,eight,delapan,1705.0,Quantity
+many,many,banyak,1198.0,Quantity
+bamboo,bamboo,bambu,1927.0,Agriculture and vegetation
+father,father,bapak,1217.0,Kinship
+river_stream,river; stream,sungai; kali,666.0,The physical world
+one,one,satu,1493.0,Quantity
+child,child,anak,2099.0,Kinship
+how_much_how_many,how much; how many?,berapa?,531.0,Cognition
+to_bathe,bathe,mandi,138.0,The body
+water,water (fresh),air,948.0,The physical world
+stomach_belly,stomach; belly,perut,2114.0,The body
+to_spit,spit,ludah,1440.0,The body
+good,good,baik,1035.0,Emotions and values
+ear,ear,telinga,1247.0,The body
+tail,tail,ekor,1220.0,The body
+rain,rain,hujan,658.0,The physical world
+who,who?,siapa?,1235.0,Cognition
+wind,wind,angin,960.0,The physical world
+younger_sibling,younger sibling,adik,427.0,Kinship
+rotten,rotten,(buah) busuk,1728.0,Food and drink
+fish,fish,ikan,227.0,Animals
+above,above,atas,1741.0,Spatial relations
+cloud,cloud,awan,1489.0,The physical world
+1sg,1sg,saya,1209.0,Kinship
+flower,flower (e.g. in a tree),bunga (di pohon),239.0,Agriculture and vegetation
+six,six,enam,1703.0,Quantity
+hand,hand,tangan,1277.0,The body
+new,new (house),(rumah) baru,1231.0,Time
+person,person,orang,683.0,Kinship
+to_vomit,vomit,muntah,1278.0,The body
+yellow,yellow,kuning,1424.0,Sense perception
+meat,flesh; meat,daging,634.0,The body
+one_hundred,one hundred,seratus,1634.0,Quantity
+how,how?,bagaimana?,1239.0,Cognition
+all,all,semua,98.0,Quantity
+fire,fire,api,221.0,The physical world
+betel_vine,betel vine,sirih,177.0,Agriculture and vegetation
+seven,seven,tujuh,1704.0,Quantity
+rope,rope,tali,1218.0,Basic actions and technology
+foot,foot,kaki,1301.0,The body
+to_stand,stand,diri,1442.0,Spatial relations
+to_wake_up,wake up,bangun,1602.0,The body
+short,short (objects or people),pendek,1645.0,Spatial relations
+blood,blood,darah,946.0,The body

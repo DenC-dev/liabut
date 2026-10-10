@@ -1,0 +1,54 @@
+{
+ "d1": {
+  "lects": 70,
+  "concepts": 152,
+  "forms": 10555,
+  "concepts_per_lect_min": 112,
+  "concepts_per_lect_median": 144.0,
+  "biglexstat_judgments": 9358
+ },
+ "d2": {
+  "lects": 30,
+  "lect_ids": [
+   "34",
+   "35",
+   "42",
+   "61",
+   "70",
+   "115",
+   "134",
+   "160",
+   "167",
+   "236",
+   "296",
+   "297",
+   "298",
+   "299",
+   "300",
+   "301",
+   "310",
+   "311",
+   "312",
+   "313",
+   "314",
+   "315",
+   "316",
+   "332",
+   "403",
+   "486",
+   "853",
+   "1365",
+   "1366",
+   "1368"
+  ],
+  "concepts": 210,
+  "forms": 5433,
+  "forms_dropped_tokenization": {},
+  "expert_judgments": 4197,
+  "loans_flagged": 41
+ },
+ "portuguese": {
+  "forms": 1683,
+  "concepts": 1308
+ }
+}

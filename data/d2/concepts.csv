@@ -1,0 +1,211 @@
+ID,English,Concepticon_ID
+1_hand,hand,1277
+2_left,left,244
+3_right,right,1019
+4_legfoot,leg/foot,2098
+5_towalk,to walk,1443
+6_roadpath,road/path,2457
+7_tocome,to come,1446
+8_toturn,to turn,1588
+9_toswim,to swim,1439
+10_dirty,dirty,1230
+11_dust,dust,2
+12_skin,skin,763
+13_back,back,1291
+14_belly,belly,1251
+15_bone,bone,1394
+16_intestines,intestines,1991
+17_liver,liver,1224
+18_breast,breast,1402
+19_shoulder,shoulder,1482
+20_toknowbeknowledgeable,"to know, be knowledgeable",1410
+21_tothink,to think,2271
+22_tofear,to fear,1419
+23_blood,blood,946
+24_head,head,1256
+25_neck,neck,1333
+26_hair,hair,1040
+27_nose,nose,1221
+28_tobreathe,to breathe,1407
+29_tosniffsmell,"to sniff, smell",1586
+30_mouth,mouth,674
+31_tooth,tooth,1380
+32_tongue,tongue,1205
+33_tolaugh,to laugh,1355
+34_tocry,to cry,1839
+35_tovomit,to vomit,1278
+36_tospit,to spit,1440
+37_toeat,to eat,1336
+38_tochew,to chew,321
+39_tocook,to cook,1100
+40_todrink,to drink,1401
+41_tobite,to bite,1403
+42_tosuck,to suck,1421
+43_ear,ear,1247
+44_tohear,to hear,1408
+45_eye,eye,1248
+46_tosee,to see,1409
+47_toyawn,to yawn,1028
+48_tosleep,to sleep,1585
+49_toliedown,to lie down,215
+50_todream,to dream,1920
+51_tosit,to sit,1416
+52_tostand,to stand,1442
+53_personhumanbeing,person/human being,683
+54_manmale,man/male,2106
+55_womanfemale,woman/female,2105
+56_child,child,2099
+57_husband,husband,1200
+58_wife,wife,1199
+59_mother,mother,1216
+60_father,father,1217
+61_house,house,1252
+62_thatchroof,thatch/roof,2100
+63_name,name,1405
+64_tosay,to say,1458
+65_rope,rope,1218
+66_totieupfasten,"to tie up, fasten",1094
+67_tosew,to sew,1457
+68_needle,needle,1382
+69_tohunt,to hunt,1435
+70_toshoot,to shoot,1172
+71_tostabpierce,"to stab, pierce",1434
+72_tohit,to hit,1433
+73_tosteal,to steal,713
+74_tokill,to kill,1417
+75_todiebedead,"to die, be dead",2101
+76_tolivebealive,"to live, be alive",1422
+77_toscratch,to scratch,1436
+78_tocuthack,"to cut, hack",3889
+79_stickwood,stick/wood,1295
+80_tosplit,to split,1437
+81_sharp,sharp,1396
+82_dullblunt,"dull, blunt",379
+83_towork,to work,1086
+84_toplant,to plant,1486
+85_tochoose,to choose,1750
+86_togrow,to grow,479
+87_toswell,to swell,1573
+88_tosqueeze,to squeeze,1414
+89_tohold,to hold,1448
+90_todig,to dig,1418
+91_tobuy,to buy,1869
+92_toopenuncover,"to open, uncover",1156
+93_topoundbeat,"to pound, beat",354
+94_tothrow,to throw,1456
+95_tofall,to fall,1280
+96_dog,dog,2009
+97_bird,bird,937
+98_egg,egg,744
+99_feather,feather,1201
+100_wing,wing,1257
+101_tofly,to fly,1441
+102_rat,rat,1490
+103_meatflesh,meat/flesh,2615
+104_fatgrease,fat/grease,323
+105_tail,tail,1220
+106_snake,snake,730
+107_wormearthworm,worm (earthworm),1219
+108_louse,louse,1392
+109_mosquito,mosquito,1509
+110_spider,spider,843
+111_fish,fish,227
+112_rotten,rotten,1728
+113_branch,branch,1531
+114_leaf,leaf,628
+115_root,root,670
+116_flower,flower,239
+117_fruit,fruit,1507
+118_grass,grass,606
+119_earthsoil,earth/soil,1228
+120_stone,stone,857
+121_sand,sand,671
+122_water,water,948
+123_toflow,to flow,2003
+124_sea,sea,1474
+125_salt,salt,1274
+126_lake,lake,624
+127_woodsforest,woods/forest,420
+128_sky,sky,1732
+129_moon,moon,1313
+130_star,star,1430
+131_cloud,cloud,1489
+132_fog,fog,249
+133_rain,rain,658
+134_thunder,thunder,1150
+135_lightning,lightning,1654
+136_wind,wind,960
+137_toblow,to blow,175
+138_warm,warm,1232
+139_cold,cold,1287
+140_dry,dry,1398
+141_wet,wet,1726
+142_heavy,heavy,1210
+143_fire,fire,221
+144_toburn,to burn,2102
+145_smoke,smoke,778
+146_ashes,ashes,646
+147_black,black,163
+148_white,white,1335
+149_red,red,156
+150_yellow,yellow,1424
+151_green,green,1425
+152_small,small,1246
+153_big,big,1202
+154_short,short,1645
+155_long,long,1203
+156_thin,thin,2308
+157_thick,thick,1244
+158_narrow,narrow,1267
+159_wide,wide,1243
+160_painfulsick,"painful, sick",2103
+161_shyashamed,"shy, ashamed",3805
+162_old,old,1229
+163_new,new,1231
+164_good,good,1035
+165_badevil,"bad, evil",3764
+166_correcttrue,"correct, true",1725
+167_night,night,1233
+168_day,day,1225
+169_year,year,1226
+170_when,when?,1238
+171_tohide,to hide,2486
+172_toclimb,to climb,1102
+173_at,at,1461
+174_ininside,"in, inside",1460
+175_above,above,1741
+176_below,below,1485
+177_this,this,1214
+178_that,that,78
+179_near,near,1942
+180_far,far,1406
+181_where,where?,1237
+182_i,I,1209
+183_thou,thou,1215
+184_heshe,he/she,2642
+185_we,we,1212
+186_you,you,1213
+187_they,they,817
+188_what,what?,1236
+189_who,who?,1235
+190_other,other,197
+191_all,all,98
+192_and,and,1577
+193_if,if,1459
+194_how,how?,1239
+195_nonot,"no, not",2279
+196_tocount,to count,1420
+197_one,One,1493
+198_two,Two,1498
+199_three,Three,492
+200_four,Four,1500
+201_five,Five,493
+202_six,Six,1703
+203_seven,Seven,1704
+204_eight,Eight,1705
+205_nine,Nine,1483
+206_ten,Ten,1515
+207_twenty,Twenty,1710
+208_fifty,Fifty,1717
+209_onehundred,One Hundred,1634
+210_onethousand,One Thousand,1843
