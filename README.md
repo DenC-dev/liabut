@@ -2,7 +2,7 @@
 
 A pre-registered computational test of the competing classifications of the Austronesian languages of Timor: Hull's Ramelaic and Fabronic (1998, 2001) against Edwards's Central Timor and Timor-Babar (2021; Glottolog 5.3). The method follows Robinson and Holton (2012), who used lexical data to find subgroups in Alor-Pantar that sound changes alone couldn't settle.
 
-Dennis Crowley, Phaistos Labs. Analysis code written with Claude.
+Dennis Crowley, Phaistos Labs.
 
 ## Status
 
