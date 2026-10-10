@@ -1,0 +1,22 @@
+ID,Dataset,Tier,Name,Members,Basis
+KA1-mambae,D1,1,Mambae dialects,mamb1306 mamb1306-NWbar mamb1306-NWhat mamb1306-NWrai mamb1306-Claul mamb1306-Caile mamb1306-Cliqu mamb1306-Chatu mamb1306-Sudo mamb1306-Sbeta mamb1306-Slete,Glottolog 5.3: all mamb1306
+KA1-kemak,D1,1,Kemak dialects,kema1243 kema1243-kaila kema1243-kutu kema1243-leol kema1243-lemi kema1243-sane kema1243-leos kema1243-diir,Glottolog 5.3: all kema1243
+KA1-bunak,D1,1,Bunak dialects,buna1278-bobon buna1278-malia buna1278-suai,Glottolog 5.3: all buna1278
+KA1-idate,D1,1,Idate varieties,idat1237 idat1237-cribas,Glottolog 5.3: idat1237
+KA1-welaun,D1,1,Welaun varieties,west2547-welaun west2547-mahein,Glottolog 5.3: wela1235
+KA1-tetun,D1,1,Tetun Dili + Southern Tetun,tetu1246 tetu1245-suai,Glottolog 5.3: Tetunic
+KA1-amarasi,D1,1,"Amarasi (Kotos, Ro'is)",koto1251 rois1241,Glottolog 5.3: amar1273
+KA1-iliuun,D1,1,"Ili'uun (Eray, Ilmaumau)",eray1237 ilma1240,Glottolog 5.3: iliu1237
+KA1-luang,D1,1,"Luang (Luang island, Wetan)",luan1264 weta1243,Glottolog 5.3: luan1263
+KA2-meto,D1,2,Meto,koto1251 rois1241 kusa1252,Glottolog 5.3: Meto
+KA2-rotemeto,D1,2,Rote-Meto,term1237 tiii1241 dela1252 lole1239 ring1244 koto1251 rois1241 kusa1252,Glottolog 5.3: Rote-Meto
+KA2-fatoir,D1,2,Fataluku-Oirata,fata1247 oira1263,Glottolog 5.3: Fataluku-Oirata
+KA2-eastTAP,D1,2,East Timor TAP,fata1247 maka1316 oira1263,Glottolog 5.3: East Timor (TAP)
+KA2-TAP,D1,2,Timor-Alor-Pantar lects form one clade,buna1278-bobon buna1278-malia buna1278-suai fata1247 maka1316 oira1263,different family from the rest
+KA2-floreslembata,D1,2,Flores-Lembata,sika1262-hewa lama1277-lewoi keda1252,Glottolog 5.3: Flores-Lembata
+KA1-tetun,D2,1,Tetun varieties,134 403 1366,Glottolog 5.3: Tetunic
+KA1-iliuun,D2,1,Ili'uun,296 35,Glottolog 5.3: iliu1237
+KA1-luang,D2,1,Luang + Wetan,301 853,Glottolog 5.3: luan1263
+KA2-rotemeto,D2,2,Rote-Meto,42 115,Glottolog 5.3: Rote-Meto
+KA2-floreslembata,D2,2,Flores-Lembata,34 236 486,Glottolog 5.3: Flores-Lembata
+KA2-perai-aputai,D2,2,Perai-Aputai,298 299,Glottolog 5.3: Perai-Aputai

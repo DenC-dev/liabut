@@ -1,0 +1,4 @@
+data/upstream/
+__pycache__/
+*.pyc
+results/work/
