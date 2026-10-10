@@ -220,3 +220,32 @@ Written after the gate passed under Addendum 1 and before step 5 was run. As not
 - **E3, Tetun affinity by stability.** For each Timor lect, the share of concepts where it shares a cognate with Tetun (either Tetun lect), on the stable set and on the complement. Contact should raise affinity more in the complement.
 
 **A2.6 Step 8** applies the v1 decision rules to C1 and C2. Support for the Grimes and Edwards clades is reported alongside.
+
+### Addendum 3 (2026-10-10, post hoc)
+
+Written after the step 5 and 6 results and E1–E4 had been seen, and before any of the analyses below were run. Nothing here changes the step 8 decision rules.
+
+**A3.1 Interrupted Bayesian runs.** The runs c1neg and c2neg stopped at step 10 of 50 when the session restarted. They are rerun from scratch with the same settings and seeds. The partial outputs are kept in `results/bayes/partial_killed/`.
+
+**A3.2 E2b, the diagnostic words by hand.** Every Proto-Malayo-Polynesian etymon with *ŋ, or with *p not in final position, that E2 matched in Idaté, Lakalei or Welaun is printed with the forms in:
+
+- Mambae (Letefoho), Kemak (Kailaku) and Tokodede
+- Tetun Dili and Southern Tetun
+- the lect itself
+
+A form counts as *Tetun-shaped* if it is near-identical (L5 rule) to a Tetun form for the same concept. Tetun-shaped forms could be loans, so only forms that are not Tetun-shaped count as native evidence.
+
+**A3.3 E5, geography.**
+
+- *Model.* An ordinary least squares fit of D1 LexStat primary distance on the log of great-circle distance (from the LexiRumah coordinates), across all pairs of the 37 Timor Austronesian lects.
+- *What is reported.* Mean residuals for Lakalei-Idate against each group.
+- *Reading.* A tie that is no closer than proximity predicts fits contact as well as it fits descent.
+
+**A3.4 E6, maximum-likelihood cross-check.** IQ-TREE 2.3.6 on the 24-taxon matrix of A2.4 (binary, GTR2+FO+G4).
+
+- *Trees.*
+  - An unconstrained search with 1,000 ultrafast bootstraps.
+  - Constrained searches with each of these forced: Ramelaic, Central Timor with Welaun, Nuclear Central Timor plus Lakalei-Idate, Timor-Babar, and Lakalei-Idate with Eastern Timor.
+- *Test.* An AU test (10,000 RELL replicates) across all the resulting trees. A tree with p < 0.05 is rejected.
+
+**A3.5 Verdicts.** The step 8 outcomes are reported exactly as the rules give them. A separate section, labelled as the analyst's interpretation, weighs all the evidence: lexical, Bayesian, maximum-likelihood, sound change, contact and geography.
