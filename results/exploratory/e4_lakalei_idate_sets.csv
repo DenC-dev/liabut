@@ -1,0 +1,216 @@
+Cognateset_ID,Concept_ID,Stable,With_CentralTimor,With_Tetun,Outside_Central_Timor,Groups
+moon-1075,moon,False,True,False,True,Babar Bunak Dadu'a Flores-Lembata Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Tokodede Wetar
+road-1358,road,False,True,False,True,Bunak Flores-Lembata Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Wetar
+canoe-287,canoe,False,True,True,True,Bunak East Timor TAP Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Tetun Tokodede Welaun
+sand-1422,sand,True,False,False,True,Bunak East Timor TAP Flores-Lembata Helong Idate Kawaimina Lakalei Luangic-Kisaric Meto Rote
+house-805,house,True,False,False,False,Bunak Idate
+betel_vine-206,betel_vine,False,True,True,True,Bunak Dadu'a East Timor TAP Helong Idate Kawaimina Lakalei Luangic-Kisaric Mambae Meto Tetun Tokodede Welaun Wetar
+banana-162,banana,False,True,False,True,Bunak Dadu'a East Timor TAP Flores-Lembata Galoli Habu Idate Kemak Luangic-Kisaric Mambae Wetar
+meat-1061,meat,False,True,False,True,Bunak East Timor TAP Flores-Lembata Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tokodede Wetar
+man-1024,man,False,True,True,True,Babar Bunak Dadu'a Galoli Habu Idate Kemak Lakalei Luangic-Kisaric Mambae Tetun Tokodede Welaun Wetar
+woman-2399,woman,False,True,False,True,Bunak Idate Kemak Lakalei Mambae Meto Rote Tokodede Wetar
+husband-865,husband,False,True,True,True,Bunak Idate Mambae Meto Tetun
+father-511,father,False,True,True,True,Babar Bunak Dadu'a Flores-Lembata Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+who-2354,who,True,True,True,True,Bunak Flores-Lembata Habu Helong Idate Kawaimina Mambae Meto Rote Tetun Tokodede Welaun
+big-215,big,True,False,False,True,Bunak Lakalei Rote
+old_people-1246,old_people,False,True,True,False,Bunak Dadu'a East Timor TAP Habu Idate Mambae Tetun Welaun
+cold-349,cold,False,False,False,False,Bunak Idate Lakalei
+short-1451,short,False,True,True,True,Bunak Dadu'a Flores-Lembata Galoli Helong Idate Kawaimina Kemak Lakalei Mambae Meto Tetun Welaun
+to_know-1975,to_know,True,True,False,True,Bunak Habu Helong Idate Kawaimina Kemak Lakalei Mambae
+to_swim-2184,to_swim,False,True,True,True,Bunak Dadu'a Flores-Lembata Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Rote Tetun Tokodede Welaun Wetar
+to_eat-1843,to_eat,True,True,False,True,Bunak Flores-Lembata Idate Kemak Mambae
+to_come-1788,to_come,True,True,True,True,Babar Bunak Dadu'a East Timor TAP Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+seven-1447,seven,False,True,True,True,Babar Bunak Dadu'a East Timor TAP Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+eight-447,eight,False,True,True,True,Bunak Flores-Lembata Habu Helong Idate Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun
+nine-1206,nine,False,True,True,True,Babar Bunak Dadu'a East Timor TAP Flores-Lembata Galoli Habu Helong Idate Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+ten-1662,ten,False,True,True,True,Bunak Dadu'a Flores-Lembata Galoli Habu Helong Idate Kemak Lakalei Luangic-Kisaric Mambae Rote Tetun Tokodede Welaun Wetar
+one_hundred-1278,one_hundred,False,True,True,True,Bunak Dadu'a Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Tetun Tokodede Welaun Wetar
+thousand-1736,thousand,False,True,True,True,Babar Bunak Dadu'a East Timor TAP Flores-Lembata Habu Helong Idate Kawaimina Kemak Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+machete-1005,machete,False,True,True,False,Bunak Dadu'a East Timor TAP Galoli Lakalei Mambae Tetun Tokodede
+salt-1416,salt,True,True,True,True,Bunak Dadu'a East Timor TAP Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+fat-493,fat,False,True,True,False,Bunak Galoli Habu Idate Kawaimina Kemak Lakalei Tetun Tokodede Welaun
+near-1129,near,False,True,True,True,Bunak Flores-Lembata Galoli Idate Kawaimina Kemak Lakalei Mambae Tetun Welaun Wetar
+to_spit-2138,to_spit,False,False,False,True,Bunak Galoli Idate Kawaimina Rote
+to_speak-2108,to_speak,False,True,True,True,Bunak Galoli Kemak Lakalei Rote Tetun Welaun Wetar
+dry-409,dry,False,True,True,True,Flores-Lembata Habu Idate Kawaimina Kemak Rote Tetun Welaun
+sky-1503,sky,False,True,True,True,East Timor TAP Habu Helong Idate Kemak Lakalei Mambae Rote Tetun Welaun Wetar
+star-1595,star,True,True,True,True,Habu Helong Idate Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+river_stream-1343,river_stream,False,False,False,True,Idate Lakalei Rote
+mountain-1091,mountain,False,False,False,True,Helong Idate Rote
+soil-1580,soil,True,True,True,True,Dadu'a Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Rote Tetun Tokodede Welaun Wetar
+stone-1621,stone,False,True,True,True,Babar Dadu'a East Timor TAP Flores-Lembata Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+sea-1439,sea,False,True,True,True,Dadu'a East Timor TAP Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+fire-524,fire,True,True,True,True,Babar Flores-Lembata Habu Helong Idate Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+smoke-1544,smoke,True,True,False,True,Babar Idate Kawaimina Kemak Luangic-Kisaric Mambae Meto Rote Welaun Wetar
+leaf-951,leaf,True,False,False,True,Flores-Lembata Habu Idate Kawaimina Lakalei Rote Welaun Wetar
+coconut-345,coconut,False,True,True,True,Dadu'a Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+bone-283,bone,True,True,True,True,Babar Dadu'a Flores-Lembata Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+liver-970,liver,True,True,True,True,Dadu'a Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+name-1122,name,True,False,True,True,Babar Flores-Lembata Habu Helong Idate Kawaimina Lakalei Luangic-Kisaric Rote Tetun Wetar
+child-301,child,False,True,False,True,Babar Dadu'a Flores-Lembata Galoli Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tokodede Wetar
+mother-1082,mother,False,True,True,True,Dadu'a East Timor TAP Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+1sg-23,1sg,True,True,True,True,Babar Dadu'a Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+1pl_excl-3,1pl_excl,False,True,True,True,Babar Dadu'a Flores-Lembata Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+1pl_incl-11,1pl_incl,False,True,True,True,Babar Dadu'a Flores-Lembata Idate Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+what-2304,what,True,True,True,True,Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun
+this-1724,this,True,False,False,True,Flores-Lembata Helong Idate Meto Rote
+long-984,long,True,True,True,True,Dadu'a East Timor TAP Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+thin-1710,thin,False,True,True,True,Dadu'a Flores-Lembata Galoli Helong Idate Kawaimina Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+to_bathe-1751,to_bathe,False,True,False,True,Dadu'a Galoli Habu Helong Idate Kawaimina Lakalei Mambae Rote Tokodede
+to_stand-2171,to_stand,True,True,False,True,Galoli Helong Idate Rote Tokodede Wetar
+to_walk-2229,to_walk,False,False,True,True,Habu Idate Kawaimina Rote Tetun Wetar
+to_drink-1830,to_drink,True,True,False,True,Babar Dadu'a Flores-Lembata Galoli Habu Idate Kawaimina Kemak Lakalei Mambae Rote Tokodede Welaun Wetar
+to_die-1821,to_die,False,True,True,True,Babar Dadu'a Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+to_laugh-1997,to_laugh,True,True,False,True,Babar Dadu'a Galoli Habu Helong Idate Kawaimina Lakalei Luangic-Kisaric Meto Rote Tokodede Welaun Wetar
+to_vomit-2201,to_vomit,False,True,True,True,Babar Dadu'a East Timor TAP Flores-Lembata Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Rote Tetun Tokodede Welaun Wetar
+one-1273,one,True,True,False,True,Dadu'a East Timor TAP Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Rote Tokodede Welaun Wetar
+two-2286,two,False,True,True,True,Babar Dadu'a Flores-Lembata Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+three-1744,three,False,True,True,True,Babar Dadu'a Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+four-603,four,False,False,True,True,Flores-Lembata Galoli Habu Idate Lakalei Meto Rote Tetun
+six-1471,six,False,True,True,True,Babar Dadu'a Flores-Lembata Galoli Habu Helong Idate Kemak Lakalei Mambae Meto Rote Tetun Wetar
+water-2293,water,True,True,False,True,Dadu'a Idate Lakalei Tokodede Wetar
+fruit-614,fruit,False,True,True,True,Babar Flores-Lembata Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Tetun Wetar
+flower-549,flower,False,False,True,True,Dadu'a Galoli Idate Kawaimina Rote Tetun Wetar
+blood-277,blood,True,True,True,True,Babar Dadu'a Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Tetun Tokodede Welaun Wetar
+hair-713,hair,True,False,False,True,Idate Kawaimina Wetar
+tongue-2246,tongue,True,False,True,True,Babar Galoli Habu Idate Luangic-Kisaric Tetun Wetar
+2sg_informal-32,2sg_informal,True,True,True,True,Babar Dadu'a Flores-Lembata Idate Kawaimina Kemak Lakalei Mambae Rote Tetun Welaun Wetar
+above-64,above,False,False,False,True,Lakalei Wetar
+dog-397,dog,True,True,True,True,Dadu'a Flores-Lembata Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Tetun Tokodede Welaun Wetar
+bird-238,bird,True,True,True,True,Babar Dadu'a Galoli Habu Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Rote Tetun Tokodede Welaun Wetar
+small-1519,small,True,False,False,True,Dadu'a Flores-Lembata Galoli Helong Idate Luangic-Kisaric Meto Rote Wetar
+good-637,good,True,False,True,True,Habu Idate Kawaimina Lakalei Tetun Wetar
+far-478,far,True,True,False,True,Galoli Idate Lakalei Mambae Meto Tokodede Wetar
+black-249,black,True,True,True,True,Babar Dadu'a East Timor TAP Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Tetun Tokodede Welaun Wetar
+green-688,green,False,True,False,True,Dadu'a Flores-Lembata Galoli Idate Kemak Lakalei Mambae Rote Tokodede Welaun Wetar
+to_hear-1934,to_hear,True,False,False,True,Lakalei Wetar
+to_sleep-2090,to_sleep,False,True,False,True,Habu Idate Kemak Lakalei Mambae Welaun Wetar
+to_sit-2066,to_sit,False,False,False,True,Helong Idate Luangic-Kisaric Wetar
+to_give-1910,to_give,True,True,False,True,Dadu'a Flores-Lembata Galoli Idate Kemak Lakalei Mambae Tokodede Wetar
+rope-1391,rope,True,True,False,True,Babar East Timor TAP Flores-Lembata Idate Luangic-Kisaric Mambae Meto
+bamboo-144,bamboo,False,True,False,True,Babar East Timor TAP Flores-Lembata Idate Luangic-Kisaric Mambae
+husband-872,husband,False,True,True,True,East Timor TAP Flores-Lembata Kawaimina Kemak Lakalei Mambae Tetun Tokodede Welaun
+new-1177,new,True,False,False,False,East Timor TAP Idate Kawaimina Lakalei
+full-621,full,False,True,True,True,East Timor TAP Flores-Lembata Habu Helong Idate Kawaimina Luangic-Kisaric Mambae Rote Tetun Welaun
+dry-411,dry,False,False,False,False,East Timor TAP Idate
+red-1333,red,True,True,True,True,Babar Dadu'a East Timor TAP Flores-Lembata Galoli Habu Kawaimina Kemak Lakalei Luangic-Kisaric Meto Tetun Tokodede Welaun
+to_eat-1852,to_eat,True,True,False,True,East Timor TAP Lakalei Mambae Wetar
+excrement-461,excrement,False,True,False,True,Dadu'a East Timor TAP Flores-Lembata Habu Helong Idate Kawaimina Kemak Luangic-Kisaric Mambae Meto Rote Welaun
+nose-1237,nose,True,True,True,True,Babar Dadu'a Flores-Lembata Habu Helong Idate Kawaimina Kemak Luangic-Kisaric Mambae Rote Tetun Tokodede Welaun
+younger_sibling-2442,younger_sibling,False,True,True,True,Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Tetun Tokodede Welaun Wetar
+how_much_how_many-853,how_much_how_many,False,True,True,True,Babar Dadu'a Flores-Lembata Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Welaun Wetar
+louse_in_hair-997,louse_in_hair,False,True,True,True,Babar Flores-Lembata Galoli Habu Helong Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+to_wake_up-2210,to_wake_up,False,False,False,True,Dadu'a Habu Helong Idate Rote Wetar
+sun-1632,sun,False,True,True,False,Habu Idate Kemak Lakalei Mambae Tetun Welaun
+night-1192,night,True,False,False,False,Idate
+cloud-327,cloud,False,True,True,False,Idate Kawaimina Kemak Mambae Tetun Welaun
+wind-2396,wind,True,False,False,False,Idate
+rain-1329,rain,True,False,False,False,Idate
+mountain-1093,mountain,False,True,False,False,Idate Kawaimina Kemak Lakalei Mambae Tokodede
+forest-580,forest,False,False,False,True,Dadu'a Galoli Idate Wetar
+machete-1011,machete,False,False,False,False,Idate
+knife-936,knife,False,False,False,False,Idate
+ash-127,ash,True,False,False,False,Idate Lakalei
+tree-2263,tree,False,True,True,True,Idate Kemak Lakalei Mambae Rote Tetun Tokodede Welaun
+root-1381,root,True,True,True,False,Idate Kemak Lakalei Tetun Tokodede
+liver-975,liver,True,False,False,False,Idate
+stomach_belly-1607,stomach_belly,False,True,False,False,Dadu'a Idate Kemak Lakalei Mambae Welaun
+head-743,head,False,False,False,False,Idate
+hair-716,hair,True,False,False,True,Flores-Lembata Idate
+mouth-1111,mouth,True,True,True,False,Idate Kemak Lakalei Tetun Tokodede
+teeth-1655,teeth,True,True,True,True,Babar Flores-Lembata Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Tetun Tokodede
+neck-1156,neck,True,False,True,False,Galoli Habu Idate Tetun
+hand-730,hand,False,True,True,True,Babar Flores-Lembata Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Meto Rote Tetun Tokodede Welaun Wetar
+foot-563,foot,False,True,False,False,Idate Lakalei Mambae Tokodede
+knee-920,knee,True,False,True,False,Idate Tetun
+skin-1488,skin,True,True,False,True,Idate Lakalei Luangic-Kisaric Mambae Welaun
+person-1299,person,False,False,False,False,Idate Lakalei
+wife-2376,wife,False,True,False,False,Idate Mambae
+no_not-1224,no_not,False,True,True,False,Idate Mambae Tetun Welaun
+who-2359,who,True,True,False,False,Idate Lakalei Mambae
+how-826,how,False,False,True,False,Idate Lakalei Tetun
+inside-898,inside,False,True,False,False,Idate Tokodede
+here-769,here,False,True,True,False,Idate Lakalei Mambae Tetun
+there-1685,there,False,False,False,False,Idate Lakalei
+above-57,above,False,False,False,False,Idate
+below-180,below,False,False,True,False,Galoli Idate Tetun
+all-93,all,False,True,True,False,Idate Kemak Tetun Welaun
+many-1043,many,False,False,True,False,Galoli Habu Idate Kawaimina Lakalei Tetun Welaun
+tail-1644,tail,True,True,False,False,Idate Kemak Lakalei Tokodede Welaun
+snake-1563,snake,False,False,True,False,Dadu'a Idate Tetun Welaun
+snake-1570,snake,False,True,False,False,Idate Kawaimina Lakalei Mambae
+egg-439,egg,True,True,False,True,Babar Dadu'a Galoli Idate Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Rote Tokodede Welaun
+big-220,big,True,True,False,True,Idate Mambae Rote
+small-1524,small,True,False,False,False,Idate Lakalei
+rotten-1406,rotten,False,False,False,False,Habu Idate Kawaimina Lakalei
+yellow-2423,yellow,False,False,False,False,Habu Idate Kawaimina
+to_hear-1937,to_hear,True,False,False,False,Idate
+to_speak-2110,to_speak,False,False,False,True,Babar Dadu'a Habu Idate
+to_sleep-2093,to_sleep,False,False,False,True,East Timor TAP Flores-Lembata Idate
+to_swim-2190,to_swim,False,False,False,False,Idate
+to_fly-1894,to_fly,False,False,False,False,Idate
+to_fall_from_above-1870,to_fall_from_above,True,False,False,False,Idate
+to_fall_from_above-1871,to_fall_from_above,True,True,True,True,Flores-Lembata Idate Kawaimina Kemak Lakalei Mambae Meto Rote Tetun Welaun Wetar
+to_cry-1808,to_cry,True,True,False,False,Idate Kemak Lakalei Mambae Tokodede Welaun
+to_vomit-2203,to_vomit,False,False,False,False,Idate
+to_bite-1776,to_bite,True,True,False,False,Habu Idate Lakalei Mambae
+to_kill-1956,to_kill,False,False,False,True,Idate Lakalei Meto
+twenty-2277,twenty,False,True,True,True,Galoli Habu Idate Lakalei Mambae Rote Tetun Welaun
+water-2292,water,True,False,False,True,Babar Flores-Lembata Galoli Habu Idate Kawaimina Welaun
+eye-471,eye,True,True,False,True,Babar East Timor TAP Flores-Lembata Kawaimina Lakalei Luangic-Kisaric Tokodede
+ear-431,ear,True,False,True,True,Flores-Lembata Lakalei Luangic-Kisaric Tetun
+neck-1157,neck,True,True,False,True,Flores-Lembata Lakalei Mambae Tokodede Wetar
+yellow-2425,yellow,False,True,False,True,Flores-Lembata Kemak Lakalei Mambae
+forest-587,forest,False,True,True,False,Kawaimina Kemak Lakalei Mambae Tetun Tokodede
+fruit-612,fruit,False,True,False,False,Dadu'a Idate Kawaimina Kemak Mambae Tokodede Welaun
+ear-432,ear,True,True,False,True,Babar Idate Kemak Mambae Tokodede Welaun
+tongue-2250,tongue,True,True,False,False,Kemak Lakalei Mambae Tokodede
+knee-918,knee,True,True,False,True,Galoli Kemak Lakalei Luangic-Kisaric Mambae Tokodede Welaun Wetar
+wife-2380,wife,False,True,False,False,East Timor TAP Kemak Lakalei Tokodede
+no_not-1218,no_not,False,True,False,True,Babar Dadu'a Flores-Lembata Galoli Kawaimina Kemak Lakalei Luangic-Kisaric Mambae Rote Tokodede Welaun
+inside-897,inside,False,True,True,False,Habu Idate Kawaimina Kemak Lakalei Tetun
+to_walk-2227,to_walk,False,True,False,False,Dadu'a Galoli Idate Kemak
+to_fly-1889,to_fly,False,True,False,True,Dadu'a East Timor TAP Idate Kemak Lakalei Luangic-Kisaric Mambae
+to_spit-2149,to_spit,False,True,False,False,Kemak Lakalei Tokodede
+flower-551,flower,False,True,False,False,Habu Kemak Lakalei Mambae Tokodede Welaun
+blind-258,blind,False,True,True,True,Babar Dadu'a Habu Idate Kawaimina Kemak Mambae Tetun Welaun
+knee-921,knee,True,False,False,True,Idate Meto
+night-1197,night,True,False,True,True,East Timor TAP Flores-Lembata Kawaimina Lakalei Luangic-Kisaric Tetun
+cloud-318,cloud,False,True,False,False,Dadu'a Lakalei Mambae Tokodede
+wind-2397,wind,True,False,False,False,East Timor TAP Lakalei
+road-1363,road,False,False,False,False,Lakalei
+machete-1016,machete,False,False,False,False,Lakalei
+knife-939,knife,False,True,False,False,Lakalei Mambae
+smoke-1550,smoke,True,False,False,False,Lakalei
+house-811,house,True,False,False,True,Flores-Lembata Lakalei
+head-735,head,False,True,True,True,Dadu'a Habu Kawaimina Lakalei Luangic-Kisaric Mambae Tetun Welaun
+hair-710,hair,True,True,False,False,Dadu'a Habu Kawaimina Lakalei Mambae Welaun
+this-1730,this,True,False,False,False,Lakalei
+below-185,below,False,False,False,False,Lakalei
+all-92,all,False,False,False,False,Habu Idate Lakalei
+snake-1572,snake,False,False,False,False,Lakalei
+old_people-1258,old_people,False,False,True,False,Lakalei Tetun
+old_people-1260,old_people,False,True,False,False,Kawaimina Lakalei Mambae
+dry-416,dry,False,True,False,False,Lakalei Mambae
+to_sit-2061,to_sit,False,False,True,True,Dadu'a Lakalei Tetun Welaun Wetar
+to_stand-2176,to_stand,True,True,True,True,Lakalei Mambae Meto Tetun
+to_walk-2237,to_walk,False,False,False,False,Lakalei
+grandfather-660,grandfather,False,True,False,True,Babar East Timor TAP Flores-Lembata Galoli Habu Idate Kawaimina Luangic-Kisaric Mambae
+leaf-949,leaf,True,True,False,True,Dadu'a Galoli Idate Rote Tokodede Welaun
+deaf-377,deaf,False,True,True,False,Dadu'a Galoli Habu Idate Kawaimina Mambae Tetun
+to_spit-2163,to_spit,False,False,True,False,Habu Idate Tetun
+to_spit-2146,to_spit,False,False,True,False,Idate Tetun
+big-221,big,True,False,False,False,Idate Kawaimina
+to_sit-2070,to_sit,False,False,False,False,Idate Kawaimina
+to_stand-2170,to_stand,True,False,False,False,Dadu'a Habu Idate
+husband-874,husband,False,False,False,True,Habu Idate Wetar
+this-1729,this,True,False,False,True,Idate Luangic-Kisaric
+ash-126,ash,True,False,False,False,Habu Idate
+tree-2264,tree,False,False,False,False,Idate
+wife-2377,wife,False,False,False,False,Idate
+2sg_informal-37,2sg_informal,True,False,False,False,Idate
+2sg_informal-45,2sg_informal,True,False,False,False,Idate
+what-2307,what,True,False,False,False,Idate
+where-2326,where,False,False,False,False,Idate
+how-827,how,False,False,False,False,Idate
+to_see-2020,to_see,True,False,False,False,Idate

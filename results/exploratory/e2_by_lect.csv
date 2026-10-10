@@ -1,0 +1,61 @@
+Lect_ID,Name,Group,p_N,p_kept,p_lost,p_other,ng_N,ng_velar,ng_nasal,ng_lost,ng_other
+cent2072,Central Masela,Babar,1,0.0,1.0,0.0,1,0.0,1.0,0.0,0.0
+dadu1237,Dadu'a,Dadu'a,1,1.0,0.0,0.0,7,0.0,0.86,0.14,0.0
+daii1240,Dai,Babar,2,0.0,0.5,0.5,3,0.0,1.0,0.0,0.0
+dawe1237,Dawera-Daweloor,Babar,1,0.0,1.0,0.0,0,,,,
+dela1252,Dela,Rote,3,0.0,0.67,0.33,5,0.0,1.0,0.0,0.0
+empl1237,Emplawas,Babar,0,,,,1,0.0,1.0,0.0,0.0
+eray1237,Ili'uun,Wetar,2,0.5,0.0,0.5,4,0.0,1.0,0.0,0.0
+funa1237,Funai Helong,Helong,3,0.0,1.0,0.0,7,0.0,0.86,0.14,0.0
+galo1243,Galolen,Galoli,2,0.5,0.5,0.0,5,0.0,0.8,0.2,0.0
+habu1241,Habun,Habu,2,0.5,0.5,0.0,7,0.0,1.0,0.0,0.0
+idat1237,Idate,Idate,3,0.33,0.67,0.0,6,0.0,1.0,0.0,0.0
+idat1237-cribas,Idate,Idate,2,0.5,0.5,0.0,5,0.0,0.8,0.0,0.2
+ilma1240,"Ili'uun, Ilmaumau",Wetar,2,0.5,0.0,0.5,4,0.0,1.0,0.0,0.0
+ilpu1239,Aputai,Wetar,2,0.5,0.0,0.5,4,0.0,1.0,0.0,0.0
+imro1237,Imroing,Babar,0,,,,1,0.0,1.0,0.0,0.0
+kaha1239,Tugun,Wetar,2,0.5,0.0,0.5,4,0.0,1.0,0.0,0.0
+keda1252,Kedang,Flores-Lembata,3,1.0,0.0,0.0,4,0.0,1.0,0.0,0.0
+kema1243,Kemak,Kemak,6,1.0,0.0,0.0,2,0.5,0.5,0.0,0.0
+kema1243-diir,"Kemak, Diirbati",Kemak,4,1.0,0.0,0.0,1,0.0,0.0,0.0,1.0
+kema1243-kaila,"Kemak, Kailaku",Kemak,3,1.0,0.0,0.0,2,0.0,0.5,0.0,0.5
+kema1243-kutu,"Kemak, Kutubaba",Kemak,5,1.0,0.0,0.0,3,0.33,0.67,0.0,0.0
+kema1243-lemi,"Kemak, Lemia",Kemak,3,1.0,0.0,0.0,2,0.5,0.0,0.0,0.5
+kema1243-leol,"Kemak, Leolima",Kemak,4,1.0,0.0,0.0,1,0.0,1.0,0.0,0.0
+kema1243-leos,"Kemak, Leosibe",Kemak,5,0.8,0.0,0.2,1,1.0,0.0,0.0,0.0
+kema1243-sane,"Kemak, Saneri",Kemak,4,0.75,0.0,0.25,2,0.0,0.5,0.0,0.5
+kisa1266,Kisar,Luangic-Kisaric,1,0.0,1.0,0.0,6,0.0,1.0,0.0,0.0
+koto1251,Kotos Amarasi,Meto,2,0.0,1.0,0.0,3,0.0,1.0,0.0,0.0
+kusa1252,Kusa-Manea,Meto,3,0.0,0.67,0.33,3,0.0,1.0,0.0,0.0
+laka1255,Lakalei,Lakalei,4,0.25,0.75,0.0,3,0.0,1.0,0.0,0.0
+lama1277-lewoi,"Ile Mandiri Lamaholot, Lewoingu",Flores-Lembata,5,1.0,0.0,0.0,8,0.0,1.0,0.0,0.0
+lole1239,Lole,Rote,2,0.0,0.5,0.5,6,0.33,0.5,0.17,0.0
+luan1264,Luang,Luangic-Kisaric,1,0.0,1.0,0.0,2,0.0,1.0,0.0,0.0
+mamb1306,"Southern Mambae, Ainaro",Mambae,3,1.0,0.0,0.0,1,0.0,1.0,0.0,0.0
+mamb1306-Caile,"Central Mambae, Aileu Vila",Mambae,4,1.0,0.0,0.0,2,0.0,1.0,0.0,0.0
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",Mambae,3,1.0,0.0,0.0,2,0.0,1.0,0.0,0.0
+mamb1306-Claul,"Central Mambae, Laulara",Mambae,4,0.75,0.25,0.0,2,0.0,1.0,0.0,0.0
+mamb1306-Cliqu,"Central Mambae, Liquidoe",Mambae,3,1.0,0.0,0.0,2,0.0,1.0,0.0,0.0
+mamb1306-NWbar,"Northwest Mambae, Barzatete",Mambae,5,1.0,0.0,0.0,2,0.5,0.0,0.5,0.0
+mamb1306-NWhat,"Northwest Mambae, Hatulia",Mambae,4,1.0,0.0,0.0,3,0.0,1.0,0.0,0.0
+mamb1306-NWrai,"Northwest Mambae, Railaco",Mambae,4,1.0,0.0,0.0,3,0.33,0.67,0.0,0.0
+mamb1306-Sbeta,"South Mambae, Betano",Mambae,2,1.0,0.0,0.0,2,0.5,0.0,0.5,0.0
+mamb1306-Slete,"South Mambae, Letefoho",Mambae,2,1.0,0.0,0.0,2,0.5,0.0,0.5,0.0
+mamb1306-Sudo,"South Mambae, Hatu-Udo",Mambae,3,1.0,0.0,0.0,2,0.5,0.0,0.5,0.0
+midi1237,Midiki,Kawaimina,1,1.0,0.0,0.0,4,0.0,1.0,0.0,0.0
+naue1237,Naueti,Kawaimina,0,,,,2,0.0,0.5,0.5,0.0
+ring1244,Rikou,Rote,0,,,,5,0.0,0.8,0.2,0.0
+rois1241,Ro'is Amarasi,Meto,1,0.0,1.0,0.0,3,0.0,1.0,0.0,0.0
+roma1332,Roma,Luangic-Kisaric,3,0.0,1.0,0.0,7,0.0,0.86,0.14,0.0
+sika1262-hewa,"Sika, Hewa",Flores-Lembata,2,1.0,0.0,0.0,6,0.0,0.83,0.17,0.0
+tela1241,Tela-Masbuar,Babar,2,0.5,0.5,0.0,0,,,,
+term1237,Termanu,Rote,1,0.0,1.0,0.0,3,0.0,0.67,0.33,0.0
+tetu1245-suai,"Tetun, Suai",Tetun,4,0.0,1.0,0.0,7,0.0,0.86,0.14,0.0
+tetu1246,Tetun Dili,Tetun,3,0.0,1.0,0.0,9,0.0,0.89,0.11,0.0
+tiii1241,Tii,Rote,2,0.0,0.5,0.5,5,0.2,0.6,0.2,0.0
+tuku1254,Tokodede,Tokodede,4,1.0,0.0,0.0,0,,,,
+uhak1237,Perai,Wetar,2,0.5,0.0,0.5,4,0.0,1.0,0.0,0.0
+waim1252,Waima'a,Kawaimina,0,,,,2,0.0,1.0,0.0,0.0
+west2547-mahein,"Welaun, Mahein",Welaun,1,0.0,1.0,0.0,3,0.0,1.0,0.0,0.0
+west2547-welaun,Welaun,Welaun,3,0.0,0.67,0.33,2,0.0,0.5,0.5,0.0
+weta1243,Wetan,Luangic-Kisaric,1,0.0,1.0,0.0,4,0.0,1.0,0.0,0.0

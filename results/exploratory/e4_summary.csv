@@ -1,0 +1,5 @@
+Concepts,Shared_With,Not_With,Sets,Also_Outside_Central_Timor,Exclusive
+stable,CentralTimor,Tetun,26,20,6
+stable,Tetun,CentralTimor,7,5,2
+other,CentralTimor,Tetun,30,15,15
+other,Tetun,CentralTimor,11,4,7

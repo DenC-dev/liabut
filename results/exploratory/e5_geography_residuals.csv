@@ -1,0 +1,24 @@
+Pair,Pairs,Mean_km,Mean_distance,Mean_std_residual
+Lakalei-Idate → Dadu'a,3,36.3,0.574,1.05
+Lakalei-Idate → Galoli,3,23.9,0.53,1.37
+Lakalei-Idate → Habu,3,16.3,0.493,1.55
+Lakalei-Idate → Helong,3,289.3,0.703,-0.32
+Lakalei-Idate → Kawaimina,9,61.9,0.642,1.11
+Lakalei-Idate → Kemak,24,100.4,0.509,-0.75
+Lakalei-Idate → Mambae,33,44.7,0.526,0.4
+Lakalei-Idate → Meto,9,229.7,0.695,-0.06
+Lakalei-Idate → Tetun,6,70.0,0.488,-0.48
+Lakalei-Idate → Tokodede,3,79.8,0.574,0.06
+Welaun,6,99.9,0.518,-0.68
+Welaun → Dadu'a,2,116.3,0.562,-0.49
+Welaun → Galoli,2,115.0,0.615,-0.01
+Welaun → Habu,2,109.3,0.526,-0.73
+Welaun → Helong,2,195.7,0.73,0.37
+Welaun → Idate,4,110.0,0.528,-0.71
+Welaun → Kawaimina,6,159.9,0.634,-0.21
+Welaun → Kemak,16,14.9,0.483,1.34
+Welaun → Lakalei,2,79.9,0.498,-0.61
+Welaun → Mambae,22,67.4,0.571,0.24
+Welaun → Meto,6,139.1,0.71,0.78
+Welaun → Tetun,4,59.6,0.46,-0.51
+Welaun → Tokodede,2,54.7,0.621,0.9

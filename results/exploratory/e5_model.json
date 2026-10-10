@@ -1,0 +1,6 @@
+{
+ "intercept": -0.0173,
+ "slope_per_log_km": 0.1336,
+ "r": 0.713,
+ "pairs": 666
+}

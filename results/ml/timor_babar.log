@@ -1,0 +1,119 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    vm (AVX512, FMA3, 7 GB RAM)
+Command: /home/claude/tools/iqtree-2.3.6-Linux-intel/bin/iqtree2 -s matrix.phy -st BIN -m GTR2+FO+G4 -T 1 -seed 1234 -redo -quiet -g timor_babar.constr -pre timor_babar
+Seed:    1234 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Oct 10 21:12:05 2026
+Kernel:  AVX+FMA - 1 threads (2 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 2 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file matrix.phy ... Phylip format detected
+Alignment most likely contains binary sequences
+Alignment has 24 sequences with 1353 columns, 934 distinct patterns
+516 parsimony-informative, 834 singleton sites, 3 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.7865e-05 secs using 98.73% CPU
+   1  mamb1306_Slete     5.62%    passed     86.01%
+   2  kema1243_kaila     2.22%    passed     58.56%
+   3  tuku1254          11.60%    passed     97.32%
+   4  west2547_welaun    2.88%    passed     71.06%
+   5  idat1237_cribas    6.95%    passed     60.16%
+   6  laka1255          12.49%    passed     83.91%
+   7  tetu1245_suai     16.33%    passed     56.42%
+   8  habu1241           6.50%    passed     35.07%
+   9  waim1252           1.55%    failed      0.40%
+  10  midi1237           4.43%    passed     49.41%
+  11  naue1237          11.16%    passed     80.94%
+  12  galo1243          24.83%    passed     93.13%
+  13  dadu1237          10.64%    passed     77.82%
+  14  funa1237           5.40%    passed     83.65%
+  15  koto1251           1.63%    passed     68.58%
+  16  term1237           7.61%    passed     28.45%
+  17  dela1252           9.39%    passed     92.15%
+  18  ilma1240          10.94%    passed     49.00%
+  19  kaha1239          12.34%    passed     49.81%
+  20  kisa1266           6.21%    passed     85.46%
+  21  luan1264           5.76%    passed     67.55%
+  22  tela1241           5.40%    passed     76.90%
+  23  lama1277_lewoi     4.51%    passed     87.88%
+  24  sika1262_hewa      4.14%    failed      2.07%
+****  TOTAL              7.94%  2 sequences failed composition chi2 test (p-value<5%; df=1)
+Reading constraint tree timor_babar.constr...
+Creating fast initial parsimony tree by random order stepwise addition...
+0.004 seconds, parsimony score: 2190 (based on 1350 sites)
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9086.516
+2. Current log-likelihood: -8633.936
+3. Current log-likelihood: -8608.595
+4. Current log-likelihood: -8597.333
+5. Current log-likelihood: -8591.200
+6. Current log-likelihood: -8588.634
+7. Current log-likelihood: -8587.769
+8. Current log-likelihood: -8587.519
+Optimal log-likelihood: -8587.446
+State frequencies:  0: 0.884  1: 0.116
+Gamma shape alpha: 3.737
+Parameters optimization took 8 rounds (0.184 sec)
+Wrote distance file to... 
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.175 second
+Computing log-likelihood of 99 initial trees ... 0.596 seconds
+Current best score: -8587.446
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8572.192
+Iteration 10 / LogL: -8572.542 / Time: 0h:0m:2s
+Iteration 20 / LogL: -8572.280 / Time: 0h:0m:3s
+Finish initializing candidate tree set (3)
+Current best tree score: -8572.192 / CPU time: 3.010
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -8572.124
+Iteration 30 / LogL: -8578.335 / Time: 0h:0m:4s (0h:0m:10s left)
+Iteration 40 / LogL: -8572.138 / Time: 0h:0m:5s (0h:0m:8s left)
+Iteration 50 / LogL: -8572.130 / Time: 0h:0m:6s (0h:0m:6s left)
+UPDATE BEST LOG-LIKELIHOOD: -8572.118
+Iteration 60 / LogL: -8572.261 / Time: 0h:0m:7s (0h:0m:5s left)
+Iteration 70 / LogL: -8573.779 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 80 / LogL: -8573.045 / Time: 0h:0m:9s (0h:0m:2s left)
+Iteration 90 / LogL: -8572.140 / Time: 0h:0m:10s (0h:0m:1s left)
+Iteration 100 / LogL: -8573.169 / Time: 0h:0m:11s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:11s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8572.118
+Optimal log-likelihood: -8572.114
+State frequencies:  0: 0.884  1: 0.116
+Gamma shape alpha: 3.808
+Parameters optimization took 1 rounds (0.016 sec)
+BEST SCORE FOUND : -8572.114
+Total tree length: 4.010
+
+Total number of iterations: 102
+CPU time used for tree search: 11.033 sec (0h:0m:11s)
+Wall-clock time used for tree search: 11.448 sec (0h:0m:11s)
+Total CPU time used: 11.218 sec (0h:0m:11s)
+Total wall-clock time used: 11.660 sec (0h:0m:11s)
+
+Analysis results written to: 
+  IQ-TREE report:                timor_babar.iqtree
+  Maximum-likelihood tree:       timor_babar.treefile
+  Screen log file:               timor_babar.log
+
+Date and Time: Sat Oct 10 21:12:17 2026

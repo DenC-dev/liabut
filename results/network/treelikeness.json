@@ -1,0 +1,18 @@
+{
+ "timor_an_37": {
+  "lects": 37,
+  "mean_delta": 0.2404,
+  "mean_q_residual": 0.00719
+ },
+ "austronesian_64": {
+  "lects": 64,
+  "mean_delta": 0.2433,
+  "mean_q_residual": 0.00372
+ },
+ "bayes_taxa_24": {
+  "lects": 24,
+  "mean_delta": 0.334,
+  "mean_q_residual": 0.00479
+ },
+ "neighbornet_fit_percent": 99.88
+}

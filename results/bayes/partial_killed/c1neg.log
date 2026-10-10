@@ -1,0 +1,265 @@
+
+
+                            MrBayes 3.2.7a x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "c1neg.nex"
+   UNIX line termination
+   Longest line length = 132
+   Parsing file
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting seed to 1234
+      Setting swapseed to 1235
+
+      Executing file "matrix.nex"...
+
+   UNIX line termination
+   Longest line length = 1383
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 24 taxa and 1353 characters
+      Data is Restriction
+      Missing data coded as ?
+      Gaps coded as -
+      Taxon  1 -> mamb1306_Slete
+      Taxon  2 -> kema1243_kaila
+      Taxon  3 -> tuku1254
+      Taxon  4 -> west2547_welaun
+      Taxon  5 -> idat1237_cribas
+      Taxon  6 -> laka1255
+      Taxon  7 -> tetu1245_suai
+      Taxon  8 -> habu1241
+      Taxon  9 -> waim1252
+      Taxon 10 -> midi1237
+      Taxon 11 -> naue1237
+      Taxon 12 -> galo1243
+      Taxon 13 -> dadu1237
+      Taxon 14 -> funa1237
+      Taxon 15 -> koto1251
+      Taxon 16 -> term1237
+      Taxon 17 -> dela1252
+      Taxon 18 -> ilma1240
+      Taxon 19 -> kaha1239
+      Taxon 20 -> kisa1266
+      Taxon 21 -> luan1264
+      Taxon 22 -> tela1241
+      Taxon 23 -> lama1277_lewoi
+      Taxon 24 -> sika1262_hewa
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1234
+      Setting output file names to "matrix.nex.run<i>.<p|t>"
+   Exiting data block
+   Reached end of file
+
+   Returning execution to calling file ...
+
+      Setting outgroup to taxon "lama1277_lewoi"
+      Enabling Coding Noabsencesites
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting Brlenspr to Unconstrained:Exponential(10.00)
+      Successfully set prior model parameters
+      Defining constraint called 'con'
+      Setting Topologypr to Constraints
+      Successfully set prior model parameters
+      Setting number of generations to 5000000
+      Setting number of steps in stepping-stone sampling to 50
+      Setting alpha in stepping-stone sampling to 0.400000
+      Setting sample frequency to 500
+      Setting burnin for stepping-stone sampling to -1
+      Setting diagnosing frequency to 50000
+      Setting number of runs to 2
+      WARNING: Allocation of zero size attempted. This is probably a bug; problems may follow.
+      Setting number of chains to 1
+      Setting print frequency to 200000
+      Setting chain output file names to "c1neg.run<i>.<p/t>"
+      Running Markov chain
+      MCMC stamp = 1906198020
+      Seed = 1011736906
+      Swapseed = 1235
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = Restriction
+            Coding    = Noabsencesites
+            # States  = 2
+                        State frequencies have a Dirichlet (1.00,1.00) prior
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Shape               2
+         Ratemultiplier      3
+         Topology            4
+         Brlens              5
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         2 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         3 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         4 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = Prior on topology obeys the following constraints:
+                            -- Negative constraint "con"
+               Subparam.  = V
+
+         5 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:Exponential(10.0)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.96 %   Dirichlet(Pi)
+            0.96 %   Slider(Pi)
+            1.92 %   Multiplier(Alpha)
+            9.62 %   ExtSPR(Tau,V)
+            9.62 %   ExtTBR(Tau,V)
+            9.62 %   NNI(Tau,V)
+            9.62 %   ParsSPR(Tau,V)
+           38.46 %   Multiplier(V)
+           13.46 %   Nodeslider(V)
+            5.77 %   TLMultiplier(V)
+
+      Division 1 has 935 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -11349.372388 -- 32.019477
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -11440.285438 -- 32.019477
+
+
+      Starting stepping-stone sampling to estimate marginal likelihood.         
+      50 steps will be used with 98000 generations (196 samples) within each step.  
+      Total of 4998000 generations (9996 samples) will be collected while first        
+      98000 generations (196 samples) will be discarded as initial burnin.          
+      Additionally at the beginning of each step 24500 generations (49 samples)     
+      will be discarded as burnin.  
+      Sampling from posterior to prior, i.e. first step samples from close to 
+      posterior.                                                              
+      NOTE: Number of generation of each step is reduced to the closest multi-
+      ple of sampling frequency. That is why, in total it will be taken 4998000    
+      generations instead of requested 5000000.                                    
+
+
+      Chain results (4998000 generations requested):
+
+          0 -- -11349.372 * -11440.285 
+
+      Sampling step 1 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.031104
+
+
+      Average standard deviation of split frequencies: 0.021165
+
+      Sampling step 2 out of 50 steps...
+
+      200000 -- -7953.395 * -7962.607 -- 0:31:11
+
+      Average standard deviation of split frequencies: 0.025059
+
+
+      Average standard deviation of split frequencies: 0.021569
+
+      Sampling step 3 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.028241
+
+
+      Average standard deviation of split frequencies: 0.021724
+
+      Sampling step 4 out of 50 steps...
+
+      400000 -- -7956.866 * -7958.249 -- 0:29:41
+
+      Average standard deviation of split frequencies: 0.037870
+
+
+      Average standard deviation of split frequencies: 0.023388
+
+      Sampling step 5 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.026765
+
+
+      Average standard deviation of split frequencies: 0.021195
+
+      Sampling step 6 out of 50 steps...
+
+      600000 -- -7958.348 * -7963.073 -- 0:28:20
+
+      Average standard deviation of split frequencies: 0.038016
+
+
+      Average standard deviation of split frequencies: 0.026238
+
+      Sampling step 7 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.031734
+
+
+      Average standard deviation of split frequencies: 0.026675
+
+      Sampling step 8 out of 50 steps...
+
+      800000 -- -7992.543 * -7975.724 -- 0:26:56
+
+      Average standard deviation of split frequencies: 0.033827
+
+
+      Average standard deviation of split frequencies: 0.020340
+
+      Sampling step 9 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.035297
+
+
+      Average standard deviation of split frequencies: 0.032710
+
+      Sampling step 10 out of 50 steps...
+
+      1000000 -- -7971.257 * -7989.595 -- 0:25:39

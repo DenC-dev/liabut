@@ -1,0 +1,10 @@
+begin mrbayes;
+  set autoclose=yes nowarn=yes seed=1234 swapseed=1235;
+  execute matrix.nex;
+  outgroup lama1277_lewoi;
+  lset coding=noabsencesites rates=gamma;
+  prset brlenspr=unconstrained:exp(10.0);
+  constraint con = idat1237_cribas laka1255 tetu1245_suai habu1241 waim1252 midi1237 naue1237 galo1243 dadu1237 funa1237 koto1251 term1237 dela1252 ilma1240 kaha1239 kisa1266 luan1264 tela1241;
+  prset topologypr=constraints(con);
+  ss ngen=5000000 nsteps=50 alpha=0.4 samplefreq=500 burninss=-1 diagnfreq=50000 nruns=2 nchains=1 printfreq=200000 filename=tbpos;
+end;

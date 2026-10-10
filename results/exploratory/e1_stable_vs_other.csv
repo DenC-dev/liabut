@@ -1,0 +1,121 @@
+Concept_Set,Variant,Concepts,Hypothesis,Name,Contrast,Members_Present,Lects_In_Tree,Testable,UPGMA,NJ,UPGMA_Bootstrap,NJ_Bootstrap
+stable_LJ,primary,60,HULL-R,Ramelaic (Timoric B),C1,23,51,True,True,True,0.437,0.483
+stable_LJ,primary,60,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),C1,19,51,True,False,False,0.0,0.0
+stable_LJ,primary,60,HULL98-W,Welaun inside Tetun,C2,4,70,True,False,False,0.023,0.037
+stable_LJ,primary,60,EDW-CT,Central Timor,C1 C2,22,70,True,True,True,0.343,0.39
+stable_LJ,primary,60,EDW-TB,Timor-Babar,C1,39,70,True,False,False,0.0,0.0
+stable_LJ,primary,60,EDW-LI,Lakalei-Idate,C1,3,70,True,True,True,0.916,0.933
+stable_LJ,primary,60,EDW-ET,Eastern Timor,,6,70,True,False,True,0.084,0.081
+stable_LJ,primary,60,EDW-CTA,Central Timoric A,,3,70,True,False,False,0.254,0.265
+stable_LJ,primary,60,EDW-KW,Kawaimina,,3,70,True,True,True,0.948,0.973
+stable_LJ,primary,60,EDW-WA,Wetar-Atauro,,7,70,True,False,True,0.507,0.758
+stable_LJ,primary,60,EDW-SWM,Southwest Maluku,,14,70,True,False,False,0.01,0.096
+stable_LJ,primary,60,GE-TB,Timor-Babar,C1,39,70,True,False,False,0.0,0.0
+stable_LJ,primary,60,GE-CT,Central Timor,C1 C2,22,70,True,True,True,0.343,0.39
+stable_LJ,primary,60,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)",C2,20,70,True,True,False,0.326,0.413
+stable_LJ,primary,60,GE-ET,Eastern Timor (tentative),,6,70,True,False,True,0.084,0.081
+stable_LJ,primary,60,GE-ETLI,Eastern Timor + Lakalei-Idate,C1,9,70,True,False,False,0.024,0.022
+stable_LJ,primary,60,GE-LI,Lakalei-Idate,C1,3,70,True,True,True,0.916,0.933
+stable_LJ,primary,60,GE-MW,Midiki-Waima'a,,3,70,True,True,True,0.948,0.973
+stable_LJ,primary,60,GE-WN,Waima'a-Naueti,,2,70,True,True,True,0.687,0.589
+stable_LJ,primary,60,GE-WA,Wetar-Atauro,,7,70,True,False,True,0.507,0.758
+stable_LJ,primary,60,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)",,5,70,True,True,True,0.988,1.0
+stable_LJ,primary,60,GE-NR,Nuclear Rote,,4,70,True,True,True,0.501,0.593
+stable_LJ,primary,60,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),,4,70,True,False,False,0.0,0.003
+stable_LJ,primary,60,GE-SWM,Southwest Maluku,,14,70,True,False,False,0.01,0.096
+stable_LJ,primary,60,GE-KL,Kisar-Luang,,4,70,True,True,True,0.874,0.915
+stable_LJ,primary,60,GE-KR,Kisar-Roma,,2,70,True,True,True,0.916,0.758
+stable_LJ,primary,60,GE-BAB,Babar,,10,70,True,True,True,0.978,0.997
+stable_LJ,primary,60,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)",,3,70,True,False,False,0.317,0.433
+stable_LJ,primary,60,GE-SBAB,South Babar,,7,70,True,True,True,0.977,0.976
+stable_LJ,primary,60,GE-SWBAB,Southwest Babar,,3,70,True,False,False,0.01,0.017
+stable_LJ,tetun,60,HULL-R,Ramelaic (Timoric B),C1,23,51,True,True,True,0.435,0.425
+stable_LJ,tetun,60,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),C1,19,51,True,False,False,0.0,0.0
+stable_LJ,tetun,60,HULL98-W,Welaun inside Tetun,C2,4,70,True,False,False,0.032,0.029
+stable_LJ,tetun,60,EDW-CT,Central Timor,C1 C2,22,70,True,True,False,0.281,0.246
+stable_LJ,tetun,60,EDW-TB,Timor-Babar,C1,39,70,True,False,False,0.0,0.0
+stable_LJ,tetun,60,EDW-LI,Lakalei-Idate,C1,3,70,True,True,True,0.957,0.97
+stable_LJ,tetun,60,EDW-ET,Eastern Timor,,6,70,True,False,False,0.024,0.019
+stable_LJ,tetun,60,EDW-CTA,Central Timoric A,,3,70,True,False,False,0.058,0.057
+stable_LJ,tetun,60,EDW-KW,Kawaimina,,3,70,True,True,True,0.974,0.957
+stable_LJ,tetun,60,EDW-WA,Wetar-Atauro,,7,70,True,True,True,0.685,0.705
+stable_LJ,tetun,60,EDW-SWM,Southwest Maluku,,14,70,True,False,False,0.027,0.172
+stable_LJ,tetun,60,GE-TB,Timor-Babar,C1,39,70,True,False,False,0.0,0.0
+stable_LJ,tetun,60,GE-CT,Central Timor,C1 C2,22,70,True,True,False,0.281,0.246
+stable_LJ,tetun,60,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)",C2,20,70,True,True,True,0.272,0.378
+stable_LJ,tetun,60,GE-ET,Eastern Timor (tentative),,6,70,True,False,False,0.024,0.019
+stable_LJ,tetun,60,GE-ETLI,Eastern Timor + Lakalei-Idate,C1,9,70,True,False,False,0.003,0.005
+stable_LJ,tetun,60,GE-LI,Lakalei-Idate,C1,3,70,True,True,True,0.957,0.97
+stable_LJ,tetun,60,GE-MW,Midiki-Waima'a,,3,70,True,True,True,0.974,0.957
+stable_LJ,tetun,60,GE-WN,Waima'a-Naueti,,2,70,True,True,True,0.758,0.586
+stable_LJ,tetun,60,GE-WA,Wetar-Atauro,,7,70,True,True,True,0.685,0.705
+stable_LJ,tetun,60,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)",,5,70,True,True,True,0.987,0.996
+stable_LJ,tetun,60,GE-NR,Nuclear Rote,,4,70,True,True,True,0.501,0.599
+stable_LJ,tetun,60,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),,4,70,True,False,False,0.001,0.005
+stable_LJ,tetun,60,GE-SWM,Southwest Maluku,,14,70,True,False,False,0.027,0.172
+stable_LJ,tetun,60,GE-KL,Kisar-Luang,,4,70,True,True,True,0.792,0.93
+stable_LJ,tetun,60,GE-KR,Kisar-Roma,,2,70,True,True,True,0.925,0.816
+stable_LJ,tetun,60,GE-BAB,Babar,,10,70,True,True,True,0.969,0.999
+stable_LJ,tetun,60,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)",,3,70,True,False,False,0.317,0.49
+stable_LJ,tetun,60,GE-SBAB,South Babar,,7,70,True,True,True,0.977,0.964
+stable_LJ,tetun,60,GE-SWBAB,Southwest Babar,,3,70,True,False,False,0.01,0.013
+other,primary,92,HULL-R,Ramelaic (Timoric B),C1,23,51,True,False,False,0.097,0.207
+other,primary,92,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),C1,19,51,True,False,False,0.0,0.003
+other,primary,92,HULL98-W,Welaun inside Tetun,C2,4,70,True,True,True,0.74,0.806
+other,primary,92,EDW-CT,Central Timor,C1 C2,22,70,True,False,False,0.021,0.031
+other,primary,92,EDW-TB,Timor-Babar,C1,39,70,True,False,False,0.0,0.0
+other,primary,92,EDW-LI,Lakalei-Idate,C1,3,70,True,True,True,0.914,0.869
+other,primary,92,EDW-ET,Eastern Timor,,6,70,True,False,False,0.001,0.006
+other,primary,92,EDW-CTA,Central Timoric A,,3,70,True,False,False,0.12,0.135
+other,primary,92,EDW-KW,Kawaimina,,3,70,True,True,True,0.995,1.0
+other,primary,92,EDW-WA,Wetar-Atauro,,7,70,True,True,True,0.631,0.743
+other,primary,92,EDW-SWM,Southwest Maluku,,14,70,True,False,False,0.012,0.328
+other,primary,92,GE-TB,Timor-Babar,C1,39,70,True,False,False,0.0,0.0
+other,primary,92,GE-CT,Central Timor,C1 C2,22,70,True,False,False,0.021,0.031
+other,primary,92,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)",C2,20,70,True,False,True,0.176,0.54
+other,primary,92,GE-ET,Eastern Timor (tentative),,6,70,True,False,False,0.001,0.006
+other,primary,92,GE-ETLI,Eastern Timor + Lakalei-Idate,C1,9,70,True,False,False,0.0,0.0
+other,primary,92,GE-LI,Lakalei-Idate,C1,3,70,True,True,True,0.914,0.869
+other,primary,92,GE-MW,Midiki-Waima'a,,3,70,True,True,True,0.995,1.0
+other,primary,92,GE-WN,Waima'a-Naueti,,2,70,True,False,True,0.436,0.558
+other,primary,92,GE-WA,Wetar-Atauro,,7,70,True,True,True,0.631,0.743
+other,primary,92,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)",,5,70,True,True,True,0.985,0.997
+other,primary,92,GE-NR,Nuclear Rote,,4,70,True,True,True,0.946,0.945
+other,primary,92,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),,4,70,True,False,False,0.0,0.0
+other,primary,92,GE-SWM,Southwest Maluku,,14,70,True,False,False,0.012,0.328
+other,primary,92,GE-KL,Kisar-Luang,,4,70,True,True,True,0.983,0.971
+other,primary,92,GE-KR,Kisar-Roma,,2,70,True,True,True,0.526,0.467
+other,primary,92,GE-BAB,Babar,,10,70,True,True,True,0.995,1.0
+other,primary,92,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)",,3,70,True,True,True,0.92,0.705
+other,primary,92,GE-SBAB,South Babar,,7,70,True,True,True,1.0,0.999
+other,primary,92,GE-SWBAB,Southwest Babar,,3,70,True,False,False,0.041,0.093
+other,tetun,92,HULL-R,Ramelaic (Timoric B),C1,23,51,True,True,True,0.639,0.645
+other,tetun,92,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),C1,19,51,True,False,False,0.002,0.007
+other,tetun,92,HULL98-W,Welaun inside Tetun,C2,4,70,True,False,False,0.291,0.3
+other,tetun,92,EDW-CT,Central Timor,C1 C2,22,70,True,False,False,0.127,0.063
+other,tetun,92,EDW-TB,Timor-Babar,C1,39,70,True,False,False,0.0,0.0
+other,tetun,92,EDW-LI,Lakalei-Idate,C1,3,70,True,True,True,0.733,0.744
+other,tetun,92,EDW-ET,Eastern Timor,,6,70,True,False,False,0.012,0.019
+other,tetun,92,EDW-CTA,Central Timoric A,,3,70,True,False,False,0.047,0.032
+other,tetun,92,EDW-KW,Kawaimina,,3,70,True,True,True,0.984,0.996
+other,tetun,92,EDW-WA,Wetar-Atauro,,7,70,True,True,True,0.888,0.84
+other,tetun,92,EDW-SWM,Southwest Maluku,,14,70,True,False,True,0.017,0.479
+other,tetun,92,GE-TB,Timor-Babar,C1,39,70,True,False,False,0.0,0.0
+other,tetun,92,GE-CT,Central Timor,C1 C2,22,70,True,False,False,0.127,0.063
+other,tetun,92,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)",C2,20,70,True,False,False,0.114,0.051
+other,tetun,92,GE-ET,Eastern Timor (tentative),,6,70,True,False,False,0.012,0.019
+other,tetun,92,GE-ETLI,Eastern Timor + Lakalei-Idate,C1,9,70,True,False,False,0.0,0.001
+other,tetun,92,GE-LI,Lakalei-Idate,C1,3,70,True,True,True,0.733,0.744
+other,tetun,92,GE-MW,Midiki-Waima'a,,3,70,True,True,True,0.984,0.996
+other,tetun,92,GE-WN,Waima'a-Naueti,,2,70,True,False,False,0.391,0.499
+other,tetun,92,GE-WA,Wetar-Atauro,,7,70,True,True,True,0.888,0.84
+other,tetun,92,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)",,5,70,True,True,True,0.977,0.987
+other,tetun,92,GE-NR,Nuclear Rote,,4,70,True,True,True,0.946,0.938
+other,tetun,92,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),,4,70,True,False,False,0.0,0.0
+other,tetun,92,GE-SWM,Southwest Maluku,,14,70,True,False,True,0.017,0.479
+other,tetun,92,GE-KL,Kisar-Luang,,4,70,True,True,True,0.982,0.984
+other,tetun,92,GE-KR,Kisar-Roma,,2,70,True,True,True,0.527,0.542
+other,tetun,92,GE-BAB,Babar,,10,70,True,True,True,0.996,1.0
+other,tetun,92,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)",,3,70,True,True,True,0.92,0.791
+other,tetun,92,GE-SBAB,South Babar,,7,70,True,True,True,1.0,1.0
+other,tetun,92,GE-SWBAB,Southwest Babar,,3,70,True,False,False,0.041,0.076

@@ -1,0 +1,10 @@
+begin mrbayes;
+  set autoclose=yes nowarn=yes seed=1234 swapseed=1235;
+  execute matrix.nex;
+  outgroup lama1277_lewoi;
+  lset coding=noabsencesites rates=gamma;
+  prset brlenspr=unconstrained:exp(10.0);
+  constraint con negative = mamb1306_Slete kema1243_kaila tuku1254 idat1237_cribas laka1255;
+  prset topologypr=constraints(con);
+  ss ngen=5000000 nsteps=50 alpha=0.4 samplefreq=500 burninss=-1 diagnfreq=50000 nruns=2 nchains=1 printfreq=200000 filename=c1neg;
+end;

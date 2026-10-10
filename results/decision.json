@@ -1,0 +1,39 @@
+{
+ "C1": {
+  "decision": "unresolved",
+  "lexically_supported": {
+   "HULL-R": false,
+   "EDW-CT": false,
+   "EDW-LI": true,
+   "GE-NCT": false
+  },
+  "lnBF_ramelaic_forced_minus_forbidden": 8.02
+ },
+ "C2": {
+  "decision": "unresolved",
+  "lexically_supported": {
+   "HULL98-W": false,
+   "EDW-CT": false
+  },
+  "lnBF_central_timor_forced_minus_forbidden": 10.25
+ },
+ "TB": {
+  "lexically_supported": false,
+  "lnBF_timor_babar_forced_minus_forbidden": -7.02
+ },
+ "all_lexically_supported": [
+  "EDW-LI",
+  "EDW-KW",
+  "EDW-WA",
+  "GE-LI",
+  "GE-MW",
+  "GE-WA",
+  "GE-WET",
+  "GE-NR",
+  "GE-KL",
+  "GE-KR",
+  "GE-BAB",
+  "GE-PBAB",
+  "GE-SBAB"
+ ]
+}

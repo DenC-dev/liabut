@@ -2,3 +2,15 @@ data/upstream/
 __pycache__/
 *.pyc
 results/work/
+# raw MCMC samples and checkpoints (reproducible with src/09_bayes.py; summaries are kept)
+results/bayes/*.t
+results/bayes/*.p
+results/bayes/*.ckp
+results/bayes/*.ckp~
+results/bayes/*.mcmc
+results/bayes/partial_killed/*.t
+results/bayes/partial_killed/*.p
+results/bayes/partial_killed/*.ckp*
+results/bayes/partial_killed/*.mcmc
+results/ml/*.ckp.gz
+src/__pycache__/

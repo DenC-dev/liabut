@@ -1,0 +1,18 @@
+{
+ "Idate+Lakalei": {
+  "*p lost tetun-shaped": 5,
+  "*p lost native": 1,
+  "*p kept native": 2,
+  "*\u014b nasal tetun-shaped": 10,
+  "*\u014b nasal native": 3,
+  "*\u014b other tetun-shaped": 1
+ },
+ "Welaun": {
+  "*p lost native": 2,
+  "*p lost tetun-shaped": 2,
+  "*p other native": 1,
+  "*\u014b lost native": 1,
+  "*\u014b nasal tetun-shaped": 3,
+  "*\u014b nasal native": 1
+ }
+}

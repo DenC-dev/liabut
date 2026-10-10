@@ -1,0 +1,103 @@
+{
+ "marginals": {
+  "c1pos": {
+   "lnML": -8092.25,
+   "runs": [
+    -8091.93,
+    -8092.72
+   ]
+  },
+  "c1neg": {
+   "lnML": -8100.27,
+   "runs": [
+    -8100.19,
+    -8100.36
+   ]
+  },
+  "c2pos": {
+   "lnML": -8091.87,
+   "runs": [
+    -8091.62,
+    -8092.22
+   ]
+  },
+  "c2neg": {
+   "lnML": -8102.12,
+   "runs": [
+    -8101.96,
+    -8102.31
+   ]
+  },
+  "tbpos": {
+   "lnML": -8107.39,
+   "runs": [
+    -8107.33,
+    -8107.45
+   ]
+  },
+  "tbneg": {
+   "lnML": -8100.37,
+   "runs": [
+    -8100.42,
+    -8100.32
+   ]
+  }
+ },
+ "contrasts": {
+  "c1": {
+   "test": "C1: Ramelaic (Hull) forced vs forbidden",
+   "lnML_pos": -8092.25,
+   "lnML_neg": -8100.27,
+   "lnBF_pos_minus_neg": 8.02,
+   "verdict": "strong for forced"
+  },
+  "c2": {
+   "test": "C2: Central Timor incl. Welaun (Edwards) forced vs forbidden",
+   "lnML_pos": -8091.87,
+   "lnML_neg": -8102.12,
+   "lnBF_pos_minus_neg": 10.25,
+   "verdict": "strong for forced"
+  },
+  "tb": {
+   "test": "Timor-Babar excluding Central Timor forced vs forbidden",
+   "lnML_pos": -8107.39,
+   "lnML_neg": -8100.37,
+   "lnBF_pos_minus_neg": -7.02,
+   "verdict": "strong against"
+  }
+ },
+ "ss_settings": {
+  "ngen": 5000000,
+  "nsteps": 50,
+  "alpha": 0.4,
+  "samplefreq": 500,
+  "burninss": -1,
+  "diagnfreq": 50000
+ },
+ "taxa": [
+  "mamb1306-Slete",
+  "kema1243-kaila",
+  "tuku1254",
+  "west2547-welaun",
+  "idat1237-cribas",
+  "laka1255",
+  "tetu1245-suai",
+  "habu1241",
+  "waim1252",
+  "midi1237",
+  "naue1237",
+  "galo1243",
+  "dadu1237",
+  "funa1237",
+  "koto1251",
+  "term1237",
+  "dela1252",
+  "ilma1240",
+  "kaha1239",
+  "kisa1266",
+  "luan1264",
+  "tela1241",
+  "lama1277-lewoi",
+  "sika1262-hewa"
+ ]
+}

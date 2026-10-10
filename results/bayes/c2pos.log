@@ -1,0 +1,743 @@
+
+
+                            MrBayes 3.2.7a x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "c2pos.nex"
+   UNIX line termination
+   Longest line length = 132
+   Parsing file
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting seed to 1234
+      Setting swapseed to 1235
+
+      Executing file "matrix.nex"...
+
+   UNIX line termination
+   Longest line length = 1383
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 24 taxa and 1353 characters
+      Data is Restriction
+      Missing data coded as ?
+      Gaps coded as -
+      Taxon  1 -> mamb1306_Slete
+      Taxon  2 -> kema1243_kaila
+      Taxon  3 -> tuku1254
+      Taxon  4 -> west2547_welaun
+      Taxon  5 -> idat1237_cribas
+      Taxon  6 -> laka1255
+      Taxon  7 -> tetu1245_suai
+      Taxon  8 -> habu1241
+      Taxon  9 -> waim1252
+      Taxon 10 -> midi1237
+      Taxon 11 -> naue1237
+      Taxon 12 -> galo1243
+      Taxon 13 -> dadu1237
+      Taxon 14 -> funa1237
+      Taxon 15 -> koto1251
+      Taxon 16 -> term1237
+      Taxon 17 -> dela1252
+      Taxon 18 -> ilma1240
+      Taxon 19 -> kaha1239
+      Taxon 20 -> kisa1266
+      Taxon 21 -> luan1264
+      Taxon 22 -> tela1241
+      Taxon 23 -> lama1277_lewoi
+      Taxon 24 -> sika1262_hewa
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1234
+      Setting output file names to "matrix.nex.run<i>.<p|t>"
+   Exiting data block
+   Reached end of file
+
+   Returning execution to calling file ...
+
+      Setting outgroup to taxon "lama1277_lewoi"
+      Enabling Coding Noabsencesites
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting Brlenspr to Unconstrained:Exponential(10.00)
+      Successfully set prior model parameters
+      Defining constraint called 'con'
+      Setting Topologypr to Constraints
+      Successfully set prior model parameters
+      Setting number of generations to 5000000
+      Setting number of steps in stepping-stone sampling to 50
+      Setting alpha in stepping-stone sampling to 0.400000
+      Setting sample frequency to 500
+      Setting burnin for stepping-stone sampling to -1
+      Setting diagnosing frequency to 50000
+      Setting number of runs to 2
+      WARNING: Allocation of zero size attempted. This is probably a bug; problems may follow.
+      Setting number of chains to 1
+      Setting print frequency to 200000
+      Setting chain output file names to "c2pos.run<i>.<p/t>"
+      Running Markov chain
+      MCMC stamp = 1071656662
+      Seed = 1887044870
+      Swapseed = 1235
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = Restriction
+            Coding    = Noabsencesites
+            # States  = 2
+                        State frequencies have a Dirichlet (1.00,1.00) prior
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Shape               2
+         Ratemultiplier      3
+         Topology            4
+         Brlens              5
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         2 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         3 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         4 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = Prior on topology obeys the following constraints:
+                            -- Hard constraint "con"
+               Subparam.  = V
+
+         5 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:Exponential(10.0)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.96 %   Dirichlet(Pi)
+            0.96 %   Slider(Pi)
+            1.92 %   Multiplier(Alpha)
+            9.62 %   ExtSPR(Tau,V)
+            9.62 %   ExtTBR(Tau,V)
+            9.62 %   NNI(Tau,V)
+            9.62 %   ParsSPR(Tau,V)
+           38.46 %   Multiplier(V)
+           13.46 %   Nodeslider(V)
+            5.77 %   TLMultiplier(V)
+
+      Division 1 has 935 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -11266.693112 -- 40.449761
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -11228.198707 -- 40.449761
+
+
+      Starting stepping-stone sampling to estimate marginal likelihood.         
+      50 steps will be used with 98000 generations (196 samples) within each step.  
+      Total of 4998000 generations (9996 samples) will be collected while first        
+      98000 generations (196 samples) will be discarded as initial burnin.          
+      Additionally at the beginning of each step 24500 generations (49 samples)     
+      will be discarded as burnin.  
+      Sampling from posterior to prior, i.e. first step samples from close to 
+      posterior.                                                              
+      NOTE: Number of generation of each step is reduced to the closest multi-
+      ple of sampling frequency. That is why, in total it will be taken 4998000    
+      generations instead of requested 5000000.                                    
+
+
+      Chain results (4998000 generations requested):
+
+          0 -- -11266.693 * -11228.199 
+
+      Sampling step 1 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.017921
+
+
+      Average standard deviation of split frequencies: 0.010823
+
+      Sampling step 2 out of 50 steps...
+
+      200000 -- -7956.464 * -7958.312 -- 0:41:10
+
+      Average standard deviation of split frequencies: 0.028364
+
+
+      Average standard deviation of split frequencies: 0.013148
+
+      Sampling step 3 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.023222
+
+
+      Average standard deviation of split frequencies: 0.014591
+
+      Sampling step 4 out of 50 steps...
+
+      400000 -- -7967.072 * -7961.308 -- 0:56:31
+
+      Average standard deviation of split frequencies: 0.034045
+
+
+      Average standard deviation of split frequencies: 0.019824
+
+      Sampling step 5 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.027241
+
+
+      Average standard deviation of split frequencies: 0.024502
+
+      Sampling step 6 out of 50 steps...
+
+      600000 -- -7958.609 * -7953.615 -- 1:04:22
+
+      Average standard deviation of split frequencies: 0.024284
+
+
+      Average standard deviation of split frequencies: 0.023751
+
+      Sampling step 7 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.023620
+
+
+      Average standard deviation of split frequencies: 0.020656
+
+      Sampling step 8 out of 50 steps...
+
+      800000 -- -7969.474 * -7975.270 -- 1:03:13
+
+      Average standard deviation of split frequencies: 0.028565
+
+
+      Average standard deviation of split frequencies: 0.018804
+
+      Sampling step 9 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.027831
+
+
+      Average standard deviation of split frequencies: 0.021715
+
+      Sampling step 10 out of 50 steps...
+
+      1000000 -- -7974.631 * -8009.015 -- 1:00:46
+
+      Average standard deviation of split frequencies: 0.034849
+
+
+      Average standard deviation of split frequencies: 0.023650
+
+      Sampling step 11 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.021904
+
+
+      Average standard deviation of split frequencies: 0.018279
+
+      Sampling step 12 out of 50 steps...
+
+      1200000 -- -7991.321 * -7988.502 -- 0:55:10
+
+      Average standard deviation of split frequencies: 0.029760
+
+
+      Average standard deviation of split frequencies: 0.019241
+
+      Sampling step 13 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.141421
+
+
+      Average standard deviation of split frequencies: 0.024322
+
+
+      Average standard deviation of split frequencies: 0.016836
+
+      Sampling step 14 out of 50 steps...
+
+      1400000 -- -7994.707 * -8000.458 -- 0:48:18
+
+      Average standard deviation of split frequencies: 0.118169
+
+
+      Average standard deviation of split frequencies: 0.030006
+
+
+      Average standard deviation of split frequencies: 0.025521
+
+      Sampling step 15 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.073211
+
+
+      Average standard deviation of split frequencies: 0.023932
+
+
+      Average standard deviation of split frequencies: 0.022314
+
+      Sampling step 16 out of 50 steps...
+
+      1600000 -- -8000.317 * -7994.033 -- 0:42:49
+
+      Average standard deviation of split frequencies: 0.090182
+
+
+      Average standard deviation of split frequencies: 0.038025
+
+
+      Average standard deviation of split frequencies: 0.029108
+
+      Sampling step 17 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.059108
+
+
+      Average standard deviation of split frequencies: 0.027928
+
+
+      Average standard deviation of split frequencies: 0.021520
+
+      Sampling step 18 out of 50 steps...
+
+      1800000 -- -8058.421 * -8024.705 -- 0:38:22
+
+      Average standard deviation of split frequencies: 0.056239
+
+
+      Average standard deviation of split frequencies: 0.030862
+
+
+      Average standard deviation of split frequencies: 0.025351
+
+      Sampling step 19 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.084329
+
+
+      Average standard deviation of split frequencies: 0.035216
+
+
+      Average standard deviation of split frequencies: 0.031443
+
+      Sampling step 20 out of 50 steps...
+
+      2000000 -- -8060.493 * -8115.392 -- 0:34:27
+
+      Average standard deviation of split frequencies: 0.064628
+
+
+      Average standard deviation of split frequencies: 0.030344
+
+
+      Average standard deviation of split frequencies: 0.026271
+
+      Sampling step 21 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.050754
+
+
+      Average standard deviation of split frequencies: 0.031427
+
+
+      Average standard deviation of split frequencies: 0.027602
+
+      Sampling step 22 out of 50 steps...
+
+      2200000 -- -8070.159 * -8019.575 -- 0:31:00
+
+      Average standard deviation of split frequencies: 0.055439
+
+
+      Average standard deviation of split frequencies: 0.025305
+
+
+      Average standard deviation of split frequencies: 0.024421
+
+      Sampling step 23 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.060022
+
+
+      Average standard deviation of split frequencies: 0.022719
+
+
+      Average standard deviation of split frequencies: 0.023791
+
+      Sampling step 24 out of 50 steps...
+
+      2400000 -- -8129.617 * -8064.964 -- 0:27:52
+
+      Average standard deviation of split frequencies: 0.055378
+
+
+      Average standard deviation of split frequencies: 0.028862
+
+      Sampling step 25 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.062995
+
+
+      Average standard deviation of split frequencies: 0.047862
+
+      Sampling step 26 out of 50 steps...
+
+      2600000 -- -8194.434 * -8127.473 -- 0:25:00
+
+      Average standard deviation of split frequencies: 0.061068
+
+
+      Average standard deviation of split frequencies: 0.034610
+
+      Sampling step 27 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.051775
+
+
+      Average standard deviation of split frequencies: 0.022127
+
+      Sampling step 28 out of 50 steps...
+
+      2800000 -- -8156.297 * -8175.815 -- 0:22:21
+
+      Average standard deviation of split frequencies: 0.038564
+
+
+      Average standard deviation of split frequencies: 0.034084
+
+      Sampling step 29 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.061264
+
+
+      Average standard deviation of split frequencies: 0.040949
+
+      Sampling step 30 out of 50 steps...
+
+      3000000 -- -8449.900 * -8206.695 -- 0:19:56
+
+      Average standard deviation of split frequencies: 0.035799
+
+
+      Average standard deviation of split frequencies: 0.024900
+
+      Sampling step 31 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.031852
+
+
+      Average standard deviation of split frequencies: 0.027258
+
+      Sampling step 32 out of 50 steps...
+
+      3200000 -- -8451.659 * -8501.984 -- 0:17:38
+
+      Average standard deviation of split frequencies: 0.048483
+
+
+      Average standard deviation of split frequencies: 0.037916
+
+      Sampling step 33 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.043971
+
+
+      Average standard deviation of split frequencies: 0.028551
+
+      Sampling step 34 out of 50 steps...
+
+      3400000 -- -8559.153 * -8529.797 -- 0:15:25
+
+      Average standard deviation of split frequencies: 0.034608
+
+
+      Average standard deviation of split frequencies: 0.033672
+
+      Sampling step 35 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.035111
+
+
+      Average standard deviation of split frequencies: 0.027037
+
+      Sampling step 36 out of 50 steps...
+
+      3600000 -- -8565.343 * -8731.644 -- 0:13:19
+
+      Average standard deviation of split frequencies: 0.032254
+
+
+      Average standard deviation of split frequencies: 0.023879
+
+      Sampling step 37 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.030356
+
+
+      Average standard deviation of split frequencies: 0.027112
+
+      Sampling step 38 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.244597
+
+      3800000 -- -9144.088 * -9006.144 -- 0:11:17
+
+      Average standard deviation of split frequencies: 0.037939
+
+
+      Average standard deviation of split frequencies: 0.031026
+
+      Sampling step 39 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.106800
+
+
+      Average standard deviation of split frequencies: 0.023324
+
+
+      Average standard deviation of split frequencies: 0.023149
+
+      Sampling step 40 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.103241
+
+      4000000 -- -9148.851 * -8961.513 -- 0:09:18
+
+      Average standard deviation of split frequencies: 0.025936
+
+
+      Average standard deviation of split frequencies: 0.027960
+
+      Sampling step 41 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.086424
+
+
+      Average standard deviation of split frequencies: 0.023058
+
+
+      Average standard deviation of split frequencies: 0.023410
+
+      Sampling step 42 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.066091
+
+      4200000 -- -9560.627 * -9536.701 -- 0:07:22
+
+      Average standard deviation of split frequencies: 0.027730
+
+
+      Average standard deviation of split frequencies: 0.021865
+
+      Sampling step 43 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.073518
+
+
+      Average standard deviation of split frequencies: 0.017769
+
+
+      Average standard deviation of split frequencies: 0.020990
+
+      Sampling step 44 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.053469
+
+      4400000 -- -9345.363 * -9323.502 -- 0:05:27
+
+      Average standard deviation of split frequencies: 0.017209
+
+
+      Average standard deviation of split frequencies: 0.014868
+
+      Sampling step 45 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.060826
+
+
+      Average standard deviation of split frequencies: 0.019628
+
+
+      Average standard deviation of split frequencies: 0.020990
+
+      Sampling step 46 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.054667
+
+      4600000 -- -9509.110 * -9425.625 -- 0:03:36
+
+      Average standard deviation of split frequencies: 0.037141
+
+
+      Average standard deviation of split frequencies: 0.038482
+
+      Sampling step 47 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.051803
+
+
+      Average standard deviation of split frequencies: 0.018499
+
+
+      Average standard deviation of split frequencies: 0.020844
+
+      Sampling step 48 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.037000
+
+      4800000 -- -10503.804 * -15816.361 -- 0:01:46
+
+      Average standard deviation of split frequencies: 0.030568
+
+      Average standard deviation of split frequencies: 0.030611
+      Sampling step 49 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.038866
+
+      Average standard deviation of split frequencies: 0.028862
+      Sampling step 50 out of 50 steps...
+
+
+      Average standard deviation of split frequencies: 0.051993
+
+      Average standard deviation of split frequencies: 0.027112
+
+      Analysis completed in 44 mins 40 seconds
+      Analysis used 2121.37 seconds of CPU time
+      Likelihood of best state for run 1 was -7938.21
+      Likelihood of best state for run 2 was -7941.14
+
+      Marginal likelihood (in natural log units) estimated using stepping-stone sampling based on
+      50 steps with 98000 generations (196 samples) within each step. 
+
+          Run   Marginal likelihood (ln)
+          ------------------------------
+            1     -8091.62   
+            2     -8092.22   
+          ------------------------------
+          Mean:   -8091.87
+
+      More statistics on stepping-stone sampling is dumped to c2pos.ss file.
+
+   Plot of average standard deviation of split frequencies across steps.
+   Points at -1.0 (y-axis) indicate that there were no splits
+   above minimum frequency for corresponding step.
+   +------------------------------------------------------------+ 0.048
+   |                             *                              |
+   |                                                            |
+   |                                  *                         |
+   |                                                       *    |
+   |                                     *                      |
+   |                              *  *      *                   |
+   |                      *                      *           *  |
+   |                  *         *          *                  * |
+   |                       **           *    *  *  *           *|
+   |    * *    *   *    *    **        *      *     *           |
+   |         *       * *           *              *   ** *  *   |
+   |   *   **   **                                              |
+   |              *                                             |
+   |  *                                                 *       |
+   |**                                                          |
+   +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ 0.011
+   ^                                                            ^
+   1                                                           50
+
+      Acceptance rates for the moves in run 1:
+         With prob.   (last 100)   chain accepted proposals by move
+            36.4 %     ( 84 %)     Dirichlet(Pi)
+            30.4 %     (100 %)     Slider(Pi)
+            28.1 %     ( 26 %)     Multiplier(Alpha)
+            41.3 %     ( 98 %)     ExtSPR(Tau,V)
+            40.1 %     ( 95 %)     ExtTBR(Tau,V)
+            48.0 %     (100 %)     NNI(Tau,V)
+            20.4 %     ( 30 %)     ParsSPR(Tau,V)
+            29.7 %     ( 37 %)     Multiplier(V)
+            60.4 %     ( 97 %)     Nodeslider(V)
+            25.7 %     ( 28 %)     TLMultiplier(V)
+      Acceptance rates for the moves in run 2:
+         With prob.   (last 100)   chain accepted proposals by move
+            36.3 %     ( 73 %)     Dirichlet(Pi)
+            30.6 %     (100 %)     Slider(Pi)
+            28.0 %     ( 33 %)     Multiplier(Alpha)
+            41.2 %     ( 99 %)     ExtSPR(Tau,V)
+            40.1 %     ( 98 %)     ExtTBR(Tau,V)
+            48.0 %     (100 %)     NNI(Tau,V)
+            20.3 %     ( 19 %)     ParsSPR(Tau,V)
+            30.8 %     ( 46 %)     Multiplier(V)
+            60.5 %     ( 97 %)     Nodeslider(V)
+            25.6 %     ( 31 %)     TLMultiplier(V)
+   Exiting mrbayes block
+   Reached end of file
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+

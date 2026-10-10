@@ -1,54 +1,86 @@
-# Timor subgrouping study
+# Sanak
 
-A pre-registered computational test of the competing classifications of the Austronesian languages of Timor: Hull's Ramelaic and Fabronic (1998, 2001) against Edwards's Central Timor and Timor-Babar (2021; Glottolog 5.3). The method follows Robinson and Holton (2012), who used lexical data to find subgroups in Alor-Pantar that sound changes alone couldn't settle.
+**A pre-registered computational test of how the Austronesian languages of Timor branch.**
+
+*Sanak* means 'branch' in Tetun and 'kin' in Malay (*sanak saudara*, 'relatives'). The project asks how Timor's languages branch from one another, and which of them are closest kin.
 
 Dennis Crowley, Phaistos Labs.
 
-## Status
+## The question
 
-| Step | What | Status |
+Two classifications disagree.
+
+- **Hull (1998, 2001)** puts all of Timor's Austronesian languages in one *Timoric* group, split into *Ramelaic* (Mambae, Kemak, Tokodede, Idaté, Lakalei) and *Fabronic* (Tetun, Habun, Kawaimina, Galoli, Wetarese, Meto).
+- **Edwards (2021)** and **Grimes and Edwards (2026)** make *Central Timor* (Mambae, Kemak, Tokodede, Welaun) a separate branch of Malayo-Polynesian. Everything else, including Idaté and Lakalei, belongs to *Timor-Babar*, defined by the sound change *p > h.
+
+The sharpest point of disagreement is where Idaté and Lakalei belong (contrast C1). A second is whether Welaun is a Tetun dialect or a Central Timor language (C2).
+
+The method follows Robinson and Holton (2012), who used lexical data to find subgroups in Alor-Pantar that sound changes alone couldn't settle.
+
+## Results in brief
+
+- **Hull's Fabronic (Timoric A) is not a lexical group.** It gets 0% support in every analysis.
+- **Timor-Babar and Eastern Timor are not lexical groups either.** They get 0–3% bootstrap support, and the Bayes factor runs against Timor-Babar (ln BF −7.0). They rest on sound changes.
+- **Welaun is Central Timor (C2).** The Bayes factor is +10.3, and its Tetun look disappears on borrowing-resistant vocabulary.
+- **Idaté-Lakalei (C1) is split.**
+  - Its vocabulary sits with Central Timor (ln BF +8.0 for Hull's Ramelaic).
+  - Its sound changes sit with Timor-Babar (*p > h, *ŋ > n, no *ŋ > g).
+  - On the comparative method's standard, Grimes and Edwards's placement stands, but these data can't rule out the alternative.
+- **The low-level groups are confirmed:** Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang and Babar.
+- **The pre-registered step 8 verdict is "unresolved" for both C1 and C2.**
+
+See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results/figures/`](results/figures) for the charts.
+
+## How it was done
+
+| Step | What | Where |
 |---|---|---|
-| 0 | Protocol frozen (`PROTOCOL.md`, hashes in `PROTOCOL.sha256`) | done, commit `35b913c` |
-| 1 | Build datasets D1 (LexiRumah) and D2 (ABVD) | done |
-| 2 | Automatic cognates, scored against ABVD experts | done, B-cubed F = 0.81 |
-| 3 | Loan screening | done |
-| 4 | Known-answer checks and gate | done: **gate failed on G2** |
-| 5–8 | Hypothesis tests (distance trees, NeighborNet, BEAST2, decision) | closed until Addendum 1 is decided |
-
-The results are in [`results/REPORT.md`](results/REPORT.md). The proposed fix is Addendum 1 at the end of [`PROTOCOL.md`](PROTOCOL.md).
-
-## Layout
-
-| Path | Contents |
-|---|---|
-| `PROTOCOL.md` | Question, data rules, methods, gate, decision rules, addenda |
-| `reference/` | Frozen tables: D1 lects, known-answer clades, hypothesis clades, ABVD–LexiRumah lect map |
-| `data/d1/`, `data/d2/` | The two datasets as built by step 1 (CLDF-style CSVs) |
-| `data/screen/` | Indonesian and Portuguese reference words for loan screening |
-| `src/` | Pipeline, numbered in run order |
-| `results/` | Cognates, scores, loan flags, distances, trees, checks, gate |
+| 0 | Protocol frozen before any analysis; three addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
+| 1 | Datasets: D1 = LexiRumah (70 lects, 152 concepts); D2 = ABVD with expert cognates (30 lects) | `data/` |
+| 2 | Automatic cognates (LexStat, SCA), scored against the ABVD experts | `results/cognates/`, `results/scores/` |
+| 3 | Loan screening: Indonesian, Portuguese, Tetun look-alikes, Austronesian–Papuan contact sets | `results/loans/` |
+| 4 | Known-answer checks and gate | `results/known_answers.csv`, `results/gate.json` |
+| 5 | Bootstrap support for 30 hypothesis clades (Hull, Edwards, Grimes and Edwards) | `results/hypotheses/` |
+| 6 | Treelikeness (delta scores, Q-residuals) and a NeighborNet | `results/network/` |
+| 7 | Bayesian constraint tests (MrBayes stepping-stone, Bayes factors) | `results/bayes/` |
+| 8 | Pre-registered decision | `results/decision.json` |
+| E1–E5 | Exploratory: borrowing-resistant vocabulary, *p and *ŋ reflexes (automatic and by hand), Tetun affinity, retentions, geography | `results/exploratory/` |
+| E6 | Maximum-likelihood cross-check (IQ-TREE, AU test) | `results/ml/` |
 
 ## Rerun
 
 ```
-pip install lingpy==2.6.14 python-igraph pandas numpy scipy
-./src/01_fetch.sh            # upstream data at pinned commits, into data/upstream/
+pip install lingpy==2.6.14 python-igraph pandas numpy scipy matplotlib biopython SplitsPy==0.0.10
+./src/01_fetch.sh                 # upstream data at pinned commits
 cd src
-python3 02_build_dataset.py  # step 1
-python3 03_cognates.py       # step 2a, about 7 minutes
-python3 04_score.py          # step 2b
-python3 05_loans.py          # step 3
-python3 06_known_answers.py  # step 4 and the gate
+python3 02_build_dataset.py       # step 1
+python3 03_cognates.py            # step 2a (about 7 minutes)
+python3 04_score.py               # step 2b
+python3 05_loans.py               # step 3
+python3 06_known_answers.py       # step 4 and the gate
+python3 07_hypotheses.py          # step 5 (about an hour)
+python3 08_network.py             # step 6
+python3 09_bayes.py nexus         # step 7: needs MrBayes 3.2.7a on the PATH or in $MRBAYES
+python3 09_bayes.py run unconstrained c1pos c1neg c2pos c2neg tbpos tbneg
+python3 09_bayes.py summarize
+python3 10_exploratory.py         # E1, E3, E3b
+python3 11_sound_changes.py       # E2
+python3 14_retentions.py          # E4
+python3 15_post_hoc.py e2b        # E2b, hand-check table
+python3 15_post_hoc.py e5         # E5, geography
+python3 15_post_hoc.py e6         # E6: needs IQ-TREE 2 on the PATH or in $IQTREE
+python3 16_posterior.py           # posterior clade probabilities
+python3 12_decide.py              # step 8
+python3 13_figures.py
 ```
-
-`00_reference.py` regenerates the frozen `reference/` tables. If you rerun it, check that `sha256sum -c PROTOCOL.sha256` still passes for them.
 
 ## Data and licences
 
-- **LexiRumah 3.0.1** (Kaiping, Edwards and Klamer 2019), CC-BY 4.0. It has no expert cognate sets; all of its cognate judgments are automatic.
-- **ABVD** (Greenhill, Blust and Gray 2008), CC-BY 4.0. Source of the expert cognates.
+- **LexiRumah 3.0.1** (Kaiping, Edwards and Klamer 2019), CC-BY 4.0. Its cognate judgments are all automatic.
+- **ABVD** (Greenhill, Blust and Gray 2008), CC-BY 4.0. Source of the expert cognates and of the Proto-Malayo-Polynesian forms used in E2.
 - **IDS** Portuguese list (Key and Comrie), CC-BY 4.0.
-- **Glottolog 5.3**, CC-BY 4.0. Reference groups.
-- **Grimes and Edwards (2026).** The book is CC-BY 4.0. Its appendices are CC BY-NC and hold single-word comparisons rather than a wordlist, so none of its data is used here.
+- **Glottolog 5.3**, CC-BY 4.0.
+- **Concepticon**: the Leipzig-Jakarta list (Tadmor 2009), CC-BY 4.0.
+- **Grimes and Edwards (2026)**, CC-BY 4.0. Their subgroups were read from the book's LaTeX source (github.com/langsci/526). Their wordlist data are not released, so they aren't used.
 
 The code is MIT (`LICENSE`). The data keep their source licences; please cite the sources above.

@@ -1,0 +1,42 @@
+Lect_ID,Name,Role,Stable_N,Stable_Shared,Stable_CI,Other_N,Other_Shared,Other_CI,Other_minus_Stable
+west2547-welaun,Welaun,Timor AN,56,0.482,0.357-0.61,86,0.663,0.558-0.754,0.181
+west2547-mahein,"Welaun, Mahein",Timor AN,55,0.473,0.347-0.602,86,0.64,0.534-0.733,0.167
+idat1237,Idate,Timor AN,51,0.451,0.323-0.586,74,0.608,0.494-0.711,0.157
+laka1255,Lakalei,Timor AN,53,0.472,0.344-0.603,74,0.608,0.494-0.711,0.136
+habu1241,Habun,Timor AN,54,0.481,0.354-0.611,78,0.551,0.441-0.657,0.07
+idat1237-cribas,Idate,Timor AN,52,0.442,0.316-0.577,80,0.537,0.429-0.643,0.095
+kema1243-leol,"Kemak, Leolima",Timor AN,54,0.444,0.32-0.576,83,0.494,0.389-0.599,0.05
+galo1243,Galolen,Timor AN,44,0.386,0.257-0.534,67,0.493,0.377-0.609,0.107
+dadu1237,Dadu'a,Timor AN,52,0.327,0.215-0.462,77,0.481,0.373-0.59,0.154
+kema1243-kutu,"Kemak, Kutubaba",Timor AN,52,0.462,0.333-0.595,80,0.475,0.369-0.583,0.013
+kema1243-sane,"Kemak, Saneri",Timor AN,53,0.453,0.327-0.585,84,0.452,0.35-0.559,-0.001
+kema1243-diir,"Kemak, Diirbati",Timor AN,53,0.491,0.361-0.621,83,0.446,0.344-0.553,-0.045
+midi1237,Midiki,Timor AN,54,0.37,0.254-0.504,81,0.444,0.341-0.553,0.074
+kema1243-lemi,"Kemak, Lemia",Timor AN,54,0.463,0.337-0.594,84,0.44,0.339-0.547,-0.023
+kema1243-leos,"Kemak, Leosibe",Timor AN,54,0.444,0.32-0.576,82,0.439,0.337-0.547,-0.005
+kema1243-kaila,"Kemak, Kailaku",Timor AN,55,0.455,0.33-0.585,84,0.429,0.328-0.535,-0.026
+mamb1306-Claul,"Central Mambae, Laulara",Timor AN,45,0.4,0.27-0.545,73,0.425,0.318-0.539,0.025
+kema1243,Kemak,Timor AN,55,0.509,0.381-0.636,75,0.413,0.309-0.526,-0.096
+mamb1306,"Southern Mambae, Ainaro",Timor AN,53,0.415,0.293-0.549,76,0.408,0.304-0.52,-0.007
+mamb1306-Cliqu,"Central Mambae, Liquidoe",Timor AN,43,0.395,0.264-0.544,74,0.405,0.301-0.519,0.01
+mamb1306-Sudo,"South Mambae, Hatu-Udo",Timor AN,42,0.405,0.27-0.555,73,0.397,0.293-0.512,-0.008
+mamb1306-Sbeta,"South Mambae, Betano",Timor AN,41,0.415,0.278-0.566,71,0.38,0.276-0.497,-0.035
+mamb1306-Slete,"South Mambae, Letefoho",Timor AN,51,0.392,0.27-0.529,84,0.357,0.263-0.464,-0.035
+kusa1252,Kusa-Manea,Timor AN,56,0.321,0.214-0.452,82,0.354,0.259-0.462,0.033
+waim1252,Waima'a,Timor AN,55,0.4,0.281-0.532,85,0.353,0.26-0.459,-0.047
+mamb1306-Caile,"Central Mambae, Aileu Vila",Timor AN,44,0.386,0.257-0.534,73,0.342,0.244-0.457,-0.044
+naue1237,Naueti,Timor AN,54,0.333,0.222-0.466,76,0.342,0.245-0.454,0.009
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",Timor AN,41,0.39,0.257-0.543,71,0.338,0.239-0.454,-0.052
+mamb1306-NWrai,"Northwest Mambae, Railaco",Timor AN,44,0.364,0.238-0.511,72,0.333,0.235-0.448,-0.031
+mamb1306-NWhat,"Northwest Mambae, Hatulia",Timor AN,44,0.364,0.238-0.511,69,0.319,0.221-0.436,-0.045
+tuku1254,Tokodede,Timor AN,54,0.389,0.27-0.522,73,0.315,0.22-0.429,-0.074
+rois1241,Ro'is Amarasi,Timor AN,55,0.345,0.234-0.477,84,0.31,0.221-0.415,-0.035
+mamb1306-NWbar,"Northwest Mambae, Barzatete",Timor AN,44,0.364,0.238-0.511,72,0.306,0.211-0.42,-0.058
+koto1251,Kotos Amarasi,Timor AN,56,0.304,0.199-0.433,85,0.282,0.198-0.386,-0.022
+buna1278-malia,"Bunak, Maliana",TAP,53,0.075,0.03-0.179,73,0.274,0.185-0.386,0.199
+funa1237,Funai Helong,Timor AN,54,0.278,0.176-0.409,78,0.269,0.183-0.377,-0.009
+buna1278-bobon,"Bunak, Bobonaro",TAP,55,0.055,0.019-0.149,88,0.239,0.162-0.337,0.184
+buna1278-suai,"Bunak, Suai",TAP,55,0.055,0.019-0.149,88,0.239,0.162-0.337,0.184
+fata1247,Fataluku,TAP,56,0.071,0.028-0.17,86,0.128,0.073-0.215,0.057
+maka1316,Makasae,TAP,56,0.143,0.074-0.257,83,0.096,0.05-0.179,-0.047
+oira1263,Oirata,TAP,54,0.074,0.029-0.176,81,0.086,0.042-0.168,0.012

@@ -1,0 +1,721 @@
+Dataset,Cognates,Variant,Hypothesis,Name,Source,Contrast,Members_Present,Lects_In_Tree,Testable,UPGMA,NJ,UPGMA_Bootstrap,NJ_Bootstrap
+D1,lexstat,primary,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,51,True,False,True,0.222,0.553
+D1,lexstat,primary,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,51,True,False,False,0.0,0.0
+D1,lexstat,primary,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,70,True,True,True,0.507,0.594
+D1,lexstat,primary,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,70,True,False,False,0.139,0.17
+D1,lexstat,primary,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,70,True,False,False,0.0,0.0
+D1,lexstat,primary,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,70,True,True,True,0.997,0.991
+D1,lexstat,primary,EDW-ET,Eastern Timor,Glottolog 5.3,,6,70,True,False,False,0.007,0.011
+D1,lexstat,primary,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,70,True,False,False,0.249,0.262
+D1,lexstat,primary,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,70,True,True,True,1.0,1.0
+D1,lexstat,primary,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,70,True,True,True,0.879,0.965
+D1,lexstat,primary,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,70,True,False,False,0.0,0.295
+D1,lexstat,primary,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,70,True,False,False,0.0,0.0
+D1,lexstat,primary,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,70,True,False,False,0.139,0.17
+D1,lexstat,primary,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,70,True,True,True,0.369,0.75
+D1,lexstat,primary,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,70,True,False,False,0.007,0.011
+D1,lexstat,primary,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,70,True,False,False,0.0,0.002
+D1,lexstat,primary,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,70,True,True,True,0.997,0.991
+D1,lexstat,primary,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,70,True,True,True,1.0,1.0
+D1,lexstat,primary,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,70,True,True,True,0.637,0.642
+D1,lexstat,primary,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,70,True,True,True,0.879,0.965
+D1,lexstat,primary,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,70,True,True,True,1.0,1.0
+D1,lexstat,primary,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,70,True,True,True,0.926,0.907
+D1,lexstat,primary,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,70,True,False,False,0.0,0.0
+D1,lexstat,primary,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,70,True,False,False,0.0,0.295
+D1,lexstat,primary,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,70,True,True,True,0.999,0.986
+D1,lexstat,primary,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,70,True,True,True,0.917,0.74
+D1,lexstat,primary,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,70,True,True,True,1.0,1.0
+D1,lexstat,primary,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,70,True,True,True,0.86,0.745
+D1,lexstat,primary,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,70,True,True,True,1.0,1.0
+D1,lexstat,primary,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,70,True,False,False,0.038,0.058
+D1,lexstat,all,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,51,True,False,True,0.213,0.674
+D1,lexstat,all,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,51,True,False,False,0.0,0.0
+D1,lexstat,all,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,70,True,True,True,0.374,0.544
+D1,lexstat,all,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,70,True,False,False,0.156,0.211
+D1,lexstat,all,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,70,True,False,False,0.0,0.0
+D1,lexstat,all,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,70,True,True,True,0.996,0.99
+D1,lexstat,all,EDW-ET,Eastern Timor,Glottolog 5.3,,6,70,True,False,False,0.006,0.007
+D1,lexstat,all,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,70,True,False,False,0.279,0.244
+D1,lexstat,all,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,70,True,True,True,1.0,1.0
+D1,lexstat,all,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,70,True,True,True,0.913,0.98
+D1,lexstat,all,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,70,True,False,False,0.0,0.201
+D1,lexstat,all,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,70,True,False,False,0.0,0.0
+D1,lexstat,all,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,70,True,False,False,0.156,0.211
+D1,lexstat,all,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,70,True,True,True,0.295,0.715
+D1,lexstat,all,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,70,True,False,False,0.006,0.007
+D1,lexstat,all,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,70,True,False,False,0.0,0.0
+D1,lexstat,all,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,70,True,True,True,0.996,0.99
+D1,lexstat,all,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,70,True,True,True,1.0,1.0
+D1,lexstat,all,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,70,True,True,True,0.669,0.679
+D1,lexstat,all,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,70,True,True,True,0.913,0.98
+D1,lexstat,all,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,70,True,True,True,1.0,0.999
+D1,lexstat,all,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,70,True,True,True,0.917,0.879
+D1,lexstat,all,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,70,True,False,False,0.0,0.0
+D1,lexstat,all,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,70,True,False,False,0.0,0.201
+D1,lexstat,all,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,70,True,True,True,0.999,0.988
+D1,lexstat,all,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,70,True,True,True,0.898,0.795
+D1,lexstat,all,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,70,True,True,True,1.0,1.0
+D1,lexstat,all,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,70,True,True,True,0.847,0.704
+D1,lexstat,all,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,70,True,True,True,1.0,1.0
+D1,lexstat,all,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,70,True,False,False,0.038,0.057
+D1,lexstat,contact,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,51,True,False,True,0.222,0.581
+D1,lexstat,contact,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,51,True,False,False,0.0,0.0
+D1,lexstat,contact,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,70,True,True,True,0.507,0.599
+D1,lexstat,contact,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,70,True,False,False,0.139,0.176
+D1,lexstat,contact,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,70,True,False,False,0.0,0.0
+D1,lexstat,contact,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,70,True,True,True,0.997,0.989
+D1,lexstat,contact,EDW-ET,Eastern Timor,Glottolog 5.3,,6,70,True,False,False,0.007,0.006
+D1,lexstat,contact,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,70,True,False,False,0.249,0.254
+D1,lexstat,contact,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,70,True,True,True,1.0,1.0
+D1,lexstat,contact,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,70,True,True,True,0.879,0.964
+D1,lexstat,contact,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,70,True,False,False,0.0,0.002
+D1,lexstat,contact,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,70,True,False,False,0.0,0.0
+D1,lexstat,contact,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,70,True,False,False,0.139,0.176
+D1,lexstat,contact,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,70,True,True,True,0.369,0.754
+D1,lexstat,contact,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,70,True,False,False,0.007,0.006
+D1,lexstat,contact,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,70,True,False,False,0.0,0.004
+D1,lexstat,contact,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,70,True,True,True,0.997,0.989
+D1,lexstat,contact,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,70,True,True,True,1.0,1.0
+D1,lexstat,contact,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,70,True,True,True,0.637,0.649
+D1,lexstat,contact,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,70,True,True,True,0.879,0.964
+D1,lexstat,contact,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,70,True,True,True,1.0,1.0
+D1,lexstat,contact,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,70,True,True,True,0.926,0.906
+D1,lexstat,contact,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,70,True,False,False,0.0,0.0
+D1,lexstat,contact,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,70,True,False,False,0.0,0.002
+D1,lexstat,contact,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,70,True,True,True,0.999,0.998
+D1,lexstat,contact,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,70,True,True,True,0.917,0.724
+D1,lexstat,contact,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,70,True,True,True,1.0,1.0
+D1,lexstat,contact,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,70,True,True,True,0.86,0.745
+D1,lexstat,contact,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,70,True,True,True,1.0,1.0
+D1,lexstat,contact,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,70,True,False,False,0.038,0.057
+D1,lexstat,tetun,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,51,True,True,True,0.876,0.951
+D1,lexstat,tetun,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,51,True,False,False,0.001,0.0
+D1,lexstat,tetun,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,70,True,False,False,0.193,0.161
+D1,lexstat,tetun,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,70,True,True,False,0.319,0.184
+D1,lexstat,tetun,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,70,True,False,False,0.0,0.0
+D1,lexstat,tetun,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,70,True,True,True,0.969,0.986
+D1,lexstat,tetun,EDW-ET,Eastern Timor,Glottolog 5.3,,6,70,True,False,False,0.03,0.015
+D1,lexstat,tetun,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,70,True,False,False,0.089,0.049
+D1,lexstat,tetun,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,70,True,True,True,1.0,1.0
+D1,lexstat,tetun,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,70,True,True,True,0.989,0.971
+D1,lexstat,tetun,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,70,True,False,True,0.006,0.52
+D1,lexstat,tetun,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,70,True,False,False,0.0,0.0
+D1,lexstat,tetun,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,70,True,True,False,0.319,0.184
+D1,lexstat,tetun,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,70,True,False,False,0.274,0.284
+D1,lexstat,tetun,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,70,True,False,False,0.03,0.015
+D1,lexstat,tetun,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,70,True,False,False,0.0,0.001
+D1,lexstat,tetun,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,70,True,True,True,0.969,0.986
+D1,lexstat,tetun,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,70,True,True,True,1.0,1.0
+D1,lexstat,tetun,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,70,True,True,True,0.678,0.621
+D1,lexstat,tetun,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,70,True,True,True,0.989,0.971
+D1,lexstat,tetun,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,70,True,True,True,0.999,1.0
+D1,lexstat,tetun,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,70,True,True,True,0.926,0.915
+D1,lexstat,tetun,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,70,True,False,False,0.0,0.0
+D1,lexstat,tetun,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,70,True,False,True,0.006,0.52
+D1,lexstat,tetun,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,70,True,True,True,0.999,0.997
+D1,lexstat,tetun,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,70,True,True,True,0.917,0.819
+D1,lexstat,tetun,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,70,True,True,True,0.999,1.0
+D1,lexstat,tetun,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,70,True,True,True,0.86,0.826
+D1,lexstat,tetun,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,70,True,True,True,1.0,1.0
+D1,lexstat,tetun,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,70,True,False,False,0.038,0.04
+D1,sca,primary,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,51,True,False,True,0.182,0.689
+D1,sca,primary,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,51,True,False,False,0.0,0.001
+D1,sca,primary,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,70,True,False,True,0.243,0.45
+D1,sca,primary,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,70,True,False,False,0.171,0.226
+D1,sca,primary,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,70,True,False,False,0.0,0.0
+D1,sca,primary,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,70,True,True,True,0.98,0.975
+D1,sca,primary,EDW-ET,Eastern Timor,Glottolog 5.3,,6,70,True,False,False,0.015,0.061
+D1,sca,primary,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,70,True,True,False,0.357,0.262
+D1,sca,primary,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,70,True,True,True,0.998,1.0
+D1,sca,primary,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,70,True,False,False,0.201,0.41
+D1,sca,primary,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,70,True,False,True,0.009,0.478
+D1,sca,primary,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,70,True,False,False,0.0,0.0
+D1,sca,primary,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,70,True,False,False,0.171,0.226
+D1,sca,primary,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,70,True,True,True,0.518,0.923
+D1,sca,primary,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,70,True,False,False,0.015,0.061
+D1,sca,primary,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,70,True,False,False,0.006,0.003
+D1,sca,primary,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,70,True,True,True,0.98,0.975
+D1,sca,primary,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,70,True,True,True,0.998,1.0
+D1,sca,primary,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,70,True,True,True,0.736,0.717
+D1,sca,primary,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,70,True,False,False,0.201,0.41
+D1,sca,primary,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,70,True,True,True,0.999,1.0
+D1,sca,primary,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,70,True,True,True,0.658,0.817
+D1,sca,primary,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,70,True,False,False,0.0,0.0
+D1,sca,primary,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,70,True,False,True,0.009,0.478
+D1,sca,primary,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,70,True,True,True,0.98,0.948
+D1,sca,primary,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,70,True,False,False,0.056,0.157
+D1,sca,primary,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,70,True,True,True,0.985,0.996
+D1,sca,primary,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,70,True,True,True,0.925,0.853
+D1,sca,primary,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,70,True,True,True,0.997,0.999
+D1,sca,primary,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,70,True,False,False,0.084,0.222
+D1,sca,all,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,51,True,False,True,0.146,0.782
+D1,sca,all,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,51,True,False,False,0.0,0.0
+D1,sca,all,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,70,True,False,False,0.15,0.36
+D1,sca,all,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,70,True,False,False,0.25,0.297
+D1,sca,all,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,70,True,False,False,0.0,0.0
+D1,sca,all,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,70,True,True,True,0.993,0.993
+D1,sca,all,EDW-ET,Eastern Timor,Glottolog 5.3,,6,70,True,False,False,0.009,0.063
+D1,sca,all,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,70,True,True,False,0.374,0.226
+D1,sca,all,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,70,True,True,True,0.996,1.0
+D1,sca,all,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,70,True,False,False,0.184,0.392
+D1,sca,all,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,70,True,False,False,0.002,0.344
+D1,sca,all,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,70,True,False,False,0.0,0.0
+D1,sca,all,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,70,True,False,False,0.25,0.297
+D1,sca,all,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,70,True,True,True,0.541,0.903
+D1,sca,all,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,70,True,False,False,0.009,0.063
+D1,sca,all,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,70,True,False,False,0.003,0.007
+D1,sca,all,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,70,True,True,True,0.993,0.993
+D1,sca,all,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,70,True,True,True,0.996,1.0
+D1,sca,all,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,70,True,True,True,0.761,0.763
+D1,sca,all,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,70,True,False,False,0.184,0.392
+D1,sca,all,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,70,True,True,True,1.0,1.0
+D1,sca,all,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,70,True,True,True,0.781,0.892
+D1,sca,all,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,70,True,False,False,0.0,0.0
+D1,sca,all,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,70,True,False,False,0.002,0.344
+D1,sca,all,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,70,True,True,True,0.955,0.963
+D1,sca,all,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,70,True,False,False,0.068,0.248
+D1,sca,all,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,70,True,True,True,0.988,0.995
+D1,sca,all,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,70,True,True,True,0.946,0.86
+D1,sca,all,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,70,True,True,True,0.997,1.0
+D1,sca,all,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,70,True,False,False,0.084,0.239
+D1,sca,contact,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,51,True,False,True,0.182,0.71
+D1,sca,contact,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,51,True,False,False,0.0,0.0
+D1,sca,contact,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,70,True,False,True,0.243,0.458
+D1,sca,contact,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,70,True,False,False,0.171,0.218
+D1,sca,contact,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,70,True,False,False,0.0,0.0
+D1,sca,contact,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,70,True,True,True,0.98,0.974
+D1,sca,contact,EDW-ET,Eastern Timor,Glottolog 5.3,,6,70,True,False,False,0.015,0.061
+D1,sca,contact,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,70,True,True,False,0.357,0.256
+D1,sca,contact,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,70,True,True,True,0.998,1.0
+D1,sca,contact,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,70,True,False,True,0.201,0.424
+D1,sca,contact,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,70,True,False,False,0.009,0.069
+D1,sca,contact,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,70,True,False,False,0.0,0.0
+D1,sca,contact,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,70,True,False,False,0.171,0.218
+D1,sca,contact,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,70,True,True,True,0.518,0.93
+D1,sca,contact,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,70,True,False,False,0.015,0.061
+D1,sca,contact,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,70,True,False,False,0.006,0.003
+D1,sca,contact,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,70,True,True,True,0.98,0.974
+D1,sca,contact,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,70,True,True,True,0.998,1.0
+D1,sca,contact,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,70,True,True,True,0.736,0.718
+D1,sca,contact,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,70,True,False,True,0.201,0.424
+D1,sca,contact,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,70,True,True,True,0.999,1.0
+D1,sca,contact,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,70,True,True,True,0.658,0.819
+D1,sca,contact,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,70,True,False,False,0.0,0.0
+D1,sca,contact,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,70,True,False,False,0.009,0.069
+D1,sca,contact,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,70,True,True,True,0.98,0.981
+D1,sca,contact,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,70,True,False,False,0.056,0.158
+D1,sca,contact,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,70,True,True,True,0.985,0.997
+D1,sca,contact,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,70,True,True,True,0.925,0.852
+D1,sca,contact,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,70,True,True,True,0.997,0.999
+D1,sca,contact,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,70,True,False,False,0.084,0.212
+D1,sca,tetun,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,51,True,True,True,0.817,0.93
+D1,sca,tetun,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,51,True,False,False,0.0,0.006
+D1,sca,tetun,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,70,True,False,False,0.078,0.046
+D1,sca,tetun,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,70,True,False,False,0.132,0.079
+D1,sca,tetun,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,70,True,False,False,0.0,0.0
+D1,sca,tetun,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,70,True,True,True,0.965,0.944
+D1,sca,tetun,EDW-ET,Eastern Timor,Glottolog 5.3,,6,70,True,False,False,0.108,0.07
+D1,sca,tetun,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,70,True,False,False,0.074,0.028
+D1,sca,tetun,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,70,True,True,True,0.999,0.997
+D1,sca,tetun,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,70,True,True,True,0.813,0.721
+D1,sca,tetun,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,70,True,False,True,0.023,0.654
+D1,sca,tetun,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,70,True,False,False,0.0,0.0
+D1,sca,tetun,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,70,True,False,False,0.132,0.079
+D1,sca,tetun,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,70,True,True,True,0.265,0.395
+D1,sca,tetun,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,70,True,False,False,0.108,0.07
+D1,sca,tetun,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,70,True,False,False,0.0,0.001
+D1,sca,tetun,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,70,True,True,True,0.965,0.944
+D1,sca,tetun,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,70,True,True,True,0.999,0.997
+D1,sca,tetun,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,70,True,True,True,0.802,0.704
+D1,sca,tetun,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,70,True,True,True,0.813,0.721
+D1,sca,tetun,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,70,True,True,True,0.999,1.0
+D1,sca,tetun,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,70,True,True,True,0.658,0.848
+D1,sca,tetun,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,70,True,False,False,0.0,0.0
+D1,sca,tetun,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,70,True,False,True,0.023,0.654
+D1,sca,tetun,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,70,True,True,True,0.977,0.976
+D1,sca,tetun,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,70,True,False,False,0.056,0.172
+D1,sca,tetun,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,70,True,True,True,0.972,0.996
+D1,sca,tetun,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,70,True,True,True,0.923,0.886
+D1,sca,tetun,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,70,True,True,True,0.997,0.999
+D1,sca,tetun,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,70,True,False,False,0.084,0.179
+D1,biglexstat,primary,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,48,True,False,False,0.022,0.088
+D1,biglexstat,primary,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,48,True,False,False,0.0,0.0
+D1,biglexstat,primary,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,64,True,True,True,0.74,0.808
+D1,biglexstat,primary,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,64,True,False,False,0.0,0.007
+D1,biglexstat,primary,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,36,64,True,False,False,0.0,0.0
+D1,biglexstat,primary,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,64,True,True,True,0.833,0.877
+D1,biglexstat,primary,EDW-ET,Eastern Timor,Glottolog 5.3,,6,64,True,False,False,0.0,0.0
+D1,biglexstat,primary,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,64,True,False,False,0.006,0.008
+D1,biglexstat,primary,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,64,True,True,True,1.0,1.0
+D1,biglexstat,primary,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,64,True,False,False,0.342,0.455
+D1,biglexstat,primary,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,64,True,True,True,0.998,0.998
+D1,biglexstat,primary,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,36,64,True,False,False,0.0,0.0
+D1,biglexstat,primary,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,64,True,False,False,0.0,0.007
+D1,biglexstat,primary,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,64,True,False,False,0.0,0.076
+D1,biglexstat,primary,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,64,True,False,False,0.0,0.0
+D1,biglexstat,primary,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,64,True,False,False,0.0,0.0
+D1,biglexstat,primary,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,64,True,True,True,0.833,0.877
+D1,biglexstat,primary,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,64,True,True,True,1.0,1.0
+D1,biglexstat,primary,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,64,True,False,False,0.474,0.437
+D1,biglexstat,primary,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,64,True,False,False,0.342,0.455
+D1,biglexstat,primary,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,64,True,True,True,1.0,1.0
+D1,biglexstat,primary,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.017,0.018
+D1,biglexstat,primary,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.0,0.0
+D1,biglexstat,primary,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,64,True,True,True,0.998,0.998
+D1,biglexstat,primary,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,64,True,True,True,1.0,0.999
+D1,biglexstat,primary,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.92,0.873
+D1,biglexstat,primary,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,8,64,True,True,True,1.0,1.0
+D1,biglexstat,primary,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,1.0,1.0
+D1,biglexstat,primary,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,6,64,True,True,True,1.0,1.0
+D1,biglexstat,primary,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.559,0.556
+D1,biglexstat,all,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,48,True,False,False,0.014,0.083
+D1,biglexstat,all,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,48,True,False,False,0.0,0.0
+D1,biglexstat,all,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,64,True,True,True,0.695,0.755
+D1,biglexstat,all,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,64,True,False,False,0.0,0.009
+D1,biglexstat,all,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,36,64,True,False,False,0.0,0.0
+D1,biglexstat,all,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,64,True,True,True,0.86,0.896
+D1,biglexstat,all,EDW-ET,Eastern Timor,Glottolog 5.3,,6,64,True,False,False,0.0,0.0
+D1,biglexstat,all,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,64,True,False,False,0.004,0.005
+D1,biglexstat,all,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,64,True,True,True,1.0,1.0
+D1,biglexstat,all,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,64,True,False,True,0.292,0.488
+D1,biglexstat,all,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,64,True,True,True,0.999,1.0
+D1,biglexstat,all,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,36,64,True,False,False,0.0,0.0
+D1,biglexstat,all,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,64,True,False,False,0.0,0.009
+D1,biglexstat,all,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,64,True,False,False,0.0,0.09
+D1,biglexstat,all,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,64,True,False,False,0.0,0.0
+D1,biglexstat,all,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,64,True,False,False,0.0,0.0
+D1,biglexstat,all,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,64,True,True,True,0.86,0.896
+D1,biglexstat,all,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,64,True,True,True,1.0,1.0
+D1,biglexstat,all,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,64,True,False,False,0.446,0.407
+D1,biglexstat,all,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,64,True,False,True,0.292,0.488
+D1,biglexstat,all,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,64,True,True,True,1.0,1.0
+D1,biglexstat,all,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.005,0.012
+D1,biglexstat,all,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.0,0.0
+D1,biglexstat,all,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,64,True,True,True,0.999,1.0
+D1,biglexstat,all,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,64,True,True,True,1.0,0.999
+D1,biglexstat,all,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.911,0.873
+D1,biglexstat,all,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,8,64,True,True,True,1.0,1.0
+D1,biglexstat,all,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,1.0,1.0
+D1,biglexstat,all,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,6,64,True,True,True,1.0,1.0
+D1,biglexstat,all,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.559,0.556
+D1,biglexstat,contact,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,48,True,False,False,0.022,0.084
+D1,biglexstat,contact,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,48,True,False,False,0.0,0.0
+D1,biglexstat,contact,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,64,True,True,True,0.74,0.808
+D1,biglexstat,contact,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,64,True,False,False,0.0,0.01
+D1,biglexstat,contact,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,36,64,True,False,False,0.0,0.0
+D1,biglexstat,contact,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,64,True,True,True,0.833,0.88
+D1,biglexstat,contact,EDW-ET,Eastern Timor,Glottolog 5.3,,6,64,True,False,False,0.0,0.0
+D1,biglexstat,contact,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,64,True,False,False,0.006,0.008
+D1,biglexstat,contact,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,64,True,True,True,1.0,1.0
+D1,biglexstat,contact,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,64,True,False,False,0.342,0.431
+D1,biglexstat,contact,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,64,True,True,True,0.998,0.999
+D1,biglexstat,contact,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,36,64,True,False,False,0.0,0.0
+D1,biglexstat,contact,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,64,True,False,False,0.0,0.01
+D1,biglexstat,contact,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,64,True,False,False,0.0,0.084
+D1,biglexstat,contact,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,64,True,False,False,0.0,0.0
+D1,biglexstat,contact,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,64,True,False,False,0.0,0.0
+D1,biglexstat,contact,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,64,True,True,True,0.833,0.88
+D1,biglexstat,contact,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,64,True,True,True,1.0,1.0
+D1,biglexstat,contact,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,64,True,False,False,0.474,0.434
+D1,biglexstat,contact,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,64,True,False,False,0.342,0.431
+D1,biglexstat,contact,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,64,True,True,True,1.0,1.0
+D1,biglexstat,contact,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.017,0.018
+D1,biglexstat,contact,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.0,0.0
+D1,biglexstat,contact,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,64,True,True,True,0.998,0.999
+D1,biglexstat,contact,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,64,True,True,True,1.0,0.999
+D1,biglexstat,contact,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.92,0.872
+D1,biglexstat,contact,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,8,64,True,True,True,1.0,1.0
+D1,biglexstat,contact,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,1.0,1.0
+D1,biglexstat,contact,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,6,64,True,True,True,1.0,1.0
+D1,biglexstat,contact,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.559,0.556
+D1,biglexstat,tetun,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,48,True,False,False,0.096,0.218
+D1,biglexstat,tetun,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,48,True,False,False,0.0,0.0
+D1,biglexstat,tetun,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,64,True,True,False,0.403,0.282
+D1,biglexstat,tetun,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,64,True,False,False,0.0,0.023
+D1,biglexstat,tetun,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,36,64,True,False,False,0.0,0.0
+D1,biglexstat,tetun,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,64,True,True,True,0.879,0.881
+D1,biglexstat,tetun,EDW-ET,Eastern Timor,Glottolog 5.3,,6,64,True,False,False,0.0,0.0
+D1,biglexstat,tetun,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,64,True,False,False,0.003,0.001
+D1,biglexstat,tetun,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,64,True,True,True,1.0,1.0
+D1,biglexstat,tetun,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,64,True,False,False,0.429,0.471
+D1,biglexstat,tetun,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,64,True,True,True,0.998,0.999
+D1,biglexstat,tetun,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,36,64,True,False,False,0.0,0.0
+D1,biglexstat,tetun,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,64,True,False,False,0.0,0.023
+D1,biglexstat,tetun,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,64,True,False,False,0.0,0.015
+D1,biglexstat,tetun,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,64,True,False,False,0.0,0.0
+D1,biglexstat,tetun,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,64,True,False,False,0.0,0.0
+D1,biglexstat,tetun,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,64,True,True,True,0.879,0.881
+D1,biglexstat,tetun,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,64,True,True,True,1.0,1.0
+D1,biglexstat,tetun,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,64,True,False,False,0.426,0.384
+D1,biglexstat,tetun,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,64,True,False,False,0.429,0.471
+D1,biglexstat,tetun,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,64,True,True,True,1.0,1.0
+D1,biglexstat,tetun,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.017,0.016
+D1,biglexstat,tetun,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.0,0.0
+D1,biglexstat,tetun,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,64,True,True,True,0.998,0.999
+D1,biglexstat,tetun,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,64,True,True,True,1.0,0.999
+D1,biglexstat,tetun,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.92,0.87
+D1,biglexstat,tetun,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,8,64,True,True,True,1.0,1.0
+D1,biglexstat,tetun,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,1.0,1.0
+D1,biglexstat,tetun,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,6,64,True,True,True,1.0,1.0
+D1,biglexstat,tetun,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.559,0.564
+D1,lexstat,primary+AN-only,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,45,True,False,True,0.222,0.618
+D1,lexstat,primary+AN-only,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,45,True,False,False,0.0,0.0
+D1,lexstat,primary+AN-only,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,64,True,True,True,0.507,0.595
+D1,lexstat,primary+AN-only,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,64,True,False,False,0.139,0.185
+D1,lexstat,primary+AN-only,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,64,True,False,False,0.0,0.0
+D1,lexstat,primary+AN-only,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,64,True,True,True,0.997,0.987
+D1,lexstat,primary+AN-only,EDW-ET,Eastern Timor,Glottolog 5.3,,6,64,True,False,False,0.007,0.008
+D1,lexstat,primary+AN-only,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,64,True,False,False,0.249,0.26
+D1,lexstat,primary+AN-only,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,64,True,True,True,1.0,1.0
+D1,lexstat,primary+AN-only,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,64,True,True,True,0.879,0.965
+D1,lexstat,primary+AN-only,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,64,True,False,True,0.0,0.997
+D1,lexstat,primary+AN-only,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,64,True,False,False,0.0,0.0
+D1,lexstat,primary+AN-only,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,64,True,False,False,0.139,0.185
+D1,lexstat,primary+AN-only,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,64,True,True,True,0.369,0.777
+D1,lexstat,primary+AN-only,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,64,True,False,False,0.007,0.008
+D1,lexstat,primary+AN-only,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,64,True,False,False,0.0,0.003
+D1,lexstat,primary+AN-only,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,64,True,True,True,0.997,0.987
+D1,lexstat,primary+AN-only,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,64,True,True,True,1.0,1.0
+D1,lexstat,primary+AN-only,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,64,True,True,True,0.637,0.642
+D1,lexstat,primary+AN-only,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,64,True,True,True,0.879,0.965
+D1,lexstat,primary+AN-only,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,64,True,True,True,1.0,1.0
+D1,lexstat,primary+AN-only,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,64,True,True,True,0.926,0.908
+D1,lexstat,primary+AN-only,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.0,0.0
+D1,lexstat,primary+AN-only,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,64,True,False,True,0.0,0.997
+D1,lexstat,primary+AN-only,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,64,True,True,True,0.999,0.966
+D1,lexstat,primary+AN-only,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.917,0.721
+D1,lexstat,primary+AN-only,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,64,True,True,True,1.0,1.0
+D1,lexstat,primary+AN-only,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,64,True,True,True,0.86,0.719
+D1,lexstat,primary+AN-only,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,64,True,True,True,1.0,1.0
+D1,lexstat,primary+AN-only,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,64,True,False,False,0.038,0.054
+D1,lexstat,contact+AN-only,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,45,True,False,True,0.222,0.618
+D1,lexstat,contact+AN-only,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,45,True,False,False,0.0,0.0
+D1,lexstat,contact+AN-only,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,64,True,True,True,0.507,0.595
+D1,lexstat,contact+AN-only,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,64,True,False,False,0.139,0.185
+D1,lexstat,contact+AN-only,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,64,True,False,False,0.0,0.0
+D1,lexstat,contact+AN-only,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,64,True,True,True,0.997,0.987
+D1,lexstat,contact+AN-only,EDW-ET,Eastern Timor,Glottolog 5.3,,6,64,True,False,False,0.007,0.008
+D1,lexstat,contact+AN-only,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,64,True,False,False,0.249,0.26
+D1,lexstat,contact+AN-only,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,64,True,True,True,1.0,1.0
+D1,lexstat,contact+AN-only,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,64,True,True,True,0.879,0.965
+D1,lexstat,contact+AN-only,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,64,True,False,True,0.0,0.997
+D1,lexstat,contact+AN-only,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,64,True,False,False,0.0,0.0
+D1,lexstat,contact+AN-only,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,64,True,False,False,0.139,0.185
+D1,lexstat,contact+AN-only,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,64,True,True,True,0.369,0.777
+D1,lexstat,contact+AN-only,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,64,True,False,False,0.007,0.008
+D1,lexstat,contact+AN-only,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,64,True,False,False,0.0,0.003
+D1,lexstat,contact+AN-only,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,64,True,True,True,0.997,0.987
+D1,lexstat,contact+AN-only,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,64,True,True,True,1.0,1.0
+D1,lexstat,contact+AN-only,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,64,True,True,True,0.637,0.642
+D1,lexstat,contact+AN-only,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,64,True,True,True,0.879,0.965
+D1,lexstat,contact+AN-only,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,64,True,True,True,1.0,1.0
+D1,lexstat,contact+AN-only,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,64,True,True,True,0.926,0.908
+D1,lexstat,contact+AN-only,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.0,0.0
+D1,lexstat,contact+AN-only,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,64,True,False,True,0.0,0.997
+D1,lexstat,contact+AN-only,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,64,True,True,True,0.999,0.966
+D1,lexstat,contact+AN-only,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.917,0.721
+D1,lexstat,contact+AN-only,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,64,True,True,True,1.0,1.0
+D1,lexstat,contact+AN-only,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,64,True,True,True,0.86,0.719
+D1,lexstat,contact+AN-only,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,64,True,True,True,1.0,1.0
+D1,lexstat,contact+AN-only,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,64,True,False,False,0.038,0.054
+D1,lexstat,tetun+AN-only,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,23,45,True,True,True,0.876,0.961
+D1,lexstat,tetun+AN-only,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,19,45,True,False,False,0.001,0.0
+D1,lexstat,tetun+AN-only,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,4,64,True,False,False,0.193,0.171
+D1,lexstat,tetun+AN-only,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,22,64,True,True,False,0.319,0.177
+D1,lexstat,tetun+AN-only,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,39,64,True,False,False,0.0,0.0
+D1,lexstat,tetun+AN-only,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,3,64,True,True,True,0.969,0.985
+D1,lexstat,tetun+AN-only,EDW-ET,Eastern Timor,Glottolog 5.3,,6,64,True,False,False,0.03,0.019
+D1,lexstat,tetun+AN-only,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,64,True,False,False,0.089,0.048
+D1,lexstat,tetun+AN-only,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,3,64,True,True,True,1.0,1.0
+D1,lexstat,tetun+AN-only,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,7,64,True,True,True,0.989,0.973
+D1,lexstat,tetun+AN-only,EDW-SWM,Southwest Maluku,Glottolog 5.3,,14,64,True,False,True,0.006,0.997
+D1,lexstat,tetun+AN-only,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,39,64,True,False,False,0.0,0.0
+D1,lexstat,tetun+AN-only,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,22,64,True,True,False,0.319,0.177
+D1,lexstat,tetun+AN-only,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,20,64,True,False,False,0.274,0.271
+D1,lexstat,tetun+AN-only,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,6,64,True,False,False,0.03,0.019
+D1,lexstat,tetun+AN-only,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,9,64,True,False,False,0.0,0.0
+D1,lexstat,tetun+AN-only,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,3,64,True,True,True,0.969,0.985
+D1,lexstat,tetun+AN-only,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,3,64,True,True,True,1.0,1.0
+D1,lexstat,tetun+AN-only,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,64,True,True,True,0.678,0.613
+D1,lexstat,tetun+AN-only,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,7,64,True,True,True,0.989,0.973
+D1,lexstat,tetun+AN-only,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,64,True,True,True,0.999,1.0
+D1,lexstat,tetun+AN-only,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,4,64,True,True,True,0.926,0.919
+D1,lexstat,tetun+AN-only,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,4,64,True,False,False,0.0,0.0
+D1,lexstat,tetun+AN-only,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,14,64,True,False,True,0.006,0.997
+D1,lexstat,tetun+AN-only,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,64,True,True,True,0.999,0.987
+D1,lexstat,tetun+AN-only,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,64,True,True,True,0.917,0.804
+D1,lexstat,tetun+AN-only,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,10,64,True,True,True,0.999,1.0
+D1,lexstat,tetun+AN-only,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,3,64,True,True,True,0.86,0.813
+D1,lexstat,tetun+AN-only,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,64,True,True,True,1.0,1.0
+D1,lexstat,tetun+AN-only,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,64,True,False,False,0.038,0.042
+D2,expert,primary,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,18,True,True,True,0.955,0.995
+D2,expert,primary,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,14,18,True,False,False,0.0,0.007
+D2,expert,primary,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,26,True,True,True,1.0,1.0
+D2,expert,primary,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,26,True,True,True,0.977,0.997
+D2,expert,primary,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,22,26,True,False,False,0.0,0.023
+D2,expert,primary,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,26,False,False,False,,
+D2,expert,primary,EDW-ET,Eastern Timor,Glottolog 5.3,,4,26,True,False,False,0.032,0.055
+D2,expert,primary,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,26,True,True,True,1.0,1.0
+D2,expert,primary,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,1,26,False,False,False,,
+D2,expert,primary,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,5,26,True,True,True,1.0,1.0
+D2,expert,primary,EDW-SWM,Southwest Maluku,Glottolog 5.3,,11,26,True,False,False,0.0,0.054
+D2,expert,primary,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,22,26,True,False,False,0.0,0.023
+D2,expert,primary,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,26,True,True,True,0.977,0.997
+D2,expert,primary,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,26,True,True,True,0.977,0.997
+D2,expert,primary,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,4,26,True,False,False,0.032,0.055
+D2,expert,primary,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,4,26,True,False,False,0.032,0.055
+D2,expert,primary,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,26,False,False,False,,
+D2,expert,primary,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,1,26,False,False,False,,
+D2,expert,primary,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,1,26,False,False,False,,
+D2,expert,primary,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,5,26,True,True,True,1.0,1.0
+D2,expert,primary,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,26,True,True,True,1.0,1.0
+D2,expert,primary,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,26,False,False,False,,
+D2,expert,primary,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,26,False,False,False,,
+D2,expert,primary,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,11,26,True,False,False,0.0,0.054
+D2,expert,primary,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,26,True,True,True,0.758,0.781
+D2,expert,primary,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,1,26,False,False,False,,
+D2,expert,primary,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,26,True,True,True,1.0,1.0
+D2,expert,primary,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,26,False,False,False,,
+D2,expert,primary,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,26,True,True,True,1.0,1.0
+D2,expert,primary,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,26,True,True,True,0.43,0.622
+D2,expert,all,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,18,True,True,True,0.949,0.997
+D2,expert,all,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,14,18,True,False,False,0.0,0.01
+D2,expert,all,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,26,True,True,True,1.0,1.0
+D2,expert,all,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,26,True,True,True,0.973,0.999
+D2,expert,all,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,22,26,True,False,False,0.0,0.035
+D2,expert,all,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,26,False,False,False,,
+D2,expert,all,EDW-ET,Eastern Timor,Glottolog 5.3,,4,26,True,False,False,0.035,0.109
+D2,expert,all,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,26,True,True,True,1.0,1.0
+D2,expert,all,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,1,26,False,False,False,,
+D2,expert,all,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,5,26,True,True,True,1.0,1.0
+D2,expert,all,EDW-SWM,Southwest Maluku,Glottolog 5.3,,11,26,True,False,False,0.0,0.064
+D2,expert,all,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,22,26,True,False,False,0.0,0.035
+D2,expert,all,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,26,True,True,True,0.973,0.999
+D2,expert,all,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,26,True,True,True,0.973,0.999
+D2,expert,all,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,4,26,True,False,False,0.035,0.109
+D2,expert,all,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,4,26,True,False,False,0.035,0.109
+D2,expert,all,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,26,False,False,False,,
+D2,expert,all,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,1,26,False,False,False,,
+D2,expert,all,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,1,26,False,False,False,,
+D2,expert,all,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,5,26,True,True,True,1.0,1.0
+D2,expert,all,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,26,True,True,True,1.0,1.0
+D2,expert,all,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,26,False,False,False,,
+D2,expert,all,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,26,False,False,False,,
+D2,expert,all,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,11,26,True,False,False,0.0,0.064
+D2,expert,all,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,26,True,True,True,0.758,0.772
+D2,expert,all,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,1,26,False,False,False,,
+D2,expert,all,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,26,True,True,True,1.0,1.0
+D2,expert,all,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,26,False,False,False,,
+D2,expert,all,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,26,True,True,True,1.0,1.0
+D2,expert,all,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,26,True,True,True,0.43,0.671
+D2,expert,tetun,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,18,True,True,True,0.916,0.993
+D2,expert,tetun,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,14,18,True,False,False,0.002,0.029
+D2,expert,tetun,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,26,True,True,True,1.0,1.0
+D2,expert,tetun,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,26,True,True,True,0.963,0.997
+D2,expert,tetun,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,22,26,True,False,False,0.0,0.079
+D2,expert,tetun,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,26,False,False,False,,
+D2,expert,tetun,EDW-ET,Eastern Timor,Glottolog 5.3,,4,26,True,False,False,0.008,0.011
+D2,expert,tetun,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,26,True,True,True,1.0,1.0
+D2,expert,tetun,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,1,26,False,False,False,,
+D2,expert,tetun,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,5,26,True,True,True,1.0,1.0
+D2,expert,tetun,EDW-SWM,Southwest Maluku,Glottolog 5.3,,11,26,True,False,False,0.0,0.044
+D2,expert,tetun,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,22,26,True,False,False,0.0,0.079
+D2,expert,tetun,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,26,True,True,True,0.963,0.997
+D2,expert,tetun,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,26,True,True,True,0.963,0.997
+D2,expert,tetun,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,4,26,True,False,False,0.008,0.011
+D2,expert,tetun,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,4,26,True,False,False,0.008,0.011
+D2,expert,tetun,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,26,False,False,False,,
+D2,expert,tetun,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,1,26,False,False,False,,
+D2,expert,tetun,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,1,26,False,False,False,,
+D2,expert,tetun,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,5,26,True,True,True,1.0,1.0
+D2,expert,tetun,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,26,True,True,True,1.0,1.0
+D2,expert,tetun,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,26,False,False,False,,
+D2,expert,tetun,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,26,False,False,False,,
+D2,expert,tetun,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,11,26,True,False,False,0.0,0.044
+D2,expert,tetun,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,4,26,True,True,True,0.74,0.778
+D2,expert,tetun,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,1,26,False,False,False,,
+D2,expert,tetun,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,26,True,True,True,1.0,1.0
+D2,expert,tetun,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,26,False,False,False,,
+D2,expert,tetun,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,26,True,True,True,1.0,1.0
+D2,expert,tetun,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,26,True,True,True,0.43,0.618
+D2,lexstat,primary,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,22,True,True,True,0.485,0.743
+D2,lexstat,primary,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,17,22,True,False,False,0.0,0.0
+D2,lexstat,primary,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,30,True,True,True,1.0,1.0
+D2,lexstat,primary,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,30,True,True,True,0.512,0.787
+D2,lexstat,primary,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,25,30,True,False,False,0.0,0.0
+D2,lexstat,primary,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,30,False,False,False,,
+D2,lexstat,primary,EDW-ET,Eastern Timor,Glottolog 5.3,,5,30,True,False,False,0.009,0.019
+D2,lexstat,primary,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,30,True,True,True,1.0,1.0
+D2,lexstat,primary,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,2,30,True,True,True,1.0,1.0
+D2,lexstat,primary,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,6,30,True,True,True,0.979,0.982
+D2,lexstat,primary,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,30,True,False,True,0.034,0.975
+D2,lexstat,primary,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,25,30,True,False,False,0.0,0.0
+D2,lexstat,primary,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,30,True,True,True,0.512,0.787
+D2,lexstat,primary,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,30,True,True,True,0.512,0.787
+D2,lexstat,primary,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,5,30,True,False,False,0.009,0.019
+D2,lexstat,primary,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,5,30,True,False,False,0.009,0.019
+D2,lexstat,primary,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,30,False,False,False,,
+D2,lexstat,primary,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,lexstat,primary,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,lexstat,primary,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,6,30,True,True,True,0.979,0.982
+D2,lexstat,primary,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,30,True,True,True,0.994,1.0
+D2,lexstat,primary,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,lexstat,primary,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,lexstat,primary,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,30,True,False,True,0.034,0.975
+D2,lexstat,primary,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,5,30,True,True,True,1.0,0.994
+D2,lexstat,primary,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,30,True,False,True,0.428,0.584
+D2,lexstat,primary,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,1.0,1.0
+D2,lexstat,primary,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,30,False,False,False,,
+D2,lexstat,primary,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,1.0,1.0
+D2,lexstat,primary,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,30,True,False,False,0.016,0.072
+D2,lexstat,all,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,22,True,True,True,0.479,0.817
+D2,lexstat,all,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,17,22,True,False,False,0.0,0.003
+D2,lexstat,all,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,30,True,True,True,1.0,1.0
+D2,lexstat,all,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,30,True,True,True,0.501,0.844
+D2,lexstat,all,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,25,30,True,False,False,0.0,0.002
+D2,lexstat,all,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,30,False,False,False,,
+D2,lexstat,all,EDW-ET,Eastern Timor,Glottolog 5.3,,5,30,True,False,False,0.005,0.026
+D2,lexstat,all,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,30,True,True,True,1.0,1.0
+D2,lexstat,all,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,2,30,True,True,True,1.0,1.0
+D2,lexstat,all,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,6,30,True,True,True,0.99,0.988
+D2,lexstat,all,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,30,True,False,True,0.003,0.917
+D2,lexstat,all,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,25,30,True,False,False,0.0,0.002
+D2,lexstat,all,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,30,True,True,True,0.501,0.844
+D2,lexstat,all,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,30,True,True,True,0.501,0.844
+D2,lexstat,all,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,5,30,True,False,False,0.005,0.026
+D2,lexstat,all,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,5,30,True,False,False,0.005,0.026
+D2,lexstat,all,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,30,False,False,False,,
+D2,lexstat,all,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,lexstat,all,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,lexstat,all,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,6,30,True,True,True,0.99,0.988
+D2,lexstat,all,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,30,True,True,True,0.991,1.0
+D2,lexstat,all,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,lexstat,all,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,lexstat,all,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,30,True,False,True,0.003,0.917
+D2,lexstat,all,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,5,30,True,True,True,1.0,0.996
+D2,lexstat,all,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,30,True,False,True,0.446,0.697
+D2,lexstat,all,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,1.0,1.0
+D2,lexstat,all,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,30,False,False,False,,
+D2,lexstat,all,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,1.0,1.0
+D2,lexstat,all,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,30,True,False,False,0.016,0.09
+D2,lexstat,tetun,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,22,True,False,True,0.367,0.82
+D2,lexstat,tetun,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,17,22,True,False,False,0.013,0.002
+D2,lexstat,tetun,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,30,True,True,True,1.0,1.0
+D2,lexstat,tetun,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,30,True,True,True,0.501,0.868
+D2,lexstat,tetun,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,25,30,True,False,False,0.001,0.004
+D2,lexstat,tetun,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,30,False,False,False,,
+D2,lexstat,tetun,EDW-ET,Eastern Timor,Glottolog 5.3,,5,30,True,False,False,0.002,0.001
+D2,lexstat,tetun,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,30,True,True,True,1.0,1.0
+D2,lexstat,tetun,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,2,30,True,True,True,1.0,1.0
+D2,lexstat,tetun,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,6,30,True,True,True,0.997,0.992
+D2,lexstat,tetun,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,30,True,False,True,0.033,0.968
+D2,lexstat,tetun,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,25,30,True,False,False,0.001,0.004
+D2,lexstat,tetun,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,30,True,True,True,0.501,0.868
+D2,lexstat,tetun,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,30,True,True,True,0.501,0.868
+D2,lexstat,tetun,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,5,30,True,False,False,0.002,0.001
+D2,lexstat,tetun,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,5,30,True,False,False,0.002,0.001
+D2,lexstat,tetun,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,30,False,False,False,,
+D2,lexstat,tetun,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,lexstat,tetun,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,lexstat,tetun,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,6,30,True,True,True,0.997,0.992
+D2,lexstat,tetun,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,30,True,True,True,0.999,0.976
+D2,lexstat,tetun,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,lexstat,tetun,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,lexstat,tetun,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,30,True,False,True,0.033,0.968
+D2,lexstat,tetun,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,5,30,True,True,True,1.0,0.995
+D2,lexstat,tetun,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,30,True,False,True,0.428,0.618
+D2,lexstat,tetun,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,1.0,1.0
+D2,lexstat,tetun,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,30,False,False,False,,
+D2,lexstat,tetun,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,1.0,1.0
+D2,lexstat,tetun,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,30,True,False,False,0.016,0.067
+D2,sca,primary,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,22,True,True,True,0.436,0.633
+D2,sca,primary,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,17,22,True,False,False,0.001,0.023
+D2,sca,primary,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,30,True,True,True,1.0,1.0
+D2,sca,primary,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,30,True,True,True,0.428,0.638
+D2,sca,primary,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,25,30,True,False,False,0.0,0.016
+D2,sca,primary,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,30,False,False,False,,
+D2,sca,primary,EDW-ET,Eastern Timor,Glottolog 5.3,,5,30,True,False,False,0.195,0.29
+D2,sca,primary,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,30,True,True,True,1.0,1.0
+D2,sca,primary,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,2,30,True,True,True,1.0,1.0
+D2,sca,primary,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,6,30,True,True,True,0.817,0.829
+D2,sca,primary,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,30,True,False,True,0.019,0.962
+D2,sca,primary,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,25,30,True,False,False,0.0,0.016
+D2,sca,primary,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,30,True,True,True,0.428,0.638
+D2,sca,primary,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,30,True,True,True,0.428,0.638
+D2,sca,primary,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,5,30,True,False,False,0.195,0.29
+D2,sca,primary,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,5,30,True,False,False,0.195,0.29
+D2,sca,primary,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,30,False,False,False,,
+D2,sca,primary,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,sca,primary,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,sca,primary,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,6,30,True,True,True,0.817,0.829
+D2,sca,primary,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,30,True,True,True,0.999,1.0
+D2,sca,primary,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,sca,primary,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,sca,primary,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,30,True,False,True,0.019,0.962
+D2,sca,primary,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,5,30,True,True,False,0.764,0.105
+D2,sca,primary,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,30,True,False,False,0.024,0.073
+D2,sca,primary,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,0.994,1.0
+D2,sca,primary,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,30,False,False,False,,
+D2,sca,primary,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,0.994,1.0
+D2,sca,primary,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,30,True,False,False,0.042,0.097
+D2,sca,all,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,22,True,True,True,0.564,0.833
+D2,sca,all,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,17,22,True,False,False,0.002,0.053
+D2,sca,all,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,30,True,True,True,1.0,1.0
+D2,sca,all,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,30,True,True,True,0.574,0.841
+D2,sca,all,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,25,30,True,False,False,0.0,0.045
+D2,sca,all,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,30,False,False,False,,
+D2,sca,all,EDW-ET,Eastern Timor,Glottolog 5.3,,5,30,True,False,False,0.211,0.32
+D2,sca,all,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,30,True,True,True,1.0,1.0
+D2,sca,all,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,2,30,True,True,True,1.0,1.0
+D2,sca,all,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,6,30,True,True,True,0.835,0.874
+D2,sca,all,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,30,True,False,True,0.0,0.936
+D2,sca,all,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,25,30,True,False,False,0.0,0.045
+D2,sca,all,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,30,True,True,True,0.574,0.841
+D2,sca,all,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,30,True,True,True,0.574,0.841
+D2,sca,all,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,5,30,True,False,False,0.211,0.32
+D2,sca,all,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,5,30,True,False,False,0.211,0.32
+D2,sca,all,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,30,False,False,False,,
+D2,sca,all,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,sca,all,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,sca,all,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,6,30,True,True,True,0.835,0.874
+D2,sca,all,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,30,True,True,True,0.996,1.0
+D2,sca,all,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,sca,all,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,sca,all,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,30,True,False,True,0.0,0.936
+D2,sca,all,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,5,30,True,True,False,0.614,0.115
+D2,sca,all,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,30,True,False,False,0.016,0.084
+D2,sca,all,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,0.996,1.0
+D2,sca,all,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,30,False,False,False,,
+D2,sca,all,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,0.996,1.0
+D2,sca,all,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,30,True,False,False,0.042,0.109
+D2,sca,tetun,HULL-R,Ramelaic (Timoric B),"Hull 1998, 2001",C1,2,22,True,False,True,0.329,0.5
+D2,sca,tetun,HULL-F,Fabronic / Extra-Ramelaic (Timoric A),Hull 2001; van Engelenhoven 2009,C1,17,22,True,False,False,0.004,0.027
+D2,sca,tetun,HULL98-W,Welaun inside Tetun,Hull 1998 (withdrawn 2003),C2,3,30,True,True,True,1.0,1.0
+D2,sca,tetun,EDW-CT,Central Timor,Edwards 2021; Glottolog 5.3,C1 C2,2,30,True,True,True,0.349,0.527
+D2,sca,tetun,EDW-TB,Timor-Babar,Edwards 2021; Glottolog 5.3,C1,25,30,True,False,False,0.0,0.036
+D2,sca,tetun,EDW-LI,Lakalei-Idate,Edwards 2021; Glottolog 5.3,C1,0,30,False,False,False,,
+D2,sca,tetun,EDW-ET,Eastern Timor,Glottolog 5.3,,5,30,True,False,False,0.16,0.17
+D2,sca,tetun,EDW-CTA,Central Timoric A,Glottolog 5.3,,3,30,True,True,True,1.0,1.0
+D2,sca,tetun,EDW-KW,Kawaimina,Hull 2001; Edwards 2021; Glottolog 5.3,,2,30,True,True,True,1.0,1.0
+D2,sca,tetun,EDW-WA,Wetar-Atauro,Edwards 2021; Glottolog 5.3,,6,30,True,True,True,0.74,0.643
+D2,sca,tetun,EDW-SWM,Southwest Maluku,Glottolog 5.3,,12,30,True,False,True,0.019,0.954
+D2,sca,tetun,GE-TB,Timor-Babar,"Grimes & Edwards 2026, ch. 4",C1,25,30,True,False,False,0.0,0.036
+D2,sca,tetun,GE-CT,Central Timor,"Grimes & Edwards 2026, ch. 5",C1 C2,2,30,True,True,True,0.349,0.527
+D2,sca,tetun,GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)","Grimes & Edwards 2026, §5.5",C2,2,30,True,True,True,0.349,0.527
+D2,sca,tetun,GE-ET,Eastern Timor (tentative),"Grimes & Edwards 2026, §4.3",,5,30,True,False,False,0.16,0.17
+D2,sca,tetun,GE-ETLI,Eastern Timor + Lakalei-Idate,"Grimes & Edwards 2026, §4.3 (possible higher node)",C1,5,30,True,False,False,0.16,0.17
+D2,sca,tetun,GE-LI,Lakalei-Idate,"Grimes & Edwards 2026, §4.4",C1,0,30,False,False,False,,
+D2,sca,tetun,GE-MW,Midiki-Waima'a,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,sca,tetun,GE-WN,Waima'a-Naueti,"Grimes & Edwards 2026, §4.8",,2,30,True,True,True,1.0,1.0
+D2,sca,tetun,GE-WA,Wetar-Atauro,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",,6,30,True,True,True,0.74,0.643
+D2,sca,tetun,GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)","Grimes & Edwards 2026, §4.8.2",,5,30,True,True,True,1.0,0.998
+D2,sca,tetun,GE-NR,Nuclear Rote,"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,sca,tetun,GE-WRM,West Rote-Meto (Dela-Oenale + Meto),"Grimes & Edwards 2026, §4.8.1",,1,30,False,False,False,,
+D2,sca,tetun,GE-SWM,Southwest Maluku,"Grimes & Edwards 2026, §4.8.3",,12,30,True,False,True,0.019,0.954
+D2,sca,tetun,GE-KL,Kisar-Luang,"Grimes & Edwards 2026, §4.8.3",,5,30,True,True,False,0.765,0.149
+D2,sca,tetun,GE-KR,Kisar-Roma,"Grimes & Edwards 2026, §4.8.3",,2,30,True,False,False,0.024,0.086
+D2,sca,tetun,GE-BAB,Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,0.994,1.0
+D2,sca,tetun,GE-PBAB,"Peripheral Babar (Dawera-Daweloor, Dai, North Babar)","Grimes & Edwards 2026, §4.8.3",,0,30,False,False,False,,
+D2,sca,tetun,GE-SBAB,South Babar,"Grimes & Edwards 2026, §4.8.3",,7,30,True,True,True,0.994,1.0
+D2,sca,tetun,GE-SWBAB,Southwest Babar,"Grimes & Edwards 2026, §4.8.3",,3,30,True,False,False,0.042,0.093
