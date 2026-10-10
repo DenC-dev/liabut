@@ -317,3 +317,11 @@ Written after the step 1–8 results and the novelty check had been seen. Data e
     - *b > h or labial fricative;
     - *d > rhotic or l.
   - *Outputs.* E10b is reported as an innovation profile for every Timor-region language in the expert atlas, plus a phonology-only tree and a total-evidence ML tree for the 24 taxa.
+- **A4.5 E12b (post hoc).** This was added after E12 had been run and before E12b was.
+  - *Why.* E12 can only find Tetun loans. For C1 the relevant contact is loans from Central Timor into Lakalei-Idate.
+  - *Which forms.* The Idaté and Lakalei forms in the cognate sets that Lakalei-Idate shares with Central Timor but not with Tetun (from E4).
+  - *Test.* Each form's reflexes (E9) are checked against the Lakalei-Idate and Central Timor expert majorities (E8), at the targets where those two differ:
+    - **probable Central Timor loan**: the form shows Central Timor's reflex;
+    - **inherited or old**: it shows Lakalei-Idate's own reflex;
+    - **undecidable**: no such target.
+  - *Reading.* If the shared words carry Lakalei-Idate's own sound changes, they predate those changes, which argues against recent borrowing from Central Timor.
