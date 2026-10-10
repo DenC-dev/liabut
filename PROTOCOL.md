@@ -142,4 +142,24 @@ Everything goes in `results/`: cognate sets, loan flags, distance matrices, tree
 
 ## Addenda
 
-(none yet)
+The v1 text above is unchanged since the freeze; the only edit is this section, which replaced the line "(none yet)". To check, run `git show 35b913c:PROTOCOL.md | sha256sum` and compare with `PROTOCOL.sha256`. The `reference/*.csv` files are unchanged and still match it directly (`sha256sum -c` passes for them).
+
+### Addendum 1 (2026-10-10, PROPOSED, not adopted)
+
+**Status.** The gate failed on G2 (see `results/REPORT.md`). Everything below was written after seeing the step 1–4 results, so it is **post hoc**. While diagnosing the TAP miss, the analyst also viewed the full D1 LexStat UPGMA tree, including the Timor lects. None of the changes uses that tree's Timor topology, but readers should know it was seen. No change takes effect until the PI adopts it.
+
+**A1.1 Make G2 relative to the expert benchmark.**
+
+- *Reason.* Two of the six D2 checks (Luang + Wetan, Perai + Aputai) fail with the ABVD expert cognates too. They can't tell good cognate detection from bad.
+- *Proposed rule.* G2 passes if LexStat recovers at least as many D2 checks as the expert cognates do under UPGMA.
+- *Result if adopted.* 4 vs 4, so G2 passes and the gate passes.
+- *Known weakness carried forward.* LexStat misses Atoni + Rote in D2 because the ABVD Atoni entries are inflected or compound. D2 results in step 5 would use the expert cognates as D2's primary set.
+
+**A1.2 Keep every lect in the sensitivity variants.**
+
+- *Reason.* V-tetun drops Idaté, Lakalei, Habu and Galoli below 100 concepts, and V-contact drops 28 lects. Neither variant can then test C1.
+- *Proposed rule.*
+  - The 100-concept minimum applies to the primary data only. Sensitivity variants keep every lect that passes on the primary data, and lects under 100 concepts in a variant are flagged rather than dropped.
+  - V-contact removes only the TAP-side forms of a contact set. The direction of borrowing can't be read automatically, and removing the Austronesian forms too would wipe out shared inherited Austronesian vocabulary.
+
+**A1.3 Encode Grimes and Edwards (2026).** Before step 5, add their Timor subgroups to `reference/hypotheses.csv` from the book (CC-BY 4.0, Zenodo record 18323007), with page references.

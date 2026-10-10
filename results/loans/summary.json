@@ -1,0 +1,20 @@
+{
+ "d1": {
+  "forms": 10555,
+  "L1_expert": 0,
+  "L2_contact": 2714,
+  "L3_indonesian": 385,
+  "L4_portuguese": 29,
+  "L5_tetun": 740,
+  "contact_sets": 151
+ },
+ "d2": {
+  "forms": 5433,
+  "L1_expert": 41,
+  "L2_contact": 0,
+  "L3_indonesian": 193,
+  "L4_portuguese": 1,
+  "L5_tetun": 115,
+  "contact_sets": 0
+ }
+}

@@ -1,0 +1,5 @@
+lingpy==2.6.14
+python-igraph
+pandas
+numpy
+scipy
