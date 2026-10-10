@@ -305,3 +305,15 @@ Written after the step 1–8 results and the novelty check had been seen. Data e
 - **A4.2 Unhighlighted expert forms.** Grimes and Edwards sometimes list a language without highlighting it. They do this for comparison rows, such as Lakalei and Idaté in their table 04-16. So a cognate form with no highlight is not a zero reflex.
   - *New rule.* For such forms, the reflex is read off an SCA alignment of the form with the etymon and labelled `Source = aligned`. E9 is validated against highlighted tokens only.
 - **A4.3 Positions.** E10 keeps one character per PMP target, pooling positions as declared. A sensitivity version with one character per target and position is also reported.
+- **A4.4 E10b (post hoc).** This was added after the E11(a, b) results had been seen and before E10b was run.
+  - *Why.* The A4.1 coding treats *p > h, *p > ʔ and *p > ∅ as unrelated states. Grimes and Edwards treat them as one lenition. So E10 cannot recover Timor-Babar, whose defining change it is.
+  - *What E10b is.* Binary characters for the diagnostic changes Grimes and Edwards name, each taken from the expert atlas (majority class, at least 2 tokens):
+    - *p lenited (h, ʔ, ∅);
+    - *ŋ > velar stop;
+    - *ŋ > n;
+    - *j > rhotic;
+    - *j > l;
+    - *R > ∅;
+    - *b > h or labial fricative;
+    - *d > rhotic or l.
+  - *Outputs.* E10b is reported as an innovation profile for every Timor-region language in the expert atlas, plus a phonology-only tree and a total-evidence ML tree for the 24 taxa.
