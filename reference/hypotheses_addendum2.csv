@@ -1,0 +1,20 @@
+ID,Source,Name,Members,Prune,Contrast
+GE-TB,"Grimes & Edwards 2026, ch. 4",Timor-Babar,idat1237 idat1237-cribas laka1255 tetu1246 tetu1245-suai habu1241 midi1237 waim1252 naue1237 galo1243 dadu1237 eray1237 ilma1240 uhak1237 ilpu1239 kaha1239 funa1237 koto1251 rois1241 kusa1252 term1237 tiii1241 dela1252 lole1239 ring1244 kisa1266 roma1332 luan1264 weta1243 imro1237 tela1241 daii1240 nort2860 empl1237 east2462 sout2883 cent2072 seri1255 dawe1237,,C1
+GE-CT,"Grimes & Edwards 2026, ch. 5",Central Timor,mamb1306 mamb1306-NWbar mamb1306-NWhat mamb1306-NWrai mamb1306-Claul mamb1306-Caile mamb1306-Cliqu mamb1306-Chatu mamb1306-Sudo mamb1306-Sbeta mamb1306-Slete kema1243 kema1243-kaila kema1243-kutu kema1243-leol kema1243-lemi kema1243-sane kema1243-leos kema1243-diir tuku1254 west2547-welaun west2547-mahein,,C1 C2
+GE-NCT,"Grimes & Edwards 2026, §5.5","Nuclear Central Timor (Kemak, Tokodede, Mambae)",mamb1306 mamb1306-NWbar mamb1306-NWhat mamb1306-NWrai mamb1306-Claul mamb1306-Caile mamb1306-Cliqu mamb1306-Chatu mamb1306-Sudo mamb1306-Sbeta mamb1306-Slete kema1243 kema1243-kaila kema1243-kutu kema1243-leol kema1243-lemi kema1243-sane kema1243-leos kema1243-diir tuku1254,,C2
+GE-ET,"Grimes & Edwards 2026, §4.3",Eastern Timor (tentative),tetu1246 tetu1245-suai habu1241 midi1237 waim1252 naue1237,,
+GE-ETLI,"Grimes & Edwards 2026, §4.3 (possible higher node)",Eastern Timor + Lakalei-Idate,tetu1246 tetu1245-suai habu1241 midi1237 waim1252 naue1237 idat1237 idat1237-cribas laka1255,,C1
+GE-LI,"Grimes & Edwards 2026, §4.4",Lakalei-Idate,idat1237 idat1237-cribas laka1255,,C1
+GE-MW,"Grimes & Edwards 2026, §4.8",Midiki-Waima'a,midi1237 waim1252 naue1237,,
+GE-WN,"Grimes & Edwards 2026, §4.8",Waima'a-Naueti,waim1252 naue1237,,
+GE-WA,"Grimes & Edwards 2026, §4.8.2 (two overlapping subgroups)",Wetar-Atauro,galo1243 dadu1237 eray1237 ilma1240 uhak1237 ilpu1239 kaha1239,,
+GE-WET,"Grimes & Edwards 2026, §4.8.2","Wetar (Tugun, Ili'uun, Aputai-Perai)",eray1237 ilma1240 uhak1237 ilpu1239 kaha1239,,
+GE-NR,"Grimes & Edwards 2026, §4.8.1",Nuclear Rote,tiii1241 lole1239 term1237 ring1244,,
+GE-WRM,"Grimes & Edwards 2026, §4.8.1",West Rote-Meto (Dela-Oenale + Meto),dela1252 koto1251 rois1241 kusa1252,,
+GE-SWM,"Grimes & Edwards 2026, §4.8.3",Southwest Maluku,kisa1266 roma1332 luan1264 weta1243 imro1237 tela1241 daii1240 nort2860 empl1237 east2462 sout2883 cent2072 seri1255 dawe1237,,
+GE-KL,"Grimes & Edwards 2026, §4.8.3",Kisar-Luang,kisa1266 roma1332 luan1264 weta1243,,
+GE-KR,"Grimes & Edwards 2026, §4.8.3",Kisar-Roma,kisa1266 roma1332,,
+GE-BAB,"Grimes & Edwards 2026, §4.8.3",Babar,imro1237 tela1241 daii1240 nort2860 empl1237 east2462 sout2883 cent2072 seri1255 dawe1237,,
+GE-PBAB,"Grimes & Edwards 2026, §4.8.3","Peripheral Babar (Dawera-Daweloor, Dai, North Babar)",dawe1237 daii1240 nort2860,,
+GE-SBAB,"Grimes & Edwards 2026, §4.8.3",South Babar,cent2072 sout2883 seri1255 east2462 imro1237 tela1241 empl1237,,
+GE-SWBAB,"Grimes & Edwards 2026, §4.8.3",Southwest Babar,imro1237 tela1241 empl1237,,

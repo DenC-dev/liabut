@@ -144,9 +144,9 @@ Everything goes in `results/`: cognate sets, loan flags, distance matrices, tree
 
 The v1 text above is unchanged since the freeze; the only edit is this section, which replaced the line "(none yet)". To check, run `git show 35b913c:PROTOCOL.md | sha256sum` and compare with `PROTOCOL.sha256`. The `reference/*.csv` files are unchanged and still match it directly (`sha256sum -c` passes for them).
 
-### Addendum 1 (2026-10-10, PROPOSED, not adopted)
+### Addendum 1 (2026-10-10, ADOPTED by the PI the same day; post hoc)
 
-**Status.** The gate failed on G2 (see `results/REPORT.md`). Everything below was written after seeing the step 1–4 results, so it is **post hoc**. While diagnosing the TAP miss, the analyst also viewed the full D1 LexStat UPGMA tree, including the Timor lects. None of the changes uses that tree's Timor topology, but readers should know it was seen. No change takes effect until the PI adopts it.
+**Status.** The gate failed on G2 (see `results/REPORT.md`). Everything below was written after seeing the step 1–4 results, so it is **post hoc**. While diagnosing the TAP miss, the analyst also viewed the full D1 LexStat UPGMA tree, including the Timor lects. None of the changes uses that tree's Timor topology, but readers should know it was seen. The PI adopted A1.1 to A1.3 on 2026-10-10, so steps 5 to 8 run under the amended gate. Results under the v1 rules are kept in `results/gate_v1.json` and `results/known_answers_v1.csv`.
 
 **A1.1 Make G2 relative to the expert benchmark.**
 
@@ -163,3 +163,60 @@ The v1 text above is unchanged since the freeze; the only edit is this section, 
   - V-contact removes only the TAP-side forms of a contact set. The direction of borrowing can't be read automatically, and removing the Austronesian forms too would wipe out shared inherited Austronesian vocabulary.
 
 **A1.3 Encode Grimes and Edwards (2026).** Before step 5, add their Timor subgroups to `reference/hypotheses.csv` from the book (CC-BY 4.0, Zenodo record 18323007), with page references.
+
+### Addendum 2 (2026-10-10, before any hypothesis clade was scored)
+
+Written after the gate passed under Addendum 1 and before step 5 was run. As noted in Addendum 1, the analyst has seen the full D1 LexStat UPGMA tree, so steps 5 to 8 are not blind. The rules below are fixed before any hypothesis clade is scored or any Bayesian run is made.
+
+**A2.1 Grimes and Edwards (2026) clades.** These are encoded in `reference/hypotheses_addendum2.csv`, 19 clades taken from the book's LaTeX source (github.com/langsci/526, CC-BY 4.0): sections 4.3, 4.4, 4.8, 4.8.1–4.8.3 and 5.5.
+
+- Timor-Babar is defined by *p > h. Central Timor (Welaun, Kemak, Tokodede, Mambae) is defined by *ŋ > g and keeps *p.
+- The book places Dadu'a in Atauro, not Wetar.
+- It calls Wetar-Atauro "two overlapping subgroups", which is a linkage rather than a clade.
+- It treats Eastern Timor as tentative, and allows that Eastern Timor and Lakalei-Idate may form a higher node.
+- It does not discuss Hull.
+- It reports that Welaun is lexically closer to Tetun (55–58%) than to Central Timor, which it explains as contact (citing Edwards 2019). **A lexical test is therefore expected to put Welaun with Tetun under either view, so C2 cannot be settled lexically.** C2 is reported, but it is not decided on lexical grounds alone.
+
+**A2.2 Step 5 details.**
+
+- Hypothesis clades from both files are checked on every configuration in step 4. Lects in `Prune` are removed first.
+- The v1 rule applies: a clade is lexically supported if bootstrap support is ≥ 70% under both UPGMA and NJ on D1 LexStat primary, and also under V-contact and V-tetun.
+- Robustness check, added here: the same tests with the six TAP lects removed (Austronesian-only trees). It is reported beside the main result and does not replace it.
+
+**A2.3 Step 6 details.**
+
+- Delta scores (Holland et al. 2002) and Q-residuals (Gray et al. 2010) on D1 LexStat primary distances: for all 37 Timor Austronesian lects, for all 64 Austronesian lects, and per lect.
+- A NeighborNet (SplitsPy 0.0.10) on the 24 Bayesian taxa (A2.4), for display.
+
+**A2.4 Step 7 details.**
+
+- *Software.* MrBayes 3.2.7a replaces BEAST2. BEAST2 and its model-selection package could not be set up in this environment, and MrBayes has built-in stepping-stone sampling and positive/negative topology constraints.
+- *Taxa.* 24 lects, one per language, chosen by highest coverage on the primary data: Mambae (Letefoho), Kemak (Kailaku), Tokodede, Welaun, Idaté (Cribas), Lakalei, Tetun (Suai), Habu, Waima'a, Midiki, Naueti, Galoli, Dadu'a, Helong (Funai), Meto (Kotos), Termanu, Dela, Ili'uun (Ilmaumau), Tugun, Kisar, Luang, Tela-Masbuar, and the roots Lamaholot (Lewoingu) and Sika (Hewa).
+  - Southern Tetun is used rather than Tetun Dili because Tetun Dili is a creole with heavy Portuguese input.
+- *Data and model.*
+  - Data: binary cognate-set presence/absence from D1 LexStat primary, 1,353 characters.
+  - Model: restriction data with coding=noabsencesites, gamma rates, exponential(10) branch lengths, unrooted, outgroup Lamaholot.
+- *Contrasts.* Each is run with the clade forced (hard constraint) and forbidden (negative constraint):
+  - C1: Ramelaic {Mambae, Kemak, Tokodede, Idaté, Lakalei}
+  - C2: Central Timor {Mambae, Kemak, Tokodede, Welaun}
+  - TB: Timor-Babar, meaning all non-Central-Timor, non-root taxa
+- *Sampling.*
+  - Stepping-stone: 5,000,000 generations, 50 steps, α = 0.4, 2 runs.
+  - An unconstrained run (2,000,000 generations, 2 runs × 2 chains) gives posterior clade probabilities.
+- *Reading the result.* ln BF = lnML(forced) − lnML(forbidden). |ln BF| ≥ 5 counts as strong.
+
+**A2.5 Exploratory analyses.** These are labelled exploratory and do not enter the step 8 decision.
+
+- **E1, stable vocabulary.**
+  - The 60 D1 concepts on the Leipzig-Jakarta list (Tadmor 2009, via Concepticon) are the stable set; the other 92 concepts are the complement.
+  - Step 5 clade support is recomputed on each set.
+  - A grouping that holds on the stable set is less likely to be contact.
+- **E2, sound-change diagnostics.**
+  - For D1 concepts with an ABVD Proto-Malayo-Polynesian form (ABVD language 269), each lect's form is aligned to the PMP form (LingPy SCA, global alignment). The pair is kept if the SCA sound-class strings are within NED 0.5.
+  - The reflexes of *p (not word-final) and *ŋ are then classed:
+    - *p retained (p b f v ɸ β, with or without prenasalisation) vs lost or weakened (h ʔ ∅)
+    - *ŋ > velar stop (g k) vs other
+  - This replicates the defining changes of Timor-Babar and Central Timor (Grimes and Edwards 2026). It is not independent of their sources.
+- **E3, Tetun affinity by stability.** For each Timor lect, the share of concepts where it shares a cognate with Tetun (either Tetun lect), on the stable set and on the complement. Contact should raise affinity more in the complement.
+
+**A2.6 Step 8** applies the v1 decision rules to C1 and C2. Support for the Grimes and Edwards clades is reported alongside.

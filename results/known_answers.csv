@@ -1,235 +1,235 @@
-Dataset,Cognates,Variant,Check,Tier,Name,Members_Present,Members_Missing,UPGMA,NJ,UPGMA_Bootstrap,NJ_Bootstrap,Lects,Concepts
-D1,lexstat,primary,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.991,70,152
-D1,lexstat,primary,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152
-D1,lexstat,primary,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152
-D1,lexstat,primary,KA1-idate,1,Idate varieties,2,,True,True,0.941,0.977,70,152
-D1,lexstat,primary,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152
-D1,lexstat,primary,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152
-D1,lexstat,primary,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152
-D1,lexstat,primary,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.932,0.606,70,152
-D1,lexstat,primary,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.996,0.991,70,152
-D1,lexstat,primary,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152
-D1,lexstat,primary,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.977,0.96,70,152
-D1,lexstat,primary,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.994,0.996,70,152
-D1,lexstat,primary,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152
-D1,lexstat,primary,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,False,True,0.05,0.95,70,152
-D1,lexstat,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.98,0.998,70,152
-D1,lexstat,all,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.987,70,152
-D1,lexstat,all,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152
-D1,lexstat,all,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152
-D1,lexstat,all,KA1-idate,1,Idate varieties,2,,True,True,0.911,0.956,70,152
-D1,lexstat,all,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152
-D1,lexstat,all,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152
-D1,lexstat,all,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152
-D1,lexstat,all,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,False,0.911,0.548,70,152
-D1,lexstat,all,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.998,0.989,70,152
-D1,lexstat,all,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152
-D1,lexstat,all,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.873,0.98,70,152
-D1,lexstat,all,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.981,0.994,70,152
-D1,lexstat,all,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152
-D1,lexstat,all,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,False,True,0.035,0.965,70,152
-D1,lexstat,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.965,0.999,70,152
-D1,lexstat,contact,KA1-mambae,1,Mambae dialects,0,mamb1306 mamb1306-NWbar mamb1306-NWhat mamb1306-NWrai mamb1306-Claul mamb1306-Caile mamb1306-Cliqu mamb1306-Chatu mamb1306-Sudo mamb1306-Sbeta mamb1306-Slete,False,False,0.0,0.0,42,152
-D1,lexstat,contact,KA1-kemak,1,Kemak dialects,4,kema1243 kema1243-kutu kema1243-leos kema1243-diir,True,True,1.0,1.0,42,152
-D1,lexstat,contact,KA1-bunak,1,Bunak dialects,0,buna1278-bobon buna1278-malia buna1278-suai,False,False,0.0,0.0,42,152
-D1,lexstat,contact,KA1-idate,1,Idate varieties,0,idat1237 idat1237-cribas,False,False,0.0,0.0,42,152
-D1,lexstat,contact,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,42,152
-D1,lexstat,contact,KA1-tetun,1,Tetun Dili + Southern Tetun,0,tetu1246 tetu1245-suai,False,False,0.0,0.0,42,152
-D1,lexstat,contact,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,42,152
-D1,lexstat,contact,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.851,0.624,42,152
-D1,lexstat,contact,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.967,0.98,42,152
-D1,lexstat,contact,KA2-meto,2,Meto,3,,True,True,1.0,1.0,42,152
-D1,lexstat,contact,KA2-rotemeto,2,Rote-Meto,7,ring1244,True,True,0.957,0.976,42,152
-D1,lexstat,contact,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.983,0.983,42,152
-D1,lexstat,contact,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,42,152
-D1,lexstat,contact,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,buna1278-bobon buna1278-malia buna1278-suai,True,True,1.0,1.0,42,152
-D1,lexstat,contact,KA2-floreslembata,2,Flores-Lembata,2,keda1252,True,True,0.996,0.999,42,152
-D1,lexstat,tetun,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,66,152
-D1,lexstat,tetun,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,66,152
-D1,lexstat,tetun,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,66,152
-D1,lexstat,tetun,KA1-idate,1,Idate varieties,1,idat1237,False,False,0.0,1.0,66,152
-D1,lexstat,tetun,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,66,152
-D1,lexstat,tetun,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,66,152
-D1,lexstat,tetun,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,66,152
-D1,lexstat,tetun,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.932,0.707,66,152
-D1,lexstat,tetun,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.996,0.992,66,152
-D1,lexstat,tetun,KA2-meto,2,Meto,3,,True,True,1.0,1.0,66,152
-D1,lexstat,tetun,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.949,0.984,66,152
-D1,lexstat,tetun,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.994,0.995,66,152
-D1,lexstat,tetun,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,66,152
-D1,lexstat,tetun,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,False,True,0.094,0.972,66,152
-D1,lexstat,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.969,1.0,66,152
-D1,sca,primary,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,70,152
-D1,sca,primary,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152
-D1,sca,primary,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152
-D1,sca,primary,KA1-idate,1,Idate varieties,2,,True,True,0.96,0.989,70,152
-D1,sca,primary,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152
-D1,sca,primary,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152
-D1,sca,primary,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152
-D1,sca,primary,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.903,0.55,70,152
-D1,sca,primary,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.884,0.764,70,152
-D1,sca,primary,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152
-D1,sca,primary,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.603,0.974,70,152
-D1,sca,primary,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.611,0.561,70,152
-D1,sca,primary,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152
-D1,sca,primary,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,True,True,0.57,0.981,70,152
-D1,sca,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.948,0.979,70,152
-D1,sca,all,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.997,70,152
-D1,sca,all,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152
-D1,sca,all,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152
-D1,sca,all,KA1-idate,1,Idate varieties,2,,True,True,0.937,0.981,70,152
-D1,sca,all,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152
-D1,sca,all,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152
-D1,sca,all,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152
-D1,sca,all,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.869,0.482,70,152
-D1,sca,all,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.945,0.832,70,152
-D1,sca,all,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152
-D1,sca,all,KA2-rotemeto,2,Rote-Meto,8,,False,True,0.476,0.986,70,152
-D1,sca,all,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.545,0.527,70,152
-D1,sca,all,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152
-D1,sca,all,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,True,True,0.396,0.972,70,152
-D1,sca,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.909,0.979,70,152
-D1,sca,contact,KA1-mambae,1,Mambae dialects,0,mamb1306 mamb1306-NWbar mamb1306-NWhat mamb1306-NWrai mamb1306-Claul mamb1306-Caile mamb1306-Cliqu mamb1306-Chatu mamb1306-Sudo mamb1306-Sbeta mamb1306-Slete,False,False,0.0,0.0,42,152
-D1,sca,contact,KA1-kemak,1,Kemak dialects,4,kema1243 kema1243-kutu kema1243-leos kema1243-diir,True,True,1.0,1.0,42,152
-D1,sca,contact,KA1-bunak,1,Bunak dialects,0,buna1278-bobon buna1278-malia buna1278-suai,False,False,0.0,0.0,42,152
-D1,sca,contact,KA1-idate,1,Idate varieties,0,idat1237 idat1237-cribas,False,False,0.0,0.0,42,152
-D1,sca,contact,KA1-welaun,1,Welaun varieties,2,,True,True,0.999,1.0,42,152
-D1,sca,contact,KA1-tetun,1,Tetun Dili + Southern Tetun,0,tetu1246 tetu1245-suai,False,False,0.0,0.0,42,152
-D1,sca,contact,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,42,152
-D1,sca,contact,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,False,0.701,0.38,42,152
-D1,sca,contact,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.789,0.75,42,152
-D1,sca,contact,KA2-meto,2,Meto,3,,True,True,1.0,1.0,42,152
-D1,sca,contact,KA2-rotemeto,2,Rote-Meto,7,ring1244,True,True,0.725,0.943,42,152
-D1,sca,contact,KA2-fatoir,2,Fataluku-Oirata,2,,False,False,0.428,0.486,42,152
-D1,sca,contact,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,42,152
-D1,sca,contact,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,buna1278-bobon buna1278-malia buna1278-suai,True,True,1.0,1.0,42,152
-D1,sca,contact,KA2-floreslembata,2,Flores-Lembata,2,keda1252,True,True,0.966,0.991,42,152
-D1,sca,tetun,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,1.0,66,152
-D1,sca,tetun,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,66,152
-D1,sca,tetun,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,66,152
-D1,sca,tetun,KA1-idate,1,Idate varieties,1,idat1237,False,False,0.0,1.0,66,152
-D1,sca,tetun,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,66,152
-D1,sca,tetun,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,66,152
-D1,sca,tetun,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,66,152
-D1,sca,tetun,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.903,0.64,66,152
-D1,sca,tetun,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.884,0.78,66,152
-D1,sca,tetun,KA2-meto,2,Meto,3,,True,True,1.0,1.0,66,152
-D1,sca,tetun,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.561,0.971,66,152
-D1,sca,tetun,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.611,0.518,66,152
-D1,sca,tetun,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,66,152
-D1,sca,tetun,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,True,True,0.702,0.978,66,152
-D1,sca,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.918,0.986,66,152
-D1,biglexstat,primary,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,64,152
-D1,biglexstat,primary,KA1-kemak,1,Kemak dialects,8,,True,True,0.978,0.986,64,152
-D1,biglexstat,primary,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,64,152
-D1,biglexstat,primary,KA1-idate,1,Idate varieties,2,,True,True,0.706,0.825,64,152
-D1,biglexstat,primary,KA1-welaun,1,Welaun varieties,2,,True,True,0.994,0.995,64,152
-D1,biglexstat,primary,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,64,152
-D1,biglexstat,primary,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,64,152
-D1,biglexstat,primary,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.798,0.793,64,152
-D1,biglexstat,primary,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.985,0.985,64,152
-D1,biglexstat,primary,KA2-meto,2,Meto,3,,True,True,1.0,1.0,64,152
-D1,biglexstat,primary,KA2-rotemeto,2,Rote-Meto,8,,True,True,1.0,1.0,64,152
-D1,biglexstat,primary,KA2-fatoir,2,Fataluku-Oirata,0,fata1247 oira1263,False,False,0.0,0.0,64,152
-D1,biglexstat,primary,KA2-eastTAP,2,East Timor TAP,0,fata1247 maka1316 oira1263,False,False,0.0,0.0,64,152
-D1,biglexstat,primary,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,fata1247 maka1316 oira1263,True,True,1.0,1.0,64,152
-D1,biglexstat,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.837,0.856,64,152
-D1,biglexstat,all,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,65,152
-D1,biglexstat,all,KA1-kemak,1,Kemak dialects,8,,True,True,0.987,0.99,65,152
-D1,biglexstat,all,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,65,152
-D1,biglexstat,all,KA1-idate,1,Idate varieties,2,,True,True,0.612,0.764,65,152
-D1,biglexstat,all,KA1-welaun,1,Welaun varieties,2,,True,True,0.994,0.996,65,152
-D1,biglexstat,all,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,65,152
-D1,biglexstat,all,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,65,152
-D1,biglexstat,all,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.783,0.767,65,152
-D1,biglexstat,all,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.97,0.967,65,152
-D1,biglexstat,all,KA2-meto,2,Meto,3,,True,True,1.0,1.0,65,152
-D1,biglexstat,all,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.576,0.853,65,152
-D1,biglexstat,all,KA2-fatoir,2,Fataluku-Oirata,0,fata1247 oira1263,False,False,0.0,0.0,65,152
-D1,biglexstat,all,KA2-eastTAP,2,East Timor TAP,0,fata1247 maka1316 oira1263,False,False,0.0,0.0,65,152
-D1,biglexstat,all,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,fata1247 maka1316 oira1263,True,True,1.0,1.0,65,152
-D1,biglexstat,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.686,0.565,65,152
-D1,biglexstat,contact,KA1-mambae,1,Mambae dialects,0,mamb1306 mamb1306-NWbar mamb1306-NWhat mamb1306-NWrai mamb1306-Claul mamb1306-Caile mamb1306-Cliqu mamb1306-Chatu mamb1306-Sudo mamb1306-Sbeta mamb1306-Slete,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA1-kemak,1,Kemak dialects,2,kema1243 kema1243-kaila kema1243-kutu kema1243-sane kema1243-leos kema1243-diir,True,True,0.996,0.998,15,152
-D1,biglexstat,contact,KA1-bunak,1,Bunak dialects,0,buna1278-bobon buna1278-malia buna1278-suai,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA1-idate,1,Idate varieties,0,idat1237 idat1237-cribas,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA1-welaun,1,Welaun varieties,0,west2547-welaun west2547-mahein,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA1-tetun,1,Tetun Dili + Southern Tetun,0,tetu1246 tetu1245-suai,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,15,152
-D1,biglexstat,contact,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",1,eray1237,False,False,0.0,1.0,15,152
-D1,biglexstat,contact,KA1-luang,1,"Luang (Luang island, Wetan)",0,luan1264 weta1243,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA2-meto,2,Meto,2,kusa1252,True,True,1.0,1.0,15,152
-D1,biglexstat,contact,KA2-rotemeto,2,Rote-Meto,4,term1237 dela1252 ring1244 kusa1252,True,True,0.588,0.719,15,152
-D1,biglexstat,contact,KA2-fatoir,2,Fataluku-Oirata,0,fata1247 oira1263,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA2-eastTAP,2,East Timor TAP,0,fata1247 maka1316 oira1263,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,0,buna1278-bobon buna1278-malia buna1278-suai fata1247 maka1316 oira1263,False,False,0.0,0.0,15,152
-D1,biglexstat,contact,KA2-floreslembata,2,Flores-Lembata,2,keda1252,True,True,0.794,0.867,15,152
-D1,biglexstat,tetun,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,58,152
-D1,biglexstat,tetun,KA1-kemak,1,Kemak dialects,8,,True,True,0.977,0.979,58,152
-D1,biglexstat,tetun,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,58,152
-D1,biglexstat,tetun,KA1-idate,1,Idate varieties,1,idat1237,False,False,0.0,1.0,58,152
-D1,biglexstat,tetun,KA1-welaun,1,Welaun varieties,0,west2547-welaun west2547-mahein,False,False,0.0,0.0,58,152
-D1,biglexstat,tetun,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,58,152
-D1,biglexstat,tetun,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,58,152
-D1,biglexstat,tetun,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.798,0.792,58,152
-D1,biglexstat,tetun,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.985,0.981,58,152
-D1,biglexstat,tetun,KA2-meto,2,Meto,3,,True,True,1.0,1.0,58,152
-D1,biglexstat,tetun,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.998,1.0,58,152
-D1,biglexstat,tetun,KA2-fatoir,2,Fataluku-Oirata,0,fata1247 oira1263,False,False,0.0,0.0,58,152
-D1,biglexstat,tetun,KA2-eastTAP,2,East Timor TAP,0,fata1247 maka1316 oira1263,False,False,0.0,0.0,58,152
-D1,biglexstat,tetun,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,fata1247 maka1316 oira1263,True,True,1.0,1.0,58,152
-D1,biglexstat,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.832,0.854,58,152
-D2,expert,primary,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,26,208
-D2,expert,primary,KA1-iliuun,1,Ili'uun,2,,True,True,0.964,0.617,26,208
-D2,expert,primary,KA1-luang,1,Luang + Wetan,2,,False,False,0.008,0.058,26,208
-D2,expert,primary,KA2-rotemeto,2,Rote-Meto,2,,True,True,0.904,0.762,26,208
-D2,expert,primary,KA2-floreslembata,2,Flores-Lembata,2,486,True,True,0.997,1.0,26,208
-D2,expert,primary,KA2-perai-aputai,2,Perai-Aputai,2,,False,True,0.16,0.548,26,208
-D2,expert,all,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,208
-D2,expert,all,KA1-iliuun,1,Ili'uun,2,,True,True,0.968,0.729,30,208
-D2,expert,all,KA1-luang,1,Luang + Wetan,2,,False,False,0.009,0.052,30,208
-D2,expert,all,KA2-rotemeto,2,Rote-Meto,2,,True,True,0.906,0.718,30,208
-D2,expert,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.998,1.0,30,208
-D2,expert,all,KA2-perai-aputai,2,Perai-Aputai,2,,False,True,0.247,0.581,30,208
-D2,expert,tetun,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,25,208
-D2,expert,tetun,KA1-iliuun,1,Ili'uun,2,,True,True,0.964,0.6,25,208
-D2,expert,tetun,KA1-luang,1,Luang + Wetan,2,,False,False,0.008,0.085,25,208
-D2,expert,tetun,KA2-rotemeto,2,Rote-Meto,2,,True,True,0.927,0.815,25,208
-D2,expert,tetun,KA2-floreslembata,2,Flores-Lembata,2,486,True,True,1.0,1.0,25,208
-D2,expert,tetun,KA2-perai-aputai,2,Perai-Aputai,2,,False,True,0.16,0.547,25,208
-D2,lexstat,primary,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210
-D2,lexstat,primary,KA1-iliuun,1,Ili'uun,2,,True,True,0.765,0.842,30,210
-D2,lexstat,primary,KA1-luang,1,Luang + Wetan,2,,True,True,0.817,0.823,30,210
-D2,lexstat,primary,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.0,0.062,30,210
-D2,lexstat,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.977,1.0,30,210
-D2,lexstat,primary,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.227,0.148,30,210
-D2,lexstat,all,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210
-D2,lexstat,all,KA1-iliuun,1,Ili'uun,2,,True,True,0.799,0.889,30,210
-D2,lexstat,all,KA1-luang,1,Luang + Wetan,2,,True,True,0.765,0.774,30,210
-D2,lexstat,all,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.0,0.036,30,210
-D2,lexstat,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.98,0.992,30,210
-D2,lexstat,all,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.155,0.078,30,210
-D2,lexstat,tetun,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,29,210
-D2,lexstat,tetun,KA1-iliuun,1,Ili'uun,2,,True,True,0.765,0.833,29,210
-D2,lexstat,tetun,KA1-luang,1,Luang + Wetan,2,,True,True,0.819,0.797,29,210
-D2,lexstat,tetun,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.0,0.064,29,210
-D2,lexstat,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.978,0.998,29,210
-D2,lexstat,tetun,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.227,0.157,29,210
-D2,sca,primary,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210
-D2,sca,primary,KA1-iliuun,1,Ili'uun,2,,True,True,0.879,0.93,30,210
-D2,sca,primary,KA1-luang,1,Luang + Wetan,2,,False,False,0.133,0.34,30,210
-D2,sca,primary,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.001,0.158,30,210
-D2,sca,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.994,0.999,30,210
-D2,sca,primary,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.163,0.358,30,210
-D2,sca,all,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210
-D2,sca,all,KA1-iliuun,1,Ili'uun,2,,True,True,0.904,0.963,30,210
-D2,sca,all,KA1-luang,1,Luang + Wetan,2,,False,False,0.122,0.352,30,210
-D2,sca,all,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.0,0.179,30,210
-D2,sca,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.993,0.997,30,210
-D2,sca,all,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.159,0.311,30,210
-D2,sca,tetun,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,29,210
-D2,sca,tetun,KA1-iliuun,1,Ili'uun,2,,True,True,0.879,0.925,29,210
-D2,sca,tetun,KA1-luang,1,Luang + Wetan,2,,False,False,0.134,0.319,29,210
-D2,sca,tetun,KA2-rotemeto,2,Rote-Meto,2,,False,True,0.001,0.166,29,210
-D2,sca,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.99,0.999,29,210
-D2,sca,tetun,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.162,0.398,29,210
+Dataset,Cognates,Variant,Check,Tier,Name,Members_Present,Members_Missing,UPGMA,NJ,UPGMA_Bootstrap,NJ_Bootstrap,Lects,Concepts,Lects_Below_100
+D1,lexstat,primary,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.991,70,152,0
+D1,lexstat,primary,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152,0
+D1,lexstat,primary,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152,0
+D1,lexstat,primary,KA1-idate,1,Idate varieties,2,,True,True,0.941,0.977,70,152,0
+D1,lexstat,primary,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152,0
+D1,lexstat,primary,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152,0
+D1,lexstat,primary,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152,0
+D1,lexstat,primary,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.932,0.606,70,152,0
+D1,lexstat,primary,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.996,0.991,70,152,0
+D1,lexstat,primary,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152,0
+D1,lexstat,primary,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.977,0.96,70,152,0
+D1,lexstat,primary,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.994,0.996,70,152,0
+D1,lexstat,primary,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152,0
+D1,lexstat,primary,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,False,True,0.05,0.95,70,152,0
+D1,lexstat,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.98,0.998,70,152,0
+D1,lexstat,all,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.987,70,152,0
+D1,lexstat,all,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152,0
+D1,lexstat,all,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152,0
+D1,lexstat,all,KA1-idate,1,Idate varieties,2,,True,True,0.911,0.956,70,152,0
+D1,lexstat,all,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152,0
+D1,lexstat,all,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152,0
+D1,lexstat,all,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152,0
+D1,lexstat,all,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,False,0.911,0.548,70,152,0
+D1,lexstat,all,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.998,0.989,70,152,0
+D1,lexstat,all,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152,0
+D1,lexstat,all,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.873,0.98,70,152,0
+D1,lexstat,all,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.981,0.994,70,152,0
+D1,lexstat,all,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152,0
+D1,lexstat,all,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,False,True,0.035,0.965,70,152,0
+D1,lexstat,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.965,0.999,70,152,0
+D1,lexstat,contact,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.991,70,152,3
+D1,lexstat,contact,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152,3
+D1,lexstat,contact,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152,3
+D1,lexstat,contact,KA1-idate,1,Idate varieties,2,,True,True,0.941,0.98,70,152,3
+D1,lexstat,contact,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152,3
+D1,lexstat,contact,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152,3
+D1,lexstat,contact,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152,3
+D1,lexstat,contact,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.932,0.611,70,152,3
+D1,lexstat,contact,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.996,0.991,70,152,3
+D1,lexstat,contact,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152,3
+D1,lexstat,contact,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.977,0.953,70,152,3
+D1,lexstat,contact,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.983,0.983,70,152,3
+D1,lexstat,contact,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152,3
+D1,lexstat,contact,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,True,True,0.998,1.0,70,152,3
+D1,lexstat,contact,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.98,0.995,70,152,3
+D1,lexstat,tetun,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,70,152,4
+D1,lexstat,tetun,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152,4
+D1,lexstat,tetun,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152,4
+D1,lexstat,tetun,KA1-idate,1,Idate varieties,2,,True,True,0.907,0.803,70,152,4
+D1,lexstat,tetun,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152,4
+D1,lexstat,tetun,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152,4
+D1,lexstat,tetun,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152,4
+D1,lexstat,tetun,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.932,0.699,70,152,4
+D1,lexstat,tetun,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.996,0.992,70,152,4
+D1,lexstat,tetun,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152,4
+D1,lexstat,tetun,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.945,0.984,70,152,4
+D1,lexstat,tetun,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.994,0.995,70,152,4
+D1,lexstat,tetun,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152,4
+D1,lexstat,tetun,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,False,True,0.09,0.967,70,152,4
+D1,lexstat,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.971,1.0,70,152,4
+D1,sca,primary,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,70,152,0
+D1,sca,primary,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152,0
+D1,sca,primary,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152,0
+D1,sca,primary,KA1-idate,1,Idate varieties,2,,True,True,0.96,0.989,70,152,0
+D1,sca,primary,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152,0
+D1,sca,primary,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152,0
+D1,sca,primary,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152,0
+D1,sca,primary,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.903,0.55,70,152,0
+D1,sca,primary,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.884,0.764,70,152,0
+D1,sca,primary,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152,0
+D1,sca,primary,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.603,0.974,70,152,0
+D1,sca,primary,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.611,0.561,70,152,0
+D1,sca,primary,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152,0
+D1,sca,primary,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,True,True,0.57,0.981,70,152,0
+D1,sca,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.948,0.979,70,152,0
+D1,sca,all,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.997,70,152,0
+D1,sca,all,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152,0
+D1,sca,all,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152,0
+D1,sca,all,KA1-idate,1,Idate varieties,2,,True,True,0.937,0.981,70,152,0
+D1,sca,all,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152,0
+D1,sca,all,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152,0
+D1,sca,all,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152,0
+D1,sca,all,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.869,0.482,70,152,0
+D1,sca,all,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.945,0.832,70,152,0
+D1,sca,all,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152,0
+D1,sca,all,KA2-rotemeto,2,Rote-Meto,8,,False,True,0.476,0.986,70,152,0
+D1,sca,all,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.545,0.527,70,152,0
+D1,sca,all,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152,0
+D1,sca,all,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,True,True,0.396,0.972,70,152,0
+D1,sca,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.909,0.979,70,152,0
+D1,sca,contact,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,1.0,70,152,3
+D1,sca,contact,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152,3
+D1,sca,contact,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152,3
+D1,sca,contact,KA1-idate,1,Idate varieties,2,,True,True,0.96,0.99,70,152,3
+D1,sca,contact,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152,3
+D1,sca,contact,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152,3
+D1,sca,contact,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152,3
+D1,sca,contact,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.903,0.549,70,152,3
+D1,sca,contact,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.884,0.755,70,152,3
+D1,sca,contact,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152,3
+D1,sca,contact,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.603,0.973,70,152,3
+D1,sca,contact,KA2-fatoir,2,Fataluku-Oirata,2,,False,False,0.428,0.396,70,152,3
+D1,sca,contact,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152,3
+D1,sca,contact,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,True,True,0.99,1.0,70,152,3
+D1,sca,contact,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.948,0.923,70,152,3
+D1,sca,tetun,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,1.0,70,152,4
+D1,sca,tetun,KA1-kemak,1,Kemak dialects,8,,True,True,1.0,1.0,70,152,4
+D1,sca,tetun,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,70,152,4
+D1,sca,tetun,KA1-idate,1,Idate varieties,2,,True,True,0.969,0.952,70,152,4
+D1,sca,tetun,KA1-welaun,1,Welaun varieties,2,,True,True,1.0,1.0,70,152,4
+D1,sca,tetun,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,70,152,4
+D1,sca,tetun,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,70,152,4
+D1,sca,tetun,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.903,0.638,70,152,4
+D1,sca,tetun,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.884,0.769,70,152,4
+D1,sca,tetun,KA2-meto,2,Meto,3,,True,True,1.0,1.0,70,152,4
+D1,sca,tetun,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.564,0.98,70,152,4
+D1,sca,tetun,KA2-fatoir,2,Fataluku-Oirata,2,,True,True,0.61,0.542,70,152,4
+D1,sca,tetun,KA2-eastTAP,2,East Timor TAP,3,,True,True,1.0,1.0,70,152,4
+D1,sca,tetun,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,6,,True,True,0.733,0.979,70,152,4
+D1,sca,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.932,0.98,70,152,4
+D1,biglexstat,primary,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,64,152,0
+D1,biglexstat,primary,KA1-kemak,1,Kemak dialects,8,,True,True,0.978,0.986,64,152,0
+D1,biglexstat,primary,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,primary,KA1-idate,1,Idate varieties,2,,True,True,0.706,0.825,64,152,0
+D1,biglexstat,primary,KA1-welaun,1,Welaun varieties,2,,True,True,0.994,0.995,64,152,0
+D1,biglexstat,primary,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,primary,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,primary,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.798,0.793,64,152,0
+D1,biglexstat,primary,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.985,0.985,64,152,0
+D1,biglexstat,primary,KA2-meto,2,Meto,3,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,primary,KA2-rotemeto,2,Rote-Meto,8,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,primary,KA2-fatoir,2,Fataluku-Oirata,0,fata1247 oira1263,False,False,0.0,0.0,64,152,0
+D1,biglexstat,primary,KA2-eastTAP,2,East Timor TAP,0,fata1247 maka1316 oira1263,False,False,0.0,0.0,64,152,0
+D1,biglexstat,primary,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,fata1247 maka1316 oira1263,True,True,1.0,1.0,64,152,0
+D1,biglexstat,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.837,0.856,64,152,0
+D1,biglexstat,all,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,64,152,0
+D1,biglexstat,all,KA1-kemak,1,Kemak dialects,8,,True,True,0.987,0.99,64,152,0
+D1,biglexstat,all,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,all,KA1-idate,1,Idate varieties,2,,True,True,0.612,0.772,64,152,0
+D1,biglexstat,all,KA1-welaun,1,Welaun varieties,2,,True,True,0.994,0.996,64,152,0
+D1,biglexstat,all,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,all,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,all,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.783,0.767,64,152,0
+D1,biglexstat,all,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.97,0.969,64,152,0
+D1,biglexstat,all,KA2-meto,2,Meto,3,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,all,KA2-rotemeto,2,Rote-Meto,8,,True,True,1.0,1.0,64,152,0
+D1,biglexstat,all,KA2-fatoir,2,Fataluku-Oirata,0,fata1247 oira1263,False,False,0.0,0.0,64,152,0
+D1,biglexstat,all,KA2-eastTAP,2,East Timor TAP,0,fata1247 maka1316 oira1263,False,False,0.0,0.0,64,152,0
+D1,biglexstat,all,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,fata1247 maka1316 oira1263,True,True,1.0,1.0,64,152,0
+D1,biglexstat,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.787,0.797,64,152,0
+D1,biglexstat,contact,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,64,152,3
+D1,biglexstat,contact,KA1-kemak,1,Kemak dialects,8,,True,True,0.978,0.986,64,152,3
+D1,biglexstat,contact,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,64,152,3
+D1,biglexstat,contact,KA1-idate,1,Idate varieties,2,,True,True,0.706,0.823,64,152,3
+D1,biglexstat,contact,KA1-welaun,1,Welaun varieties,2,,True,True,0.994,0.995,64,152,3
+D1,biglexstat,contact,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,64,152,3
+D1,biglexstat,contact,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,64,152,3
+D1,biglexstat,contact,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.798,0.792,64,152,3
+D1,biglexstat,contact,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.985,0.984,64,152,3
+D1,biglexstat,contact,KA2-meto,2,Meto,3,,True,True,1.0,1.0,64,152,3
+D1,biglexstat,contact,KA2-rotemeto,2,Rote-Meto,8,,True,True,1.0,1.0,64,152,3
+D1,biglexstat,contact,KA2-fatoir,2,Fataluku-Oirata,0,fata1247 oira1263,False,False,0.0,0.0,64,152,3
+D1,biglexstat,contact,KA2-eastTAP,2,East Timor TAP,0,fata1247 maka1316 oira1263,False,False,0.0,0.0,64,152,3
+D1,biglexstat,contact,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,fata1247 maka1316 oira1263,True,True,1.0,1.0,64,152,3
+D1,biglexstat,contact,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.841,0.825,64,152,3
+D1,biglexstat,tetun,KA1-mambae,1,Mambae dialects,11,,True,True,1.0,0.999,64,152,6
+D1,biglexstat,tetun,KA1-kemak,1,Kemak dialects,8,,True,True,0.952,0.954,64,152,6
+D1,biglexstat,tetun,KA1-bunak,1,Bunak dialects,3,,True,True,1.0,1.0,64,152,6
+D1,biglexstat,tetun,KA1-idate,1,Idate varieties,2,,False,True,0.434,0.531,64,152,6
+D1,biglexstat,tetun,KA1-welaun,1,Welaun varieties,2,,True,True,0.997,0.999,64,152,6
+D1,biglexstat,tetun,KA1-tetun,1,Tetun Dili + Southern Tetun,2,,True,True,1.0,1.0,64,152,6
+D1,biglexstat,tetun,KA1-amarasi,1,"Amarasi (Kotos, Ro'is)",2,,True,True,1.0,1.0,64,152,6
+D1,biglexstat,tetun,KA1-iliuun,1,"Ili'uun (Eray, Ilmaumau)",2,,True,True,0.797,0.789,64,152,6
+D1,biglexstat,tetun,KA1-luang,1,"Luang (Luang island, Wetan)",2,,True,True,0.985,0.983,64,152,6
+D1,biglexstat,tetun,KA2-meto,2,Meto,3,,True,True,1.0,1.0,64,152,6
+D1,biglexstat,tetun,KA2-rotemeto,2,Rote-Meto,8,,True,True,0.999,1.0,64,152,6
+D1,biglexstat,tetun,KA2-fatoir,2,Fataluku-Oirata,0,fata1247 oira1263,False,False,0.0,0.0,64,152,6
+D1,biglexstat,tetun,KA2-eastTAP,2,East Timor TAP,0,fata1247 maka1316 oira1263,False,False,0.0,0.0,64,152,6
+D1,biglexstat,tetun,KA2-TAP,2,Timor-Alor-Pantar lects form one clade,3,fata1247 maka1316 oira1263,True,True,1.0,1.0,64,152,6
+D1,biglexstat,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.827,0.822,64,152,6
+D2,expert,primary,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,26,208,0
+D2,expert,primary,KA1-iliuun,1,Ili'uun,2,,True,True,0.964,0.617,26,208,0
+D2,expert,primary,KA1-luang,1,Luang + Wetan,2,,False,False,0.008,0.058,26,208,0
+D2,expert,primary,KA2-rotemeto,2,Rote-Meto,2,,True,True,0.904,0.762,26,208,0
+D2,expert,primary,KA2-floreslembata,2,Flores-Lembata,2,486,True,True,0.997,1.0,26,208,0
+D2,expert,primary,KA2-perai-aputai,2,Perai-Aputai,2,,False,True,0.16,0.548,26,208,0
+D2,expert,all,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,26,208,0
+D2,expert,all,KA1-iliuun,1,Ili'uun,2,,True,True,0.968,0.714,26,208,0
+D2,expert,all,KA1-luang,1,Luang + Wetan,2,,False,False,0.009,0.05,26,208,0
+D2,expert,all,KA2-rotemeto,2,Rote-Meto,2,,True,True,0.891,0.725,26,208,0
+D2,expert,all,KA2-floreslembata,2,Flores-Lembata,2,486,True,True,0.999,1.0,26,208,0
+D2,expert,all,KA2-perai-aputai,2,Perai-Aputai,2,,False,True,0.245,0.585,26,208,0
+D2,expert,tetun,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,26,208,1
+D2,expert,tetun,KA1-iliuun,1,Ili'uun,2,,True,True,0.964,0.599,26,208,1
+D2,expert,tetun,KA1-luang,1,Luang + Wetan,2,,False,False,0.008,0.06,26,208,1
+D2,expert,tetun,KA2-rotemeto,2,Rote-Meto,2,,True,True,0.927,0.738,26,208,1
+D2,expert,tetun,KA2-floreslembata,2,Flores-Lembata,2,486,True,True,1.0,1.0,26,208,1
+D2,expert,tetun,KA2-perai-aputai,2,Perai-Aputai,2,,False,True,0.16,0.549,26,208,1
+D2,lexstat,primary,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210,0
+D2,lexstat,primary,KA1-iliuun,1,Ili'uun,2,,True,True,0.765,0.842,30,210,0
+D2,lexstat,primary,KA1-luang,1,Luang + Wetan,2,,True,True,0.817,0.823,30,210,0
+D2,lexstat,primary,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.0,0.062,30,210,0
+D2,lexstat,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.977,1.0,30,210,0
+D2,lexstat,primary,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.227,0.148,30,210,0
+D2,lexstat,all,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210,0
+D2,lexstat,all,KA1-iliuun,1,Ili'uun,2,,True,True,0.799,0.889,30,210,0
+D2,lexstat,all,KA1-luang,1,Luang + Wetan,2,,True,True,0.765,0.774,30,210,0
+D2,lexstat,all,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.0,0.036,30,210,0
+D2,lexstat,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.98,0.992,30,210,0
+D2,lexstat,all,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.155,0.078,30,210,0
+D2,lexstat,tetun,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210,1
+D2,lexstat,tetun,KA1-iliuun,1,Ili'uun,2,,True,True,0.765,0.846,30,210,1
+D2,lexstat,tetun,KA1-luang,1,Luang + Wetan,2,,True,True,0.817,0.829,30,210,1
+D2,lexstat,tetun,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.0,0.061,30,210,1
+D2,lexstat,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.979,0.998,30,210,1
+D2,lexstat,tetun,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.227,0.153,30,210,1
+D2,sca,primary,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210,0
+D2,sca,primary,KA1-iliuun,1,Ili'uun,2,,True,True,0.879,0.93,30,210,0
+D2,sca,primary,KA1-luang,1,Luang + Wetan,2,,False,False,0.133,0.34,30,210,0
+D2,sca,primary,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.001,0.158,30,210,0
+D2,sca,primary,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.994,0.999,30,210,0
+D2,sca,primary,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.163,0.358,30,210,0
+D2,sca,all,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210,0
+D2,sca,all,KA1-iliuun,1,Ili'uun,2,,True,True,0.904,0.963,30,210,0
+D2,sca,all,KA1-luang,1,Luang + Wetan,2,,False,False,0.122,0.352,30,210,0
+D2,sca,all,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.0,0.179,30,210,0
+D2,sca,all,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.993,0.997,30,210,0
+D2,sca,all,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.159,0.311,30,210,0
+D2,sca,tetun,KA1-tetun,1,Tetun varieties,3,,True,True,1.0,1.0,30,210,1
+D2,sca,tetun,KA1-iliuun,1,Ili'uun,2,,True,True,0.879,0.932,30,210,1
+D2,sca,tetun,KA1-luang,1,Luang + Wetan,2,,False,False,0.134,0.338,30,210,1
+D2,sca,tetun,KA2-rotemeto,2,Rote-Meto,2,,False,False,0.001,0.175,30,210,1
+D2,sca,tetun,KA2-floreslembata,2,Flores-Lembata,3,,True,True,0.99,0.999,30,210,1
+D2,sca,tetun,KA2-perai-aputai,2,Perai-Aputai,2,,False,False,0.163,0.375,30,210,1

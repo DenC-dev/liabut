@@ -3,18 +3,18 @@
   "rule": "D1 known-answer clades recovered >= 80% (LexStat, primary, UPGMA)",
   "value": 0.933,
   "passed": true,
-  "failed_checks": [
+  "failed": [
    "KA2-TAP"
   ]
  },
  "G2": {
-  "rule": "D2 known-answer clades recovered >= 80% (LexStat, primary, UPGMA)",
-  "value": 0.667,
-  "passed": false,
-  "failed_checks": [
-   "KA2-rotemeto",
-   "KA2-perai-aputai"
-  ]
+  "rule": "A1.1: LexStat recovers at least as many D2 checks as expert cognates (primary, UPGMA)",
+  "lexstat": 4,
+  "expert": 4,
+  "of": 6,
+  "passed": true,
+  "v1_rule_value": 0.667,
+  "v1_rule_passed": false
  },
  "G3": {
   "rule": "B-cubed F >= 0.75, D2 LexStat vs expert",
@@ -22,224 +22,70 @@
   "passed": true
  },
  "G4": {
-  "rule": "Mantel r >= 0.70 and p < 0.01, D1 LexStat vs D2 expert distances",
+  "rule": "Mantel r >= 0.70 and p < 0.01, D1 LexStat vs D2 expert",
   "value": 0.898,
   "p": 0.0001,
   "matched_lects": 24,
   "passed": true
  },
- "passed": false,
- "notes": {
-  "lects_dropped_below_100_concepts": {
-   "d1-lexstat-primary": {},
-   "d1-lexstat-all": {},
-   "d1-lexstat-contact": {
-    "mamb1306": 97,
-    "mamb1306-NWbar": 90,
-    "mamb1306-NWhat": 86,
-    "mamb1306-NWrai": 90,
-    "mamb1306-Claul": 86,
-    "mamb1306-Caile": 85,
-    "mamb1306-Cliqu": 84,
-    "mamb1306-Chatu": 82,
-    "mamb1306-Sudo": 86,
-    "mamb1306-Sbeta": 82,
-    "mamb1306-Slete": 94,
-    "kema1243": 94,
-    "kema1243-kutu": 92,
-    "kema1243-leos": 98,
-    "kema1243-diir": 96,
-    "idat1237": 93,
-    "idat1237-cribas": 95,
-    "laka1255": 91,
-    "tetu1246": 91,
-    "tetu1245-suai": 93,
-    "galo1243": 83,
-    "ring1244": 94,
-    "uhak1237": 97,
-    "ilpu1239": 98,
-    "keda1252": 85,
-    "buna1278-bobon": 90,
-    "buna1278-malia": 76,
-    "buna1278-suai": 91
-   },
-   "d1-lexstat-tetun": {
-    "idat1237": 94,
-    "laka1255": 90,
-    "habu1241": 95,
-    "galo1243": 92
-   },
-   "d1-sca-primary": {},
-   "d1-sca-all": {},
-   "d1-sca-contact": {
-    "mamb1306": 97,
-    "mamb1306-NWbar": 90,
-    "mamb1306-NWhat": 86,
-    "mamb1306-NWrai": 90,
-    "mamb1306-Claul": 86,
-    "mamb1306-Caile": 85,
-    "mamb1306-Cliqu": 84,
-    "mamb1306-Chatu": 82,
-    "mamb1306-Sudo": 86,
-    "mamb1306-Sbeta": 82,
-    "mamb1306-Slete": 94,
-    "kema1243": 94,
-    "kema1243-kutu": 92,
-    "kema1243-leos": 98,
-    "kema1243-diir": 96,
-    "idat1237": 93,
-    "idat1237-cribas": 95,
-    "laka1255": 91,
-    "tetu1246": 91,
-    "tetu1245-suai": 93,
-    "galo1243": 83,
-    "ring1244": 94,
-    "uhak1237": 97,
-    "ilpu1239": 98,
-    "keda1252": 85,
-    "buna1278-bobon": 90,
-    "buna1278-malia": 76,
-    "buna1278-suai": 91
-   },
-   "d1-sca-tetun": {
-    "idat1237": 94,
-    "laka1255": 90,
-    "habu1241": 95,
-    "galo1243": 92
-   },
-   "d1-biglexstat-primary": {
-    "funa1237": 90,
-    "imro1237": 97,
-    "nort2860": 80,
-    "fata1247": 95,
-    "maka1316": 76,
-    "oira1263": 85
-   },
-   "d1-biglexstat-all": {
-    "imro1237": 97,
-    "nort2860": 80,
-    "fata1247": 97,
-    "maka1316": 83,
-    "oira1263": 86
-   },
-   "d1-biglexstat-contact": {
-    "mamb1306": 90,
-    "mamb1306-NWbar": 85,
-    "mamb1306-NWhat": 83,
-    "mamb1306-NWrai": 89,
-    "mamb1306-Claul": 84,
-    "mamb1306-Caile": 82,
-    "mamb1306-Cliqu": 82,
-    "mamb1306-Chatu": 82,
-    "mamb1306-Sudo": 86,
-    "mamb1306-Sbeta": 78,
-    "mamb1306-Slete": 92,
-    "kema1243": 90,
-    "kema1243-kaila": 99,
-    "kema1243-kutu": 89,
-    "kema1243-sane": 99,
-    "kema1243-leos": 97,
-    "kema1243-diir": 93,
-    "tuku1254": 83,
-    "west2547-welaun": 98,
-    "west2547-mahein": 95,
-    "idat1237": 89,
-    "idat1237-cribas": 89,
-    "laka1255": 82,
-    "tetu1246": 90,
-    "tetu1245-suai": 87,
-    "habu1241": 86,
-    "waim1252": 93,
-    "midi1237": 91,
-    "naue1237": 77,
-    "galo1243": 76,
-    "dadu1237": 87,
-    "funa1237": 61,
-    "kusa1252": 92,
-    "term1237": 98,
-    "dela1252": 98,
-    "ring1244": 89,
-    "eray1237": 89,
-    "uhak1237": 90,
-    "ilpu1239": 98,
-    "kaha1239": 91,
-    "kisa1266": 83,
-    "roma1332": 85,
-    "luan1264": 94,
-    "weta1243": 84,
-    "imro1237": 87,
-    "daii1240": 89,
-    "nort2860": 70,
-    "dawe1237": 91,
-    "keda1252": 82,
-    "buna1278-bobon": 88,
-    "buna1278-malia": 64,
-    "buna1278-suai": 87,
-    "fata1247": 64,
-    "maka1316": 44,
-    "oira1263": 53
-   },
-   "d1-biglexstat-tetun": {
-    "west2547-welaun": 94,
-    "west2547-mahein": 91,
-    "idat1237": 89,
-    "laka1255": 80,
-    "habu1241": 80,
-    "galo1243": 86,
-    "funa1237": 82,
-    "imro1237": 97,
-    "nort2860": 80,
-    "fata1247": 95,
-    "maka1316": 76,
-    "oira1263": 85
-   },
-   "d2-expert-primary": {
-    "300": 94,
-    "332": 98,
-    "486": 99,
-    "1365": 91
-   },
-   "d2-expert-all": {},
-   "d2-expert-tetun": {
-    "300": 75,
-    "332": 98,
-    "486": 99,
-    "1365": 78,
-    "1368": 98
-   },
-   "d2-lexstat-primary": {},
-   "d2-lexstat-all": {},
-   "d2-lexstat-tetun": {
-    "300": 87
-   },
-   "d2-sca-primary": {},
-   "d2-sca-all": {},
-   "d2-sca-tetun": {
-    "300": 87
-   }
+ "passed": true,
+ "passed_under_v1_rules": false,
+ "lects_below_100_concepts_flagged": {
+  "d1-lexstat-primary": {},
+  "d1-lexstat-all": {},
+  "d1-lexstat-contact": {
+   "buna1278-bobon": 90,
+   "buna1278-malia": 76,
+   "buna1278-suai": 91
   },
-  "pairs_below_50_shared_concepts": {
-   "d1-lexstat-primary": 0,
-   "d1-lexstat-all": 0,
-   "d1-lexstat-contact": 0,
-   "d1-lexstat-tetun": 0,
-   "d1-sca-primary": 0,
-   "d1-sca-all": 0,
-   "d1-sca-contact": 0,
-   "d1-sca-tetun": 0,
-   "d1-biglexstat-primary": 0,
-   "d1-biglexstat-all": 0,
-   "d1-biglexstat-contact": 0,
-   "d1-biglexstat-tetun": 0,
-   "d2-expert-primary": 0,
-   "d2-expert-all": 0,
-   "d2-expert-tetun": 0,
-   "d2-lexstat-primary": 0,
-   "d2-lexstat-all": 0,
-   "d2-lexstat-tetun": 0,
-   "d2-sca-primary": 0,
-   "d2-sca-all": 0,
-   "d2-sca-tetun": 0
+  "d1-lexstat-tetun": {
+   "idat1237": 94,
+   "laka1255": 90,
+   "habu1241": 95,
+   "galo1243": 92
+  },
+  "d1-sca-primary": {},
+  "d1-sca-all": {},
+  "d1-sca-contact": {
+   "buna1278-bobon": 90,
+   "buna1278-malia": 76,
+   "buna1278-suai": 91
+  },
+  "d1-sca-tetun": {
+   "idat1237": 94,
+   "laka1255": 90,
+   "habu1241": 95,
+   "galo1243": 92
+  },
+  "d1-biglexstat-primary": {},
+  "d1-biglexstat-all": {},
+  "d1-biglexstat-contact": {
+   "buna1278-bobon": 88,
+   "buna1278-malia": 64,
+   "buna1278-suai": 87
+  },
+  "d1-biglexstat-tetun": {
+   "west2547-welaun": 94,
+   "west2547-mahein": 91,
+   "idat1237": 89,
+   "laka1255": 80,
+   "habu1241": 80,
+   "galo1243": 86
+  },
+  "d2-expert-primary": {},
+  "d2-expert-all": {},
+  "d2-expert-tetun": {
+   "1368": 98
+  },
+  "d2-lexstat-primary": {},
+  "d2-lexstat-all": {},
+  "d2-lexstat-tetun": {
+   "300": 87
+  },
+  "d2-sca-primary": {},
+  "d2-sca-all": {},
+  "d2-sca-tetun": {
+   "300": 87
   }
  }
 }
