@@ -296,3 +296,12 @@ Written after the step 1–8 results and the novelty check had been seen. Data e
   - **probably inherited**: it shows the lect's own regular reflex where Tetun differs;
   - **undecidable**: neither applies.
 - *Rerun.* Step 5 and the E11(b) tree are repeated with the probable loans removed, as a sensitivity check.
+
+**Amendments to Addendum 4, made after E8 and E9 had been run and before E10–E12.**
+
+- **A4.1 Reflex classes.** The class list declared for E10 would have merged *ŋ > n with *ŋ retained, which is the very contrast that defines Timor-Babar. It would also have split *ŋ > g from *ŋ > k, which is a single change.
+  - *New rule.* Classes now separate place of articulation and ignore voicing: labial stop, labial fricative, coronal stop, velar stop, affricate, sibilant, h, ʔ, ∅, m, n, ɲ, ŋ, l, rhotic, w, y.
+  - *Applies to* E8, E9 and E10.
+- **A4.2 Unhighlighted expert forms.** Grimes and Edwards sometimes list a language without highlighting it. They do this for comparison rows, such as Lakalei and Idaté in their table 04-16. So a cognate form with no highlight is not a zero reflex.
+  - *New rule.* For such forms, the reflex is read off an SCA alignment of the form with the etymon and labelled `Source = aligned`. E9 is validated against highlighted tokens only.
+- **A4.3 Positions.** E10 keeps one character per PMP target, pooling positions as declared. A sensitivity version with one character per target and position is also reported.
