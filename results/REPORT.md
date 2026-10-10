@@ -261,6 +261,47 @@ IQ-TREE 2.3.6, GTR2+FO+G4, on the same 24-lect matrix as step 7.
   - a Timor-Babar language with a deep Central Timor lexical layer;
   - a near-Central Timor branch that picked up Timor-Babar sound changes by contact.
 
+## Novelty check (post hoc, 10 October 2026)
+
+What Sanak adds was checked against the literature and against the one earlier Bayesian tree that covers Timor, Gray, Drummond and Greenhill (2009). Their 998 posterior trees were re-scored for the Timor clades (`src/17_gray2009.py`). They use ABVD expert cognates and include Tetum, Mambai, Kemak, Galoli, Atoni, Roti, Wetar, Southwest Maluku and Babar. They have no Idaté, Lakalei, Welaun, Habu, Kawaimina, Tokodede, Dadu'a or Helong.
+
+| Clade | Gray et al. 2009 posterior | Sanak |
+|---|---|---|
+| Mambai + Kemak (Central Timor core) | 1.00 | 0.95 (with Tokodede) |
+| Tetum + Mambai + Kemak | 0.71 | 0.90 (Tetun + Central Timor + Lakalei-Idate) |
+| Timor-Babar | 0.00 | 0.00; ln BF −7.0 |
+| Southwest Maluku | 0.00 | not supported |
+| Hull's Fabronic | 0.00 | 0% in every analysis |
+| Wetar-Atauro | 1.00 | 88–97% bootstrap |
+| Rote-Meto; Babar; Wetar | 1.00 | supported |
+
+**New, as far as could be found.**
+
+- **Language coverage.** This is the first computational placement of Idaté, Lakalei, Welaun, Habu, Midiki and Helong, none of which is in ABVD. (Tokodede, Dadu'a, Naueti and Waima'a joined ABVD after 2009.) Kaiping and Klamer (2022) used LexiRumah and LexStat the same way, but only for the Papuan (Timor-Alor-Pantar) languages.
+- **The comparison itself.** This is the first explicit test of Hull's Ramelaic against Edwards and Grimes and Edwards. Grimes and Edwards (2026) do not cite Hull and make no lexical or computational argument for Timor.
+- **Lakalei-Idate.**
+  - Its vocabulary sits with Central Timor: posterior 0.91, and ln BF +8.0 for Ramelaic.
+  - Geography doesn't explain this (E5).
+  - The tie conflicts with its sound changes. This revives Hull's lexical grouping with modern methods and sets it against Grimes and Edwards's phonology.
+- **Welaun.** It falls in Central Timor by lexical phylogenetics once borrowing is controlled (ln BF +10.3). That is a new, independent line of support for Edwards (2019).
+- **Contact profiles.** Tetun affinity is concentrated in borrowable words for Welaun (+18 points), Idaté (+16) and Lakalei (+14), and not for Kemak or Mambae.
+- **Validation.** LexStat on Timor scores B-cubed F 0.81 against the experts. That is below the roughly 0.89 average List, Greenhill and Gray (2017) report across families. LexiRumah's automatic distances match ABVD's expert distances at r = 0.90.
+
+**Confirmations rather than discoveries.**
+
+- **Patterns latent in 2009.** The lexical absence of Timor-Babar, Southwest Maluku and Fabronic, and Tetun's pull towards Central Timor, are all present in Gray et al.'s 2009 posterior. As far as could be found, nobody wrote them up for Timor. Sanak replicates them on an independent dataset.
+- **Already established.**
+  - Welaun's Tetun-like vocabulary as contact: Edwards 2019, with 55–58% similarity.
+  - The *p and *ŋ diagnostics: Grimes and Edwards 2026.
+  - The low-level groups.
+  - Bunak's heavy Austronesian borrowing: about 30% Malayo-Polynesian vocabulary (Schapper 2011, cited in Klamer 2023).
+  - LexiRumah's automatic cognates: stated in its own README.
+
+**Limits of the check.**
+
+- **Not reachable.** Paywalled journals and theses could not be searched exhaustively. Hull (1998) could not be read in full, so his percentages are not compared. Two pages failed to load: the LexiRumah PLOS ONE paper (rate-limited) and Greenhill et al. (2010) on PubMed Central (bot check).
+- **Wording.** "New" therefore means "not found", not "proven absent".
+
 ## What would settle C1
 
 1. **More words with *p and *ŋ for Idaté and Lakalei.** The LexiRumah lists give only a handful of native cases. Grimes and Edwards's 494-item lists, collected for both languages, would show whether the native cases are regular.

@@ -1,0 +1,16 @@
+{
+ "source": "Gray, Drummond & Greenhill 2009, posterior trees via phlorest/gray_et_al2009@85dd9d8",
+ "trees": 998,
+ "clades": {
+  "Central Timor core (Mambai, Kemak)": 1.0,
+  "Tetum + Mambai + Kemak": 0.711,
+  "Timor-Babar (members present)": 0.0,
+  "Timor-Babar + Mambai + Kemak (one Timor clade)": 0.156,
+  "Wetar-Atauro (Talur + Wetar)": 0.998,
+  "Wetar": 1.0,
+  "Rote-Meto (Atoni, Roti)": 1.0,
+  "Southwest Maluku (members present)": 0.0,
+  "Babar": 1.0,
+  "Hull's Fabronic (Tetum, Talur, Wetar, Atoni, Kisar, Leti, Luang)": 0.0
+ }
+}
