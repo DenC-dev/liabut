@@ -1,0 +1,75 @@
+{
+ "Lakalei-Idate": {
+  "rel_height_median": 0.147,
+  "rel_height_95": [
+   0.105,
+   0.198
+  ],
+  "clade_posterior": 1.0
+ },
+ "Nuclear Central Timor": {
+  "rel_height_median": 0.237,
+  "rel_height_95": [
+   0.177,
+   0.313
+  ],
+  "clade_posterior": 0.488
+ },
+ "Central Timor (with Welaun)": {
+  "rel_height_median": 0.274,
+  "rel_height_95": [
+   0.201,
+   0.366
+  ],
+  "clade_posterior": 0.504
+ },
+ "Lakalei-Idate + Central Timor": {
+  "rel_height_median": 0.291,
+  "rel_height_95": [
+   0.225,
+   0.37
+  ],
+  "clade_posterior": 0.518
+ },
+ "Eastern Timor (Tetun, Habu, Kawaimina)": {
+  "rel_height_median": 0.416,
+  "rel_height_95": [
+   0.326,
+   0.516
+  ],
+  "clade_posterior": 0.0
+ },
+ "Kawaimina": {
+  "rel_height_median": 0.211,
+  "rel_height_95": [
+   0.16,
+   0.271
+  ],
+  "clade_posterior": 1.0
+ },
+ "Rote-Meto": {
+  "rel_height_median": 0.325,
+  "rel_height_95": [
+   0.25,
+   0.409
+  ],
+  "clade_posterior": 0.999
+ },
+ "Wetar-Atauro (with Galoli)": {
+  "rel_height_median": 0.242,
+  "rel_height_95": [
+   0.183,
+   0.311
+  ],
+  "clade_posterior": 1.0
+ },
+ "Timor-region taxa (no Flores)": {
+  "rel_height_median": 1.0,
+  "rel_height_95": [
+   1.0,
+   1.0
+  ],
+  "clade_posterior": 0.0
+ },
+ "_samples": 3002
+}

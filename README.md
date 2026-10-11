@@ -28,6 +28,7 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
   - Combining vocabulary with sound changes coded from Grimes and Edwards's own tables puts Lakalei-Idate with Central Timor every time (posterior 0.88, ML 56–80%). Timor-Babar gets 0.
   - This reading is post hoc and the sound-change data are thin, so it is a lean, not a settlement. Support also depends on how cognates are coded (15–92% across five codings), though Timor-Babar gets 0 under all of them.
   - Counting only shared replacements of old words, Idaté-Lakalei pairs with Central Timor on stable vocabulary in every triplet test. Its extra sharing with neighbouring Habu looks like contact.
+  - A borrowing simulation fits Grimes and Edwards's placement slightly better, but only if Idaté-Lakalei borrowed about 28% of its core vocabulary from Central Timor. Its vocabulary is mixed, as befits an old member of a dialect chain.
   - Hull (1998, 2001) and Carvalho (2001) already grouped Idaté-Lakalei this way. Hull's *b > h evidence shows up in Grimes and Edwards's own data, but Galoli and Ili'uun share it (see [`results/LITERATURE.md`](results/LITERATURE.md)).
 - **The low-level groups are confirmed:** Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang and Babar.
 - **The pre-registered step 8 verdict is "unresolved" for both C1 and C2.**
@@ -73,7 +74,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 
 | Step | What | Where |
 |---|---|---|
-| 0 | Protocol frozen before any analysis; seven addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
+| 0 | Protocol frozen before any analysis; eight addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
 | 1 | Datasets: D1 = LexiRumah (70 lects, 152 concepts); D2 = ABVD with expert cognates (30 lects) | `data/` |
 | 2 | Automatic cognates (LexStat, SCA), scored against the ABVD experts | `results/cognates/`, `results/scores/` |
 | 3 | Loan screening: Indonesian, Portuguese, Tetun look-alikes, Austronesian–Papuan contact sets | `results/loans/` |
@@ -90,6 +91,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 | Lit. | Literature scan; E13 Hull's *b/*k characters; E14 independent ASJP Idaté list | `results/LITERATURE.md`, `results/literature/` |
 | Lit. 2 | E15 cognate-coding robustness (after Kaiping and Klamer 2022); E16 Alcantara (2015) Idaté data | `results/literature/`, `derived/alcantara2015_idate/` |
 | Lit. 3 | E17 shared lexical innovations; E18 triplet contact test; E19 contacTrees (uninformative) | `results/literature/`, `derived/innovations/` |
+| Lit. 4 | E20 Idaté-vs-Lakalei split test; E21 borrowing simulation (ABC); E22 glottometry; E23 strict-clock dating; E24 other branches | `results/literature/` |
 
 ## Rerun
 
@@ -137,6 +139,9 @@ python3 27_alcantara.py reflexes
 python3 27_alcantara.py rerun
 python3 28_innovations_contact.py         # Addendum 7, E17 and E18
 python3 29_contactrees.py xml             # E19: needs BEAST 2.6.7 + contacTrees 1.1.0 on the classpath (see the script)
+python3 30_more_tests.py all              # Addendum 8: E20, E22, E24
+python3 31_borrowing_abc.py               # E21 (about 15 minutes)
+python3 33_dating.py run && python3 33_dating.py summarize   # E23
 python3 12_decide.py              # step 8
 python3 13_figures.py
 ```

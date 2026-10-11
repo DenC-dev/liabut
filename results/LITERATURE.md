@@ -292,6 +292,101 @@ For three groups, each pair's count is the number of concepts on which exactly t
 - **What the failure says.** These data can't be described as a tree plus a handful of loan events. That fits the dialect-chain reading (E15, treelikeness), but it could also be model misfit.
 - **Trajectories** are in `e19_trajectory.json`.
 
+## Fourth round: which half, how much borrowing, glottometry, dating, other branches (Addendum 8, post hoc)
+
+Scripts: `src/30_more_tests.py` (E20, E22, E24), `src/31_borrowing_abc.py` (E21), `src/33_dating.py` (E23). Outputs are in `results/literature/`.
+
+### E20: which member of Lakalei-Idate carries the Central Timor signal?
+
+These are innovation sets present in Central Timor and absent from Tetun, Habu and Kawaimina, over concepts attested in both lists. The primary comparison uses the two `klamer02` lists.
+
+| Concepts | In both Idaté and Lakalei | Lakalei only | Idaté only |
+|---|---|---|---|
+| Stable | **5** | 2 | 1 |
+| Other | 1 | **6** | 1 |
+| All (binomial p, Lakalei-only against Idaté-only) | 6 | 8 | 2 (p = 0.11) |
+
+- **Stable vocabulary.** The Central Timor items are mostly shared by both members, so they were there before Idaté and Lakalei split. Examples: 'cry' *sɛro*, 'green' *moron*. Some of the "both" sets are heavily changed retentions rather than true innovations ('water', 'tail', 'far').
+- **Borrowable vocabulary.** Here the items are mostly Lakalei-only, and they match Mambae, Lakalei's neighbour 10 km away: 'cloud' *sabai*, 'neck' *keu* ~ *tgeu*, 'eat' *mia* ~ *mua*, 'dry', 'fly', 'yellow'.
+- **Two layers.** That points to an old layer shared by all of Lakalei-Idate, plus a recent Lakalei–Mambae contact layer. The counts are small and not significant.
+- **Sensitivity.** Using Idaté-Cribas instead gives 5 / 9 / 3.
+- **Habu, Tetun and Kawaimina.** Their sets in Lakalei-Idate number 0–3, too few to read.
+
+### E21: how much borrowing would each tree need?
+
+This uses approximate Bayesian computation: 20,000 simulations per model, with the closest 1% accepted.
+
+| | Model H: Lakalei-Idate sister to Central Timor, plus borrowing from Eastern Timor | Model G: Lakalei-Idate within Eastern Timor, plus borrowing from Nuclear Central Timor |
+|---|---|---|
+| Posterior probability (equal priors) | 0.13 | **0.88** |
+| Borrowing needed, stable concepts (median, 90% interval) | 16% (1–41%) | **28% (4–53%)** |
+| Borrowing needed, other concepts | 13% (2–40%) | 30% (8–52%) |
+| Share of accepted runs with stable borrowing > 20% | 39% | 70% |
+
+- **The method can tell the models apart.** In a cross-validation added after the first run (not pre-declared), it picked the true model 87% of the time when it was H and 94% when it was G.
+- **Reading against Addendum 8.**
+  - The triplet counts fit Grimes and Edwards's placement better. But that requires Lakalei-Idate to have borrowed about 28% of its core vocabulary from Central Timor, as often as it borrowed other words. That is above the 20% bar set in advance, so G's placement is "hard to defend lexically".
+  - Yet H also needs about 16% borrowing from the east.
+  - For comparison, Welaun's known Tetun contact shows up only in borrowable vocabulary (E18).
+- **Full likelihood points the other way.** On the full lexical matrix, the unconstrained ML tree (H) beats the constrained one (G) by 10.5 log-likelihood units.
+- **Net.** The 18 summary counts can't separate "Central Timor descent with eastern contact" from "eastern descent with heavy Central Timor contact". Either way, Lakalei-Idate's vocabulary is mixed.
+
+### E22: historical glottometry
+
+The input is 199 innovations (188 lexical, 11 sound changes) over 22 Timor-region taxa.
+
+| Group | ε | κ | σ |
+|---|---|---|---|
+| Wetar (Ili'uun, Tugun) | 9 | 0.74 | **6.69** |
+| Nuclear Rote (Termanu, Dela) | 8 | 0.50 | 4.00 |
+| Kisar-Luang | 6 | 0.50 | 3.00 |
+| Midiki + Waima'a | 6 | 0.42 | 2.52 |
+| Mambae + Tokodede | 5 | 0.45 | 2.23 |
+| Waima'a + Naueti | 4 | 0.52 | 2.09 |
+| Kawaimina | 5 | 0.33 | 1.67 |
+| Galoli + Dadu'a | 4 | 0.41 | 1.64 |
+| Lakalei-Idate | 3 | 0.47 | 1.42 |
+| Lakalei-Idate + Habu | 1 | 0.18 | 0.18 |
+| Lakalei-Idate + Eastern Timor | 1 | 0.08 | 0.08 |
+| Lakalei-Idate + Central Timor | 1 | 0.06 | 0.06 |
+| Hull's Ramelaic | 0 | 0.07 | 0.00 |
+| Eastern Timor | 0 | 0.12 | 0.00 |
+
+- **Only small groups are cohesive.** Every higher grouping, either author's, has subgroupiness near zero.
+- **Overlapping pairs cross-cut each other.** Midiki+Waima'a against Waima'a+Naueti; Kemak+Welaun (1.15) and Tetun+Welaun (0.98).
+- **This is the picture of a linkage.** Counting innovations alone, Lakalei-Idate is a cohesive group of its own, tied about equally weakly to Central Timor and to the east.
+
+### E23: relative dating
+
+MrBayes ran a strict clock with no calibrations: 2 runs, 2,000,000 generations. It converged (split-frequency difference 0.014, PSRF ≤ 1.003, minimum ESS 1,003).
+
+| Node (most recent common ancestor) | Height (root = 1), median (95%) | Clade posterior under the clock |
+|---|---|---|
+| Lakalei-Idate | 0.15 (0.11–0.20) | 1.00 |
+| Kawaimina | 0.21 (0.16–0.27) | 1.00 |
+| Nuclear Central Timor | 0.24 (0.18–0.31) | 0.49 |
+| Wetar-Atauro with Galoli | 0.24 (0.18–0.31) | 1.00 |
+| Central Timor with Welaun | 0.27 (0.20–0.37) | 0.50 |
+| Lakalei-Idate + Central Timor | 0.29 (0.23–0.37) | 0.52 |
+| Rote-Meto | 0.33 (0.25–0.41) | 1.00 |
+| Tetun, Habu and Kawaimina | 0.42 (0.33–0.52) | 0.00 (not a clade) |
+
+- **Lakalei-Idate's sister under the clock.** Central Timor with Welaun 45%, Nuclear Central Timor 30%, Mambae+Tokodede 5% (about 80% Central Timor in total). Habu 8%; Tetun+Habu, with or without Welaun, 8%.
+- **Timing.** The Lakalei-Idate–Central Timor split is barely older than the diversification of Central Timor itself (0.29 against 0.27). That is a near-simultaneous break-up, as a dialect chain would give.
+- **A rooting caveat.** The clock roots the tree on Tela-Masbuar, a long branch with much missing data, so the heights are relative to that root.
+
+### E24: other disputed branches
+
+Triplet counts are given for all concepts, with stable concepts in brackets. The Welaun–Tetun control was recovered again.
+
+| Triplet | Tree pair | Counts | Reading |
+|---|---|---|---|
+| (Habu, Tetun, Kawaimina) | Habu+Tetun | 15 (5) / 11 (5) / 4 (2) | Tied on stable concepts. The Tetun link is in borrowable words. Unresolved. |
+| (Waima'a, Naueti, Midiki) | Waima'a+Naueti | 10 (7) / 7 (4) / 2 (1) | Leans Grimes and Edwards's Waima'a-Naueti. Glottometry shows overlap. |
+| (Galoli, Wetar, Dadu'a) | **Galoli+Dadu'a** | 20 (13) / 6 (2) / 6 (4) | Galoli's closest relative is Atauro's Dadu'a, not the Wetar lects. |
+| (Galoli, Wetar, Tetun) | Galoli+Wetar | 12 (8) / 6 (4) / 0 (0) | Galoli is Wetar-Atauro, with a Tetun layer. |
+| (Helong, Meto, Rote) | Meto+Rote | 17 (12) / 10 (8) / 3 (2) | Rote-Meto holds. Helong's excess with Meto (Z 1.9) fits its Meto surroundings. |
+
 ## Not yet used, and worth getting
 
 - **Alcantara's full corpus.** It has 800 words and 420 sentences, of which only 184 forms are published. The full corpus would give enough Idaté *ŋ, *j, *k and *d words to code every character.

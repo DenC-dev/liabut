@@ -1,0 +1,10 @@
+begin mrbayes;
+  set autoclose=yes nowarn=yes seed=2026 swapseed=2027;
+  execute matrix.nex;
+  lset coding=noabsencesites rates=gamma;
+  prset brlenspr=clock:uniform clockratepr=fixed(1.0);
+  mcmcp ngen=2000000 samplefreq=1000 diagnfreq=50000 nruns=2 nchains=2 printfreq=200000 filename=clock;
+  mcmc;
+  sumt filename=clock burnin=500 contype=allcompat;
+  sump filename=clock burnin=500;
+end;

@@ -1,0 +1,95 @@
+{
+ "observed": [
+  25.0,
+  19.0,
+  6.0,
+  32.0,
+  13.0,
+  4.0,
+  31.0,
+  22.0,
+  13.0,
+  27.0,
+  33.0,
+  7.0,
+  98.0,
+  62.0,
+  19.0,
+  86.0,
+  33.0,
+  11.0
+ ],
+ "simulations_per_model": 20000,
+ "accepted": 400,
+ "model_posterior": {
+  "H": 0.125,
+  "G": 0.875
+ },
+ "distance_accepted_max": 2.744,
+ "model_H": {
+  "accepted_in_pooled": 50,
+  "best_distance": 2.005,
+  "median_distance_top1pct": 2.924,
+  "posterior_within_model_top1pct": {
+   "rate_scale": {
+    "median": 7.277,
+    "q05": 2.866,
+    "q95": 11.226
+   },
+   "stable_rate_factor": {
+    "median": 0.626,
+    "q05": 0.285,
+    "q95": 0.953
+   },
+   "b_stable": {
+    "median": 0.161,
+    "q05": 0.01,
+    "q95": 0.407
+   },
+   "b_other": {
+    "median": 0.126,
+    "q05": 0.016,
+    "q95": 0.397
+   }
+  },
+  "share_b_stable_over_0_2": 0.385
+ },
+ "model_G": {
+  "accepted_in_pooled": 350,
+  "best_distance": 1.953,
+  "median_distance_top1pct": 2.468,
+  "posterior_within_model_top1pct": {
+   "rate_scale": {
+    "median": 7.273,
+    "q05": 3.527,
+    "q95": 11.362
+   },
+   "stable_rate_factor": {
+    "median": 0.588,
+    "q05": 0.287,
+    "q95": 0.942
+   },
+   "b_stable": {
+    "median": 0.276,
+    "q05": 0.041,
+    "q95": 0.531
+   },
+   "b_other": {
+    "median": 0.3,
+    "q05": 0.079,
+    "q95": 0.524
+   }
+  },
+  "share_b_stable_over_0_2": 0.695
+ },
+ "diagnostic_cross_validation": {
+  "H": {
+   "mean_posterior_of_true_model": 0.787,
+   "share_correct_over_0_5": 0.87
+  },
+  "G": {
+   "mean_posterior_of_true_model": 0.85,
+   "share_correct_over_0_5": 0.94
+  }
+ }
+}

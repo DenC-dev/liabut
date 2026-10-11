@@ -1,0 +1,284 @@
+{
+ "(Welaun, NCT, Tetun)": {
+  "all": {
+   "concepts": 80,
+   "counts": {
+    "Welaun+NCT": 28,
+    "Welaun+Tetun": 24,
+    "NCT+Tetun": 6
+   },
+   "tree_pair": "Welaun+NCT",
+   "D": {
+    "pair_excess": "Welaun+Tetun vs NCT+Tetun",
+    "value": 0.6,
+    "se": 0.195,
+    "Z": 3.07
+   }
+  },
+  "stable": {
+   "concepts": 44,
+   "counts": {
+    "Welaun+NCT": 11,
+    "Welaun+Tetun": 8,
+    "NCT+Tetun": 5
+   },
+   "tree_pair": "Welaun+NCT",
+   "D": {
+    "pair_excess": "Welaun+Tetun vs NCT+Tetun",
+    "value": 0.231,
+    "se": 0.417,
+    "Z": 0.55
+   }
+  },
+  "other": {
+   "concepts": 36,
+   "counts": {
+    "Welaun+NCT": 17,
+    "Welaun+Tetun": 16,
+    "NCT+Tetun": 1
+   },
+   "tree_pair": "Welaun+NCT",
+   "D": {
+    "pair_excess": "Welaun+Tetun vs NCT+Tetun",
+    "value": 0.882,
+    "se": 0.128,
+    "Z": 6.89
+   }
+  }
+ },
+ "(Habu, Tetun, Kawaimina)": {
+  "all": {
+   "concepts": 77,
+   "counts": {
+    "Habu+Tetun": 15,
+    "Habu+Kawaimina": 11,
+    "Tetun+Kawaimina": 4
+   },
+   "tree_pair": "Habu+Tetun",
+   "D": {
+    "pair_excess": "Habu+Kawaimina vs Tetun+Kawaimina",
+    "value": 0.467,
+    "se": 0.329,
+    "Z": 1.42
+   }
+  },
+  "stable": {
+   "concepts": 43,
+   "counts": {
+    "Habu+Tetun": 5,
+    "Habu+Kawaimina": 5,
+    "Tetun+Kawaimina": 2
+   },
+   "tree_pair": "Habu+Tetun",
+   "D": {
+    "pair_excess": "Habu+Kawaimina vs Tetun+Kawaimina",
+    "value": 0.429,
+    "se": 0.471,
+    "Z": 0.91
+   }
+  },
+  "other": {
+   "concepts": 34,
+   "counts": {
+    "Habu+Tetun": 10,
+    "Habu+Kawaimina": 6,
+    "Tetun+Kawaimina": 2
+   },
+   "tree_pair": "Habu+Tetun",
+   "D": {
+    "pair_excess": "Habu+Kawaimina vs Tetun+Kawaimina",
+    "value": 0.5,
+    "se": 0.587,
+    "Z": 0.85
+   }
+  }
+ },
+ "(Waima'a, Naueti, Midiki)": {
+  "all": {
+   "concepts": 87,
+   "counts": {
+    "Waima'a+Naueti": 10,
+    "Waima'a+Midiki": 7,
+    "Naueti+Midiki": 2
+   },
+   "tree_pair": "Waima'a+Naueti",
+   "D": {
+    "pair_excess": "Waima'a+Midiki vs Naueti+Midiki",
+    "value": 0.556,
+    "se": 0.31,
+    "Z": 1.79
+   }
+  },
+  "stable": {
+   "concepts": 52,
+   "counts": {
+    "Waima'a+Naueti": 7,
+    "Waima'a+Midiki": 4,
+    "Naueti+Midiki": 1
+   },
+   "tree_pair": "Waima'a+Naueti",
+   "D": {
+    "pair_excess": "Waima'a+Midiki vs Naueti+Midiki",
+    "value": 0.6,
+    "se": 0.443,
+    "Z": 1.35
+   }
+  },
+  "other": {
+   "concepts": 35,
+   "counts": {
+    "Waima'a+Naueti": 3,
+    "Waima'a+Midiki": 3,
+    "Naueti+Midiki": 1
+   },
+   "tree_pair": "Waima'a+Naueti",
+   "D": {
+    "pair_excess": "Waima'a+Midiki vs Naueti+Midiki",
+    "value": 0.5,
+    "se": 0.569,
+    "Z": 0.88
+   }
+  }
+ },
+ "(Galoli, Wetar, Dadu'a)": {
+  "all": {
+   "concepts": 64,
+   "counts": {
+    "Galoli+Wetar": 6,
+    "Galoli+Dadu'a": 20,
+    "Wetar+Dadu'a": 6
+   },
+   "tree_pair": "Galoli+Dadu'a",
+   "D": {
+    "pair_excess": "Galoli+Wetar vs Wetar+Dadu'a",
+    "value": 0.0,
+    "se": 0.462,
+    "Z": 0.0
+   }
+  },
+  "stable": {
+   "concepts": 33,
+   "counts": {
+    "Galoli+Wetar": 2,
+    "Galoli+Dadu'a": 13,
+    "Wetar+Dadu'a": 4
+   },
+   "tree_pair": "Galoli+Dadu'a",
+   "D": {
+    "pair_excess": "Galoli+Wetar vs Wetar+Dadu'a",
+    "value": -0.333,
+    "se": 0.804,
+    "Z": -0.41
+   }
+  },
+  "other": {
+   "concepts": 31,
+   "counts": {
+    "Galoli+Wetar": 4,
+    "Galoli+Dadu'a": 7,
+    "Wetar+Dadu'a": 2
+   },
+   "tree_pair": "Galoli+Dadu'a",
+   "D": {
+    "pair_excess": "Galoli+Wetar vs Wetar+Dadu'a",
+    "value": 0.333,
+    "se": 0.593,
+    "Z": 0.56
+   }
+  }
+ },
+ "(Galoli, Wetar, Tetun)": {
+  "all": {
+   "concepts": 57,
+   "counts": {
+    "Galoli+Wetar": 12,
+    "Galoli+Tetun": 6,
+    "Wetar+Tetun": 0
+   },
+   "tree_pair": "Galoli+Wetar",
+   "D": {
+    "pair_excess": "Galoli+Tetun vs Wetar+Tetun",
+    "value": 1.0,
+    "se": 0.0,
+    "Z": null
+   }
+  },
+  "stable": {
+   "concepts": 28,
+   "counts": {
+    "Galoli+Wetar": 8,
+    "Galoli+Tetun": 4,
+    "Wetar+Tetun": 0
+   },
+   "tree_pair": "Galoli+Wetar",
+   "D": {
+    "pair_excess": "Galoli+Tetun vs Wetar+Tetun",
+    "value": 1.0,
+    "se": 0.0,
+    "Z": null
+   }
+  },
+  "other": {
+   "concepts": 29,
+   "counts": {
+    "Galoli+Wetar": 4,
+    "Galoli+Tetun": 2,
+    "Wetar+Tetun": 0
+   },
+   "tree_pair": "Galoli+Wetar",
+   "D": {
+    "pair_excess": "Galoli+Tetun vs Wetar+Tetun",
+    "value": 1.0,
+    "se": 0.966,
+    "Z": 1.04
+   }
+  }
+ },
+ "(Helong, Meto, Rote)": {
+  "all": {
+   "concepts": 88,
+   "counts": {
+    "Helong+Meto": 10,
+    "Helong+Rote": 3,
+    "Meto+Rote": 17
+   },
+   "tree_pair": "Meto+Rote",
+   "D": {
+    "pair_excess": "Helong+Meto vs Helong+Rote",
+    "value": 0.538,
+    "se": 0.282,
+    "Z": 1.91
+   }
+  },
+  "stable": {
+   "concepts": 52,
+   "counts": {
+    "Helong+Meto": 8,
+    "Helong+Rote": 2,
+    "Meto+Rote": 12
+   },
+   "tree_pair": "Meto+Rote",
+   "D": {
+    "pair_excess": "Helong+Meto vs Helong+Rote",
+    "value": 0.6,
+    "se": 0.309,
+    "Z": 1.94
+   }
+  },
+  "other": {
+   "concepts": 36,
+   "counts": {
+    "Helong+Meto": 2,
+    "Helong+Rote": 1,
+    "Meto+Rote": 5
+   },
+   "tree_pair": "Meto+Rote",
+   "D": {
+    "pair_excess": "Helong+Meto vs Helong+Rote",
+    "value": 0.333,
+    "se": 1.466,
+    "Z": 0.23
+   }
+  }
+ }
+}

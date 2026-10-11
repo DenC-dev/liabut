@@ -24,3 +24,9 @@ results/total_evidence/*.log
 results/literature/e15/*.ckp.gz
 results/literature/e15/*.log
 results/total_evidence/*_alc.ckp.gz
+results/literature/e21_abc/*.ckp.gz
+results/literature/e21_abc/*.log
+results/literature/e23_dating/*.t
+results/literature/e23_dating/*.p
+results/literature/e23_dating/*.ckp*
+results/literature/e23_dating/*.mcmc

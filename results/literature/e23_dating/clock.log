@@ -1,0 +1,877 @@
+
+
+                            MrBayes 3.2.7a x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "clock.nex"
+   UNIX line termination
+   Longest line length = 104
+   Parsing file
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting seed to 2026
+      Setting swapseed to 2027
+
+      Executing file "matrix.nex"...
+
+   UNIX line termination
+   Longest line length = 1383
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 24 taxa and 1353 characters
+      Data is Restriction
+      Missing data coded as ?
+      Gaps coded as -
+      Taxon  1 -> mamb1306_Slete
+      Taxon  2 -> kema1243_kaila
+      Taxon  3 -> tuku1254
+      Taxon  4 -> west2547_welaun
+      Taxon  5 -> idat1237_cribas
+      Taxon  6 -> laka1255
+      Taxon  7 -> tetu1245_suai
+      Taxon  8 -> habu1241
+      Taxon  9 -> waim1252
+      Taxon 10 -> midi1237
+      Taxon 11 -> naue1237
+      Taxon 12 -> galo1243
+      Taxon 13 -> dadu1237
+      Taxon 14 -> funa1237
+      Taxon 15 -> koto1251
+      Taxon 16 -> term1237
+      Taxon 17 -> dela1252
+      Taxon 18 -> ilma1240
+      Taxon 19 -> kaha1239
+      Taxon 20 -> kisa1266
+      Taxon 21 -> luan1264
+      Taxon 22 -> tela1241
+      Taxon 23 -> lama1277_lewoi
+      Taxon 24 -> sika1262_hewa
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 2026
+      Setting output file names to "matrix.nex.run<i>.<p|t>"
+   Exiting data block
+   Reached end of file
+
+   Returning execution to calling file ...
+
+      Enabling Coding Noabsencesites
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting Brlenspr to Clock:Uniform
+      Setting Clockratepr to Fixed(1.000000)
+      Successfully set prior model parameters
+      Setting number of generations to 2000000
+      Setting sample frequency to 1000
+      Setting diagnosing frequency to 50000
+      Setting number of runs to 2
+      WARNING: Allocation of zero size attempted. This is probably a bug; problems may follow.
+      Setting number of chains to 2
+      Setting print frequency to 200000
+      Setting chain output file names to "clock.run<i>.<p/t>"
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 4445939142
+      Seed = 2131122244
+      Swapseed = 2027
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = Restriction
+            Coding    = Noabsencesites
+            # States  = 2
+                        State frequencies have a Dirichlet (1.00,1.00) prior
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Shape               2
+         Ratemultiplier      3
+         Topology            4
+         Brlens              5
+         Clockrate           6
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         2 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         3 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         4 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         5 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Clock:Uniform
+                            Tree age has a Gamma(1.00,1.00) distribution
+                            Node ages are not constrained
+
+         6 --  Parameter  = Clockrate
+               Type       = Base rate of clock
+               Prior      = Fixed(1.000000)
+                            The clock rate is constant (strict clock)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.91 %   Dirichlet(Pi)
+            0.91 %   Slider(Pi)
+            1.82 %   Multiplier(Alpha)
+           18.18 %   ExtSprClock(Tau,V)
+           21.82 %   NNIClock(Tau,V)
+           14.55 %   ParsSPRClock(Tau,V)
+           36.36 %   NodesliderClock(V)
+            5.45 %   TreeStretch(V)
+
+      Division 1 has 935 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -12022.025525 -- -53.398071
+         Chain 2 -- -12038.075003 -- -53.398071
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -12231.032886 -- -53.398071
+         Chain 2 -- -12073.554083 -- -53.398071
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (2000000 generations requested):
+
+          0 -- [-12022.026] (-12038.075) * [-12231.033] (-12073.554) 
+
+      Average standard deviation of split frequencies: 0.017546
+
+
+      Average standard deviation of split frequencies: 0.026168
+
+
+      Average standard deviation of split frequencies: 0.027412
+
+      200000 -- (-8021.621) [-8022.264] * [-8014.340] (-8025.528) -- 0:22:21
+
+      Average standard deviation of split frequencies: 0.014341
+
+
+      Average standard deviation of split frequencies: 0.013155
+
+
+      Average standard deviation of split frequencies: 0.008074
+
+
+      Average standard deviation of split frequencies: 0.011339
+
+      400000 -- [-8018.215] (-8017.334) * [-8024.351] (-8024.431) -- 0:19:52
+
+      Average standard deviation of split frequencies: 0.010180
+
+
+      Average standard deviation of split frequencies: 0.013524
+
+
+      Average standard deviation of split frequencies: 0.013399
+
+
+      Average standard deviation of split frequencies: 0.009366
+
+      600000 -- (-8017.549) [-8025.622] * (-8021.895) [-8028.001] -- 0:17:30
+
+      Average standard deviation of split frequencies: 0.009609
+
+
+      Average standard deviation of split frequencies: 0.007790
+
+
+      Average standard deviation of split frequencies: 0.007285
+
+
+      Average standard deviation of split frequencies: 0.007397
+
+      800000 -- (-8030.692) [-8015.651] * (-8030.818) [-8016.846] -- 0:14:55
+
+      Average standard deviation of split frequencies: 0.009805
+
+
+      Average standard deviation of split frequencies: 0.007857
+
+
+      Average standard deviation of split frequencies: 0.007322
+
+
+      Average standard deviation of split frequencies: 0.006635
+
+      1000000 -- (-8020.671) [-8023.755] * [-8029.273] (-8027.205) -- 0:12:27
+
+      Average standard deviation of split frequencies: 0.007721
+
+
+      Average standard deviation of split frequencies: 0.006483
+
+
+      Average standard deviation of split frequencies: 0.006221
+
+
+      Average standard deviation of split frequencies: 0.005570
+
+      1200000 -- [-8021.066] (-8022.087) * [-8016.676] (-8021.497) -- 0:09:56
+
+      Average standard deviation of split frequencies: 0.005546
+
+
+      Average standard deviation of split frequencies: 0.005121
+
+
+      Average standard deviation of split frequencies: 0.005120
+
+
+      Average standard deviation of split frequencies: 0.005509
+
+      1400000 -- (-8025.355) [-8015.786] * (-8023.591) [-8018.921] -- 0:07:30
+
+      Average standard deviation of split frequencies: 0.005360
+
+
+      Average standard deviation of split frequencies: 0.007727
+
+
+      Average standard deviation of split frequencies: 0.008666
+
+
+      Average standard deviation of split frequencies: 0.006136
+
+      1600000 -- (-8023.110) [-8024.054] * [-8016.491] (-8020.714) -- 0:05:00
+
+      Average standard deviation of split frequencies: 0.005377
+
+
+      Average standard deviation of split frequencies: 0.004452
+
+
+      Average standard deviation of split frequencies: 0.003436
+
+
+      Average standard deviation of split frequencies: 0.003552
+
+      1800000 -- [-8020.627] (-8021.473) * (-8026.923) [-8025.339] -- 0:02:30
+
+      Average standard deviation of split frequencies: 0.003315
+
+      Average standard deviation of split frequencies: 0.004514
+
+      Average standard deviation of split frequencies: 0.003967
+
+      Average standard deviation of split frequencies: 0.004073
+      2000000 -- (-8017.885) [-8021.736] * (-8033.308) [-8022.168] -- 0:00:00
+
+      Average standard deviation of split frequencies: 0.003989
+
+      Analysis completed in 25 mins 9 seconds
+      Analysis used 1489.05 seconds of CPU time
+      Likelihood of best state for "cold" chain of run 1 was -8008.89
+      Likelihood of best state for "cold" chain of run 2 was -8009.30
+
+      Acceptance rates for the moves in the "cold" chain of run 1:
+         With prob.   (last 100)   chain accepted proposals by move
+            21.7 %     ( 21 %)     Dirichlet(Pi)
+             9.0 %     ( 20 %)     Slider(Pi)
+            27.0 %     ( 36 %)     Multiplier(Alpha)
+             1.8 %     (  3 %)     ExtSprClock(Tau,V)
+             8.9 %     (  8 %)     NNIClock(Tau,V)
+             2.5 %     (  1 %)     ParsSPRClock(Tau,V)
+            36.4 %     ( 37 %)     NodesliderClock(V)
+            39.9 %     ( 25 %)     TreeStretch(V)
+
+      Acceptance rates for the moves in the "cold" chain of run 2:
+         With prob.   (last 100)   chain accepted proposals by move
+            22.2 %     ( 30 %)     Dirichlet(Pi)
+             8.9 %     ( 22 %)     Slider(Pi)
+            27.0 %     ( 29 %)     Multiplier(Alpha)
+             1.8 %     (  1 %)     ExtSprClock(Tau,V)
+             8.9 %     (  8 %)     NNIClock(Tau,V)
+             2.5 %     (  1 %)     ParsSPRClock(Tau,V)
+            36.4 %     ( 40 %)     NodesliderClock(V)
+            39.5 %     ( 26 %)     TreeStretch(V)
+
+      Chain swap information for run 1:
+
+                    1        2 
+           --------------------
+         1 |              0.76 
+         2 |  2000000          
+
+      Chain swap information for run 2:
+
+                    1        2 
+           --------------------
+         1 |              0.76 
+         2 |  2000000          
+
+      Upper diagonal: Proportion of successful state exchanges between chains
+      Lower diagonal: Number of attempted state exchanges between chains
+
+      Chain information:
+
+        ID -- Heat 
+       -----------
+         1 -- 1.00  (cold chain)
+         2 -- 0.91 
+
+      Heat = 1 / (1 + T * (ID - 1))
+         (where T = 0.10 is the temperature and ID is the chain number)
+
+      Setting sumt filename and outputname to clock
+      Setting urn-in to 500
+      Setting sumt contype to Allcompat
+      Summarizing trees in files "clock.run1.t" and "clock.run2.t"
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of sampled trees
+      Writing statistics to files clock.<parts|tstat|vstat|trprobs|con>
+      Examining first file ...
+      Found one tree block in file "clock.run1.t" with 2001 trees in last block
+      Expecting the same number of trees in the last tree block of all files
+
+      Tree reading status:
+
+      0      10      20      30      40      50      60      70      80      90     100
+      v-------v-------v-------v-------v-------v-------v-------v-------v-------v-------v
+      *********************************************************************************
+
+      Read a total of 4002 trees in 2 files (sampling 3002 of them)
+         (Each file contained 2001 trees of which 1501 were sampled)
+                                                                                   
+      General explanation:                                                          
+                                                                                   
+      In an unrooted tree, a taxon bipartition (split) is specified by removing a   
+      branch, thereby dividing the species into those to the left and those to the  
+      right of the branch. Here, taxa to one side of the removed branch are denoted 
+      '.' and those to the other side are denoted '*'. Specifically, the '.' symbol 
+      is used for the taxa on the same side as the outgroup.                        
+                                                                                   
+      In a rooted or clock tree, the tree is rooted using the model and not by      
+      reference to an outgroup. Each bipartition therefore corresponds to a clade,  
+      that is, a group that includes all the descendants of a particular branch in  
+      the tree.  Taxa that are included in each clade are denoted using '*', and    
+      taxa that are not included are denoted using the '.' symbol.                  
+                                                                                   
+      The output first includes a key to all the bipartitions with frequency larger 
+      or equual to (Minpartfreq) in at least one run. Minpartfreq is a parameter to 
+      sumt command and currently it is set to 0.10.  This is followed by a table  
+      with statistics for the informative bipartitions (those including at least    
+      two taxa), sorted from highest to lowest probability. For each bipartition,   
+      the table gives the number of times the partition or split was observed in all
+      runs (#obs) and the posterior probability of the bipartition (Probab.), which 
+      is the same as the split frequency. If several runs are summarized, this is   
+      followed by the minimum split frequency (Min(s)), the maximum frequency       
+      (Max(s)), and the standard deviation of frequencies (Stddev(s)) across runs.  
+      The latter value should approach 0 for all bipartitions as MCMC runs converge.
+                                                                                   
+      This is followed by a table summarizing branch lengths, node heights (if a    
+      clock model was used) and relaxed clock parameters (if a relaxed clock model  
+      was used). The mean, variance, and 95 % credible interval are given for each 
+      of these parameters. If several runs are summarized, the potential scale      
+      reduction factor (PSRF) is also given; it should approach 1 as runs converge. 
+      Node heights will take calibration points into account, if such points were   
+      used in the analysis.                                                         
+                                                                                    
+      Note that Stddev may be unreliable if the partition is not present in all     
+      runs (the last column indicates the number of runs that sampled the partition 
+      if more than one run is summarized). The PSRF is not calculated at all if     
+      the partition is not present in all runs.The PSRF is also sensitive to small  
+      sample sizes and it should only be considered a rough guide to convergence    
+      since some of the assumptions allowing one to interpret it as a true potential
+      scale reduction factor are violated in MrBayes.                               
+                                                                                    
+      List of taxa in bipartitions:                                                 
+                                                                                   
+         1 -- mamb1306_Slete
+         2 -- kema1243_kaila
+         3 -- tuku1254
+         4 -- west2547_welaun
+         5 -- idat1237_cribas
+         6 -- laka1255
+         7 -- tetu1245_suai
+         8 -- habu1241
+         9 -- waim1252
+        10 -- midi1237
+        11 -- naue1237
+        12 -- galo1243
+        13 -- dadu1237
+        14 -- funa1237
+        15 -- koto1251
+        16 -- term1237
+        17 -- dela1252
+        18 -- ilma1240
+        19 -- kaha1239
+        20 -- kisa1266
+        21 -- luan1264
+        22 -- tela1241
+        23 -- lama1277_lewoi
+        24 -- sika1262_hewa
+
+      Key to taxon bipartitions (saved to file "clock.parts"):
+
+      ID -- Partition
+      ------------------------------
+       0 -- ************************
+       1 -- *.......................
+       2 -- .*......................
+       3 -- ..*.....................
+       4 -- ...*....................
+       5 -- ....*...................
+       6 -- .....*..................
+       7 -- ......*.................
+       8 -- .......*................
+       9 -- ........*...............
+      10 -- .........*..............
+      11 -- ..........*.............
+      12 -- ...........*............
+      13 -- ............*...........
+      14 -- .............*..........
+      15 -- ..............*.........
+      16 -- ...............*........
+      17 -- ................*.......
+      18 -- .................*......
+      19 -- ..................*.....
+      20 -- ...................*....
+      21 -- ....................*...
+      22 -- .....................*..
+      23 -- ......................*.
+      24 -- .......................*
+      25 -- ...................**...
+      26 -- *********************.**
+      27 -- ....**..................
+      28 -- ...............**.......
+      29 -- ........***.............
+      30 -- ......................**
+      31 -- ...........**....**.....
+      32 -- .................**.....
+      33 -- ...........**...........
+      34 -- ..............***.......
+      35 -- *************....**.....
+      36 -- *******************...**
+      37 -- *.*.....................
+      38 -- ********...**....**.....
+      39 -- .............****.......
+      40 -- ........*.*.............
+      41 -- ********................
+      42 -- .............****.....**
+      43 -- ......**................
+      44 -- ******..................
+      45 -- .*.*....................
+      46 -- ****....................
+      47 -- ***.....................
+      48 -- ...*..*.................
+      49 -- ***.**..................
+      50 -- *************....**...**
+      51 -- ...*..**................
+      52 -- *******************.....
+      53 -- *******.................
+      54 -- ...*****................
+      ------------------------------
+
+      Summary statistics for informative taxon bipartitions (clades)
+         (saved to file "clock.tstat"):
+
+      ID   #obs    Probab.     Sd(s)+      Min(s)      Max(s)   Nruns 
+      ----------------------------------------------------------------
+      25  3002    1.000000    0.000000    1.000000    1.000000    2
+      26  3002    1.000000    0.000000    1.000000    1.000000    2
+      27  3002    1.000000    0.000000    1.000000    1.000000    2
+      28  3002    1.000000    0.000000    1.000000    1.000000    2
+      29  3002    1.000000    0.000000    1.000000    1.000000    2
+      30  3002    1.000000    0.000000    1.000000    1.000000    2
+      31  3002    1.000000    0.000000    1.000000    1.000000    2
+      32  3002    1.000000    0.000000    1.000000    1.000000    2
+      33  3000    0.999334    0.000942    0.998668    1.000000    2
+      34  3000    0.999334    0.000000    0.999334    0.999334    2
+      35  2996    0.998001    0.000942    0.997335    0.998668    2
+      36  2995    0.997668    0.000471    0.997335    0.998001    2
+      37  2956    0.984677    0.000942    0.984011    0.985343    2
+      38  2910    0.969354    0.002827    0.967355    0.971352    2
+      39  2883    0.960360    0.003298    0.958028    0.962692    2
+      40  2766    0.921386    0.004711    0.918055    0.924717    2
+      41  2660    0.886076    0.004711    0.882745    0.889407    2
+      42  1657    0.551965    0.024026    0.534977    0.568954    2
+      43  1634    0.544304    0.004711    0.540973    0.547635    2
+      44  1556    0.518321    0.012248    0.509660    0.526982    2
+      45  1527    0.508661    0.002355    0.506995    0.510326    2
+      46  1512    0.503664    0.000000    0.503664    0.503664    2
+      47  1464    0.487675    0.000942    0.487009    0.488341    2
+      48  1216    0.405063    0.005653    0.401066    0.409061    2
+      49   918    0.305796    0.010364    0.298468    0.313125    2
+      50   748    0.249167    0.021670    0.233844    0.264490    2
+      51   651    0.216855    0.004240    0.213857    0.219853    2
+      52   574    0.191206    0.002827    0.189207    0.193205    2
+      53   484    0.161226    0.002827    0.159227    0.163225    2
+      54   351    0.116922    0.008951    0.110593    0.123251    2
+      ----------------------------------------------------------------
+      + Convergence diagnostic (standard deviation of split frequencies)
+        should approach 0.0 as runs converge.
+
+
+      Summary statistics for branch and node parameters
+         (saved to file "clock.vstat"):
+
+                                              95% HPD Interval
+                                            --------------------
+      Parameter      Mean       Variance     Lower       Upper       Median     PSRF+  Nruns
+      --------------------------------------------------------------------------------------
+      length[1]     0.027996    0.000011    0.021474    0.034437    0.027801    1.000    2
+      length[2]     0.031238    0.000016    0.023233    0.038901    0.031022    1.000    2
+      length[3]     0.028011    0.000011    0.021474    0.034672    0.027801    1.000    2
+      length[4]     0.030478    0.000018    0.022768    0.039007    0.030053    1.000    2
+      length[5]     0.021839    0.000010    0.016077    0.028174    0.021689    1.000    2
+      length[6]     0.021839    0.000010    0.016077    0.028174    0.021689    1.000    2
+      length[7]     0.033086    0.000029    0.024076    0.044391    0.032567    1.000    2
+      length[8]     0.037346    0.000045    0.025963    0.051325    0.036325    1.000    2
+      length[9]     0.025224    0.000009    0.019391    0.031300    0.025048    1.000    2
+      length[10]    0.030998    0.000013    0.024504    0.038358    0.030848    1.000    2
+      length[11]    0.025588    0.000012    0.019229    0.032954    0.025241    1.000    2
+      length[12]    0.023172    0.000011    0.017245    0.029943    0.023010    1.001    2
+      length[13]    0.023171    0.000011    0.017245    0.029943    0.023010    1.001    2
+      length[14]    0.064072    0.000049    0.051199    0.078131    0.063864    1.000    2
+      length[15]    0.048228    0.000029    0.037639    0.058567    0.047958    1.000    2
+      length[16]    0.024108    0.000010    0.018389    0.030857    0.023929    1.000    2
+      length[17]    0.024108    0.000010    0.018389    0.030857    0.023929    1.000    2
+      length[18]    0.008920    0.000002    0.006059    0.011538    0.008856    1.000    2
+      length[19]    0.008920    0.000002    0.006059    0.011538    0.008856    1.000    2
+      length[20]    0.051629    0.000057    0.037907    0.067776    0.051018    1.000    2
+      length[21]    0.051629    0.000057    0.037907    0.067776    0.051018    1.000    2
+      length[22]    0.149478    0.000411    0.111538    0.189155    0.147930    1.000    2
+      length[23]    0.047335    0.000032    0.036502    0.059031    0.047177    1.000    2
+      length[24]    0.047335    0.000032    0.036502    0.059031    0.047177    1.000    2
+      length[25]    0.040227    0.000058    0.026089    0.056205    0.040268    1.000    2
+      length[26]    0.057594    0.000301    0.025850    0.089682    0.055918    1.001    2
+      length[27]    0.017731    0.000014    0.010684    0.025196    0.017743    1.000    2
+      length[28]    0.024121    0.000022    0.015285    0.033184    0.023906    1.000    2
+      length[29]    0.030269    0.000019    0.022346    0.039426    0.029924    1.000    2
+      length[30]    0.026184    0.000030    0.015575    0.036941    0.025976    1.000    2
+      length[31]    0.017645    0.000015    0.009663    0.025095    0.017558    1.000    2
+      length[32]    0.026916    0.000013    0.019457    0.033696    0.026829    1.000    2
+      length[33]    0.012674    0.000014    0.005602    0.020220    0.012508    1.001    2
+      length[34]    0.015947    0.000026    0.006573    0.026350    0.015661    1.000    2
+      length[35]    0.013231    0.000018    0.004970    0.021479    0.013005    1.000    2
+      length[36]    0.015650    0.000025    0.006066    0.025412    0.015312    1.000    2
+      length[37]    0.007253    0.000009    0.001853    0.013223    0.007121    1.000    2
+      length[38]    0.008042    0.000013    0.001240    0.014999    0.007773    1.000    2
+      length[39]    0.010106    0.000021    0.001834    0.019168    0.009902    1.001    2
+      length[40]    0.006269    0.000006    0.001746    0.011228    0.006077    1.000    2
+      length[41]    0.007117    0.000010    0.001256    0.013136    0.006947    1.000    2
+      length[42]    0.003333    0.000005    0.000004    0.007452    0.002992    1.000    2
+      length[43]    0.012508    0.000022    0.003498    0.021871    0.012529    0.999    2
+      length[44]    0.006376    0.000006    0.001815    0.011148    0.006209    1.000    2
+      length[45]    0.007974    0.000009    0.002759    0.014464    0.007640    1.000    2
+      length[46]    0.004605    0.000004    0.001176    0.008958    0.004379    1.003    2
+      length[47]    0.007759    0.000011    0.001982    0.014869    0.007360    1.001    2
+      length[48]    0.009647    0.000015    0.002374    0.016883    0.009579    0.999    2
+      length[49]    0.005609    0.000005    0.001280    0.009897    0.005409    0.999    2
+      length[50]    0.003144    0.000006    0.000009    0.008119    0.002625    0.999    2
+      length[51]    0.006884    0.000011    0.000609    0.012627    0.006691    1.003    2
+      length[52]    0.002751    0.000007    0.000005    0.007306    0.002071    0.999    2
+      length[53]    0.006281    0.000009    0.000633    0.011423    0.006276    0.998    2
+      length[54]    0.006831    0.000007    0.001806    0.011411    0.006632    0.997    2
+      height[0]     0.149478    0.000411    0.111538    0.189155    0.147930    1.000    2
+      height[1]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[2]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[3]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[4]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[5]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[6]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[7]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[8]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[9]     0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[10]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[11]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[12]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[13]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[14]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[15]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[16]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[17]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[18]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[19]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[20]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[21]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[22]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[23]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[24]    0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[25]    0.051629    0.000057    0.037907    0.067776    0.051018    1.000    2
+      height[26]    0.091884    0.000079    0.075440    0.110098    0.091311    1.000    2
+      height[27]    0.021839    0.000010    0.016077    0.028174    0.021689    1.000    2
+      height[28]    0.024108    0.000010    0.018389    0.030857    0.023929    1.000    2
+      height[29]    0.031367    0.000011    0.025462    0.038293    0.031215    1.000    2
+      height[30]    0.047335    0.000032    0.036502    0.059031    0.047177    1.000    2
+      height[31]    0.035838    0.000016    0.028532    0.044111    0.035605    1.000    2
+      height[32]    0.008920    0.000002    0.006059    0.011538    0.008856    1.000    2
+      height[33]    0.023168    0.000011    0.017245    0.029943    0.023004    1.001    2
+      height[34]    0.048219    0.000029    0.037657    0.058567    0.047954    1.000    2
+      height[35]    0.061682    0.000032    0.050653    0.072688    0.061222    1.000    2
+      height[36]    0.076258    0.000048    0.063219    0.090368    0.076101    1.000    2
+      height[37]    0.027964    0.000011    0.021474    0.034437    0.027768    1.001    2
+      height[38]    0.053757    0.000023    0.044732    0.063327    0.053588    1.000    2
+      height[39]    0.063795    0.000046    0.050471    0.076567    0.063660    1.000    2
+      height[40]    0.025091    0.000009    0.019230    0.031010    0.024879    1.000    2
+      height[41]    0.047013    0.000018    0.038978    0.055352    0.046860    1.000    2
+      height[42]    0.072218    0.000046    0.058561    0.085055    0.072250    1.000    2
+      height[43]    0.034263    0.000024    0.024863    0.043752    0.033914    0.999    2
+      height[44]    0.041170    0.000014    0.033757    0.048400    0.040943    1.000    2
+      height[45]    0.029439    0.000012    0.022689    0.035817    0.029325    1.000    2
+      height[46]    0.036993    0.000012    0.030714    0.044423    0.036883    1.000    2
+      height[47]    0.033118    0.000014    0.026427    0.040572    0.032789    1.000    2
+      height[48]    0.030352    0.000016    0.022809    0.037957    0.030130    0.999    2
+      height[49]    0.039177    0.000013    0.032113    0.046186    0.039039    0.999    2
+      height[50]    0.073798    0.000042    0.062074    0.087236    0.073588    1.000    2
+      height[51]    0.038003    0.000018    0.030563    0.046233    0.037764    0.999    2
+      height[52]    0.074594    0.000043    0.061421    0.087807    0.074176    0.999    2
+      height[53]    0.043093    0.000015    0.035382    0.050629    0.043044    0.998    2
+      height[54]    0.039893    0.000012    0.033484    0.046218    0.039847    0.999    2
+      --------------------------------------------------------------------------------------
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge. NA is reported when
+        deviation of parameter values within all runs is 0 or when a parameter
+        value (a branch length, for instance) is not sampled in all runs.
+
+
+      Summary statistics for partitions with frequency >= 0.10 in at least one run:
+          Average standard deviation of split frequencies = 0.003989
+          Maximum standard deviation of split frequencies = 0.024026
+          Average PSRF for parameter values (excluding NA and >10.0) = 1.000
+          Maximum PSRF for parameter values = 1.003
+
+
+      Clade credibility values:
+
+      /----------------------------------------------------------- tela1241 (22)
+      |                                                                               
+      |                                                   /------- mamb1306_Slete (1)
+      |                                             /--98-+                           
+      |                                             |     \------- tuku1254 (3)
+      |                                      /--50--+                                 
+      |                                      |      |     /------- kema1243_kaila (2)
+      |                                      |      \--51-+                           
+      |                                /--52-+            \------- west2547_welaun (4)
+      |                                |     |                                        
+      |                                |     |            /------- idat1237_cribas (5)
+      |                                |     \-----100----+                           
+      |                         /--89--+                  \------- laka1255 (6)
+      |                         |      |                                              
+      |                         |      |                  /------- tetu1245_suai (7)
+      |                         |      \--------54--------+                           
+      |                         |                         \------- habu1241 (8)
+      |                   /--97-+                                                     
+      |                   |     |                         /------- galo1243 (12)
+      +                   |     |                   /-100-+                           
+      |                   |     |                   |     \------- dadu1237 (13)
+      |                   |     \--------100--------+                                 
+      |                   |                         |     /------- ilma1240 (18)
+      |            /--100-+                         \-100-+                           
+      |            |      |                               \------- kaha1239 (19)
+      |            |      |                                                           
+      |            |      |                               /------- waim1252 (9)
+      |            |      |                         /--92-+                           
+      |            |      |                         |     \------- naue1237 (11)
+      |            |      \-----------100-----------+                                 
+      |            |                                \------------- midi1237 (10)
+      |      /-100-+                                                                  
+      |      |     |                         /-------------------- funa1237 (14)
+      |      |     |                         |                                        
+      |      |     |                   /--96-+      /------------- koto1251 (15)
+      |      |     |                   |     |      |                                 
+      |      |     |                   |     \--100-+     /------- term1237 (16)
+      |      |     |                   |            \-100-+                           
+      \--100-+     \---------55--------+                  \------- dela1252 (17)
+             |                         |                                              
+             |                         |                  /------- lama1277_lewoi (23)
+             |                         \--------100-------+                           
+             |                                            \------- sika1262_hewa (24)
+             |                                                                        
+             |                                            /------- kisa1266 (20)
+             \---------------------100--------------------+                           
+                                                          \------- luan1264 (21)
+                                                                                      
+
+      Phylogram (based on median node depths):
+
+      /----------------------------------------------------------- tela1241 (22)
+      |                                                                               
+      |                                               /----------- mamb1306_Slete (1)
+      |                                           /---+                               
+      |                                           |   \----------- tuku1254 (3)
+      |                                          /+                                   
+      |                                          ||  /------------ kema1243_kaila (2)
+      |                                          |\--+                                
+      |                                       /--+   \------------ west2547_welaun (4)
+      |                                       |  |                                    
+      |                                       |  |      /--------- idat1237_cribas (5)
+      |                                       |  \------+                             
+      |                                     /-+         \--------- laka1255 (6)
+      |                                     | |                                       
+      |                                     | |    /-------------- tetu1245_suai (7)
+      |                                     | \----+                                  
+      |                                     |      \-------------- habu1241 (8)
+      |                                  /--+                                         
+      |                                  |  |           /--------- galo1243 (12)
+      +                                  |  |      /----+                             
+      |                                  |  |      |    \--------- dadu1237 (13)
+      |                                  |  \------+                                  
+      |                                  |         |         /---- ilma1240 (18)
+      |                            /-----+         \---------+                        
+      |                            |     |                   \---- kaha1239 (19)
+      |                            |     |                                            
+      |                            |     |             /---------- waim1252 (9)
+      |                            |     |           /-+                              
+      |                            |     |           | \---------- naue1237 (11)
+      |                            |     \-----------+                                
+      |                            |                 \------------ midi1237 (10)
+      |                      /-----+                                                  
+      |                      |     |    /------------------------- funa1237 (14)
+      |                      |     |    |                                             
+      |                      |     |/---+     /------------------- koto1251 (15)
+      |                      |     ||   |     |                                       
+      |                      |     ||   \-----+        /---------- term1237 (16)
+      |                      |     ||         \--------+                              
+      \----------------------+     \+                  \---------- dela1252 (17)
+                             |      |                                                 
+                             |      |         /------------------- lama1277_lewoi (23)
+                             |      \---------+                                       
+                             |                \------------------- sika1262_hewa (24)
+                             |                                                        
+                             |               /-------------------- kisa1266 (20)
+                             \---------------+                                        
+                                             \-------------------- luan1264 (21)
+                                                                                      
+      --------------------|-------------------|------------------|                    
+                        0.10                0.05               0.00                   
+
+      [Expected changes per site]
+
+      Calculating tree probabilities...
+
+      Credible sets of trees (348 trees sampled):
+         50 % credible set contains 9 trees
+         90 % credible set contains 106 trees
+         95 % credible set contains 198 trees
+         99 % credible set contains 318 trees
+
+      Setting sump filename and output file name to clock
+      Setting burn-in to 500
+      Summarizing parameters in files clock.run1.p and clock.run2.p
+      Writing summary statistics to file clock.pstat
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of samples
+
+      Below are rough plots of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use these     
+      graphs to determine what the burn in for your analysis should be. 
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      tionarity. Also examine the convergence diagnostics provided by   
+      the 'sump' and 'sumt' commands for all the parameters in your     
+      model. Remember that the burn in is the number of samples to dis- 
+      card. There are a total of ngen / samplefreq samples taken during 
+      a MCMC analysis.                                                  
+
+      Overlay plot for both runs:
+      (1 = Run number 1; 2 = Run number 2; * = Both runs)
+
+      +------------------------------------------------------------+ -8019.99
+      |                2                2                 11       |
+      |                        2                   2              2|
+      | 1 2               1                                 1      |
+      |1                              2   2                  2    1|
+      |    2 2             1      2 2  1       2     2         1   |
+      |    1  1  1    2            2  12    *    12 1            2 |
+      |   1   22    2           11        1  2  1   2 *  2         |
+      | 2   21  *    2    2          1         1          222      |
+      |  *  1    21      2  2 *         1    1  2       2     1    |
+      |2          2     2       2  1       1         1 1           |
+      |            21  1   2 1 1 21 1         *  2     2 1   1     |
+      |            1                 2   2 2      11          2 2  |
+      |              11  1   2                          1        1 |
+      |                     1            1                      1  |
+      |        1        1                                      2   |
+      +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -8024.44
+      ^                                                            ^
+      500000                                                       2000000
+
+
+      Estimated marginal likelihoods for runs sampled in files
+         "clock.run1.p" and "clock.run2.p":
+         (Use the harmonic mean for Bayes factor comparisons of models)
+
+         (Values are saved to the file clock.lstat)
+
+      Run   Arithmetic mean   Harmonic mean
+      --------------------------------------
+        1      -8016.41         -8033.22
+        2      -8016.52         -8032.33
+      --------------------------------------
+      TOTAL    -8016.46         -8032.87
+      --------------------------------------
+
+
+      Model parameter summaries over the runs sampled in files
+         "clock.run1.p" and "clock.run2.p":
+         Summaries are based on a total of 3002 samples from 2 runs.
+         Each run produced 2001 samples of which 1501 samples were included.
+         Parameter summaries saved to file "clock.pstat".
+
+                                            95% HPD Interval
+                                          --------------------
+      Parameter      Mean      Variance     Lower       Upper       Median    min ESS*  avg ESS    PSRF+ 
+      --------------------------------------------------------------------------------------------------
+      TH          0.149478    0.000411    0.111538    0.189155    0.147930   1002.85   1107.53    1.000
+      TL          1.255073    0.010803    1.055338    1.463859    1.251554   1054.05   1172.11    1.000
+      pi(0)       0.957177    0.000010    0.951323    0.963181    0.957280   1048.02   1093.60    1.000
+      pi(1)       0.042823    0.000010    0.036812    0.048672    0.042722   1048.02   1093.60    1.000
+      alpha       1.623162    0.035267    1.294783    2.021300    1.610765   1252.52   1320.46    1.000
+      --------------------------------------------------------------------------------------------------
+      * Convergence diagnostic (ESS = Estimated Sample Size); min and avg values
+        correspond to minimal and average ESS among runs. 
+        ESS value below 100 may indicate that the parameter is undersampled. 
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge.
+
+
+   Exiting mrbayes block
+   Reached end of file
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+
