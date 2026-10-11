@@ -1,0 +1,747 @@
+{
+ "primary_rule": {
+  "tests": 40,
+  "nominal_p_below_0_05": 7,
+  "survive_holm": [
+   "E18 (Welaun, NCT, Tetun) other: Welaun+Tetun vs NCT+Tetun"
+  ],
+  "survive_bh": [
+   "E18 (Welaun, NCT, Tetun) all: Welaun+Tetun vs NCT+Tetun",
+   "E18 (Welaun, NCT, Tetun) other: Welaun+Tetun vs NCT+Tetun"
+  ],
+  "table": [
+   {
+    "test": "E18 (Welaun, NCT, Tetun) other: Welaun+Tetun vs NCT+Tetun",
+    "Z": 6.89,
+    "p": 0.0,
+    "holm": 0.0,
+    "bh": 0.0,
+    "survives_holm": true,
+    "survives_bh": true
+   },
+   {
+    "test": "E18 (Welaun, NCT, Tetun) all: Welaun+Tetun vs NCT+Tetun",
+    "Z": 3.07,
+    "p": 0.00214,
+    "holm": 0.0835,
+    "bh": 0.0428,
+    "survives_holm": false,
+    "survives_bh": true
+   },
+   {
+    "test": "E18 (LI, NCT, Kawaimina) all: LI+Kawaimina vs NCT+Kawaimina",
+    "Z": 2.85,
+    "p": 0.00437,
+    "holm": 0.1661,
+    "bh": 0.0583,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Habu) other: LI+NCT vs NCT+Habu",
+    "Z": 2.53,
+    "p": 0.01141,
+    "holm": 0.422,
+    "bh": 0.1141,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Tetun) all: LI+Tetun vs NCT+Tetun",
+    "Z": 2.42,
+    "p": 0.01552,
+    "holm": 0.5587,
+    "bh": 0.1242,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Habu) all: LI+Habu vs NCT+Habu",
+    "Z": 2.29,
+    "p": 0.02202,
+    "holm": 0.7707,
+    "bh": 0.1468,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Kawaimina) stable: LI+Kawaimina vs NCT+Kawaimina",
+    "Z": 2.02,
+    "p": 0.04338,
+    "holm": 1.0,
+    "bh": 0.2297,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Helong, Meto, Rote) stable: Helong+Meto vs Helong+Rote",
+    "Z": 1.94,
+    "p": 0.05238,
+    "holm": 1.0,
+    "bh": 0.2297,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Helong, Meto, Rote) all: Helong+Meto vs Helong+Rote",
+    "Z": 1.91,
+    "p": 0.05613,
+    "holm": 1.0,
+    "bh": 0.2297,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Kawaimina) other: LI+Kawaimina vs NCT+Kawaimina",
+    "Z": 1.9,
+    "p": 0.05743,
+    "holm": 1.0,
+    "bh": 0.2297,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Waima'a, Naueti, Midiki) all: Waima'a+Midiki vs Naueti+Midiki",
+    "Z": 1.79,
+    "p": 0.07345,
+    "holm": 1.0,
+    "bh": 0.2671,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Tetun) stable: LI+Tetun vs NCT+Tetun",
+    "Z": 1.72,
+    "p": 0.08543,
+    "holm": 1.0,
+    "bh": 0.2848,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Central Timor all: Lakalei-only 8 vs Idate-only 2",
+    "Z": null,
+    "p": 0.1094,
+    "holm": 1.0,
+    "bh": 0.3366,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Central Timor other: Lakalei-only 6 vs Idate-only 1",
+    "Z": null,
+    "p": 0.125,
+    "holm": 1.0,
+    "bh": 0.3571,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Galoli) other: LI+Galoli vs NCT+Galoli",
+    "Z": 1.49,
+    "p": 0.13622,
+    "holm": 1.0,
+    "bh": 0.3607,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Tetun) other: LI+Tetun vs NCT+Tetun",
+    "Z": 1.46,
+    "p": 0.14429,
+    "holm": 1.0,
+    "bh": 0.3607,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Habu, Tetun, Kawaimina) all: Habu+Kawaimina vs Tetun+Kawaimina",
+    "Z": 1.42,
+    "p": 0.15561,
+    "holm": 1.0,
+    "bh": 0.3661,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Waima'a, Naueti, Midiki) stable: Waima'a+Midiki vs Naueti+Midiki",
+    "Z": 1.35,
+    "p": 0.17702,
+    "holm": 1.0,
+    "bh": 0.3934,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Galoli, Wetar, Tetun) other: Galoli+Tetun vs Wetar+Tetun",
+    "Z": 1.04,
+    "p": 0.29834,
+    "holm": 1.0,
+    "bh": 0.6281,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Galoli) all: LI+Galoli vs NCT+Galoli",
+    "Z": 0.97,
+    "p": 0.33205,
+    "holm": 1.0,
+    "bh": 0.6589,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, Tetun, Habu) other: LI+Tetun vs Tetun+Habu",
+    "Z": -0.91,
+    "p": 0.36282,
+    "holm": 1.0,
+    "bh": 0.6589,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Habu, Tetun, Kawaimina) stable: Habu+Kawaimina vs Tetun+Kawaimina",
+    "Z": 0.91,
+    "p": 0.36282,
+    "holm": 1.0,
+    "bh": 0.6589,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Waima'a, Naueti, Midiki) other: Waima'a+Midiki vs Naueti+Midiki",
+    "Z": 0.88,
+    "p": 0.37886,
+    "holm": 1.0,
+    "bh": 0.6589,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Habu, Tetun, Kawaimina) other: Habu+Kawaimina vs Tetun+Kawaimina",
+    "Z": 0.85,
+    "p": 0.39533,
+    "holm": 1.0,
+    "bh": 0.6589,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Habu) stable: LI+Habu vs NCT+Habu",
+    "Z": 0.7,
+    "p": 0.48393,
+    "holm": 1.0,
+    "bh": 0.7743,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Galoli, Wetar, Dadu'a) other: Galoli+Wetar vs Wetar+Dadu'a",
+    "Z": 0.56,
+    "p": 0.57548,
+    "holm": 1.0,
+    "bh": 0.8627,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (Welaun, NCT, Tetun) stable: Welaun+Tetun vs NCT+Tetun",
+    "Z": 0.55,
+    "p": 0.58232,
+    "holm": 1.0,
+    "bh": 0.8627,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, Tetun, Habu) stable: LI+Habu vs Tetun+Habu",
+    "Z": 0.43,
+    "p": 0.6672,
+    "holm": 1.0,
+    "bh": 0.9404,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Galoli, Wetar, Dadu'a) stable: Galoli+Wetar vs Wetar+Dadu'a",
+    "Z": -0.41,
+    "p": 0.68181,
+    "holm": 1.0,
+    "bh": 0.9404,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Galoli) stable: LI+Galoli vs NCT+Galoli",
+    "Z": 0.27,
+    "p": 0.78716,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Helong, Meto, Rote) other: Helong+Meto vs Helong+Rote",
+    "Z": 0.23,
+    "p": 0.81809,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, Tetun, Habu) all: LI+Tetun vs Tetun+Habu",
+    "Z": 0.17,
+    "p": 0.86501,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Galoli, Wetar, Dadu'a) all: Galoli+Wetar vs Wetar+Dadu'a",
+    "Z": 0.0,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Central Timor stable: Lakalei-only 2 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Habu all: Lakalei-only 1 vs Idate-only 0",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Habu other: Lakalei-only 1 vs Idate-only 0",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Tetun all: Lakalei-only 0 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Tetun other: Lakalei-only 0 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Kawaimina all: Lakalei-only 0 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Kawaimina other: Lakalei-only 0 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   }
+  ]
+ },
+ "chosen_rule_R2": {
+  "tests": 40,
+  "nominal_p_below_0_05": 8,
+  "survive_holm": [
+   "E18 (Welaun, NCT, Tetun) other: Welaun+NCT vs NCT+Tetun"
+  ],
+  "survive_bh": [
+   "E18 (Welaun, NCT, Tetun) other: Welaun+NCT vs NCT+Tetun"
+  ],
+  "table": [
+   {
+    "test": "E18 (Welaun, NCT, Tetun) other: Welaun+NCT vs NCT+Tetun",
+    "Z": 4.6,
+    "p": 0.0,
+    "holm": 0.0002,
+    "bh": 0.0002,
+    "survives_holm": true,
+    "survives_bh": true
+   },
+   {
+    "test": "E24 (Helong, Meto, Rote) all: Helong+Meto vs Helong+Rote",
+    "Z": 2.99,
+    "p": 0.00279,
+    "holm": 0.1088,
+    "bh": 0.0558,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Habu, Tetun, Kawaimina) stable: Habu+Kawaimina vs Tetun+Kawaimina",
+    "Z": 2.61,
+    "p": 0.00905,
+    "holm": 0.3441,
+    "bh": 0.1207,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Kawaimina) other: LI+Kawaimina vs NCT+Kawaimina",
+    "Z": 2.47,
+    "p": 0.01351,
+    "holm": 0.4999,
+    "bh": 0.1351,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Helong, Meto, Rote) stable: Helong+Meto vs Helong+Rote",
+    "Z": 2.31,
+    "p": 0.02089,
+    "holm": 0.752,
+    "bh": 0.1578,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Habu, Tetun, Kawaimina) all: Habu+Kawaimina vs Tetun+Kawaimina",
+    "Z": 2.17,
+    "p": 0.03001,
+    "holm": 1.0,
+    "bh": 0.1578,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Habu) other: LI+NCT vs NCT+Habu",
+    "Z": 2.15,
+    "p": 0.03156,
+    "holm": 1.0,
+    "bh": 0.1578,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Waima'a, Naueti, Midiki) all: Waima'a+Midiki vs Naueti+Midiki",
+    "Z": 2.15,
+    "p": 0.03156,
+    "holm": 1.0,
+    "bh": 0.1578,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Waima'a, Naueti, Midiki) stable: Waima'a+Midiki vs Naueti+Midiki",
+    "Z": 1.84,
+    "p": 0.06577,
+    "holm": 1.0,
+    "bh": 0.2613,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Kawaimina) all: LI+Kawaimina vs NCT+Kawaimina",
+    "Z": 1.82,
+    "p": 0.06876,
+    "holm": 1.0,
+    "bh": 0.2613,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (Welaun, NCT, Tetun) all: Welaun+Tetun vs NCT+Tetun",
+    "Z": 1.8,
+    "p": 0.07186,
+    "holm": 1.0,
+    "bh": 0.2613,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Habu) all: LI+Habu vs NCT+Habu",
+    "Z": 1.61,
+    "p": 0.1074,
+    "holm": 1.0,
+    "bh": 0.3366,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Central Timor all: Lakalei-only 8 vs Idate-only 2",
+    "Z": null,
+    "p": 0.1094,
+    "holm": 1.0,
+    "bh": 0.3366,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Central Timor other: Lakalei-only 6 vs Idate-only 1",
+    "Z": null,
+    "p": 0.125,
+    "holm": 1.0,
+    "bh": 0.3571,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Galoli, Wetar, Dadu'a) other: Galoli+Wetar vs Wetar+Dadu'a",
+    "Z": 1.21,
+    "p": 0.22628,
+    "holm": 1.0,
+    "bh": 0.6034,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Galoli, Wetar, Tetun) other: Galoli+Tetun vs Wetar+Tetun",
+    "Z": 1.04,
+    "p": 0.29834,
+    "holm": 1.0,
+    "bh": 0.6944,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Helong, Meto, Rote) other: Helong+Meto vs Helong+Rote",
+    "Z": 1.03,
+    "p": 0.30301,
+    "holm": 1.0,
+    "bh": 0.6944,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Galoli) other: LI+Galoli vs NCT+Galoli",
+    "Z": 1.01,
+    "p": 0.3125,
+    "holm": 1.0,
+    "bh": 0.6944,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Tetun) other: LI+Tetun vs NCT+Tetun",
+    "Z": 0.97,
+    "p": 0.33205,
+    "holm": 1.0,
+    "bh": 0.699,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, Tetun, Habu) other: LI+Tetun vs Tetun+Habu",
+    "Z": -0.91,
+    "p": 0.36282,
+    "holm": 1.0,
+    "bh": 0.707,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Waima'a, Naueti, Midiki) other: Waima'a+Midiki vs Naueti+Midiki",
+    "Z": 0.88,
+    "p": 0.37886,
+    "holm": 1.0,
+    "bh": 0.707,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Habu, Tetun, Kawaimina) other: Habu+Kawaimina vs Tetun+Kawaimina",
+    "Z": 0.85,
+    "p": 0.39533,
+    "holm": 1.0,
+    "bh": 0.707,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Tetun) all: LI+Tetun vs NCT+Tetun",
+    "Z": 0.83,
+    "p": 0.40654,
+    "holm": 1.0,
+    "bh": 0.707,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Kawaimina) stable: LI+Kawaimina vs NCT+Kawaimina",
+    "Z": 0.64,
+    "p": 0.52217,
+    "holm": 1.0,
+    "bh": 0.8703,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, Tetun, Habu) all: LI+Tetun vs Tetun+Habu",
+    "Z": -0.53,
+    "p": 0.59611,
+    "holm": 1.0,
+    "bh": 0.9538,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Galoli) all: LI+Galoli vs NCT+Galoli",
+    "Z": 0.45,
+    "p": 0.65271,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Galoli, Wetar, Dadu'a) stable: Galoli+Wetar vs Wetar+Dadu'a",
+    "Z": -0.41,
+    "p": 0.68181,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E24 (Galoli, Wetar, Dadu'a) all: Galoli+Wetar vs Wetar+Dadu'a",
+    "Z": 0.35,
+    "p": 0.72634,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Habu) stable: LI+Habu vs NCT+Habu",
+    "Z": 0.34,
+    "p": 0.73386,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Tetun) stable: LI+Tetun vs NCT+Tetun",
+    "Z": 0.23,
+    "p": 0.81809,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (Welaun, NCT, Tetun) stable: Welaun+Tetun vs NCT+Tetun",
+    "Z": -0.16,
+    "p": 0.87288,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, NCT, Galoli) stable: LI+Galoli vs NCT+Galoli",
+    "Z": -0.09,
+    "p": 0.92829,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E18 (LI, Tetun, Habu) stable: LI+Tetun vs Tetun+Habu",
+    "Z": 0.0,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Central Timor stable: Lakalei-only 2 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Habu all: Lakalei-only 1 vs Idate-only 0",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Habu other: Lakalei-only 1 vs Idate-only 0",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Tetun all: Lakalei-only 0 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Tetun other: Lakalei-only 0 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Kawaimina all: Lakalei-only 0 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   },
+   {
+    "test": "E20 Kawaimina other: Lakalei-only 0 vs Idate-only 1",
+    "Z": null,
+    "p": 1.0,
+    "holm": 1.0,
+    "bh": 1.0,
+    "survives_holm": false,
+    "survives_bh": false
+   }
+  ]
+ }
+}

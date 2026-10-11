@@ -1,0 +1,59 @@
+Lect,Name,Group,rate_all,km,rate_stable,resid_all,resid_stable
+mamb1306-Slete,"South Mambae, Letefoho",CT,0.1456,33.1,0.1498,0.0159,0.03
+kema1243-kutu,"Kemak, Kutubaba",CT,0.141,111.8,0.1001,0.0588,0.016
+kema1243-diir,"Kemak, Diirbati",CT,0.138,113.8,0.1302,0.0565,0.0466
+tuku1254,Tokodede,CT,0.1356,79.8,0.1745,0.0402,0.0805
+tetu1246,Tetun Dili,Tetun,0.1333,50.1,0.1327,0.0197,0.025
+west2547-welaun,Welaun,CT,0.1291,104.4,0.1052,0.0442,0.019
+mamb1306,"Southern Mambae, Ainaro",CT,0.1289,47.4,0.1286,0.0132,0.0193
+kema1243-leol,"Kemak, Leolima",CT,0.1282,109.8,0.1097,0.0453,0.025
+kema1243-lemi,"Kemak, Lemia",CT,0.1268,108.3,0.1097,0.0433,0.0246
+habu1241,Habun,Habu,0.1261,16.3,0.1221,-0.0313,-0.0184
+west2547-mahein,"Welaun, Mahein",CT,0.1231,95.5,0.114,0.0347,0.0252
+mamb1306-NWhat,"Northwest Mambae, Hatulia",CT,0.1215,60.0,0.0816,0.015,-0.0208
+kema1243-leos,"Kemak, Leosibe",CT,0.1206,85.1,0.0959,0.0277,0.0038
+mamb1306-Claul,"Central Mambae, Laulara",CT,0.1151,41.9,0.0959,-0.0054,-0.017
+galo1243,Galolen,Galoli,0.1147,23.9,0.0844,-0.0278,-0.0449
+mamb1306-Sudo,"South Mambae, Hatu-Udo",CT,0.1132,49.3,0.0909,-0.001,-0.0172
+mamb1306-NWbar,"Northwest Mambae, Barzatete",CT,0.1126,61.3,0.0821,0.0069,-0.0196
+mamb1306-Caile,"Central Mambae, Aileu Vila",CT,0.1107,40.0,0.0959,-0.0117,-0.0183
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",CT,0.1107,38.6,0.077,-0.013,-0.0383
+eray1237,Ili'uun,other,0.1093,118.0,0.1452,0.0292,0.0626
+mamb1306-NWrai,"Northwest Mambae, Railaco",CT,0.1077,51.0,0.0905,-0.0052,-0.0166
+dadu1237,Dadu'a,other,0.1075,36.3,0.1205,-0.0186,0.0034
+tetu1245-suai,"Tetun, Suai",Tetun,0.1061,89.9,0.1074,0.0154,0.0169
+uhak1237,Perai,other,0.1051,150.2,0.136,0.0344,0.0605
+kema1243-kaila,"Kemak, Kailaku",CT,0.1032,86.8,0.094,0.0111,0.0024
+ilma1240,"Ili'uun, Ilmaumau",other,0.0992,113.4,0.1271,0.0175,0.0434
+kema1243-sane,"Kemak, Saneri",CT,0.0991,111.2,0.098,0.0167,0.0137
+kema1243,Kemak,CT,0.0985,76.3,0.0795,0.0014,-0.0158
+kaha1239,Tugun,other,0.0925,156.1,0.1436,0.0233,0.0692
+mamb1306-Cliqu,"Central Mambae, Liquidoe",CT,0.0897,27.3,0.0816,-0.0476,-0.0438
+midi1237,Midiki,Kawaimina,0.0861,33.9,0.1089,-0.0427,-0.0102
+ilpu1239,Aputai,other,0.0831,130.2,0.1328,0.0068,0.0531
+mamb1306-Sbeta,"South Mambae, Betano",CT,0.0755,41.8,0.0678,-0.0451,-0.0452
+waim1252,Waima'a,Kawaimina,0.0741,56.6,0.0792,-0.0347,-0.0249
+naue1237,Naueti,Kawaimina,0.0717,95.1,0.0747,-0.0168,-0.0142
+kusa1252,Kusa-Manea,other,0.0494,138.5,0.0597,-0.0245,-0.0182
+dela1252,Dela,other,0.049,406.4,0.0796,0.0172,0.0332
+ring1244,Rikou,other,0.0482,340.1,0.0561,0.0094,0.0045
+rois1241,Ro'is Amarasi,other,0.0456,277.6,0.0746,-0.0011,0.0171
+koto1251,Kotos Amarasi,other,0.0441,273.0,0.0731,-0.0033,0.0151
+tiii1241,Tii,other,0.0438,394.1,0.0532,0.0108,0.0059
+weta1243,Wetan,other,0.0394,414.2,0.0495,0.0083,0.0037
+term1237,Termanu,other,0.0393,367.3,0.0479,0.0035,-0.0014
+lole1239,Lole,other,0.0306,378.1,0.046,-0.004,-0.0025
+roma1332,Roma,other,0.0272,218.2,0.0489,-0.0289,-0.0157
+funa1237,Funai Helong,other,0.0238,289.3,0.0336,-0.0213,-0.0227
+luan1264,Luang,other,0.0226,317.5,0.0408,-0.0189,-0.0128
+cent2072,Central Masela,other,0.0226,444.1,0.0406,-0.0058,-0.0032
+empl1237,Emplawas,other,0.0194,436.2,0.0339,-0.0097,-0.0104
+kisa1266,Kisar,other,0.019,165.1,0.0343,-0.048,-0.0384
+east2462,East Masela,other,0.0115,442.8,0.0203,-0.017,-0.0235
+sout2883,"Southeast Babar, Kokwari",other,0.0115,448.4,0.0203,-0.0165,-0.0232
+nort2860,North Babar,other,0.0114,441.0,0.0203,-0.0172,-0.0237
+imro1237,Imroing,other,0.0113,424.2,0.0203,-0.0189,-0.0248
+tela1241,Tela-Masbuar,other,0.0113,426.1,0.0203,-0.0187,-0.0247
+seri1255,Serili,other,0.0113,445.5,0.0203,-0.0169,-0.0234
+daii1240,Dai,other,0.0,440.6,0.0,-0.0287,-0.044
+dawe1237,Dawera-Daweloor,other,0.0,469.3,0.0,-0.0262,-0.0421

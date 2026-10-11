@@ -162,6 +162,7 @@ th { font-weight: 500; }
 td.num, th.num { text-align: right; }
 tbody tr:hover { background: var(--paper-light); }
 tr.focus td { background: rgba(181, 69, 31, 0.07); }
+table.checks { min-width: 40rem; }
 
 /* method */
 .stages { padding-left: 1.4rem; margin: 0 0 1rem; }
@@ -216,6 +217,7 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
   <nav aria-label="Sections">
     <a href="#findings">Findings</a>
     <a href="#lakalei">Lakalei-Idate</a>
+    <a href="#checks">Checks</a>
     <a href="#branches">Other branches</a>
     <a href="#method">Method</a>
     <a href="#data">Data</a>
@@ -228,7 +230,7 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
     <p class="kicker">Project Liabut</p>
     <h1 id="title">How do Timor’s Austronesian languages branch?</h1>
     <p class="lede">Two classifications of the Austronesian languages of Timor disagree. Geoffrey Hull puts Lakalei and Idaté with Mambae, Kemak and Tokodede. Charles Grimes and Owen Edwards make Mambae, Kemak, Tokodede and Welaun a branch of their own and put Lakalei and Idaté with the languages to the east. Liabut tests both against the basic vocabulary of 24 languages, under a protocol frozen before any analysis.</p>
-    <p class="lede-2">In brief: Welaun is Central Timor, the eastern groupings find no support in the vocabulary, and Lakalei-Idate is still unresolved. The evidence, and every number behind it, follows.</p>
+    <p class="lede-2">In brief: Welaun is Central Timor, the eastern groupings find no support in the vocabulary, and Lakalei-Idate is still unresolved, though it now leans towards Central Timor. Every result was then put through ten further checks. The evidence, and every number behind it, follows.</p>
     <p class="paper-link"><a class="button" href="liabut.pdf" target="_blank" rel="noopener">Read the working paper (PDF)</a> <a class="button ghost" href="{{GH}}" target="_blank" rel="noopener">Data and code</a></p>
   </div>
   <figure class="hero-map">
@@ -251,17 +253,17 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
     <div class="col">
       <p>Two questions divide the classifications. <b>C1</b>: does Lakalei-Idate belong with Central Timor, as in Hull, or with Timor-Babar, as in Grimes and Edwards (2026)? <b>C2</b>: is Welaun a dialect of Tetun, as Hull (1998) first had it, or a Central Timor language, as Edwards (2019) argued?</p>
       <ul class="findings">
-        <li class="lead"><b>Lakalei-Idate remains unresolved.</b> Every tree analysis places it beside Central Timor (posterior 0.91), and none supports Timor-Babar. Yet a borrowing model cannot exclude Grimes and Edwards’s placement, provided Lakalei-Idate borrowed more than a quarter of its core vocabulary from Central Timor.</li>
-        <li><b>Welaun belongs with Central Timor.</b> Forcing that group against forbidding it gives a log Bayes factor of +10.3 (posterior 0.86), and Welaun’s Tetun look sits in borrowable words, as contact would leave it.</li>
-        <li><b>Fabronic, Timor-Babar and Eastern Timor get no lexical support.</b> They score 0 to 3% bootstrap and a posterior of 0.00. Grimes and Edwards define Timor-Babar by sound changes, so this does not refute it; if it is a subgroup, contact has since reshaped its vocabulary.</li>
+        <li class="lead"><b>Lakalei-Idate remains unresolved, but leans Central Timor.</b> Every tree places it beside Mambae, Kemak and Tokodede (posterior 0.91), including a tree built only from word lists collected independently of Grimes and Edwards (97%). The two arguments for the eastern placement don’t discriminate once tested: the coded sound changes cost the same on either tree, and a borrowing model can’t separate the placements.</li>
+        <li><b>Welaun belongs with Central Timor.</b> Forcing that group against forbidding it gives a log Bayes factor of +10.3 (posterior 0.86). Its Tetun look sits in borrowable words, and that contact is the one signal that passes every check.</li>
+        <li><b>Fabronic, Timor-Babar and Eastern Timor get no lexical support</b>, under five cognate codings, with an improved classifier and on independent lists. Grimes and Edwards define Timor-Babar by sound changes, so this does not refute it; if it is a subgroup, contact has since reshaped its vocabulary.</li>
         <li><b>The low-level groups hold.</b> Lakalei-Idate, Kawaimina, Wetar-Atauro, Nuclear Rote, Kisar-Luang and Babar all pass the bar. Galoli pairs with Dadu’a, and Helong falls outside Rote-Meto.</li>
-        <li><b>The pre-registered rule returned “unresolved” for both questions</b>, because no contested group reached 70% bootstrap support in both distance trees. Everything beyond that rule is labelled post hoc.</li>
+        <li><b>The pre-registered rule returned “unresolved” for both questions</b>, because no contested group reached 70% bootstrap support in both distance trees. Everything beyond that rule is labelled post hoc, apart from two replications whose predictions were stated in advance.</li>
       </ul>
     </div>
     <aside class="margin">
       <p><b>Ramelaic.</b> Hull’s group of Mambae, Kemak, Tokodede and Idalaka, his name for Idaté and Lakalei together.</p>
       <p><b>Timor-Babar.</b> Grimes and Edwards’s branch for every Austronesian language of Timor outside Central Timor, defined by the change of *p to *h.</p>
-      <p><b>Pre-registered.</b> The protocol was frozen and fingerprinted (SHA-256) on 10 October 2026, before any analysis. Eight dated addenda followed, each pushed before the tests it governs.</p>
+      <p><b>Pre-registered.</b> The protocol was frozen and fingerprinted (SHA-256) on 10 October 2026, before any analysis. Nine dated addenda followed, each pushed before the tests it governs.</p>
     </aside>
   </div>
 
@@ -269,10 +271,10 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
     <table>
       <thead><tr><th scope="col">Question</th><th scope="col">Hull</th><th scope="col">Grimes and Edwards</th><th scope="col">What the vocabulary says</th></tr></thead>
       <tbody>
-        <tr class="focus"><td>C1: where does Lakalei-Idate go?</td><td>With Central Timor (Ramelaic)</td><td>Timor-Babar, apart from Central Timor</td><td>Unresolved. Trees put it beside Central Timor; a borrowing model cannot rule out the eastern placement.</td></tr>
+        <tr class="focus"><td>C1: where does Lakalei-Idate go?</td><td>With Central Timor (Ramelaic)</td><td>Timor-Babar, apart from Central Timor</td><td>Unresolved, leaning Central Timor. Every tree puts it there; nothing tested favours the eastern placement, but a borrowing model can’t rule it out.</td></tr>
         <tr><td>C2: is Welaun Central Timor?</td><td>A dialect of Tetun (1998)</td><td>Central Timor</td><td>Central Timor, with a Tetun layer in borrowable words</td></tr>
         <tr><td>Fabronic</td><td>Tetun, Habu, Kawaimina, Galoli, Wetarese, Dawan, Welaun</td><td>Not in their scheme</td><td>No support (0 to 3% bootstrap)</td></tr>
-        <tr><td>Timor-Babar and Eastern Timor</td><td>Not in his scheme</td><td>Branches</td><td>No lexical support (posterior 0.00)</td></tr>
+        <tr><td>Timor-Babar and Eastern Timor</td><td>Not in his scheme</td><td>Branches</td><td>No lexical support (posterior 0.00; 0% on independent lists)</td></tr>
       </tbody>
     </table>
   </div>
@@ -282,7 +284,7 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
   <h2>Lakalei-Idate: inherited or borrowed?</h2>
   <div class="with-margin">
     <div class="col">
-      <p>Lakalei and Idaté, spoken in central Timor-Leste, carry the whole disagreement. Their vocabulary puts them beside Central Timor, while their sound changes look eastern: they have *p lenition and *ŋ &gt; n, and lack Central Timor’s *ŋ &gt; g, k. Five post hoc tests ask whether the Central Timor signal in their vocabulary was inherited or borrowed.</p>
+      <p>Lakalei and Idaté, spoken in central Timor-Leste, carry the whole disagreement. Their vocabulary puts them beside Central Timor, while their sound changes look eastern: they have *p lenition and *ŋ &gt; n, and lack Central Timor’s *ŋ &gt; g, k. Several tests ask whether the Central Timor signal in their vocabulary was inherited or borrowed, and whether the eastern signal is as strong as it looks.</p>
     </div>
     <aside class="margin">
       <p><b>Posterior probability.</b> The share of sampled trees that contain a group. A value of 0.91 means 91% of the trees put Lakalei-Idate next to Central Timor.</p>
@@ -298,15 +300,15 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
   <div class="with-margin">
     <div class="col">
       <h3>Shared replacements, stable and borrowable</h3>
-      <p>The triplet test counts concepts on which exactly two of three groups share a word that replaced the Proto-Malayo-Polynesian one. The largest count marks the pair the tree predicts; a lopsided split of the other two marks contact. Run separately on the 60 hardest-to-borrow concepts of the Leipzig-Jakarta list and on the other 92, it shows where the signal lives.</p>
+      <p>The triplet test counts concepts on which exactly two of three groups share a word that replaced the Proto-Malayo-Polynesian one. The largest count marks the pair the tree predicts; a lopsided split of the other two can mark contact. Run separately on the 60 hardest-to-borrow concepts of the Leipzig-Jakarta list and on the other 92, it shows where the signal lives.</p>
     </div>
     <aside class="margin">
-      <p><b>The check.</b> Welaun’s contact with Tetun is documented. The test finds it (Z = 3.1) and places it in borrowable words (Z = 6.9), not in stable ones (Z = 0.6).</p>
+      <p><b>The check.</b> Welaun’s contact with Tetun is documented. The test finds it in borrowable words (Z = 6.9, beyond 99.8% of contact-free simulations) and not in stable ones (Z = 0.6).</p>
     </aside>
   </div>
 
   <figure class="figure wide" aria-labelledby="trip-title">
-    <p class="chart-title" id="trip-title">On stable vocabulary, Lakalei-Idate pairs with Central Timor against every other group tested</p>
+    <p class="chart-title" id="trip-title">On stable vocabulary, Lakalei-Idate pairs with Central Timor against every group shown</p>
     <div class="triplets">
       <div class="trow head" aria-hidden="true"><div></div><div>Stable concepts<span class="sub">Leipzig-Jakarta, 60</span></div><div>Borrowable concepts<span class="sub">the other 92</span></div></div>
       {{TRIPLETS}}
@@ -316,38 +318,39 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
       <li><span class="k s1"></span>Focal group + third group</li>
       <li><span class="k s2"></span>Nuclear Central Timor + third group</li>
     </ul>
-    <figcaption>Numbers count concepts on which exactly that pair shares a replacement. Nuclear Central Timor is Mambae, Kemak and Tokodede. In borrowable vocabulary Habu overtakes Central Timor, the same signature as Welaun’s Tetun contact. Source: <code>results/literature/e18_triplets.json</code>.</figcaption>
+    <figcaption>Numbers count concepts on which exactly that pair shares a replacement. Nuclear Central Timor is Mambae, Kemak and Tokodede. The stable pairing holds for every choice of Mambae, Kemak and Idaté list against Habu and Kawaimina, but not against Tetun Dili. Lakalei-Idate’s extra sharing with the east is what unequal branch lengths alone predict, so it is not read as contact. Source: <code>results/literature/e18_triplets.json</code>.</figcaption>
   </figure>
 
   <div class="with-margin">
     <div class="col">
       <h3>Which half carries the signal</h3>
-      <p>In stable vocabulary, five of the eight Central Timor items are shared by both Idaté and Lakalei, so they predate the split between the two. In borrowable vocabulary, six of eight belong to Lakalei alone and match Mambae, spoken 10 km away: ‘cloud’ <span class="form">sabai</span>, ‘neck’, ‘eat’ <span class="form">mia</span> ~ <span class="form">mua</span>. The counts are small (binomial p = 0.11), but the pattern fits an old inheritance with recent local borrowing on top.</p>
+      <p>In stable vocabulary, five of the eight Central Timor items are shared by both Idaté and Lakalei, so they predate the split between the two. In borrowable vocabulary, six of eight belong to Lakalei alone and match Mambae, spoken 10 km away: ‘cloud’ <span class="form">sabai</span>, ‘neck’, ‘eat’ <span class="form">mia</span> ~ <span class="form">mua</span>. The counts are small (binomial p = 0.11), and aligned against each other these words are no closer to identical than inherited ones, so the recent-loan reading is not confirmed.</p>
 
       <h3>How much borrowing each placement needs</h3>
-      <p>Approximate Bayesian computation simulated 20,000 histories under each placement, letting Lakalei-Idate borrow from the other side, and kept the 1% closest to the 18 observed triplet counts.</p>
+      <p>Approximate Bayesian computation simulated 20,000 histories under each placement and kept those closest to the observed counts. The first version let each placement borrow from the other side only, and it preferred Grimes and Edwards’s placement. With borrowing from both sides and twice as many statistics, the preference disappears.</p>
     </div>
     <aside class="margin">
-      <p><b>Cross-validation.</b> Run on its own simulated data, the method picks the true placement in 87 to 94% of cases, so it can tell the two apart.</p>
+      <p><b>Prior error.</b> How often the method picks the wrong placement on its own simulated data. At 36%, the two-way model can barely tell the placements apart, which is itself the finding.</p>
     </aside>
   </div>
 
   <div class="table-wrap">
     <table>
-      <thead><tr><th scope="col"></th><th scope="col">Sister to Central Timor, borrowing from the east</th><th scope="col">Inside Eastern Timor, borrowing from Central Timor</th></tr></thead>
+      <thead><tr><th scope="col"></th><th scope="col">Sister to Central Timor</th><th scope="col">Inside Eastern Timor</th></tr></thead>
       <tbody>
-        <tr><td>Posterior probability</td><td>0.125</td><td>0.875</td></tr>
-        <tr><td>Borrowing in stable vocabulary, median (90% interval)</td><td>16% (1–41%)</td><td>28% (4–53%)</td></tr>
-        <tr><td>Borrowing in other vocabulary</td><td>13% (2–40%)</td><td>30% (8–52%)</td></tr>
+        <tr><td>One-way borrowing: posterior</td><td>0.125</td><td>0.875</td></tr>
+        <tr><td>One-way: stable borrowing needed, median (90%)</td><td>16% (1–41%) from the east</td><td>28% (4–53%) from Central Timor</td></tr>
+        <tr class="focus"><td>Two-way borrowing: posterior</td><td>0.42</td><td>0.58</td></tr>
+        <tr><td>Two-way: Central Timor borrowing, stable</td><td>24% (4–52%)</td><td>25% (4–55%)</td></tr>
+        <tr><td>Two-way: predictive checks failed (of 36)</td><td>0</td><td>0</td></tr>
       </tbody>
     </table>
   </div>
 
   <div class="with-margin">
     <div class="col">
-      <p>The simulation prefers Grimes and Edwards’s placement, but only if Lakalei-Idate borrowed more than a quarter of its core vocabulary from Central Timor, and as much core vocabulary as other vocabulary, unlike Welaun’s known contact. That is above the 20% bar set in advance for a defensible placement. On the full lexical likelihood, the unconstrained tree beats the constrained one by 10.5 log units.</p>
-      <p>Two further views suggest the tie is old and loose. Historical glottometry finds Lakalei-Idate cohesive on its own (subgroupiness 1.42) and only faintly tied to Central Timor (0.06) or to the east (0.08). Under a strict clock, about 80% of samples still place it with Central Timor, splitting off (relative height 0.29) barely before Central Timor itself diversified (0.27).</p>
-      <p><b>The reading that fits most of the evidence</b> is an old, conservative member of a central Timor dialect chain, close to Hull’s Ramelaic, which broke away about when Central Timor diversified and kept ties to the east. The comparative method’s own test, regular sound correspondences across complete wordlists, has not yet been applied to these data.</p>
+      <p>On the full lexical likelihood, the unconstrained tree beats the constrained one by 10.5 log units. Two further views suggest the tie is old and loose. Historical glottometry finds Lakalei-Idate cohesive on its own (subgroupiness 1.42) and only faintly tied to Central Timor (0.06) or to the east (0.08). Under a strict clock rooted on the Flores outgroup, about 77% of samples place it with Central Timor, splitting off (relative height 0.48) barely before Central Timor itself diversified (0.47).</p>
+      <p><b>The reading that fits most of the evidence</b> is an old, conservative member of a central Timor dialect chain, close to Hull’s Ramelaic, which broke away about when Central Timor diversified and kept ties to the east.</p>
     </div>
     <aside class="margin">
       <p><b>Subgroupiness.</b> In glottometry, how many innovations a group shares exclusively, weighted by how few cut across it. Ramelaic scores 0.</p>
@@ -359,11 +362,12 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
   <h2>Sound changes</h2>
   <div class="with-margin">
     <div class="col">
-      <p>Grimes and Edwards’s comparative tables were turned into data: 257 tables and 14,401 forms, with the reflexes the authors mark. Eight diagnostic changes were coded from them. Lakalei-Idate’s profile resembles Timor-Babar’s, but two facts weaken the diagnostics: Welaun, Central Timor on every other count, also has *p &gt; h, and *ŋ &gt; n also occurs in Sika, a Flores outgroup. Hull’s own Ramelaic evidence, initial *b- &gt; h, is visible in the same tables: Lakalei-Idate shares it with Mambae, Kemak and Tokodede, and Galoli and Ili’uun share it too.</p>
-      <p>Adding the sound changes to the vocabulary does not move Lakalei-Idate east. With eight changes it groups with Central Timor at 80% (ultrafast bootstrap), and Timor-Babar gets 0 in every combination. Support does depend on how cognates are coded, from 92% with SCA cognates down to 15 to 20% at two LexStat thresholds, where Lakalei-Idate still groups with Mambae, Kemak and Tokodede.</p>
+      <p>Grimes and Edwards’s comparative tables were turned into data: 257 tables and 14,401 forms, with the reflexes the authors mark. Eleven diagnostic changes were coded from them. Lakalei-Idate’s profile resembles Timor-Babar’s, but two facts weaken the diagnostics: Welaun, Central Timor on every other count, also has *p &gt; h, and *ŋ &gt; n also occurs in Sika, a Flores outgroup. Hull’s own Ramelaic evidence, initial *b- &gt; h, is visible in the same tables: Lakalei-Idate shares it with Mambae, Kemak and Tokodede, and Galoli and Ili’uun share it too.</p>
+      <p>Scored by parsimony, the coded changes need 30 steps whether Lakalei-Idate sits beside Central Timor or inside Eastern Timor, and 29 on Grimes and Edwards’s top split, which costs 12 log-likelihood units in the vocabulary. In the lexical tree Tetun is sister to Lakalei-Idate and Central Timor, so the eastern-looking changes can sit below that group at no extra cost. Some cells are thin: Idaté’s *j &gt; r rests on 5 of 12 tokens, and both members show *d &gt; r, l, a Central Timor change, in most of their (mainly automatic) tokens.</p>
     </div>
     <aside class="margin">
       <p><b>Reflex.</b> The sound a language has where the proto-language had a given sound, as Tetun <span class="form">h</span> where Proto-Malayo-Polynesian had *p.</p>
+      <p><b>Parsimony steps.</b> The fewest changes a tree needs to explain a set of characters. Fewer steps means a better fit.</p>
     </aside>
   </div>
   <figure class="figure">
@@ -372,9 +376,38 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
   </figure>
 </section>
 
+<section id="checks">
+  <h2>Ten checks on the first version</h2>
+  <div class="with-margin">
+    <div class="col">
+      <p>The first version of this study listed its own weaknesses. Each was then turned into a test, declared in a dated addendum before it was run. Two of them carried predictions stated in advance, which makes them confirmatory. Both held against Habu and Kawaimina and both failed against Tetun: clearly with Tetun Dili in one, and by a single concept (45 against 44) with the two Tetun lists pooled in the other.</p>
+    </div>
+    <aside class="margin">
+      <p><b>Holm correction.</b> A way of keeping the chance of any false positive at 5% when many tests are run together.</p>
+    </aside>
+  </div>
+  <div class="table-wrap">
+    <table class="checks">
+      <thead><tr><th scope="col">Weakness</th><th scope="col">Check</th><th scope="col">Outcome</th></tr></thead>
+      <tbody>
+        <tr><td>About twenty post hoc tests, uncorrected</td><td>Holm and Benjamini–Hochberg over 40 tests</td><td>Only Welaun’s Tetun contact survives</td></tr>
+        <tr class="focus"><td>Results could hinge on which dialect lists were used</td><td>Every combination of 11 Mambae, 8 Kemak, 2 Idaté and 2 Tetun lists; predictions stated in advance</td><td>Pairing with Central Timor holds against Habu and Kawaimina (100%), not against Tetun (47%, failing on Tetun Dili)</td></tr>
+        <tr class="focus"><td>The word lists share sources and an editor with Grimes and Edwards</td><td>Lists collected by others only; predictions stated in advance</td><td>Lakalei-Idate + Mambae, Kemak, Tokodede 97%; Timor-Babar 0%; not a same-collector effect. Stable pairing fails narrowly against Tetun</td></tr>
+        <tr><td>Cognates found automatically</td><td>Consensus of five codings; a packet of the 24 decisive sets for a specialist</td><td>Timor-Babar and Lakalei-Idate + Eastern Timor stay at 0%</td></tr>
+        <tr><td>Retention classifier misses changed retentions</td><td>Validated on 3,801 expert-judged forms; a reflex-aware rule</td><td>Accuracy 0.755 → 0.791; main patterns unchanged</td></tr>
+        <tr><td>Triplet test assumes equal rates</td><td>Simulated null and power</td><td>Contact readings for Lakalei-Idate withdrawn; Welaun’s stands</td></tr>
+        <tr><td>Borrowing model one-directional</td><td>Two-way model, 36 statistics, random forests, predictive checks</td><td>Placements indistinguishable</td></tr>
+        <tr><td>Sound changes taken as pointing east</td><td>Parsimony on the rival trees; token counts with intervals</td><td>30 steps on either placement</td></tr>
+        <tr><td>Comparative method not applied</td><td>Identity of aligned words against an inherited baseline</td><td>No loan signal; low power</td></tr>
+        <tr><td>Clock rooted on a long, sparse branch</td><td>Root fixed on the outgroup</td><td>Same picture: 77% Central Timor side</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
 <section id="branches">
   <h2>Other disputed branches</h2>
-  <p class="col" style="max-width: var(--measure)">The same triplet test, run on other placements that the two classifications or the trees leave open. Counts are for all concepts, with stable concepts in brackets.</p>
+  <p class="col" style="max-width: var(--measure)">The same triplet test, run on other placements that the two classifications or the trees leave open. Counts are for all concepts, with stable concepts in brackets. The tree pairs are robust to the classifier change; none of the contact excesses survives multiple-testing correction.</p>
   <div class="table-wrap">
     <table>
       <thead><tr><th scope="col">Triplet</th><th scope="col">Counts</th><th scope="col">Reading</th></tr></thead>
@@ -394,15 +427,15 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
   <div class="with-margin">
     <div class="col">
       <ol class="stages">
-        <li><b>Data.</b> Basic vocabulary from LexiRumah 3.0.1: 70 lects of the Timor region and 152 concepts, with 24 lects, one per language, in the model-based analyses. ABVD’s expert cognate judgements served as a benchmark.</li>
-        <li><b>Cognates.</b> Automatic detection with LexStat in LingPy, scored against the experts at a B-cubed F of 0.81. A gate of known low-level groups had to be recovered before any contested group was scored.</li>
+        <li><b>Data.</b> Basic vocabulary from LexiRumah 3.0.1: 70 lects of the Timor region and 152 concepts, with 24 lects, one per language, in the model-based analyses. ABVD’s expert cognate judgements served as a benchmark. The Idaté and Lakalei lists come from surveys by Marian Klamer (2002) and Virginia Dawson (2014).</li>
+        <li><b>Cognates.</b> Automatic detection with LexStat in LingPy, scored against the experts at a B-cubed F of 0.81, and checked under five codings and their consensus. A gate of known low-level groups had to be recovered before any contested group was scored.</li>
         <li><b>Trees.</b> Distance trees with 1,000 concept bootstraps, Bayesian trees in MrBayes with Bayes factors from stepping-stone sampling, and maximum-likelihood trees in IQ-TREE.</li>
-        <li><b>Sound changes.</b> Grimes and Edwards’s tables as an expert reflex atlas, checked against an automatic atlas (94% agreement), and coded as characters alongside the vocabulary.</li>
-        <li><b>Inheritance or contact.</b> Retention and innovation classes for every cognate set, the triplet test, a split test, approximate Bayesian computation, historical glottometry and a strict-clock analysis.</li>
+        <li><b>Sound changes.</b> Grimes and Edwards’s tables as an expert reflex atlas, checked against an automatic atlas (94% agreement), coded as characters alongside the vocabulary and scored by parsimony on the rival trees.</li>
+        <li><b>Inheritance or contact.</b> Retention and innovation classes for every cognate set, validated against experts; the triplet test, calibrated by simulation; a split test; approximate Bayesian computation with random forests; historical glottometry; strict-clock analyses.</li>
       </ol>
     </div>
     <aside class="margin">
-      <p><b>B-cubed F.</b> A score from 0 to 1 for how well automatic cognate sets match expert ones. 0.81 is usable but below the 0.89 that List, Greenhill and Gray (2017) report across families, which is why the results are checked under five codings.</p>
+      <p><b>B-cubed F.</b> A score from 0 to 1 for how well automatic cognate sets match expert ones. 0.81 is usable but below the 0.89 that List, Greenhill and Gray (2017) report across families, which is why the results are checked under several codings.</p>
     </aside>
   </div>
 
@@ -414,6 +447,7 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
     <li><span class="when">10 to 11 October</span><b>Addenda 3 and 4 (post hoc).</b> Bayesian reruns, Grimes and Edwards’s tables as data, reflex atlases and total-evidence trees.</li>
     <li><span class="when">11 October</span><b>Addenda 5 and 6 (post hoc).</b> Hull’s *b and *k as characters, an ASJP check, cognate-coding robustness and Alcantara’s (2015) Idaté list.</li>
     <li><span class="when">11 October</span><b>Addenda 7 and 8 (post hoc).</b> Shared innovations, the triplet test, contact-aware trees, the split test, borrowing simulation, glottometry, clock dating and other branches.</li>
+    <li class="key-event"><span class="when">11 October</span><b>Addendum 9.</b> Ten checks on the first version’s weaknesses, two of them confirmatory, declared before any was run.</li>
   </ol>
 </section>
 
@@ -430,11 +464,11 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
         <dt><a href="{{GH}}/tree/main/derived/sound_change_matrix" target="_blank" rel="noopener">derived/sound_change_matrix/</a></dt>
         <dd>Sound-change characters for the Timor-region languages, including Hull’s *b and *k.</dd>
         <dt><a href="{{GH}}/tree/main/derived/innovations" target="_blank" rel="noopener">derived/innovations/</a></dt>
-        <dd>The retention or innovation status of every cognate set.</dd>
+        <dd>The retention or innovation status of every cognate set, under both rules, and the specialist review packet for Lakalei-Idate’s 24 decisive sets.</dd>
         <dt><a href="{{GH}}/tree/main/derived/alcantara2015_idate" target="_blank" rel="noopener">derived/alcantara2015_idate/</a></dt>
         <dd>184 Idaté forms from Alcantara’s (2015) fieldwork in Laclubar.</dd>
         <dt><a href="{{GH}}/blob/main/PROTOCOL.md" target="_blank" rel="noopener">PROTOCOL.md</a></dt>
-        <dd>The frozen protocol and its eight addenda.</dd>
+        <dd>The frozen protocol and its nine addenda.</dd>
       </dl>
       <p class="cite">Code is MIT-licensed; data keep their sources’ licences.</p>
     </div>
@@ -450,11 +484,11 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
 </section>
 
 <section id="limits">
-  <h2>Limits</h2>
+  <h2>What still limits the result</h2>
   <div class="with-margin">
     <div class="col">
-      <p>Most results after the frozen protocol are post hoc, and about twenty analyses were run without correction for multiple testing. The cognates are automatic and have not been checked by a specialist, and the C1 result depends on how they are coded. LexiRumah and Grimes and Edwards share sources and an editor. The sound-change characters come from illustrative tables and are thin for Idaté and Lakalei. The triplet test assumes similar rates of change across lineages, which the tree does not show, and the simulation reduces the data to 18 counts. Hull (1998) and Carvalho (2001) are cited from secondary sources.</p>
-      <p>What would settle C1: expert cognate judgements for the decisive concepts, Grimes and Edwards’s full field lists for Idaté and Lakalei, Alcantara’s complete Idaté corpus, and a regular-correspondence analysis of complete wordlists.</p>
+      <p>Apart from the two replications, the analyses after the frozen protocol are post hoc, and after correction only Welaun’s Tetun contact is statistically secure. The confirmatory predictions failed against Tetun in both replications. The cognates are automatic and have not been checked by a specialist; the consensus coding and the validated classifier reduce that dependence without removing it. LexiRumah is still a single compilation, although its Idaté, Lakalei and replacement Central Timor lists come from collectors other than Edwards and Grimes. Some sound-change cells rest on a handful of tokens. The calibrated triplet test detects 20% borrowing only 30% of the time, so not finding contact is weak evidence against it, and the borrowing model cannot separate the placements. Hull (1998) and Carvalho (2001) could not be obtained and are cited from secondary sources.</p>
+      <p>What would settle C1: a specialist’s review of the 24 decisive cognate sets (the packet is ready), Grimes and Edwards’s full field lists for Idaté and Lakalei, Alcantara’s complete Idaté corpus, and a regular-correspondence analysis of complete wordlists.</p>
       <p><b>Use of AI.</b> The code, the analyses and the drafting were carried out with substantial assistance from Claude (Anthropic), an AI system, under the author’s direction. Every analysis, decision and correction is recorded in the public repository so that it can be checked.</p>
     </div>
   </div>
@@ -464,7 +498,7 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
   <h2>The working paper</h2>
   <div class="with-margin">
     <div class="col">
-      <p>The full account, with methods, tables and references, is a ten-page Phaistos Labs working paper. It is a preprint and has not been peer reviewed.</p>
+      <p>The full account, with methods, tables and references, is a twelve-page Phaistos Labs working paper. It is a preprint and has not been peer reviewed.</p>
       <p class="cite">Crowley, Dennis. 2026. <i>Liabut: a pre-registered computational test of how Timor’s Austronesian languages branch.</i> Phaistos Labs working paper.</p>
       <p class="paper-link"><a class="button" href="liabut.pdf" target="_blank" rel="noopener">Open the PDF</a> <a class="button ghost" href="{{GH}}/blob/main/paper/liabut.pdf" target="_blank" rel="noopener">PDF on GitHub</a></p>
     </div>
@@ -476,7 +510,7 @@ tr.focus td { background: rgba(181, 69, 31, 0.07); }
 <footer class="colophon">
   <img src="{{LOGO}}" alt="" width="30" height="33">
   <p>Phaistos Labs · Project Liabut · 11 October 2026</p>
-  <p><a href="https://phaistoslabs.com" target="_blank" rel="noopener">phaistoslabs.com</a> · <a href="{{GH}}" target="_blank" rel="noopener">github.com/DenC-dev/sanak</a></p>
+  <p><a href="https://phaistoslabs.com" target="_blank" rel="noopener">phaistoslabs.com</a> · <a href="{{GH}}" target="_blank" rel="noopener">GitHub repository</a></p>
 </footer>
 
 <div class="tip" id="tip" role="tooltip" hidden></div>

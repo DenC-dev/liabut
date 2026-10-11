@@ -1,0 +1,235 @@
+{
+ "null_replicates": 2000,
+ "observed": {
+  "(Welaun, NCT, Tetun) stable": {
+   "D": 0.231,
+   "Z": 0.55,
+   "counts": [
+    11.0,
+    8.0,
+    5.0
+   ]
+  },
+  "(Welaun, NCT, Tetun) other": {
+   "D": 0.882,
+   "Z": 6.89,
+   "counts": [
+    17.0,
+    16.0,
+    1.0
+   ]
+  },
+  "(LI, NCT, Tetun) stable": {
+   "D": 0.52,
+   "Z": 1.72,
+   "counts": [
+    25.0,
+    19.0,
+    6.0
+   ]
+  },
+  "(LI, NCT, Tetun) other": {
+   "D": 0.529,
+   "Z": 1.46,
+   "counts": [
+    32.0,
+    13.0,
+    4.0
+   ]
+  },
+  "(LI, NCT, Habu) stable": {
+   "D": 0.257,
+   "Z": 0.7,
+   "counts": [
+    31.0,
+    22.0,
+    13.0
+   ]
+  },
+  "(LI, NCT, Habu) other": {
+   "D": 0.65,
+   "Z": 2.98,
+   "counts": [
+    27.0,
+    33.0,
+    7.0
+   ]
+  },
+  "(LI, NCT, Kawaimina) stable": {
+   "D": 0.531,
+   "Z": 2.02,
+   "counts": [
+    98.0,
+    62.0,
+    19.0
+   ]
+  },
+  "(LI, NCT, Kawaimina) other": {
+   "D": 0.5,
+   "Z": 1.9,
+   "counts": [
+    86.0,
+    33.0,
+    11.0
+   ]
+  },
+  "(LI, NCT, Galoli) stable": {
+   "D": 0.12,
+   "Z": 0.27,
+   "counts": [
+    20.0,
+    14.0,
+    11.0
+   ]
+  },
+  "(LI, NCT, Galoli) other": {
+   "D": 0.474,
+   "Z": 1.49,
+   "counts": [
+    19.0,
+    14.0,
+    5.0
+   ]
+  }
+ },
+ "null": {
+  "(Welaun, NCT, Tetun) stable": {
+   "D_null_median": 0.333,
+   "D_null_95": [
+    -0.556,
+    1.0
+   ],
+   "p_upper": 0.579,
+   "p_upper_Z": 0.457,
+   "share_null_Z_ge_2": 0.11
+  },
+  "(Welaun, NCT, Tetun) other": {
+   "D_null_median": 0.333,
+   "D_null_95": [
+    -0.667,
+    1.0
+   ],
+   "p_upper": 0.15,
+   "p_upper_Z": 0.002,
+   "share_null_Z_ge_2": 0.099
+  },
+  "(LI, NCT, Tetun) stable": {
+   "D_null_median": 0.438,
+   "D_null_95": [
+    -0.333,
+    1.0
+   ],
+   "p_upper": 0.409,
+   "p_upper_Z": 0.355,
+   "share_null_Z_ge_2": 0.297
+  },
+  "(LI, NCT, Tetun) other": {
+   "D_null_median": 0.462,
+   "D_null_95": [
+    -0.333,
+    1.0
+   ],
+   "p_upper": 0.425,
+   "p_upper_Z": 0.384,
+   "share_null_Z_ge_2": 0.279
+  },
+  "(LI, NCT, Habu) stable": {
+   "D_null_median": 0.45,
+   "D_null_95": [
+    -0.245,
+    1.0
+   ],
+   "p_upper": 0.7285,
+   "p_upper_Z": 0.7035,
+   "share_null_Z_ge_2": 0.331
+  },
+  "(LI, NCT, Habu) other": {
+   "D_null_median": 0.449,
+   "D_null_95": [
+    -0.294,
+    1.0
+   ],
+   "p_upper": 0.264,
+   "p_upper_Z": 0.162,
+   "share_null_Z_ge_2": 0.294
+  },
+  "(LI, NCT, Kawaimina) stable": {
+   "D_null_median": 0.438,
+   "D_null_95": [
+    -0.355,
+    1.0
+   ],
+   "p_upper": 0.402,
+   "p_upper_Z": 0.275,
+   "share_null_Z_ge_2": 0.28
+  },
+  "(LI, NCT, Kawaimina) other": {
+   "D_null_median": 0.463,
+   "D_null_95": [
+    -0.529,
+    1.0
+   ],
+   "p_upper": 0.475,
+   "p_upper_Z": 0.2615,
+   "share_null_Z_ge_2": 0.248
+  },
+  "(LI, NCT, Galoli) stable": {
+   "D_null_median": 0.444,
+   "D_null_95": [
+    -0.385,
+    1.0
+   ],
+   "p_upper": 0.778,
+   "p_upper_Z": 0.7005,
+   "share_null_Z_ge_2": 0.243
+  },
+  "(LI, NCT, Galoli) other": {
+   "D_null_median": 0.467,
+   "D_null_95": [
+    -0.429,
+    1.0
+   ],
+   "p_upper": 0.4855,
+   "p_upper_Z": 0.3035,
+   "share_null_Z_ge_2": 0.218
+  }
+ },
+ "power_habu_borrowing_other_concepts": {
+  "0.0": {
+   "detect_other_Z_ge_2": 0.268,
+   "detect_stable_Z_ge_2": 0.322,
+   "habu_pair_at_least_tree_pair_other": 0.63,
+   "post_hoc_calibrated_detect_other": 0.054
+  },
+  "0.05": {
+   "detect_other_Z_ge_2": 0.484,
+   "detect_stable_Z_ge_2": 0.34,
+   "habu_pair_at_least_tree_pair_other": 0.788,
+   "post_hoc_calibrated_detect_other": 0.13
+  },
+  "0.1": {
+   "detect_other_Z_ge_2": 0.594,
+   "detect_stable_Z_ge_2": 0.348,
+   "habu_pair_at_least_tree_pair_other": 0.878,
+   "post_hoc_calibrated_detect_other": 0.168
+  },
+  "0.2": {
+   "detect_other_Z_ge_2": 0.736,
+   "detect_stable_Z_ge_2": 0.332,
+   "habu_pair_at_least_tree_pair_other": 0.964,
+   "post_hoc_calibrated_detect_other": 0.3
+  },
+  "0.3": {
+   "detect_other_Z_ge_2": 0.806,
+   "detect_stable_Z_ge_2": 0.334,
+   "habu_pair_at_least_tree_pair_other": 0.994,
+   "post_hoc_calibrated_detect_other": 0.486
+  }
+ },
+ "post_hoc_calibrated_Z_threshold": 5.72,
+ "validation": {
+  "false_detection_at_0": 0.268,
+  "detection_at_0_2": 0.736,
+  "passes": false
+ }
+}

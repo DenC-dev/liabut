@@ -1,0 +1,92 @@
+{
+ "exclusive_counts": {
+  "LI + mixed": 41,
+  "LI + other": 8,
+  "LI only": 28,
+  "LI + CT": 6,
+  "LI + Kawaimina": 3,
+  "LI + several Eastern Timor": 3,
+  "LI + Habu": 2,
+  "LI + Tetun": 1
+ },
+ "exclusive_by_stratum": {
+  "stable": {
+   "LI + mixed": 21,
+   "LI + other": 5,
+   "LI only": 16,
+   "LI + CT": 2,
+   "LI + Kawaimina": 2,
+   "LI + Habu": 1
+  },
+  "other": {
+   "LI + mixed": 20,
+   "LI + other": 3,
+   "LI only": 12,
+   "LI + CT": 4,
+   "LI + several Eastern Timor": 3,
+   "LI + Habu": 1,
+   "LI + Tetun": 1,
+   "LI + Kawaimina": 1
+  }
+ },
+ "regression_all": {
+  "slope_per_log_km": -0.039,
+  "lects": 58,
+  "mean_residual_by_group": {
+   "CT": {
+    "mean": 0.0137,
+    "n": 22
+   },
+   "Galoli": {
+    "mean": -0.0278,
+    "n": 1
+   },
+   "Habu": {
+    "mean": -0.0313,
+    "n": 1
+   },
+   "Kawaimina": {
+    "mean": -0.0314,
+    "n": 3
+   },
+   "Tetun": {
+    "mean": 0.0175,
+    "n": 2
+   },
+   "other": {
+    "mean": -0.0063,
+    "n": 29
+   }
+  }
+ },
+ "regression_stable": {
+  "slope_per_log_km": -0.0293,
+  "lects": 58,
+  "mean_residual_by_group": {
+   "CT": {
+    "mean": 0.0024,
+    "n": 22
+   },
+   "Galoli": {
+    "mean": -0.0449,
+    "n": 1
+   },
+   "Habu": {
+    "mean": -0.0184,
+    "n": 1
+   },
+   "Kawaimina": {
+    "mean": -0.0164,
+    "n": 3
+   },
+   "Tetun": {
+    "mean": 0.0209,
+    "n": 2
+   },
+   "other": {
+    "mean": 0.0006,
+    "n": 29
+   }
+  }
+ }
+}

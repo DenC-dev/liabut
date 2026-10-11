@@ -31,3 +31,15 @@ results/literature/e23_dating/*.p
 results/literature/e23_dating/*.ckp*
 results/literature/e23_dating/*.mcmc
 paper/build/
+results/literature/e27/*.ckp.gz
+results/literature/e27/*.log
+results/literature/e28/*.ckp.gz
+results/literature/e28/*.log
+results/literature/e29/*.ckp.gz
+results/literature/e29/*.log
+results/literature/e34_rooted_clock/*.t
+results/literature/e34_rooted_clock/*.p
+results/literature/e34_rooted_clock/*.ckp*
+results/literature/e34_rooted_clock/*.mcmc
+results/literature/*_run.log
+results/literature/e30_rerun_*.log

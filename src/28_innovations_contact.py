@@ -23,6 +23,9 @@ from pipeline import variant_rows  # noqa: E402
 
 ra = importlib.import_module("19_reflex_atlas")
 ex = importlib.import_module("10_exploratory")
+clf = importlib.import_module("35_classifier")
+RULE = clf.chosen_rule()   # R0 unless RETENTION_RULE=chosen (E30)
+SUF = "" if RULE["kind"] == "R0" else "_" + RULE["kind"].lower()
 LIT = os.path.join(RES, "literature")
 DER = os.path.join(REPO, "derived", "innovations")
 
@@ -62,12 +65,17 @@ def classify():
     for r in rows:
         members[r["Cognateset_ID"]].append(r)
     status = {}
+    glotto = {k: v["Glottocode"] for k, v in lects.items()}
     for sid, rs in members.items():
         ps = pmp[concepts[rs[0]["Concept_ID"]]]
-        best = min(ned(sca_string(p), sca_string(segs[r["Form_ID"]])) for p in ps for r in rs if segs[r["Form_ID"]])
-        status[sid] = "retention" if best <= 0.5 else "innovation"
+        if RULE["kind"] == "R0":
+            best = min(ned(sca_string(p), sca_string(segs[r["Form_ID"]])) for p in ps for r in rs
+                       if segs[r["Form_ID"]])
+            status[sid] = "retention" if best <= 0.5 else "innovation"
+        else:
+            status[sid] = clf.set_status([(r["Lect_ID"], segs[r["Form_ID"]]) for r in rs], ps, RULE, glotto)
     os.makedirs(DER, exist_ok=True)
-    write_csv(os.path.join(DER, "cognate_set_status.csv"),
+    write_csv(os.path.join(DER, f"cognate_set_status{SUF}.csv"),
               [dict(Cognateset_ID=s, Concept_ID=members[s][0]["Concept_ID"], Status=status[s],
                     Lects=" ".join(sorted({r["Lect_ID"] for r in members[s]})),
                     Forms="; ".join(f"{r['Lect_ID']}:{''.join(segs[r['Form_ID']])}" for r in members[s]))
@@ -116,7 +124,7 @@ def e17(lects, rows, members, status, segs, stable):
                                   Forms="; ".join(f"{lects[r['Lect_ID']]['Name']}: {''.join(segs[r['Form_ID']])}"
                                                   for r in rs)))
     inventory.sort(key=lambda x: (x["Class"], x["Concept_ID"]))
-    write_csv(os.path.join(LIT, "e17_exclusive_innovations.csv"), inventory)
+    write_csv(os.path.join(LIT, f"e17_exclusive_innovations{SUF}.csv"), inventory)
     # (ii) per-lect sharing rate with LI, against distance
     sets_of = defaultdict(set)   # (lect, concept) -> innovation sets
     attested = defaultdict(set)
@@ -157,8 +165,8 @@ def e17(lects, rows, members, status, segs, stable):
         res[f"regression_{stratum}"] = dict(slope_per_log_km=round(float(b), 4), lects=len(pts),
                                             mean_residual_by_group={k: dict(mean=round(float(np.mean(v)), 4),
                                                                             n=len(v)) for k, v in sorted(g.items())})
-    write_csv(os.path.join(LIT, "e17_sharing_rates.csv"), sorted(out_rows, key=lambda r: -(r["rate_all"] or 0)))
-    json.dump(res, open(os.path.join(LIT, "e17_innovations.json"), "w"), indent=1, ensure_ascii=False)
+    write_csv(os.path.join(LIT, f"e17_sharing_rates{SUF}.csv"), sorted(out_rows, key=lambda r: -(r["rate_all"] or 0)))
+    json.dump(res, open(os.path.join(LIT, f"e17_innovations{SUF}.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps(res, indent=1, ensure_ascii=False))
     return sets_of, attested
 
@@ -197,7 +205,7 @@ def e18(sets_of, attested, stable):
                                          se=round(se, 3), Z=round(D / se, 2) if se and se > 0 else None))
         out[f"({A}, {B}, {C})"] = res_t
         print(f"({A}, {B}, {C})", json.dumps(res_t, ensure_ascii=False))
-    json.dump(out, open(os.path.join(LIT, "e18_triplets.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(out, open(os.path.join(LIT, f"e18_triplets{SUF}.json"), "w"), indent=1, ensure_ascii=False)
 
 
 if __name__ == "__main__":

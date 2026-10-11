@@ -13,11 +13,11 @@ Run on 2026-10-10.
 
 | Question | Pre-registered verdict (step 8) | What all the evidence says | Confidence |
 |---|---|---|---|
-| **Hull's Fabronic / Timoric A** | Not supported (0% in every analysis) | Rejected as a lexical group | High |
+| **Hull's Fabronic / Timoric A** | Not supported (0% in every analysis) | No lexical support, under every coding and with independent lists (E27, E28) | High |
 | **Timor-Babar** (Edwards; Grimes and Edwards) | Not supported (0%) | Not a lexical group: ln BF −7.0 against it, and forcing it costs 12 log-likelihood units in ML. It stands on its sound changes only. | High that the vocabulary doesn't show it |
 | **Eastern Timor** (Edwards; Grimes and Edwards) | Not supported (0–3%) | Same as Timor-Babar | High |
 | **C2. Is Welaun a Tetun dialect (Hull 1998) or Central Timor (Edwards)?** | Unresolved, because the bootstrap trees don't reach 70% for Central Timor | **Central Timor.** ln BF +10.3, the ML tree puts it there, and its Tetun tie disappears on borrowing-resistant words. This agrees with the sound changes in Edwards (2019) and Grimes and Edwards. | High |
-| **C1. Do Idaté and Lakalei go with Mambae, Kemak and Tokodede (Hull's Ramelaic), or into Timor-Babar (Edwards)?** | Unresolved, because neither clade reaches 70% in the bootstrap trees | **Leans Central Timor (Hull's grouping, with Welaun added).** The vocabulary puts Lakalei-Idate next to Central Timor (posterior 0.91; ln BF +8.0 for Ramelaic). So does every analysis that adds Grimes and Edwards's own sound-change data (posterior 0.88; ML 56–80). Timor-Babar's one defining change, *p lenition, also occurs in Welaun. See *Expansion*. | Moderate to low: post hoc; the sound-change data are sparse; support varies with cognate coding (15–92%; E15), though Timor-Babar gets 0 under every coding. On stable vocabulary, shared replacements pair Lakalei-Idate with Central Timor in every triplet test (E18). But a borrowing simulation fits Grimes and Edwards's placement plus heavy Central Timor borrowing slightly better (E21), so the lexicon is best described as mixed |
+| **C1. Do Idaté and Lakalei go with Mambae, Kemak and Tokodede (Hull's Ramelaic), or into Timor-Babar (Edwards)?** | Unresolved, because neither clade reaches 70% in the bootstrap trees | **Unresolved, leaning Central Timor.** Every tree puts Lakalei-Idate next to Central Timor (posterior 0.91; ln BF +8.0 for Ramelaic; 97% UFBoot on lists collected independently of Grimes and Edwards, E28). The arguments for the eastern placement do not discriminate once tested: the coded sound changes cost the same on either tree (E29), and a two-way borrowing model cannot separate the placements (E32). | Moderate to low. Post hoc apart from E26 and E28, whose Tetun predictions failed (Tetun Dili; and 45 to 44 with both Tetun lists pooled). Support varies with cognate coding (15–97%), though Timor-Babar gets 0 under every coding and data set. No contact signal for Lakalei-Idate survives calibration (E31) or multiple-testing correction (E25). |
 | **Low-level groups** | Supported (≥ 70% in every variant): Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang, Kisar-Roma, Babar, Peripheral Babar, South Babar | Settled. All of them are already in Grimes and Edwards and in Glottolog. | High |
 
 ## Gate (step 4)
@@ -367,6 +367,18 @@ The full scan, sources and tables are in [`LITERATURE.md`](LITERATURE.md).
   - **Strict clock.** About 80% of samples still put Lakalei-Idate with Central Timor, and the split is barely older than Central Timor's own diversification.
   - **Other branches.** Galoli's closest relative is Atauro's Dadu'a.
   - **Net.** Lakalei-Idate is an old member of a central Timor dialect chain, with a mixed vocabulary. The lean towards Central Timor is weaker than the tree analyses alone suggest.
+- **Addendum 9 (E25–E34): the limitations, tested.** Details in `LITERATURE.md`, *Fifth round*.
+  - **Multiple testing (E25).** Of 40 tests, 7 are nominally significant and 1 survives Holm: Welaun's Tetun contact in borrowable words.
+  - **Dialect representatives (E26, confirmatory).** The stable-vocabulary pairing with Central Timor holds against Habu and Kawaimina in 100% of combinations, but against Tetun in only 47%: it fails with Tetun Dili. The Welaun-Mahein control passes (82%).
+  - **Independent data (E28, confirmatory).** Without Edwards or Grimes lists, Lakalei-Idate + Nuclear Central Timor gets 97% and Timor-Babar 0%. A collector check rules out a Klamer-2002 artefact. The stable pairing holds against Habu and Kawaimina and fails against Tetun by one concept (45 to 44).
+  - **Consensus cognates (E27).** Timor-Babar and Lakalei-Idate + Eastern Timor stay at 0%; Lakalei-Idate + Nuclear Central Timor 55%. A reviewer packet of the 24 decisive cognate sets is in `derived/innovations/`.
+  - **Sound changes on the rival trees (E29).** 30 parsimony steps on the lexical tree and on Lakalei-Idate + Eastern Timor; 29 on Grimes and Edwards's top split.
+  - **Classifier (E30).** A reflex-aware rule raises balanced accuracy against ABVD's experts from 0.755 to 0.791; reruns keep the main patterns.
+  - **Triplet test (E31).** With unequal rates and no borrowing, the observed Lakalei-Idate excesses are ordinary, and the Z ≥ 2 rule fires 27% of the time, so those contact readings are withdrawn. Welaun's still stands.
+  - **Two-way borrowing model (E32).** Posterior 0.58 for Grimes and Edwards's placement, random-forest prior error 36%: the placements can't be separated. E21's 0.875 was an artefact of one-way borrowing.
+  - **Correspondence test (E33).** No loan signal in Lakalei–Mambae or Idaté–Habu shared words; low power.
+  - **Rooted clock (E34).** About 77% of samples put Lakalei-Idate with Central Timor; the split is again barely older than Central Timor's own diversification.
+  - **Net.** C1 stays unresolved, but now leans Central Timor more clearly: the tree signal is robust and the counter-arguments don't discriminate. The contact story built on the triplet test is withdrawn for Lakalei-Idate.
 - **Treelikeness.** Timor's Austronesian vocabulary is at least as network-like as the Timor-Alor-Pantar data, which Kaiping and Klamer read as a former dialect chain: mean Q residual 0.0072 against 0.0047. That supports a linkage reading.
 
 ## Novelty check (post hoc, 10 October 2026)
@@ -420,7 +432,7 @@ What Liabut adds was checked against the literature and against the one earlier 
 
 ## Caveats
 
-- **Shared sources.** LexiRumah and Grimes and Edwards share sources and an editor (Edwards). The lexical data are not independent of the classification being tested.
+- **Shared sources.** LexiRumah and Grimes and Edwards share sources and an editor (Edwards). E28 checked this: with lists collected by others only, the result holds (Lakalei-Idate + Nuclear Central Timor 97%, Timor-Babar 0%).
 - **Splitting bias.** Automatic cognates split more than experts do (precision 0.88, recall 0.75). That lowers similarity between distant lects more than between close ones.
 - **Reticulation.** The Bayesian and ML tests use 24 lects and lexical characters only, so they inherit the lexicon's reticulation (delta 0.33 at this level).
 - **Small native samples.** The sound-change counts for Idaté and Lakalei are small.

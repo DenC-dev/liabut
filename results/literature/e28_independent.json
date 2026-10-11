@@ -1,0 +1,167 @@
+{
+ "taxa": [
+  "mamb1306",
+  "kema1243",
+  "tuku1254",
+  "idat1237-cribas",
+  "laka1255",
+  "tetu1245-suai",
+  "habu1241",
+  "waim1252",
+  "midi1237",
+  "naue1237",
+  "galo1243",
+  "dadu1237",
+  "term1237",
+  "dela1252",
+  "ilma1240",
+  "kaha1239",
+  "kisa1266",
+  "luan1264",
+  "tela1241",
+  "lama1277-lewoi",
+  "sika1262-hewa"
+ ],
+ "characters": 1192,
+ "ufboot": {
+  "LI + Nuclear CT": 97.0,
+  "Timor-Babar (all Timor-region taxa outside Nuclear CT)": 0,
+  "LI + Eastern Timor": 0,
+  "Nuclear CT": 98.0,
+  "Lakalei-Idate": 5.0
+ },
+ "triplets_single_survey": {
+  "(LI, NCT, Tetun)": {
+   "all": {
+    "concepts": 91,
+    "counts": {
+     "LI+NCT": 95,
+     "LI+Tetun": 90,
+     "NCT+Tetun": 23
+    },
+    "largest": "LI+NCT",
+    "ab_strictly_largest": true,
+    "D": 0.593,
+    "Z": 3.76
+   },
+   "stable": {
+    "concepts": 50,
+    "counts": {
+     "LI+NCT": 44,
+     "LI+Tetun": 45,
+     "NCT+Tetun": 16
+    },
+    "largest": "LI+Tetun",
+    "ab_strictly_largest": false,
+    "D": 0.475,
+    "Z": 1.87
+   },
+   "other": {
+    "concepts": 41,
+    "counts": {
+     "LI+NCT": 51,
+     "LI+Tetun": 45,
+     "NCT+Tetun": 7
+    },
+    "largest": "LI+NCT",
+    "ab_strictly_largest": true,
+    "D": 0.731,
+    "Z": 3.64
+   }
+  },
+  "(LI, NCT, Habu)": {
+   "all": {
+    "concepts": 88,
+    "counts": {
+     "LI+NCT": 56,
+     "LI+Habu": 44,
+     "NCT+Habu": 20
+    },
+    "largest": "LI+NCT",
+    "ab_strictly_largest": true,
+    "D": 0.375,
+    "Z": 1.58
+   },
+   "stable": {
+    "concepts": 50,
+    "counts": {
+     "LI+NCT": 32,
+     "LI+Habu": 21,
+     "NCT+Habu": 13
+    },
+    "largest": "LI+NCT",
+    "ab_strictly_largest": true,
+    "D": 0.235,
+    "Z": 0.6
+   },
+   "other": {
+    "concepts": 38,
+    "counts": {
+     "LI+NCT": 24,
+     "LI+Habu": 23,
+     "NCT+Habu": 7
+    },
+    "largest": "LI+NCT",
+    "ab_strictly_largest": true,
+    "D": 0.533,
+    "Z": 1.82
+   }
+  },
+  "(LI, NCT, Kawaimina)": {
+   "all": {
+    "concepts": 95,
+    "counts": {
+     "LI+NCT": 167,
+     "LI+Kawaimina": 86,
+     "NCT+Kawaimina": 26
+    },
+    "largest": "LI+NCT",
+    "ab_strictly_largest": true,
+    "D": 0.536,
+    "Z": 2.68
+   },
+   "stable": {
+    "concepts": 53,
+    "counts": {
+     "LI+NCT": 95,
+     "LI+Kawaimina": 59,
+     "NCT+Kawaimina": 16
+    },
+    "largest": "LI+NCT",
+    "ab_strictly_largest": true,
+    "D": 0.573,
+    "Z": 2.27
+   },
+   "other": {
+    "concepts": 42,
+    "counts": {
+     "LI+NCT": 72,
+     "LI+Kawaimina": 27,
+     "NCT+Kawaimina": 10
+    },
+    "largest": "LI+NCT",
+    "ab_strictly_largest": true,
+    "D": 0.459,
+    "Z": 1.24
+   }
+  }
+ },
+ "edwards_or_grimes_lects": [
+  "mamb1306-Slete",
+  "kema1243-kaila",
+  "west2547-welaun",
+  "galo1243",
+  "funa1237",
+  "koto1251"
+ ],
+ "predictions": {
+  "P4 Tetun": false,
+  "P4 Habu": true,
+  "P4 Kawaimina": true,
+  "P5 Timor-Babar and LI+ET <= 5": true
+ },
+ "rule": {
+  "kind": "R0",
+  "t": 0.5
+ }
+}

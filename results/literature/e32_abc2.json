@@ -1,0 +1,179 @@
+{
+ "observed": {
+  "LI,NCT,Tetun|stable|AB": 21.0,
+  "LI,NCT,Tetun|stable|AC": 12.0,
+  "LI,NCT,Tetun|stable|BC": 10.0,
+  "LI,NCT,Tetun|other|AB": 29.0,
+  "LI,NCT,Tetun|other|AC": 13.0,
+  "LI,NCT,Tetun|other|BC": 6.0,
+  "LI,NCT,Habu|stable|AB": 23.0,
+  "LI,NCT,Habu|stable|AC": 19.0,
+  "LI,NCT,Habu|stable|BC": 15.0,
+  "LI,NCT,Habu|other|AB": 24.0,
+  "LI,NCT,Habu|other|AC": 27.0,
+  "LI,NCT,Habu|other|BC": 7.0,
+  "LI,NCT,Kawaimina|stable|AB": 80.0,
+  "LI,NCT,Kawaimina|stable|AC": 38.0,
+  "LI,NCT,Kawaimina|stable|BC": 23.0,
+  "LI,NCT,Kawaimina|other|AB": 80.0,
+  "LI,NCT,Kawaimina|other|AC": 33.0,
+  "LI,NCT,Kawaimina|other|BC": 8.0,
+  "LI,Tetun,Habu|stable|AB": 5.0,
+  "LI,Tetun,Habu|stable|AC": 6.0,
+  "LI,Tetun,Habu|stable|BC": 5.0,
+  "LI,Tetun,Habu|other|AB": 2.0,
+  "LI,Tetun,Habu|other|AC": 9.0,
+  "LI,Tetun,Habu|other|BC": 5.0,
+  "Idate,NCT,Habu|stable|AB": 10.0,
+  "Idate,NCT,Habu|stable|AC": 13.0,
+  "Idate,NCT,Habu|stable|BC": 7.0,
+  "Idate,NCT,Habu|other|AB": 8.0,
+  "Idate,NCT,Habu|other|AC": 18.0,
+  "Idate,NCT,Habu|other|BC": 5.0,
+  "Lakalei,NCT,Habu|stable|AB": 13.0,
+  "Lakalei,NCT,Habu|stable|AC": 6.0,
+  "Lakalei,NCT,Habu|stable|BC": 8.0,
+  "Lakalei,NCT,Habu|other|AB": 16.0,
+  "Lakalei,NCT,Habu|other|AC": 9.0,
+  "Lakalei,NCT,Habu|other|BC": 2.0
+ },
+ "simulations_per_model": 20000,
+ "rf": {
+  "votes_H": 0.454,
+  "votes_G": 0.546,
+  "chosen": "G",
+  "posterior_of_chosen": 0.625,
+  "oob_prior_error": 0.355,
+  "top_statistics": [
+   [
+    "LI,Tetun,Habu|stable|BC",
+    0.0381
+   ],
+   [
+    "LI,NCT,Kawaimina|stable|AB",
+    0.0372
+   ],
+   [
+    "LI,NCT,Kawaimina|other|AB",
+    0.0359
+   ],
+   [
+    "LI,NCT,Kawaimina|stable|AC",
+    0.0357
+   ],
+   [
+    "LI,NCT,Kawaimina|other|AC",
+    0.035
+   ],
+   [
+    "LI,NCT,Habu|stable|AB",
+    0.033
+   ],
+   [
+    "Lakalei,NCT,Habu|stable|AB",
+    0.0323
+   ],
+   [
+    "LI,Tetun,Habu|other|BC",
+    0.0321
+   ],
+   [
+    "LI,NCT,Tetun|other|AB",
+    0.0308
+   ],
+   [
+    "LI,NCT,Tetun|stable|AB",
+    0.0306
+   ]
+  ]
+ },
+ "rejection": {
+  "model_posterior": {
+   "H": 0.417,
+   "G": 0.583
+  },
+  "accepted": 400
+ },
+ "model_H": {
+  "best_distance": 3.288,
+  "posterior": {
+   "rate_scale": {
+    "median": 6.049,
+    "q05": 2.404,
+    "q95": 11.522
+   },
+   "stable_rate_factor": {
+    "median": 0.539,
+    "q05": 0.237,
+    "q95": 0.946
+   },
+   "b_central_stable": {
+    "median": 0.241,
+    "q05": 0.042,
+    "q95": 0.521
+   },
+   "b_central_other": {
+    "median": 0.291,
+    "q05": 0.044,
+    "q95": 0.531
+   },
+   "b_east_stable": {
+    "median": 0.251,
+    "q05": 0.019,
+    "q95": 0.568
+   },
+   "b_east_other": {
+    "median": 0.285,
+    "q05": 0.038,
+    "q95": 0.569
+   }
+  },
+  "share_central_stable_over_0_2": 0.585
+ },
+ "model_G": {
+  "best_distance": 3.416,
+  "posterior": {
+   "rate_scale": {
+    "median": 6.746,
+    "q05": 2.702,
+    "q95": 11.447
+   },
+   "stable_rate_factor": {
+    "median": 0.542,
+    "q05": 0.223,
+    "q95": 0.953
+   },
+   "b_central_stable": {
+    "median": 0.254,
+    "q05": 0.038,
+    "q95": 0.552
+   },
+   "b_central_other": {
+    "median": 0.337,
+    "q05": 0.093,
+    "q95": 0.569
+   },
+   "b_east_stable": {
+    "median": 0.216,
+    "q05": 0.029,
+    "q95": 0.552
+   },
+   "b_east_other": {
+    "median": 0.261,
+    "q05": 0.046,
+    "q95": 0.561
+   }
+  },
+  "share_central_stable_over_0_2": 0.66
+ },
+ "posterior_predictive": {
+  "H": {
+   "n_failed": 0,
+   "failed": []
+  },
+  "G": {
+   "n_failed": 0,
+   "failed": []
+  }
+ }
+}

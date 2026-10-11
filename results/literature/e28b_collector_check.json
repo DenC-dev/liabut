@@ -1,0 +1,109 @@
+{
+ "a_no_galoli": {
+  "taxa": [
+   "mamb1306",
+   "kema1243",
+   "tuku1254",
+   "idat1237-cribas",
+   "laka1255",
+   "tetu1245-suai",
+   "habu1241",
+   "waim1252",
+   "midi1237",
+   "naue1237",
+   "dadu1237",
+   "term1237",
+   "dela1252",
+   "ilma1240",
+   "kaha1239",
+   "kisa1266",
+   "luan1264",
+   "tela1241",
+   "lama1277-lewoi",
+   "sika1262-hewa"
+  ],
+  "ufboot": {
+   "LI + Nuclear CT": 93.0,
+   "Nuclear CT": 99.0,
+   "Lakalei-Idate": 4.0,
+   "Lakalei + Nuclear CT": 95.0,
+   "Klamer 2002 lists": 95.0,
+   "Tetun Dili + Tetun Suai": 100.0,
+   "Timor-Babar": 0,
+   "LI + Eastern Timor": 0
+  }
+ },
+ "b_klamer_survey": {
+  "taxa": [
+   "mamb1306",
+   "kema1243",
+   "tuku1254",
+   "laka1255",
+   "tetu1245-suai",
+   "habu1241",
+   "waim1252",
+   "midi1237",
+   "naue1237",
+   "galo1243",
+   "dadu1237",
+   "term1237",
+   "dela1252",
+   "ilma1240",
+   "kaha1239",
+   "kisa1266",
+   "luan1264",
+   "tela1241",
+   "lama1277-lewoi",
+   "sika1262-hewa",
+   "idat1237",
+   "tetu1246"
+  ],
+  "ufboot": {
+   "LI + Nuclear CT": 98.0,
+   "Nuclear CT": 99.0,
+   "Lakalei-Idate": 36.0,
+   "Lakalei + Nuclear CT": 64.0,
+   "Klamer 2002 lists": 0,
+   "Tetun Dili + Tetun Suai": 100.0,
+   "Timor-Babar": 0,
+   "LI + Eastern Timor": 0.0
+  }
+ },
+ "c_both_idate_both_tetun": {
+  "taxa": [
+   "mamb1306",
+   "kema1243",
+   "tuku1254",
+   "idat1237-cribas",
+   "laka1255",
+   "tetu1245-suai",
+   "habu1241",
+   "waim1252",
+   "midi1237",
+   "naue1237",
+   "galo1243",
+   "dadu1237",
+   "term1237",
+   "dela1252",
+   "ilma1240",
+   "kaha1239",
+   "kisa1266",
+   "luan1264",
+   "tela1241",
+   "lama1277-lewoi",
+   "sika1262-hewa",
+   "idat1237",
+   "tetu1246"
+  ],
+  "ufboot": {
+   "LI + Nuclear CT": 98.0,
+   "Nuclear CT": 99.0,
+   "Lakalei-Idate": 22.0,
+   "Lakalei + Nuclear CT": 78.0,
+   "Klamer 2002 lists": 0,
+   "Tetun Dili + Tetun Suai": 100.0,
+   "Timor-Babar": 0,
+   "LI + Eastern Timor": 0
+  }
+ }
+}

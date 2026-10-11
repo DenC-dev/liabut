@@ -25,13 +25,13 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
 - **Hull's Fabronic (Timoric A) gets no lexical support.** It gets 0% support in every analysis.
 - **Timor-Babar and Eastern Timor get no lexical support either.** They get 0–3% bootstrap support, and the Bayes factor runs against Timor-Babar (ln BF −7.0). They rest on sound changes, so this does not refute them.
 - **Welaun is Central Timor (C2).** The Bayes factor is +10.3, and its Tetun look disappears on borrowing-resistant vocabulary.
-- **Idaté-Lakalei (C1) remains unresolved; the trees lean Central Timor.**
-  - Its vocabulary sits with Central Timor (ln BF +8.0 for Hull's Ramelaic).
-  - Its sound changes look like Timor-Babar (*p > h, *ŋ > n, no *ŋ > g). But Welaun, a Central Timor language, also has *p > h, and *ŋ > n is found in the Flores outgroup too.
-  - Combining vocabulary with sound changes coded from Grimes and Edwards's own tables puts Lakalei-Idate with Central Timor every time (posterior 0.88, ML 56–80%). Timor-Babar gets 0.
-  - This reading is post hoc and the sound-change data are thin, so it is a lean, not a settlement. Support also depends on how cognates are coded (15–92% across five codings), though Timor-Babar gets 0 under all of them.
-  - Counting only shared replacements of old words, Idaté-Lakalei pairs with Central Timor on stable vocabulary in every triplet test. Its extra sharing with neighbouring Habu looks like contact.
-  - A borrowing simulation fits Grimes and Edwards's placement slightly better, but only if Idaté-Lakalei borrowed about 28% of its core vocabulary from Central Timor. Its vocabulary is mixed, as befits an old member of a dialect chain.
+- **Idaté-Lakalei (C1) remains unresolved, but leans Central Timor.**
+  - Every tree puts it next to Central Timor (posterior 0.91; ln BF +8.0 for Hull's Ramelaic), and so do lists collected independently of Grimes and Edwards (97% UFBoot, a confirmatory test in Addendum 9).
+  - Its sound changes look like Timor-Babar's (*p > h, *ŋ > n, no *ŋ > g). But scored by parsimony, the coded changes cost the same on either placement (30 steps), and Welaun, a Central Timor language, also has *p > h.
+  - A borrowing model with borrowing from both sides can't separate the two placements (posterior 0.58 against 0.42). An earlier one-way version had favoured Grimes and Edwards's (0.875); that preference doesn't survive.
+  - On stable vocabulary, shared replacements pair Idaté-Lakalei with Central Timor against Habu and Kawaimina for every choice of dialect list, but not against Tetun: that prediction failed in both confirmatory replications (with Tetun Dili, and by one concept with both Tetun lists pooled).
+  - No contact signal for Idaté-Lakalei survives calibration against unequal rates or multiple-testing correction; only Welaun's Tetun loans do.
+  - Support depends on cognate coding (15–97%), though Timor-Babar gets 0 under every coding and data set.
   - Hull (1998, 2001) and Carvalho (2001) already grouped Idaté-Lakalei this way. Hull's *b > h evidence shows up in Grimes and Edwards's own data, but Galoli and Ili'uun share it (see [`results/LITERATURE.md`](results/LITERATURE.md)).
 - **The low-level groups are confirmed:** Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang and Babar.
 - **The pre-registered step 8 verdict is "unresolved" for both C1 and C2.**
@@ -77,7 +77,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 
 | Step | What | Where |
 |---|---|---|
-| 0 | Protocol frozen before any analysis; eight addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
+| 0 | Protocol frozen before any analysis; nine addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
 | 1 | Datasets: D1 = LexiRumah (70 lects, 152 concepts); D2 = ABVD with expert cognates (30 lects) | `data/` |
 | 2 | Automatic cognates (LexStat, SCA), scored against the ABVD experts | `results/cognates/`, `results/scores/` |
 | 3 | Loan screening: Indonesian, Portuguese, Tetun look-alikes, Austronesian–Papuan contact sets | `results/loans/` |
@@ -95,11 +95,12 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 | Lit. 2 | E15 cognate-coding robustness (after Kaiping and Klamer 2022); E16 Alcantara (2015) Idaté data | `results/literature/`, `derived/alcantara2015_idate/` |
 | Lit. 3 | E17 shared lexical innovations; E18 triplet contact test; E19 contacTrees (uninformative) | `results/literature/`, `derived/innovations/` |
 | Lit. 4 | E20 Idaté-vs-Lakalei split test; E21 borrowing simulation (ABC); E22 glottometry; E23 strict-clock dating; E24 other branches | `results/literature/` |
+| Lit. 5 | Addendum 9, the limitations tested: E25 multiple testing; E26 dialect replication and E28 independent data (confirmatory); E27 consensus cognates and reviewer packet; E29 sound changes on rival trees; E30 classifier validation; E31 triplet null and power; E32 two-way ABC; E33 correspondence loan test; E34 rooted clock | `results/literature/`, `derived/innovations/` |
 
 ## Rerun
 
 ```
-pip install lingpy==2.6.14 python-igraph pandas numpy scipy matplotlib biopython SplitsPy==0.0.10
+pip install lingpy==2.6.14 python-igraph pandas numpy scipy matplotlib biopython SplitsPy==0.0.10 scikit-learn
 ./src/01_fetch.sh                 # upstream data at pinned commits
 cd src
 python3 02_build_dataset.py       # step 1
@@ -145,6 +146,13 @@ python3 29_contactrees.py xml             # E19: needs BEAST 2.6.7 + contacTrees
 python3 30_more_tests.py all              # Addendum 8: E20, E22, E24
 python3 31_borrowing_abc.py               # E21 (about 15 minutes)
 python3 33_dating.py run && python3 33_dating.py summarize   # E23
+python3 35_classifier.py                  # E30 (run before the reruns below)
+RETENTION_RULE=chosen python3 28_innovations_contact.py && RETENTION_RULE=chosen python3 30_more_tests.py all   # E30 reruns (*_r2)
+python3 34_addendum9.py all               # E25-E29 (E27-E29 need IQ-TREE)
+python3 36_triplet_power.py               # E31
+RETENTION_RULE=chosen python3 37_abc2.py  # E32 (about 15 minutes)
+python3 38_correspondences.py             # E33
+python3 33_dating.py run rooted && python3 33_dating.py summarize rooted   # E34
 python3 12_decide.py              # step 8
 python3 13_figures.py
 ```

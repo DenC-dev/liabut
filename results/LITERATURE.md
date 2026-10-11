@@ -387,6 +387,138 @@ Triplet counts are given for all concepts, with stable concepts in brackets. The
 | (Galoli, Wetar, Tetun) | Galoli+Wetar | 12 (8) / 6 (4) / 0 (0) | Galoli is Wetar-Atauro, with a Tetun layer. |
 | (Helong, Meto, Rote) | Meto+Rote | 17 (12) / 10 (8) / 3 (2) | Rote-Meto holds. Helong's excess with Meto (Z 1.9) fits its Meto surroundings. |
 
+## Fifth round: reducing the limitations (Addendum 9)
+
+Scripts: `src/34_addendum9.py` (E25–E29), `src/35_classifier.py` (E30), `src/36_triplet_power.py` (E31), `src/37_abc2.py` (E32), `src/38_correspondences.py` (E33), `src/33_dating.py rooted` (E34). Outputs are in `results/literature/`. E26 and E28 carried predictions stated in advance; everything else is post hoc.
+
+### E30: the retention classifier
+
+Scored against ABVD's expert judgements on 3,801 forms from the 30 D2 lects (1,969 expert retentions).
+
+| Rule | Balanced accuracy | Retentions found | Innovations found |
+|---|---|---|---|
+| R0, the E17 rule (SCA NED ≤ 0.5) | 0.755 | 70% | 81% |
+| R1, best threshold (0.5, the same rule) | 0.755 | 70% | 81% |
+| **R2, reflex-aware, threshold 0.4** | **0.791** | 75% | 84% |
+
+- **R2 was chosen** by the pre-declared rule. It replaces each PMP consonant with the lect's majority reflex from Grimes and Edwards's tables before comparing, which is a small step towards the comparative method.
+- **Reruns with R2** (files ending `_r2`) leave the main patterns in place. On stable concepts Lakalei-Idate + Nuclear Central Timor is still the largest pair against Tetun (21 / 12 / 10), Habu (23 / 19 / 15), Kawaimina (80 / 38 / 23) and Galoli (16 / 14 / 15). The Welaun control still shows its Tetun contact in borrowable words (Welaun + Tetun 16 against Nuclear Central Timor + Tetun 2). The eastern excesses on stable concepts shrink (Z −0.1 to 0.6).
+
+### E25: multiple testing
+
+Forty tests from E18, E20 and E24, Holm and Benjamini–Hochberg corrected.
+
+- **Seven are nominally significant; one survives Holm**: the Welaun–Tetun excess in borrowable words (the known-answer control). Benjamini–Hochberg keeps the same control on all concepts too.
+- **No Lakalei-Idate contact test survives.** The Habu excess in borrowable words (nominal p 0.011), the Kawaimina excess (0.004) and the Tetun excess (0.016) are all above the corrected thresholds. The same holds under R2.
+- **Consequence.** Every statement that Lakalei-Idate's eastern sharing "shows contact" is reworded as a pattern, not a finding.
+
+### E31: the triplet test under unequal rates
+
+- **Null.** Without any borrowing, but with the ML tree's unequal branch lengths, the simulated D for Lakalei-Idate's triplets centres on 0.44–0.47. The observed values (0.12–0.65) all fall inside that null (empirical p 0.26–0.78). So the excess sharing with Tetun, Habu and Kawaimina that E18 reported is what the tree alone predicts, because Nuclear Central Timor's branches are long.
+- **Validation fails.** With no borrowing, the jackknife rule (Z ≥ 2) fires in 27% of simulated datasets, above the 10% bar. As Addendum 9 required, **the E18 contact readings for Lakalei-Idate are withdrawn.**
+- **Welaun survives.** Its borrowable-word Z (6.9) is beyond 99.8% of the simulated null.
+- **Power, calibrated (post hoc).** At the null's 95th percentile (Z 5.7), the test has a 5% false-positive rate but detects 20% Habu borrowing only 30% of the time, and 30% borrowing 49% of the time. It is a weak detector, so not detecting contact is weak evidence against it.
+- **"Habu overtakes Central Timor in borrowable words" is not diagnostic.** It happens in 63% of simulated datasets with no borrowing at all.
+
+### E26: other dialect representatives (confirmatory)
+
+| Prediction | Result | Verdict |
+|---|---|---|
+| P1: Lakalei-Idate + Nuclear Central Timor largest on stable concepts in ≥ 80% of combinations, against Tetun | 47% of 351 | **Fails** |
+| P1, against Habu | 100% of 175 | Holds |
+| P1, against Kawaimina | 100% of 175 | Holds |
+| P2: Lakalei-Idate + Habu ≥ Lakalei-Idate + NCT in borrowable words in ≥ 50% | 58% | Holds (but see E31: not diagnostic) |
+| P3: Welaun-Mahein shows the Tetun contact in borrowable words in ≥ 80% | 82% (median Z 4.9 against 0.0) | Holds |
+
+- **Why P1 fails for Tetun.** The failure comes entirely from Tetun Dili (`tetu1246`, Klamer 2002). With Tetun Suai, Lakalei-Idate + NCT is the larger pair in 86% of combinations; with Tetun Dili, Lakalei-Idate + Tetun is larger in 84%. Tetun Dili is the lingua franca, so its excess fits recent contact, but this test can't show that.
+
+### E28: data independent of Grimes and Edwards (confirmatory)
+
+- **Provenance** (`e28_provenance.csv`). Among the step-7 taxa, lists collected or co-collected by Edwards or Grimes are Kemak Kailaku, Welaun, Helong, Kotos Amarasi, part of South Mambae Letefoho (17 of 152 forms) and part of Galoli (30 of 127). **Idaté and Lakalei are not**: they come from Klamer (2002) and Dawson (2014).
+- **Independent set.** Kemak Atabai and Mambae Ainaro (both Klamer 2002) replace the Edwards and Grimes lists; Welaun, Helong and Amarasi are dropped.
+  - P5 holds: Timor-Babar and Lakalei-Idate + Eastern Timor get 0% UFBoot.
+  - Lakalei-Idate + Nuclear Central Timor gets **97%**. The original 24-taxon tree gave Lakalei-Idate + Central Timor 65%.
+  - P4 holds against Habu (32 / 21 / 13) and Kawaimina (95 / 59 / 16), and fails narrowly against Tetun (both Tetun lists pooled: Lakalei-Idate + NCT 44, Lakalei-Idate + Tetun 45).
+- **A collector check (post hoc, E28b).** In the independent tree Lakalei falls inside Nuclear Central Timor (94%) while Idaté-Cribas stays outside. That could be a same-collector effect, since Lakalei, Mambae Ainaro, Kemak Atabai and Tokodede are all from Klamer's 2002 survey. It is not: adding Klamer's 2002 Idaté and Tetun Dili, Tetun Dili joins Tetun Suai (100%), not the other Klamer lists (0%), and Lakalei-Idate + NCT stays at 98%. Dropping Galoli (partly Grimes) changes nothing (93%).
+
+### E27: consensus cognates
+
+- **The coding.** Forms are cognate when the five codings agree on average (at least 4 of 5). This is strict: 2,147 sets for 3,589 forms, 1,491 of them singletons (the primary coding has 1,353 sets).
+- **Trees.** Timor-Babar and Lakalei-Idate + Eastern Timor get 0% (the expectation holds). Lakalei-Idate + Nuclear Central Timor gets 55%. Welaun moves to Tetun: a strict coding keeps mainly near-identical words, which favours recent loans, and Welaun's Tetun loans are well documented.
+- **Triplets on stable concepts** (R0 / R2): Lakalei-Idate + NCT stays largest against Tetun (25 / 17; 24 / 16), Kawaimina and Galoli. Against Habu it ties (26 / 26) or loses (21 / 25 under R2).
+- **Reviewer packet.** `derived/innovations/reviewer_packet_lakalei_idate_stable.csv` lists the 24 cognate sets behind Lakalei-Idate's stable-concept triplet counts, with forms, PMP etyma, status and coding agreement, and blank columns for a specialist's verdict.
+
+### E29: the sound changes on the rival trees
+
+Fitch parsimony length of the 11 sound-change characters:
+
+| Tree | Steps | Lexical log-likelihood against the ML tree |
+|---|---|---|
+| H, the lexical ML tree (Lakalei-Idate beside Central Timor) | 30 | 0 |
+| G, Lakalei-Idate inside Eastern Timor | 30 | −10.6 |
+| GE, Grimes and Edwards's top split (Central Timor against the rest) | 29 | −12.0 |
+
+- **The coded sound changes don't favour Grimes and Edwards's placement.** They cost the same on H and G, and one step less on GE. In the lexical tree Tetun is sister to Lakalei-Idate + Central Timor, so the eastern-looking changes can sit below that group and be absent from Central Timor at no extra cost. Grimes and Edwards's argument rests on which changes are innovations and which are retentions; parsimony on these 11 characters doesn't capture that.
+- **E29b: the tokens behind Lakalei-Idate's cells**, pooling expert, automatic and Alcantara tokens:
+  - *p lenition: Idaté 9 of 11 (95% interval 0.52–0.95); Lakalei 6 of 8.
+  - *ŋ > n: Idaté 12 of 14; Lakalei 6 of 6.
+  - *j > r: Idaté 5 of 12 (0.19–0.68), so the coded 1 is fragile; Lakalei 2 of 6.
+  - *R > ∅: Idaté 6 of 16; Lakalei 4 of 8. Both cells are uncertain.
+  - *d > r, l (a Central Timor change): Idaté 8 of 9, Lakalei 5 of 7, mostly from automatic tokens. It was uncoded before because the expert tables have one token each.
+
+### E32: a fuller borrowing model
+
+Both placements now allow borrowing into Lakalei-Idate from both sides, with 36 summary statistics.
+
+| | H: beside Central Timor | G: inside Eastern Timor |
+|---|---|---|
+| Random-forest votes | 0.45 | 0.55 |
+| Rejection ABC posterior | 0.42 | 0.58 |
+| Central Timor borrowing, stable (median, 90%) | 24% (4–52%) | 25% (4–55%) |
+| Eastern borrowing, stable | 25% (2–57%) | 22% (3–55%) |
+| Posterior predictive checks failed (of 36) | 0 | 0 |
+
+- **The two placements can't be told apart** once borrowing runs both ways. The random forest chooses G with posterior 0.63, and its prior error rate is 36%. Neither model reaches the 0.9 bar.
+- **E21's 0.875 for G is not robust.** It depended on letting each model borrow from one side only.
+- **Both models reproduce every summary statistic**, so the counts carry too little information to separate descent from borrowing here.
+
+### E33: regular correspondences as a loan test
+
+Identity share of aligned forms (1 = identical), primary coding, E17 rule:
+
+| Pair | Retentions | Innovations, stable | Innovations, other |
+|---|---|---|---|
+| Lakalei, Mambae | 0.55 (28) | 0.56 (9) | 0.59 (7) |
+| Idaté-Cribas, Mambae | 0.64 (25) | 0.52 (7) | 0.64 (6) |
+| Idaté-Cribas, Habu | 0.72 (28) | 0.70 (7) | 0.59 (8) |
+
+- **P6 and P7 fail; P8 holds.** Neither the Lakalei–Mambae borrowable items nor the Idaté–Habu items are closer to identity than inherited words (one-sided p 0.35 and 0.87). Nothing here marks them as recent loans, and with 6–9 sets per cell the test has little power.
+
+### E34: a rooted clock
+
+E23 rerun with the 22 Timor-region taxa constrained to a clade, so the root sits on the Flores outgroup (2 runs × 2,000,000 generations; split-frequency difference 0.006, PSRF ≤ 1.002).
+
+| Node | Height (root = 1), median (95%) | Clade posterior |
+|---|---|---|
+| Lakalei-Idate | 0.24 (0.18–0.30) | 1.00 |
+| Kawaimina | 0.34 (0.28–0.41) | 1.00 |
+| Nuclear Central Timor | 0.37 (0.30–0.46) | 0.72 |
+| Wetar-Atauro with Galoli | 0.39 (0.31–0.47) | 1.00 |
+| Central Timor with Welaun | 0.47 (0.36–0.56) | 0.29 |
+| Lakalei-Idate + Central Timor | 0.48 (0.40–0.56) | 0.29 |
+| Rote-Meto | 0.53 (0.44–0.64) | 1.00 |
+| Tetun, Habu and Kawaimina | 0.67 (0.58–0.77) | 0.00 |
+
+- **Lakalei-Idate's sister.** Nuclear Central Timor 49%, Central Timor with Welaun 26%, Mambae + Tokodede 3%: about 77% on the Central Timor side. Habu 11%; groups with Tetun 12%.
+- **Same picture as E23.** Heights scale up because the root moved, but the Lakalei-Idate–Central Timor split is again barely older than Central Timor's own diversification (0.48 against 0.47).
+
+### What changes
+
+- **Robust.** No lexical support for Fabronic, Timor-Babar or Eastern Timor holds under consensus coding (E27), with lists independent of Grimes and Edwards (E28), and with the improved classifier (E30). So does Lakalei-Idate's tree placement beside Mambae, Kemak and Tokodede (97% on independent data).
+- **Weakened.** The contact readings built on the triplet test. Calibrated against unequal rates, none of Lakalei-Idate's excesses stands out (E31), none survives multiple-testing correction (E25), and the correspondence test finds no loan signal (E33). Only Welaun's Tetun contact passes every check.
+- **Changed.** The borrowing simulation no longer prefers Grimes and Edwards's placement (E32), and the coded sound changes fit both placements equally (E29). The stable-vocabulary pairing with Central Timor replicates against Habu and Kawaimina, but not against Tetun Dili (E26) or, by one concept, the pooled Tetun lists (E28).
+- **Net for C1.** Still unresolved, but the balance has moved towards Central Timor: every tree places Lakalei-Idate there, now also on independent data, while the two arguments for the eastern placement (the coded sound changes and the borrowing simulation) turn out not to discriminate.
+
 ## Not yet used, and worth getting
 
 - **Alcantara's full corpus.** It has 800 words and 420 sentences, of which only 184 forms are published. The full corpus would give enough Idaté *ŋ, *j, *k and *d words to code every character.

@@ -1,0 +1,601 @@
+{
+ "characters": [
+  "p_lenited",
+  "ng_velar",
+  "ng_n",
+  "j_rhotic",
+  "j_l",
+  "R_zero",
+  "b_lenited",
+  "d_liquid",
+  "b_h_initial",
+  "k_lost_initial",
+  "k_lost_medial"
+ ],
+ "trees": {
+  "H (unconstrained ML)": {
+   "total_steps": 30,
+   "per_character": {
+    "p_lenited": 1,
+    "ng_velar": 1,
+    "ng_n": 2,
+    "j_rhotic": 4,
+    "j_l": 2,
+    "R_zero": 4,
+    "b_lenited": 4,
+    "d_liquid": 2,
+    "b_h_initial": 4,
+    "k_lost_initial": 3,
+    "k_lost_medial": 3
+   },
+   "lexical_lnL": -8560.1476,
+   "steps_minus_H": 0,
+   "lnL_minus_H": 0.0
+  },
+  "G (LI + Eastern Timor)": {
+   "total_steps": 30,
+   "per_character": {
+    "p_lenited": 1,
+    "ng_velar": 1,
+    "ng_n": 2,
+    "j_rhotic": 4,
+    "j_l": 2,
+    "R_zero": 4,
+    "b_lenited": 4,
+    "d_liquid": 2,
+    "b_h_initial": 4,
+    "k_lost_initial": 3,
+    "k_lost_medial": 3
+   },
+   "lexical_lnL": -8570.6937,
+   "steps_minus_H": 0,
+   "lnL_minus_H": -10.55
+  },
+  "GE (Central Timor | rest)": {
+   "total_steps": 29,
+   "per_character": {
+    "p_lenited": 1,
+    "ng_velar": 1,
+    "ng_n": 2,
+    "j_rhotic": 4,
+    "j_l": 2,
+    "R_zero": 6,
+    "b_lenited": 2,
+    "d_liquid": 2,
+    "b_h_initial": 4,
+    "k_lost_initial": 3,
+    "k_lost_medial": 2
+   },
+   "lexical_lnL": -8572.1134,
+   "steps_minus_H": -1,
+   "lnL_minus_H": -11.97
+  }
+ },
+ "E29b_tokens": {
+  "Idate p_lenited": {
+   "with_change": 9,
+   "tokens": 11,
+   "share": 0.82,
+   "wilson95": [
+    0.52,
+    0.95
+   ],
+   "by_source": {
+    "expert": [
+     4,
+     5
+    ],
+    "automatic": [
+     3,
+     4
+    ],
+    "alcantara": [
+     2,
+     2
+    ]
+   },
+   "coded": "1"
+  },
+  "Idate ng_velar": {
+   "with_change": 0,
+   "tokens": 14,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.22
+   ],
+   "by_source": {
+    "expert": [
+     0,
+     3
+    ],
+    "automatic": [
+     0,
+     11
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "0"
+  },
+  "Idate ng_n": {
+   "with_change": 12,
+   "tokens": 14,
+   "share": 0.86,
+   "wilson95": [
+    0.6,
+    0.96
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     3
+    ],
+    "automatic": [
+     9,
+     11
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "1"
+  },
+  "Idate j_rhotic": {
+   "with_change": 5,
+   "tokens": 12,
+   "share": 0.42,
+   "wilson95": [
+    0.19,
+    0.68
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     7
+    ],
+    "automatic": [
+     2,
+     5
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "1"
+  },
+  "Idate j_l": {
+   "with_change": 1,
+   "tokens": 12,
+   "share": 0.08,
+   "wilson95": [
+    0.01,
+    0.35
+   ],
+   "by_source": {
+    "expert": [
+     1,
+     7
+    ],
+    "automatic": [
+     0,
+     5
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "0"
+  },
+  "Idate R_zero": {
+   "with_change": 6,
+   "tokens": 16,
+   "share": 0.38,
+   "wilson95": [
+    0.18,
+    0.61
+   ],
+   "by_source": {
+    "expert": [
+     1,
+     6
+    ],
+    "automatic": [
+     4,
+     7
+    ],
+    "alcantara": [
+     1,
+     3
+    ]
+   },
+   "coded": "0"
+  },
+  "Idate b_lenited": {
+   "with_change": 13,
+   "tokens": 20,
+   "share": 0.65,
+   "wilson95": [
+    0.43,
+    0.82
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     3
+    ],
+    "automatic": [
+     8,
+     13
+    ],
+    "alcantara": [
+     2,
+     4
+    ]
+   },
+   "coded": "1"
+  },
+  "Idate d_liquid": {
+   "with_change": 8,
+   "tokens": 9,
+   "share": 0.89,
+   "wilson95": [
+    0.56,
+    0.98
+   ],
+   "by_source": {
+    "expert": [
+     1,
+     1
+    ],
+    "automatic": [
+     6,
+     7
+    ],
+    "alcantara": [
+     1,
+     1
+    ]
+   },
+   "coded": "?"
+  },
+  "Idate b_h_initial": {
+   "with_change": 13,
+   "tokens": 13,
+   "share": 1.0,
+   "wilson95": [
+    0.77,
+    1.0
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     3
+    ],
+    "automatic": [
+     8,
+     8
+    ],
+    "alcantara": [
+     2,
+     2
+    ]
+   },
+   "coded": "1"
+  },
+  "Idate k_lost_initial": {
+   "with_change": 1,
+   "tokens": 3,
+   "share": 0.33,
+   "wilson95": [
+    0.06,
+    0.79
+   ],
+   "by_source": {
+    "expert": [
+     0,
+     0
+    ],
+    "automatic": [
+     0,
+     2
+    ],
+    "alcantara": [
+     1,
+     1
+    ]
+   },
+   "coded": "0"
+  },
+  "Idate k_lost_medial": {
+   "with_change": 4,
+   "tokens": 6,
+   "share": 0.67,
+   "wilson95": [
+    0.3,
+    0.9
+   ],
+   "by_source": {
+    "expert": [
+     0,
+     0
+    ],
+    "automatic": [
+     3,
+     5
+    ],
+    "alcantara": [
+     1,
+     1
+    ]
+   },
+   "coded": "1"
+  },
+  "Lakalei p_lenited": {
+   "with_change": 6,
+   "tokens": 8,
+   "share": 0.75,
+   "wilson95": [
+    0.41,
+    0.93
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     4
+    ],
+    "automatic": [
+     3,
+     4
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "1"
+  },
+  "Lakalei ng_velar": {
+   "with_change": 0,
+   "tokens": 6,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.39
+   ],
+   "by_source": {
+    "expert": [
+     0,
+     3
+    ],
+    "automatic": [
+     0,
+     3
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "0"
+  },
+  "Lakalei ng_n": {
+   "with_change": 6,
+   "tokens": 6,
+   "share": 1.0,
+   "wilson95": [
+    0.61,
+    1.0
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     3
+    ],
+    "automatic": [
+     3,
+     3
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "1"
+  },
+  "Lakalei j_rhotic": {
+   "with_change": 2,
+   "tokens": 6,
+   "share": 0.33,
+   "wilson95": [
+    0.1,
+    0.7
+   ],
+   "by_source": {
+    "expert": [
+     1,
+     4
+    ],
+    "automatic": [
+     1,
+     2
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "0"
+  },
+  "Lakalei j_l": {
+   "with_change": 1,
+   "tokens": 6,
+   "share": 0.17,
+   "wilson95": [
+    0.03,
+    0.56
+   ],
+   "by_source": {
+    "expert": [
+     1,
+     4
+    ],
+    "automatic": [
+     0,
+     2
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "0"
+  },
+  "Lakalei R_zero": {
+   "with_change": 4,
+   "tokens": 8,
+   "share": 0.5,
+   "wilson95": [
+    0.22,
+    0.78
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     6
+    ],
+    "automatic": [
+     1,
+     2
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "1"
+  },
+  "Lakalei b_lenited": {
+   "with_change": 7,
+   "tokens": 9,
+   "share": 0.78,
+   "wilson95": [
+    0.45,
+    0.94
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     3
+    ],
+    "automatic": [
+     4,
+     6
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "1"
+  },
+  "Lakalei d_liquid": {
+   "with_change": 5,
+   "tokens": 7,
+   "share": 0.71,
+   "wilson95": [
+    0.36,
+    0.92
+   ],
+   "by_source": {
+    "expert": [
+     1,
+     1
+    ],
+    "automatic": [
+     4,
+     6
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "?"
+  },
+  "Lakalei b_h_initial": {
+   "with_change": 7,
+   "tokens": 7,
+   "share": 1.0,
+   "wilson95": [
+    0.65,
+    1.0
+   ],
+   "by_source": {
+    "expert": [
+     3,
+     3
+    ],
+    "automatic": [
+     4,
+     4
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "1"
+  },
+  "Lakalei k_lost_initial": {
+   "with_change": 0,
+   "tokens": 0,
+   "share": null,
+   "wilson95": null,
+   "by_source": {
+    "expert": [
+     0,
+     0
+    ],
+    "automatic": [
+     0,
+     0
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "?"
+  },
+  "Lakalei k_lost_medial": {
+   "with_change": 1,
+   "tokens": 2,
+   "share": 0.5,
+   "wilson95": [
+    0.09,
+    0.91
+   ],
+   "by_source": {
+    "expert": [
+     0,
+     0
+    ],
+    "automatic": [
+     1,
+     2
+    ],
+    "alcantara": [
+     0,
+     0
+    ]
+   },
+   "coded": "1"
+  }
+ }
+}

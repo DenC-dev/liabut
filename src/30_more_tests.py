@@ -80,7 +80,7 @@ def e20(S, idate="idat1237"):
             res[stratum] = dict(both=cnt["both"], lakalei_only=lo, idate_only=io,
                                 binomial_p=round(p, 4) if p is not None else None)
         out[label] = res
-        with open(os.path.join(LIT, f"e20_examples_{idate}.csv"), "a" if label != "Central Timor" else "w",
+        with open(os.path.join(LIT, f"e20_examples_{idate}{ic.SUF}.csv"), "a" if label != "Central Timor" else "w",
                   newline="", encoding="utf-8") as fh:
             w = csv.DictWriter(fh, fieldnames=["type", "concept", "pattern", "forms"])
             if label == "Central Timor":
@@ -96,7 +96,7 @@ def run_e20(S):
         km[li] = {o: round(ic.km(S["lects"][li], S["lects"][o])) for o in
                   ("mamb1306-Slete", "kema1243-kaila", "tuku1254", "habu1241", "tetu1245-suai", "galo1243")}
     res["distances_km"] = km
-    json.dump(res, open(os.path.join(LIT, "e20_split_test.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(res, open(os.path.join(LIT, f"e20_split_test{ic.SUF}.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps(res, indent=1, ensure_ascii=False))
 
 
@@ -168,7 +168,7 @@ def run_e22(S):
     named = {k: score(v) for k, v in NAMED.items()}
     res = dict(innovations=len(items), lexical=sum(1 for i in items if i[2] == "lexical"),
                sound=sum(1 for i in items if i[2] == "sound"), top15_by_sigma=top, named=named)
-    json.dump(res, open(os.path.join(LIT, "e22_glottometry.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(res, open(os.path.join(LIT, f"e22_glottometry{ic.SUF}.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps(res, indent=1, ensure_ascii=False))
 
 
@@ -216,7 +216,7 @@ def triplet(S, A, B, C, groups):
 
 def run_e24(S):
     res = {f"({A}, {B}, {C})": triplet(S, A, B, C, G24) for A, B, C in T24}
-    json.dump(res, open(os.path.join(LIT, "e24_other_branches.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(res, open(os.path.join(LIT, f"e24_other_branches{ic.SUF}.json"), "w"), indent=1, ensure_ascii=False)
     for k, v in res.items():
         print(k, json.dumps(v, ensure_ascii=False))
 

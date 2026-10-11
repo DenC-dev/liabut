@@ -1,0 +1,192 @@
+{
+ "primary_idat1237": {
+  "Central Timor": {
+   "all": {
+    "both": 5,
+    "lakalei_only": 8,
+    "idate_only": 2,
+    "binomial_p": 0.1094
+   },
+   "stable": {
+    "both": 4,
+    "lakalei_only": 2,
+    "idate_only": 1,
+    "binomial_p": 1.0
+   },
+   "other": {
+    "both": 1,
+    "lakalei_only": 6,
+    "idate_only": 1,
+    "binomial_p": 0.125
+   }
+  },
+  "Habu": {
+   "all": {
+    "both": 0,
+    "lakalei_only": 1,
+    "idate_only": 0,
+    "binomial_p": 1.0
+   },
+   "stable": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 0,
+    "binomial_p": null
+   },
+   "other": {
+    "both": 0,
+    "lakalei_only": 1,
+    "idate_only": 0,
+    "binomial_p": 1.0
+   }
+  },
+  "Tetun": {
+   "all": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 1,
+    "binomial_p": 1.0
+   },
+   "stable": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 0,
+    "binomial_p": null
+   },
+   "other": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 1,
+    "binomial_p": 1.0
+   }
+  },
+  "Kawaimina": {
+   "all": {
+    "both": 1,
+    "lakalei_only": 0,
+    "idate_only": 1,
+    "binomial_p": 1.0
+   },
+   "stable": {
+    "both": 1,
+    "lakalei_only": 0,
+    "idate_only": 0,
+    "binomial_p": null
+   },
+   "other": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 1,
+    "binomial_p": 1.0
+   }
+  }
+ },
+ "sensitivity_idat1237_cribas": {
+  "Central Timor": {
+   "all": {
+    "both": 4,
+    "lakalei_only": 9,
+    "idate_only": 3,
+    "binomial_p": 0.146
+   },
+   "stable": {
+    "both": 2,
+    "lakalei_only": 4,
+    "idate_only": 2,
+    "binomial_p": 0.6875
+   },
+   "other": {
+    "both": 2,
+    "lakalei_only": 5,
+    "idate_only": 1,
+    "binomial_p": 0.2188
+   }
+  },
+  "Habu": {
+   "all": {
+    "both": 1,
+    "lakalei_only": 0,
+    "idate_only": 3,
+    "binomial_p": 0.25
+   },
+   "stable": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 2,
+    "binomial_p": 0.5
+   },
+   "other": {
+    "both": 1,
+    "lakalei_only": 0,
+    "idate_only": 1,
+    "binomial_p": 1.0
+   }
+  },
+  "Tetun": {
+   "all": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 2,
+    "binomial_p": 0.5
+   },
+   "stable": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 0,
+    "binomial_p": null
+   },
+   "other": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 2,
+    "binomial_p": 0.5
+   }
+  },
+  "Kawaimina": {
+   "all": {
+    "both": 1,
+    "lakalei_only": 0,
+    "idate_only": 3,
+    "binomial_p": 0.25
+   },
+   "stable": {
+    "both": 1,
+    "lakalei_only": 0,
+    "idate_only": 2,
+    "binomial_p": 0.5
+   },
+   "other": {
+    "both": 0,
+    "lakalei_only": 0,
+    "idate_only": 1,
+    "binomial_p": 1.0
+   }
+  }
+ },
+ "distances_km": {
+  "idat1237": {
+   "mamb1306-Slete": 38,
+   "kema1243-kaila": 91,
+   "tuku1254": 82,
+   "habu1241": 5,
+   "tetu1245-suai": 95,
+   "galo1243": 18
+  },
+  "idat1237-cribas": {
+   "mamb1306-Slete": 51,
+   "kema1243-kaila": 102,
+   "tuku1254": 87,
+   "habu1241": 11,
+   "tetu1245-suai": 108,
+   "galo1243": 8
+  },
+  "laka1255": {
+   "mamb1306-Slete": 10,
+   "kema1243-kaila": 68,
+   "tuku1254": 71,
+   "habu1241": 33,
+   "tetu1245-suai": 66,
+   "galo1243": 46
+  }
+ }
+}

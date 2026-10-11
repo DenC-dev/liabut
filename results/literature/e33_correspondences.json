@@ -1,0 +1,274 @@
+{
+ "laka1255|mamb1306-Slete": {
+  "R0": {
+   "n": {
+    "retention/other": 13,
+    "retention/stable": 15,
+    "innovation/other": 7,
+    "innovation/stable": 9
+   },
+   "mean_identity": {
+    "retention/other": 0.628,
+    "retention/stable": 0.48,
+    "innovation/other": 0.587,
+    "innovation/stable": 0.557
+   },
+   "retentions_mean": 0.548,
+   "p_innov_other_gt_innov_stable": 0.3543834614312289,
+   "p_innov_gt_ret": 0.4122780554709323,
+   "p_innov_stable_gt_ret": 0.47857104492763
+  },
+  "R2": {
+   "n": {
+    "retention/other": 13,
+    "retention/stable": 16,
+    "innovation/other": 7,
+    "innovation/stable": 8
+   },
+   "mean_identity": {
+    "retention/other": 0.628,
+    "retention/stable": 0.471,
+    "innovation/other": 0.587,
+    "innovation/stable": 0.583
+   },
+   "retentions_mean": 0.541,
+   "p_innov_other_gt_innov_stable": 0.4767621815441816,
+   "p_innov_gt_ret": 0.2660064448741013,
+   "p_innov_stable_gt_ret": 0.2941096395713917
+  }
+ },
+ "idat1237-cribas|mamb1306-Slete": {
+  "R0": {
+   "n": {
+    "retention/other": 9,
+    "retention/stable": 16,
+    "innovation/stable": 7,
+    "innovation/other": 6
+   },
+   "mean_identity": {
+    "retention/other": 0.657,
+    "retention/stable": 0.631,
+    "innovation/stable": 0.519,
+    "innovation/other": 0.644
+   },
+   "retentions_mean": 0.64,
+   "p_innov_other_gt_innov_stable": 0.1563060239567472,
+   "p_innov_gt_ret": 0.8550194083022239,
+   "p_innov_stable_gt_ret": 0.9692676261157929
+  },
+  "R2": {
+   "n": {
+    "retention/other": 10,
+    "innovation/stable": 7,
+    "retention/stable": 16,
+    "innovation/other": 5
+   },
+   "mean_identity": {
+    "retention/other": 0.675,
+    "innovation/stable": 0.567,
+    "retention/stable": 0.61,
+    "innovation/other": 0.607
+   },
+   "retentions_mean": 0.635,
+   "p_innov_other_gt_innov_stable": 0.3715782848747904,
+   "p_innov_gt_ret": 0.7817907398720165,
+   "p_innov_stable_gt_ret": 0.8309641469711597
+  }
+ },
+ "idat1237-cribas|habu1241": {
+  "R0": {
+   "n": {
+    "retention/other": 9,
+    "retention/stable": 19,
+    "innovation/other": 8,
+    "innovation/stable": 7
+   },
+   "mean_identity": {
+    "retention/other": 0.774,
+    "retention/stable": 0.692,
+    "innovation/other": 0.585,
+    "innovation/stable": 0.702
+   },
+   "retentions_mean": 0.719,
+   "p_innov_other_gt_innov_stable": 0.7935823111244515,
+   "p_innov_gt_ret": 0.8659450813262375,
+   "p_innov_stable_gt_ret": 0.6075635303926038
+  },
+  "R2": {
+   "n": {
+    "retention/other": 10,
+    "innovation/stable": 8,
+    "retention/stable": 18,
+    "innovation/other": 7
+   },
+   "mean_identity": {
+    "retention/other": 0.782,
+    "innovation/stable": 0.62,
+    "retention/stable": 0.728,
+    "innovation/other": 0.546
+   },
+   "retentions_mean": 0.747,
+   "p_innov_other_gt_innov_stable": 0.6371920295763192,
+   "p_innov_gt_ret": 0.9842408356004437,
+   "p_innov_stable_gt_ret": 0.8991650386790357
+  }
+ },
+ "laka1255|habu1241": {
+  "R0": {
+   "n": {
+    "retention/other": 11,
+    "retention/stable": 17,
+    "innovation/other": 6,
+    "innovation/stable": 6
+   },
+   "mean_identity": {
+    "retention/other": 0.707,
+    "retention/stable": 0.63,
+    "innovation/other": 0.564,
+    "innovation/stable": 0.692
+   },
+   "retentions_mean": 0.661,
+   "p_innov_other_gt_innov_stable": 0.7424234591485065,
+   "p_innov_gt_ret": 0.7145130596186033,
+   "p_innov_stable_gt_ret": 0.41823159802791776
+  },
+  "R2": {
+   "n": {
+    "retention/other": 12,
+    "retention/stable": 18,
+    "innovation/other": 5,
+    "innovation/stable": 5
+   },
+   "mean_identity": {
+    "retention/other": 0.708,
+    "retention/stable": 0.659,
+    "innovation/other": 0.534,
+    "innovation/stable": 0.6
+   },
+   "retentions_mean": 0.679,
+   "p_innov_other_gt_innov_stable": 0.5421041339747052,
+   "p_innov_gt_ret": 0.8994114921376131,
+   "p_innov_stable_gt_ret": 0.7168992362328603
+  }
+ },
+ "laka1255|tetu1245-suai": {
+  "R0": {
+   "n": {
+    "retention/other": 13,
+    "retention/stable": 13,
+    "innovation/other": 1,
+    "innovation/stable": 7
+   },
+   "mean_identity": {
+    "retention/other": 0.672,
+    "retention/stable": 0.609,
+    "innovation/other": 0.8,
+    "innovation/stable": 0.556
+   },
+   "retentions_mean": 0.641,
+   "p_innov_other_gt_innov_stable": null,
+   "p_innov_gt_ret": 0.7110036902466264,
+   "p_innov_stable_gt_ret": 0.7952787212920747
+  },
+  "R2": {
+   "n": {
+    "retention/other": 13,
+    "retention/stable": 16,
+    "innovation/other": 1,
+    "innovation/stable": 4
+   },
+   "mean_identity": {
+    "retention/other": 0.672,
+    "retention/stable": 0.562,
+    "innovation/other": 0.8,
+    "innovation/stable": 0.707
+   },
+   "retentions_mean": 0.611,
+   "p_innov_other_gt_innov_stable": null,
+   "p_innov_gt_ret": 0.18059973889203668,
+   "p_innov_stable_gt_ret": 0.25136518232731697
+  }
+ },
+ "idat1237-cribas|tetu1245-suai": {
+  "R0": {
+   "n": {
+    "retention/other": 9,
+    "retention/stable": 13,
+    "innovation/other": 4,
+    "innovation/stable": 7
+   },
+   "mean_identity": {
+    "retention/other": 0.715,
+    "retention/stable": 0.679,
+    "innovation/other": 0.382,
+    "innovation/stable": 0.498
+   },
+   "retentions_mean": 0.694,
+   "p_innov_other_gt_innov_stable": 0.9256110876401378,
+   "p_innov_gt_ret": 0.9988757050662658,
+   "p_innov_stable_gt_ret": 0.9902144766395652
+  },
+  "R2": {
+   "n": {
+    "retention/other": 9,
+    "innovation/stable": 5,
+    "retention/stable": 15,
+    "innovation/other": 4
+   },
+   "mean_identity": {
+    "retention/other": 0.715,
+    "innovation/stable": 0.463,
+    "retention/stable": 0.667,
+    "innovation/other": 0.382
+   },
+   "retentions_mean": 0.685,
+   "p_innov_other_gt_innov_stable": 0.8415549725885192,
+   "p_innov_gt_ret": 0.9992454022756921,
+   "p_innov_stable_gt_ret": 0.9907130826139814
+  }
+ },
+ "predictions": {
+  "R0": {
+   "P6 Lakalei-Mambae: other > stable innovations": {
+    "p": 0.3544,
+    "holm": 1.0
+   },
+   "P7 Idate-Habu: innovations > retentions": {
+    "p": 0.8659,
+    "holm": 1.0
+   },
+   "P8a Lakalei-Mambae: stable innovations > retentions (predicted not)": {
+    "p": 0.4786,
+    "holm": 1.0
+   },
+   "P8b Idate-Mambae: stable innovations > retentions (predicted not)": {
+    "p": 0.9693,
+    "holm": 1.0
+   },
+   "P6 holds": false,
+   "P7 holds": false,
+   "P8 holds": true
+  },
+  "R2": {
+   "P6 Lakalei-Mambae: other > stable innovations": {
+    "p": 0.4768,
+    "holm": 1.0
+   },
+   "P7 Idate-Habu: innovations > retentions": {
+    "p": 0.9842,
+    "holm": 1.0
+   },
+   "P8a Lakalei-Mambae: stable innovations > retentions (predicted not)": {
+    "p": 0.2941,
+    "holm": 1.0
+   },
+   "P8b Idate-Mambae: stable innovations > retentions (predicted not)": {
+    "p": 0.831,
+    "holm": 1.0
+   },
+   "P6 holds": false,
+   "P7 holds": false,
+   "P8 holds": true
+  }
+ }
+}

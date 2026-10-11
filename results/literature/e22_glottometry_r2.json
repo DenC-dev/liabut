@@ -1,0 +1,256 @@
+{
+ "innovations": 204,
+ "lexical": 193,
+ "sound": 11,
+ "top15_by_sigma": [
+  {
+   "group": "Wetar",
+   "size": 2,
+   "epsilon": 10,
+   "p": 30,
+   "q": 11,
+   "kappa": 0.732,
+   "sigma": 7.32
+  },
+  {
+   "group": "dela1252 + term1237",
+   "size": 2,
+   "epsilon": 8,
+   "p": 20,
+   "q": 18,
+   "kappa": 0.526,
+   "sigma": 4.21
+  },
+  {
+   "group": "kisa1266 + luan1264",
+   "size": 2,
+   "epsilon": 6,
+   "p": 16,
+   "q": 17,
+   "kappa": 0.485,
+   "sigma": 2.91
+  },
+  {
+   "group": "midi1237 + waim1252",
+   "size": 2,
+   "epsilon": 6,
+   "p": 21,
+   "q": 30,
+   "kappa": 0.412,
+   "sigma": 2.47
+  },
+  {
+   "group": "Waima'a + Naueti",
+   "size": 2,
+   "epsilon": 4,
+   "p": 24,
+   "q": 22,
+   "kappa": 0.522,
+   "sigma": 2.09
+  },
+  {
+   "group": "mamb1306-Slete + tuku1254",
+   "size": 2,
+   "epsilon": 5,
+   "p": 20,
+   "q": 29,
+   "kappa": 0.408,
+   "sigma": 2.04
+  },
+  {
+   "group": "dadu1237 + galo1243",
+   "size": 2,
+   "epsilon": 5,
+   "p": 16,
+   "q": 24,
+   "kappa": 0.4,
+   "sigma": 2.0
+  },
+  {
+   "group": "luan1264 + tela1241",
+   "size": 2,
+   "epsilon": 5,
+   "p": 11,
+   "q": 21,
+   "kappa": 0.344,
+   "sigma": 1.72
+  },
+  {
+   "group": "Kawaimina",
+   "size": 3,
+   "epsilon": 5,
+   "p": 13,
+   "q": 29,
+   "kappa": 0.31,
+   "sigma": 1.55
+  },
+  {
+   "group": "Lakalei-Idate",
+   "size": 2,
+   "epsilon": 3,
+   "p": 22,
+   "q": 28,
+   "kappa": 0.44,
+   "sigma": 1.32
+  },
+  {
+   "group": "kisa1266 + luan1264 + tela1241",
+   "size": 3,
+   "epsilon": 5,
+   "p": 6,
+   "q": 19,
+   "kappa": 0.24,
+   "sigma": 1.2
+  },
+  {
+   "group": "Rote-Meto",
+   "size": 3,
+   "epsilon": 5,
+   "p": 8,
+   "q": 30,
+   "kappa": 0.211,
+   "sigma": 1.05
+  },
+  {
+   "group": "kema1243-kaila + west2547-welaun",
+   "size": 2,
+   "epsilon": 3,
+   "p": 15,
+   "q": 30,
+   "kappa": 0.333,
+   "sigma": 1.0
+  },
+  {
+   "group": "tetu1245-suai + west2547-welaun",
+   "size": 2,
+   "epsilon": 3,
+   "p": 12,
+   "q": 29,
+   "kappa": 0.293,
+   "sigma": 0.88
+  },
+  {
+   "group": "Helong + Meto",
+   "size": 2,
+   "epsilon": 4,
+   "p": 7,
+   "q": 26,
+   "kappa": 0.212,
+   "sigma": 0.85
+  }
+ ],
+ "named": {
+  "Lakalei-Idate": {
+   "epsilon": 3,
+   "p": 22,
+   "q": 28,
+   "kappa": 0.44,
+   "sigma": 1.32
+  },
+  "Nuclear Central Timor": {
+   "epsilon": 1,
+   "p": 11,
+   "q": 41,
+   "kappa": 0.212,
+   "sigma": 0.21
+  },
+  "Central Timor": {
+   "epsilon": 1,
+   "p": 8,
+   "q": 48,
+   "kappa": 0.143,
+   "sigma": 0.14
+  },
+  "Lakalei-Idate + Nuclear Central Timor (Ramelaic)": {
+   "epsilon": 0,
+   "p": 5,
+   "q": 64,
+   "kappa": 0.072,
+   "sigma": 0.0
+  },
+  "Lakalei-Idate + Central Timor": {
+   "epsilon": 1,
+   "p": 4,
+   "q": 67,
+   "kappa": 0.056,
+   "sigma": 0.06
+  },
+  "Eastern Timor": {
+   "epsilon": 0,
+   "p": 4,
+   "q": 47,
+   "kappa": 0.078,
+   "sigma": 0.0
+  },
+  "Lakalei-Idate + Eastern Timor": {
+   "epsilon": 0,
+   "p": 2,
+   "q": 49,
+   "kappa": 0.039,
+   "sigma": 0.0
+  },
+  "Lakalei-Idate + Habu": {
+   "epsilon": 1,
+   "p": 9,
+   "q": 50,
+   "kappa": 0.153,
+   "sigma": 0.15
+  },
+  "Tetun + Habu": {
+   "epsilon": 0,
+   "p": 9,
+   "q": 35,
+   "kappa": 0.205,
+   "sigma": 0.0
+  },
+  "Habu + Kawaimina": {
+   "epsilon": 1,
+   "p": 6,
+   "q": 46,
+   "kappa": 0.115,
+   "sigma": 0.12
+  },
+  "Kawaimina": {
+   "epsilon": 5,
+   "p": 13,
+   "q": 29,
+   "kappa": 0.31,
+   "sigma": 1.55
+  },
+  "Waima'a + Naueti": {
+   "epsilon": 4,
+   "p": 24,
+   "q": 22,
+   "kappa": 0.522,
+   "sigma": 2.09
+  },
+  "Wetar-Atauro (with Galoli)": {
+   "epsilon": 1,
+   "p": 4,
+   "q": 34,
+   "kappa": 0.105,
+   "sigma": 0.11
+  },
+  "Wetar": {
+   "epsilon": 10,
+   "p": 30,
+   "q": 11,
+   "kappa": 0.732,
+   "sigma": 7.32
+  },
+  "Rote-Meto": {
+   "epsilon": 5,
+   "p": 8,
+   "q": 30,
+   "kappa": 0.211,
+   "sigma": 1.05
+  },
+  "Helong + Meto": {
+   "epsilon": 4,
+   "p": 7,
+   "q": 26,
+   "kappa": 0.212,
+   "sigma": 0.85
+  }
+ }
+}
