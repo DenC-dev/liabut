@@ -583,3 +583,19 @@ Written and pushed before any E25–E34 statistic was computed.
 **E34: a rooted clock.** E23 rerun with one change: a topology constraint making the 22 Timor-region taxa a clade, so the root falls between the Flores outgroup and Timor. Reported as in E23. Descriptive.
 
 **Not addressable here, and why.** A specialist check of the cognates needs a specialist (E27's packet is for that). Grimes and Edwards's 494-item field lists are not public. Hull (1998) and Carvalho (2001) could not be obtained; Hull (1998) is in *Studies in Languages and Cultures of East Timor* 1: 97–202.
+
+### Addendum 10 (2026-10-11, post hoc): an expert etymological check and topology tests on independent data
+
+Written and pushed before E35 or E36 was computed.
+
+- **Already seen.** All results through E34; the E6 AU test (Lakalei-Idate + Eastern Timor not rejected, p = 0.07); that the Austronesian Comparative Dictionary (ACD; Blust, Trussel and Smith, CLDF release `lexibank/acd`) lists reflexes for Tetun (523 forms), Galoli (53), Idaté (14), Waima'a (14), Mambai (12) and Kemak (10), and labels each etymon with its proto-language and gloss.
+- **Not yet seen.** Any E35 or E36 statistic.
+
+**E35: words inherited from above the Timor groups.** A shared innovation only counts for subgrouping if it is not inherited from a higher node. The E17 rule compares each cognate set with ABVD's PMP word for that meaning only.
+
+- *Reference set.* ABVD's PMP form plus every ACD etymon reconstructed for PAN, PMP, PCEMP or PCMP whose gloss contains the concept's English gloss (its first word, as a whole word).
+- *Rule.* The E30 rule (R2, reflex-aware, NED ≤ 0.4) against the enlarged reference set. A set that matches an ACD etymon is reclassified as inherited.
+- *Reported.* How many sets move, and which; the E18 triplets (representative lists) and the E28 single-survey triplets rerun with the new statuses; the 24 reviewer-packet sets annotated with any matching ACD etymon.
+- *Reading.* If Lakalei-Idate + Nuclear Central Timor stays the largest pair on stable concepts against Habu and Kawaimina in both reruns, the stable-pairing result stands; if it does not, that result is withdrawn.
+
+**E36: topology tests on independent data.** IQ-TREE AU test (10,000 RELL replicates) on the E28 independent matrix, comparing the unconstrained tree with trees constrained to (a) Lakalei-Idate + Eastern Timor and (b) Timor-Babar (all Timor-region taxa outside Nuclear Central Timor). Reported: ΔlnL and p-AU. *Reading:* a constrained tree with p-AU < 0.05 is rejected by the vocabulary; otherwise the vocabulary prefers the unconstrained tree without excluding the alternative.

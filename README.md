@@ -2,7 +2,7 @@
 
 **A pre-registered computational test of how the Austronesian languages of Timor branch.**
 
-*Liabut* is coined from Tetun *lia* 'word, speech' and *abut* 'root': the roots of words. The project asks how Timor's languages branch from one another, and which of them are closest kin. (It was called Sanak until 11 October 2026; the GitHub repository may still carry the old name.)
+*Liabut* is coined from Tetun *lia* 'word, speech' and *abut* 'root': the roots of words. The project asks how Timor's languages branch from one another, and which of them are closest kin. (It was called Sanak until 11 October 2026.)
 
 Dennis Crowley, Phaistos Labs.
 

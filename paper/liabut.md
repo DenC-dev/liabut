@@ -155,7 +155,7 @@ Apart from two replications with predictions stated in advance, the analyses aft
 
 # Data and code {.unnumbered}
 
-All data, code, results, the protocol and its addenda are at <https://github.com/DenC-dev/sanak>. The numbered scripts in `src/` rerun every analysis from pinned upstream data. The derived datasets (Grimes and Edwards's tables as data, expert and automatic reflex atlases, sound-change matrices, loan classifications, the Alcantara Idaté list, the retention or innovation status of every cognate set, and the specialist review packet) are in `derived/`. Code is MIT-licensed; data keep their sources' licences.
+All data, code, results, the protocol and its addenda are at <https://github.com/DenC-dev/liabut>. The numbered scripts in `src/` rerun every analysis from pinned upstream data. The derived datasets (Grimes and Edwards's tables as data, expert and automatic reflex atlases, sound-change matrices, loan classifications, the Alcantara Idaté list, the retention or innovation status of every cognate set, and the specialist review packet) are in `derived/`. Code is MIT-licensed; data keep their sources' licences.
 
 # Use of AI {.unnumbered}
 

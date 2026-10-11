@@ -21,7 +21,7 @@ spec = importlib.util.spec_from_file_location("mf", os.path.join(HERE, "make_fig
 mf = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mf)
 LIT = os.path.join(REPO, "results", "literature")
-GH = "https://github.com/DenC-dev/sanak"
+GH = "https://github.com/DenC-dev/liabut"
 
 GROUP_NAME = {
     "mamb1306-Slete": "Central Timor", "kema1243-kaila": "Central Timor", "tuku1254": "Central Timor",
