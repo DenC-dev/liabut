@@ -374,3 +374,39 @@ Written after the literature scan in `results/LITERATURE.md` and before E13 and 
     - Only the Idaté list is independent of the main datasets. The other lists come from ABVD, Hull (1998), Capell (1944), Edwards (2019) and others.
     - The lists are short: 18–48 words.
     - A clear result in either direction counts as independent evidence. An unclear one is reported as uninformative.
+
+### Addendum 6 (2026-10-11, post hoc, prompted by Kaiping and Klamer 2022 and Alcantara 2015)
+
+Written before E15 and E16 were run. No reflex, tree or support value from them had been computed.
+
+**What had been seen.**
+
+- Kaiping and Klamer (2022) in full.
+- From Alcantara (2015), only the first ~60 pages were readable, which contain about 30 glossed Idaté forms in figure captions and Table 1. One of those forms had been noticed: Idaté *boʔur* against Tetun *bokur* 'fat', with medial *k > ʔ.
+
+**E15: does C1 depend on how cognates are coded?** This follows Kaiping and Klamer's robustness design (their D2–D4).
+
+- *Codings.* The 24-taxon lexical matrix (step 7 taxa, `primary` variant) is rebuilt from each of these, with everything else unchanged:
+  - (a) LexStat with threshold 0.35, which splits more;
+  - (b) LexStat with threshold 0.75, which lumps more (both with the same scorer settings as step 2);
+  - (c) SCA with threshold 0.45 (the existing step 2 variant);
+  - (d) LexiRumah's own published automatic cognates (`biglexstat`).
+- *Not used.*
+  - OnlinePMI, which isn't available in the pinned LingPy.
+  - Kaiping and Klamer's loan rule, which codes a concept absent when a lect's only form is cognate with Tetun. That is right for Papuan languages, but here Tetun is a sister language, so the rule would delete inherited cognates.
+- *Test.* IQ-TREE GTR2+FO+G4 with 1,000 UFBoot replicates, as in E6 and E11. Supports are read from `.splits.nex` for the six E11 clades.
+- *Reading.*
+  - If Lakalei-Idate + Central Timor stays the best-supported placement under every coding, and Timor-Babar and Lakalei-Idate + Eastern Timor stay near 0, the lexical side of C1 doesn't depend on the coding.
+  - If any coding puts Lakalei-Idate elsewhere with at least 50% support, that is reported as a weakness.
+
+**E16: Alcantara's Idaté data**, run only if the full thesis can be obtained.
+
+- *Data.* Every glossed Idaté form in the thesis, mainly Appendix 2, transcribed as printed, with source page.
+- *Concepts.* The Portuguese glosses are mapped to Concepticon by hand before any form is aligned. The mapping is saved separately.
+- *Reflexes.* Each form is aligned with the ABVD PMP form for the same concept, following the E9 procedure exactly: the closest form with SCA NED ≤ 0.5, global alignment, A4.1 classes, positions.
+- *Characters.* The 11 E13 characters are coded for Idaté from these tokens alone (majority class, at least 2 tokens), and compared with Idaté's current coding.
+- *Rerun.* If any of Idaté's cells changes (filled from ?, or flipped), the vocabulary + 11 innovations ML tree (E13) is rerun with Alcantara's coding in those cells.
+- *Reading.*
+  - Cells moving towards the Eastern Timor pattern (*ŋ > n, *j > r, *b- not h, *k kept) weaken the C1 lean.
+  - Cells moving towards the Central Timor pattern strengthen it.
+  - Cells that don't change mean the earlier coding is confirmed by an independent source.
