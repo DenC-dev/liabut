@@ -146,9 +146,74 @@ LI = Lakalei-Idate; CT = Central Timor with Welaun; ET = Eastern Timor; NCT = Nu
 - **Uninformative**, as Addendum 5 allowed for. The 18–48-word lists can't recover Central Timor itself.
 - **Habu.** Habu's closeness to Idaté rests on 14 meanings, and Habu's list comes from Hull (1998). It is a lead to check, not a result.
 
+## Second round: sources supplied on 11 October (Addendum 6, post hoc)
+
+### Kaiping and Klamer (2022), and E15: does C1 depend on cognate coding?
+
+- **What the paper is.** It uses the same LexiRumah data and the same LexStat-Infomap coding (threshold 0.55) for the Papuan Timor-Alor-Pantar family. It checks robustness against a splitting threshold (0.35), a lumping threshold (0.75) and another coder (OnlinePMI).
+- **Loans.** Their rule codes a concept as absent wherever a lect's only form is cognate with Indonesian or Tetun. That suits Papuan languages. For Timor's Austronesian languages it would delete inherited cognates, because Tetun is their sister, so E15 does not use it.
+- **Treelikeness.** Kaiping and Klamer read high Q residuals with moderate δ as the mark of a dialect chain that broke up. Sanak's Timor figures sit at or above their comparison sets:
+
+  | Data | Mean δ | Mean Q residual |
+  |---|---|---|
+  | Sanak, 37 Timor Austronesian lects | 0.240 | 0.0072 |
+  | Sanak, 24 step-7 taxa (with outgroups) | 0.334 | 0.0048 |
+  | Timor-Alor-Pantar (Kaiping and Klamer) | 0.264 | 0.0047 |
+  | Chinese dialects (as recomputed by Kaiping and Klamer) | 0.298 | 0.0046 |
+  | Indo-European (as recomputed by Kaiping and Klamer) | 0.201 | 0.0013 |
+
+  The data and code differ, so the comparison is rough. Still, Timor's Austronesian vocabulary is at least as network-like as a family Kaiping and Klamer describe as a former dialect chain. That suits a linkage reading of Central Timor and Lakalei-Idate better than clean splits.
+
+**E15** (`src/26_coding_robustness.py`; `results/literature/e15_coding_robustness.json`). These are 24-taxon ML trees on vocabulary only, with UFBoot %. "Fit" is the Mantel r against ABVD expert distances. That diagnostic was added after the trees and was not pre-declared.
+
+| Cognate coding | Characters | Fit | LI + CT | Timor-Babar | LI + ET | Best-supported group containing LI |
+|---|---|---|---|---|---|---|
+| LexStat 0.55 (primary) | 1,353 | 0.90 | 65 | 0 | 0 | LI + CT, 65 |
+| LexStat 0.35 (splitting) | 2,270 | 0.71 | 15 | 0 | 0 | LI + Nuclear CT (without Welaun), 53 |
+| LexStat 0.75 (lumping) | 560 | 0.89 | 20 | 0 | 0 | LI + CT + Tetun + Habu, 84 |
+| SCA 0.45 | 957 | 0.86 | **92** | 0 | 0 | LI + CT, 92 |
+| LexiRumah's own automatic cognates | 1,965 | 0.70 | 0 | 0 | 0 | LI + Habu, 51 (Idaté + Habu, 65) |
+
+LI = Lakalei-Idate; CT = Central Timor with Welaun; ET = Eastern Timor.
+
+- **Timor-Babar and Lakalei-Idate + Eastern Timor get 0 under every coding.** That part of the result doesn't depend on the coding.
+- **How much support Lakalei-Idate + Central Timor gets does depend on the coding.**
+  - It is the best group under the primary coding and under SCA.
+  - With the splitting threshold, Lakalei-Idate still goes with Mambae, Kemak and Tokodede.
+  - With the lumping threshold, Tetun and Habu join the group.
+- **One coding places Lakalei-Idate elsewhere, as Addendum 6 required us to report.** With LexiRumah's own published cognates, it goes with Habu (51%).
+- **That coding fits the experts worst** (r = 0.70, against 0.90 for the primary), and it fails to recover Central Timor itself (0%).
+- **Habu is the nearest list to Idaté in E14 too.** Habu is spoken 5–11 km from the two Idaté points, closer than any other lect. Neighbourly contact is the simplest explanation, but these data can't rule out inheritance.
+
+### Alcantara (2015), and E16: new Idaté data
+
+`src/27_alcantara.py`; outputs `derived/alcantara2015_idate/` and `results/literature/e16_alcantara_idate.json`.
+
+- **The source.**
+  - The data come from fieldwork in Laclubar: 73 speakers, a corpus of 800 words and 420 sentences.
+  - Appendix 2 publishes 184 of the forms, in phonetic and phonological transcription. These are now machine-readable in `derived/alcantara2015_idate/forms.csv`.
+  - The thesis cites Hull (1998) for the name Idalaka. It does not classify Idaté further.
+- **A bias in the list.** Alcantara deliberately left out words identical to Tetun, such as *asu* 'dog' and *ikan* 'fish', to focus on Idaté's "exclusive" vocabulary. So the list can't be used for lexical comparison with Tetun.
+- **E16 result.**
+  - 67 entries map to ABVD concepts (63 concepts). Under the E9 rule (closest form with SCA NED ≤ 0.5), only 17 words align to Proto-Malayo-Polynesian, giving 41 tokens.
+  - That fills 2 of the 11 characters. Both agree with Sanak's existing Idaté coding:
+    - *p lenited: *panaq > *ana* 'shoot', *əpat > *at* 'four';
+    - *b- > h: *batu > *hatu* 'stone', *bulan > *hula* 'moon'.
+  - The other cells have 0 or 1 tokens, or a tie, so they stay uncoded. A tie is read as having no majority. Nothing changed, so no rerun was needed.
+- **Independent confirmations outside the formal test.**
+  - 'Cry' is [ˈsɛ.ɾɔ]. This is the form shared only with Central Timor, now attested from a third, independent source.
+  - 'Fat' is [ˈbo.ʔuɾ] against Tetun *bokur*, with medial *k > ʔ (Hull's *k point).
+  - 'Sit' is [ˈtu.ɾan] < *tudan, with *d > r.
+  - 'White' is [ˈpu.tin] ~ [ˈbu.tin] < *ma-putiq.
+
+### De Jesus and Nunes (2024)
+
+- **What it is.** A web-crawled Tetun (Dili) text corpus of 321.7k sentences, plus a Tetun tokenizer and language identifier.
+- **Relevance.** It doesn't bear on subgrouping. It could help a future loan study tell recent Tetun Dili loans from older Tetun Terik ones by corpus frequency.
+
 ## Not yet used, and worth getting
 
-- **Alcantara (2015).** A phonological description of Idaté (USP master's), based on new fieldwork. Its data could add *p, *ŋ, *b and *k words for Idaté.
+- **Alcantara's full corpus.** It has 800 words and 420 sentences, of which only 184 forms are published. The full corpus would give enough Idaté *ŋ, *j, *k and *d words to code every character.
 - **Purwa et al. (1994).** *Struktur bahasa Idate*: an Indonesian-era grammar, and the source of ASJP's Idaté list.
 - **Hull (1998).** Wordlists and lexical percentages for all of Timor's Austronesian languages. Only the Habu and Naueti lists are reachable, through ASJP.
 - **Earlier phonological descriptions.**
@@ -169,6 +234,7 @@ LI = Lakalei-Idate; CT = Central Timor with Welaun; ET = Eastern Timor; NCT = Nu
 - Capell, Arthur. 1944. Peoples and languages of Timor. *Oceania* 14(4): 311–337.
 - Carvalho (2001), as cited in J. Fogaça (2015); not seen.
 - Donohue, Mark and Charles E. Grimes. 2008. Yet more on the position of the languages of eastern Indonesia and East Timor. *Oceanic Linguistics* 47(1): 114–158.
+- de Jesus, Gabriel and Sérgio Nunes. 2024. Data collection pipeline for low-resource languages: a case study on constructing a Tetun text corpus. *LREC-COLING 2024*, 4368–4380.
 - Edwards, Owen. 2019. Reintroducing Welaun. *Oceanic Linguistics* 58(1): 31–58.
 - Edwards, Owen and Charles E. Grimes. 2026. Appendices to *The Austronesian languages of eastern Indonesia and Timor-Leste*. DataverseNO. doi:10.18710/3CT9RO.
 - Fogaça, Helem Andressa de Oliveira. 2013. *Estudo fonético e fonológico do Mambae de Same*. MA thesis, Universidade de Brasília.

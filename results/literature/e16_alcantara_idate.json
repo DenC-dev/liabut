@@ -1,0 +1,91 @@
+{
+ "entries": 184,
+ "mapped_to_concepts": 67,
+ "concepts": 63,
+ "aligned_tokens": 41,
+ "coding": {
+  "p_lenited": {
+   "value": "1",
+   "tokens": {
+    "∅": 2
+   },
+   "current": "1",
+   "status": "agrees"
+  },
+  "ng_velar": {
+   "value": "?",
+   "tokens": {},
+   "current": "0",
+   "status": "no data"
+  },
+  "ng_n": {
+   "value": "?",
+   "tokens": {},
+   "current": "1",
+   "status": "no data"
+  },
+  "j_rhotic": {
+   "value": "?",
+   "tokens": {},
+   "current": "1",
+   "status": "no data"
+  },
+  "j_l": {
+   "value": "?",
+   "tokens": {},
+   "current": "0",
+   "status": "no data"
+  },
+  "R_zero": {
+   "value": "?",
+   "tokens": {
+    "rhotic": 1,
+    "∅": 1,
+    "sibilant": 1
+   },
+   "current": "0",
+   "status": "no data"
+  },
+  "b_lenited": {
+   "value": "?",
+   "tokens": {
+    "labial stop": 2,
+    "h": 2
+   },
+   "current": "1",
+   "status": "no data"
+  },
+  "d_liquid": {
+   "value": "?",
+   "tokens": {
+    "rhotic": 1
+   },
+   "current": "?",
+   "status": "no data"
+  },
+  "b_h_initial": {
+   "value": "1",
+   "tokens": {
+    "h": 2
+   },
+   "current": "1",
+   "status": "agrees"
+  },
+  "k_lost_initial": {
+   "value": "?",
+   "tokens": {
+    "∅": 1
+   },
+   "current": "0",
+   "status": "no data"
+  },
+  "k_lost_medial": {
+   "value": "?",
+   "tokens": {
+    "glottal stop": 1
+   },
+   "current": "1",
+   "status": "no data"
+  }
+ }
+}

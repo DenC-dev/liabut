@@ -1,0 +1,84 @@
+{
+ "lexstat": {
+  "characters": 1353,
+  "support": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 65.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0.0,
+   "Central Timor (with Welaun)": 52.0,
+   "Nuclear Central Timor": 59.0,
+   "Lakalei-Idate": 53.0
+  }
+ },
+ "lexstat035": {
+  "characters": 2270,
+  "support": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 15.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0,
+   "Central Timor (with Welaun)": 22.0,
+   "Nuclear Central Timor": 80.0,
+   "Lakalei-Idate": 79.0
+  }
+ },
+ "lexstat075": {
+  "characters": 560,
+  "support": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 20.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0,
+   "Central Timor (with Welaun)": 23.0,
+   "Nuclear Central Timor": 78.0,
+   "Lakalei-Idate": 65.0
+  }
+ },
+ "sca": {
+  "characters": 957,
+  "support": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 92.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0.0,
+   "Central Timor (with Welaun)": 79.0,
+   "Nuclear Central Timor": 88.0,
+   "Lakalei-Idate": 48.0
+  }
+ },
+ "biglexstat": {
+  "characters": 1965,
+  "support": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 0.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0,
+   "Central Timor (with Welaun)": 0,
+   "Nuclear Central Timor": 6.0,
+   "Lakalei-Idate": 27.0
+  }
+ },
+ "diagnostic_fit_to_ABVD_experts": {
+  "lexstat": {
+   "mantel_r": 0.898,
+   "p": 0.001,
+   "lects": 24
+  },
+  "lexstat035": {
+   "mantel_r": 0.712,
+   "p": 0.001,
+   "lects": 24
+  },
+  "lexstat075": {
+   "mantel_r": 0.894,
+   "p": 0.001,
+   "lects": 24
+  },
+  "sca": {
+   "mantel_r": 0.86,
+   "p": 0.001,
+   "lects": 24
+  },
+  "biglexstat": {
+   "mantel_r": 0.696,
+   "p": 0.001,
+   "lects": 23
+  }
+ }
+}

@@ -26,7 +26,7 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
   - Its vocabulary sits with Central Timor (ln BF +8.0 for Hull's Ramelaic).
   - Its sound changes look like Timor-Babar (*p > h, *ŋ > n, no *ŋ > g). But Welaun, a Central Timor language, also has *p > h, and *ŋ > n is found in the Flores outgroup too.
   - Combining vocabulary with sound changes coded from Grimes and Edwards's own tables puts Lakalei-Idate with Central Timor every time (posterior 0.88, ML 56–80%). Timor-Babar gets 0.
-  - This reading is post hoc and the sound-change data are thin, so it is a lean, not a settlement.
+  - This reading is post hoc and the sound-change data are thin, so it is a lean, not a settlement. Support also depends on how cognates are coded (15–92% across five codings), though Timor-Babar gets 0 under all of them.
   - Hull (1998, 2001) and Carvalho (2001) already grouped Idaté-Lakalei this way. Hull's *b > h evidence shows up in Grimes and Edwards's own data, but Galoli and Ili'uun share it (see [`results/LITERATURE.md`](results/LITERATURE.md)).
 - **The low-level groups are confirmed:** Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang and Babar.
 - **The pre-registered step 8 verdict is "unresolved" for both C1 and C2.**
@@ -43,6 +43,7 @@ The expansion (Addendum 4) built datasets that didn't exist in machine-readable 
 - **Innovation profiles:** eight diagnostic sound changes coded for 65 Timor-region languages.
 - **Loans identified by sound change:** 740 Tetun look-alikes classified, 21 of them as probable loans.
 - **Cognate sets exclusive to Lakalei-Idate and Central Timor**, including 'cry' (Idaté *sɛro*, Mambae *sero*, Welaun *soː*, against *tanis* < *taŋis elsewhere).
+- **Idaté word list from Alcantara (2015):** 184 forms from Laclubar, machine-readable, with PMP alignments.
 
 ## What's new
 
@@ -70,7 +71,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 
 | Step | What | Where |
 |---|---|---|
-| 0 | Protocol frozen before any analysis; five addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
+| 0 | Protocol frozen before any analysis; six addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
 | 1 | Datasets: D1 = LexiRumah (70 lects, 152 concepts); D2 = ABVD with expert cognates (30 lects) | `data/` |
 | 2 | Automatic cognates (LexStat, SCA), scored against the ABVD experts | `results/cognates/`, `results/scores/` |
 | 3 | Loan screening: Indonesian, Portuguese, Tetun look-alikes, Austronesian–Papuan contact sets | `results/loans/` |
@@ -85,6 +86,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 | E10–E11 | Sound-change characters; total-evidence trees (IQ-TREE, MrBayes) | `derived/sound_change_matrix/`, `results/total_evidence/` |
 | E12 | Loans identified by sound change; rerun without them | `derived/loans/`, `results/total_evidence/loan_rerun.json` |
 | Lit. | Literature scan; E13 Hull's *b/*k characters; E14 independent ASJP Idaté list | `results/LITERATURE.md`, `results/literature/` |
+| Lit. 2 | E15 cognate-coding robustness (after Kaiping and Klamer 2022); E16 Alcantara (2015) Idaté data | `results/literature/`, `derived/alcantara2015_idate/` |
 
 ## Rerun
 
@@ -124,6 +126,12 @@ python3 24_figures_expansion.py
 python3 25_literature_checks.py e13      # Addendum 5
 python3 25_literature_checks.py e13s     # sensitivity, not pre-declared
 python3 25_literature_checks.py e14 <path to a clone of github.com/lexibank/asjp>
+python3 26_coding_robustness.py cognates  # Addendum 6, E15
+python3 26_coding_robustness.py trees
+python3 26_coding_robustness.py fit       # diagnostic, not pre-declared
+python3 27_alcantara.py parse <Alcantara 2015 thesis PDF>   # E16
+python3 27_alcantara.py reflexes
+python3 27_alcantara.py rerun
 python3 12_decide.py              # step 8
 python3 13_figures.py
 ```

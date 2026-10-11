@@ -21,3 +21,6 @@ results/total_evidence/*.ckp~
 results/total_evidence/*.mcmc
 results/total_evidence/*.ckp.gz
 results/total_evidence/*.log
+results/literature/e15/*.ckp.gz
+results/literature/e15/*.log
+results/total_evidence/*_alc.ckp.gz

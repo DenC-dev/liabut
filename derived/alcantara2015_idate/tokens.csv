@@ -1,0 +1,42 @@
+Seq,Concept,PMP,Index,Target,Position,Form,Reflex,Class,NED
+5,rotten,mabuRuk,0,m,initial,labuɾuk,l,l,0.286
+5,rotten,mabuRuk,2,b,medial,labuɾuk,b,labial stop,0.286
+5,rotten,mabuRuk,4,R,medial,labuɾuk,ɾ,rhotic,0.286
+5,rotten,mabuRuk,6,k,final,labuɾuk,k,velar stop,0.286
+13,to plant,mula,0,m,initial,uda,-,∅,0.5
+13,to plant,mula,2,l,medial,uda,d,coronal stop,0.5
+20,stone,batu,0,b,initial,hatu,h,h,0.25
+20,stone,batu,2,t,medial,hatu,t,coronal stop,0.25
+31,to sit,tudan,0,t,initial,tuɾan,t,coronal stop,0.2
+31,to sit,tudan,2,d,medial,tuɾan,ɾ,rhotic,0.2
+31,to sit,tudan,4,n,final,tuɾan,n,n,0.2
+35,to shoot,panaq,0,p,initial,ana,-,∅,0.4
+35,to shoot,panaq,2,n,medial,ana,n,n,0.4
+35,to shoot,panaq,4,q,final,ana,-,∅,0.4
+49,to burn,tunu,0,t,initial,sulu,s,sibilant,0.5
+49,to burn,tunu,2,n,medial,sulu,l,l,0.5
+50,moon,bulan,0,b,initial,hula,h,h,0.4
+50,moon,bulan,2,l,medial,hula,l,l,0.4
+50,moon,bulan,4,n,final,hula,-,∅,0.4
+59,to come,maRi,0,m,initial,ma,m,m,0.5
+59,to come,maRi,2,R,medial,ma,-,∅,0.5
+74,white,maputiq,0,m,initial,putin,-,∅,0.429
+74,white,maputiq,2,ma-p,medial,putin,p,p,0.429
+74,white,maputiq,4,t,medial,putin,t,coronal stop,0.429
+74,white,maputiq,6,q,final,putin,n,n,0.429
+135,louse,kutu,0,k,initial,utu,-,∅,0.25
+135,louse,kutu,2,t,medial,utu,t,coronal stop,0.25
+152,I,iaku,2,k,medial,ʔaʔu,ʔ,glottal stop,0.5
+154,One,əsa,1,s,medial,isa,s,sibilant,0.333
+156,mother,tina,0,t,initial,inan,-,∅,0.5
+156,mother,tina,2,n,medial,inan,n,n,0.5
+157,father,tama,0,t,initial,aman,-,∅,0.5
+157,father,tama,2,m,medial,aman,m,m,0.5
+170,shoulder,qabaRa,0,q,initial,labas,l,l,0.5
+170,shoulder,qabaRa,2,b,medial,labas,b,labial stop,0.5
+170,shoulder,qabaRa,4,R,medial,labas,s,sibilant,0.5
+174,Four,əpat,1,p,medial,at,-,∅,0.5
+174,Four,əpat,3,t,final,at,t,coronal stop,0.5
+180,bird,manuk,0,m,initial,manu,m,m,0.2
+180,bird,manuk,2,n,medial,manu,n,n,0.2
+180,bird,manuk,4,k,final,manu,-,∅,0.2

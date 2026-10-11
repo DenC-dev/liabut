@@ -17,7 +17,7 @@ Run on 2026-10-10.
 | **Timor-Babar** (Edwards; Grimes and Edwards) | Not supported (0%) | Not a lexical group: ln BF −7.0 against it, and forcing it costs 12 log-likelihood units in ML. It stands on its sound changes only. | High that the vocabulary doesn't show it |
 | **Eastern Timor** (Edwards; Grimes and Edwards) | Not supported (0–3%) | Same as Timor-Babar | High |
 | **C2. Is Welaun a Tetun dialect (Hull 1998) or Central Timor (Edwards)?** | Unresolved, because the bootstrap trees don't reach 70% for Central Timor | **Central Timor.** ln BF +10.3, the ML tree puts it there, and its Tetun tie disappears on borrowing-resistant words. This agrees with the sound changes in Edwards (2019) and Grimes and Edwards. | High |
-| **C1. Do Idaté and Lakalei go with Mambae, Kemak and Tokodede (Hull's Ramelaic), or into Timor-Babar (Edwards)?** | Unresolved, because neither clade reaches 70% in the bootstrap trees | **Leans Central Timor (Hull's grouping, with Welaun added).** The vocabulary puts Lakalei-Idate next to Central Timor (posterior 0.91; ln BF +8.0 for Ramelaic). So does every analysis that adds Grimes and Edwards's own sound-change data (posterior 0.88; ML 56–80). Timor-Babar's one defining change, *p lenition, also occurs in Welaun. See *Expansion*. | Moderate: post hoc, and the sound-change data are sparse |
+| **C1. Do Idaté and Lakalei go with Mambae, Kemak and Tokodede (Hull's Ramelaic), or into Timor-Babar (Edwards)?** | Unresolved, because neither clade reaches 70% in the bootstrap trees | **Leans Central Timor (Hull's grouping, with Welaun added).** The vocabulary puts Lakalei-Idate next to Central Timor (posterior 0.91; ln BF +8.0 for Ramelaic). So does every analysis that adds Grimes and Edwards's own sound-change data (posterior 0.88; ML 56–80). Timor-Babar's one defining change, *p lenition, also occurs in Welaun. See *Expansion*. | Moderate: post hoc, the sound-change data are sparse, and support varies with cognate coding (15–92%; E15), though Timor-Babar gets 0 under every coding |
 | **Low-level groups** | Supported (≥ 70% in every variant): Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang, Kisar-Roma, Babar, Peripheral Babar, South Babar | Settled. All of them are already in Grimes and Edwards and in Glottolog. | High |
 
 ## Gate (step 4)
@@ -346,6 +346,14 @@ The full scan, sources and tables are in [`LITERATURE.md`](LITERATURE.md).
 - **Welaun.** Hull (2003) placed Welaun between Tetun and Dawan. Sanak agrees with Edwards (2019) instead.
 - **Genetics.** Souto et al. (2006) found Y-chromosome structure matching Hull's Ramelaic and Fabronic groups. No Idaté or Lakalei speakers were sampled, so genetics can't yet speak to C1.
 - **Novelty claim narrowed.** Idaté, Welaun, Habu and Helong have ASJP lists. The claim now reads "first cognate-based phylogenetic placement".
+- **Cognate coding (E15, after Kaiping and Klamer 2022).**
+  - Timor-Babar and Lakalei-Idate + Eastern Timor get 0 under all five codings.
+  - Support for Lakalei-Idate + Central Timor varies: 92% with SCA, 65% with the primary coding, 15–20% at the extreme thresholds. At those thresholds Lakalei-Idate still groups with Mambae, Kemak and Tokodede, either on their own or with Tetun and Habu added.
+  - LexiRumah's own published cognates instead put Lakalei-Idate with neighbouring Habu (51%). That coding fits the expert cognates worst (Mantel r 0.70 against 0.90) and doesn't recover Central Timor at all.
+- **New Idaté data (E16).** Alcantara (2015) adds 184 Idaté forms from Laclubar.
+  - Only 17 align to Proto-Malayo-Polynesian. The two characters they can code (*p lenition, *b- > h) agree with the existing coding.
+  - Her 'cry' [ˈsɛ.ɾɔ] is an independent attestation of the word Lakalei-Idate shares only with Central Timor.
+- **Treelikeness.** Timor's Austronesian vocabulary is at least as network-like as the Timor-Alor-Pantar data, which Kaiping and Klamer read as a former dialect chain: mean Q residual 0.0072 against 0.0047. That supports a linkage reading.
 
 ## Novelty check (post hoc, 10 October 2026)
 

@@ -49,3 +49,8 @@ Grimes and Edwards print their evidence as tables. Each has a gloss row and a PM
 
 - **Built by** `src/22_tetun_loans.py` and `src/23_ct_loans.py`.
 - **How far to trust it.** The loan classes are a heuristic. Grimes and Edwards confirm some of them, such as Welaun *nani* 'swim' (a probable loan), but the classifier has not been validated against expert loan judgments.
+
+## `alcantara2015_idate/`: Idaté word list from Alcantara (2015)
+
+184 Idaté forms from a phonological description based on fieldwork in Laclubar, with concept mapping and aligned PMP tokens (Addendum 6, E16). See the folder's own README for the source, corrections and rights.
+
