@@ -464,3 +464,69 @@ Written before E17–E19 were run.
 - *Model.* The 24 step-7 taxa, with concept-partitioned binary characters as in the contacTrees examples.
 - *What is reported.* Posterior support for contact edges between Lakalei-Idate and each other lineage, and the posterior of Lakalei-Idate + Central Timor.
 - *Status.* Exploratory. If the chain doesn't converge (ESS < 100 on the posterior), that is reported and nothing is read from it.
+
+### Addendum 8 (2026-10-11, post hoc): which half carries the signal, how much borrowing, glottometry, dating, other branches
+
+Written before E20–E24 were run.
+
+- **Already seen.** The E17/E18 results and the lect distances: Lakalei–Mambae about 10 km; Idaté–Mambae 38 km; Idaté–Habu 5–11 km.
+- **Not yet seen.** None of the statistics below have been computed.
+
+**E20: which member of Lakalei-Idate carries the Central Timor signal?**
+
+- *Lists.* The primary comparison uses the two lists from the same source (`klamer02`): Idaté `idat1237` and Lakalei `laka1255`. A sensitivity check uses Idaté-Cribas (`dawson14`).
+- *Which sets count.* Using E17's innovation sets, take the "CT-type" sets in Lakalei-Idate: present in Central Timor, absent from Tetun, Habu and Kawaimina. Count, over concepts attested in both lists, how many are in both Idaté and Lakalei, Lakalei only, and Idaté only. "Habu-type" and "Tetun-type" sets are counted the same way.
+- *Test.* A two-sided binomial test of Lakalei-only against Idaté-only for each type.
+- *Reading.*
+  - Recent contact predicts Lakalei-only ≫ Idaté-only for CT-type sets (Lakalei sits next to Mambae), and Idaté-only ≫ Lakalei-only for Habu-type sets.
+  - Inheritance, or contact older than the Idaté–Lakalei split, predicts that "both" dominates and that the two "only" counts are similar.
+
+**E21: how much borrowing would each tree need?** This is approximate Bayesian computation.
+
+- *Simulation.* Word replacement is simulated on the 24-taxon ML lexical tree (`lex_only.treefile`):
+  - one character per concept, with the root holding the PMP retention;
+  - per-concept rates from Gamma(1);
+  - stable (Leipzig-Jakarta) concepts at a rate factor r_s;
+  - the observed pattern of missing data.
+- *Two models.*
+  - **H**: the ML topology (Lakalei-Idate sister to Central Timor), plus borrowing into proto-Lakalei-Idate from Eastern Timor lects.
+  - **G**: Lakalei-Idate regrafted as sister to Eastern Timor (Tetun, Habu, Kawaimina), as Grimes and Edwards allow, plus borrowing into proto-Lakalei-Idate from Nuclear Central Timor.
+  - In both, a borrowed concept takes a random donor lect's class. The borrowing probabilities b_s (stable concepts) and b_o (other concepts) are free.
+- *Priors.* Rate scale s ~ U(1, 12); r_s ~ U(0.2, 1); b_s, b_o ~ U(0, 0.6). Models equally likely.
+- *Summary statistics.* The 18 E18 triplet counts: (LI, NCT, X) for X = Tetun, Habu, Kawaimina, on stable and other concepts.
+- *Runs.* 20,000 simulations per model, keeping the closest 1% by standardised Euclidean distance.
+- *Reported.* Model posterior probabilities, and the posterior of b_s and b_o under each model.
+- *Reading.* If model G needs b_s above 0.2 (a fifth of core vocabulary borrowed from Central Timor), its placement is hard to defend lexically. If it fits with b_s ≤ 0.1, the lexical evidence doesn't discriminate.
+
+**E22: historical glottometry** (Kalyan and François 2018).
+
+- *Taxa.* The 22 Timor-region step-7 taxa (the Flores outgroup is left out).
+- *Innovations.* E17 lexical innovation sets present in at least 2 taxa and absent from the Flores outgroup, plus the 11 E13 sound-change characters (taxa coded 1).
+- *Statistics for a group G.*
+  - ε = innovations whose taxon set is exactly G.
+  - p = innovations that all of G's members have.
+  - q = innovations that cross-cut G.
+  - κ = p / (p + q); σ = ε × κ.
+- *Missing data.* An innovation counts towards G only if every member of G has the concept attested, or the character coded.
+- *Reported.* The 15 groups with the highest σ, and σ and κ for the named hypotheses.
+
+**E23: relative dating.**
+
+- *Run.* MrBayes, step-7 data and model, strict clock with a uniform clock tree prior, no calibrations. Two runs, 2,000,000 generations.
+- *Reported.*
+  - Posterior median relative heights (root = 1) of the most recent common ancestors of Lakalei-Idate, Nuclear Central Timor, Central Timor, Lakalei-Idate + Central Timor, Eastern Timor, Kawaimina, Rote-Meto and Wetar-Atauro.
+  - Clade posteriors.
+- *Status.* Descriptive.
+
+**E24: other disputed branches.** The E18 triplet test (stable against other concepts, Welaun check as control) is applied to:
+
+| Triplet | Rival groupings |
+|---|---|
+| (Habu, Tetun, Kawaimina) | Glottolog's Central Timoric A (Habu + Tetun) against Hull's Northern Fabronic (Habu + Kawaimina) |
+| (Waima'a, Naueti, Midiki) | Grimes and Edwards's Waima'a-Naueti |
+| (Galoli, Wetar, Dadu'a) | Galoli's place in Wetar-Atauro |
+| (Galoli, Wetar, Tetun) | Galoli with Wetar, or with Tetun |
+| (Helong, Meto, Rote) | Helong's neighbour Meto, or Rote |
+
+- *Lists.* Wetar = Ili'uun and Tugun (ilma1240, kaha1239); Meto = Kotos Amarasi; Rote = Termanu and Dela; Helong = Funai.
+- *Reading.* As for E18: the tree pair on stable concepts, and contact where an excess concentrates in other concepts.
