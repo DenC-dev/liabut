@@ -1,6 +1,6 @@
 # Derived datasets
 
-These datasets were built for Sanak's expansion (Addendum 4 in `PROTOCOL.md`). None of them existed in machine-readable form before. Each folder says where its data come from and how to cite it.
+These datasets were built for Liabut's expansion (Addendum 4 in `PROTOCOL.md`). None of them existed in machine-readable form before. Each folder says where its data come from and how to cite it.
 
 ## `ge2026_tables/`: the comparative tables of Grimes and Edwards (2026)
 

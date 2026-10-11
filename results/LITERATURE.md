@@ -1,6 +1,6 @@
 # Literature scan (11 October 2026)
 
-This scan looked for research on Timor's languages that Sanak had not yet used. It covered:
+This scan looked for research on Timor's languages that Liabut had not yet used. It covered:
 
 - descriptions of each language;
 - older classifications;
@@ -10,7 +10,7 @@ This scan looked for research on Timor's languages that Sanak had not yet used. 
 
 Two findings could be tested, and were (Addendum 5, E13 and E14, both post hoc). The rest is context for the report, or material for future work.
 
-## What bears on Sanak's questions
+## What bears on Liabut's questions
 
 ### Older classifications that already grouped Idaté-Lakalei with Central Timor
 
@@ -20,7 +20,7 @@ Two findings could be tested, and were (Addendum 5, E13 and E14, both post hoc).
 - **Carvalho (2001)**, as cited in J. Fogaça (2015). This is a provisional two-way grouping:
   - Group A: Tetum and Galoli.
   - Group B: Kemak, Tokodede, Mambae, Idaté and Lakalei.
-- **Why it matters.** Sanak's lexical result for C1 matches a grouping proposed twice before, by Hull and by Carvalho, from different evidence. Grimes and Edwards (2026) cite neither of them. A full-text search of the book's LaTeX source finds no mention of Hull, Ramelaic or Fabronic.
+- **Why it matters.** Liabut's lexical result for C1 matches a grouping proposed twice before, by Hull and by Carvalho, from different evidence. Grimes and Edwards (2026) cite neither of them. A full-text search of the book's LaTeX source finds no mention of Hull, Ramelaic or Fabronic.
 
 ### Grimes and Edwards's own data hold Hull's *b evidence
 
@@ -34,12 +34,12 @@ Two findings could be tested, and were (Addendum 5, E13 and E14, both post hoc).
 
 - **Hull (2003)** calls Bekais (Welaun) a distinct language, "structurally intermediate between Belunese Tetum and Dawan". That places it on the Fabronic side.
 - **Edwards (2019)** puts it in Central Timor on five sound changes, chiefly *ŋ > g > k.
-- **Sanak** agrees with Edwards (ln BF +10.3).
+- **Liabut** agrees with Edwards (ln BF +10.3).
 - **Two side notes in Edwards (2019).**
   - Lakalei *ma-p > b may have passed through *mp, the Central Timor stage.
   - Idaté has *j > l ~ r.
 
-  Sanak's expert atlas bears out both observations, but neither is diagnostic:
+  Liabut's expert atlas bears out both observations, but neither is diagnostic:
   - *ma-p > b also occurs in Habu and Kawaimina.
   - Idaté *j has 3 r against 1 l, and Lakalei 1 r against 1 l.
 
@@ -48,7 +48,7 @@ Two findings could be tested, and were (Addendum 5, E13 and E14, both post hoc).
 - **Schapper (2020)** explains the morphology of eastern Timor's languages mainly by phonological change spreading within a Timorese Sprachbund.
 - **Hull (2001b)** already wrote of a "Timoric Sprachbund".
 - **Grimes and Edwards** call vowel lowering before *R "a regional feature of west and central Timor" (§4.2).
-- **Why it matters.** Changes that spread areally are weak evidence for subgroups. That is the reading Sanak's expansion gave to *p > h, which Welaun shares with Timor-Babar.
+- **Why it matters.** Changes that spread areally are weak evidence for subgroups. That is the reading Liabut's expansion gave to *p > h, which Welaun shares with Timor-Babar.
 
 ### Genetics and archaeology
 
@@ -69,7 +69,7 @@ Two findings could be tested, and were (Addendum 5, E13 and E14, both post hoc).
 - **Donohue and Grimes (2008)** argue that Central Malayo-Polynesian is not a subgroup. Grimes and Edwards (2026) build on that.
 - **Grimes and Edwards (2026)** say the book is the first systematic attempt to subgroup the Austronesian languages of eastern Indonesia and Timor-Leste, using historical phonology with support from morphosyntax and the lexicon (LINGUIST List 37.1261 announcement, March 2026). No review had appeared by the date of this scan.
 
-## A correction to Sanak's novelty claim
+## A correction to Liabut's novelty claim
 
 ASJP (Wichmann, Holman and Brown, eds.) holds 40-item lists for:
 
@@ -78,7 +78,7 @@ ASJP (Wichmann, Holman and Brown, eds.) holds 40-item lists for:
 - Idaté (since v21), from Purwa et al. 1994;
 - Welaun (since v21), from Edwards 2019.
 
-These languages are therefore present in ASJP's global automated similarity data. Sanak's claim of the "first computational placement" is accordingly narrowed to the **first cognate-based phylogenetic placement**. No study was found that examines ASJP's results for Timor.
+These languages are therefore present in ASJP's global automated similarity data. Liabut's claim of the "first computational placement" is accordingly narrowed to the **first cognate-based phylogenetic placement**. No study was found that examines ASJP's results for Timor.
 
 ## Tests run on these findings (Addendum 5, post hoc)
 
@@ -152,12 +152,12 @@ LI = Lakalei-Idate; CT = Central Timor with Welaun; ET = Eastern Timor; NCT = Nu
 
 - **What the paper is.** It uses the same LexiRumah data and the same LexStat-Infomap coding (threshold 0.55) for the Papuan Timor-Alor-Pantar family. It checks robustness against a splitting threshold (0.35), a lumping threshold (0.75) and another coder (OnlinePMI).
 - **Loans.** Their rule codes a concept as absent wherever a lect's only form is cognate with Indonesian or Tetun. That suits Papuan languages. For Timor's Austronesian languages it would delete inherited cognates, because Tetun is their sister, so E15 does not use it.
-- **Treelikeness.** Kaiping and Klamer read high Q residuals with moderate δ as the mark of a dialect chain that broke up. Sanak's Timor figures sit at or above their comparison sets:
+- **Treelikeness.** Kaiping and Klamer read high Q residuals with moderate δ as the mark of a dialect chain that broke up. Liabut's Timor figures sit at or above their comparison sets:
 
   | Data | Mean δ | Mean Q residual |
   |---|---|---|
-  | Sanak, 37 Timor Austronesian lects | 0.240 | 0.0072 |
-  | Sanak, 24 step-7 taxa (with outgroups) | 0.334 | 0.0048 |
+  | Liabut, 37 Timor Austronesian lects | 0.240 | 0.0072 |
+  | Liabut, 24 step-7 taxa (with outgroups) | 0.334 | 0.0048 |
   | Timor-Alor-Pantar (Kaiping and Klamer) | 0.264 | 0.0047 |
   | Chinese dialects (as recomputed by Kaiping and Klamer) | 0.298 | 0.0046 |
   | Indo-European (as recomputed by Kaiping and Klamer) | 0.201 | 0.0013 |
@@ -196,7 +196,7 @@ LI = Lakalei-Idate; CT = Central Timor with Welaun; ET = Eastern Timor.
 - **A bias in the list.** Alcantara deliberately left out words identical to Tetun, such as *asu* 'dog' and *ikan* 'fish', to focus on Idaté's "exclusive" vocabulary. So the list can't be used for lexical comparison with Tetun.
 - **E16 result.**
   - 67 entries map to ABVD concepts (63 concepts). Under the E9 rule (closest form with SCA NED ≤ 0.5), only 17 words align to Proto-Malayo-Polynesian, giving 41 tokens.
-  - That fills 2 of the 11 characters. Both agree with Sanak's existing Idaté coding:
+  - That fills 2 of the 11 characters. Both agree with Liabut's existing Idaté coding:
     - *p lenited: *panaq > *ana* 'shoot', *əpat > *at* 'four';
     - *b- > h: *batu > *hatu* 'stone', *bulan > *hula* 'moon'.
   - The other cells have 0 or 1 tokens, or a tie, so they stay uncoded. A tie is read as having no majority. Nothing changed, so no rerun was needed.

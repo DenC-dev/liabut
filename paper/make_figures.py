@@ -1,4 +1,4 @@
-"""Figures for the Sanak paper, in the Phaistos Labs palette.
+"""Figures for the Liabut paper, in the Phaistos Labs palette.
 
     python3 paper/make_figures.py            # uses paper/data/*.geojson (already clipped)
     NE_DIR=/path/to/natural-earth/geojson python3 paper/make_figures.py clip   # re-clip from Natural Earth 10m

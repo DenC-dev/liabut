@@ -1,8 +1,8 @@
-"""Build the Sanak website (one self-contained page in the Phaistos Labs design).
+"""Build the Liabut website (one self-contained page in the Phaistos Labs design).
 
     python3 paper/make_site.py
 
-Writes docs/index.html (for GitHub Pages, with docs/sanak.pdf beside it) and paper/build/site.html (the same page
+Writes docs/index.html (for GitHub Pages, with docs/liabut.pdf beside it) and paper/build/site.html (the same page
 without the document wrapper, for publishing as an artifact). Run paper/make_figures.py first.
 """
 import base64
@@ -212,9 +212,9 @@ def build():
             f"<link rel=\"icon\" type=\"image/png\" href=\"{logo}\">\n{head}</head>\n<body>\n{body}</body>\n</html>\n")
     os.makedirs(os.path.join(REPO, "docs"), exist_ok=True)
     open(os.path.join(REPO, "docs", "index.html"), "w", encoding="utf-8").write(full)
-    shutil.copy(os.path.join(HERE, "sanak.pdf"), os.path.join(REPO, "docs", "sanak.pdf"))
+    shutil.copy(os.path.join(HERE, "liabut.pdf"), os.path.join(REPO, "docs", "liabut.pdf"))
     os.makedirs(os.path.join(HERE, "build"), exist_ok=True)
-    head_artifact = head.replace("<title>Sanak · Phaistos Labs</title>", "<title>Sanak</title>")
+    head_artifact = head.replace("<title>Liabut · Phaistos Labs</title>", "<title>Liabut</title>")
     open(os.path.join(HERE, "build", "site.html"), "w", encoding="utf-8").write(head_artifact + body)
     print("wrote docs/index.html and paper/build/site.html", len(full) // 1024, "KB")
 

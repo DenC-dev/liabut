@@ -1,4 +1,4 @@
-# Sanak: results
+# Liabut: results
 
 Run on 2026-10-10.
 
@@ -336,14 +336,14 @@ The full scan, sources and tables are in [`LITERATURE.md`](LITERATURE.md).
 - **Two earlier classifications already put Idaté-Lakalei with Mambae, Kemak and Tokodede.**
   - Hull (1998, 2001) called this group Ramelaic, and even proposed Old Idalaka as its ancestor.
   - Carvalho (2001) proposed the same grouping provisionally.
-  - Grimes and Edwards (2026) cite neither. Sanak's lexical result revives a grouping proposed twice before.
+  - Grimes and Edwards (2026) cite neither. Liabut's lexical result revives a grouping proposed twice before.
 - **Hull's sound-change evidence is visible in Grimes and Edwards's own data** (E13).
   - Lakalei-Idate and Nuclear Central Timor share *b > h in all positions, against Tetun's *b- > f and Kawaimina's *b- > w.
   - It is not exclusive to them: Galoli and Ili'uun share it, and Welaun has Tetun's pattern instead.
   - Hull's *k evidence can't be tested for Lakalei-Idate with these data.
   - Adding the three characters leaves Lakalei-Idate + Central Timor at 75% (from 80%) and Timor-Babar at 0. The C1 lean stands, but it is not strengthened.
 - **An independent Idaté list was uninformative** (E14). The list, from Purwa et al. (1994) via ASJP, is too short: the 40-item lists can't recover Central Timor itself.
-- **Welaun.** Hull (2003) placed Welaun between Tetun and Dawan. Sanak agrees with Edwards (2019) instead.
+- **Welaun.** Hull (2003) placed Welaun between Tetun and Dawan. Liabut agrees with Edwards (2019) instead.
 - **Genetics.** Souto et al. (2006) found Y-chromosome structure matching Hull's Ramelaic and Fabronic groups. No Idaté or Lakalei speakers were sampled, so genetics can't yet speak to C1.
 - **Novelty claim narrowed.** Idaté, Welaun, Habu and Helong have ASJP lists. The claim now reads "first cognate-based phylogenetic placement".
 - **Cognate coding (E15, after Kaiping and Klamer 2022).**
@@ -362,7 +362,7 @@ The full scan, sources and tables are in [`LITERATURE.md`](LITERATURE.md).
   - Net: Central Timor descent with eastern contact is the best-supported reading. Lakalei-Idate looks like a conservative, bridging member of a former dialect chain.
 - **Addendum 8 (E20–E24).**
   - **Split test.** Lakalei-Idate's Central Timor items in stable vocabulary are mostly shared by both Idaté and Lakalei, so they are old. Those in borrowable vocabulary are mostly Lakalei-only and match its Mambae neighbour, so they are recent.
-  - **Borrowing simulation.** The triplet counts fit Grimes and Edwards's placement better (posterior 0.88). That fit needs about 28% of core vocabulary borrowed from Central Timor, above the pre-declared 20% bar. The other placement needs about 16% from the east. The full likelihood favours Sanak's tree by 10.5 log units.
+  - **Borrowing simulation.** The triplet counts fit Grimes and Edwards's placement better (posterior 0.88). That fit needs about 28% of core vocabulary borrowed from Central Timor, above the pre-declared 20% bar. The other placement needs about 16% from the east. The full likelihood favours Liabut's tree by 10.5 log units.
   - **Glottometry.** It finds only small cohesive groups, and Lakalei-Idate is tied equally weakly to both sides.
   - **Strict clock.** About 80% of samples still put Lakalei-Idate with Central Timor, and the split is barely older than Central Timor's own diversification.
   - **Other branches.** Galoli's closest relative is Atauro's Dadu'a.
@@ -371,9 +371,9 @@ The full scan, sources and tables are in [`LITERATURE.md`](LITERATURE.md).
 
 ## Novelty check (post hoc, 10 October 2026)
 
-What Sanak adds was checked against the literature and against the one earlier Bayesian tree that covers Timor, Gray, Drummond and Greenhill (2009). Their 998 posterior trees were re-scored for the Timor clades (`src/17_gray2009.py`). They use ABVD expert cognates and include Tetum, Mambai, Kemak, Galoli, Atoni, Roti, Wetar, Southwest Maluku and Babar. They have no Idaté, Lakalei, Welaun, Habu, Kawaimina, Tokodede, Dadu'a or Helong.
+What Liabut adds was checked against the literature and against the one earlier Bayesian tree that covers Timor, Gray, Drummond and Greenhill (2009). Their 998 posterior trees were re-scored for the Timor clades (`src/17_gray2009.py`). They use ABVD expert cognates and include Tetum, Mambai, Kemak, Galoli, Atoni, Roti, Wetar, Southwest Maluku and Babar. They have no Idaté, Lakalei, Welaun, Habu, Kawaimina, Tokodede, Dadu'a or Helong.
 
-| Clade | Gray et al. 2009 posterior | Sanak |
+| Clade | Gray et al. 2009 posterior | Liabut |
 |---|---|---|
 | Mambai + Kemak (Central Timor core) | 1.00 | 0.95 (with Tokodede) |
 | Tetum + Mambai + Kemak | 0.71 | 0.90 (Tetun + Central Timor + Lakalei-Idate) |
@@ -397,7 +397,7 @@ What Sanak adds was checked against the literature and against the one earlier B
 
 **Confirmations rather than discoveries.**
 
-- **Patterns latent in 2009.** The lexical absence of Timor-Babar, Southwest Maluku and Fabronic, and Tetun's pull towards Central Timor, are all present in Gray et al.'s 2009 posterior. As far as could be found, nobody wrote them up for Timor. Sanak replicates them on an independent dataset.
+- **Patterns latent in 2009.** The lexical absence of Timor-Babar, Southwest Maluku and Fabronic, and Tetun's pull towards Central Timor, are all present in Gray et al.'s 2009 posterior. As far as could be found, nobody wrote them up for Timor. Liabut replicates them on an independent dataset.
 - **Already established.**
   - Welaun's Tetun-like vocabulary as contact: Edwards 2019, with 55–58% similarity.
   - The *p and *ŋ diagnostics: Grimes and Edwards 2026.

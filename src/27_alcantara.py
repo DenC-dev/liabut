@@ -1,4 +1,4 @@
-"""E16 (Addendum 6): Idaté data from Alcantara (2015), checked against Sanak's sound-change coding.
+"""E16 (Addendum 6): Idaté data from Alcantara (2015), checked against Liabut's sound-change coding.
 
 Alcantara, Maressa Xavier. 2015. Descrição fonética e fonológica da língua idaté do Timor Leste. MA thesis,
 Universidade de São Paulo. Appendix 2 lists the 184 examples used in the thesis (fieldwork mainly in Laclubar).

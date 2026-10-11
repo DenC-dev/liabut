@@ -530,3 +530,56 @@ Written before E20–E24 were run.
 
 - *Lists.* Wetar = Ili'uun and Tugun (ilma1240, kaha1239); Meto = Kotos Amarasi; Rote = Termanu and Dela; Helong = Funai.
 - *Reading.* As for E18: the tree pair on stable concepts, and contact where an excess concentrates in other concepts.
+
+### Addendum 9 (2026-10-11, post hoc): reducing the limitations
+
+Written and pushed before any E25–E34 statistic was computed.
+
+- **Name.** The project is renamed from Sanak to Liabut (Tetun *lia* 'word, speech' + *abut* 'root'). Earlier addenda are left as written.
+- **Already seen.** Every result of E1–E24; the lect list, form counts and the source key of every D1 form (to plan E26 and E28); the LexiRumah `sources.bib` entries for those keys; that ABVD codes its Proto-Malayo-Polynesian forms (language 269) into expert cognate sets.
+- **Not yet seen.** None of the statistics below.
+- **Status.** E26 and E28 carry predictions stated here and are the confirmatory part of this addendum. Everything else is post hoc and reported as such.
+
+**E25: multiple testing.** The family is every frequentist test reported for E18, E20 and E24: the jackknife D statistics (two-sided normal p from Z) for each triplet and stratum, and the E20 binomial tests (primary lists). The Welaun control is counted once. Holm–Bonferroni (α = 0.05) and Benjamini–Hochberg (q = 0.05) are applied across the family. Each new family below (E26, E28, E31, E33) is corrected within itself the same way. Any claim in the write-up that rests on a test that does not survive Holm is reworded.
+
+**E26: replication across dialect representatives (confirmatory).** E18 used one representative per group. Here the triplet test is rerun for every combination of Mambae (11 lects), Kemak (8), Idaté (`idat1237`, `idat1237-cribas`) and Tetun (`tetu1245-suai`, `tetu1246`), with Tokodede, Lakalei, Habu and the Kawaimina lects fixed. The E18 combination is reported separately and left out of the counts. Primary coding and the E17 retention rule.
+
+- *P1.* On stable concepts, Lakalei-Idate + Nuclear Central Timor is the largest pair against Tetun, against Habu and against Kawaimina, each in at least 80% of combinations.
+- *P2.* Against Habu, on other (borrowable) concepts, Lakalei-Idate + Habu is at least as large as Lakalei-Idate + Nuclear Central Timor in at least 50% of combinations.
+- *P3.* With the second Welaun lect (`west2547-mahein`) in the control triplet, the Welaun–Tetun excess has a larger Z on other concepts than on stable concepts, and Z ≥ 2 on other concepts, in at least 80% of combinations.
+
+**E27: consensus cognates.** For the 24 step-7 taxa, a pair of forms counts as cognate under the consensus coding when the five E15 codings agree on average: forms are clustered within each concept by average linkage on the share of codings that put them in different sets, cut at 0.2 (on average, at least 4 of 5 codings agree). Then: (a) the E15 ML tree with UFBoot; (b) the E18 triplets. *Expectation, not a test:* Timor-Babar and Lakalei-Idate + Eastern Timor stay at or below 5% UFBoot. A reviewer packet is written: every cognate set that enters Lakalei-Idate's stable-concept triplet counts, with forms, PMP etymon, retention status and how many codings agree, for a specialist to check.
+
+**E28: data independent of Grimes and Edwards (confirmatory).** (a) A provenance table: source key, collector and year for each step-7 taxon. (b) An independent taxon set: Edwards- or Grimes-collected lists are swapped for lists by other collectors where one exists (Kemak Kailaku → Kemak Atabai `kema1243`, Klamer 2002; South Mambae Letefoho, which has Grimes forms → Mambae Ainaro `mamb1306`, Klamer 2002) and dropped where none exists (Welaun, Helong, Amarasi). (c) The E15 ML tree (UFBoot) on that set, and the E18 triplets with Nuclear Central Timor = Mambae Ainaro, Kemak Atabai, Tokodede; Lakalei-Idate = Idaté `idat1237` and Lakalei, all from the single 2002 Klamer survey; Tetun = both Tetun lects.
+
+- *P4.* On stable concepts, Lakalei-Idate + Nuclear Central Timor is the largest pair against Tetun, Habu and Kawaimina.
+- *P5.* In the ML tree, Timor-Babar and Lakalei-Idate + Eastern Timor get at most 5% UFBoot.
+
+**E29: do the sound changes fit Grimes and Edwards's tree better, and by how much?** The 11 E13 characters on the 24 taxa. Fitch parsimony length of the set, and of each character, on (H) the unconstrained ML lexical tree, (G) the E21 constrained tree (Lakalei-Idate + Eastern Timor) and (GE) an ML tree constrained to Grimes and Edwards's top split (Central Timor against the rest of the Timor-region taxa). Reported: lengths and the step difference H − G, beside the lexical likelihood difference (10.5). *E29b.* For Idaté and Lakalei, the number of tokens behind each coded cell (expert, automatic and Alcantara 2015) with a Wilson 95% interval for the majority reflex.
+
+**E30: the retention classifier, validated and improved.** Validation set: the 30 D2 lects, where ABVD's expert judgements say whether each form is cognate with the PMP form (a retention). Each rule classifies the D2 LexStat sets as in E17 and is scored at the form level.
+
+- *R0.* The E17 rule (some member within SCA NED 0.5 of a PMP form).
+- *R1.* The same with the threshold chosen from 0.3, 0.4, …, 0.8.
+- *R2.* Reflex-aware: before comparison, each PMP consonant is replaced by the lect's majority reflex (expert atlas; else automatic atlas; else unchanged), with the threshold chosen as in R1.
+- *Choice.* Highest balanced accuracy. A rule must beat a simpler one (R0 < R1 < R2) by more than 0.01 to be chosen.
+- *If the choice is not R0*, E17, E18, E20 and E22 are rerun with it and E32 uses it; both versions are reported.
+
+**E31: the triplet test under unequal rates, and its power.** With the E21 simulator (no borrowing, ML lexical tree with its branch lengths; rate scale and stable factor drawn from E21's accepted model-H runs), 2,000 datasets give a null distribution of D for each E18 triplet and stratum. Reported: where the observed D falls in it (one-sided empirical p). Power: borrowing into proto-Lakalei-Idate from Habu at 0, 5, 10, 20 and 30% of other concepts (none in stable), 500 datasets each; the share of datasets with Z ≥ 2 for the Habu excess in other concepts, and in stable concepts. *Validation criteria:* false detections at 0% at most 10%; detection at 20% at least 50%. If they fail, the E18 contact readings are withdrawn.
+
+**E32: a fuller borrowing model.** Both placements (H: ML topology; G: E21 constrained tree) get the same bidirectional borrowing: into proto-Lakalei-Idate from Nuclear Central Timor and from the Eastern Timor lects, each with its own stable and other probability (four parameters, each U(0, 0.6)); s ~ U(1, 12), r_s ~ U(0.2, 1). Retention rule as chosen in E30. Summary statistics (36): the 18 E18 counts; the six (Lakalei-Idate, Tetun, Habu) counts; and (Idaté, NCT, Habu) and (Lakalei, NCT, Habu) counts by stratum (12). 20,000 simulations per model.
+
+- *Model choice.* ABC random forest (500 trees) with the posterior probability of the chosen model estimated by a regression forest on the out-of-bag misclassification indicator (Pudlo et al. 2016); rejection ABC (closest 1%) alongside.
+- *Parameters.* Rejection ABC (closest 1%) within each model.
+- *Posterior predictive checks.* 500 datasets per model from its accepted parameters; a two-sided p for each statistic; the number of statistics with p < 0.05.
+- *Reading.* A placement is favoured only if its posterior probability is at least 0.9 and it fails no more posterior predictive checks than the other. G's placement stays "hard to defend lexically" if its median stable borrowing from Nuclear Central Timor exceeds 0.2.
+
+**E33: regular correspondences as a loan test.** For the lect pairs (Lakalei, Mambae Letefoho), (Idaté-Cribas, Mambae Letefoho), (Idaté-Cribas, Habu), (Lakalei, Habu), (Lakalei, Tetun Suai) and (Idaté-Cribas, Tetun Suai), the two forms in every shared LexStat set are aligned (LingPy SCA, global). The identity share of a set is the share of aligned positions (gaps included) where the two segments are identical, ignoring length and stress marks. Recent loans should be closer to identical than the pair's inherited baseline (its shared retentions).
+
+- *P6.* (Lakalei, Mambae): shared innovations on other concepts have a higher identity share than shared innovations on stable concepts (one-sided Mann–Whitney).
+- *P7.* (Idaté-Cribas, Habu): shared innovations have a higher identity share than the pair's shared retentions (one-sided Mann–Whitney).
+- *P8.* (Lakalei, Mambae) and (Idaté-Cribas, Mambae): shared innovations on stable concepts do not have a higher identity share than the pair's retentions.
+
+**E34: a rooted clock.** E23 rerun with one change: a topology constraint making the 22 Timor-region taxa a clade, so the root falls between the Flores outgroup and Timor. Reported as in E23. Descriptive.
+
+**Not addressable here, and why.** A specialist check of the cognates needs a specialist (E27's packet is for that). Grimes and Edwards's 494-item field lists are not public. Hull (1998) and Carvalho (2001) could not be obtained; Hull (1998) is in *Studies in Languages and Cultures of East Timor* 1: 97–202.

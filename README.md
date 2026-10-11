@@ -1,13 +1,13 @@
-# Sanak
+# Liabut
 
 **A pre-registered computational test of how the Austronesian languages of Timor branch.**
 
-*Sanak* means 'branch' in Tetun and 'kin' in Malay (*sanak saudara*, 'relatives'). The project asks how Timor's languages branch from one another, and which of them are closest kin.
+*Liabut* is coined from Tetun *lia* 'word, speech' and *abut* 'root': the roots of words. The project asks how Timor's languages branch from one another, and which of them are closest kin. (It was called Sanak until 11 October 2026; the GitHub repository may still carry the old name.)
 
 Dennis Crowley, Phaistos Labs.
 
-- **Working paper:** [`paper/sanak.pdf`](paper/sanak.pdf), a Phaistos Labs preprint (not peer reviewed). Source in [`paper/`](paper); rebuild with `bash paper/build.sh`.
-- **Website:** [`docs/index.html`](docs/index.html), for GitHub Pages at <https://denc-dev.github.io/sanak/>.
+- **Working paper:** [`paper/liabut.pdf`](paper/liabut.pdf), a Phaistos Labs preprint (not peer reviewed). Source in [`paper/`](paper); rebuild with `bash paper/build.sh`.
+- **Website:** [`docs/index.html`](docs/index.html), for GitHub Pages at <https://denc-dev.github.io/liabut/>.
 
 ## The question
 
