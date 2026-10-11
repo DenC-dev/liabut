@@ -625,3 +625,56 @@ Written and pushed before E37–E39 were computed.
 
 - *Reported.* The number of contact edges sampled; Lakalei-Idate's sister in the base tree; the share of samples with a contact edge touching Lakalei-Idate; ESS of the posterior.
 - *Reading.* If the ESS of the posterior is below 100, the run is uninformative, as E19 was.
+
+### Addendum 12 (2026-10-11, post hoc): a second round after a mock referee report, with a decision rule stated in advance
+
+Written and pushed before any E40–E50 statistic was computed. Prompted by a mock referee report (`paper/build/referee_report.md`) that asked for the root to be estimated, the sound changes to be re-scored with a fixed ancestral state, Lakalei-Idate to be kept together, the shared-innovation counts to be polarised and cleaned, and a short pre-registered second round with its own decision rule.
+
+- **Already seen.** All results through E37; E38 for the primary matrix after 51 of 100 replicates (p about 0.02); E39 in progress, not summarised. From the referee report: that the Flores pair attaches to Rote-Meto + Helong (posterior 0.949); the referee's recomputed counts for \*p lenition under irreversible change with Flores coded \*p-retaining (6, 4 and 2 origins on H, G and GE); that in E34 the first split inside Timor puts Kisar-Luang-Tela-Masbuar on one side in 97.5% of samples; and the support values for West Rote-Meto, Southwest Maluku and Nuclear Central Timor in the pre-registered distance trees. For E40, the number of D1 concepts each candidate ABVD outgroup list covers (97 to 110 of 152); no tree, distance or cognate statistic with those lists.
+- **Not yet seen.** Any statistic below.
+- **Status.** Exploratory, except that the decision rule at the end is binding on how the paper reports C1.
+
+**E40: the root, estimated with outgroups beyond Flores.**
+
+- *Outgroups.* From ABVD, mapped to D1 concepts by Concepticon ID, ABVD loans dropped: far, Western Malayo-Polynesian: Tagalog (ABVD 277), Buginese (48), Uma (999); near, Central Malayo-Polynesian outside Timor and Flores-Lembata: Kambera (32), Bima (14), Manggarai (84); and Blust's Proto-Malayo-Polynesian (269) as a pseudo-taxon. Malay is left out because Indonesian look-alikes are screened from the Timor lists.
+- *Coding.* LexStat on all D1 forms plus the outgroup forms, with the D1 settings (threshold 0.55, Infomap, 1,000 scorer runs, seed 1234). Timor and Flores forms keep the D1 primary screening; outgroup forms are not screened. Binary presence/absence matrices as in step 7.
+- *Analyses.* (a) Primary: the 24 step-7 taxa plus all seven outgroups; MrBayes as in step 7 (2,000,000 generations, two runs) with Tagalog as the outgroup, and IQ-TREE (GTR2+FO+G4, 1,000 UFBoot). (b) Sensitivities, IQ-TREE only: the far set alone, the near set alone, PMP alone.
+- *Reading of each tree.* The tree is reduced to the 24 step-7 taxa plus the root reference (Tagalog; Kambera for the near set; PMP for PMP alone) and rooted on it. Reported: the posterior or UFBoot of each root position among the 24 (Flores pair against the rest; Central Timor with or without Welaun against the rest; Lakalei-Idate + Central Timor against the rest; Rote-Meto + Helong, with or without Flores, against the rest; other), and of the rooted clades Lakalei-Idate + Central Timor (with or without Welaun), Timor-Babar including Lakalei-Idate (as step 7 defines it), Lakalei-Idate + Eastern Timor, and the 22 Timor-region taxa.
+
+**E41: a relaxed clock.** The step-7 matrix, MrBayes with an independent-gamma-rates relaxed clock (`brlenspr=clock:uniform`, `clockvarpr=igr`), no topology constraint, 3,000,000 generations, two runs. Then again without Tela-Masbuar. Reported as E40, with the root read from the clock.
+
+**E42: the sound changes with a fixed ancestral state and irreversible change.** The eleven E29 characters on the three E29 trees, rooted on the Flores pair, and also rooted where E40(a) puts the root if one position has posterior at least 0.5.
+
+- *Coding.* The Flores pair is coded from the automatic and expert atlases where it has at least two tokens; \*p is coded retained in both (E2: 10 of 10 tokens).
+- *Costs.* Fitch, as in E29; Camin-Sokal (each change may arise several times and never reverts; the root has the PMP state); Dollo (one origin, any number of losses). Reported per character and in total.
+- *One standard.* For each character, the taxa outside its defining group that also show it (for example Sika for \*ŋ > n; Sika and Dela for \*d > r). The native-word \*p counts of E2 (Lakalei-Idate against Nuclear Central Timor, Fisher's exact test) are restated from the stored output.
+
+**E43: how often the lexicon recovers subgroups that sound changes define.** Every Grimes and Edwards group in `reference/hypotheses.csv` with at least two taxa in the analysed set, other than the contested ones (Timor-Babar, Central Timor, Eastern Timor, Eastern Timor + Lakalei-Idate): its support in the pre-registered distance trees (stored), the step-7 MrBayes posterior and the lexical ML UFBoot, and (where it has taxa in it) E40(a). Reported: the share recovered at 0.95 / 95, by group size.
+
+**E44: Lakalei-Idate kept together, and its members alone.** On the primary matrix and the E28 independent matrix, IQ-TREE (GTR2+FO+G4, 1,000 UFBoot): (a) with Lakalei-Idate constrained to be monophyletic; (b) with Lakalei removed (Idaté alone); (c) with Idaté removed (Lakalei alone). Reported: UFBoot of the focal taxon or pair with Central Timor (with or without Welaun), with Nuclear Central Timor, with Eastern Timor, with Habu, and its sister in the ML tree.
+
+**E45: topology tests with the root held by the outgroups.** On the E40 matrices for the step-7 taxa and for the E28 independent taxa (each plus the seven outgroups), every candidate tree has Lakalei-Idate monophyletic. Candidates: the best tree under that constraint alone; Lakalei-Idate + Central Timor (with Welaun) as a rooted clade (all outgroups outside); Timor-Babar including Lakalei-Idate as a rooted clade (Central Timor, Flores and all outgroups outside); Lakalei-Idate + Eastern Timor. AU tests, 10,000 RELL replicates. Holm's correction is applied (i) within E45 and (ii) across every topology test in the project (E6, E36, E45).
+
+**E46: shared innovations, polarised, cleaned and calibrated.**
+
+- *Polarised.* On the E40 coding, a set counts as an innovation only if no outgroup taxon (Flores pair and the seven E40 outgroups) is in it, where any has the concept. As a sensitivity, the referee's version on the primary coding: the R2 innovations absent from Flores, Rote-Meto + Helong and Wetar.
+- *Cleaned.* In the primary coding, the sets the referee names as retentions or errors (reviewer packet: '2sg', 'eat', 'water', 'leaf', 'hair', 'tail', 'good', 'laugh', 'stand', 'far', 'small'; E17: tail-1644, 'who', 'dry'; the two 'wife' sets merged) and every set E35 (strict) or E37 marks as inherited are removed.
+- *Reported.* E18 triplets for (Lakalei-Idate, Nuclear Central Timor, X), X = Tetun, Habu, Kawaimina, by stratum, representative and single-survey lists; E17 exclusive counts on both sides after cleaning.
+- *Calibration of the tree-pair rule.* The E31 simulator with no borrowing, 1,000 datasets on H and 1,000 on G (E21's constrained tree), each with parameters drawn from E21's accepted runs for that model. Reported: how often Lakalei-Idate + Nuclear Central Timor is the largest stable-concept pair against all three X at once, unpolarised and polarised on the Flores pair.
+
+**E47: direct marginal likelihoods.** Stepping-stone runs with the c2pos settings for: Lakalei-Idate + Central Timor (with Welaun) forced; Lakalei-Idate + Eastern Timor forced; Welaun + Tetun forced. Reported: ln BF for Lakalei-Idate + Central Timor against Lakalei-Idate + Eastern Timor, and for Central Timor with Welaun (c2pos) against Welaun + Tetun.
+
+**E48: without Tetun, and without Papuan-shared sets.** IQ-TREE (1,000 UFBoot) on the primary matrix (a) with Tetun removed; (b) with every cognate set that has a Papuan (TAP) member in D1 removed. Reported as E44(a), plus the number of sets each step-7 taxon shares with any Papuan lect.
+
+**E49: node heights where the clade exists.** In E34 and E41 samples where both Nuclear Central Timor and Lakalei-Idate + Nuclear Central Timor are clades, the height of the second minus the first, absolute and relative to the first; the share of samples where both exist.
+
+**E50: glottometry with intervals.** E22 (R2 rule) on 1,000 bootstrap resamples of concepts; 95% intervals for σ of Lakalei-Idate + Central Timor, Lakalei-Idate + Eastern Timor and Hull's Ramelaic.
+
+**Housekeeping.** The E23 sister distribution and the E26 Tetun Dili breakdown, quoted earlier but never stored, are recomputed and stored.
+
+**Decision rule for C1 in this round (binding on the write-up).**
+
+- *Central Timor* is reported as lexically supported only if all four hold: (1) in E40(a) MrBayes, Lakalei-Idate + Central Timor (with or without Welaun) is a rooted clade with posterior at least 0.95, and it has UFBoot at least 95 in at least two of the three E40(b) sensitivities; (2) in E44(a) it has UFBoot at least 95 on both matrices; (3) in E45, the Lakalei-Idate + Eastern Timor and Timor-Babar trees are both rejected after Holm within E45 (p < 0.05); (4) in E46, polarised and cleaned, Lakalei-Idate + Nuclear Central Timor is the strictly largest stable-concept pair against Tetun, Habu and Kawaimina, and the calibration shows the tree-pair rule picking it under G in under 20% of datasets.
+- *Grimes and Edwards* is reported as lexically supported if Timor-Babar including Lakalei-Idate is a rooted clade with posterior at least 0.95 in E40(a), or if E40(a) puts the root on the Central Timor stem with posterior at least 0.95 and Lakalei-Idate + Eastern Timor is not rejected in E45.
+- *Otherwise* C1 is reported as unresolved by the vocabulary, with no lean, in the title, abstract and conclusion. What the vocabulary does show is reported as such (for example, that Lakalei-Idate + Eastern Timor is disfavoured).
+- C2 gets no new decision; the write-up reports all C2 results, including those against Central Timor.
