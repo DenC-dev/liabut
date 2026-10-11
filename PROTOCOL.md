@@ -325,3 +325,52 @@ Written after the step 1–8 results and the novelty check had been seen. Data e
     - **inherited or old**: it shows Lakalei-Idate's own reflex;
     - **undecidable**: no such target.
   - *Reading.* If the shared words carry Lakalei-Idate's own sound changes, they predate those changes, which argues against recent borrowing from Central Timor.
+
+### Addendum 5 (2026-10-11, post hoc, prompted by a literature scan)
+
+Written after the literature scan in `results/LITERATURE.md` and before E13 and E14 were run.
+
+- **Why.**
+  - **Hull's evidence for Ramelaic.** Hull's Ramelaic was said to rest on shared reflexes of *b and *k (Hull 2001, as summarised by Albuquerque 2009). Grimes and Edwards's own chapters record the same facts but treat them as separate developments:
+    - *b > h in all positions is a defining change of Lakalei-Idate (their §4.4), and also of Kemak, Mambae, and Liquiçá and Bazartete Tokodede (their §5.4);
+    - initial *k > ∅ is found in all Central Timor languages (their §5.4).
+  - **A gap in E10b.** E10b coded *b as "h or labial fricative", pooled over positions. That merges Tetun's initial *b > f with *b > h, so E10b could not see the contrast.
+  - **An independent wordlist.** ASJP (v21) has an Idaté list from a source independent of LexiRumah: Purwa et al. (1994), *Struktur bahasa Idate*.
+- **Disclosure.** Before writing this addendum, the following had been seen:
+  - pooled expert-atlas counts of *b, *k, *j and *ma-p reflexes per language (reproduced in `results/LITERATURE.md`);
+  - Grimes and Edwards's text on *b and *k;
+  - the 33 words of the ASJP Idaté list.
+
+  No tree, support value or distance using the new characters or the ASJP lists had been computed.
+- **E13: Hull's Ramelaic changes as characters.**
+  - *New characters.* Three are added to the eight of E10b:
+    - `b_h_initial`: word-initial *b > h or ∅;
+    - `k_lost_initial`: word-initial *k > ∅ or ʔ;
+    - `k_lost_medial`: word-medial *k > ʔ or ∅.
+  - *Coding.* Each language takes the majority class of the expert atlas at that position (at least 2 tokens). Where the expert atlas has fewer than 2 tokens, the automatic atlas (E9, at least 2 tokens) is used, and that cell is flagged.
+  - *Outputs.*
+    - profiles for every Timor-region language and for the 24 taxa;
+    - an ML tree on the 11 innovations;
+    - an ML tree on the lexical characters plus the 11 innovations.
+
+    Models and clades are as in E10b and E11.
+  - *Reading.*
+    - If Lakalei-Idate + Central Timor holds or rises and Timor-Babar stays at 0, the C1 lean is strengthened.
+    - If Timor-Babar or Lakalei-Idate + Eastern Timor appears, it is weakened.
+- **E14: independent ASJP check.**
+  - *Lists.*
+    - Idaté;
+    - Central Timor: Mambae, Kemak, Tokodede (ASJP `TUKUDEDE`), Welaun;
+    - Eastern Timor and Galoli: Tetun, Habu, Naueti, Waima'a, Galoli, Talur;
+    - western Timor and Rote: Uab Meto, Amarasi, Termanu, Helong.
+
+    Tetun Dili is left out because it is a lingua franca with a heavy Portuguese layer. Forms flagged as loans are dropped.
+  - *Distance.* LDND (Wichmann et al. 2010) on the ASJP transcriptions, taking the minimum over synonyms.
+  - *Outputs.*
+    - Idaté's distances to every list, ranked;
+    - the difference between its mean distance to Central Timor and its mean distance to Eastern Timor and Galoli, with a 1,000-replicate bootstrap over meanings;
+    - an NJ tree with 1,000 bootstrap replicates over meanings, scored for Idaté + Central Timor, Idaté + Eastern Timor and Galoli, and Central Timor.
+  - *Reading.*
+    - Only the Idaté list is independent of the main datasets. The other lists come from ABVD, Hull (1998), Capell (1944), Edwards (2019) and others.
+    - The lists are short: 18–48 words.
+    - A clear result in either direction counts as independent evidence. An unclear one is reported as uninformative.
