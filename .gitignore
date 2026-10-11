@@ -30,3 +30,4 @@ results/literature/e23_dating/*.t
 results/literature/e23_dating/*.p
 results/literature/e23_dating/*.ckp*
 results/literature/e23_dating/*.mcmc
+paper/build/

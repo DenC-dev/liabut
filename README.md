@@ -6,6 +6,9 @@
 
 Dennis Crowley, Phaistos Labs.
 
+- **Working paper:** [`paper/sanak.pdf`](paper/sanak.pdf), a Phaistos Labs preprint (not peer reviewed). Source in [`paper/`](paper); rebuild with `bash paper/build.sh`.
+- **Website:** [`docs/index.html`](docs/index.html), for GitHub Pages at <https://denc-dev.github.io/sanak/>.
+
 ## The question
 
 Two classifications disagree.
@@ -19,10 +22,10 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
 
 ## Results in brief
 
-- **Hull's Fabronic (Timoric A) is not a lexical group.** It gets 0% support in every analysis.
-- **Timor-Babar and Eastern Timor are not lexical groups either.** They get 0–3% bootstrap support, and the Bayes factor runs against Timor-Babar (ln BF −7.0). They rest on sound changes.
+- **Hull's Fabronic (Timoric A) gets no lexical support.** It gets 0% support in every analysis.
+- **Timor-Babar and Eastern Timor get no lexical support either.** They get 0–3% bootstrap support, and the Bayes factor runs against Timor-Babar (ln BF −7.0). They rest on sound changes, so this does not refute them.
 - **Welaun is Central Timor (C2).** The Bayes factor is +10.3, and its Tetun look disappears on borrowing-resistant vocabulary.
-- **Idaté-Lakalei (C1) leans Central Timor.**
+- **Idaté-Lakalei (C1) remains unresolved; the trees lean Central Timor.**
   - Its vocabulary sits with Central Timor (ln BF +8.0 for Hull's Ramelaic).
   - Its sound changes look like Timor-Babar (*p > h, *ŋ > n, no *ŋ > g). But Welaun, a Central Timor language, also has *p > h, and *ŋ > n is found in the Flores outgroup too.
   - Combining vocabulary with sound changes coded from Grimes and Edwards's own tables puts Lakalei-Idate with Central Timor every time (posterior 0.88, ML 56–80%). Timor-Babar gets 0.
@@ -146,6 +149,8 @@ python3 12_decide.py              # step 8
 python3 13_figures.py
 ```
 
+The paper and website rebuild from the results with `bash paper/build.sh` (pandoc 3 and XeLaTeX) and `python3 paper/make_site.py`.
+
 ## Data and licences
 
 - **LexiRumah 3.0.1** (Kaiping, Edwards and Klamer 2019), CC-BY 4.0. Its cognate judgments are all automatic.
@@ -155,6 +160,8 @@ python3 13_figures.py
 - **Gray, Drummond and Greenhill (2009)** posterior trees, via phlorest/gray_et_al2009, CC-BY 4.0 (novelty check only).
 - **Concepticon**: the Leipzig-Jakarta list (Tadmor 2009), CC-BY 4.0.
 - **ASJP v21** (Wichmann, Holman and Brown), via lexibank/asjp, CC-BY 4.0. Used only for the E14 Idaté check.
+- **Natural Earth** 10m land and country boundaries, public domain, clipped in `paper/data/` for the maps.
+- **Fonts** in `paper/fonts/`: Alegreya and Gentium Book Plus, SIL Open Font License 1.1.
 - **Grimes and Edwards (2026)**, CC-BY 4.0. Their subgroups and comparative tables were read from the book's LaTeX source (github.com/langsci/526); the tables are re-released as data in `derived/ge2026_tables/` under the same licence. Their full wordlists are not released, so they aren't used.
 
 The code is MIT (`LICENSE`). The data keep their source licences; please cite the sources above.

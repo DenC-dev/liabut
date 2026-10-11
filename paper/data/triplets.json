@@ -1,0 +1,82 @@
+[
+ {
+  "label": "Welaun, with Tetun (control)",
+  "A": "Welaun",
+  "X": "Tetun",
+  "control": true,
+  "stable": [
+   11,
+   8,
+   5
+  ],
+  "other": [
+   17,
+   16,
+   1
+  ]
+ },
+ {
+  "label": "Lakalei-Idate, with Tetun",
+  "A": "LI",
+  "X": "Tetun",
+  "control": false,
+  "stable": [
+   25,
+   19,
+   6
+  ],
+  "other": [
+   32,
+   13,
+   4
+  ]
+ },
+ {
+  "label": "Lakalei-Idate, with Habu",
+  "A": "LI",
+  "X": "Habu",
+  "control": false,
+  "stable": [
+   31,
+   22,
+   13
+  ],
+  "other": [
+   27,
+   33,
+   7
+  ]
+ },
+ {
+  "label": "Lakalei-Idate, with Kawaimina",
+  "A": "LI",
+  "X": "Kawaimina",
+  "control": false,
+  "stable": [
+   98,
+   62,
+   19
+  ],
+  "other": [
+   86,
+   33,
+   11
+  ]
+ },
+ {
+  "label": "Lakalei-Idate, with Galoli",
+  "A": "LI",
+  "X": "Galoli",
+  "control": false,
+  "stable": [
+   20,
+   14,
+   11
+  ],
+  "other": [
+   19,
+   14,
+   5
+  ]
+ }
+]
