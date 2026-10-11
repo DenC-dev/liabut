@@ -1,0 +1,55 @@
+{
+ "innovations_only_11": {
+  "Lakalei-Idate + Central Timor (with Welaun)": 1.0,
+  "Timor-Babar incl. Lakalei-Idate": 0,
+  "Lakalei-Idate + Eastern Timor": 0,
+  "Central Timor (with Welaun)": 91.0,
+  "Nuclear Central Timor": 14.0,
+  "Lakalei-Idate": 0.0
+ },
+ "lexical_plus_11_innovations": {
+  "Lakalei-Idate + Central Timor (with Welaun)": 75.0,
+  "Timor-Babar incl. Lakalei-Idate": 0,
+  "Lakalei-Idate + Eastern Timor": 0,
+  "Central Timor (with Welaun)": 77.0,
+  "Nuclear Central Timor": 59.0,
+  "Lakalei-Idate": 42.0
+ },
+ "for_comparison_E10b": {
+  "innovations_only": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 0,
+   "Timor-Babar incl. Lakalei-Idate": 0.0,
+   "Lakalei-Idate + Eastern Timor": 0,
+   "Central Timor (with Welaun)": 83.0,
+   "Nuclear Central Timor": 76.0,
+   "Lakalei-Idate": 0
+  },
+  "lexical_plus_innovations": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 80.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0.0,
+   "Central Timor (with Welaun)": 81.0,
+   "Nuclear Central Timor": 65.0,
+   "Lakalei-Idate": 47.0
+  }
+ },
+ "sensitivity_not_predeclared": {
+  "note": "k characters dropped after E13 was seen; eight E10b characters plus b_h_initial",
+  "innovations_only_9": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 0.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0,
+   "Central Timor (with Welaun)": 80.0,
+   "Nuclear Central Timor": 77.0,
+   "Lakalei-Idate": 0.0
+  },
+  "lexical_plus_9_innovations": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 73.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0.0,
+   "Central Timor (with Welaun)": 72.0,
+   "Nuclear Central Timor": 65.0,
+   "Lakalei-Idate": 45.0
+  }
+ }
+}

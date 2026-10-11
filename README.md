@@ -27,6 +27,7 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
   - Its sound changes look like Timor-Babar (*p > h, *ŋ > n, no *ŋ > g). But Welaun, a Central Timor language, also has *p > h, and *ŋ > n is found in the Flores outgroup too.
   - Combining vocabulary with sound changes coded from Grimes and Edwards's own tables puts Lakalei-Idate with Central Timor every time (posterior 0.88, ML 56–80%). Timor-Babar gets 0.
   - This reading is post hoc and the sound-change data are thin, so it is a lean, not a settlement.
+  - Hull (1998, 2001) and Carvalho (2001) already grouped Idaté-Lakalei this way. Hull's *b > h evidence shows up in Grimes and Edwards's own data, but Galoli and Ili'uun share it (see [`results/LITERATURE.md`](results/LITERATURE.md)).
 - **The low-level groups are confirmed:** Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang and Babar.
 - **The pre-registered step 8 verdict is "unresolved" for both C1 and C2.**
 
@@ -47,8 +48,9 @@ The expansion (Addendum 4) built datasets that didn't exist in machine-readable 
 
 This was checked against the published literature on 10 October 2026. See *Novelty check* in the report.
 
-- **First computational placement of Idaté, Lakalei, Welaun, Habu, Midiki and Helong.**
+- **First cognate-based phylogenetic placement of Idaté, Lakalei, Welaun, Habu, Midiki and Helong.**
   - None of them is in ABVD, so none appears in the Bayesian Austronesian tree of Gray et al. (2009).
+  - Idaté, Welaun, Habu and Helong do have short ASJP lists, so they sit in ASJP's global automated similarity data. No study was found that examines those results for Timor.
   - Kaiping and Klamer (2022) used LexiRumah for the Papuan languages only.
 - **First explicit test of Hull against Edwards / Grimes and Edwards.** Grimes and Edwards (2026) do not cite Hull.
 - **New results.**
@@ -68,7 +70,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 
 | Step | What | Where |
 |---|---|---|
-| 0 | Protocol frozen before any analysis; four addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
+| 0 | Protocol frozen before any analysis; five addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
 | 1 | Datasets: D1 = LexiRumah (70 lects, 152 concepts); D2 = ABVD with expert cognates (30 lects) | `data/` |
 | 2 | Automatic cognates (LexStat, SCA), scored against the ABVD experts | `results/cognates/`, `results/scores/` |
 | 3 | Loan screening: Indonesian, Portuguese, Tetun look-alikes, Austronesian–Papuan contact sets | `results/loans/` |
@@ -82,6 +84,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 | E7–E9 | Grimes and Edwards tables as data; expert and automatic reflex atlases | `derived/ge2026_tables/`, `derived/reflex_atlas/` |
 | E10–E11 | Sound-change characters; total-evidence trees (IQ-TREE, MrBayes) | `derived/sound_change_matrix/`, `results/total_evidence/` |
 | E12 | Loans identified by sound change; rerun without them | `derived/loans/`, `results/total_evidence/loan_rerun.json` |
+| Lit. | Literature scan; E13 Hull's *b/*k characters; E14 independent ASJP Idaté list | `results/LITERATURE.md`, `results/literature/` |
 
 ## Rerun
 
@@ -118,6 +121,9 @@ python3 20_total_evidence.py summary
 python3 22_tetun_loans.py         # E12
 python3 23_ct_loans.py            # E12b
 python3 24_figures_expansion.py
+python3 25_literature_checks.py e13      # Addendum 5
+python3 25_literature_checks.py e13s     # sensitivity, not pre-declared
+python3 25_literature_checks.py e14 <path to a clone of github.com/lexibank/asjp>
 python3 12_decide.py              # step 8
 python3 13_figures.py
 ```
@@ -130,6 +136,7 @@ python3 13_figures.py
 - **Glottolog 5.3**, CC-BY 4.0.
 - **Gray, Drummond and Greenhill (2009)** posterior trees, via phlorest/gray_et_al2009, CC-BY 4.0 (novelty check only).
 - **Concepticon**: the Leipzig-Jakarta list (Tadmor 2009), CC-BY 4.0.
+- **ASJP v21** (Wichmann, Holman and Brown), via lexibank/asjp, CC-BY 4.0. Used only for the E14 Idaté check.
 - **Grimes and Edwards (2026)**, CC-BY 4.0. Their subgroups and comparative tables were read from the book's LaTeX source (github.com/langsci/526); the tables are re-released as data in `derived/ge2026_tables/` under the same licence. Their full wordlists are not released, so they aren't used.
 
 The code is MIT (`LICENSE`). The data keep their source licences; please cite the sources above.

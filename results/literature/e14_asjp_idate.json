@@ -1,0 +1,201 @@
+{
+ "lists": {
+  "IDATE": {
+   "group": "Idaté",
+   "words": 33,
+   "meanings": 31
+  },
+  "MAMBAE": {
+   "group": "CT",
+   "words": 34,
+   "meanings": 34
+  },
+  "KEMAK": {
+   "group": "CT",
+   "words": 31,
+   "meanings": 31
+  },
+  "TUKUDEDE": {
+   "group": "CT",
+   "words": 39,
+   "meanings": 36
+  },
+  "WELAUN": {
+   "group": "CT",
+   "words": 41,
+   "meanings": 36
+  },
+  "TETUN": {
+   "group": "ET",
+   "words": 30,
+   "meanings": 29
+  },
+  "HABU": {
+   "group": "ET",
+   "words": 19,
+   "meanings": 19
+  },
+  "NAUETE": {
+   "group": "ET",
+   "words": 18,
+   "meanings": 18
+  },
+  "WAIMAA": {
+   "group": "ET",
+   "words": 26,
+   "meanings": 26
+  },
+  "GALOLI": {
+   "group": "ET",
+   "words": 26,
+   "meanings": 26
+  },
+  "TALUR": {
+   "group": "ET",
+   "words": 33,
+   "meanings": 33
+  },
+  "UAB_METO": {
+   "group": "W",
+   "words": 38,
+   "meanings": 38
+  },
+  "AMARASI": {
+   "group": "W",
+   "words": 48,
+   "meanings": 38
+  },
+  "TERMANU": {
+   "group": "W",
+   "words": 35,
+   "meanings": 34
+  },
+  "HELONG": {
+   "group": "W",
+   "words": 20,
+   "meanings": 19
+  }
+ },
+ "idate_ranking": [
+  {
+   "list": "HABU",
+   "group": "ET",
+   "LDND": 0.466,
+   "shared_meanings": 14
+  },
+  {
+   "list": "AMARASI",
+   "group": "W",
+   "LDND": 0.55,
+   "shared_meanings": 29
+  },
+  {
+   "list": "GALOLI",
+   "group": "ET",
+   "LDND": 0.574,
+   "shared_meanings": 22
+  },
+  {
+   "list": "WELAUN",
+   "group": "CT",
+   "LDND": 0.585,
+   "shared_meanings": 28
+  },
+  {
+   "list": "TETUN",
+   "group": "ET",
+   "LDND": 0.589,
+   "shared_meanings": 22
+  },
+  {
+   "list": "TERMANU",
+   "group": "W",
+   "LDND": 0.591,
+   "shared_meanings": 27
+  },
+  {
+   "list": "KEMAK",
+   "group": "CT",
+   "LDND": 0.592,
+   "shared_meanings": 24
+  },
+  {
+   "list": "HELONG",
+   "group": "W",
+   "LDND": 0.592,
+   "shared_meanings": 17
+  },
+  {
+   "list": "NAUETE",
+   "group": "ET",
+   "LDND": 0.612,
+   "shared_meanings": 14
+  },
+  {
+   "list": "TUKUDEDE",
+   "group": "CT",
+   "LDND": 0.631,
+   "shared_meanings": 28
+  },
+  {
+   "list": "MAMBAE",
+   "group": "CT",
+   "LDND": 0.632,
+   "shared_meanings": 27
+  },
+  {
+   "list": "TALUR",
+   "group": "ET",
+   "LDND": 0.682,
+   "shared_meanings": 26
+  },
+  {
+   "list": "WAIMAA",
+   "group": "ET",
+   "LDND": 0.704,
+   "shared_meanings": 22
+  },
+  {
+   "list": "UAB_METO",
+   "group": "W",
+   "LDND": 0.768,
+   "shared_meanings": 29
+  }
+ ],
+ "full_data": {
+  "contrast_CT_minus_ET": 0.0055,
+  "splits": {
+   "Idaté + Central Timor": false,
+   "Idaté + Nuclear Central Timor": false,
+   "Idaté + Eastern Timor and Galoli": false,
+   "Central Timor": false
+  }
+ },
+ "bootstrap": {
+  "replicates": 1000,
+  "replicates_with_filled_cells": 0,
+  "contrast_CT_minus_ET_mean": 0.0054,
+  "contrast_CT_minus_ET_95ci": [
+   -0.0912,
+   0.0995
+  ],
+  "share_contrast_below_zero": 0.458,
+  "nearest_to_idate": {
+   "HABU": 0.618,
+   "GALOLI": 0.104,
+   "AMARASI": 0.102,
+   "HELONG": 0.057,
+   "KEMAK": 0.04,
+   "WELAUN": 0.038,
+   "TETUN": 0.024,
+   "TERMANU": 0.009,
+   "NAUETE": 0.008
+  },
+  "nj_split_support": {
+   "Idaté + Central Timor": 0.007,
+   "Idaté + Nuclear Central Timor": 0.051,
+   "Idaté + Eastern Timor and Galoli": 0.009,
+   "Central Timor": 0.0
+  }
+ }
+}

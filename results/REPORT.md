@@ -329,6 +329,24 @@ The comparison was widened until it produced data that didn't exist before. Deta
   - LexiRumah and the Grimes and Edwards tables share sources.
   - Grimes and Edwards's full 494-item lists might hold Lakalei-Idate–Timor-Babar innovations that their printed tables leave out.
 
+## Literature scan and Addendum 5 checks (post hoc, 11 October 2026)
+
+The full scan, sources and tables are in [`LITERATURE.md`](LITERATURE.md).
+
+- **Two earlier classifications already put Idaté-Lakalei with Mambae, Kemak and Tokodede.**
+  - Hull (1998, 2001) called this group Ramelaic, and even proposed Old Idalaka as its ancestor.
+  - Carvalho (2001) proposed the same grouping provisionally.
+  - Grimes and Edwards (2026) cite neither. Sanak's lexical result revives a grouping proposed twice before.
+- **Hull's sound-change evidence is visible in Grimes and Edwards's own data** (E13).
+  - Lakalei-Idate and Nuclear Central Timor share *b > h in all positions, against Tetun's *b- > f and Kawaimina's *b- > w.
+  - It is not exclusive to them: Galoli and Ili'uun share it, and Welaun has Tetun's pattern instead.
+  - Hull's *k evidence can't be tested for Lakalei-Idate with these data.
+  - Adding the three characters leaves Lakalei-Idate + Central Timor at 75% (from 80%) and Timor-Babar at 0. The C1 lean stands, but it is not strengthened.
+- **An independent Idaté list was uninformative** (E14). The list, from Purwa et al. (1994) via ASJP, is too short: the 40-item lists can't recover Central Timor itself.
+- **Welaun.** Hull (2003) placed Welaun between Tetun and Dawan. Sanak agrees with Edwards (2019) instead.
+- **Genetics.** Souto et al. (2006) found Y-chromosome structure matching Hull's Ramelaic and Fabronic groups. No Idaté or Lakalei speakers were sampled, so genetics can't yet speak to C1.
+- **Novelty claim narrowed.** Idaté, Welaun, Habu and Helong have ASJP lists. The claim now reads "first cognate-based phylogenetic placement".
+
 ## Novelty check (post hoc, 10 October 2026)
 
 What Sanak adds was checked against the literature and against the one earlier Bayesian tree that covers Timor, Gray, Drummond and Greenhill (2009). Their 998 posterior trees were re-scored for the Timor clades (`src/17_gray2009.py`). They use ABVD expert cognates and include Tetum, Mambai, Kemak, Galoli, Atoni, Roti, Wetar, Southwest Maluku and Babar. They have no Idaté, Lakalei, Welaun, Habu, Kawaimina, Tokodede, Dadu'a or Helong.
@@ -345,7 +363,7 @@ What Sanak adds was checked against the literature and against the one earlier B
 
 **New, as far as could be found.**
 
-- **Language coverage.** This is the first computational placement of Idaté, Lakalei, Welaun, Habu, Midiki and Helong, none of which is in ABVD. (Tokodede, Dadu'a, Naueti and Waima'a joined ABVD after 2009.) Kaiping and Klamer (2022) used LexiRumah and LexStat the same way, but only for the Papuan (Timor-Alor-Pantar) languages.
+- **Language coverage.** This is the first cognate-based phylogenetic placement of Idaté, Lakalei, Welaun, Habu, Midiki and Helong, none of which is in ABVD. (Corrected on 11 October: Idaté, Welaun, Habu and Helong have 40-item ASJP lists, so they appear in ASJP's automated similarity data; see `LITERATURE.md`.) (Tokodede, Dadu'a, Naueti and Waima'a joined ABVD after 2009.) Kaiping and Klamer (2022) used LexiRumah and LexStat the same way, but only for the Papuan (Timor-Alor-Pantar) languages.
 - **The comparison itself.** This is the first explicit test of Hull's Ramelaic against Edwards and Grimes and Edwards. Grimes and Edwards (2026) do not cite Hull and make no lexical or computational argument for Timor.
 - **Lakalei-Idate.**
   - Its vocabulary sits with Central Timor: posterior 0.91, and ln BF +8.0 for Ramelaic.
@@ -374,7 +392,9 @@ What Sanak adds was checked against the literature and against the one earlier B
 
 1. **More words with *p and *ŋ for Idaté and Lakalei.** The LexiRumah lists give only a handful of native cases. Grimes and Edwards's 494-item lists, collected for both languages, would show whether the native cases are regular.
 2. **Innovation-based phylogenetics.** Partly done in E10b and E11: eight diagnostic changes and 17 multistate characters, coded from Grimes and Edwards's tables and added to the lexical characters. They did not outweigh the lexical signal. A fuller version would code every change in §4.8 and §5.5 from the complete wordlists and test it with a pre-registered weighting.
-3. **A borrowing-aware model.** Fit a model that lets a Central Timor or Tetun lexical layer be its own component, and ask whether Lakalei-Idate's Central Timor links look like a layer or like descent.
+3. **More Idaté and Lakalei data.** Alcantara (2015, Idaté phonology) and Purwa et al. (1994, *Struktur bahasa Idate*) are unused sources. Neither has a machine-readable wordlist yet.
+4. **Genetic sampling of Idaté and Lakalei speakers**, alongside the groups in Souto et al. (2006).
+5. **A borrowing-aware model.** Fit a model that lets a Central Timor or Tetun lexical layer be its own component, and ask whether Lakalei-Idate's Central Timor links look like a layer or like descent.
 
 ## Caveats
 

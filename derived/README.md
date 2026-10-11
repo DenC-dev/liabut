@@ -35,7 +35,9 @@ Grimes and Edwards print their evidence as tables. Each has a gloss row and a PM
 | `innovation_matrix_24.csv` | The same characters for the 24 taxa used in the Bayesian analyses. |
 | `characters_*.csv`, `matrix_*.csv`, `phon_*.phy` | Multistate characters (E10): one per PMP target, and one per target and position. |
 
-- **Built by** `src/20_total_evidence.py` and `src/21_innovations.py`.
+| `hull_ramelaic_profiles.csv`, `innovation_matrix_24_hull.csv` | Three more characters (Addendum 5, E13): word-initial *b > h; initial and medial *k loss. Each cell is flagged by whether it comes from the expert or the automatic atlas. |
+
+- **Built by** `src/20_total_evidence.py`, `src/21_innovations.py` and `src/25_literature_checks.py`.
 
 ## `loans/`: loans identified by sound change
 

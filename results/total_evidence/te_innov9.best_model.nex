@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+  charset lex = lex.phy: BIN, 1-1353;
+  charset inn = innov9.phy: BIN, 1-9;
+  charpartition mymodels =
+    GTR2+FO{0.882444,0.117556}+G4{4.16241}: lex{3.85053},
+    GTR2+FO{0.595825,0.404175}: inn{4.63597};
+end;
