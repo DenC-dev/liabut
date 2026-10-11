@@ -1,0 +1,25 @@
+Character,Coded_Taxa,States
+*R final,4,0=rhotic; 1=∅
+*R medial,17,0=rhotic; 1=∅
+*aR medial,4,0=e; 1=∅
+*aw medial,14,0=a; 1=o; 2=ə; 3=∅
+*ay medial,15,0=a; 1=e; 2=i; 3=∅
+*b initial,19,0=h; 1=labial fricative; 2=w
+*b medial,4,0=labial stop; 1=w
+*d initial,8,0=coronal stop; 1=l; 2=n; 3=rhotic
+*j medial,19,0=l; 1=rhotic; 2=∅
+*k initial,4,0=velar stop; 1=∅
+*k medial,5,0=glottal stop; 1=velar stop; 2=∅
+*ma-p initial,10,0=b; 1=f; 2=m
+*p initial,22,0=glottal stop; 1=h; 2=labial fricative; 3=labial stop; 4=w; 5=∅
+*p medial,20,0=glottal stop; 1=h; 2=labial stop; 3=∅
+*q medial,4,0=glottal stop; 1=∅
+*s initial,4,0=coronal stop; 1=h
+*s medial,4,0=coronal stop; 1=h
+*uR medial,15,0=i; 1=o; 2=∅
+*w initial,12,0=labial fricative; 1=labial stop; 2=velar stop; 3=vowel; 4=w; 5=∅
+*z initial,16,0=coronal stop; 1=l; 2=rhotic; 3=sibilant; 4=velar stop; 5=y
+*z medial,7,0=coronal stop; 1=rhotic; 2=sibilant; 3=velar stop; 4=∅
+*ŋ initial,11,0=n; 1=velar stop; 2=ŋ
+*ŋ medial,19,0=n; 1=velar stop; 2=∅
+*ə medial,12,0=e; 1=o; 2=ə

@@ -1,0 +1,220 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Partition file name: te_by_target.nex
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 1234
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 24 taxa with 2 partitions and 1370 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	BIN	24	1353	934	516	3	3	lex
+   2	MORPH	24	17	17	12	0	0	phon
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR2+FO+G4     1.0035  GTR2+FO{0.882625,0.117375}+G4{4.28176}
+   2  MK+FQ+ASC+G4   0.7232  MK+ASC+G4{0.0200336}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -8884.1885 (s.e. 141.4704)
+Unconstrained log-likelihood (without tree): -8844.8351
+Number of free parameters (#branches + #model parameters): 49
+Akaike information criterion (AIC) score: 17866.3770
+Corrected Akaike information criterion (AICc) score: 17870.0892
+Bayesian information criterion (BIC) score: 18122.2828
+
+Total tree length (sum of branch lengths): 3.7677
+Sum of internal branch lengths: 1.0759 (28.5564% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'mamb1306_Slete' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----mamb1306_Slete
+|
+|  +---kema1243_kaila
++--| (97)
+|  |  +---west2547_welaun
+|  +--| (88)
+|     |     +--idat1237_cribas
+|     |  +--| (85)
+|     |  |  +--laka1255
+|     +--| (59)
+|        |     +-----tetu1245_suai
+|        |  +--| (34)
+|        |  |  |     +---habu1241
+|        |  |  |  +**| (14)
+|        |  |  |  |  |          +----waim1252
+|        |  |  |  |  |       +--| (96)
+|        |  |  |  |  |       |  +---naue1237
+|        |  |  |  |  |  +----| (100)
+|        |  |  |  |  |  |    +--midi1237
+|        |  |  |  |  +--| (45)
+|        |  |  |  |     |     +-----------funa1237
+|        |  |  |  |     |  +--| (87)
+|        |  |  |  |     |  |  |  +---------koto1251
+|        |  |  |  |     |  |  +--| (98)
+|        |  |  |  |     |  |     |  +----term1237
+|        |  |  |  |     |  |     +--| (95)
+|        |  |  |  |     |  |        +--dela1252
+|        |  |  |  |     +--| (76)
+|        |  |  |  |        |     +--------lama1277_lewoi
+|        |  |  |  |        +-----| (100)
+|        |  |  |  |              +--------sika1262_hewa
+|        |  |  +--| (53)
+|        |  |     |       +---kisa1266
+|        |  |     +-------| (100)
+|        |  |             |       +--luan1264
+|        |  |             +-------| (94)
+|        |  |                     +----------------------------------tela1241
+|        +--| (56)
+|           |  +--galo1243
+|           +--| (97)
+|              |  +---dadu1237
+|              +--| (82)
+|                 |     +--ilma1240
+|                 +-----| (100)
+|                       +--kaha1239
+|
++-----tuku1254
+
+Tree in newick format:
+
+(mamb1306_Slete:0.0922809622,(kema1243_kaila:0.0769240098,(west2547_welaun:0.0869196377,((idat1237_cribas:0.0649304180,laka1255:0.0448290703)85:0.0232228545,((tetu1245_suai:0.1083613708,((habu1241:0.0785483515,(((waim1252:0.0927766735,naue1237:0.0819934753)96:0.0437691941,midi1237:0.0417896126)100:0.0975055348,((funa1237:0.2198896802,(koto1251:0.1925403144,(term1237:0.0961849948,dela1252:0.0508488374)95:0.0581417892)98:0.0641551787)87:0.0278043578,(lama1277_lewoi:0.1647916298,sika1262_hewa:0.1686626350)100:0.1118000434)76:0.0182650293)45:0.0069548371)14:0.0000027144,(kisa1266:0.0891351186,(luan1264:0.0101851266,tela1241:0.6412665528)94:0.1613883265)100:0.1482305271)53:0.0070755266)34:0.0130803362,(galo1243:0.0443809148,(dadu1237:0.0753120387,(ilma1240:0.0209779648,kaha1239:0.0363281528)100:0.1124588785)82:0.0148253140)97:0.0589949635)56:0.0303217490)59:0.0256957449)88:0.0229933984)97:0.0292311810,tuku1254:0.1119195599);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -8885.393612
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----mamb1306_Slete
+|
+|  +---kema1243_kaila
++--| (97)
+|  |  +---west2547_welaun
+|  +--| (88)
+|     |     +--idat1237_cribas
+|     |  +--| (85)
+|     |  |  +--laka1255
+|     +--| (59)
+|        |  +----tetu1245_suai
+|        +--| (56)
+|           |        +---habu1241
+|           |     +--| (21)
+|           |     |  |       +---kisa1266
+|           |     |  +-------| (100)
+|           |     |          |        +--luan1264
+|           |     |          +--------| (94)
+|           |     |                   +----------------------------------tela1241
+|           |  +--| (53)
+|           |  |  |          +----waim1252
+|           |  |  |       +--| (96)
+|           |  |  |       |  +---naue1237
+|           |  |  |  +----| (100)
+|           |  |  |  |    +--midi1237
+|           |  |  +--| (45)
+|           |  |     |     +----------funa1237
+|           |  |     |  +--| (87)
+|           |  |     |  |  |  +---------koto1251
+|           |  |     |  |  +--| (98)
+|           |  |     |  |     |  +----term1237
+|           |  |     |  |     +--| (95)
+|           |  |     |  |        +--dela1252
+|           |  |     +--| (76)
+|           |  |        |    +--------lama1277_lewoi
+|           |  |        +----| (100)
+|           |  |             +--------sika1262_hewa
+|           +--| (44)
+|              |  +--galo1243
+|              +--| (97)
+|                 |  +---dadu1237
+|                 +--| (82)
+|                    |     +--ilma1240
+|                    +-----| (100)
+|                          +--kaha1239
+|
++-----tuku1254
+
+
+Consensus tree in newick format: 
+
+(mamb1306_Slete:0.0925117496,(kema1243_kaila:0.0760548805,(west2547_welaun:0.0843898727,((idat1237_cribas:0.0628538814,laka1255:0.0459542702)85:0.0255247280,(tetu1245_suai:0.1034469047,(((habu1241:0.0802500411,(kisa1266:0.0889574858,(luan1264:0.0037872101,tela1241:0.6496171966)94:0.1645041028)100:0.1487190063)21:0.0000020331,(((waim1252:0.0925278147,naue1237:0.0801973308)96:0.0422293989,midi1237:0.0412285157)100:0.0989760939,((funa1237:0.2165116161,(koto1251:0.1928487134,(term1237:0.0939213138,dela1252:0.0513781120)95:0.0553701862)98:0.0626357191)87:0.0268471623,(lama1277_lewoi:0.1635872647,sika1262_hewa:0.1657822747)100:0.1055719681)76:0.0171928877)45:0.0072014775)53:0.0082801184,(galo1243:0.0418924217,(dadu1237:0.0772556215,(ilma1240:0.0205211027,kaha1239:0.0367218513)100:0.1137249507)82:0.0092761662)97:0.0605541678)44:0.0145387826)56:0.0257214331)59:0.0226256280)88:0.0218949322)97:0.0290202405,tuku1254:0.1096925960);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t te_by_target.treefile -p te_by_target.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Oct 10 23:38:19 2026
+Total CPU time used: 23.265797 seconds (0h:0m:23s)
+Total wall-clock time used: 24.53526281 seconds (0h:0m:24s)
+

@@ -1,0 +1,1905 @@
+Lect_ID,Glottocode,Name,Target,Position,Tokens,Majority,Majority_Share,Distribution
+cent2072,cent2072,Central Masela,R,final,1,rhotic,1.0,rhotic:1
+cent2072,cent2072,Central Masela,d,initial,1,rhotic,1.0,rhotic:1
+cent2072,cent2072,Central Masela,k,final,1,∅,1.0,∅:1
+cent2072,cent2072,Central Masela,m,initial,1,m,1.0,m:1
+cent2072,cent2072,Central Masela,n,final,1,n,1.0,n:1
+cent2072,cent2072,Central Masela,n,initial,1,n,1.0,n:1
+cent2072,cent2072,Central Masela,n,medial,1,n,1.0,n:1
+cent2072,cent2072,Central Masela,p,medial,1,∅,1.0,∅:1
+cent2072,cent2072,Central Masela,q,initial,1,velar stop,1.0,velar stop:1
+cent2072,cent2072,Central Masela,z,medial,1,rhotic,1.0,rhotic:1
+cent2072,cent2072,Central Masela,ŋ,medial,1,n,1.0,n:1
+dadu1237,dadu1237,Dadu'a,R,final,2,h,1.0,h:2
+dadu1237,dadu1237,Dadu'a,R,initial,1,rhotic,1.0,rhotic:1
+dadu1237,dadu1237,Dadu'a,R,medial,6,∅,0.33,∅:2; l:1; h:1; sibilant:1; m:1
+dadu1237,dadu1237,Dadu'a,b,final,1,∅,1.0,∅:1
+dadu1237,dadu1237,Dadu'a,b,initial,4,w,0.75,w:3; labial stop:1
+dadu1237,dadu1237,Dadu'a,b,medial,3,labial stop,0.67,labial stop:2; coronal stop:1
+dadu1237,dadu1237,Dadu'a,d,initial,2,coronal stop,0.5,coronal stop:1; ∅:1
+dadu1237,dadu1237,Dadu'a,d,medial,4,∅,0.5,∅:2; rhotic:2
+dadu1237,dadu1237,Dadu'a,h,final,1,∅,1.0,∅:1
+dadu1237,dadu1237,Dadu'a,h,initial,1,∅,1.0,∅:1
+dadu1237,dadu1237,Dadu'a,h,medial,1,h,1.0,h:1
+dadu1237,dadu1237,Dadu'a,k,final,3,∅,0.67,∅:2; w:1
+dadu1237,dadu1237,Dadu'a,k,initial,4,labial stop,0.25,labial stop:1; ∅:1; velar stop:1; n:1
+dadu1237,dadu1237,Dadu'a,k,medial,2,glottal stop,1.0,glottal stop:2
+dadu1237,dadu1237,Dadu'a,l,initial,2,l,1.0,l:2
+dadu1237,dadu1237,Dadu'a,l,medial,9,l,0.89,l:8; velar stop:1
+dadu1237,dadu1237,Dadu'a,m,final,1,m,1.0,m:1
+dadu1237,dadu1237,Dadu'a,m,initial,7,m,0.57,m:4; ∅:2; n:1
+dadu1237,dadu1237,Dadu'a,m,medial,3,m,1.0,m:3
+dadu1237,dadu1237,Dadu'a,ma-p,medial,1,p,1.0,p:1
+dadu1237,dadu1237,Dadu'a,n,final,2,∅,1.0,∅:2
+dadu1237,dadu1237,Dadu'a,n,initial,1,n,1.0,n:1
+dadu1237,dadu1237,Dadu'a,n,medial,5,n,1.0,n:5
+dadu1237,dadu1237,Dadu'a,p,initial,1,rhotic,1.0,rhotic:1
+dadu1237,dadu1237,Dadu'a,q,final,6,∅,0.5,∅:3; velar stop:3
+dadu1237,dadu1237,Dadu'a,q,initial,4,m,0.5,m:2; velar stop:1; w:1
+dadu1237,dadu1237,Dadu'a,s,initial,2,sibilant,1.0,sibilant:2
+dadu1237,dadu1237,Dadu'a,s,medial,8,sibilant,0.88,sibilant:7; ∅:1
+dadu1237,dadu1237,Dadu'a,t,final,3,velar stop,0.67,velar stop:2; h:1
+dadu1237,dadu1237,Dadu'a,t,initial,6,coronal stop,0.5,coronal stop:3; ∅:3
+dadu1237,dadu1237,Dadu'a,t,medial,4,coronal stop,1.0,coronal stop:4
+dadu1237,dadu1237,Dadu'a,w,final,1,velar stop,1.0,velar stop:1
+dadu1237,dadu1237,Dadu'a,w,medial,1,w,1.0,w:1
+dadu1237,dadu1237,Dadu'a,y,final,1,∅,1.0,∅:1
+dadu1237,dadu1237,Dadu'a,z,initial,1,l,1.0,l:1
+dadu1237,dadu1237,Dadu'a,ŋ,final,1,∅,1.0,∅:1
+dadu1237,dadu1237,Dadu'a,ŋ,medial,6,n,1.0,n:6
+daii1240,daii1240,Dai,R,final,1,∅,1.0,∅:1
+daii1240,daii1240,Dai,R,medial,1,∅,1.0,∅:1
+daii1240,daii1240,Dai,d,initial,1,coronal stop,1.0,coronal stop:1
+daii1240,daii1240,Dai,j,final,1,ŋ,1.0,ŋ:1
+daii1240,daii1240,Dai,j,medial,2,coronal stop,1.0,coronal stop:2
+daii1240,daii1240,Dai,k,final,3,n,1.0,n:3
+daii1240,daii1240,Dai,k,initial,1,n,1.0,n:1
+daii1240,daii1240,Dai,k,medial,1,velar stop,1.0,velar stop:1
+daii1240,daii1240,Dai,l,initial,1,n,1.0,n:1
+daii1240,daii1240,Dai,l,medial,1,n,1.0,n:1
+daii1240,daii1240,Dai,m,initial,5,m,0.8,m:4; ∅:1
+daii1240,daii1240,Dai,m,medial,1,m,1.0,m:1
+daii1240,daii1240,Dai,n,final,2,n,1.0,n:2
+daii1240,daii1240,Dai,n,medial,6,n,1.0,n:6
+daii1240,daii1240,Dai,p,medial,2,coronal stop,0.5,coronal stop:1; ∅:1
+daii1240,daii1240,Dai,q,final,2,n,1.0,n:2
+daii1240,daii1240,Dai,t,final,1,coronal stop,1.0,coronal stop:1
+daii1240,daii1240,Dai,t,initial,3,coronal stop,1.0,coronal stop:3
+daii1240,daii1240,Dai,t,medial,2,coronal stop,1.0,coronal stop:2
+daii1240,daii1240,Dai,ŋ,final,1,n,1.0,n:1
+daii1240,daii1240,Dai,ŋ,initial,1,ɲ,1.0,ɲ:1
+daii1240,daii1240,Dai,ŋ,medial,1,n,1.0,n:1
+dawe1237,dawe1237,Dawera-Daweloor,b,initial,1,∅,1.0,∅:1
+dawe1237,dawe1237,Dawera-Daweloor,j,final,1,ŋ,1.0,ŋ:1
+dawe1237,dawe1237,Dawera-Daweloor,k,initial,1,velar stop,1.0,velar stop:1
+dawe1237,dawe1237,Dawera-Daweloor,k,medial,1,velar stop,1.0,velar stop:1
+dawe1237,dawe1237,Dawera-Daweloor,l,initial,1,l,1.0,l:1
+dawe1237,dawe1237,Dawera-Daweloor,l,medial,1,l,1.0,l:1
+dawe1237,dawe1237,Dawera-Daweloor,m,initial,2,m,0.5,m:1; ∅:1
+dawe1237,dawe1237,Dawera-Daweloor,m,medial,1,m,1.0,m:1
+dawe1237,dawe1237,Dawera-Daweloor,n,medial,1,n,1.0,n:1
+dawe1237,dawe1237,Dawera-Daweloor,p,medial,1,∅,1.0,∅:1
+dawe1237,dawe1237,Dawera-Daweloor,q,final,1,velar stop,1.0,velar stop:1
+dawe1237,dawe1237,Dawera-Daweloor,t,final,1,coronal stop,1.0,coronal stop:1
+dawe1237,dawe1237,Dawera-Daweloor,t,initial,1,coronal stop,1.0,coronal stop:1
+dawe1237,dawe1237,Dawera-Daweloor,t,medial,2,coronal stop,1.0,coronal stop:2
+dela1252,dela1252,Dela,R,final,1,glottal stop,1.0,glottal stop:1
+dela1252,dela1252,Dela,R,medial,1,glottal stop,1.0,glottal stop:1
+dela1252,dela1252,Dela,b,final,1,∅,1.0,∅:1
+dela1252,dela1252,Dela,b,initial,8,labial fricative,0.5,labial fricative:4; labial stop:4
+dela1252,dela1252,Dela,b,medial,2,labial fricative,1.0,labial fricative:2
+dela1252,dela1252,Dela,d,initial,3,coronal stop,0.67,coronal stop:2; rhotic:1
+dela1252,dela1252,Dela,d,medial,2,rhotic,1.0,rhotic:2
+dela1252,dela1252,Dela,h,final,1,glottal stop,1.0,glottal stop:1
+dela1252,dela1252,Dela,h,initial,1,∅,1.0,∅:1
+dela1252,dela1252,Dela,h,medial,2,m,0.5,m:1; ∅:1
+dela1252,dela1252,Dela,j,medial,1,rhotic,1.0,rhotic:1
+dela1252,dela1252,Dela,k,final,2,glottal stop,1.0,glottal stop:2
+dela1252,dela1252,Dela,k,initial,3,velar stop,0.33,velar stop:1; m:1; glottal stop:1
+dela1252,dela1252,Dela,k,medial,2,∅,0.5,∅:1; velar stop:1
+dela1252,dela1252,Dela,l,initial,1,l,1.0,l:1
+dela1252,dela1252,Dela,l,medial,7,l,0.86,l:6; velar stop:1
+dela1252,dela1252,Dela,m,final,1,∅,1.0,∅:1
+dela1252,dela1252,Dela,m,initial,5,m,0.8,m:4; ∅:1
+dela1252,dela1252,Dela,m,medial,2,m,1.0,m:2
+dela1252,dela1252,Dela,ma-p,medial,1,∅,1.0,∅:1
+dela1252,dela1252,Dela,n,final,6,n,0.83,n:5; glottal stop:1
+dela1252,dela1252,Dela,n,initial,2,n,1.0,n:2
+dela1252,dela1252,Dela,n,medial,7,n,1.0,n:7
+dela1252,dela1252,Dela,p,medial,2,sibilant,0.5,sibilant:1; glottal stop:1
+dela1252,dela1252,Dela,q,final,5,glottal stop,0.6,glottal stop:3; n:1; ∅:1
+dela1252,dela1252,Dela,q,initial,5,m,0.4,m:2; coronal stop:1; glottal stop:1; ∅:1
+dela1252,dela1252,Dela,q,medial,2,n,0.5,n:1; ∅:1
+dela1252,dela1252,Dela,s,final,2,sibilant,1.0,sibilant:2
+dela1252,dela1252,Dela,s,initial,2,sibilant,1.0,sibilant:2
+dela1252,dela1252,Dela,s,medial,6,sibilant,1.0,sibilant:6
+dela1252,dela1252,Dela,t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+dela1252,dela1252,Dela,t,medial,4,coronal stop,1.0,coronal stop:4
+dela1252,dela1252,Dela,w,final,1,∅,1.0,∅:1
+dela1252,dela1252,Dela,y,final,1,∅,1.0,∅:1
+dela1252,dela1252,Dela,y,medial,1,vowel,1.0,vowel:1
+dela1252,dela1252,Dela,z,medial,2,sibilant,0.5,sibilant:1; coronal stop:1
+dela1252,dela1252,Dela,ŋ,initial,1,n,1.0,n:1
+dela1252,dela1252,Dela,ŋ,medial,4,n,1.0,n:4
+east2462,east2462,East Masela,R,medial,1,∅,1.0,∅:1
+east2462,east2462,East Masela,h,final,1,∅,1.0,∅:1
+east2462,east2462,East Masela,k,initial,1,velar stop,1.0,velar stop:1
+east2462,east2462,East Masela,l,medial,1,l,1.0,l:1
+east2462,east2462,East Masela,m,initial,1,m,1.0,m:1
+east2462,east2462,East Masela,n,final,1,n,1.0,n:1
+east2462,east2462,East Masela,q,initial,1,velar stop,1.0,velar stop:1
+east2462,east2462,East Masela,t,initial,1,velar stop,1.0,velar stop:1
+east2462,east2462,East Masela,z,medial,1,rhotic,1.0,rhotic:1
+empl1237,empl1237,Emplawas,l,initial,1,l,1.0,l:1
+empl1237,empl1237,Emplawas,q,initial,1,velar stop,1.0,velar stop:1
+empl1237,empl1237,Emplawas,y,final,1,∅,1.0,∅:1
+empl1237,empl1237,Emplawas,z,medial,1,rhotic,1.0,rhotic:1
+empl1237,empl1237,Emplawas,ŋ,medial,1,n,1.0,n:1
+eray1237,eray1237,Ili'uun,R,final,4,∅,0.5,∅:2; rhotic:1; n:1
+eray1237,eray1237,Ili'uun,R,medial,3,n,0.33,n:1; rhotic:1; ∅:1
+eray1237,eray1237,Ili'uun,b,initial,6,h,0.83,h:5; labial stop:1
+eray1237,eray1237,Ili'uun,d,final,1,∅,1.0,∅:1
+eray1237,eray1237,Ili'uun,d,initial,1,h,1.0,h:1
+eray1237,eray1237,Ili'uun,g,initial,1,velar stop,1.0,velar stop:1
+eray1237,eray1237,Ili'uun,g,medial,1,velar stop,1.0,velar stop:1
+eray1237,eray1237,Ili'uun,h,initial,3,∅,0.67,∅:2; h:1
+eray1237,eray1237,Ili'uun,h,medial,1,glottal stop,1.0,glottal stop:1
+eray1237,eray1237,Ili'uun,j,medial,1,∅,1.0,∅:1
+eray1237,eray1237,Ili'uun,k,final,3,∅,0.67,∅:2; n:1
+eray1237,eray1237,Ili'uun,k,initial,7,∅,0.43,∅:3; velar stop:2; affricate:1; m:1
+eray1237,eray1237,Ili'uun,k,medial,4,velar stop,0.5,velar stop:2; ∅:1; sibilant:1
+eray1237,eray1237,Ili'uun,l,initial,2,l,1.0,l:2
+eray1237,eray1237,Ili'uun,l,medial,9,l,0.78,l:7; labial stop:1; rhotic:1
+eray1237,eray1237,Ili'uun,m,final,2,n,0.5,n:1; ∅:1
+eray1237,eray1237,Ili'uun,m,initial,4,m,0.75,m:3; ∅:1
+eray1237,eray1237,Ili'uun,m,medial,3,m,0.67,m:2; ∅:1
+eray1237,eray1237,Ili'uun,ma-p,medial,1,p,1.0,p:1
+eray1237,eray1237,Ili'uun,n,final,7,n,0.86,n:6; ∅:1
+eray1237,eray1237,Ili'uun,n,initial,1,n,1.0,n:1
+eray1237,eray1237,Ili'uun,n,medial,5,n,1.0,n:5
+eray1237,eray1237,Ili'uun,p,final,1,velar stop,1.0,velar stop:1
+eray1237,eray1237,Ili'uun,p,medial,3,l,0.33,l:1; h:1; ∅:1
+eray1237,eray1237,Ili'uun,q,final,4,∅,0.5,∅:2; n:1; velar stop:1
+eray1237,eray1237,Ili'uun,q,initial,3,∅,0.33,∅:1; m:1; velar stop:1
+eray1237,eray1237,Ili'uun,q,medial,1,n,1.0,n:1
+eray1237,eray1237,Ili'uun,r,final,1,∅,1.0,∅:1
+eray1237,eray1237,Ili'uun,r,medial,1,∅,1.0,∅:1
+eray1237,eray1237,Ili'uun,s,final,1,velar stop,1.0,velar stop:1
+eray1237,eray1237,Ili'uun,s,initial,2,sibilant,0.5,sibilant:1; rhotic:1
+eray1237,eray1237,Ili'uun,s,medial,5,sibilant,0.8,sibilant:4; h:1
+eray1237,eray1237,Ili'uun,t,final,2,coronal stop,0.5,coronal stop:1; velar stop:1
+eray1237,eray1237,Ili'uun,t,initial,5,∅,0.4,∅:2; coronal stop:2; velar stop:1
+eray1237,eray1237,Ili'uun,t,medial,4,coronal stop,1.0,coronal stop:4
+eray1237,eray1237,Ili'uun,w,initial,1,∅,1.0,∅:1
+eray1237,eray1237,Ili'uun,w,medial,2,w,1.0,w:2
+eray1237,eray1237,Ili'uun,y,final,1,∅,1.0,∅:1
+eray1237,eray1237,Ili'uun,y,medial,1,vowel,1.0,vowel:1
+eray1237,eray1237,Ili'uun,z,initial,1,sibilant,1.0,sibilant:1
+eray1237,eray1237,Ili'uun,z,medial,2,sibilant,0.5,sibilant:1; ∅:1
+eray1237,eray1237,Ili'uun,ŋ,initial,1,n,1.0,n:1
+eray1237,eray1237,Ili'uun,ŋ,medial,3,n,1.0,n:3
+funa1237,funa1237,Funai Helong,R,final,4,coronal stop,0.25,coronal stop:1; n:1; sibilant:1; ∅:1
+funa1237,funa1237,Funai Helong,R,initial,1,∅,1.0,∅:1
+funa1237,funa1237,Funai Helong,R,medial,4,l,0.75,l:3; ∅:1
+funa1237,funa1237,Funai Helong,b,initial,9,labial stop,0.89,labial stop:8; h:1
+funa1237,funa1237,Funai Helong,b,medial,2,labial stop,0.5,labial stop:1; h:1
+funa1237,funa1237,Funai Helong,d,initial,4,coronal stop,1.0,coronal stop:4
+funa1237,funa1237,Funai Helong,d,medial,3,l,0.33,l:1; ∅:1; coronal stop:1
+funa1237,funa1237,Funai Helong,g,initial,1,coronal stop,1.0,coronal stop:1
+funa1237,funa1237,Funai Helong,g,medial,1,velar stop,1.0,velar stop:1
+funa1237,funa1237,Funai Helong,h,final,1,∅,1.0,∅:1
+funa1237,funa1237,Funai Helong,h,initial,3,∅,1.0,∅:3
+funa1237,funa1237,Funai Helong,h,medial,1,∅,1.0,∅:1
+funa1237,funa1237,Funai Helong,j,final,1,sibilant,1.0,sibilant:1
+funa1237,funa1237,Funai Helong,j,medial,2,l,1.0,l:2
+funa1237,funa1237,Funai Helong,k,final,2,glottal stop,1.0,glottal stop:2
+funa1237,funa1237,Funai Helong,k,initial,5,velar stop,1.0,velar stop:5
+funa1237,funa1237,Funai Helong,k,medial,7,velar stop,0.86,velar stop:6; ∅:1
+funa1237,funa1237,Funai Helong,l,initial,3,l,1.0,l:3
+funa1237,funa1237,Funai Helong,l,medial,10,l,0.7,l:7; ∅:2; coronal stop:1
+funa1237,funa1237,Funai Helong,m,final,1,∅,1.0,∅:1
+funa1237,funa1237,Funai Helong,m,initial,7,m,0.57,m:4; labial stop:1; ∅:1; n:1
+funa1237,funa1237,Funai Helong,m,medial,3,m,1.0,m:3
+funa1237,funa1237,Funai Helong,ma-p,medial,1,∅,1.0,∅:1
+funa1237,funa1237,Funai Helong,n,final,10,n,0.7,n:7; ∅:2; glottal stop:1
+funa1237,funa1237,Funai Helong,n,initial,1,n,1.0,n:1
+funa1237,funa1237,Funai Helong,n,medial,8,n,0.88,n:7; ŋ:1
+funa1237,funa1237,Funai Helong,p,initial,1,labial stop,1.0,labial stop:1
+funa1237,funa1237,Funai Helong,p,medial,2,h,0.5,h:1; ∅:1
+funa1237,funa1237,Funai Helong,q,final,6,∅,0.5,∅:3; glottal stop:3
+funa1237,funa1237,Funai Helong,q,initial,2,∅,1.0,∅:2
+funa1237,funa1237,Funai Helong,q,medial,3,∅,1.0,∅:3
+funa1237,funa1237,Funai Helong,r,final,1,n,1.0,n:1
+funa1237,funa1237,Funai Helong,r,medial,2,∅,0.5,∅:1; velar stop:1
+funa1237,funa1237,Funai Helong,s,final,2,sibilant,1.0,sibilant:2
+funa1237,funa1237,Funai Helong,s,initial,2,sibilant,1.0,sibilant:2
+funa1237,funa1237,Funai Helong,s,medial,6,sibilant,1.0,sibilant:6
+funa1237,funa1237,Funai Helong,t,final,3,coronal stop,1.0,coronal stop:3
+funa1237,funa1237,Funai Helong,t,initial,7,coronal stop,0.71,coronal stop:5; ∅:2
+funa1237,funa1237,Funai Helong,t,medial,5,coronal stop,1.0,coronal stop:5
+funa1237,funa1237,Funai Helong,w,final,1,n,1.0,n:1
+funa1237,funa1237,Funai Helong,w,initial,1,labial stop,1.0,labial stop:1
+funa1237,funa1237,Funai Helong,w,medial,2,∅,0.5,∅:1; sibilant:1
+funa1237,funa1237,Funai Helong,y,final,1,∅,1.0,∅:1
+funa1237,funa1237,Funai Helong,z,medial,2,l,0.5,l:1; sibilant:1
+funa1237,funa1237,Funai Helong,ŋ,final,4,n,0.75,n:3; glottal stop:1
+funa1237,funa1237,Funai Helong,ŋ,initial,1,ŋ,1.0,ŋ:1
+funa1237,funa1237,Funai Helong,ŋ,medial,4,ŋ,1.0,ŋ:4
+galo1243,galo1243,Galolen,R,final,3,n,0.67,n:2; rhotic:1
+galo1243,galo1243,Galolen,R,initial,1,∅,1.0,∅:1
+galo1243,galo1243,Galolen,R,medial,3,n,0.33,n:1; velar stop:1; ∅:1
+galo1243,galo1243,Galolen,b,initial,3,h,1.0,h:3
+galo1243,galo1243,Galolen,b,medial,3,labial stop,0.67,labial stop:2; coronal stop:1
+galo1243,galo1243,Galolen,d,initial,2,sibilant,0.5,sibilant:1; coronal stop:1
+galo1243,galo1243,Galolen,d,medial,5,∅,0.4,∅:2; rhotic:1; coronal stop:1; velar stop:1
+galo1243,galo1243,Galolen,h,initial,2,∅,1.0,∅:2
+galo1243,galo1243,Galolen,k,final,4,∅,1.0,∅:4
+galo1243,galo1243,Galolen,k,initial,3,m,0.67,m:2; h:1
+galo1243,galo1243,Galolen,k,medial,3,glottal stop,0.67,glottal stop:2; velar stop:1
+galo1243,galo1243,Galolen,l,initial,2,l,1.0,l:2
+galo1243,galo1243,Galolen,l,medial,4,l,1.0,l:4
+galo1243,galo1243,Galolen,m,initial,5,∅,0.4,∅:2; m:2; n:1
+galo1243,galo1243,Galolen,m,medial,4,m,0.75,m:3; labial stop:1
+galo1243,galo1243,Galolen,ma-p,medial,1,b,1.0,b:1
+galo1243,galo1243,Galolen,n,final,6,n,0.83,n:5; ∅:1
+galo1243,galo1243,Galolen,n,initial,1,n,1.0,n:1
+galo1243,galo1243,Galolen,n,medial,6,n,1.0,n:6
+galo1243,galo1243,Galolen,p,initial,1,rhotic,1.0,rhotic:1
+galo1243,galo1243,Galolen,p,medial,1,h,1.0,h:1
+galo1243,galo1243,Galolen,q,final,7,∅,0.43,∅:3; n:2; velar stop:2
+galo1243,galo1243,Galolen,q,initial,3,m,0.67,m:2; ∅:1
+galo1243,galo1243,Galolen,q,medial,1,n,1.0,n:1
+galo1243,galo1243,Galolen,s,final,2,sibilant,1.0,sibilant:2
+galo1243,galo1243,Galolen,s,initial,2,sibilant,1.0,sibilant:2
+galo1243,galo1243,Galolen,s,medial,4,sibilant,1.0,sibilant:4
+galo1243,galo1243,Galolen,t,final,3,coronal stop,0.67,coronal stop:2; ∅:1
+galo1243,galo1243,Galolen,t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+galo1243,galo1243,Galolen,t,medial,3,coronal stop,1.0,coronal stop:3
+galo1243,galo1243,Galolen,w,medial,2,w,1.0,w:2
+galo1243,galo1243,Galolen,z,medial,1,sibilant,1.0,sibilant:1
+galo1243,galo1243,Galolen,ŋ,final,1,n,1.0,n:1
+galo1243,galo1243,Galolen,ŋ,medial,4,n,0.75,n:3; ∅:1
+habu1241,habu1241,Habun,R,final,4,∅,0.75,∅:3; n:1
+habu1241,habu1241,Habun,R,medial,3,n,0.33,n:1; rhotic:1; ∅:1
+habu1241,habu1241,Habun,b,initial,6,w,0.83,w:5; ∅:1
+habu1241,habu1241,Habun,b,medial,2,labial stop,1.0,labial stop:2
+habu1241,habu1241,Habun,d,initial,3,rhotic,1.0,rhotic:3
+habu1241,habu1241,Habun,d,medial,2,rhotic,1.0,rhotic:2
+habu1241,habu1241,Habun,h,final,1,∅,1.0,∅:1
+habu1241,habu1241,Habun,h,initial,4,∅,0.75,∅:3; n:1
+habu1241,habu1241,Habun,h,medial,3,∅,1.0,∅:3
+habu1241,habu1241,Habun,j,medial,3,rhotic,1.0,rhotic:3
+habu1241,habu1241,Habun,k,final,2,∅,1.0,∅:2
+habu1241,habu1241,Habun,k,initial,2,velar stop,1.0,velar stop:2
+habu1241,habu1241,Habun,k,medial,4,velar stop,1.0,velar stop:4
+habu1241,habu1241,Habun,l,initial,3,l,1.0,l:3
+habu1241,habu1241,Habun,l,medial,6,l,1.0,l:6
+habu1241,habu1241,Habun,m,final,1,∅,1.0,∅:1
+habu1241,habu1241,Habun,m,initial,6,m,0.83,m:5; ∅:1
+habu1241,habu1241,Habun,m,medial,3,m,1.0,m:3
+habu1241,habu1241,Habun,ma-p,medial,1,b,1.0,b:1
+habu1241,habu1241,Habun,n,final,8,n,0.88,n:7; ∅:1
+habu1241,habu1241,Habun,n,initial,2,n,1.0,n:2
+habu1241,habu1241,Habun,n,medial,4,n,1.0,n:4
+habu1241,habu1241,Habun,p,medial,2,glottal stop,0.5,glottal stop:1; h:1
+habu1241,habu1241,Habun,q,final,6,n,0.67,n:4; velar stop:1; ∅:1
+habu1241,habu1241,Habun,q,initial,2,m,0.5,m:1; ∅:1
+habu1241,habu1241,Habun,q,medial,2,∅,1.0,∅:2
+habu1241,habu1241,Habun,s,final,1,sibilant,1.0,sibilant:1
+habu1241,habu1241,Habun,s,initial,1,sibilant,1.0,sibilant:1
+habu1241,habu1241,Habun,s,medial,5,sibilant,1.0,sibilant:5
+habu1241,habu1241,Habun,t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+habu1241,habu1241,Habun,t,medial,6,coronal stop,1.0,coronal stop:6
+habu1241,habu1241,Habun,w,final,3,∅,1.0,∅:3
+habu1241,habu1241,Habun,w,initial,1,w,1.0,w:1
+habu1241,habu1241,Habun,y,final,1,∅,1.0,∅:1
+habu1241,habu1241,Habun,y,medial,1,vowel,1.0,vowel:1
+habu1241,habu1241,Habun,ŋ,final,2,n,1.0,n:2
+habu1241,habu1241,Habun,ŋ,initial,1,n,1.0,n:1
+habu1241,habu1241,Habun,ŋ,medial,4,n,1.0,n:4
+idat1237,idat1237,Idate,R,final,1,rhotic,1.0,rhotic:1
+idat1237,idat1237,Idate,R,medial,3,∅,0.67,∅:2; rhotic:1
+idat1237,idat1237,Idate,b,initial,5,h,1.0,h:5
+idat1237,idat1237,Idate,b,medial,2,labial stop,0.5,labial stop:1; coronal stop:1
+idat1237,idat1237,Idate,d,initial,1,rhotic,1.0,rhotic:1
+idat1237,idat1237,Idate,d,medial,3,rhotic,0.67,rhotic:2; glottal stop:1
+idat1237,idat1237,Idate,h,final,1,∅,1.0,∅:1
+idat1237,idat1237,Idate,h,initial,1,∅,1.0,∅:1
+idat1237,idat1237,Idate,h,medial,1,∅,1.0,∅:1
+idat1237,idat1237,Idate,j,medial,3,n,0.33,n:1; rhotic:1; sibilant:1
+idat1237,idat1237,Idate,k,final,3,∅,0.33,∅:1; n:1; velar stop:1
+idat1237,idat1237,Idate,k,initial,2,n,1.0,n:2
+idat1237,idat1237,Idate,k,medial,3,∅,0.67,∅:2; velar stop:1
+idat1237,idat1237,Idate,l,initial,1,l,1.0,l:1
+idat1237,idat1237,Idate,l,medial,8,l,0.75,l:6; h:1; glottal stop:1
+idat1237,idat1237,Idate,m,final,1,∅,1.0,∅:1
+idat1237,idat1237,Idate,m,initial,6,m,0.67,m:4; ∅:2
+idat1237,idat1237,Idate,m,medial,3,m,1.0,m:3
+idat1237,idat1237,Idate,ma-p,medial,1,p,1.0,p:1
+idat1237,idat1237,Idate,n,final,3,n,0.67,n:2; ∅:1
+idat1237,idat1237,Idate,n,initial,1,n,1.0,n:1
+idat1237,idat1237,Idate,n,medial,6,n,0.67,n:4; rhotic:1; ∅:1
+idat1237,idat1237,Idate,p,initial,1,labial stop,1.0,labial stop:1
+idat1237,idat1237,Idate,p,medial,2,h,0.5,h:1; glottal stop:1
+idat1237,idat1237,Idate,q,final,5,velar stop,0.6,velar stop:3; n:2
+idat1237,idat1237,Idate,q,initial,3,m,0.33,m:1; h:1; ∅:1
+idat1237,idat1237,Idate,s,final,1,sibilant,1.0,sibilant:1
+idat1237,idat1237,Idate,s,initial,3,sibilant,0.67,sibilant:2; coronal stop:1
+idat1237,idat1237,Idate,s,medial,7,sibilant,0.86,sibilant:6; h:1
+idat1237,idat1237,Idate,t,final,1,coronal stop,1.0,coronal stop:1
+idat1237,idat1237,Idate,t,initial,8,coronal stop,0.62,coronal stop:5; glottal stop:2; l:1
+idat1237,idat1237,Idate,t,medial,3,coronal stop,1.0,coronal stop:3
+idat1237,idat1237,Idate,w,final,1,∅,1.0,∅:1
+idat1237,idat1237,Idate,y,final,1,vowel,1.0,vowel:1
+idat1237,idat1237,Idate,ŋ,final,1,n,1.0,n:1
+idat1237,idat1237,Idate,ŋ,initial,1,n,1.0,n:1
+idat1237,idat1237,Idate,ŋ,medial,4,n,0.75,n:3; m:1
+idat1237-cribas,idat1237,Idate,R,medial,3,∅,0.67,∅:2; sibilant:1
+idat1237-cribas,idat1237,Idate,b,initial,3,h,1.0,h:3
+idat1237-cribas,idat1237,Idate,b,medial,3,labial stop,0.67,labial stop:2; coronal stop:1
+idat1237-cribas,idat1237,Idate,d,initial,1,rhotic,1.0,rhotic:1
+idat1237-cribas,idat1237,Idate,d,medial,2,rhotic,1.0,rhotic:2
+idat1237-cribas,idat1237,Idate,h,final,1,∅,1.0,∅:1
+idat1237-cribas,idat1237,Idate,h,initial,1,∅,1.0,∅:1
+idat1237-cribas,idat1237,Idate,h,medial,1,∅,1.0,∅:1
+idat1237-cribas,idat1237,Idate,j,medial,2,n,0.5,n:1; rhotic:1
+idat1237-cribas,idat1237,Idate,k,final,3,∅,0.67,∅:2; velar stop:1
+idat1237-cribas,idat1237,Idate,k,medial,2,∅,0.5,∅:1; velar stop:1
+idat1237-cribas,idat1237,Idate,l,initial,1,l,1.0,l:1
+idat1237-cribas,idat1237,Idate,l,medial,4,l,1.0,l:4
+idat1237-cribas,idat1237,Idate,m,final,1,∅,1.0,∅:1
+idat1237-cribas,idat1237,Idate,m,initial,5,m,0.6,m:3; ∅:2
+idat1237-cribas,idat1237,Idate,m,medial,2,m,1.0,m:2
+idat1237-cribas,idat1237,Idate,ma-p,medial,1,b,1.0,b:1
+idat1237-cribas,idat1237,Idate,n,final,3,n,0.67,n:2; ∅:1
+idat1237-cribas,idat1237,Idate,n,initial,1,n,1.0,n:1
+idat1237-cribas,idat1237,Idate,n,medial,6,n,0.83,n:5; rhotic:1
+idat1237-cribas,idat1237,Idate,p,medial,1,∅,1.0,∅:1
+idat1237-cribas,idat1237,Idate,q,final,4,velar stop,0.75,velar stop:3; n:1
+idat1237-cribas,idat1237,Idate,q,initial,3,velar stop,0.33,velar stop:1; m:1; l:1
+idat1237-cribas,idat1237,Idate,s,initial,1,sibilant,1.0,sibilant:1
+idat1237-cribas,idat1237,Idate,s,medial,6,sibilant,0.83,sibilant:5; labial stop:1
+idat1237-cribas,idat1237,Idate,t,final,1,coronal stop,1.0,coronal stop:1
+idat1237-cribas,idat1237,Idate,t,initial,7,coronal stop,0.57,coronal stop:4; n:2; l:1
+idat1237-cribas,idat1237,Idate,t,medial,3,coronal stop,1.0,coronal stop:3
+idat1237-cribas,idat1237,Idate,y,final,1,∅,1.0,∅:1
+idat1237-cribas,idat1237,Idate,ŋ,final,1,rhotic,1.0,rhotic:1
+idat1237-cribas,idat1237,Idate,ŋ,initial,1,n,1.0,n:1
+idat1237-cribas,idat1237,Idate,ŋ,medial,3,n,1.0,n:3
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",R,final,4,∅,1.0,∅:4
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",R,medial,4,∅,0.5,∅:2; ŋ:1; rhotic:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",b,initial,5,h,1.0,h:5
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",b,medial,1,h,1.0,h:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",d,initial,1,labial stop,1.0,labial stop:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",h,final,1,∅,1.0,∅:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",h,initial,1,∅,1.0,∅:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",k,final,1,∅,1.0,∅:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",k,initial,1,∅,1.0,∅:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",k,medial,3,velar stop,1.0,velar stop:3
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",l,final,1,ŋ,1.0,ŋ:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",l,initial,1,l,1.0,l:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",l,medial,8,l,1.0,l:8
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",m,final,2,∅,0.5,∅:1; ŋ:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",m,initial,4,m,0.5,m:2; ∅:2
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",m,medial,3,m,1.0,m:3
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",ma-p,medial,1,p,1.0,p:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",n,final,3,∅,1.0,∅:3
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",n,initial,1,n,1.0,n:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",n,medial,3,n,1.0,n:3
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",p,initial,1,velar stop,1.0,velar stop:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",p,medial,2,l,0.5,l:1; labial stop:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",q,final,3,∅,1.0,∅:3
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",q,initial,6,∅,0.5,∅:3; h:1; velar stop:1; m:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",s,initial,1,sibilant,1.0,sibilant:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",s,medial,4,sibilant,0.75,sibilant:3; h:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",t,final,1,∅,1.0,∅:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",t,medial,6,coronal stop,1.0,coronal stop:6
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",w,initial,1,∅,1.0,∅:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",y,final,1,∅,1.0,∅:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",z,medial,2,sibilant,0.5,sibilant:1; ∅:1
+ilma1240,ilma1240,"Ili'uun, Ilmaumau",ŋ,medial,4,n,1.0,n:4
+ilpu1239,ilpu1239,Aputai,R,final,3,n,0.67,n:2; rhotic:1
+ilpu1239,ilpu1239,Aputai,R,medial,3,∅,0.33,∅:1; ŋ:1; rhotic:1
+ilpu1239,ilpu1239,Aputai,b,initial,4,labial fricative,1.0,labial fricative:4
+ilpu1239,ilpu1239,Aputai,d,initial,2,labial stop,0.5,labial stop:1; rhotic:1
+ilpu1239,ilpu1239,Aputai,h,initial,1,∅,1.0,∅:1
+ilpu1239,ilpu1239,Aputai,h,medial,1,∅,1.0,∅:1
+ilpu1239,ilpu1239,Aputai,j,medial,1,∅,1.0,∅:1
+ilpu1239,ilpu1239,Aputai,k,final,1,n,1.0,n:1
+ilpu1239,ilpu1239,Aputai,k,medial,1,velar stop,1.0,velar stop:1
+ilpu1239,ilpu1239,Aputai,l,initial,1,l,1.0,l:1
+ilpu1239,ilpu1239,Aputai,l,medial,7,l,1.0,l:7
+ilpu1239,ilpu1239,Aputai,m,final,1,∅,1.0,∅:1
+ilpu1239,ilpu1239,Aputai,m,initial,3,m,0.67,m:2; ∅:1
+ilpu1239,ilpu1239,Aputai,m,medial,3,m,1.0,m:3
+ilpu1239,ilpu1239,Aputai,ma-p,medial,1,p,1.0,p:1
+ilpu1239,ilpu1239,Aputai,n,final,4,n,0.5,n:2; ŋ:1; ∅:1
+ilpu1239,ilpu1239,Aputai,n,initial,1,n,1.0,n:1
+ilpu1239,ilpu1239,Aputai,n,medial,3,n,1.0,n:3
+ilpu1239,ilpu1239,Aputai,p,initial,1,velar stop,1.0,velar stop:1
+ilpu1239,ilpu1239,Aputai,p,medial,1,l,1.0,l:1
+ilpu1239,ilpu1239,Aputai,q,final,3,∅,0.67,∅:2; ŋ:1
+ilpu1239,ilpu1239,Aputai,q,initial,5,∅,0.8,∅:4; m:1
+ilpu1239,ilpu1239,Aputai,s,final,1,∅,1.0,∅:1
+ilpu1239,ilpu1239,Aputai,s,initial,1,sibilant,1.0,sibilant:1
+ilpu1239,ilpu1239,Aputai,s,medial,5,sibilant,0.8,sibilant:4; h:1
+ilpu1239,ilpu1239,Aputai,t,initial,3,∅,0.67,∅:2; coronal stop:1
+ilpu1239,ilpu1239,Aputai,t,medial,6,coronal stop,1.0,coronal stop:6
+ilpu1239,ilpu1239,Aputai,y,final,1,∅,1.0,∅:1
+ilpu1239,ilpu1239,Aputai,z,medial,1,sibilant,1.0,sibilant:1
+ilpu1239,ilpu1239,Aputai,ŋ,initial,1,n,1.0,n:1
+ilpu1239,ilpu1239,Aputai,ŋ,medial,3,n,1.0,n:3
+imro1237,imro1237,Imroing,R,medial,1,∅,1.0,∅:1
+imro1237,imro1237,Imroing,k,initial,1,velar stop,1.0,velar stop:1
+imro1237,imro1237,Imroing,l,initial,1,l,1.0,l:1
+imro1237,imro1237,Imroing,l,medial,1,l,1.0,l:1
+imro1237,imro1237,Imroing,m,final,1,∅,1.0,∅:1
+imro1237,imro1237,Imroing,m,initial,2,m,1.0,m:2
+imro1237,imro1237,Imroing,q,initial,1,velar stop,1.0,velar stop:1
+imro1237,imro1237,Imroing,t,final,2,coronal stop,0.5,coronal stop:1; m:1
+imro1237,imro1237,Imroing,t,medial,1,coronal stop,1.0,coronal stop:1
+imro1237,imro1237,Imroing,z,medial,2,rhotic,0.5,rhotic:1; l:1
+imro1237,imro1237,Imroing,ŋ,medial,1,n,1.0,n:1
+kaha1239,kaha1239,Tugun,R,final,4,rhotic,1.0,rhotic:4
+kaha1239,kaha1239,Tugun,R,medial,3,velar stop,0.33,velar stop:1; ∅:1; rhotic:1
+kaha1239,kaha1239,Tugun,b,initial,4,labial fricative,1.0,labial fricative:4
+kaha1239,kaha1239,Tugun,d,initial,2,labial stop,0.5,labial stop:1; coronal stop:1
+kaha1239,kaha1239,Tugun,h,initial,2,∅,1.0,∅:2
+kaha1239,kaha1239,Tugun,j,medial,1,∅,1.0,∅:1
+kaha1239,kaha1239,Tugun,k,final,2,∅,1.0,∅:2
+kaha1239,kaha1239,Tugun,k,initial,2,velar stop,0.5,velar stop:1; ∅:1
+kaha1239,kaha1239,Tugun,k,medial,4,velar stop,1.0,velar stop:4
+kaha1239,kaha1239,Tugun,l,initial,2,∅,0.5,∅:1; l:1
+kaha1239,kaha1239,Tugun,l,medial,7,l,1.0,l:7
+kaha1239,kaha1239,Tugun,m,final,2,∅,0.5,∅:1; n:1
+kaha1239,kaha1239,Tugun,m,initial,3,m,0.67,m:2; ∅:1
+kaha1239,kaha1239,Tugun,m,medial,4,m,1.0,m:4
+kaha1239,kaha1239,Tugun,ma-p,medial,1,p,1.0,p:1
+kaha1239,kaha1239,Tugun,n,final,5,n,0.6,n:3; ∅:2
+kaha1239,kaha1239,Tugun,n,initial,2,n,1.0,n:2
+kaha1239,kaha1239,Tugun,n,medial,3,n,1.0,n:3
+kaha1239,kaha1239,Tugun,p,medial,1,l,1.0,l:1
+kaha1239,kaha1239,Tugun,q,final,4,∅,0.75,∅:3; ŋ:1
+kaha1239,kaha1239,Tugun,q,initial,4,∅,1.0,∅:4
+kaha1239,kaha1239,Tugun,s,final,1,∅,1.0,∅:1
+kaha1239,kaha1239,Tugun,s,initial,1,sibilant,1.0,sibilant:1
+kaha1239,kaha1239,Tugun,s,medial,4,sibilant,0.75,sibilant:3; h:1
+kaha1239,kaha1239,Tugun,t,final,2,∅,0.5,∅:1; velar stop:1
+kaha1239,kaha1239,Tugun,t,initial,4,∅,0.5,∅:2; coronal stop:2
+kaha1239,kaha1239,Tugun,t,medial,6,coronal stop,1.0,coronal stop:6
+kaha1239,kaha1239,Tugun,w,final,1,coronal stop,1.0,coronal stop:1
+kaha1239,kaha1239,Tugun,w,initial,1,∅,1.0,∅:1
+kaha1239,kaha1239,Tugun,y,final,1,∅,1.0,∅:1
+kaha1239,kaha1239,Tugun,z,medial,2,∅,0.5,∅:1; sibilant:1
+kaha1239,kaha1239,Tugun,ŋ,initial,1,n,1.0,n:1
+kaha1239,kaha1239,Tugun,ŋ,medial,3,n,1.0,n:3
+keda1252,keda1252,Kedang,R,final,2,rhotic,1.0,rhotic:2
+keda1252,keda1252,Kedang,b,initial,1,w,1.0,w:1
+keda1252,keda1252,Kedang,d,initial,2,coronal stop,1.0,coronal stop:2
+keda1252,keda1252,Kedang,h,initial,2,∅,1.0,∅:2
+keda1252,keda1252,Kedang,j,medial,1,y,1.0,y:1
+keda1252,keda1252,Kedang,k,final,2,∅,0.5,∅:1; glottal stop:1
+keda1252,keda1252,Kedang,k,initial,3,velar stop,0.67,velar stop:2; ∅:1
+keda1252,keda1252,Kedang,k,medial,1,velar stop,1.0,velar stop:1
+keda1252,keda1252,Kedang,l,final,1,l,1.0,l:1
+keda1252,keda1252,Kedang,l,medial,2,l,1.0,l:2
+keda1252,keda1252,Kedang,m,final,1,ŋ,1.0,ŋ:1
+keda1252,keda1252,Kedang,m,initial,4,m,0.75,m:3; ∅:1
+keda1252,keda1252,Kedang,m,medial,1,m,1.0,m:1
+keda1252,keda1252,Kedang,n,final,5,∅,0.6,∅:3; n:2
+keda1252,keda1252,Kedang,n,initial,1,n,1.0,n:1
+keda1252,keda1252,Kedang,n,medial,5,n,0.6,n:3; ∅:1; sibilant:1
+keda1252,keda1252,Kedang,p,initial,2,labial stop,1.0,labial stop:2
+keda1252,keda1252,Kedang,p,medial,3,labial stop,1.0,labial stop:3
+keda1252,keda1252,Kedang,q,final,2,n,0.5,n:1; glottal stop:1
+keda1252,keda1252,Kedang,q,medial,2,∅,1.0,∅:2
+keda1252,keda1252,Kedang,s,final,1,∅,1.0,∅:1
+keda1252,keda1252,Kedang,s,medial,2,h,0.5,h:1; ∅:1
+keda1252,keda1252,Kedang,t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+keda1252,keda1252,Kedang,t,medial,2,coronal stop,1.0,coronal stop:2
+keda1252,keda1252,Kedang,w,final,1,∅,1.0,∅:1
+keda1252,keda1252,Kedang,w,medial,2,w,1.0,w:2
+keda1252,keda1252,Kedang,y,final,1,∅,1.0,∅:1
+keda1252,keda1252,Kedang,ñ,medial,1,n,1.0,n:1
+keda1252,keda1252,Kedang,ŋ,initial,1,n,1.0,n:1
+keda1252,keda1252,Kedang,ŋ,medial,3,ŋ,1.0,ŋ:3
+kema1243,kema1243,Kemak,R,final,1,velar stop,1.0,velar stop:1
+kema1243,kema1243,Kemak,R,initial,1,glottal stop,1.0,glottal stop:1
+kema1243,kema1243,Kemak,R,medial,3,∅,1.0,∅:3
+kema1243,kema1243,Kemak,b,initial,3,h,1.0,h:3
+kema1243,kema1243,Kemak,b,medial,1,labial stop,1.0,labial stop:1
+kema1243,kema1243,Kemak,d,initial,4,coronal stop,0.75,coronal stop:3; labial stop:1
+kema1243,kema1243,Kemak,d,medial,1,rhotic,1.0,rhotic:1
+kema1243,kema1243,Kemak,h,final,1,∅,1.0,∅:1
+kema1243,kema1243,Kemak,h,initial,3,glottal stop,1.0,glottal stop:3
+kema1243,kema1243,Kemak,h,medial,1,h,1.0,h:1
+kema1243,kema1243,Kemak,k,final,6,∅,0.83,∅:5; rhotic:1
+kema1243,kema1243,Kemak,k,initial,1,∅,1.0,∅:1
+kema1243,kema1243,Kemak,k,medial,2,∅,0.5,∅:1; velar stop:1
+kema1243,kema1243,Kemak,l,initial,1,l,1.0,l:1
+kema1243,kema1243,Kemak,l,medial,7,l,0.86,l:6; rhotic:1
+kema1243,kema1243,Kemak,m,initial,8,m,0.75,m:6; ∅:2
+kema1243,kema1243,Kemak,m,medial,4,m,1.0,m:4
+kema1243,kema1243,Kemak,ma-p,medial,1,b,1.0,b:1
+kema1243,kema1243,Kemak,n,final,6,∅,0.67,∅:4; n:1; rhotic:1
+kema1243,kema1243,Kemak,n,initial,2,n,1.0,n:2
+kema1243,kema1243,Kemak,n,medial,6,n,1.0,n:6
+kema1243,kema1243,Kemak,p,initial,1,labial stop,1.0,labial stop:1
+kema1243,kema1243,Kemak,p,medial,5,labial stop,1.0,labial stop:5
+kema1243,kema1243,Kemak,q,final,6,∅,0.67,∅:4; velar stop:1; n:1
+kema1243,kema1243,Kemak,q,initial,4,∅,0.5,∅:2; glottal stop:1; coronal stop:1
+kema1243,kema1243,Kemak,s,initial,1,sibilant,1.0,sibilant:1
+kema1243,kema1243,Kemak,s,medial,5,sibilant,1.0,sibilant:5
+kema1243,kema1243,Kemak,t,final,2,coronal stop,1.0,coronal stop:2
+kema1243,kema1243,Kemak,t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+kema1243,kema1243,Kemak,t,medial,4,coronal stop,1.0,coronal stop:4
+kema1243,kema1243,Kemak,y,final,2,∅,1.0,∅:2
+kema1243,kema1243,Kemak,z,medial,2,sibilant,0.5,sibilant:1; ∅:1
+kema1243,kema1243,Kemak,ŋ,medial,2,velar stop,0.5,velar stop:1; n:1
+kema1243-diir,kema1243,"Kemak, Diirbati",R,initial,1,∅,1.0,∅:1
+kema1243-diir,kema1243,"Kemak, Diirbati",R,medial,3,∅,1.0,∅:3
+kema1243-diir,kema1243,"Kemak, Diirbati",b,initial,2,h,1.0,h:2
+kema1243-diir,kema1243,"Kemak, Diirbati",d,initial,1,coronal stop,1.0,coronal stop:1
+kema1243-diir,kema1243,"Kemak, Diirbati",h,final,1,∅,1.0,∅:1
+kema1243-diir,kema1243,"Kemak, Diirbati",h,initial,1,∅,1.0,∅:1
+kema1243-diir,kema1243,"Kemak, Diirbati",h,medial,1,h,1.0,h:1
+kema1243-diir,kema1243,"Kemak, Diirbati",j,medial,1,l,1.0,l:1
+kema1243-diir,kema1243,"Kemak, Diirbati",k,final,4,∅,0.75,∅:3; rhotic:1
+kema1243-diir,kema1243,"Kemak, Diirbati",k,medial,2,∅,0.5,∅:1; velar stop:1
+kema1243-diir,kema1243,"Kemak, Diirbati",l,initial,1,l,1.0,l:1
+kema1243-diir,kema1243,"Kemak, Diirbati",l,medial,5,l,1.0,l:5
+kema1243-diir,kema1243,"Kemak, Diirbati",m,final,2,m,0.5,m:1; ∅:1
+kema1243-diir,kema1243,"Kemak, Diirbati",m,initial,5,m,0.8,m:4; ∅:1
+kema1243-diir,kema1243,"Kemak, Diirbati",m,medial,4,m,1.0,m:4
+kema1243-diir,kema1243,"Kemak, Diirbati",ma-p,medial,1,b,1.0,b:1
+kema1243-diir,kema1243,"Kemak, Diirbati",n,final,5,∅,0.4,∅:2; rhotic:2; n:1
+kema1243-diir,kema1243,"Kemak, Diirbati",n,initial,3,n,1.0,n:3
+kema1243-diir,kema1243,"Kemak, Diirbati",n,medial,3,n,1.0,n:3
+kema1243-diir,kema1243,"Kemak, Diirbati",p,medial,3,labial stop,1.0,labial stop:3
+kema1243-diir,kema1243,"Kemak, Diirbati",q,final,4,∅,0.75,∅:3; velar stop:1
+kema1243-diir,kema1243,"Kemak, Diirbati",q,initial,3,∅,0.67,∅:2; m:1
+kema1243-diir,kema1243,"Kemak, Diirbati",s,final,1,rhotic,1.0,rhotic:1
+kema1243-diir,kema1243,"Kemak, Diirbati",s,medial,2,sibilant,1.0,sibilant:2
+kema1243-diir,kema1243,"Kemak, Diirbati",t,final,1,coronal stop,1.0,coronal stop:1
+kema1243-diir,kema1243,"Kemak, Diirbati",t,initial,3,coronal stop,1.0,coronal stop:3
+kema1243-diir,kema1243,"Kemak, Diirbati",t,medial,4,coronal stop,1.0,coronal stop:4
+kema1243-diir,kema1243,"Kemak, Diirbati",y,final,1,∅,1.0,∅:1
+kema1243-diir,kema1243,"Kemak, Diirbati",z,initial,1,coronal stop,1.0,coronal stop:1
+kema1243-diir,kema1243,"Kemak, Diirbati",z,medial,2,sibilant,0.5,sibilant:1; velar stop:1
+kema1243-diir,kema1243,"Kemak, Diirbati",ŋ,final,1,rhotic,1.0,rhotic:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",R,final,1,l,1.0,l:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",R,initial,1,∅,1.0,∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",R,medial,4,∅,0.75,∅:3; l:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",b,final,1,labial stop,1.0,labial stop:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",b,initial,2,h,0.5,h:1; ∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",d,initial,4,coronal stop,0.75,coronal stop:3; rhotic:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",h,final,1,∅,1.0,∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",h,initial,2,∅,1.0,∅:2
+kema1243-kaila,kema1243,"Kemak, Kailaku",h,medial,3,h,0.67,h:2; ∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",j,medial,1,l,1.0,l:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",k,final,4,∅,0.5,∅:2; n:1; rhotic:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",k,initial,2,∅,0.5,∅:1; h:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",k,medial,2,∅,0.5,∅:1; velar stop:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",l,final,1,n,1.0,n:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",l,initial,1,l,1.0,l:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",l,medial,7,l,0.86,l:6; rhotic:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",m,final,2,m,0.5,m:1; ∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",m,initial,8,m,0.88,m:7; ∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",m,medial,4,m,0.75,m:3; ∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",ma-p,medial,1,b,1.0,b:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",n,final,5,∅,0.6,∅:3; n:1; rhotic:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",n,initial,1,n,1.0,n:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",n,medial,5,n,1.0,n:5
+kema1243-kaila,kema1243,"Kemak, Kailaku",p,initial,1,labial stop,1.0,labial stop:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",p,medial,3,labial stop,0.67,labial stop:2; velar stop:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",q,final,4,∅,0.75,∅:3; velar stop:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",q,initial,1,∅,1.0,∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",s,initial,1,sibilant,1.0,sibilant:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",s,medial,3,sibilant,1.0,sibilant:3
+kema1243-kaila,kema1243,"Kemak, Kailaku",t,final,2,coronal stop,1.0,coronal stop:2
+kema1243-kaila,kema1243,"Kemak, Kailaku",t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+kema1243-kaila,kema1243,"Kemak, Kailaku",t,medial,4,coronal stop,1.0,coronal stop:4
+kema1243-kaila,kema1243,"Kemak, Kailaku",w,final,1,∅,1.0,∅:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",z,initial,1,coronal stop,1.0,coronal stop:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",z,medial,1,sibilant,1.0,sibilant:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",ŋ,final,1,rhotic,1.0,rhotic:1
+kema1243-kaila,kema1243,"Kemak, Kailaku",ŋ,medial,1,n,1.0,n:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",R,final,1,ŋ,1.0,ŋ:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",R,initial,1,∅,1.0,∅:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",R,medial,4,∅,0.75,∅:3; l:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",b,initial,4,h,0.75,h:3; labial stop:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",b,medial,2,labial stop,0.5,labial stop:1; rhotic:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",d,initial,1,coronal stop,1.0,coronal stop:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",d,medial,1,l,1.0,l:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",h,final,1,∅,1.0,∅:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",h,initial,1,∅,1.0,∅:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",h,medial,1,h,1.0,h:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",j,medial,2,l,1.0,l:2
+kema1243-kutu,kema1243,"Kemak, Kutubaba",k,final,3,∅,0.67,∅:2; ŋ:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",k,initial,1,velar stop,1.0,velar stop:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",k,medial,2,∅,0.5,∅:1; velar stop:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",l,initial,1,l,1.0,l:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",l,medial,5,l,1.0,l:5
+kema1243-kutu,kema1243,"Kemak, Kutubaba",m,final,1,∅,1.0,∅:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",m,initial,6,m,0.67,m:4; ∅:2
+kema1243-kutu,kema1243,"Kemak, Kutubaba",m,medial,5,m,1.0,m:5
+kema1243-kutu,kema1243,"Kemak, Kutubaba",ma-p,medial,1,b,1.0,b:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",n,final,7,ŋ,0.57,ŋ:4; ∅:3
+kema1243-kutu,kema1243,"Kemak, Kutubaba",n,initial,3,n,1.0,n:3
+kema1243-kutu,kema1243,"Kemak, Kutubaba",n,medial,3,n,1.0,n:3
+kema1243-kutu,kema1243,"Kemak, Kutubaba",p,medial,4,labial stop,1.0,labial stop:4
+kema1243-kutu,kema1243,"Kemak, Kutubaba",q,final,6,∅,0.5,∅:3; velar stop:2; ŋ:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",q,initial,4,∅,0.75,∅:3; m:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",s,medial,3,sibilant,1.0,sibilant:3
+kema1243-kutu,kema1243,"Kemak, Kutubaba",t,final,1,coronal stop,1.0,coronal stop:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+kema1243-kutu,kema1243,"Kemak, Kutubaba",t,medial,5,coronal stop,1.0,coronal stop:5
+kema1243-kutu,kema1243,"Kemak, Kutubaba",w,final,1,∅,1.0,∅:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",y,final,1,∅,1.0,∅:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",y,medial,1,vowel,1.0,vowel:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",z,medial,1,sibilant,1.0,sibilant:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",ŋ,final,1,ŋ,1.0,ŋ:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",ŋ,initial,1,velar stop,1.0,velar stop:1
+kema1243-kutu,kema1243,"Kemak, Kutubaba",ŋ,medial,1,ŋ,1.0,ŋ:1
+kema1243-lemi,kema1243,"Kemak, Lemia",R,initial,1,∅,1.0,∅:1
+kema1243-lemi,kema1243,"Kemak, Lemia",R,medial,3,∅,1.0,∅:3
+kema1243-lemi,kema1243,"Kemak, Lemia",b,initial,2,h,1.0,h:2
+kema1243-lemi,kema1243,"Kemak, Lemia",d,initial,2,coronal stop,0.5,coronal stop:1; rhotic:1
+kema1243-lemi,kema1243,"Kemak, Lemia",h,final,1,∅,1.0,∅:1
+kema1243-lemi,kema1243,"Kemak, Lemia",h,initial,1,∅,1.0,∅:1
+kema1243-lemi,kema1243,"Kemak, Lemia",h,medial,1,∅,1.0,∅:1
+kema1243-lemi,kema1243,"Kemak, Lemia",j,medial,1,l,1.0,l:1
+kema1243-lemi,kema1243,"Kemak, Lemia",k,final,6,∅,0.83,∅:5; rhotic:1
+kema1243-lemi,kema1243,"Kemak, Lemia",k,medial,2,∅,0.5,∅:1; velar stop:1
+kema1243-lemi,kema1243,"Kemak, Lemia",l,initial,1,l,1.0,l:1
+kema1243-lemi,kema1243,"Kemak, Lemia",l,medial,6,l,1.0,l:6
+kema1243-lemi,kema1243,"Kemak, Lemia",m,final,2,m,0.5,m:1; ∅:1
+kema1243-lemi,kema1243,"Kemak, Lemia",m,initial,5,m,1.0,m:5
+kema1243-lemi,kema1243,"Kemak, Lemia",m,medial,4,m,1.0,m:4
+kema1243-lemi,kema1243,"Kemak, Lemia",n,final,4,∅,0.75,∅:3; rhotic:1
+kema1243-lemi,kema1243,"Kemak, Lemia",n,initial,3,n,1.0,n:3
+kema1243-lemi,kema1243,"Kemak, Lemia",n,medial,5,n,1.0,n:5
+kema1243-lemi,kema1243,"Kemak, Lemia",p,medial,3,labial stop,1.0,labial stop:3
+kema1243-lemi,kema1243,"Kemak, Lemia",q,final,3,∅,1.0,∅:3
+kema1243-lemi,kema1243,"Kemak, Lemia",q,initial,4,∅,0.75,∅:3; coronal stop:1
+kema1243-lemi,kema1243,"Kemak, Lemia",s,final,1,rhotic,1.0,rhotic:1
+kema1243-lemi,kema1243,"Kemak, Lemia",s,medial,3,sibilant,1.0,sibilant:3
+kema1243-lemi,kema1243,"Kemak, Lemia",t,final,1,coronal stop,1.0,coronal stop:1
+kema1243-lemi,kema1243,"Kemak, Lemia",t,initial,4,coronal stop,0.75,coronal stop:3; ∅:1
+kema1243-lemi,kema1243,"Kemak, Lemia",t,medial,3,coronal stop,1.0,coronal stop:3
+kema1243-lemi,kema1243,"Kemak, Lemia",y,final,1,∅,1.0,∅:1
+kema1243-lemi,kema1243,"Kemak, Lemia",z,initial,1,coronal stop,1.0,coronal stop:1
+kema1243-lemi,kema1243,"Kemak, Lemia",z,medial,2,sibilant,0.5,sibilant:1; ∅:1
+kema1243-lemi,kema1243,"Kemak, Lemia",ŋ,final,1,rhotic,1.0,rhotic:1
+kema1243-lemi,kema1243,"Kemak, Lemia",ŋ,medial,1,velar stop,1.0,velar stop:1
+kema1243-leol,kema1243,"Kemak, Leolima",R,final,1,ŋ,1.0,ŋ:1
+kema1243-leol,kema1243,"Kemak, Leolima",R,initial,1,∅,1.0,∅:1
+kema1243-leol,kema1243,"Kemak, Leolima",R,medial,4,∅,0.75,∅:3; l:1
+kema1243-leol,kema1243,"Kemak, Leolima",b,initial,2,h,1.0,h:2
+kema1243-leol,kema1243,"Kemak, Leolima",b,medial,2,labial stop,0.5,labial stop:1; coronal stop:1
+kema1243-leol,kema1243,"Kemak, Leolima",d,initial,2,coronal stop,0.5,coronal stop:1; rhotic:1
+kema1243-leol,kema1243,"Kemak, Leolima",h,final,1,∅,1.0,∅:1
+kema1243-leol,kema1243,"Kemak, Leolima",h,initial,2,∅,0.5,∅:1; n:1
+kema1243-leol,kema1243,"Kemak, Leolima",h,medial,2,h,0.5,h:1; ∅:1
+kema1243-leol,kema1243,"Kemak, Leolima",k,final,6,∅,0.5,∅:3; ŋ:2; rhotic:1
+kema1243-leol,kema1243,"Kemak, Leolima",k,medial,2,∅,0.5,∅:1; velar stop:1
+kema1243-leol,kema1243,"Kemak, Leolima",l,initial,1,l,1.0,l:1
+kema1243-leol,kema1243,"Kemak, Leolima",l,medial,5,l,1.0,l:5
+kema1243-leol,kema1243,"Kemak, Leolima",m,final,2,m,0.5,m:1; ∅:1
+kema1243-leol,kema1243,"Kemak, Leolima",m,initial,8,m,0.75,m:6; ∅:2
+kema1243-leol,kema1243,"Kemak, Leolima",m,medial,5,m,1.0,m:5
+kema1243-leol,kema1243,"Kemak, Leolima",ma-p,medial,1,b,1.0,b:1
+kema1243-leol,kema1243,"Kemak, Leolima",n,final,5,∅,0.6,∅:3; ŋ:1; rhotic:1
+kema1243-leol,kema1243,"Kemak, Leolima",n,initial,3,n,1.0,n:3
+kema1243-leol,kema1243,"Kemak, Leolima",n,medial,6,n,1.0,n:6
+kema1243-leol,kema1243,"Kemak, Leolima",p,medial,4,labial stop,1.0,labial stop:4
+kema1243-leol,kema1243,"Kemak, Leolima",q,final,4,∅,0.5,∅:2; velar stop:2
+kema1243-leol,kema1243,"Kemak, Leolima",q,initial,4,∅,0.75,∅:3; m:1
+kema1243-leol,kema1243,"Kemak, Leolima",s,medial,3,sibilant,1.0,sibilant:3
+kema1243-leol,kema1243,"Kemak, Leolima",t,final,1,coronal stop,1.0,coronal stop:1
+kema1243-leol,kema1243,"Kemak, Leolima",t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+kema1243-leol,kema1243,"Kemak, Leolima",t,medial,5,coronal stop,1.0,coronal stop:5
+kema1243-leol,kema1243,"Kemak, Leolima",w,final,1,∅,1.0,∅:1
+kema1243-leol,kema1243,"Kemak, Leolima",y,final,1,∅,1.0,∅:1
+kema1243-leol,kema1243,"Kemak, Leolima",z,initial,1,coronal stop,1.0,coronal stop:1
+kema1243-leol,kema1243,"Kemak, Leolima",z,medial,1,sibilant,1.0,sibilant:1
+kema1243-leol,kema1243,"Kemak, Leolima",ŋ,medial,1,ŋ,1.0,ŋ:1
+kema1243-leos,kema1243,"Kemak, Leosibe",R,final,1,n,1.0,n:1
+kema1243-leos,kema1243,"Kemak, Leosibe",R,initial,1,∅,1.0,∅:1
+kema1243-leos,kema1243,"Kemak, Leosibe",R,medial,2,∅,1.0,∅:2
+kema1243-leos,kema1243,"Kemak, Leosibe",b,initial,3,h,0.67,h:2; ∅:1
+kema1243-leos,kema1243,"Kemak, Leosibe",b,medial,2,labial stop,0.5,labial stop:1; coronal stop:1
+kema1243-leos,kema1243,"Kemak, Leosibe",d,initial,1,coronal stop,1.0,coronal stop:1
+kema1243-leos,kema1243,"Kemak, Leosibe",h,final,1,∅,1.0,∅:1
+kema1243-leos,kema1243,"Kemak, Leosibe",h,initial,2,h,0.5,h:1; ∅:1
+kema1243-leos,kema1243,"Kemak, Leosibe",h,medial,1,h,1.0,h:1
+kema1243-leos,kema1243,"Kemak, Leosibe",k,final,3,∅,0.67,∅:2; rhotic:1
+kema1243-leos,kema1243,"Kemak, Leosibe",k,medial,2,∅,0.5,∅:1; velar stop:1
+kema1243-leos,kema1243,"Kemak, Leosibe",l,initial,1,l,1.0,l:1
+kema1243-leos,kema1243,"Kemak, Leosibe",l,medial,5,l,1.0,l:5
+kema1243-leos,kema1243,"Kemak, Leosibe",m,initial,7,m,0.71,m:5; ∅:2
+kema1243-leos,kema1243,"Kemak, Leosibe",m,medial,4,m,1.0,m:4
+kema1243-leos,kema1243,"Kemak, Leosibe",ma-p,medial,2,l,0.5,l:1; b:1
+kema1243-leos,kema1243,"Kemak, Leosibe",n,final,6,∅,0.67,∅:4; n:1; rhotic:1
+kema1243-leos,kema1243,"Kemak, Leosibe",n,initial,2,n,1.0,n:2
+kema1243-leos,kema1243,"Kemak, Leosibe",n,medial,3,n,1.0,n:3
+kema1243-leos,kema1243,"Kemak, Leosibe",p,medial,3,labial stop,1.0,labial stop:3
+kema1243-leos,kema1243,"Kemak, Leosibe",q,final,6,∅,0.33,∅:2; velar stop:2; n:1; h:1
+kema1243-leos,kema1243,"Kemak, Leosibe",q,initial,4,∅,0.5,∅:2; m:2
+kema1243-leos,kema1243,"Kemak, Leosibe",s,medial,2,sibilant,1.0,sibilant:2
+kema1243-leos,kema1243,"Kemak, Leosibe",t,final,1,coronal stop,1.0,coronal stop:1
+kema1243-leos,kema1243,"Kemak, Leosibe",t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+kema1243-leos,kema1243,"Kemak, Leosibe",t,medial,5,coronal stop,1.0,coronal stop:5
+kema1243-leos,kema1243,"Kemak, Leosibe",y,final,1,∅,1.0,∅:1
+kema1243-leos,kema1243,"Kemak, Leosibe",z,medial,2,sibilant,0.5,sibilant:1; velar stop:1
+kema1243-leos,kema1243,"Kemak, Leosibe",ŋ,medial,1,velar stop,1.0,velar stop:1
+kema1243-sane,kema1243,"Kemak, Saneri",R,final,1,vowel,1.0,vowel:1
+kema1243-sane,kema1243,"Kemak, Saneri",R,initial,1,∅,1.0,∅:1
+kema1243-sane,kema1243,"Kemak, Saneri",R,medial,4,∅,0.75,∅:3; l:1
+kema1243-sane,kema1243,"Kemak, Saneri",b,initial,3,∅,1.0,∅:3
+kema1243-sane,kema1243,"Kemak, Saneri",b,medial,1,labial stop,1.0,labial stop:1
+kema1243-sane,kema1243,"Kemak, Saneri",d,initial,2,coronal stop,0.5,coronal stop:1; rhotic:1
+kema1243-sane,kema1243,"Kemak, Saneri",h,final,1,∅,1.0,∅:1
+kema1243-sane,kema1243,"Kemak, Saneri",h,initial,2,h,0.5,h:1; ∅:1
+kema1243-sane,kema1243,"Kemak, Saneri",h,medial,2,h,0.5,h:1; ∅:1
+kema1243-sane,kema1243,"Kemak, Saneri",j,medial,1,l,1.0,l:1
+kema1243-sane,kema1243,"Kemak, Saneri",k,final,6,∅,0.5,∅:3; n:2; rhotic:1
+kema1243-sane,kema1243,"Kemak, Saneri",k,medial,2,∅,0.5,∅:1; velar stop:1
+kema1243-sane,kema1243,"Kemak, Saneri",l,initial,1,l,1.0,l:1
+kema1243-sane,kema1243,"Kemak, Saneri",l,medial,4,l,1.0,l:4
+kema1243-sane,kema1243,"Kemak, Saneri",m,final,2,m,0.5,m:1; ∅:1
+kema1243-sane,kema1243,"Kemak, Saneri",m,initial,8,m,0.88,m:7; ∅:1
+kema1243-sane,kema1243,"Kemak, Saneri",m,medial,6,m,1.0,m:6
+kema1243-sane,kema1243,"Kemak, Saneri",ma-p,medial,1,l,1.0,l:1
+kema1243-sane,kema1243,"Kemak, Saneri",n,final,5,∅,0.6,∅:3; n:1; rhotic:1
+kema1243-sane,kema1243,"Kemak, Saneri",n,initial,3,n,1.0,n:3
+kema1243-sane,kema1243,"Kemak, Saneri",n,medial,5,n,1.0,n:5
+kema1243-sane,kema1243,"Kemak, Saneri",p,medial,3,labial stop,1.0,labial stop:3
+kema1243-sane,kema1243,"Kemak, Saneri",q,final,4,∅,0.25,∅:1; n:1; velar stop:1; h:1
+kema1243-sane,kema1243,"Kemak, Saneri",q,initial,3,∅,0.67,∅:2; m:1
+kema1243-sane,kema1243,"Kemak, Saneri",s,medial,4,sibilant,1.0,sibilant:4
+kema1243-sane,kema1243,"Kemak, Saneri",t,final,1,coronal stop,1.0,coronal stop:1
+kema1243-sane,kema1243,"Kemak, Saneri",t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+kema1243-sane,kema1243,"Kemak, Saneri",t,medial,3,coronal stop,0.67,coronal stop:2; affricate:1
+kema1243-sane,kema1243,"Kemak, Saneri",w,final,1,∅,1.0,∅:1
+kema1243-sane,kema1243,"Kemak, Saneri",y,final,1,∅,1.0,∅:1
+kema1243-sane,kema1243,"Kemak, Saneri",z,initial,1,coronal stop,1.0,coronal stop:1
+kema1243-sane,kema1243,"Kemak, Saneri",z,medial,1,sibilant,1.0,sibilant:1
+kema1243-sane,kema1243,"Kemak, Saneri",ŋ,final,1,rhotic,1.0,rhotic:1
+kema1243-sane,kema1243,"Kemak, Saneri",ŋ,medial,1,n,1.0,n:1
+kisa1266,kisa1266,Kisar,R,final,1,∅,1.0,∅:1
+kisa1266,kisa1266,Kisar,R,medial,2,rhotic,0.5,rhotic:1; ∅:1
+kisa1266,kisa1266,Kisar,b,initial,2,w,0.5,w:1; labial stop:1
+kisa1266,kisa1266,Kisar,b,medial,1,labial stop,1.0,labial stop:1
+kisa1266,kisa1266,Kisar,d,initial,1,coronal stop,1.0,coronal stop:1
+kisa1266,kisa1266,Kisar,d,medial,1,rhotic,1.0,rhotic:1
+kisa1266,kisa1266,Kisar,h,final,1,∅,1.0,∅:1
+kisa1266,kisa1266,Kisar,j,medial,3,rhotic,1.0,rhotic:3
+kisa1266,kisa1266,Kisar,k,final,5,n,0.6,n:3; ∅:2
+kisa1266,kisa1266,Kisar,k,initial,1,∅,1.0,∅:1
+kisa1266,kisa1266,Kisar,k,medial,2,glottal stop,1.0,glottal stop:2
+kisa1266,kisa1266,Kisar,l,final,1,l,1.0,l:1
+kisa1266,kisa1266,Kisar,l,initial,1,l,1.0,l:1
+kisa1266,kisa1266,Kisar,l,medial,5,l,1.0,l:5
+kisa1266,kisa1266,Kisar,m,initial,6,m,0.83,m:5; n:1
+kisa1266,kisa1266,Kisar,m,medial,3,m,1.0,m:3
+kisa1266,kisa1266,Kisar,n,final,2,n,1.0,n:2
+kisa1266,kisa1266,Kisar,n,initial,3,n,1.0,n:3
+kisa1266,kisa1266,Kisar,n,medial,7,n,0.86,n:6; labial stop:1
+kisa1266,kisa1266,Kisar,p,medial,2,h,0.5,h:1; w:1
+kisa1266,kisa1266,Kisar,q,final,1,∅,1.0,∅:1
+kisa1266,kisa1266,Kisar,q,initial,3,∅,0.67,∅:2; velar stop:1
+kisa1266,kisa1266,Kisar,s,final,1,h,1.0,h:1
+kisa1266,kisa1266,Kisar,s,medial,3,sibilant,0.33,sibilant:1; h:1; coronal stop:1
+kisa1266,kisa1266,Kisar,t,final,1,velar stop,1.0,velar stop:1
+kisa1266,kisa1266,Kisar,t,initial,5,velar stop,0.6,velar stop:3; ∅:1; m:1
+kisa1266,kisa1266,Kisar,t,medial,2,velar stop,1.0,velar stop:2
+kisa1266,kisa1266,Kisar,y,final,1,vowel,1.0,vowel:1
+kisa1266,kisa1266,Kisar,z,medial,1,∅,1.0,∅:1
+kisa1266,kisa1266,Kisar,ŋ,final,2,n,1.0,n:2
+kisa1266,kisa1266,Kisar,ŋ,initial,1,n,1.0,n:1
+kisa1266,kisa1266,Kisar,ŋ,medial,3,n,1.0,n:3
+koto1251,koto1251,Kotos Amarasi,R,final,1,labial fricative,1.0,labial fricative:1
+koto1251,koto1251,Kotos Amarasi,R,medial,1,velar stop,1.0,velar stop:1
+koto1251,koto1251,Kotos Amarasi,b,final,1,∅,1.0,∅:1
+koto1251,koto1251,Kotos Amarasi,b,initial,3,labial fricative,1.0,labial fricative:3
+koto1251,koto1251,Kotos Amarasi,c,initial,1,∅,1.0,∅:1
+koto1251,koto1251,Kotos Amarasi,d,final,1,coronal stop,1.0,coronal stop:1
+koto1251,koto1251,Kotos Amarasi,d,initial,1,n,1.0,n:1
+koto1251,koto1251,Kotos Amarasi,d,medial,3,∅,0.33,∅:1; velar stop:1; n:1
+koto1251,koto1251,Kotos Amarasi,h,final,1,∅,1.0,∅:1
+koto1251,koto1251,Kotos Amarasi,h,initial,2,∅,1.0,∅:2
+koto1251,koto1251,Kotos Amarasi,h,medial,2,h,0.5,h:1; ∅:1
+koto1251,koto1251,Kotos Amarasi,k,final,2,∅,0.5,∅:1; h:1
+koto1251,koto1251,Kotos Amarasi,k,initial,4,rhotic,0.25,rhotic:1; m:1; velar stop:1; n:1
+koto1251,koto1251,Kotos Amarasi,k,medial,4,velar stop,0.5,velar stop:2; ∅:1; h:1
+koto1251,koto1251,Kotos Amarasi,l,initial,1,n,1.0,n:1
+koto1251,koto1251,Kotos Amarasi,l,medial,4,n,0.75,n:3; m:1
+koto1251,koto1251,Kotos Amarasi,m,final,1,∅,1.0,∅:1
+koto1251,koto1251,Kotos Amarasi,m,initial,7,m,0.86,m:6; n:1
+koto1251,koto1251,Kotos Amarasi,m,medial,3,m,1.0,m:3
+koto1251,koto1251,Kotos Amarasi,ma-p,medial,1,∅,1.0,∅:1
+koto1251,koto1251,Kotos Amarasi,n,final,5,n,0.8,n:4; glottal stop:1
+koto1251,koto1251,Kotos Amarasi,n,medial,6,n,1.0,n:6
+koto1251,koto1251,Kotos Amarasi,p,medial,1,h,1.0,h:1
+koto1251,koto1251,Kotos Amarasi,q,final,3,glottal stop,0.67,glottal stop:2; labial fricative:1
+koto1251,koto1251,Kotos Amarasi,q,initial,4,m,0.5,m:2; ∅:1; velar stop:1
+koto1251,koto1251,Kotos Amarasi,s,final,1,sibilant,1.0,sibilant:1
+koto1251,koto1251,Kotos Amarasi,s,initial,1,sibilant,1.0,sibilant:1
+koto1251,koto1251,Kotos Amarasi,s,medial,5,sibilant,1.0,sibilant:5
+koto1251,koto1251,Kotos Amarasi,t,final,1,coronal stop,1.0,coronal stop:1
+koto1251,koto1251,Kotos Amarasi,t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+koto1251,koto1251,Kotos Amarasi,t,medial,4,coronal stop,1.0,coronal stop:4
+koto1251,koto1251,Kotos Amarasi,w,medial,1,sibilant,1.0,sibilant:1
+koto1251,koto1251,Kotos Amarasi,z,initial,1,n,1.0,n:1
+koto1251,koto1251,Kotos Amarasi,z,medial,2,rhotic,0.5,rhotic:1; labial fricative:1
+koto1251,koto1251,Kotos Amarasi,ŋ,final,1,n,1.0,n:1
+koto1251,koto1251,Kotos Amarasi,ŋ,medial,2,n,1.0,n:2
+kusa1252,kusa1252,Kusa-Manea,R,final,1,labial fricative,1.0,labial fricative:1
+kusa1252,kusa1252,Kusa-Manea,R,initial,1,h,1.0,h:1
+kusa1252,kusa1252,Kusa-Manea,R,medial,1,velar stop,1.0,velar stop:1
+kusa1252,kusa1252,Kusa-Manea,b,initial,4,labial fricative,0.75,labial fricative:3; labial stop:1
+kusa1252,kusa1252,Kusa-Manea,b,medial,4,labial stop,0.75,labial stop:3; rhotic:1
+kusa1252,kusa1252,Kusa-Manea,d,initial,1,n,1.0,n:1
+kusa1252,kusa1252,Kusa-Manea,d,medial,3,n,0.33,n:1; ∅:1; velar stop:1
+kusa1252,kusa1252,Kusa-Manea,h,final,1,∅,1.0,∅:1
+kusa1252,kusa1252,Kusa-Manea,h,initial,2,∅,1.0,∅:2
+kusa1252,kusa1252,Kusa-Manea,h,medial,1,∅,1.0,∅:1
+kusa1252,kusa1252,Kusa-Manea,k,final,2,∅,0.5,∅:1; h:1
+kusa1252,kusa1252,Kusa-Manea,k,initial,1,h,1.0,h:1
+kusa1252,kusa1252,Kusa-Manea,k,medial,3,velar stop,0.67,velar stop:2; ∅:1
+kusa1252,kusa1252,Kusa-Manea,l,medial,3,n,1.0,n:3
+kusa1252,kusa1252,Kusa-Manea,m,initial,5,m,0.6,m:3; labial stop:1; n:1
+kusa1252,kusa1252,Kusa-Manea,m,medial,1,m,1.0,m:1
+kusa1252,kusa1252,Kusa-Manea,ma-p,medial,2,m,0.5,m:1; ∅:1
+kusa1252,kusa1252,Kusa-Manea,n,final,5,n,0.6,n:3; ∅:1; glottal stop:1
+kusa1252,kusa1252,Kusa-Manea,n,medial,2,n,1.0,n:2
+kusa1252,kusa1252,Kusa-Manea,p,medial,1,glottal stop,1.0,glottal stop:1
+kusa1252,kusa1252,Kusa-Manea,q,final,4,glottal stop,1.0,glottal stop:4
+kusa1252,kusa1252,Kusa-Manea,q,initial,3,∅,0.33,∅:1; m:1; velar stop:1
+kusa1252,kusa1252,Kusa-Manea,s,medial,3,sibilant,1.0,sibilant:3
+kusa1252,kusa1252,Kusa-Manea,t,final,1,∅,1.0,∅:1
+kusa1252,kusa1252,Kusa-Manea,t,initial,4,coronal stop,0.75,coronal stop:3; ∅:1
+kusa1252,kusa1252,Kusa-Manea,t,medial,3,coronal stop,1.0,coronal stop:3
+kusa1252,kusa1252,Kusa-Manea,y,medial,1,vowel,1.0,vowel:1
+kusa1252,kusa1252,Kusa-Manea,z,medial,2,rhotic,0.5,rhotic:1; h:1
+kusa1252,kusa1252,Kusa-Manea,ŋ,final,1,n,1.0,n:1
+kusa1252,kusa1252,Kusa-Manea,ŋ,medial,2,n,1.0,n:2
+laka1255,laka1255,Lakalei,R,medial,2,∅,0.5,∅:1; n:1
+laka1255,laka1255,Lakalei,b,initial,4,h,1.0,h:4
+laka1255,laka1255,Lakalei,b,medial,2,labial stop,0.5,labial stop:1; coronal stop:1
+laka1255,laka1255,Lakalei,d,initial,3,coronal stop,0.67,coronal stop:2; rhotic:1
+laka1255,laka1255,Lakalei,d,medial,3,rhotic,1.0,rhotic:3
+laka1255,laka1255,Lakalei,h,final,1,∅,1.0,∅:1
+laka1255,laka1255,Lakalei,h,initial,1,glottal stop,1.0,glottal stop:1
+laka1255,laka1255,Lakalei,h,medial,1,∅,1.0,∅:1
+laka1255,laka1255,Lakalei,j,medial,2,n,0.5,n:1; rhotic:1
+laka1255,laka1255,Lakalei,k,final,3,∅,0.67,∅:2; velar stop:1
+laka1255,laka1255,Lakalei,k,medial,2,∅,0.5,∅:1; velar stop:1
+laka1255,laka1255,Lakalei,l,initial,1,l,1.0,l:1
+laka1255,laka1255,Lakalei,l,medial,6,l,0.83,l:5; glottal stop:1
+laka1255,laka1255,Lakalei,m,final,1,∅,1.0,∅:1
+laka1255,laka1255,Lakalei,m,initial,6,m,0.67,m:4; ∅:2
+laka1255,laka1255,Lakalei,m,medial,3,m,1.0,m:3
+laka1255,laka1255,Lakalei,ma-p,medial,1,b,1.0,b:1
+laka1255,laka1255,Lakalei,n,final,6,n,0.67,n:4; ∅:2
+laka1255,laka1255,Lakalei,n,initial,2,n,1.0,n:2
+laka1255,laka1255,Lakalei,n,medial,6,n,0.83,n:5; ∅:1
+laka1255,laka1255,Lakalei,p,initial,1,labial stop,1.0,labial stop:1
+laka1255,laka1255,Lakalei,p,medial,3,∅,0.33,∅:1; h:1; glottal stop:1
+laka1255,laka1255,Lakalei,q,final,6,n,0.5,n:3; ∅:2; velar stop:1
+laka1255,laka1255,Lakalei,q,initial,4,h,0.25,h:1; m:1; ∅:1; coronal stop:1
+laka1255,laka1255,Lakalei,s,final,1,sibilant,1.0,sibilant:1
+laka1255,laka1255,Lakalei,s,initial,2,sibilant,1.0,sibilant:2
+laka1255,laka1255,Lakalei,s,medial,6,sibilant,1.0,sibilant:6
+laka1255,laka1255,Lakalei,t,final,1,coronal stop,1.0,coronal stop:1
+laka1255,laka1255,Lakalei,t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+laka1255,laka1255,Lakalei,t,medial,4,coronal stop,1.0,coronal stop:4
+laka1255,laka1255,Lakalei,y,final,1,∅,1.0,∅:1
+laka1255,laka1255,Lakalei,z,medial,2,glottal stop,0.5,glottal stop:1; ∅:1
+laka1255,laka1255,Lakalei,ŋ,final,1,n,1.0,n:1
+laka1255,laka1255,Lakalei,ŋ,initial,1,n,1.0,n:1
+laka1255,laka1255,Lakalei,ŋ,medial,1,n,1.0,n:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",R,final,7,∅,0.71,∅:5; vowel:1; glottal stop:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",R,medial,1,glottal stop,1.0,glottal stop:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",b,initial,5,w,0.6,w:3; labial stop:2
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",b,medial,1,w,1.0,w:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",d,initial,5,coronal stop,0.4,coronal stop:2; labial stop:1; w:1; rhotic:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",d,medial,2,n,0.5,n:1; rhotic:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",h,final,1,∅,1.0,∅:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",h,initial,3,∅,1.0,∅:3
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",h,medial,2,∅,1.0,∅:2
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",j,medial,3,rhotic,1.0,rhotic:3
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",k,final,2,∅,0.5,∅:1; glottal stop:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",k,initial,5,velar stop,0.8,velar stop:4; ∅:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",k,medial,4,velar stop,1.0,velar stop:4
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",l,initial,1,l,1.0,l:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",l,medial,11,l,0.91,l:10; glottal stop:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",m,final,1,ŋ,1.0,ŋ:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",m,initial,3,m,1.0,m:3
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",m,medial,2,m,1.0,m:2
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",n,final,8,ŋ,0.5,ŋ:4; glottal stop:2; ∅:1; n:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",n,initial,2,∅,0.5,∅:1; n:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",n,medial,7,n,0.86,n:6; sibilant:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",p,initial,3,labial stop,1.0,labial stop:3
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",p,medial,4,labial stop,1.0,labial stop:4
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",q,final,7,∅,0.29,∅:2; velar stop:2; glottal stop:2; ŋ:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",q,initial,6,∅,0.83,∅:5; velar stop:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",q,medial,1,∅,1.0,∅:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",r,final,1,glottal stop,1.0,glottal stop:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",s,final,2,∅,0.5,∅:1; ŋ:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",s,medial,2,h,0.5,h:1; sibilant:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",t,final,2,∅,1.0,∅:2
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",t,initial,10,coronal stop,1.0,coronal stop:10
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",t,medial,7,coronal stop,1.0,coronal stop:7
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",w,final,3,∅,1.0,∅:3
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",w,initial,1,w,1.0,w:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",w,medial,1,w,1.0,w:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",y,final,1,∅,1.0,∅:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",y,medial,1,vowel,1.0,vowel:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",z,medial,1,rhotic,1.0,rhotic:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",ñ,medial,1,n,1.0,n:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",ŋ,final,2,ŋ,1.0,ŋ:2
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",ŋ,initial,1,n,1.0,n:1
+lama1277-lewoi,lama1277,"Ile Mandiri Lamaholot, Lewoingu",ŋ,medial,5,ŋ,0.8,ŋ:4; n:1
+lole1239,lole1239,Lole,R,final,2,velar stop,0.5,velar stop:1; n:1
+lole1239,lole1239,Lole,R,initial,1,∅,1.0,∅:1
+lole1239,lole1239,Lole,R,medial,6,∅,0.67,∅:4; velar stop:1; l:1
+lole1239,lole1239,Lole,b,final,1,∅,1.0,∅:1
+lole1239,lole1239,Lole,b,initial,9,labial stop,0.89,labial stop:8; labial fricative:1
+lole1239,lole1239,Lole,b,medial,4,labial stop,0.75,labial stop:3; labial fricative:1
+lole1239,lole1239,Lole,d,initial,6,coronal stop,0.83,coronal stop:5; n:1
+lole1239,lole1239,Lole,d,medial,4,l,0.75,l:3; ∅:1
+lole1239,lole1239,Lole,h,final,1,∅,1.0,∅:1
+lole1239,lole1239,Lole,h,initial,1,∅,1.0,∅:1
+lole1239,lole1239,Lole,h,medial,2,m,0.5,m:1; ∅:1
+lole1239,lole1239,Lole,j,final,1,velar stop,1.0,velar stop:1
+lole1239,lole1239,Lole,j,medial,1,coronal stop,1.0,coronal stop:1
+lole1239,lole1239,Lole,k,final,6,velar stop,0.83,velar stop:5; ∅:1
+lole1239,lole1239,Lole,k,initial,3,m,0.33,m:1; ∅:1; velar stop:1
+lole1239,lole1239,Lole,k,medial,5,velar stop,0.6,velar stop:3; ∅:1; glottal stop:1
+lole1239,lole1239,Lole,l,final,1,∅,1.0,∅:1
+lole1239,lole1239,Lole,l,initial,1,l,1.0,l:1
+lole1239,lole1239,Lole,l,medial,5,l,1.0,l:5
+lole1239,lole1239,Lole,m,final,1,∅,1.0,∅:1
+lole1239,lole1239,Lole,m,initial,14,m,0.71,m:10; ∅:4
+lole1239,lole1239,Lole,m,medial,3,m,1.0,m:3
+lole1239,lole1239,Lole,n,final,2,velar stop,0.5,velar stop:1; ∅:1
+lole1239,lole1239,Lole,n,medial,10,n,0.9,n:9; ∅:1
+lole1239,lole1239,Lole,p,medial,3,coronal stop,0.67,coronal stop:2; glottal stop:1
+lole1239,lole1239,Lole,q,final,10,∅,0.8,∅:8; velar stop:2
+lole1239,lole1239,Lole,q,initial,2,m,1.0,m:2
+lole1239,lole1239,Lole,q,medial,2,∅,0.5,∅:1; l:1
+lole1239,lole1239,Lole,s,final,1,sibilant,1.0,sibilant:1
+lole1239,lole1239,Lole,s,initial,2,sibilant,1.0,sibilant:2
+lole1239,lole1239,Lole,s,medial,7,sibilant,0.86,sibilant:6; l:1
+lole1239,lole1239,Lole,t,final,1,∅,1.0,∅:1
+lole1239,lole1239,Lole,t,initial,7,coronal stop,0.71,coronal stop:5; ∅:2
+lole1239,lole1239,Lole,t,medial,6,coronal stop,1.0,coronal stop:6
+lole1239,lole1239,Lole,w,final,1,∅,1.0,∅:1
+lole1239,lole1239,Lole,y,medial,1,vowel,1.0,vowel:1
+lole1239,lole1239,Lole,z,medial,1,coronal stop,1.0,coronal stop:1
+lole1239,lole1239,Lole,ŋ,final,2,∅,0.5,∅:1; velar stop:1
+lole1239,lole1239,Lole,ŋ,medial,4,n,0.75,n:3; velar stop:1
+luan1264,luan1264,Luang,R,medial,1,∅,1.0,∅:1
+luan1264,luan1264,Luang,b,initial,1,w,1.0,w:1
+luan1264,luan1264,Luang,b,medial,1,labial fricative,1.0,labial fricative:1
+luan1264,luan1264,Luang,h,final,1,∅,1.0,∅:1
+luan1264,luan1264,Luang,k,final,1,∅,1.0,∅:1
+luan1264,luan1264,Luang,k,medial,2,glottal stop,0.5,glottal stop:1; velar stop:1
+luan1264,luan1264,Luang,l,final,1,∅,1.0,∅:1
+luan1264,luan1264,Luang,l,initial,2,l,1.0,l:2
+luan1264,luan1264,Luang,l,medial,4,l,1.0,l:4
+luan1264,luan1264,Luang,m,initial,4,m,0.75,m:3; n:1
+luan1264,luan1264,Luang,m,medial,2,m,1.0,m:2
+luan1264,luan1264,Luang,n,final,1,∅,1.0,∅:1
+luan1264,luan1264,Luang,n,initial,1,n,1.0,n:1
+luan1264,luan1264,Luang,n,medial,4,n,1.0,n:4
+luan1264,luan1264,Luang,p,medial,2,h,0.5,h:1; labial stop:1
+luan1264,luan1264,Luang,q,final,2,∅,1.0,∅:2
+luan1264,luan1264,Luang,q,initial,2,∅,1.0,∅:2
+luan1264,luan1264,Luang,s,initial,1,∅,1.0,∅:1
+luan1264,luan1264,Luang,s,medial,2,h,1.0,h:2
+luan1264,luan1264,Luang,t,final,1,coronal stop,1.0,coronal stop:1
+luan1264,luan1264,Luang,t,initial,6,coronal stop,0.83,coronal stop:5; ∅:1
+luan1264,luan1264,Luang,t,medial,2,coronal stop,1.0,coronal stop:2
+luan1264,luan1264,Luang,ŋ,medial,2,n,1.0,n:2
+mamb1306,mamb1306,"Southern Mambae, Ainaro",R,medial,2,∅,1.0,∅:2
+mamb1306,mamb1306,"Southern Mambae, Ainaro",b,initial,4,h,1.0,h:4
+mamb1306,mamb1306,"Southern Mambae, Ainaro",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",d,initial,1,rhotic,1.0,rhotic:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",h,final,1,∅,1.0,∅:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",h,initial,2,l,0.5,l:1; glottal stop:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",h,medial,1,∅,1.0,∅:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",k,final,3,∅,1.0,∅:3
+mamb1306,mamb1306,"Southern Mambae, Ainaro",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",l,initial,1,l,1.0,l:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",l,medial,5,l,1.0,l:5
+mamb1306,mamb1306,"Southern Mambae, Ainaro",m,initial,4,m,0.75,m:3; ∅:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",m,medial,4,m,1.0,m:4
+mamb1306,mamb1306,"Southern Mambae, Ainaro",ma-p,medial,1,b,1.0,b:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",n,final,3,∅,1.0,∅:3
+mamb1306,mamb1306,"Southern Mambae, Ainaro",n,initial,2,n,1.0,n:2
+mamb1306,mamb1306,"Southern Mambae, Ainaro",n,medial,4,n,1.0,n:4
+mamb1306,mamb1306,"Southern Mambae, Ainaro",p,medial,2,labial stop,1.0,labial stop:2
+mamb1306,mamb1306,"Southern Mambae, Ainaro",q,final,3,∅,1.0,∅:3
+mamb1306,mamb1306,"Southern Mambae, Ainaro",q,initial,5,∅,0.4,∅:2; m:1; rhotic:1; coronal stop:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",s,initial,1,sibilant,1.0,sibilant:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",s,medial,4,sibilant,1.0,sibilant:4
+mamb1306,mamb1306,"Southern Mambae, Ainaro",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",t,initial,5,coronal stop,0.6,coronal stop:3; glottal stop:2
+mamb1306,mamb1306,"Southern Mambae, Ainaro",t,medial,3,coronal stop,1.0,coronal stop:3
+mamb1306,mamb1306,"Southern Mambae, Ainaro",y,final,1,∅,1.0,∅:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",z,medial,1,sibilant,1.0,sibilant:1
+mamb1306,mamb1306,"Southern Mambae, Ainaro",ŋ,medial,1,n,1.0,n:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",R,medial,3,∅,0.67,∅:2; sibilant:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",b,initial,2,h,1.0,h:2
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",h,initial,1,∅,1.0,∅:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",j,medial,2,n,1.0,n:2
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",l,initial,1,l,1.0,l:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",l,medial,4,l,1.0,l:4
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",m,initial,3,m,0.67,m:2; ∅:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",m,medial,2,labial stop,0.5,labial stop:1; m:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",ma-p,medial,1,b,1.0,b:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",n,final,4,∅,0.5,∅:2; n:2
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",n,initial,1,n,1.0,n:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",n,medial,1,n,1.0,n:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",p,medial,3,labial fricative,0.67,labial fricative:2; labial stop:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",q,final,2,∅,1.0,∅:2
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",q,initial,5,∅,0.6,∅:3; m:1; velar stop:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",s,medial,3,sibilant,1.0,sibilant:3
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",t,initial,2,∅,0.5,∅:1; coronal stop:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",t,medial,2,coronal stop,1.0,coronal stop:2
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",z,medial,1,sibilant,1.0,sibilant:1
+mamb1306-Caile,mamb1306,"Central Mambae, Aileu Vila",ŋ,final,2,n,1.0,n:2
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",R,medial,3,∅,0.67,∅:2; sibilant:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",b,initial,2,h,1.0,h:2
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",d,initial,1,coronal stop,1.0,coronal stop:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",d,medial,2,rhotic,0.5,rhotic:1; ∅:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",h,initial,1,∅,1.0,∅:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",j,medial,2,n,1.0,n:2
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",l,initial,1,l,1.0,l:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",l,medial,4,l,1.0,l:4
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",m,final,1,rhotic,1.0,rhotic:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",m,initial,3,m,0.67,m:2; ∅:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",m,medial,4,m,0.75,m:3; labial stop:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",ma-p,medial,1,p,1.0,p:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",n,final,4,∅,0.5,∅:2; n:2
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",n,initial,1,n,1.0,n:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",n,medial,1,n,1.0,n:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",p,medial,2,labial fricative,1.0,labial fricative:2
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",q,final,2,n,0.5,n:1; ∅:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",q,initial,6,∅,0.5,∅:3; m:1; velar stop:1; coronal stop:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",s,medial,3,sibilant,1.0,sibilant:3
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",t,initial,3,coronal stop,0.67,coronal stop:2; ∅:1
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",t,medial,2,coronal stop,1.0,coronal stop:2
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",z,medial,2,sibilant,1.0,sibilant:2
+mamb1306-Chatu,mamb1306,"Central Mambae, Hatu-Builico",ŋ,final,2,n,1.0,n:2
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",R,medial,3,∅,0.67,∅:2; sibilant:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",b,initial,2,h,1.0,h:2
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",h,initial,1,∅,1.0,∅:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",j,medial,2,n,1.0,n:2
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",l,initial,1,l,1.0,l:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",l,medial,4,l,1.0,l:4
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",m,initial,4,m,0.75,m:3; ∅:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",m,medial,2,m,1.0,m:2
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",ma-p,medial,1,b,1.0,b:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",n,final,4,∅,0.75,∅:3; n:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",n,initial,1,n,1.0,n:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",n,medial,3,n,0.67,n:2; ∅:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",p,medial,3,labial fricative,0.67,labial fricative:2; h:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",q,final,2,∅,1.0,∅:2
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",q,initial,5,∅,0.6,∅:3; m:1; velar stop:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",s,final,1,sibilant,1.0,sibilant:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",s,medial,3,sibilant,1.0,sibilant:3
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",t,initial,3,∅,0.67,∅:2; coronal stop:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",t,medial,2,coronal stop,1.0,coronal stop:2
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",z,medial,1,sibilant,1.0,sibilant:1
+mamb1306-Claul,mamb1306,"Central Mambae, Laulara",ŋ,final,2,n,1.0,n:2
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",R,medial,3,∅,0.67,∅:2; sibilant:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",b,initial,2,h,1.0,h:2
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",h,initial,1,∅,1.0,∅:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",j,medial,2,l,1.0,l:2
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",l,initial,1,l,1.0,l:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",l,medial,5,l,1.0,l:5
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",m,initial,4,m,0.75,m:3; ∅:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",m,medial,3,m,1.0,m:3
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",ma-p,medial,1,b,1.0,b:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",n,final,3,n,0.67,n:2; ∅:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",n,initial,1,n,1.0,n:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",n,medial,2,n,1.0,n:2
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",p,medial,2,labial fricative,1.0,labial fricative:2
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",q,final,3,n,1.0,n:3
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",q,initial,4,∅,0.75,∅:3; velar stop:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",s,medial,2,sibilant,1.0,sibilant:2
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",t,initial,4,coronal stop,0.5,coronal stop:2; ∅:2
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",t,medial,3,coronal stop,1.0,coronal stop:3
+mamb1306-Cliqu,mamb1306,"Central Mambae, Liquidoe",ŋ,final,2,n,1.0,n:2
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",R,medial,3,∅,0.67,∅:2; sibilant:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",b,initial,3,h,1.0,h:3
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",h,initial,1,∅,1.0,∅:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",j,medial,1,l,1.0,l:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",k,final,2,velar stop,0.5,velar stop:1; ∅:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",l,initial,1,l,1.0,l:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",l,medial,5,l,1.0,l:5
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",m,initial,4,m,0.75,m:3; ∅:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",m,medial,2,m,1.0,m:2
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",ma-p,medial,1,b,1.0,b:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",n,final,5,∅,0.6,∅:3; n:2
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",n,initial,1,n,1.0,n:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",n,medial,3,n,1.0,n:3
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",p,medial,4,labial stop,1.0,labial stop:4
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",q,final,2,∅,1.0,∅:2
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",q,initial,5,∅,0.6,∅:3; m:1; velar stop:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",s,medial,3,sibilant,1.0,sibilant:3
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",t,initial,2,coronal stop,1.0,coronal stop:2
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",t,medial,3,coronal stop,1.0,coronal stop:3
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",z,medial,1,sibilant,1.0,sibilant:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",ŋ,final,1,∅,1.0,∅:1
+mamb1306-NWbar,mamb1306,"Northwest Mambae, Barzatete",ŋ,medial,1,velar stop,1.0,velar stop:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",R,medial,3,∅,0.67,∅:2; sibilant:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",b,initial,3,h,1.0,h:3
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",d,initial,1,rhotic,1.0,rhotic:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",h,initial,1,∅,1.0,∅:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",h,medial,1,∅,1.0,∅:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",j,medial,2,l,1.0,l:2
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",k,final,1,∅,1.0,∅:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",l,initial,1,l,1.0,l:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",l,medial,5,l,0.8,l:4; velar stop:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",m,initial,4,m,0.75,m:3; ∅:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",m,medial,3,m,0.67,m:2; labial stop:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",ma-p,medial,1,b,1.0,b:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",n,final,5,∅,0.6,∅:3; n:2
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",n,initial,1,n,1.0,n:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",n,medial,2,n,1.0,n:2
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",p,medial,3,labial stop,1.0,labial stop:3
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",q,final,2,∅,1.0,∅:2
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",q,initial,6,∅,0.5,∅:3; m:1; velar stop:1; labial stop:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",s,medial,3,sibilant,1.0,sibilant:3
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",t,initial,3,coronal stop,0.67,coronal stop:2; labial stop:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",t,medial,3,coronal stop,1.0,coronal stop:3
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",z,medial,2,sibilant,0.5,sibilant:1; n:1
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",ŋ,final,2,n,1.0,n:2
+mamb1306-NWhat,mamb1306,"Northwest Mambae, Hatulia",ŋ,medial,1,n,1.0,n:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",R,final,1,n,1.0,n:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",R,medial,2,sibilant,0.5,sibilant:1; ∅:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",b,initial,3,h,1.0,h:3
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",h,initial,1,∅,1.0,∅:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",j,medial,2,l,1.0,l:2
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",k,final,1,∅,1.0,∅:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",l,initial,1,l,1.0,l:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",l,medial,7,l,1.0,l:7
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",m,initial,4,m,0.75,m:3; ∅:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",m,medial,3,m,1.0,m:3
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",ma-p,medial,1,b,1.0,b:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",n,final,5,∅,0.6,∅:3; n:2
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",n,initial,1,n,1.0,n:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",n,medial,3,n,1.0,n:3
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",p,medial,3,labial stop,1.0,labial stop:3
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",q,final,2,∅,1.0,∅:2
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",q,initial,5,∅,0.6,∅:3; velar stop:1; m:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",s,medial,1,sibilant,1.0,sibilant:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",t,initial,4,coronal stop,0.5,coronal stop:2; ∅:2
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",t,medial,4,coronal stop,1.0,coronal stop:4
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",z,medial,1,sibilant,1.0,sibilant:1
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",ŋ,final,2,n,1.0,n:2
+mamb1306-NWrai,mamb1306,"Northwest Mambae, Railaco",ŋ,medial,1,velar stop,1.0,velar stop:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",R,medial,2,∅,1.0,∅:2
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",b,initial,2,h,1.0,h:2
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",h,initial,2,l,0.5,l:1; ∅:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",j,medial,1,l,1.0,l:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",k,final,2,coronal stop,0.5,coronal stop:1; ∅:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",l,initial,1,l,1.0,l:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",l,medial,6,l,1.0,l:6
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",m,initial,5,m,0.8,m:4; ∅:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",m,medial,4,m,1.0,m:4
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",ma-p,medial,1,b,1.0,b:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",n,final,1,n,1.0,n:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",n,medial,4,n,1.0,n:4
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",p,medial,1,labial stop,1.0,labial stop:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",q,final,3,∅,0.67,∅:2; velar stop:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",q,initial,4,∅,0.75,∅:3; m:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",s,final,1,l,1.0,l:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",s,medial,3,sibilant,1.0,sibilant:3
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",t,initial,4,coronal stop,0.5,coronal stop:2; ∅:2
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",t,medial,4,coronal stop,1.0,coronal stop:4
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",ŋ,final,1,∅,1.0,∅:1
+mamb1306-Sbeta,mamb1306,"South Mambae, Betano",ŋ,medial,1,velar stop,1.0,velar stop:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",R,initial,1,∅,1.0,∅:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",R,medial,3,∅,0.67,∅:2; sibilant:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",b,initial,2,h,1.0,h:2
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",h,initial,2,l,0.5,l:1; ∅:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",j,medial,1,l,1.0,l:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",k,final,3,∅,1.0,∅:3
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",k,medial,4,∅,0.5,∅:2; velar stop:1; l:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",l,initial,2,l,1.0,l:2
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",l,medial,5,l,1.0,l:5
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",m,final,1,m,1.0,m:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",m,initial,4,m,0.75,m:3; ∅:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",m,medial,4,m,1.0,m:4
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",ma-p,medial,1,b,1.0,b:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",n,final,2,∅,0.5,∅:1; n:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",n,medial,4,n,1.0,n:4
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",p,medial,1,labial fricative,1.0,labial fricative:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",q,final,4,∅,0.75,∅:3; velar stop:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",q,initial,2,m,0.5,m:1; velar stop:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",s,final,1,l,1.0,l:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",s,initial,1,sibilant,1.0,sibilant:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",s,medial,2,sibilant,1.0,sibilant:2
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",t,medial,5,coronal stop,1.0,coronal stop:5
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",w,final,1,∅,1.0,∅:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",z,initial,1,coronal stop,1.0,coronal stop:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",ŋ,final,1,∅,1.0,∅:1
+mamb1306-Slete,mamb1306,"South Mambae, Letefoho",ŋ,medial,1,velar stop,1.0,velar stop:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",R,medial,3,∅,0.67,∅:2; sibilant:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",b,initial,4,h,0.75,h:3; m:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",b,medial,1,labial stop,1.0,labial stop:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",d,initial,1,rhotic,1.0,rhotic:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",d,medial,1,rhotic,1.0,rhotic:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",h,final,1,∅,1.0,∅:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",h,initial,2,l,0.5,l:1; ∅:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",h,medial,1,∅,1.0,∅:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",j,medial,1,l,1.0,l:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",k,final,2,coronal stop,0.5,coronal stop:1; n:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",k,medial,2,∅,0.5,∅:1; velar stop:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",l,initial,1,l,1.0,l:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",l,medial,8,l,1.0,l:8
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",m,initial,4,m,0.75,m:3; ∅:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",m,medial,4,m,1.0,m:4
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",ma-p,medial,1,b,1.0,b:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",n,final,3,∅,0.67,∅:2; n:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",n,initial,1,n,1.0,n:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",n,medial,5,n,1.0,n:5
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",p,medial,2,labial stop,1.0,labial stop:2
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",q,final,2,∅,1.0,∅:2
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",q,initial,5,∅,0.6,∅:3; m:1; l:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",s,final,1,l,1.0,l:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",s,medial,3,sibilant,1.0,sibilant:3
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",t,final,1,coronal stop,1.0,coronal stop:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",t,initial,5,coronal stop,0.6,coronal stop:3; ∅:2
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",t,medial,3,coronal stop,1.0,coronal stop:3
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",ŋ,final,1,∅,1.0,∅:1
+mamb1306-Sudo,mamb1306,"South Mambae, Hatu-Udo",ŋ,medial,1,velar stop,1.0,velar stop:1
+midi1237,midi1237,Midiki,R,final,2,∅,1.0,∅:2
+midi1237,midi1237,Midiki,R,medial,2,∅,0.5,∅:1; glottal stop:1
+midi1237,midi1237,Midiki,b,initial,3,w,1.0,w:3
+midi1237,midi1237,Midiki,d,medial,2,rhotic,1.0,rhotic:2
+midi1237,midi1237,Midiki,h,final,1,∅,1.0,∅:1
+midi1237,midi1237,Midiki,h,initial,3,∅,0.67,∅:2; y:1
+midi1237,midi1237,Midiki,h,medial,1,∅,1.0,∅:1
+midi1237,midi1237,Midiki,j,medial,1,∅,1.0,∅:1
+midi1237,midi1237,Midiki,k,final,3,∅,1.0,∅:3
+midi1237,midi1237,Midiki,k,initial,3,velar stop,1.0,velar stop:3
+midi1237,midi1237,Midiki,k,medial,5,velar stop,1.0,velar stop:5
+midi1237,midi1237,Midiki,l,initial,3,l,1.0,l:3
+midi1237,midi1237,Midiki,l,medial,4,l,1.0,l:4
+midi1237,midi1237,Midiki,m,final,1,∅,1.0,∅:1
+midi1237,midi1237,Midiki,m,initial,5,m,0.8,m:4; ∅:1
+midi1237,midi1237,Midiki,m,medial,5,m,1.0,m:5
+midi1237,midi1237,Midiki,ma-p,medial,1,b,1.0,b:1
+midi1237,midi1237,Midiki,n,final,5,∅,0.8,∅:4; n:1
+midi1237,midi1237,Midiki,n,initial,1,n,1.0,n:1
+midi1237,midi1237,Midiki,n,medial,5,n,1.0,n:5
+midi1237,midi1237,Midiki,q,final,6,∅,1.0,∅:6
+midi1237,midi1237,Midiki,q,initial,3,n,0.33,n:1; ∅:1; coronal stop:1
+midi1237,midi1237,Midiki,s,final,1,∅,1.0,∅:1
+midi1237,midi1237,Midiki,s,initial,1,sibilant,1.0,sibilant:1
+midi1237,midi1237,Midiki,s,medial,4,sibilant,1.0,sibilant:4
+midi1237,midi1237,Midiki,t,final,1,ŋ,1.0,ŋ:1
+midi1237,midi1237,Midiki,t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+midi1237,midi1237,Midiki,t,medial,5,coronal stop,1.0,coronal stop:5
+midi1237,midi1237,Midiki,w,final,1,∅,1.0,∅:1
+midi1237,midi1237,Midiki,w,initial,1,w,1.0,w:1
+midi1237,midi1237,Midiki,y,final,1,∅,1.0,∅:1
+midi1237,midi1237,Midiki,z,medial,2,glottal stop,0.5,glottal stop:1; w:1
+midi1237,midi1237,Midiki,ŋ,initial,1,n,1.0,n:1
+midi1237,midi1237,Midiki,ŋ,medial,3,n,1.0,n:3
+naue1237,naue1237,Naueti,R,final,5,∅,1.0,∅:5
+naue1237,naue1237,Naueti,R,initial,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,R,medial,3,∅,0.67,∅:2; coronal stop:1
+naue1237,naue1237,Naueti,b,initial,3,w,1.0,w:3
+naue1237,naue1237,Naueti,d,initial,3,coronal stop,1.0,coronal stop:3
+naue1237,naue1237,Naueti,d,medial,1,rhotic,1.0,rhotic:1
+naue1237,naue1237,Naueti,h,final,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,h,initial,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,h,medial,2,h,0.5,h:1; ∅:1
+naue1237,naue1237,Naueti,j,medial,1,rhotic,1.0,rhotic:1
+naue1237,naue1237,Naueti,k,final,3,∅,1.0,∅:3
+naue1237,naue1237,Naueti,k,initial,4,velar stop,1.0,velar stop:4
+naue1237,naue1237,Naueti,k,medial,4,velar stop,1.0,velar stop:4
+naue1237,naue1237,Naueti,l,initial,2,l,1.0,l:2
+naue1237,naue1237,Naueti,l,medial,11,l,0.91,l:10; velar stop:1
+naue1237,naue1237,Naueti,m,final,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,m,initial,5,m,1.0,m:5
+naue1237,naue1237,Naueti,m,medial,7,m,1.0,m:7
+naue1237,naue1237,Naueti,n,final,3,∅,0.67,∅:2; n:1
+naue1237,naue1237,Naueti,n,medial,4,n,0.75,n:3; ∅:1
+naue1237,naue1237,Naueti,p,final,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,p,initial,1,labial stop,1.0,labial stop:1
+naue1237,naue1237,Naueti,q,final,5,∅,1.0,∅:5
+naue1237,naue1237,Naueti,q,initial,7,∅,0.86,∅:6; n:1
+naue1237,naue1237,Naueti,q,medial,1,glottal stop,1.0,glottal stop:1
+naue1237,naue1237,Naueti,s,final,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,s,initial,2,sibilant,1.0,sibilant:2
+naue1237,naue1237,Naueti,s,medial,5,sibilant,1.0,sibilant:5
+naue1237,naue1237,Naueti,t,final,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+naue1237,naue1237,Naueti,t,medial,7,coronal stop,1.0,coronal stop:7
+naue1237,naue1237,Naueti,w,final,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,w,initial,1,w,1.0,w:1
+naue1237,naue1237,Naueti,y,final,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,ŋ,final,1,∅,1.0,∅:1
+naue1237,naue1237,Naueti,ŋ,medial,1,n,1.0,n:1
+nort2860,nort2860,North Babar,R,medial,1,∅,1.0,∅:1
+nort2860,nort2860,North Babar,k,final,2,∅,0.5,∅:1; y:1
+nort2860,nort2860,North Babar,k,medial,1,w,1.0,w:1
+nort2860,nort2860,North Babar,l,initial,1,n,1.0,n:1
+nort2860,nort2860,North Babar,m,initial,2,m,1.0,m:2
+nort2860,nort2860,North Babar,m,medial,1,m,1.0,m:1
+nort2860,nort2860,North Babar,n,medial,3,n,1.0,n:3
+nort2860,nort2860,North Babar,q,final,1,∅,1.0,∅:1
+nort2860,nort2860,North Babar,t,initial,1,velar stop,1.0,velar stop:1
+ring1244,ring1244,Rikou,R,final,2,∅,0.5,∅:1; n:1
+ring1244,ring1244,Rikou,R,initial,1,∅,1.0,∅:1
+ring1244,ring1244,Rikou,R,medial,1,∅,1.0,∅:1
+ring1244,ring1244,Rikou,b,initial,5,labial stop,1.0,labial stop:5
+ring1244,ring1244,Rikou,b,medial,2,labial fricative,1.0,labial fricative:2
+ring1244,ring1244,Rikou,d,initial,3,coronal stop,0.67,coronal stop:2; n:1
+ring1244,ring1244,Rikou,d,medial,4,rhotic,0.75,rhotic:3; ∅:1
+ring1244,ring1244,Rikou,h,initial,3,∅,1.0,∅:3
+ring1244,ring1244,Rikou,h,medial,1,∅,1.0,∅:1
+ring1244,ring1244,Rikou,k,final,3,glottal stop,0.67,glottal stop:2; ∅:1
+ring1244,ring1244,Rikou,k,medial,3,velar stop,0.67,velar stop:2; ∅:1
+ring1244,ring1244,Rikou,l,initial,1,l,1.0,l:1
+ring1244,ring1244,Rikou,l,medial,3,l,1.0,l:3
+ring1244,ring1244,Rikou,m,initial,3,m,1.0,m:3
+ring1244,ring1244,Rikou,m,medial,4,m,1.0,m:4
+ring1244,ring1244,Rikou,n,final,3,glottal stop,0.67,glottal stop:2; ∅:1
+ring1244,ring1244,Rikou,n,medial,5,n,0.8,n:4; ∅:1
+ring1244,ring1244,Rikou,p,initial,1,labial stop,1.0,labial stop:1
+ring1244,ring1244,Rikou,q,final,6,∅,0.67,∅:4; glottal stop:2
+ring1244,ring1244,Rikou,q,initial,2,m,0.5,m:1; ∅:1
+ring1244,ring1244,Rikou,q,medial,1,∅,1.0,∅:1
+ring1244,ring1244,Rikou,s,initial,1,sibilant,1.0,sibilant:1
+ring1244,ring1244,Rikou,s,medial,4,sibilant,1.0,sibilant:4
+ring1244,ring1244,Rikou,t,initial,4,coronal stop,0.75,coronal stop:3; ∅:1
+ring1244,ring1244,Rikou,t,medial,2,coronal stop,1.0,coronal stop:2
+ring1244,ring1244,Rikou,w,final,1,∅,1.0,∅:1
+ring1244,ring1244,Rikou,ŋ,final,1,glottal stop,1.0,glottal stop:1
+ring1244,ring1244,Rikou,ŋ,medial,4,n,1.0,n:4
+rois1241,rois1241,Ro'is Amarasi,R,final,1,labial fricative,1.0,labial fricative:1
+rois1241,rois1241,Ro'is Amarasi,R,medial,1,velar stop,1.0,velar stop:1
+rois1241,rois1241,Ro'is Amarasi,b,initial,2,labial fricative,1.0,labial fricative:2
+rois1241,rois1241,Ro'is Amarasi,b,medial,1,labial stop,1.0,labial stop:1
+rois1241,rois1241,Ro'is Amarasi,d,initial,1,n,1.0,n:1
+rois1241,rois1241,Ro'is Amarasi,d,medial,3,n,0.33,n:1; ∅:1; velar stop:1
+rois1241,rois1241,Ro'is Amarasi,h,final,1,∅,1.0,∅:1
+rois1241,rois1241,Ro'is Amarasi,h,initial,2,∅,1.0,∅:2
+rois1241,rois1241,Ro'is Amarasi,h,medial,1,∅,1.0,∅:1
+rois1241,rois1241,Ro'is Amarasi,k,final,2,∅,0.5,∅:1; glottal stop:1
+rois1241,rois1241,Ro'is Amarasi,k,initial,3,velar stop,0.33,velar stop:1; m:1; n:1
+rois1241,rois1241,Ro'is Amarasi,k,medial,4,velar stop,0.5,velar stop:2; ∅:1; h:1
+rois1241,rois1241,Ro'is Amarasi,l,initial,1,n,1.0,n:1
+rois1241,rois1241,Ro'is Amarasi,l,medial,2,n,1.0,n:2
+rois1241,rois1241,Ro'is Amarasi,m,final,1,∅,1.0,∅:1
+rois1241,rois1241,Ro'is Amarasi,m,initial,5,m,0.8,m:4; n:1
+rois1241,rois1241,Ro'is Amarasi,m,medial,2,m,1.0,m:2
+rois1241,rois1241,Ro'is Amarasi,ma-p,medial,1,∅,1.0,∅:1
+rois1241,rois1241,Ro'is Amarasi,n,final,3,n,0.67,n:2; glottal stop:1
+rois1241,rois1241,Ro'is Amarasi,n,medial,5,n,1.0,n:5
+rois1241,rois1241,Ro'is Amarasi,q,final,3,glottal stop,1.0,glottal stop:3
+rois1241,rois1241,Ro'is Amarasi,q,initial,2,m,1.0,m:2
+rois1241,rois1241,Ro'is Amarasi,s,initial,1,sibilant,1.0,sibilant:1
+rois1241,rois1241,Ro'is Amarasi,s,medial,5,sibilant,1.0,sibilant:5
+rois1241,rois1241,Ro'is Amarasi,t,final,1,∅,1.0,∅:1
+rois1241,rois1241,Ro'is Amarasi,t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+rois1241,rois1241,Ro'is Amarasi,t,medial,4,coronal stop,1.0,coronal stop:4
+rois1241,rois1241,Ro'is Amarasi,w,medial,1,sibilant,1.0,sibilant:1
+rois1241,rois1241,Ro'is Amarasi,z,initial,1,n,1.0,n:1
+rois1241,rois1241,Ro'is Amarasi,ŋ,final,1,n,1.0,n:1
+rois1241,rois1241,Ro'is Amarasi,ŋ,medial,2,n,1.0,n:2
+roma1332,roma1332,Roma,R,final,1,vowel,1.0,vowel:1
+roma1332,roma1332,Roma,R,medial,1,∅,1.0,∅:1
+roma1332,roma1332,Roma,b,initial,3,w,0.67,w:2; h:1
+roma1332,roma1332,Roma,b,medial,1,∅,1.0,∅:1
+roma1332,roma1332,Roma,d,initial,1,coronal stop,1.0,coronal stop:1
+roma1332,roma1332,Roma,d,medial,2,coronal stop,1.0,coronal stop:2
+roma1332,roma1332,Roma,h,final,1,∅,1.0,∅:1
+roma1332,roma1332,Roma,h,medial,1,∅,1.0,∅:1
+roma1332,roma1332,Roma,j,medial,2,rhotic,1.0,rhotic:2
+roma1332,roma1332,Roma,k,final,4,n,0.5,n:2; ∅:2
+roma1332,roma1332,Roma,k,initial,1,∅,1.0,∅:1
+roma1332,roma1332,Roma,k,medial,1,velar stop,1.0,velar stop:1
+roma1332,roma1332,Roma,l,initial,2,l,1.0,l:2
+roma1332,roma1332,Roma,l,medial,7,l,1.0,l:7
+roma1332,roma1332,Roma,m,initial,5,m,1.0,m:5
+roma1332,roma1332,Roma,m,medial,4,m,0.75,m:3; n:1
+roma1332,roma1332,Roma,n,final,5,n,1.0,n:5
+roma1332,roma1332,Roma,n,initial,4,n,1.0,n:4
+roma1332,roma1332,Roma,n,medial,6,n,1.0,n:6
+roma1332,roma1332,Roma,p,medial,3,h,0.67,h:2; ∅:1
+roma1332,roma1332,Roma,q,initial,4,∅,1.0,∅:4
+roma1332,roma1332,Roma,s,initial,1,h,1.0,h:1
+roma1332,roma1332,Roma,s,medial,3,h,0.67,h:2; coronal stop:1
+roma1332,roma1332,Roma,t,final,2,coronal stop,1.0,coronal stop:2
+roma1332,roma1332,Roma,t,initial,5,coronal stop,0.6,coronal stop:3; ∅:1; h:1
+roma1332,roma1332,Roma,t,medial,2,coronal stop,1.0,coronal stop:2
+roma1332,roma1332,Roma,y,final,3,∅,1.0,∅:3
+roma1332,roma1332,Roma,ŋ,final,2,n,1.0,n:2
+roma1332,roma1332,Roma,ŋ,initial,1,n,1.0,n:1
+roma1332,roma1332,Roma,ŋ,medial,4,n,0.75,n:3; ∅:1
+seri1255,seri1255,Serili,k,final,1,∅,1.0,∅:1
+seri1255,seri1255,Serili,k,initial,1,velar stop,1.0,velar stop:1
+seri1255,seri1255,Serili,l,medial,1,l,1.0,l:1
+seri1255,seri1255,Serili,m,initial,1,m,1.0,m:1
+seri1255,seri1255,Serili,m,medial,1,m,1.0,m:1
+seri1255,seri1255,Serili,n,final,1,l,1.0,l:1
+seri1255,seri1255,Serili,n,medial,1,n,1.0,n:1
+seri1255,seri1255,Serili,q,initial,2,∅,0.5,∅:1; velar stop:1
+seri1255,seri1255,Serili,z,medial,1,labial stop,1.0,labial stop:1
+sika1262-hewa,sika1262,"Sika, Hewa",R,final,3,rhotic,1.0,rhotic:3
+sika1262-hewa,sika1262,"Sika, Hewa",R,medial,3,rhotic,0.67,rhotic:2; ∅:1
+sika1262-hewa,sika1262,"Sika, Hewa",b,initial,5,labial fricative,0.8,labial fricative:4; labial stop:1
+sika1262-hewa,sika1262,"Sika, Hewa",b,medial,2,labial stop,0.5,labial stop:1; labial fricative:1
+sika1262-hewa,sika1262,"Sika, Hewa",d,initial,1,rhotic,1.0,rhotic:1
+sika1262-hewa,sika1262,"Sika, Hewa",h,final,1,∅,1.0,∅:1
+sika1262-hewa,sika1262,"Sika, Hewa",h,initial,5,∅,0.8,∅:4; m:1
+sika1262-hewa,sika1262,"Sika, Hewa",h,medial,3,∅,0.67,∅:2; glottal stop:1
+sika1262-hewa,sika1262,"Sika, Hewa",j,medial,2,rhotic,1.0,rhotic:2
+sika1262-hewa,sika1262,"Sika, Hewa",k,final,3,velar stop,0.67,velar stop:2; ∅:1
+sika1262-hewa,sika1262,"Sika, Hewa",k,initial,8,∅,0.38,∅:3; glottal stop:3; velar stop:1; m:1
+sika1262-hewa,sika1262,"Sika, Hewa",k,medial,3,glottal stop,1.0,glottal stop:3
+sika1262-hewa,sika1262,"Sika, Hewa",l,initial,1,l,1.0,l:1
+sika1262-hewa,sika1262,"Sika, Hewa",l,medial,8,l,1.0,l:8
+sika1262-hewa,sika1262,"Sika, Hewa",m,final,1,∅,1.0,∅:1
+sika1262-hewa,sika1262,"Sika, Hewa",m,initial,4,m,1.0,m:4
+sika1262-hewa,sika1262,"Sika, Hewa",m,medial,6,m,1.0,m:6
+sika1262-hewa,sika1262,"Sika, Hewa",n,final,6,n,1.0,n:6
+sika1262-hewa,sika1262,"Sika, Hewa",n,initial,1,n,1.0,n:1
+sika1262-hewa,sika1262,"Sika, Hewa",n,medial,7,n,1.0,n:7
+sika1262-hewa,sika1262,"Sika, Hewa",p,initial,3,labial stop,1.0,labial stop:3
+sika1262-hewa,sika1262,"Sika, Hewa",p,medial,3,labial stop,1.0,labial stop:3
+sika1262-hewa,sika1262,"Sika, Hewa",q,final,8,∅,0.5,∅:4; glottal stop:2; n:1; coronal stop:1
+sika1262-hewa,sika1262,"Sika, Hewa",q,initial,3,∅,1.0,∅:3
+sika1262-hewa,sika1262,"Sika, Hewa",q,medial,1,glottal stop,1.0,glottal stop:1
+sika1262-hewa,sika1262,"Sika, Hewa",r,medial,1,rhotic,1.0,rhotic:1
+sika1262-hewa,sika1262,"Sika, Hewa",s,final,1,∅,1.0,∅:1
+sika1262-hewa,sika1262,"Sika, Hewa",s,initial,1,∅,1.0,∅:1
+sika1262-hewa,sika1262,"Sika, Hewa",s,medial,4,h,1.0,h:4
+sika1262-hewa,sika1262,"Sika, Hewa",t,final,3,coronal stop,0.67,coronal stop:2; n:1
+sika1262-hewa,sika1262,"Sika, Hewa",t,initial,9,coronal stop,0.67,coronal stop:6; ∅:2; rhotic:1
+sika1262-hewa,sika1262,"Sika, Hewa",t,medial,4,coronal stop,1.0,coronal stop:4
+sika1262-hewa,sika1262,"Sika, Hewa",w,final,2,∅,1.0,∅:2
+sika1262-hewa,sika1262,"Sika, Hewa",w,initial,1,labial fricative,1.0,labial fricative:1
+sika1262-hewa,sika1262,"Sika, Hewa",w,medial,1,labial fricative,1.0,labial fricative:1
+sika1262-hewa,sika1262,"Sika, Hewa",y,final,1,∅,1.0,∅:1
+sika1262-hewa,sika1262,"Sika, Hewa",y,medial,1,vowel,1.0,vowel:1
+sika1262-hewa,sika1262,"Sika, Hewa",z,initial,1,rhotic,1.0,rhotic:1
+sika1262-hewa,sika1262,"Sika, Hewa",z,medial,1,rhotic,1.0,rhotic:1
+sika1262-hewa,sika1262,"Sika, Hewa",ñ,medial,1,n,1.0,n:1
+sika1262-hewa,sika1262,"Sika, Hewa",ŋ,final,1,∅,1.0,∅:1
+sika1262-hewa,sika1262,"Sika, Hewa",ŋ,initial,1,n,1.0,n:1
+sika1262-hewa,sika1262,"Sika, Hewa",ŋ,medial,4,n,1.0,n:4
+sout2883,sout2883,"Southeast Babar, Kokwari",R,medial,1,∅,1.0,∅:1
+sout2883,sout2883,"Southeast Babar, Kokwari",k,final,1,∅,1.0,∅:1
+sout2883,sout2883,"Southeast Babar, Kokwari",k,initial,1,velar stop,1.0,velar stop:1
+sout2883,sout2883,"Southeast Babar, Kokwari",l,medial,1,l,1.0,l:1
+sout2883,sout2883,"Southeast Babar, Kokwari",m,initial,2,m,1.0,m:2
+sout2883,sout2883,"Southeast Babar, Kokwari",m,medial,1,m,1.0,m:1
+sout2883,sout2883,"Southeast Babar, Kokwari",n,final,1,l,1.0,l:1
+sout2883,sout2883,"Southeast Babar, Kokwari",n,medial,1,n,1.0,n:1
+sout2883,sout2883,"Southeast Babar, Kokwari",q,initial,1,∅,1.0,∅:1
+tela1241,tela1241,Tela-Masbuar,R,medial,1,∅,1.0,∅:1
+tela1241,tela1241,Tela-Masbuar,m,initial,1,m,1.0,m:1
+tela1241,tela1241,Tela-Masbuar,n,final,1,n,1.0,n:1
+tela1241,tela1241,Tela-Masbuar,n,initial,1,n,1.0,n:1
+tela1241,tela1241,Tela-Masbuar,n,medial,2,n,1.0,n:2
+tela1241,tela1241,Tela-Masbuar,p,initial,1,labial stop,1.0,labial stop:1
+tela1241,tela1241,Tela-Masbuar,p,medial,1,∅,1.0,∅:1
+tela1241,tela1241,Tela-Masbuar,q,final,1,∅,1.0,∅:1
+tela1241,tela1241,Tela-Masbuar,q,initial,1,velar stop,1.0,velar stop:1
+tela1241,tela1241,Tela-Masbuar,t,initial,2,velar stop,0.5,velar stop:1; ∅:1
+tela1241,tela1241,Tela-Masbuar,w,final,1,velar stop,1.0,velar stop:1
+tela1241,tela1241,Tela-Masbuar,z,medial,1,rhotic,1.0,rhotic:1
+tela1241,tela1241,Tela-Masbuar,ñ,medial,1,n,1.0,n:1
+term1237,term1237,Termanu,R,final,1,velar stop,1.0,velar stop:1
+term1237,term1237,Termanu,R,initial,1,∅,1.0,∅:1
+term1237,term1237,Termanu,R,medial,5,∅,0.4,∅:2; velar stop:1; coronal stop:1; l:1
+term1237,term1237,Termanu,b,final,1,∅,1.0,∅:1
+term1237,term1237,Termanu,b,initial,8,labial stop,0.75,labial stop:6; h:1; labial fricative:1
+term1237,term1237,Termanu,b,medial,6,labial stop,0.5,labial stop:3; labial fricative:2; velar stop:1
+term1237,term1237,Termanu,d,initial,5,coronal stop,1.0,coronal stop:5
+term1237,term1237,Termanu,d,medial,2,l,1.0,l:2
+term1237,term1237,Termanu,h,final,1,∅,1.0,∅:1
+term1237,term1237,Termanu,h,initial,1,∅,1.0,∅:1
+term1237,term1237,Termanu,h,medial,2,m,0.5,m:1; ∅:1
+term1237,term1237,Termanu,j,final,1,velar stop,1.0,velar stop:1
+term1237,term1237,Termanu,j,medial,1,coronal stop,1.0,coronal stop:1
+term1237,term1237,Termanu,k,final,9,velar stop,0.67,velar stop:6; ∅:2; labial stop:1
+term1237,term1237,Termanu,k,initial,3,m,0.33,m:1; n:1; velar stop:1
+term1237,term1237,Termanu,k,medial,5,velar stop,0.8,velar stop:4; ∅:1
+term1237,term1237,Termanu,l,final,1,velar stop,1.0,velar stop:1
+term1237,term1237,Termanu,l,initial,1,l,1.0,l:1
+term1237,term1237,Termanu,l,medial,7,l,1.0,l:7
+term1237,term1237,Termanu,m,final,1,∅,1.0,∅:1
+term1237,term1237,Termanu,m,initial,15,m,0.73,m:11; ∅:4
+term1237,term1237,Termanu,m,medial,4,m,1.0,m:4
+term1237,term1237,Termanu,n,final,4,velar stop,0.5,velar stop:2; n:2
+term1237,term1237,Termanu,n,medial,12,n,0.92,n:11; ∅:1
+term1237,term1237,Termanu,p,medial,3,labial stop,0.33,labial stop:1; glottal stop:1; coronal stop:1
+term1237,term1237,Termanu,q,final,10,∅,0.5,∅:5; velar stop:5
+term1237,term1237,Termanu,q,initial,6,∅,0.5,∅:3; sibilant:2; m:1
+term1237,term1237,Termanu,q,medial,2,n,0.5,n:1; ∅:1
+term1237,term1237,Termanu,s,final,2,sibilant,1.0,sibilant:2
+term1237,term1237,Termanu,s,initial,2,sibilant,1.0,sibilant:2
+term1237,term1237,Termanu,s,medial,7,sibilant,0.57,sibilant:4; glottal stop:1; h:1; l:1
+term1237,term1237,Termanu,t,initial,7,coronal stop,0.71,coronal stop:5; ∅:2
+term1237,term1237,Termanu,t,medial,6,coronal stop,0.67,coronal stop:4; labial fricative:2
+term1237,term1237,Termanu,w,final,1,∅,1.0,∅:1
+term1237,term1237,Termanu,y,medial,1,vowel,1.0,vowel:1
+term1237,term1237,Termanu,z,medial,1,coronal stop,1.0,coronal stop:1
+term1237,term1237,Termanu,ŋ,final,1,∅,1.0,∅:1
+term1237,term1237,Termanu,ŋ,medial,2,n,1.0,n:2
+tetu1245-suai,sout2898,"Tetun, Suai",R,final,2,n,0.5,n:1; ∅:1
+tetu1245-suai,sout2898,"Tetun, Suai",R,medial,4,n,0.25,n:1; sibilant:1; rhotic:1; ∅:1
+tetu1245-suai,sout2898,"Tetun, Suai",b,medial,3,labial stop,0.67,labial stop:2; coronal stop:1
+tetu1245-suai,sout2898,"Tetun, Suai",d,initial,3,coronal stop,0.33,coronal stop:1; velar stop:1; rhotic:1
+tetu1245-suai,sout2898,"Tetun, Suai",d,medial,4,rhotic,0.5,rhotic:2; ∅:1; l:1
+tetu1245-suai,sout2898,"Tetun, Suai",h,medial,2,h,0.5,h:1; ∅:1
+tetu1245-suai,sout2898,"Tetun, Suai",j,medial,1,rhotic,1.0,rhotic:1
+tetu1245-suai,sout2898,"Tetun, Suai",k,final,1,sibilant,1.0,sibilant:1
+tetu1245-suai,sout2898,"Tetun, Suai",k,initial,2,velar stop,1.0,velar stop:2
+tetu1245-suai,sout2898,"Tetun, Suai",k,medial,4,glottal stop,0.5,glottal stop:2; velar stop:1; rhotic:1
+tetu1245-suai,sout2898,"Tetun, Suai",l,initial,2,l,1.0,l:2
+tetu1245-suai,sout2898,"Tetun, Suai",l,medial,8,l,0.88,l:7; velar stop:1
+tetu1245-suai,sout2898,"Tetun, Suai",m,initial,10,m,0.8,m:8; ∅:2
+tetu1245-suai,sout2898,"Tetun, Suai",m,medial,3,m,1.0,m:3
+tetu1245-suai,sout2898,"Tetun, Suai",ma-p,medial,1,∅,1.0,∅:1
+tetu1245-suai,sout2898,"Tetun, Suai",n,final,4,n,0.5,n:2; ŋ:1; ∅:1
+tetu1245-suai,sout2898,"Tetun, Suai",n,initial,2,n,1.0,n:2
+tetu1245-suai,sout2898,"Tetun, Suai",n,medial,6,n,0.83,n:5; ∅:1
+tetu1245-suai,sout2898,"Tetun, Suai",p,initial,2,labial stop,0.5,labial stop:1; h:1
+tetu1245-suai,sout2898,"Tetun, Suai",p,medial,3,h,0.67,h:2; glottal stop:1
+tetu1245-suai,sout2898,"Tetun, Suai",q,final,7,velar stop,0.57,velar stop:4; ∅:2; n:1
+tetu1245-suai,sout2898,"Tetun, Suai",q,initial,4,m,0.25,m:1; glottal stop:1; velar stop:1; ∅:1
+tetu1245-suai,sout2898,"Tetun, Suai",s,final,2,sibilant,1.0,sibilant:2
+tetu1245-suai,sout2898,"Tetun, Suai",s,initial,3,sibilant,1.0,sibilant:3
+tetu1245-suai,sout2898,"Tetun, Suai",s,medial,4,sibilant,0.75,sibilant:3; coronal stop:1
+tetu1245-suai,sout2898,"Tetun, Suai",t,final,2,coronal stop,1.0,coronal stop:2
+tetu1245-suai,sout2898,"Tetun, Suai",t,initial,5,coronal stop,0.6,coronal stop:3; glottal stop:2
+tetu1245-suai,sout2898,"Tetun, Suai",t,medial,4,coronal stop,1.0,coronal stop:4
+tetu1245-suai,sout2898,"Tetun, Suai",w,final,2,∅,1.0,∅:2
+tetu1245-suai,sout2898,"Tetun, Suai",w,medial,2,∅,0.5,∅:1; w:1
+tetu1245-suai,sout2898,"Tetun, Suai",y,final,1,∅,1.0,∅:1
+tetu1245-suai,sout2898,"Tetun, Suai",ŋ,final,1,n,1.0,n:1
+tetu1245-suai,sout2898,"Tetun, Suai",ŋ,initial,1,n,1.0,n:1
+tetu1245-suai,sout2898,"Tetun, Suai",ŋ,medial,5,n,0.8,n:4; ∅:1
+tetu1246,tetu1246,Tetun Dili,R,final,3,n,0.67,n:2; ∅:1
+tetu1246,tetu1246,Tetun Dili,R,initial,1,glottal stop,1.0,glottal stop:1
+tetu1246,tetu1246,Tetun Dili,R,medial,3,n,0.33,n:1; rhotic:1; ∅:1
+tetu1246,tetu1246,Tetun Dili,b,initial,6,labial fricative,1.0,labial fricative:6
+tetu1246,tetu1246,Tetun Dili,b,medial,2,labial stop,0.5,labial stop:1; coronal stop:1
+tetu1246,tetu1246,Tetun Dili,d,initial,3,coronal stop,0.33,coronal stop:1; ∅:1; rhotic:1
+tetu1246,tetu1246,Tetun Dili,d,medial,4,rhotic,0.75,rhotic:3; l:1
+tetu1246,tetu1246,Tetun Dili,h,final,1,∅,1.0,∅:1
+tetu1246,tetu1246,Tetun Dili,h,initial,2,glottal stop,1.0,glottal stop:2
+tetu1246,tetu1246,Tetun Dili,h,medial,2,h,0.5,h:1; ∅:1
+tetu1246,tetu1246,Tetun Dili,j,medial,1,rhotic,1.0,rhotic:1
+tetu1246,tetu1246,Tetun Dili,k,final,2,∅,1.0,∅:2
+tetu1246,tetu1246,Tetun Dili,k,initial,3,velar stop,0.67,velar stop:2; h:1
+tetu1246,tetu1246,Tetun Dili,k,medial,4,velar stop,0.75,velar stop:3; ∅:1
+tetu1246,tetu1246,Tetun Dili,l,initial,1,l,1.0,l:1
+tetu1246,tetu1246,Tetun Dili,l,medial,11,l,0.82,l:9; velar stop:1; ∅:1
+tetu1246,tetu1246,Tetun Dili,m,initial,9,m,0.89,m:8; ∅:1
+tetu1246,tetu1246,Tetun Dili,m,medial,3,m,1.0,m:3
+tetu1246,tetu1246,Tetun Dili,ma-p,medial,1,∅,1.0,∅:1
+tetu1246,tetu1246,Tetun Dili,n,final,8,n,1.0,n:8
+tetu1246,tetu1246,Tetun Dili,n,initial,1,n,1.0,n:1
+tetu1246,tetu1246,Tetun Dili,n,medial,4,n,0.75,n:3; ∅:1
+tetu1246,tetu1246,Tetun Dili,p,initial,1,labial stop,1.0,labial stop:1
+tetu1246,tetu1246,Tetun Dili,p,medial,2,h,1.0,h:2
+tetu1246,tetu1246,Tetun Dili,q,final,8,velar stop,0.5,velar stop:4; ∅:2; n:2
+tetu1246,tetu1246,Tetun Dili,q,initial,4,glottal stop,0.5,glottal stop:2; m:2
+tetu1246,tetu1246,Tetun Dili,q,medial,1,∅,1.0,∅:1
+tetu1246,tetu1246,Tetun Dili,s,final,2,sibilant,1.0,sibilant:2
+tetu1246,tetu1246,Tetun Dili,s,initial,3,sibilant,1.0,sibilant:3
+tetu1246,tetu1246,Tetun Dili,s,medial,5,sibilant,0.8,sibilant:4; coronal stop:1
+tetu1246,tetu1246,Tetun Dili,t,final,2,coronal stop,1.0,coronal stop:2
+tetu1246,tetu1246,Tetun Dili,t,initial,7,coronal stop,0.71,coronal stop:5; glottal stop:2
+tetu1246,tetu1246,Tetun Dili,t,medial,7,coronal stop,1.0,coronal stop:7
+tetu1246,tetu1246,Tetun Dili,w,final,1,∅,1.0,∅:1
+tetu1246,tetu1246,Tetun Dili,y,final,1,∅,1.0,∅:1
+tetu1246,tetu1246,Tetun Dili,z,medial,1,coronal stop,1.0,coronal stop:1
+tetu1246,tetu1246,Tetun Dili,ŋ,final,1,n,1.0,n:1
+tetu1246,tetu1246,Tetun Dili,ŋ,initial,1,n,1.0,n:1
+tetu1246,tetu1246,Tetun Dili,ŋ,medial,7,n,0.86,n:6; ∅:1
+tiii1241,tiii1241,Tii,R,final,2,∅,1.0,∅:2
+tiii1241,tiii1241,Tii,R,initial,1,∅,1.0,∅:1
+tiii1241,tiii1241,Tii,R,medial,2,∅,1.0,∅:2
+tiii1241,tiii1241,Tii,b,initial,10,labial stop,0.9,labial stop:9; labial fricative:1
+tiii1241,tiii1241,Tii,b,medial,2,labial fricative,1.0,labial fricative:2
+tiii1241,tiii1241,Tii,d,initial,5,coronal stop,0.8,coronal stop:4; n:1
+tiii1241,tiii1241,Tii,d,medial,3,rhotic,0.67,rhotic:2; coronal stop:1
+tiii1241,tiii1241,Tii,h,final,1,∅,1.0,∅:1
+tiii1241,tiii1241,Tii,h,initial,2,∅,1.0,∅:2
+tiii1241,tiii1241,Tii,h,medial,1,∅,1.0,∅:1
+tiii1241,tiii1241,Tii,j,medial,1,coronal stop,1.0,coronal stop:1
+tiii1241,tiii1241,Tii,k,final,2,∅,0.5,∅:1; velar stop:1
+tiii1241,tiii1241,Tii,k,initial,4,velar stop,0.5,velar stop:2; m:1; n:1
+tiii1241,tiii1241,Tii,k,medial,4,velar stop,0.5,velar stop:2; ∅:1; l:1
+tiii1241,tiii1241,Tii,l,initial,1,l,1.0,l:1
+tiii1241,tiii1241,Tii,l,medial,6,l,1.0,l:6
+tiii1241,tiii1241,Tii,m,final,1,∅,1.0,∅:1
+tiii1241,tiii1241,Tii,m,initial,5,m,1.0,m:5
+tiii1241,tiii1241,Tii,m,medial,5,m,1.0,m:5
+tiii1241,tiii1241,Tii,ma-p,medial,1,∅,1.0,∅:1
+tiii1241,tiii1241,Tii,n,final,4,∅,0.5,∅:2; n:2
+tiii1241,tiii1241,Tii,n,initial,1,n,1.0,n:1
+tiii1241,tiii1241,Tii,n,medial,7,n,0.86,n:6; ∅:1
+tiii1241,tiii1241,Tii,p,initial,1,coronal stop,1.0,coronal stop:1
+tiii1241,tiii1241,Tii,p,medial,1,coronal stop,1.0,coronal stop:1
+tiii1241,tiii1241,Tii,q,final,9,∅,1.0,∅:9
+tiii1241,tiii1241,Tii,q,initial,4,∅,0.5,∅:2; m:2
+tiii1241,tiii1241,Tii,q,medial,2,∅,1.0,∅:2
+tiii1241,tiii1241,Tii,s,initial,2,sibilant,1.0,sibilant:2
+tiii1241,tiii1241,Tii,s,medial,7,sibilant,0.86,sibilant:6; velar stop:1
+tiii1241,tiii1241,Tii,t,final,1,coronal stop,1.0,coronal stop:1
+tiii1241,tiii1241,Tii,t,initial,6,coronal stop,0.67,coronal stop:4; ∅:2
+tiii1241,tiii1241,Tii,t,medial,4,coronal stop,1.0,coronal stop:4
+tiii1241,tiii1241,Tii,w,final,1,∅,1.0,∅:1
+tiii1241,tiii1241,Tii,y,final,1,∅,1.0,∅:1
+tiii1241,tiii1241,Tii,y,medial,1,vowel,1.0,vowel:1
+tiii1241,tiii1241,Tii,z,medial,1,coronal stop,1.0,coronal stop:1
+tiii1241,tiii1241,Tii,ŋ,final,1,∅,1.0,∅:1
+tiii1241,tiii1241,Tii,ŋ,medial,4,n,0.75,n:3; velar stop:1
+tuku1254,tuku1254,Tokodede,R,initial,1,coronal stop,1.0,coronal stop:1
+tuku1254,tuku1254,Tokodede,R,medial,3,∅,0.67,∅:2; rhotic:1
+tuku1254,tuku1254,Tokodede,b,initial,4,h,0.75,h:3; labial stop:1
+tuku1254,tuku1254,Tokodede,b,medial,2,h,0.5,h:1; labial stop:1
+tuku1254,tuku1254,Tokodede,d,initial,1,labial stop,1.0,labial stop:1
+tuku1254,tuku1254,Tokodede,d,medial,1,rhotic,1.0,rhotic:1
+tuku1254,tuku1254,Tokodede,h,final,1,∅,1.0,∅:1
+tuku1254,tuku1254,Tokodede,h,initial,2,l,0.5,l:1; glottal stop:1
+tuku1254,tuku1254,Tokodede,k,final,4,∅,1.0,∅:4
+tuku1254,tuku1254,Tokodede,k,initial,3,velar stop,1.0,velar stop:3
+tuku1254,tuku1254,Tokodede,k,medial,1,velar stop,1.0,velar stop:1
+tuku1254,tuku1254,Tokodede,l,initial,1,l,1.0,l:1
+tuku1254,tuku1254,Tokodede,l,medial,6,l,0.83,l:5; n:1
+tuku1254,tuku1254,Tokodede,m,initial,4,m,0.75,m:3; ∅:1
+tuku1254,tuku1254,Tokodede,m,medial,4,m,0.75,m:3; labial stop:1
+tuku1254,tuku1254,Tokodede,ma-p,medial,1,b,1.0,b:1
+tuku1254,tuku1254,Tokodede,n,final,3,∅,1.0,∅:3
+tuku1254,tuku1254,Tokodede,n,initial,2,n,1.0,n:2
+tuku1254,tuku1254,Tokodede,n,medial,4,n,1.0,n:4
+tuku1254,tuku1254,Tokodede,p,initial,1,labial stop,1.0,labial stop:1
+tuku1254,tuku1254,Tokodede,p,medial,4,labial stop,0.75,labial stop:3; glottal stop:1
+tuku1254,tuku1254,Tokodede,q,final,3,∅,0.67,∅:2; coronal stop:1
+tuku1254,tuku1254,Tokodede,q,initial,3,∅,0.67,∅:2; coronal stop:1
+tuku1254,tuku1254,Tokodede,s,initial,1,sibilant,1.0,sibilant:1
+tuku1254,tuku1254,Tokodede,s,medial,5,sibilant,1.0,sibilant:5
+tuku1254,tuku1254,Tokodede,t,final,3,coronal stop,1.0,coronal stop:3
+tuku1254,tuku1254,Tokodede,t,initial,5,coronal stop,0.6,coronal stop:3; glottal stop:1; ∅:1
+tuku1254,tuku1254,Tokodede,t,medial,3,coronal stop,1.0,coronal stop:3
+tuku1254,tuku1254,Tokodede,y,final,1,∅,1.0,∅:1
+tuku1254,tuku1254,Tokodede,z,medial,1,glottal stop,1.0,glottal stop:1
+uhak1237,uhak1237,Perai,R,final,4,rhotic,1.0,rhotic:4
+uhak1237,uhak1237,Perai,R,medial,3,∅,0.33,∅:1; ŋ:1; rhotic:1
+uhak1237,uhak1237,Perai,b,initial,4,labial fricative,1.0,labial fricative:4
+uhak1237,uhak1237,Perai,d,initial,2,labial stop,0.5,labial stop:1; rhotic:1
+uhak1237,uhak1237,Perai,h,initial,1,∅,1.0,∅:1
+uhak1237,uhak1237,Perai,h,medial,1,∅,1.0,∅:1
+uhak1237,uhak1237,Perai,j,medial,1,∅,1.0,∅:1
+uhak1237,uhak1237,Perai,k,final,1,∅,1.0,∅:1
+uhak1237,uhak1237,Perai,k,initial,1,velar stop,1.0,velar stop:1
+uhak1237,uhak1237,Perai,k,medial,4,velar stop,1.0,velar stop:4
+uhak1237,uhak1237,Perai,l,final,1,sibilant,1.0,sibilant:1
+uhak1237,uhak1237,Perai,l,initial,2,∅,0.5,∅:1; l:1
+uhak1237,uhak1237,Perai,l,medial,6,l,1.0,l:6
+uhak1237,uhak1237,Perai,m,final,2,∅,0.5,∅:1; ŋ:1
+uhak1237,uhak1237,Perai,m,initial,4,m,0.75,m:3; ∅:1
+uhak1237,uhak1237,Perai,m,medial,3,m,1.0,m:3
+uhak1237,uhak1237,Perai,ma-p,medial,1,p,1.0,p:1
+uhak1237,uhak1237,Perai,n,final,4,ŋ,0.75,ŋ:3; ∅:1
+uhak1237,uhak1237,Perai,n,initial,1,n,1.0,n:1
+uhak1237,uhak1237,Perai,n,medial,3,n,1.0,n:3
+uhak1237,uhak1237,Perai,p,medial,2,l,0.5,l:1; ∅:1
+uhak1237,uhak1237,Perai,q,final,3,∅,0.67,∅:2; ŋ:1
+uhak1237,uhak1237,Perai,q,initial,5,∅,0.8,∅:4; m:1
+uhak1237,uhak1237,Perai,s,final,1,sibilant,1.0,sibilant:1
+uhak1237,uhak1237,Perai,s,initial,1,sibilant,1.0,sibilant:1
+uhak1237,uhak1237,Perai,s,medial,5,sibilant,0.8,sibilant:4; h:1
+uhak1237,uhak1237,Perai,t,initial,4,∅,0.5,∅:2; coronal stop:2
+uhak1237,uhak1237,Perai,t,medial,7,coronal stop,0.86,coronal stop:6; ∅:1
+uhak1237,uhak1237,Perai,w,final,1,velar stop,1.0,velar stop:1
+uhak1237,uhak1237,Perai,w,initial,1,∅,1.0,∅:1
+uhak1237,uhak1237,Perai,y,final,1,∅,1.0,∅:1
+uhak1237,uhak1237,Perai,z,medial,2,∅,0.5,∅:1; sibilant:1
+uhak1237,uhak1237,Perai,ŋ,initial,1,n,1.0,n:1
+uhak1237,uhak1237,Perai,ŋ,medial,3,n,1.0,n:3
+waim1252,waim1252,Waima'a,R,final,6,∅,1.0,∅:6
+waim1252,waim1252,Waima'a,R,medial,3,∅,0.67,∅:2; m:1
+waim1252,waim1252,Waima'a,b,final,1,∅,1.0,∅:1
+waim1252,waim1252,Waima'a,b,initial,1,w,1.0,w:1
+waim1252,waim1252,Waima'a,d,initial,5,coronal stop,0.8,coronal stop:4; rhotic:1
+waim1252,waim1252,Waima'a,d,medial,2,coronal stop,0.5,coronal stop:1; rhotic:1
+waim1252,waim1252,Waima'a,h,final,2,∅,0.5,∅:1; coronal stop:1
+waim1252,waim1252,Waima'a,h,initial,1,∅,1.0,∅:1
+waim1252,waim1252,Waima'a,h,medial,4,∅,0.5,∅:2; h:2
+waim1252,waim1252,Waima'a,k,final,2,∅,1.0,∅:2
+waim1252,waim1252,Waima'a,k,initial,6,velar stop,0.83,velar stop:5; w:1
+waim1252,waim1252,Waima'a,k,medial,7,velar stop,1.0,velar stop:7
+waim1252,waim1252,Waima'a,l,final,1,∅,1.0,∅:1
+waim1252,waim1252,Waima'a,l,initial,1,l,1.0,l:1
+waim1252,waim1252,Waima'a,l,medial,5,l,0.8,l:4; ∅:1
+waim1252,waim1252,Waima'a,m,final,1,∅,1.0,∅:1
+waim1252,waim1252,Waima'a,m,initial,4,m,1.0,m:4
+waim1252,waim1252,Waima'a,m,medial,4,m,0.75,m:3; ∅:1
+waim1252,waim1252,Waima'a,n,final,4,∅,1.0,∅:4
+waim1252,waim1252,Waima'a,n,medial,5,n,1.0,n:5
+waim1252,waim1252,Waima'a,p,initial,2,labial stop,0.5,labial stop:1; h:1
+waim1252,waim1252,Waima'a,p,medial,1,labial stop,1.0,labial stop:1
+waim1252,waim1252,Waima'a,q,final,3,∅,1.0,∅:3
+waim1252,waim1252,Waima'a,q,initial,5,∅,0.8,∅:4; n:1
+waim1252,waim1252,Waima'a,q,medial,1,velar stop,1.0,velar stop:1
+waim1252,waim1252,Waima'a,s,final,1,∅,1.0,∅:1
+waim1252,waim1252,Waima'a,s,initial,1,sibilant,1.0,sibilant:1
+waim1252,waim1252,Waima'a,s,medial,5,sibilant,1.0,sibilant:5
+waim1252,waim1252,Waima'a,t,initial,4,coronal stop,1.0,coronal stop:4
+waim1252,waim1252,Waima'a,t,medial,5,coronal stop,1.0,coronal stop:5
+waim1252,waim1252,Waima'a,w,final,2,∅,1.0,∅:2
+waim1252,waim1252,Waima'a,w,initial,2,w,0.5,w:1; velar stop:1
+waim1252,waim1252,Waima'a,w,medial,3,∅,0.67,∅:2; w:1
+waim1252,waim1252,Waima'a,y,final,1,∅,1.0,∅:1
+waim1252,waim1252,Waima'a,ŋ,medial,2,n,1.0,n:2
+west2547-mahein,wela1235,"Welaun, Mahein",R,final,1,n,1.0,n:1
+west2547-mahein,wela1235,"Welaun, Mahein",R,initial,1,∅,1.0,∅:1
+west2547-mahein,wela1235,"Welaun, Mahein",R,medial,4,∅,0.5,∅:2; sibilant:1; vowel:1
+west2547-mahein,wela1235,"Welaun, Mahein",b,initial,4,labial fricative,0.75,labial fricative:3; labial stop:1
+west2547-mahein,wela1235,"Welaun, Mahein",b,medial,1,labial stop,1.0,labial stop:1
+west2547-mahein,wela1235,"Welaun, Mahein",d,initial,1,rhotic,1.0,rhotic:1
+west2547-mahein,wela1235,"Welaun, Mahein",d,medial,3,l,0.67,l:2; rhotic:1
+west2547-mahein,wela1235,"Welaun, Mahein",h,final,1,∅,1.0,∅:1
+west2547-mahein,wela1235,"Welaun, Mahein",h,medial,1,∅,1.0,∅:1
+west2547-mahein,wela1235,"Welaun, Mahein",j,medial,1,l,1.0,l:1
+west2547-mahein,wela1235,"Welaun, Mahein",k,final,2,∅,1.0,∅:2
+west2547-mahein,wela1235,"Welaun, Mahein",k,initial,2,∅,0.5,∅:1; velar stop:1
+west2547-mahein,wela1235,"Welaun, Mahein",k,medial,1,glottal stop,1.0,glottal stop:1
+west2547-mahein,wela1235,"Welaun, Mahein",l,initial,1,l,1.0,l:1
+west2547-mahein,wela1235,"Welaun, Mahein",l,medial,7,l,1.0,l:7
+west2547-mahein,wela1235,"Welaun, Mahein",m,final,1,∅,1.0,∅:1
+west2547-mahein,wela1235,"Welaun, Mahein",m,initial,5,m,0.8,m:4; n:1
+west2547-mahein,wela1235,"Welaun, Mahein",m,medial,3,m,1.0,m:3
+west2547-mahein,wela1235,"Welaun, Mahein",n,final,5,n,1.0,n:5
+west2547-mahein,wela1235,"Welaun, Mahein",n,initial,1,n,1.0,n:1
+west2547-mahein,wela1235,"Welaun, Mahein",n,medial,3,n,1.0,n:3
+west2547-mahein,wela1235,"Welaun, Mahein",p,medial,1,∅,1.0,∅:1
+west2547-mahein,wela1235,"Welaun, Mahein",q,final,4,∅,0.5,∅:2; velar stop:1; n:1
+west2547-mahein,wela1235,"Welaun, Mahein",q,initial,6,∅,0.67,∅:4; velar stop:1; m:1
+west2547-mahein,wela1235,"Welaun, Mahein",q,medial,1,∅,1.0,∅:1
+west2547-mahein,wela1235,"Welaun, Mahein",s,initial,1,sibilant,1.0,sibilant:1
+west2547-mahein,wela1235,"Welaun, Mahein",s,medial,5,sibilant,1.0,sibilant:5
+west2547-mahein,wela1235,"Welaun, Mahein",t,final,2,coronal stop,1.0,coronal stop:2
+west2547-mahein,wela1235,"Welaun, Mahein",t,initial,4,coronal stop,1.0,coronal stop:4
+west2547-mahein,wela1235,"Welaun, Mahein",t,medial,6,coronal stop,1.0,coronal stop:6
+west2547-mahein,wela1235,"Welaun, Mahein",w,final,1,∅,1.0,∅:1
+west2547-mahein,wela1235,"Welaun, Mahein",y,final,1,∅,1.0,∅:1
+west2547-mahein,wela1235,"Welaun, Mahein",y,medial,1,vowel,1.0,vowel:1
+west2547-mahein,wela1235,"Welaun, Mahein",z,medial,1,sibilant,1.0,sibilant:1
+west2547-mahein,wela1235,"Welaun, Mahein",ŋ,final,1,n,1.0,n:1
+west2547-mahein,wela1235,"Welaun, Mahein",ŋ,medial,2,n,1.0,n:2
+west2547-welaun,wela1235,Welaun,R,final,1,n,1.0,n:1
+west2547-welaun,wela1235,Welaun,R,initial,1,∅,1.0,∅:1
+west2547-welaun,wela1235,Welaun,R,medial,5,∅,0.6,∅:3; vowel:1; rhotic:1
+west2547-welaun,wela1235,Welaun,b,final,1,sibilant,1.0,sibilant:1
+west2547-welaun,wela1235,Welaun,b,initial,5,labial fricative,0.8,labial fricative:4; labial stop:1
+west2547-welaun,wela1235,Welaun,b,medial,4,labial stop,0.75,labial stop:3; coronal stop:1
+west2547-welaun,wela1235,Welaun,d,final,1,coronal stop,1.0,coronal stop:1
+west2547-welaun,wela1235,Welaun,d,initial,3,coronal stop,0.67,coronal stop:2; rhotic:1
+west2547-welaun,wela1235,Welaun,d,medial,5,l,0.4,l:2; velar stop:1; rhotic:1; sibilant:1
+west2547-welaun,wela1235,Welaun,g,final,1,rhotic,1.0,rhotic:1
+west2547-welaun,wela1235,Welaun,g,initial,1,velar stop,1.0,velar stop:1
+west2547-welaun,wela1235,Welaun,g,medial,1,velar stop,1.0,velar stop:1
+west2547-welaun,wela1235,Welaun,h,final,1,∅,1.0,∅:1
+west2547-welaun,wela1235,Welaun,h,medial,2,h,0.5,h:1; ∅:1
+west2547-welaun,wela1235,Welaun,k,final,2,∅,1.0,∅:2
+west2547-welaun,wela1235,Welaun,k,initial,6,∅,0.5,∅:3; velar stop:2; labial stop:1
+west2547-welaun,wela1235,Welaun,k,medial,3,glottal stop,0.67,glottal stop:2; sibilant:1
+west2547-welaun,wela1235,Welaun,l,initial,2,l,1.0,l:2
+west2547-welaun,wela1235,Welaun,l,medial,7,l,1.0,l:7
+west2547-welaun,wela1235,Welaun,m,final,1,∅,1.0,∅:1
+west2547-welaun,wela1235,Welaun,m,initial,10,m,0.6,m:6; ∅:2; sibilant:1; n:1
+west2547-welaun,wela1235,Welaun,m,medial,3,m,0.67,m:2; coronal stop:1
+west2547-welaun,wela1235,Welaun,n,final,6,n,1.0,n:6
+west2547-welaun,wela1235,Welaun,n,initial,1,n,1.0,n:1
+west2547-welaun,wela1235,Welaun,n,medial,6,n,1.0,n:6
+west2547-welaun,wela1235,Welaun,p,initial,1,h,1.0,h:1
+west2547-welaun,wela1235,Welaun,p,medial,3,sibilant,0.33,sibilant:1; glottal stop:1; ∅:1
+west2547-welaun,wela1235,Welaun,q,final,10,∅,0.5,∅:5; velar stop:4; n:1
+west2547-welaun,wela1235,Welaun,q,initial,4,∅,0.5,∅:2; velar stop:1; m:1
+west2547-welaun,wela1235,Welaun,q,medial,2,∅,0.5,∅:1; velar stop:1
+west2547-welaun,wela1235,Welaun,r,final,1,rhotic,1.0,rhotic:1
+west2547-welaun,wela1235,Welaun,r,medial,1,∅,1.0,∅:1
+west2547-welaun,wela1235,Welaun,s,final,1,sibilant,1.0,sibilant:1
+west2547-welaun,wela1235,Welaun,s,initial,2,sibilant,1.0,sibilant:2
+west2547-welaun,wela1235,Welaun,s,medial,6,sibilant,1.0,sibilant:6
+west2547-welaun,wela1235,Welaun,t,final,3,coronal stop,1.0,coronal stop:3
+west2547-welaun,wela1235,Welaun,t,initial,6,coronal stop,1.0,coronal stop:6
+west2547-welaun,wela1235,Welaun,t,medial,5,coronal stop,1.0,coronal stop:5
+west2547-welaun,wela1235,Welaun,w,final,1,n,1.0,n:1
+west2547-welaun,wela1235,Welaun,w,medial,1,w,1.0,w:1
+west2547-welaun,wela1235,Welaun,y,final,1,∅,1.0,∅:1
+west2547-welaun,wela1235,Welaun,y,medial,1,vowel,1.0,vowel:1
+west2547-welaun,wela1235,Welaun,z,medial,1,sibilant,1.0,sibilant:1
+west2547-welaun,wela1235,Welaun,ŋ,medial,2,glottal stop,0.5,glottal stop:1; n:1
+weta1243,weta1243,Wetan,R,final,1,∅,1.0,∅:1
+weta1243,weta1243,Wetan,R,medial,2,∅,1.0,∅:2
+weta1243,weta1243,Wetan,b,initial,3,w,0.67,w:2; ∅:1
+weta1243,weta1243,Wetan,d,initial,2,coronal stop,1.0,coronal stop:2
+weta1243,weta1243,Wetan,d,medial,1,∅,1.0,∅:1
+weta1243,weta1243,Wetan,g,initial,1,velar stop,1.0,velar stop:1
+weta1243,weta1243,Wetan,g,medial,1,velar stop,1.0,velar stop:1
+weta1243,weta1243,Wetan,h,final,1,∅,1.0,∅:1
+weta1243,weta1243,Wetan,h,initial,1,n,1.0,n:1
+weta1243,weta1243,Wetan,j,medial,1,∅,1.0,∅:1
+weta1243,weta1243,Wetan,k,final,3,∅,1.0,∅:3
+weta1243,weta1243,Wetan,k,initial,3,velar stop,0.67,velar stop:2; m:1
+weta1243,weta1243,Wetan,k,medial,2,velar stop,0.5,velar stop:1; ∅:1
+weta1243,weta1243,Wetan,l,initial,2,l,1.0,l:2
+weta1243,weta1243,Wetan,l,medial,7,l,0.86,l:6; ∅:1
+weta1243,weta1243,Wetan,m,initial,5,m,1.0,m:5
+weta1243,weta1243,Wetan,m,medial,3,m,1.0,m:3
+weta1243,weta1243,Wetan,n,final,1,n,1.0,n:1
+weta1243,weta1243,Wetan,n,initial,2,n,1.0,n:2
+weta1243,weta1243,Wetan,n,medial,7,n,0.71,n:5; l:1; w:1
+weta1243,weta1243,Wetan,p,initial,1,velar stop,1.0,velar stop:1
+weta1243,weta1243,Wetan,p,medial,1,∅,1.0,∅:1
+weta1243,weta1243,Wetan,q,final,4,∅,1.0,∅:4
+weta1243,weta1243,Wetan,q,initial,3,∅,0.67,∅:2; velar stop:1
+weta1243,weta1243,Wetan,r,final,1,rhotic,1.0,rhotic:1
+weta1243,weta1243,Wetan,r,medial,1,∅,1.0,∅:1
+weta1243,weta1243,Wetan,s,final,1,∅,1.0,∅:1
+weta1243,weta1243,Wetan,s,medial,4,∅,0.75,∅:3; coronal stop:1
+weta1243,weta1243,Wetan,t,final,1,coronal stop,1.0,coronal stop:1
+weta1243,weta1243,Wetan,t,initial,9,coronal stop,0.78,coronal stop:7; ∅:2
+weta1243,weta1243,Wetan,t,medial,5,coronal stop,1.0,coronal stop:5
+weta1243,weta1243,Wetan,w,final,1,∅,1.0,∅:1
+weta1243,weta1243,Wetan,w,medial,2,w,1.0,w:2
+weta1243,weta1243,Wetan,y,final,2,∅,1.0,∅:2
+weta1243,weta1243,Wetan,ŋ,initial,1,n,1.0,n:1
+weta1243,weta1243,Wetan,ŋ,medial,3,n,1.0,n:3

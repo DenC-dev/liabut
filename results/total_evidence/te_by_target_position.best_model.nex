@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+  charset lex = lex.phy: BIN, 1-1353;
+  charset phon = phon_by_target_position.phy: MORPH, 1-24;
+  charpartition mymodels =
+    GTR2+FO{0.882723,0.117277}+G4{4.33509}: lex{3.79267},
+    MK+ASC+G4{0.0200327}: phon{2.73729};
+end;

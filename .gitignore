@@ -14,3 +14,10 @@ results/bayes/partial_killed/*.ckp*
 results/bayes/partial_killed/*.mcmc
 results/ml/*.ckp.gz
 src/__pycache__/
+results/total_evidence/*.t
+results/total_evidence/*.p
+results/total_evidence/*.ckp
+results/total_evidence/*.ckp~
+results/total_evidence/*.mcmc
+results/total_evidence/*.ckp.gz
+results/total_evidence/*.log

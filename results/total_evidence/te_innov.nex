@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+  charset lex = lex.phy: 1-1353;
+  charset inn = innov.phy: 1-8;
+  charpartition mine = GTR2+FO+G4:lex, GTR2+FO:inn;
+end;

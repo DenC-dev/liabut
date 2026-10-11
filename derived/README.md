@@ -1,0 +1,49 @@
+# Derived datasets
+
+These datasets were built for Sanak's expansion (Addendum 4 in `PROTOCOL.md`). None of them existed in machine-readable form before. Each folder says where its data come from and how to cite it.
+
+## `ge2026_tables/`: the comparative tables of Grimes and Edwards (2026)
+
+Grimes and Edwards print their evidence as tables. Each has a gloss row and a PMP row with the target segment in bold red, then one row per language, with the reflex in bold red and non-cognates greyed out. This folder turns those tables into data.
+
+| File | Contents |
+|---|---|
+| `forms.csv` | One row per language form. Covers 257 table blocks (239 numbered tables) and 14,401 forms, 12,537 of them marked cognate. Each row has the gloss, the PMP etymon (with the target marked `⟦ ⟧`), the form (with the authors' highlight marked `⟦ ⟧`) and the cognacy flag. |
+| `reflexes.csv` | One row per highlighted target: PMP segment → reflex. |
+| `languages.csv` | The 328 row labels, mapped to 207 Glottocodes through the book's Appendix A plus an alias list. That covers 93% of forms. |
+
+- **Built by** `src/18_ge_tables.py`, from the book's LaTeX source (github.com/langsci/526).
+- **Licence.** CC-BY 4.0, following the book. Cite: Grimes, Charles E. and Owen Edwards. 2026. *The Austronesian languages of eastern Indonesia and Timor-Leste: Unravelling their prehistory and classification*. Berlin: Language Science Press.
+- **What the data mean.** The highlights are the authors' judgments. Errors in parsing or mapping are ours.
+
+## `reflex_atlas/`: reflexes of PMP consonants, language by language
+
+| File | Contents |
+|---|---|
+| `expert_tokens.csv`, `expert.csv` | 8,426 tokens of PMP target segments in cognate forms from the tables above. They are summarised per language, target and position into 2,593 cells across 186 languages. `Source = highlight` means the authors marked the reflex (6,130 tokens). `Source = aligned` means it was read off an alignment because the row wasn't highlighted (2,296 tokens). |
+| `automatic_tokens.csv`, `automatic.csv` | 4,978 tokens from LexiRumah: 64 Austronesian lects and 146 concepts, aligned to ABVD Proto-Malayo-Polynesian forms. |
+| `agreement_tokens.csv` | The automatic reflex compared with the authors' highlighted reflex for the same word. They agree on **94%** of tokens (249 of 264): *p 49/51, *ŋ 30/32, *b 86/93, *j 29/32. |
+
+- **Built by** `src/19_reflex_atlas.py`.
+- **Reflex classes** follow place of articulation and ignore voicing (Addendum 4, A4.1).
+
+## `sound_change_matrix/`: sound-change characters
+
+| File | Contents |
+|---|---|
+| `innovation_profiles.csv` | Eight diagnostic changes (A4.4), coded 1, 0 or ? for 65 Timor-region languages, with token counts. |
+| `innovation_matrix_24.csv` | The same characters for the 24 taxa used in the Bayesian analyses. |
+| `characters_*.csv`, `matrix_*.csv`, `phon_*.phy` | Multistate characters (E10): one per PMP target, and one per target and position. |
+
+- **Built by** `src/20_total_evidence.py` and `src/21_innovations.py`.
+
+## `loans/`: loans identified by sound change
+
+| File | Contents |
+|---|---|
+| `tetun_loans.csv` | 740 Tetun look-alikes in non-Tetun Timor lects. 21 are classed as probable loans, 15 as probably inherited and 704 as undecidable, by checking each form's reflexes against the lect's own regular reflexes and Tetun's (E12). |
+| `central_timor_in_lakalei_idate.csv` | The same test on 104 Lakalei-Idate forms that share a cognate set with Central Timor but not with Tetun (E12b). |
+| `lakalei_idate_central_timor_exclusive_sets.csv` | 10 cognate sets found only in Lakalei-Idate and Central Timor, with Tetun, Habu and Kawaimina forms for comparison. |
+
+- **Built by** `src/22_tetun_loans.py` and `src/23_ct_loans.py`.
+- **How far to trust it.** The loan classes are a heuristic. Grimes and Edwards confirm some of them, such as Welaun *nani* 'swim' (a probable loan), but the classifier has not been validated against expert loan judgments.

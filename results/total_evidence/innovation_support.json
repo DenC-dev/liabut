@@ -1,0 +1,18 @@
+{
+ "innovations_only": {
+  "Lakalei-Idate + Central Timor (with Welaun)": 0,
+  "Timor-Babar incl. Lakalei-Idate": 0.0,
+  "Lakalei-Idate + Eastern Timor": 0,
+  "Central Timor (with Welaun)": 83.0,
+  "Nuclear Central Timor": 76.0,
+  "Lakalei-Idate": 0
+ },
+ "lexical_plus_innovations": {
+  "Lakalei-Idate + Central Timor (with Welaun)": 80.0,
+  "Timor-Babar incl. Lakalei-Idate": 0,
+  "Lakalei-Idate + Eastern Timor": 0.0,
+  "Central Timor (with Welaun)": 81.0,
+  "Nuclear Central Timor": 65.0,
+  "Lakalei-Idate": 47.0
+ }
+}

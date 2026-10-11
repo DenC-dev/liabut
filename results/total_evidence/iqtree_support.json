@@ -1,0 +1,56 @@
+{
+ "by_target": {
+  "characters": 17,
+  "phonology_only": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0,
+   "Central Timor (with Welaun)": 7.0,
+   "Nuclear Central Timor": 78.0,
+   "Lakalei-Idate": 9.0
+  },
+  "total_evidence_ML": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 56.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0.0,
+   "Central Timor (with Welaun)": 59.0,
+   "Nuclear Central Timor": 88.0,
+   "Lakalei-Idate": 85.0
+  }
+ },
+ "by_target_position": {
+  "characters": 24,
+  "phonology_only": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0,
+   "Central Timor (with Welaun)": 5.0,
+   "Nuclear Central Timor": 31.0,
+   "Lakalei-Idate": 30.0
+  },
+  "total_evidence_ML": {
+   "Lakalei-Idate + Central Timor (with Welaun)": 66.0,
+   "Timor-Babar incl. Lakalei-Idate": 0,
+   "Lakalei-Idate + Eastern Timor": 0.0,
+   "Central Timor (with Welaun)": 68.0,
+   "Nuclear Central Timor": 92.0,
+   "Lakalei-Idate": 86.0
+  }
+ },
+ "lexical_only_ML": {
+  "Lakalei-Idate + Central Timor (with Welaun)": 65.0,
+  "Timor-Babar incl. Lakalei-Idate": 0,
+  "Lakalei-Idate + Eastern Timor": 0.0,
+  "Central Timor (with Welaun)": 52.0,
+  "Nuclear Central Timor": 59.0,
+  "Lakalei-Idate": 53.0
+ },
+ "E6_free_tree_check": {
+  "Lakalei-Idate + Central Timor (with Welaun)": 65.0,
+  "Timor-Babar incl. Lakalei-Idate": 0,
+  "Lakalei-Idate + Eastern Timor": 0.0,
+  "Central Timor (with Welaun)": 52.0,
+  "Nuclear Central Timor": 59.0,
+  "Lakalei-Idate": 53.0
+ }
+}

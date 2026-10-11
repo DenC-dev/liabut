@@ -1,0 +1,310 @@
+Lect_ID,Name,Target,Auto_Majority,Auto_Tokens,Expert_Majority,Expert_Tokens,Agree
+dadu1237,Dadu'a,R,h,9,rhotic,9,False
+dadu1237,Dadu'a,b,w,8,w,2,True
+dadu1237,Dadu'a,p,labial stop,2,∅,5,False
+dadu1237,Dadu'a,w,w,2,∅,6,False
+dadu1237,Dadu'a,ŋ,n,7,n,3,True
+daii1240,Dai,R,∅,2,∅,5,True
+daii1240,Dai,j,coronal stop,3,∅,4,False
+daii1240,Dai,l,n,2,n,3,True
+daii1240,Dai,n,n,8,∅,5,False
+daii1240,Dai,p,coronal stop,2,∅,4,False
+daii1240,Dai,t,coronal stop,6,coronal stop,8,True
+daii1240,Dai,ŋ,n,3,∅,2,False
+dawe1237,Dawera-Daweloor,l,l,2,∅,2,False
+dawe1237,Dawera-Daweloor,t,coronal stop,4,coronal stop,7,True
+dela1252,Dela,b,labial fricative,11,labial stop,2,False
+dela1252,Dela,d,rhotic,5,rhotic,2,True
+dela1252,Dela,p,sibilant,3,h,7,False
+dela1252,Dela,ŋ,n,5,n,7,True
+eray1237,Ili'uun,R,∅,7,rhotic,6,False
+eray1237,Ili'uun,b,h,6,h,2,True
+eray1237,Ili'uun,p,l,5,∅,5,False
+eray1237,Ili'uun,w,w,3,∅,8,False
+eray1237,Ili'uun,z,sibilant,3,sibilant,3,True
+eray1237,Ili'uun,ŋ,n,4,n,3,True
+funa1237,Funai Helong,p,∅,4,∅,5,True
+galo1243,Galolen,R,n,7,∅,7,False
+galo1243,Galolen,b,h,6,h,2,True
+galo1243,Galolen,p,labial stop,3,h,5,False
+galo1243,Galolen,w,w,2,∅,9,False
+galo1243,Galolen,ŋ,n,5,n,3,True
+habu1241,Habun,R,∅,7,∅,7,True
+habu1241,Habun,b,w,8,w,7,True
+habu1241,Habun,j,rhotic,3,rhotic,5,True
+habu1241,Habun,p,glottal stop,3,h,4,False
+habu1241,Habun,ŋ,n,7,n,3,True
+idat1237,Idate,R,∅,4,∅,6,True
+idat1237,Idate,b,h,7,∅,3,False
+idat1237,Idate,j,n,3,∅,7,False
+idat1237,Idate,p,labial stop,4,∅,5,False
+idat1237,Idate,ŋ,n,6,n,3,True
+idat1237-cribas,Idate,R,∅,3,∅,6,True
+idat1237-cribas,Idate,b,h,6,∅,3,False
+idat1237-cribas,Idate,j,n,2,∅,7,False
+idat1237-cribas,Idate,p,labial stop,2,∅,5,False
+idat1237-cribas,Idate,ŋ,n,5,n,3,True
+ilma1240,"Ili'uun, Ilmaumau",R,∅,8,rhotic,6,False
+ilma1240,"Ili'uun, Ilmaumau",b,h,6,h,2,True
+ilma1240,"Ili'uun, Ilmaumau",p,labial stop,4,∅,5,False
+ilma1240,"Ili'uun, Ilmaumau",z,sibilant,2,sibilant,3,True
+ilma1240,"Ili'uun, Ilmaumau",ŋ,n,4,n,3,True
+ilpu1239,Aputai,R,rhotic,6,rhotic,5,True
+ilpu1239,Aputai,b,labial fricative,4,labial fricative,2,True
+ilpu1239,Aputai,p,l,3,∅,5,False
+ilpu1239,Aputai,ŋ,n,4,n,3,True
+imro1237,Imroing,t,coronal stop,3,velar stop,4,False
+kaha1239,Tugun,R,rhotic,7,rhotic,7,True
+kaha1239,Tugun,b,labial fricative,4,labial fricative,2,True
+kaha1239,Tugun,p,l,2,∅,5,False
+kaha1239,Tugun,w,∅,2,∅,9,True
+kaha1239,Tugun,z,∅,2,sibilant,3,False
+kaha1239,Tugun,ŋ,n,4,n,3,True
+keda1252,Kedang,R,rhotic,2,rhotic,6,True
+keda1252,Kedang,d,coronal stop,2,coronal stop,6,True
+keda1252,Kedang,s,∅,3,∅,11,True
+keda1252,Kedang,w,w,3,labial fricative,3,False
+keda1252,Kedang,ŋ,ŋ,4,∅,5,False
+kema1243,Kemak,R,∅,5,∅,13,True
+kema1243,Kemak,b,h,4,h,10,True
+kema1243,Kemak,d,coronal stop,5,rhotic,4,False
+kema1243,Kemak,k,∅,9,∅,7,True
+kema1243,Kemak,p,labial stop,7,labial stop,6,True
+kema1243,Kemak,t,coronal stop,11,other,14,False
+kema1243,Kemak,z,sibilant,2,sibilant,3,True
+kema1243,Kemak,ŋ,velar stop,2,velar stop,5,True
+kema1243-diir,"Kemak, Diirbati",R,∅,4,∅,13,True
+kema1243-diir,"Kemak, Diirbati",b,h,2,h,10,True
+kema1243-diir,"Kemak, Diirbati",k,∅,6,∅,7,True
+kema1243-diir,"Kemak, Diirbati",p,labial stop,4,labial stop,6,True
+kema1243-diir,"Kemak, Diirbati",t,coronal stop,8,other,14,False
+kema1243-diir,"Kemak, Diirbati",z,sibilant,3,sibilant,3,True
+kema1243-kaila,"Kemak, Kailaku",R,∅,6,∅,13,True
+kema1243-kaila,"Kemak, Kailaku",b,h,3,h,10,True
+kema1243-kaila,"Kemak, Kailaku",d,coronal stop,4,rhotic,4,False
+kema1243-kaila,"Kemak, Kailaku",k,∅,8,∅,7,True
+kema1243-kaila,"Kemak, Kailaku",p,labial stop,5,labial stop,6,True
+kema1243-kaila,"Kemak, Kailaku",t,coronal stop,11,other,14,False
+kema1243-kaila,"Kemak, Kailaku",z,sibilant,2,sibilant,3,True
+kema1243-kaila,"Kemak, Kailaku",ŋ,rhotic,2,velar stop,5,False
+kema1243-kutu,"Kemak, Kutubaba",R,∅,6,∅,13,True
+kema1243-kutu,"Kemak, Kutubaba",b,h,6,h,10,True
+kema1243-kutu,"Kemak, Kutubaba",d,coronal stop,2,rhotic,4,False
+kema1243-kutu,"Kemak, Kutubaba",j,l,2,l,5,True
+kema1243-kutu,"Kemak, Kutubaba",k,∅,6,∅,7,True
+kema1243-kutu,"Kemak, Kutubaba",p,labial stop,5,labial stop,6,True
+kema1243-kutu,"Kemak, Kutubaba",t,coronal stop,11,other,14,False
+kema1243-kutu,"Kemak, Kutubaba",ŋ,ŋ,3,velar stop,5,False
+kema1243-lemi,"Kemak, Lemia",R,∅,4,∅,13,True
+kema1243-lemi,"Kemak, Lemia",b,h,2,h,10,True
+kema1243-lemi,"Kemak, Lemia",d,coronal stop,2,rhotic,4,False
+kema1243-lemi,"Kemak, Lemia",k,∅,8,∅,7,True
+kema1243-lemi,"Kemak, Lemia",p,labial stop,3,labial stop,6,True
+kema1243-lemi,"Kemak, Lemia",t,coronal stop,8,other,14,False
+kema1243-lemi,"Kemak, Lemia",z,sibilant,3,sibilant,3,True
+kema1243-lemi,"Kemak, Lemia",ŋ,velar stop,2,velar stop,5,True
+kema1243-leol,"Kemak, Leolima",R,∅,6,∅,13,True
+kema1243-leol,"Kemak, Leolima",b,h,4,h,10,True
+kema1243-leol,"Kemak, Leolima",d,coronal stop,2,rhotic,4,False
+kema1243-leol,"Kemak, Leolima",k,∅,8,∅,7,True
+kema1243-leol,"Kemak, Leolima",p,labial stop,5,labial stop,6,True
+kema1243-leol,"Kemak, Leolima",t,coronal stop,11,other,14,False
+kema1243-leol,"Kemak, Leolima",z,sibilant,2,sibilant,3,True
+kema1243-leos,"Kemak, Leosibe",R,∅,4,∅,13,True
+kema1243-leos,"Kemak, Leosibe",b,h,5,h,10,True
+kema1243-leos,"Kemak, Leosibe",k,∅,5,∅,7,True
+kema1243-leos,"Kemak, Leosibe",p,labial stop,5,labial stop,6,True
+kema1243-leos,"Kemak, Leosibe",t,coronal stop,11,other,14,False
+kema1243-leos,"Kemak, Leosibe",z,sibilant,2,sibilant,3,True
+kema1243-sane,"Kemak, Saneri",R,∅,6,∅,13,True
+kema1243-sane,"Kemak, Saneri",b,∅,4,h,10,False
+kema1243-sane,"Kemak, Saneri",d,coronal stop,2,rhotic,4,False
+kema1243-sane,"Kemak, Saneri",k,∅,8,∅,7,True
+kema1243-sane,"Kemak, Saneri",p,labial stop,4,labial stop,6,True
+kema1243-sane,"Kemak, Saneri",t,coronal stop,9,other,14,False
+kema1243-sane,"Kemak, Saneri",z,sibilant,2,sibilant,3,True
+kema1243-sane,"Kemak, Saneri",ŋ,rhotic,2,velar stop,5,False
+kisa1266,Kisar,b,labial stop,3,w,7,False
+kisa1266,Kisar,j,rhotic,3,rhotic,7,True
+kisa1266,Kisar,p,h,2,∅,6,False
+kisa1266,Kisar,s,h,4,h,9,True
+kisa1266,Kisar,ŋ,n,6,n,6,True
+koto1251,Kotos Amarasi,d,n,5,n,2,True
+koto1251,Kotos Amarasi,p,h,2,h,5,True
+koto1251,Kotos Amarasi,ŋ,n,3,∅,3,False
+kusa1252,Kusa-Manea,d,n,4,n,2,True
+kusa1252,Kusa-Manea,p,glottal stop,3,h,5,False
+kusa1252,Kusa-Manea,ŋ,n,3,∅,2,False
+laka1255,Lakalei,R,∅,2,∅,6,True
+laka1255,Lakalei,b,h,6,∅,3,False
+laka1255,Lakalei,j,n,2,∅,4,False
+laka1255,Lakalei,p,labial stop,5,∅,4,False
+laka1255,Lakalei,z,glottal stop,2,∅,5,False
+laka1255,Lakalei,ŋ,n,3,n,3,True
+luan1264,Luang,b,labial fricative,2,w,7,False
+luan1264,Luang,p,h,2,∅,7,False
+luan1264,Luang,s,h,3,h,7,True
+luan1264,Luang,ŋ,n,2,n,6,True
+mamb1306,"Southern Mambae, Ainaro",R,∅,2,rhotic,29,False
+mamb1306,"Southern Mambae, Ainaro",b,h,5,h,21,True
+mamb1306,"Southern Mambae, Ainaro",d,rhotic,2,rhotic,13,True
+mamb1306,"Southern Mambae, Ainaro",k,∅,5,∅,20,True
+mamb1306,"Southern Mambae, Ainaro",m,m,8,∅,2,False
+mamb1306,"Southern Mambae, Ainaro",p,labial stop,3,labial fricative,21,False
+mamb1306,"Southern Mambae, Ainaro",t,coronal stop,9,∅,2,False
+mamb1306-Caile,"Central Mambae, Aileu Vila",R,∅,3,rhotic,29,False
+mamb1306-Caile,"Central Mambae, Aileu Vila",b,h,3,h,21,True
+mamb1306-Caile,"Central Mambae, Aileu Vila",j,n,2,l,9,False
+mamb1306-Caile,"Central Mambae, Aileu Vila",k,∅,2,∅,20,True
+mamb1306-Caile,"Central Mambae, Aileu Vila",m,m,5,∅,2,False
+mamb1306-Caile,"Central Mambae, Aileu Vila",p,labial fricative,4,labial fricative,21,True
+mamb1306-Caile,"Central Mambae, Aileu Vila",t,coronal stop,5,∅,2,False
+mamb1306-Caile,"Central Mambae, Aileu Vila",ŋ,n,2,velar stop,13,False
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",R,∅,3,rhotic,29,False
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",b,h,3,h,21,True
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",d,rhotic,3,rhotic,13,True
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",j,n,2,l,9,False
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",k,∅,2,∅,20,True
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",m,m,8,∅,2,False
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",p,labial fricative,3,labial fricative,21,True
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",t,coronal stop,6,∅,2,False
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",z,sibilant,2,sibilant,8,True
+mamb1306-Chatu,"Central Mambae, Hatu-Builico",ŋ,n,2,velar stop,13,False
+mamb1306-Claul,"Central Mambae, Laulara",R,∅,3,rhotic,29,False
+mamb1306-Claul,"Central Mambae, Laulara",b,h,3,h,21,True
+mamb1306-Claul,"Central Mambae, Laulara",j,n,2,l,9,False
+mamb1306-Claul,"Central Mambae, Laulara",k,∅,2,∅,20,True
+mamb1306-Claul,"Central Mambae, Laulara",m,m,6,∅,2,False
+mamb1306-Claul,"Central Mambae, Laulara",p,labial fricative,4,labial fricative,21,True
+mamb1306-Claul,"Central Mambae, Laulara",t,coronal stop,6,∅,2,False
+mamb1306-Claul,"Central Mambae, Laulara",ŋ,n,2,velar stop,13,False
+mamb1306-Cliqu,"Central Mambae, Liquidoe",R,∅,3,rhotic,29,False
+mamb1306-Cliqu,"Central Mambae, Liquidoe",b,h,3,h,21,True
+mamb1306-Cliqu,"Central Mambae, Liquidoe",j,l,2,l,9,True
+mamb1306-Cliqu,"Central Mambae, Liquidoe",k,∅,2,∅,20,True
+mamb1306-Cliqu,"Central Mambae, Liquidoe",m,m,7,∅,2,False
+mamb1306-Cliqu,"Central Mambae, Liquidoe",p,labial fricative,3,labial fricative,21,True
+mamb1306-Cliqu,"Central Mambae, Liquidoe",t,coronal stop,8,∅,2,False
+mamb1306-Cliqu,"Central Mambae, Liquidoe",ŋ,n,2,velar stop,13,False
+mamb1306-NWbar,"Northwest Mambae, Barzatete",R,∅,3,rhotic,29,False
+mamb1306-NWbar,"Northwest Mambae, Barzatete",b,h,4,h,21,True
+mamb1306-NWbar,"Northwest Mambae, Barzatete",k,velar stop,4,∅,20,False
+mamb1306-NWbar,"Northwest Mambae, Barzatete",m,m,6,∅,2,False
+mamb1306-NWbar,"Northwest Mambae, Barzatete",p,labial stop,5,labial fricative,21,False
+mamb1306-NWbar,"Northwest Mambae, Barzatete",t,coronal stop,6,∅,2,False
+mamb1306-NWbar,"Northwest Mambae, Barzatete",ŋ,velar stop,2,velar stop,13,True
+mamb1306-NWhat,"Northwest Mambae, Hatulia",R,∅,3,rhotic,29,False
+mamb1306-NWhat,"Northwest Mambae, Hatulia",b,h,4,h,21,True
+mamb1306-NWhat,"Northwest Mambae, Hatulia",d,rhotic,2,rhotic,13,True
+mamb1306-NWhat,"Northwest Mambae, Hatulia",j,l,2,l,9,True
+mamb1306-NWhat,"Northwest Mambae, Hatulia",k,∅,3,∅,20,True
+mamb1306-NWhat,"Northwest Mambae, Hatulia",m,m,7,∅,2,False
+mamb1306-NWhat,"Northwest Mambae, Hatulia",p,labial stop,4,labial fricative,21,False
+mamb1306-NWhat,"Northwest Mambae, Hatulia",t,coronal stop,7,∅,2,False
+mamb1306-NWhat,"Northwest Mambae, Hatulia",z,sibilant,2,sibilant,8,True
+mamb1306-NWhat,"Northwest Mambae, Hatulia",ŋ,n,3,velar stop,13,False
+mamb1306-NWrai,"Northwest Mambae, Railaco",R,sibilant,3,rhotic,29,False
+mamb1306-NWrai,"Northwest Mambae, Railaco",b,h,4,h,21,True
+mamb1306-NWrai,"Northwest Mambae, Railaco",j,l,2,l,9,True
+mamb1306-NWrai,"Northwest Mambae, Railaco",k,∅,3,∅,20,True
+mamb1306-NWrai,"Northwest Mambae, Railaco",m,m,7,∅,2,False
+mamb1306-NWrai,"Northwest Mambae, Railaco",p,labial stop,4,labial fricative,21,False
+mamb1306-NWrai,"Northwest Mambae, Railaco",t,coronal stop,9,∅,2,False
+mamb1306-NWrai,"Northwest Mambae, Railaco",ŋ,n,3,velar stop,13,False
+mamb1306-Sbeta,"South Mambae, Betano",R,∅,2,rhotic,29,False
+mamb1306-Sbeta,"South Mambae, Betano",b,h,2,h,21,True
+mamb1306-Sbeta,"South Mambae, Betano",k,∅,4,∅,20,True
+mamb1306-Sbeta,"South Mambae, Betano",m,m,9,∅,2,False
+mamb1306-Sbeta,"South Mambae, Betano",p,labial stop,2,labial fricative,21,False
+mamb1306-Sbeta,"South Mambae, Betano",t,coronal stop,9,∅,2,False
+mamb1306-Sbeta,"South Mambae, Betano",ŋ,velar stop,2,velar stop,13,True
+mamb1306-Slete,"South Mambae, Letefoho",R,∅,4,rhotic,29,False
+mamb1306-Slete,"South Mambae, Letefoho",b,h,3,h,21,True
+mamb1306-Slete,"South Mambae, Letefoho",k,∅,7,∅,20,True
+mamb1306-Slete,"South Mambae, Letefoho",m,m,9,∅,2,False
+mamb1306-Slete,"South Mambae, Letefoho",p,labial stop,2,labial fricative,21,False
+mamb1306-Slete,"South Mambae, Letefoho",t,coronal stop,12,∅,2,False
+mamb1306-Slete,"South Mambae, Letefoho",ŋ,velar stop,2,velar stop,13,True
+mamb1306-Sudo,"South Mambae, Hatu-Udo",R,∅,3,rhotic,29,False
+mamb1306-Sudo,"South Mambae, Hatu-Udo",b,h,5,h,21,True
+mamb1306-Sudo,"South Mambae, Hatu-Udo",d,rhotic,2,rhotic,13,True
+mamb1306-Sudo,"South Mambae, Hatu-Udo",k,coronal stop,4,∅,20,False
+mamb1306-Sudo,"South Mambae, Hatu-Udo",m,m,8,∅,2,False
+mamb1306-Sudo,"South Mambae, Hatu-Udo",p,labial stop,3,labial fricative,21,False
+mamb1306-Sudo,"South Mambae, Hatu-Udo",t,coronal stop,9,∅,2,False
+mamb1306-Sudo,"South Mambae, Hatu-Udo",ŋ,velar stop,2,velar stop,13,True
+midi1237,Midiki,R,∅,4,∅,6,True
+midi1237,Midiki,b,w,3,w,3,True
+midi1237,Midiki,q,∅,9,glottal stop,3,False
+midi1237,Midiki,z,glottal stop,2,y,3,False
+midi1237,Midiki,ŋ,n,4,n,4,True
+naue1237,Naueti,R,∅,9,∅,6,True
+naue1237,Naueti,b,w,3,w,3,True
+naue1237,Naueti,p,∅,2,h,3,False
+naue1237,Naueti,q,∅,13,glottal stop,5,False
+naue1237,Naueti,ŋ,∅,2,n,4,False
+nort2860,North Babar,n,n,3,∅,7,False
+ring1244,Rikou,d,rhotic,7,coronal stop,2,False
+rois1241,Ro'is Amarasi,d,n,4,n,2,True
+roma1332,Roma,b,w,4,w,7,True
+roma1332,Roma,j,rhotic,2,rhotic,7,True
+roma1332,Roma,p,h,3,∅,6,False
+roma1332,Roma,s,h,4,h,9,True
+roma1332,Roma,ŋ,n,7,n,6,True
+sika1262-hewa,"Sika, Hewa",R,rhotic,6,∅,14,False
+sika1262-hewa,"Sika, Hewa",b,labial fricative,7,labial fricative,9,True
+sika1262-hewa,"Sika, Hewa",j,rhotic,2,rhotic,10,True
+sika1262-hewa,"Sika, Hewa",s,h,6,h,10,True
+sika1262-hewa,"Sika, Hewa",w,labial fricative,4,labial fricative,5,True
+sika1262-hewa,"Sika, Hewa",z,rhotic,2,rhotic,8,True
+sika1262-hewa,"Sika, Hewa",ŋ,n,6,n,5,True
+tela1241,Tela-Masbuar,p,∅,2,∅,8,True
+tela1241,Tela-Masbuar,t,velar stop,2,velar stop,6,True
+term1237,Termanu,b,labial stop,15,labial stop,2,True
+term1237,Termanu,d,coronal stop,7,coronal stop,2,True
+term1237,Termanu,k,velar stop,17,velar stop,2,True
+term1237,Termanu,p,labial stop,3,h,7,False
+term1237,Termanu,ŋ,n,3,∅,7,False
+tetu1245-suai,"Tetun, Suai",R,n,6,∅,8,False
+tetu1245-suai,"Tetun, Suai",b,labial stop,3,labial fricative,4,False
+tetu1245-suai,"Tetun, Suai",p,h,6,h,7,True
+tetu1245-suai,"Tetun, Suai",q,velar stop,11,∅,3,False
+tetu1245-suai,"Tetun, Suai",ŋ,n,7,n,5,True
+tetu1246,Tetun Dili,R,n,7,∅,8,False
+tetu1246,Tetun Dili,b,labial fricative,8,labial fricative,4,True
+tetu1246,Tetun Dili,p,h,4,h,7,True
+tetu1246,Tetun Dili,q,velar stop,13,∅,3,False
+tetu1246,Tetun Dili,ŋ,n,9,n,5,True
+tiii1241,Tii,p,coronal stop,3,h,7,False
+tuku1254,Tokodede,R,∅,4,∅,12,True
+tuku1254,Tokodede,b,h,6,h,14,True
+tuku1254,Tokodede,d,labial stop,2,rhotic,5,False
+tuku1254,Tokodede,k,∅,8,velar stop,6,False
+tuku1254,Tokodede,p,labial stop,6,labial stop,6,True
+uhak1237,Perai,R,rhotic,7,rhotic,5,True
+uhak1237,Perai,b,labial fricative,4,labial fricative,2,True
+uhak1237,Perai,w,velar stop,2,∅,5,False
+uhak1237,Perai,z,∅,2,sibilant,3,False
+uhak1237,Perai,ŋ,n,4,n,3,True
+waim1252,Waima'a,R,∅,9,∅,8,True
+waim1252,Waima'a,b,w,2,w,3,True
+waim1252,Waima'a,p,labial stop,3,h,5,False
+waim1252,Waima'a,q,∅,9,glottal stop,5,False
+waim1252,Waima'a,ŋ,n,2,n,4,True
+west2547-mahein,"Welaun, Mahein",R,∅,6,∅,11,True
+west2547-mahein,"Welaun, Mahein",b,labial fricative,5,labial fricative,7,True
+west2547-mahein,"Welaun, Mahein",d,l,4,l,6,True
+west2547-mahein,"Welaun, Mahein",k,∅,5,glottal stop,7,False
+west2547-mahein,"Welaun, Mahein",ŋ,n,3,velar stop,6,False
+west2547-welaun,Welaun,R,∅,7,∅,11,True
+west2547-welaun,Welaun,b,labial fricative,10,labial fricative,7,True
+west2547-welaun,Welaun,d,coronal stop,9,l,6,False
+west2547-welaun,Welaun,k,∅,11,glottal stop,7,False
+west2547-welaun,Welaun,p,sibilant,4,h,5,False
+west2547-welaun,Welaun,w,n,2,w,5,False
+west2547-welaun,Welaun,ŋ,glottal stop,2,velar stop,6,False
+weta1243,Wetan,b,w,3,w,13,True
+weta1243,Wetan,p,∅,2,∅,7,True
+weta1243,Wetan,s,∅,5,∅,6,True
+weta1243,Wetan,w,w,3,y,2,False
+weta1243,Wetan,ŋ,n,4,n,5,True

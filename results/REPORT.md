@@ -17,7 +17,7 @@ Run on 2026-10-10.
 | **Timor-Babar** (Edwards; Grimes and Edwards) | Not supported (0%) | Not a lexical group: ln BF −7.0 against it, and forcing it costs 12 log-likelihood units in ML. It stands on its sound changes only. | High that the vocabulary doesn't show it |
 | **Eastern Timor** (Edwards; Grimes and Edwards) | Not supported (0–3%) | Same as Timor-Babar | High |
 | **C2. Is Welaun a Tetun dialect (Hull 1998) or Central Timor (Edwards)?** | Unresolved, because the bootstrap trees don't reach 70% for Central Timor | **Central Timor.** ln BF +10.3, the ML tree puts it there, and its Tetun tie disappears on borrowing-resistant words. This agrees with the sound changes in Edwards (2019) and Grimes and Edwards. | High |
-| **C1. Do Idaté and Lakalei go with Mambae, Kemak and Tokodede (Hull's Ramelaic), or into Timor-Babar (Edwards)?** | Unresolved, because neither clade reaches 70% in the bootstrap trees | **Split.** The vocabulary puts Lakalei-Idate next to Central Timor, Welaun included: posterior 0.91, and ln BF +8.0 for Ramelaic. The sound changes favour Edwards: Lakalei-Idate lacks Central Timor's markers and shares Timor-Babar's *p > h. | Low: the two kinds of evidence disagree |
+| **C1. Do Idaté and Lakalei go with Mambae, Kemak and Tokodede (Hull's Ramelaic), or into Timor-Babar (Edwards)?** | Unresolved, because neither clade reaches 70% in the bootstrap trees | **Leans Central Timor (Hull's grouping, with Welaun added).** The vocabulary puts Lakalei-Idate next to Central Timor (posterior 0.91; ln BF +8.0 for Ramelaic). So does every analysis that adds Grimes and Edwards's own sound-change data (posterior 0.88; ML 56–80). Timor-Babar's one defining change, *p lenition, also occurs in Welaun. See *Expansion*. | Moderate: post hoc, and the sound-change data are sparse |
 | **Low-level groups** | Supported (≥ 70% in every variant): Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang, Kisar-Roma, Babar, Peripheral Babar, South Babar | Settled. All of them are already in Grimes and Edwards and in Glottolog. | High |
 
 ## Gate (step 4)
@@ -218,9 +218,10 @@ The question is whether Lakalei-Idate's cognate sets shared with Central Timor a
 IQ-TREE 2.3.6, GTR2+FO+G4, on the same 24-lect matrix as step 7.
 
 - **The ML tree.**
-  - Lakalei-Idate sits with Central Timor including Welaun (ultrafast bootstrap 52).
-  - Welaun is inside Central Timor (59).
-  - Mambae, Kemak and Tokodede form a strong core (97).
+  - Lakalei-Idate sits with Central Timor including Welaun (ultrafast bootstrap 65).
+  - Welaun is inside Central Timor (52).
+  - Mambae, Kemak and Tokodede group at 59.
+  - *Correction.* An earlier version gave 52, 59 and 97. Those values came from re-rooting the consensus tree, which moved support values onto the wrong branches. The figures above are read from IQ-TREE's split file, which doesn't depend on the root.
 - **The constraint tests.**
 
 | Tree | ΔlogL | AU p |
@@ -243,7 +244,7 @@ IQ-TREE 2.3.6, GTR2+FO+G4, on the same 24-lect matrix as step 7.
 - The low-level groups in the Answers table are real.
 - **Welaun is a Central Timor language with a thick Tetun overlay.** Every lexical method that controls for borrowing puts it in Central Timor (ln BF +10.3, ML, stable vocabulary). Its Tetun-like look comes from borrowable words. This matches Edwards (2019) and Grimes and Edwards (2026).
 
-**C1, Lakalei-Idate, is not settled by these data, and the reason is specific.** Two kinds of evidence point in different directions.
+**C1, Lakalei-Idate, is not settled by these data, and the reason is specific.** Two kinds of evidence point in different directions. (This is the reading before the expansion. *Expansion* below combines the two kinds of evidence and updates it.)
 
 - **The vocabulary points to Central Timor.**
   - The Bayesian test gives ln BF +8.0 for Ramelaic and posterior 0.91 for Lakalei-Idate as sister to Central Timor, Welaun included. The ML tree agrees.
@@ -260,6 +261,73 @@ IQ-TREE 2.3.6, GTR2+FO+G4, on the same 24-lect matrix as step 7.
 - **Two histories fit this**, and these data cannot tell them apart:
   - a Timor-Babar language with a deep Central Timor lexical layer;
   - a near-Central Timor branch that picked up Timor-Babar sound changes by contact.
+
+## Expansion: new data (Addendum 4, post hoc)
+
+The comparison was widened until it produced data that didn't exist before. Details are in `derived/README.md`.
+
+**The new datasets.**
+
+- **Machine-readable Grimes and Edwards (2026) tables.** 14,401 forms from 257 table blocks, mapped to 207 Glottocodes, with the authors' highlighted reflexes kept.
+- **Two reflex atlases of PMP consonants.**
+  - Expert: 8,426 tokens across 186 languages.
+  - Automatic: 4,978 tokens across 64 LexiRumah lects.
+  - The automatic reflex matches the authors' highlighted reflex for the same word **94%** of the time (249 of 264).
+- **Innovation profiles** for 65 Timor-region languages: eight diagnostic changes, coded from the expert atlas.
+- **Loans identified by sound change**: a Tetun loan classification of 740 look-alikes, and a test of Lakalei-Idate's Central Timor cognates.
+- **Cognate sets exclusive to Lakalei-Idate and Central Timor**: 10 sets.
+
+### What the sound changes show (E10b)
+
+![Innovation profiles](figures/innovation_profiles.png)
+
+- **Central Timor, with Welaun, shares three changes:** *ŋ > g/k, *j > l and *d > r/l. On those changes alone it groups at 83%.
+- **Timor-Babar's defining change has a wrinkle.** *p > h/ʔ/∅ appears in every Timor-Babar language with data, in Lakalei-Idate, and in Welaun. Welaun's other changes put it in Central Timor, so *p lenition happened at least twice or spread by contact. Grimes and Edwards note Welaun's *p > h themselves (ch. 5).
+- ***ŋ > n doesn't help.** It is also found in Sika, the Flores outgroup, so it isn't evidence for Timor-Babar.
+- **Lakalei-Idate's profile.** It shares *p lenition and *ŋ > n with Eastern Timor, plus *j > r (Idaté) and *R > ∅ (Lakalei). It lacks Central Timor's *ŋ > g and *j > l.
+- **The diagnostics alone don't place Lakalei-Idate.** A tree on the eight changes recovers neither Timor-Babar nor Lakalei-Idate with Central Timor or with Eastern Timor (all 0%).
+
+### Vocabulary and sound changes together (E11)
+
+| Analysis (24 lects) | Lakalei-Idate + Central Timor | Timor-Babar incl. Lakalei-Idate | Lakalei-Idate + Eastern Timor |
+|---|---|---|---|
+| Vocabulary only, ML (UFBoot %) | 65 | 0 | 0 |
+| Vocabulary + 17 sound-change characters, ML | 56 | 0 | 0 |
+| Same, characters split by position, ML | 66 | 0 | 0 |
+| Vocabulary + 8 diagnostic changes, ML | 80 | 0 | 0 |
+| Vocabulary + 17 sound-change characters, Bayesian (posterior) | **0.88** | 0.00 | 0.00 |
+| Vocabulary minus 21 probable Tetun loans, ML | 57 | 0 | 0 |
+
+- **Every combined analysis gives the same answer.** Under the reading fixed in Addendum 4, Lakalei-Idate + Central Timor wins in all of them. Timor-Babar and Lakalei-Idate + Eastern Timor never appear.
+- **Convergence.** In the Bayesian run the topology converged (split-frequency difference 0.007; PSRF ≤ 1.002). The rate parameters of the small sound-change partition mixed poorly (ESS around 15).
+
+### Loans (E12, E12b)
+
+- **Tetun loans.** 21 Tetun look-alikes break their own language's regular reflexes in Tetun's direction, so they are probable loans. Examples:
+  - Welaun *nani* 'swim', which Grimes and Edwards also call a loan;
+  - Kemak *malan* 'dry';
+  - Idaté and Lakalei *mihis* 'thin'.
+
+  Removing them changes nothing above.
+- **Central Timor loans into Lakalei-Idate.** Of the 104 Lakalei-Idate forms shared with Central Timor but not Tetun, 103 contain no PMP consonant that could tell the two sides apart. The one testable word, *talinar* 'ear', shows Lakalei-Idate's own *ŋ > n. Sound changes therefore can't say whether the shared words are borrowed.
+- **The clearest exclusive link is 'cry'.**
+  - Idaté *sɛro*, Lakalei *sɛrɔ*, Mambae *sero*, Kemak *sio*, Tokodede *seːɔ* and Welaun *soː*, against *tanis*/*tani* (< *taŋis) almost everywhere else.
+  - Two weaker candidates: 'tongue' (Lakalei *lalau* ~ Mambae *lamalau*) and 'inside' (Idaté *heː* ~ Mambae and Tokodede *hɛr*).
+  - Grimes and Edwards do not discuss these words.
+
+### What changes
+
+- **The analyst's reading of C1 moves from "split" to "leans Central Timor".**
+  - Lakalei-Idate goes with Central Timor in every analysis that combines the vocabulary with Grimes and Edwards's own sound-change data.
+  - Their case for Lakalei-Idate in Timor-Babar rests on *p lenition. Welaun shows that change arose or spread outside Timor-Babar. The other shared change, *ŋ > n, is found in the Flores outgroup too.
+- **The best-supported shape is Hull's Ramelaic with Welaun added:** ((Mambae, Kemak, Tokodede, Welaun), (Idaté, Lakalei)), with *p > h spreading into Lakalei-Idate and Welaun by contact.
+- **It is still not definitive.**
+  - The pre-registered verdict stays "unresolved".
+  - The expansion is post hoc.
+  - The sound-change data are sparse: 17 characters, 8 diagnostics, and a few tokens per cell.
+  - Vocabulary and sound changes are weighted equally.
+  - LexiRumah and the Grimes and Edwards tables share sources.
+  - Grimes and Edwards's full 494-item lists might hold Lakalei-Idate–Timor-Babar innovations that their printed tables leave out.
 
 ## Novelty check (post hoc, 10 October 2026)
 
@@ -305,7 +373,7 @@ What Sanak adds was checked against the literature and against the one earlier B
 ## What would settle C1
 
 1. **More words with *p and *ŋ for Idaté and Lakalei.** The LexiRumah lists give only a handful of native cases. Grimes and Edwards's 494-item lists, collected for both languages, would show whether the native cases are regular.
-2. **Innovation-based phylogenetics.** Code the sound changes in Grimes and Edwards §4.8 and §5.5 as binary characters, add them to the 1,353 lexical characters, and rerun step 7. If the sound changes are coherent, they should outweigh a diffuse lexical signal.
+2. **Innovation-based phylogenetics.** Partly done in E10b and E11: eight diagnostic changes and 17 multistate characters, coded from Grimes and Edwards's tables and added to the lexical characters. They did not outweigh the lexical signal. A fuller version would code every change in §4.8 and §5.5 from the complete wordlists and test it with a pre-registered weighting.
 3. **A borrowing-aware model.** Fit a model that lets a Central Timor or Tetun lexical layer be its own component, and ask whether Lakalei-Idate's Central Timor links look like a layer or like descent.
 
 ## Caveats

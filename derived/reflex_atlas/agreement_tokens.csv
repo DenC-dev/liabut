@@ -1,0 +1,265 @@
+Lect_ID,Glottocode,Etymon,Target,Position,Form,Auto_Reflex,Auto_Class,Expert_Forms,Expert_Classes,Agree
+dela1252,dela1251,manipis,p,medial,niʔis,ʔ,glottal stop,niʔis,glottal stop,True
+dela1252,dela1251,naŋuy,ŋ,medial,nane,n,n,nane,n,True
+eray1237,iliu1237,bulan,b,initial,hulan,h,h,hulan,h,True
+eray1237,iliu1237,haŋin,ŋ,medial,anin,n,n,anin,n,True
+eray1237,iliu1237,quzan,z,medial,usan,s,sibilant,usan,sibilant,True
+eray1237,iliu1237,batu,b,initial,hatu,h,h,hatu,h,True
+eray1237,iliu1237,ŋajan,ŋ,initial,nean,n,n,nean,n,True
+funa1237,funa1237,manipis,p,medial,mnihis,h,h,mnihis,h,True
+idat1237,idat1237,taliŋa,ŋ,medial,tɑlina,n,n,talina,n,True
+idat1237,idat1237,ŋajan,j,medial,narɑn,r,rhotic,naran,rhotic,True
+idat1237,idat1237,manipis,p,medial,mihis,h,h,mihis,h,True
+idat1237,idat1237,naŋuy,ŋ,medial,nɑmuʔa,m,m,nani,n,False
+keda1252,keda1252,ŋajan,ŋ,initial,naja,n,n,naya,n,True
+keda1252,keda1252,ŋajan,j,medial,naja,j,y,naya,y,True
+keda1252,keda1252,dəŋəR,d,initial,deŋər,d,coronal stop,dæŋær,coronal stop,True
+kema1243,kema1243,bulan,b,initial,hula,h,h,hula,h,True
+kema1243,kema1243,quzan,z,medial,ʔusa,s,sibilant,usa,sibilant,True
+kema1243,kema1243,batu,b,initial,hatu,h,h,hatu,h,True
+kema1243,kema1243,batu,t,medial,hatu,t,coronal stop,atu | aʧu,affricate | coronal stop,True
+kema1243,kema1243,hapuy,p,medial,ʔɑpi,p,labial stop,api,labial stop,True
+kema1243,kema1243,nipən,p,medial,nipɑr,p,labial stop,nipa-r,labial stop,True
+kema1243,kema1243,kulit,t,final,ulitir,t,coronal stop,ulit-iir | uliʧ-iir | ulʧi-r,affricate | coronal stop,True
+kema1243,kema1243,bulu,b,initial,hulur,h,h,hulu-r | hulu-ŋ,h,True
+kema1243,kema1243,maputiq,t,medial,buti,t,coronal stop,buti | buʧi,affricate | coronal stop,True
+kema1243,kema1243,dəŋəR,ŋ,medial,pənɛga,n,n,rega,velar stop,False
+kema1243,kema1243,əpat,p,medial,paːt,p,labial stop,paat,labial stop,True
+kema1243-kaila,kema1243,bulan,b,initial,hula,h,h,hula,h,True
+kema1243-kaila,kema1243,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+kema1243-kaila,kema1243,batu,b,initial,atu,-,∅,hatu,h,False
+kema1243-kaila,kema1243,batu,t,medial,atu,t,coronal stop,atu | aʧu,affricate | coronal stop,True
+kema1243-kaila,kema1243,ijuŋ,j,medial,ilur,l,l,ilu-r,l,True
+kema1243-kaila,kema1243,nipən,p,medial,nipar,p,labial stop,nipa-r,labial stop,True
+kema1243-kaila,kema1243,kulit,t,final,ulitiːr,t,coronal stop,ulit-iir | uliʧ-iir | ulʧi-r,affricate | coronal stop,True
+kema1243-kaila,kema1243,maputiq,t,medial,buti,t,coronal stop,buti | buʧi,affricate | coronal stop,True
+kema1243-kaila,kema1243,əpat,p,medial,paːt,p,labial stop,paat,labial stop,True
+koto1251,koto1251,manipis,p,medial,mainihas,h,h,mainihas,h,True
+laka1255,laka1255,ŋajan,j,medial,narɑn,r,rhotic,naran,rhotic,True
+laka1255,laka1255,naŋuy,ŋ,medial,nani,n,n,nani,n,True
+mamb1306,mamb1306,bulan,b,initial,hulkai,h,h,hula | hulai,h,True
+mamb1306,mamb1306,batu,b,initial,haːt,h,h,hato | haut | haut-a,h,True
+mamb1306,mamb1306,buaq,b,initial,hua,h,h,ai hua | ai huan,h,True
+mamb1306,mamb1306,nipən,p,medial,nipa,p,labial stop,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306,mamb1306,bulu,b,initial,hulu,h,h,hulu | hulu-n,h,True
+mamb1306,mamb1306,əpat,p,medial,paːt,p,labial stop,faat | paat,labial fricative | labial stop,True
+sika1262-hewa,sika1262,bulan,b,initial,ʋulan,ʋ,labial fricative,βulaŋ,labial fricative,True
+sika1262-hewa,sika1262,quzan,z,medial,uran,r,rhotic,uraŋ,rhotic,True
+sika1262-hewa,sika1262,batu,b,initial,ʋatu,ʋ,labial fricative,βatu,labial fricative,True
+sika1262-hewa,sika1262,ijuŋ,j,medial,iru,r,rhotic,iru | iruŋ,rhotic,True
+sika1262-hewa,sika1262,susu,s,medial,uhu,h,h,uhuŋ,h,True
+sika1262-hewa,sika1262,ŋajan,ŋ,initial,naran,n,n,naran,n,True
+sika1262-hewa,sika1262,ŋajan,j,medial,naran,r,rhotic,naran | naraŋ,rhotic,True
+sika1262-hewa,sika1262,asu,s,medial,ahu,h,h,ahu,h,True
+sika1262-hewa,sika1262,bulu,b,initial,ʋulu,ʋ,labial fricative,βulu-ŋ,labial fricative,True
+sika1262-hewa,sika1262,duha,d,initial,rua,r,rhotic,rua,rhotic,True
+tetu1245-suai,east2473,ŋajan,j,medial,naran,r,rhotic,naran,rhotic,True
+tetu1245-suai,sout2898,manipis,p,medial,miʔis,ʔ,glottal stop,niʔis,glottal stop,True
+tetu1245-suai,sout2898,naŋuy,ŋ,medial,nani,n,n,nani,n,True
+tetu1245-suai,sout2898,əpat,p,medial,haːt,h,h,haat,h,True
+tetu1246,east2473,bulan,b,initial,fulɑn,f,labial fricative,fulan,labial fricative,True
+tetu1246,east2473,quzan,z,medial,ʔudɑn,d,coronal stop,udan,coronal stop,True
+tetu1246,east2473,buaq,b,initial,fuɑn,f,labial fricative,fuan,labial fricative,True
+tetu1246,east2473,ŋajan,j,medial,narɑn,r,rhotic,naran,rhotic,True
+tetu1246,east2473,manipis,p,medial,mihis,h,h,mihis,h,True
+tetu1246,east2473,naŋuy,ŋ,medial,nani,n,n,nani,n,True
+tetu1246,east2473,əpat,p,medial,haːt,h,h,haat,h,True
+tuku1254,tuku1254,bulan,b,initial,hula,h,h,hula | vula,h | labial fricative,True
+tuku1254,tuku1254,batu,b,initial,hatu,h,h,hatu | vatu,h | labial fricative,True
+tuku1254,tuku1254,nipən,p,medial,nipa,p,labial stop,nipa,labial stop,True
+tuku1254,tuku1254,bulu,b,initial,hulu,h,h,huluː | vuluː,h | labial fricative,True
+tuku1254,tuku1254,diRi,d,initial,biriː,b,labial stop,brii,rhotic,False
+tuku1254,tuku1254,əpat,p,medial,paːt,p,labial stop,paat,labial stop,True
+waim1252,waim1252,batu,b,initial,watu,w,w,watu,w,True
+west2547-welaun,wela1235,bulan,b,initial,fulan,f,labial fricative,fulan,labial fricative,True
+west2547-welaun,wela1235,bituqən,b,initial,fitun,f,labial fricative,fitun,labial fricative,True
+west2547-welaun,wela1235,quzan,z,medial,usan,s,sibilant,usan,sibilant,True
+west2547-welaun,wela1235,batu,b,initial,fatu,f,labial fricative,fatu,labial fricative,True
+west2547-welaun,wela1235,əpat,p,medial,hoat,-,∅,hoat,h,False
+weta1243,weta1243,batu,b,initial,wati,w,w,wati,w,True
+weta1243,weta1243,taliŋa,ŋ,medial,tlina,n,n,tlina,n,True
+weta1243,weta1243,ŋajan,ŋ,initial,nana,n,n,nana,n,True
+dadu1237,dadu1237,bulan,b,initial,wula,w,w,wula,w,True
+dadu1237,dadu1237,haŋin,ŋ,medial,ani,n,n,ani,n,True
+dadu1237,dadu1237,batu,b,initial,watu,w,w,watu,w,True
+dadu1237,dadu1237,Rumaq,R,initial,ruma,r,rhotic,ruma,rhotic,True
+ilpu1239,aput1237,haŋin,ŋ,medial,anin,n,n,aniŋ,n,True
+ilpu1239,aput1237,batu,b,initial,fatu,f,labial fricative,fatu,labial fricative,True
+ilpu1239,aput1237,bulan,b,initial,fulan,f,labial fricative,fulan,labial fricative,True
+ilpu1239,aput1237,ŋajan,ŋ,initial,neaŋ,n,n,neaŋ,n,True
+ilpu1239,aput1237,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+ilma1240,iliu1237,bulan,b,initial,hulã,h,h,hulan,h,True
+ilma1240,iliu1237,quzan,z,medial,husã,s,sibilant,usan,sibilant,True
+ilma1240,iliu1237,haŋin,ŋ,medial,ani,n,n,anin,n,True
+ilma1240,iliu1237,batu,b,initial,hatu,h,h,hatu,h,True
+naue1237,naue1237,buaq,b,initial,wua,w,w,wua,w,True
+naue1237,naue1237,ijuŋ,j,medial,iru,r,rhotic,iru | irukai,rhotic,True
+naue1237,naue1237,batu,b,initial,watu,w,w,watu,w,True
+naue1237,naue1237,bulan,b,initial,wula,w,w,wula,w,True
+uhak1237,pera1257,haŋin,ŋ,medial,aniŋ,n,n,anin,n,True
+uhak1237,pera1257,batu,b,initial,fatu,f,labial fricative,fatu,labial fricative,True
+uhak1237,pera1257,bulan,b,initial,fulaŋ,f,labial fricative,fulaŋ,labial fricative,True
+uhak1237,pera1257,ŋajan,ŋ,initial,neaŋ,n,n,neaŋ,n,True
+uhak1237,pera1257,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+kaha1239,tugu1245,haŋin,ŋ,medial,anin,n,n,anin,n,True
+kaha1239,tugu1245,batu,b,initial,fatu,f,labial fricative,fatu,labial fricative,True
+kaha1239,tugu1245,bulan,b,initial,fulan,f,labial fricative,fulan,labial fricative,True
+kaha1239,tugu1245,ŋajan,ŋ,initial,nean,n,n,nean,n,True
+kaha1239,tugu1245,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+daii1240,daii1240,tanəq,t,initial,tanjon,t,coronal stop,tany-on,coronal stop,True
+daii1240,daii1240,kita,t,medial,nit,t,coronal stop,it,coronal stop,True
+daii1240,daii1240,lima,l,initial,nim,n,n,nim,n,True
+dawe1237,dawe1237,kita,t,medial,kʰita,t,coronal stop,it,coronal stop,True
+dawe1237,dawe1237,təlu,t,initial,tɛl,t,coronal stop,tɛl,coronal stop,True
+kisa1266,kisa1266,qabu,b,medial,apu,p,labial stop,apu,labial stop,True
+kisa1266,kisa1266,batu,b,initial,waku,w,w,waku,w,True
+kisa1266,kisa1266,taliŋa,ŋ,medial,kilina,n,n,kilin-na,n,True
+kisa1266,kisa1266,ijuŋ,j,medial,irun,r,rhotic,irun,rhotic,True
+kisa1266,kisa1266,ŋajan,ŋ,initial,naran,n,n,naran,n,True
+kisa1266,kisa1266,ŋajan,j,medial,naran,r,rhotic,naran,rhotic,True
+kisa1266,kisa1266,asu,s,medial,ahu,h,h,ahu,h,True
+luan1264,luan1263,qabu,b,medial,aʋu,ʋ,labial fricative,awu,w,False
+luan1264,luan1263,batu,b,initial,watu,w,w,watu,w,True
+luan1264,luan1263,taliŋa,ŋ,medial,tlini,n,n,tlinə,n,True
+luan1264,luan1263,asu,s,medial,ahu,h,h,ahu,h,True
+nort2860,nort2860,lima,l,initial,nimo,n,n,nimo,n,True
+roma1332,roma1332,bulan,b,initial,wulan,w,w,wulan,w,True
+roma1332,roma1332,batu,b,initial,watu,w,w,watu,w,True
+roma1332,roma1332,taliŋa,ŋ,medial,tlinna,n,n,tlin-na,n,True
+roma1332,roma1332,ijuŋ,j,medial,iɾunn,ɾ,rhotic,irun,rhotic,True
+roma1332,roma1332,susu,s,initial,huhu,h,h,huhu,h,True
+roma1332,roma1332,ŋajan,ŋ,initial,naɾanna,n,n,naran-na,n,True
+roma1332,roma1332,ŋajan,j,medial,naɾanna,ɾ,rhotic,naran-na,rhotic,True
+roma1332,roma1332,asu,s,medial,ahu,h,h,ahu,h,True
+mamb1306-NWbar,mamb1306,bulan,b,initial,hula,h,h,hula | hulai,h,True
+mamb1306-NWbar,mamb1306,quzan,z,medial,usa,s,sibilant,usa | uus,sibilant,True
+mamb1306-NWbar,mamb1306,batu,b,initial,hato,h,h,hato | haut | haut-a,h,True
+mamb1306-NWbar,mamb1306,ijuŋ,j,medial,ilu,l,l,ilu | ilu-n,l,True
+mamb1306-NWbar,mamb1306,nipən,p,medial,nipan,p,labial stop,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306-NWbar,mamb1306,bulu,b,initial,hulun,h,h,hulu | hulu-n,h,True
+mamb1306-NWbar,mamb1306,əpat,p,medial,paːt,p,labial stop,faat | paat,labial fricative | labial stop,True
+mamb1306-NWhat,mamb1306,bulan,b,initial,hula,h,h,hula | hulai,h,True
+mamb1306-NWhat,mamb1306,quzan,z,medial,usa,s,sibilant,usa | uus,sibilant,True
+mamb1306-NWhat,mamb1306,batu,b,initial,hato,h,h,hato | haut | haut-a,h,True
+mamb1306-NWhat,mamb1306,ijuŋ,j,medial,ilun,l,l,ilu | ilu-n,l,True
+mamb1306-NWhat,mamb1306,nipən,p,medial,nipan,p,labial stop,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306-NWhat,mamb1306,bulu,b,initial,hulun,h,h,hulu | hulu-n,h,True
+mamb1306-NWhat,mamb1306,əpat,p,medial,paːt,p,labial stop,faat | paat,labial fricative | labial stop,True
+mamb1306-NWrai,mamb1306,bulan,b,initial,hula,h,h,hula | hulai,h,True
+mamb1306-NWrai,mamb1306,quzan,z,medial,usa,s,sibilant,usa | uus,sibilant,True
+mamb1306-NWrai,mamb1306,batu,b,initial,hato,h,h,hato | haut | haut-a,h,True
+mamb1306-NWrai,mamb1306,ijuŋ,j,medial,ilun,l,l,ilu | ilu-n,l,True
+mamb1306-NWrai,mamb1306,nipən,p,medial,nipan,p,labial stop,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306-NWrai,mamb1306,bulu,b,initial,hulun,h,h,hulu | hulu-n,h,True
+mamb1306-NWrai,mamb1306,əpat,p,medial,paːt,p,labial stop,faat | paat,labial fricative | labial stop,True
+mamb1306-Claul,mamb1306,bulan,b,initial,hula,h,h,hula | hulai,h,True
+mamb1306-Claul,mamb1306,quzan,z,medial,usa,s,sibilant,usa | uus,sibilant,True
+mamb1306-Claul,mamb1306,ijuŋ,j,medial,inun,n,n,ilu | ilu-n,l,False
+mamb1306-Claul,mamb1306,nipən,p,medial,nifan,f,labial fricative,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306-Claul,mamb1306,bulu,b,initial,hulun,h,h,hulu | hulu-n,h,True
+mamb1306-Claul,mamb1306,əpat,p,medial,faːt,f,labial fricative,faat | paat,labial fricative | labial stop,True
+mamb1306-Caile,mamb1306,bulan,b,initial,hula,h,h,hula | hulai,h,True
+mamb1306-Caile,mamb1306,quzan,z,medial,usa,s,sibilant,usa | uus,sibilant,True
+mamb1306-Caile,mamb1306,ijuŋ,j,medial,inun,n,n,ilu | ilu-n,l,False
+mamb1306-Caile,mamb1306,nipən,p,medial,nifan,f,labial fricative,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306-Caile,mamb1306,bulu,b,initial,hulun,h,h,hulu | hulu-n,h,True
+mamb1306-Caile,mamb1306,əpat,p,medial,faːt,f,labial fricative,faat | paat,labial fricative | labial stop,True
+mamb1306-Cliqu,mamb1306,bulan,b,initial,hula,h,h,hula | hulai,h,True
+mamb1306-Cliqu,mamb1306,ijuŋ,j,medial,ilun,l,l,ilu | ilu-n,l,True
+mamb1306-Cliqu,mamb1306,nipən,p,medial,nifan,f,labial fricative,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306-Cliqu,mamb1306,bulu,b,initial,hulun,h,h,hulu | hulu-n,h,True
+mamb1306-Cliqu,mamb1306,əpat,p,medial,faːt,f,labial fricative,faat | paat,labial fricative | labial stop,True
+mamb1306-Chatu,mamb1306,bulan,b,initial,hula,h,h,hula | hulai,h,True
+mamb1306-Chatu,mamb1306,quzan,z,medial,usa,s,sibilant,usa | uus,sibilant,True
+mamb1306-Chatu,mamb1306,ijuŋ,j,medial,inun,n,n,ilu | ilu-n,l,False
+mamb1306-Chatu,mamb1306,nipən,p,medial,nifan,f,labial fricative,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306-Chatu,mamb1306,bulu,b,initial,hulun,h,h,hulu | hulu-n,h,True
+mamb1306-Chatu,mamb1306,əpat,p,medial,faːt,f,labial fricative,faat | paat,labial fricative | labial stop,True
+mamb1306-Sudo,mamb1306,bulan,b,initial,hulai,h,h,hula | hulai,h,True
+mamb1306-Sudo,mamb1306,batu,b,initial,haːt,h,h,hato | haut | haut-a,h,True
+mamb1306-Sudo,mamb1306,ijuŋ,j,medial,ilu,l,l,ilu | ilu-n,l,True
+mamb1306-Sudo,mamb1306,nipən,p,medial,nipa,p,labial stop,nifa | nifan | nipa | nipan,labial fricative | labial stop,True
+mamb1306-Sudo,mamb1306,bulu,b,initial,hulu,h,h,hulu | hulu-n,h,True
+mamb1306-Sudo,mamb1306,əpat,p,medial,paːt,p,labial stop,faat | paat,labial fricative | labial stop,True
+mamb1306-Sbeta,mamb1306,batu,b,initial,haːt,h,h,hato | haut | haut-a,h,True
+mamb1306-Sbeta,mamb1306,ijuŋ,j,medial,ilu,l,l,ilu | ilu-n,l,True
+mamb1306-Sbeta,mamb1306,bulu,b,initial,hulu,h,h,hulu | hulu-n,h,True
+mamb1306-Sbeta,mamb1306,əpat,p,medial,paːt,p,labial stop,faat | paat,labial fricative | labial stop,True
+mamb1306-Slete,mamb1306,bulan,b,initial,hulai,h,h,hula | hulai,h,True
+mamb1306-Slete,mamb1306,ijuŋ,j,medial,ilu,l,l,ilu | ilu-n,l,True
+mamb1306-Slete,mamb1306,bulu,b,initial,hulu,h,h,hulu | hulu-n,h,True
+mamb1306-Slete,mamb1306,əpat,p,medial,faːt,f,labial fricative,faat | paat,labial fricative | labial stop,True
+kema1243-diir,kema1243,bulan,b,initial,hula,h,h,hula,h,True
+kema1243-diir,kema1243,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+kema1243-diir,kema1243,batu,b,initial,hatu,h,h,hatu,h,True
+kema1243-diir,kema1243,batu,t,medial,hatu,t,coronal stop,atu | aʧu,affricate | coronal stop,True
+kema1243-diir,kema1243,ijuŋ,j,medial,ilur,l,l,ilu-r,l,True
+kema1243-diir,kema1243,nipən,p,medial,nipar,p,labial stop,nipa-r,labial stop,True
+kema1243-diir,kema1243,maputiq,t,medial,buti,t,coronal stop,buti | buʧi,affricate | coronal stop,True
+kema1243-diir,kema1243,əpat,p,medial,pata,p,labial stop,paat,labial stop,True
+kema1243-kutu,kema1243,bulan,b,initial,hula,h,h,hula,h,True
+kema1243-kutu,kema1243,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+kema1243-kutu,kema1243,batu,b,initial,hatu,h,h,hatu,h,True
+kema1243-kutu,kema1243,batu,t,medial,hatu,t,coronal stop,atu | aʧu,affricate | coronal stop,True
+kema1243-kutu,kema1243,buaq,b,initial,huaŋ,h,h,ai huan | huaŋ,h,True
+kema1243-kutu,kema1243,ijuŋ,j,medial,ilugaːŋ,l,l,ilu-r,l,True
+kema1243-kutu,kema1243,nipən,p,medial,nipaŋ,p,labial stop,nipa-r,labial stop,True
+kema1243-kutu,kema1243,ŋajan,ŋ,initial,galaŋ,g,velar stop,gala-r,velar stop,True
+kema1243-kutu,kema1243,ŋajan,j,medial,galaŋ,l,l,gala-r,l,True
+kema1243-kutu,kema1243,maputiq,t,medial,buti,t,coronal stop,buti | buʧi,affricate | coronal stop,True
+kema1243-kutu,kema1243,əpat,p,medial,paːt,p,labial stop,paat,labial stop,True
+kema1243-lemi,kema1243,bulan,b,initial,hula,h,h,hula,h,True
+kema1243-lemi,kema1243,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+kema1243-lemi,kema1243,batu,b,initial,hatu,h,h,hatu,h,True
+kema1243-lemi,kema1243,batu,t,medial,hatu,t,coronal stop,atu | aʧu,affricate | coronal stop,True
+kema1243-lemi,kema1243,ijuŋ,j,medial,ilur,l,l,ilu-r,l,True
+kema1243-lemi,kema1243,nipən,p,medial,nipar,p,labial stop,nipa-r,labial stop,True
+kema1243-lemi,kema1243,əpat,p,medial,paːt,p,labial stop,paat,labial stop,True
+kema1243-leol,kema1243,bulan,b,initial,hula,h,h,hula,h,True
+kema1243-leol,kema1243,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+kema1243-leol,kema1243,batu,b,initial,hatu,h,h,hatu,h,True
+kema1243-leol,kema1243,batu,t,medial,hatu,t,coronal stop,atu | aʧu,affricate | coronal stop,True
+kema1243-leol,kema1243,nipən,p,medial,nipar,p,labial stop,nipa-r,labial stop,True
+kema1243-leol,kema1243,maputiq,t,medial,butik,t,coronal stop,buti | buʧi,affricate | coronal stop,True
+kema1243-leol,kema1243,əpat,p,medial,paːt,p,labial stop,paat,labial stop,True
+kema1243-leos,kema1243,bulan,b,initial,hula,h,h,hula,h,True
+kema1243-leos,kema1243,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+kema1243-leos,kema1243,batu,b,initial,atu,-,∅,hatu,h,False
+kema1243-leos,kema1243,batu,t,medial,atu,t,coronal stop,atu | aʧu,affricate | coronal stop,True
+kema1243-leos,kema1243,buaq,b,initial,huan,h,h,ai huan | huaŋ,h,True
+kema1243-leos,kema1243,nipən,p,medial,nipar,p,labial stop,nipa-r,labial stop,True
+kema1243-leos,kema1243,maputiq,t,medial,buti,t,coronal stop,buti | buʧi,affricate | coronal stop,True
+kema1243-leos,kema1243,əpat,p,medial,paːt,p,labial stop,paat,labial stop,True
+kema1243-sane,kema1243,bulan,b,initial,ula,-,∅,hula,h,False
+kema1243-sane,kema1243,quzan,z,medial,usa,s,sibilant,usa,sibilant,True
+kema1243-sane,kema1243,batu,b,initial,atʃu,-,∅,hatu,h,False
+kema1243-sane,kema1243,batu,t,medial,atʃu,tʃ,affricate,atu | aʧu,affricate | coronal stop,True
+kema1243-sane,kema1243,buaq,b,initial,uan,-,∅,ai huan | huaŋ,h,False
+kema1243-sane,kema1243,ijuŋ,j,medial,ilur,l,l,ilu-r,l,True
+kema1243-sane,kema1243,nipən,p,medial,nipar,p,labial stop,nipa-r,labial stop,True
+kema1243-sane,kema1243,əpat,p,medial,paːt,p,labial stop,paat,labial stop,True
+west2547-mahein,wela1235,bulan,b,initial,fulan,f,labial fricative,fulan,labial fricative,True
+west2547-mahein,wela1235,bituqən,b,initial,fitun,f,labial fricative,fitun,labial fricative,True
+west2547-mahein,wela1235,quzan,z,medial,usan,s,sibilant,usan,sibilant,True
+west2547-mahein,wela1235,batu,b,initial,fatu,f,labial fricative,fatu,labial fricative,True
+west2547-mahein,wela1235,ijuŋ,j,medial,ilukaːn,l,l,iluk-aat,l,True
+west2547-mahein,wela1235,əpat,p,medial,hoat,-,∅,hoat,h,False
+term1237,term1237,manipis,p,medial,niʔis,ʔ,glottal stop,niʔis,glottal stop,True
+galo1243,galo1243,bulan,b,initial,hulan,h,h,hulan,h,True
+galo1243,galo1243,haŋin,ŋ,medial,anin,n,n,anin,n,True
+galo1243,galo1243,quzan,z,medial,usan,s,sibilant,usan,sibilant,True
+galo1243,galo1243,batu,b,initial,hatu,h,h,hatu,h,True
+galo1243,galo1243,əpat,p,medial,ihaːt,h,h,i-haat,h,True
+habu1241,habu1241,bulan,b,initial,wulan,w,w,wulan,w,True
+habu1241,habu1241,batu,b,initial,watu,w,w,watu,w,True
+habu1241,habu1241,buaq,b,initial,uan,-,∅,wuan,w,False
+habu1241,habu1241,ijuŋ,j,medial,irun,r,rhotic,irun,rhotic,True
+habu1241,habu1241,baqbaq,b,initial,waban,w,w,waban,labial stop | w,True
+habu1241,habu1241,ŋajan,j,medial,naran,r,rhotic,naran,rhotic,True
+habu1241,habu1241,naŋuy,ŋ,medial,nani,n,n,nani,n,True
+midi1237,kair1265,bulan,b,initial,wula,w,w,wula,w,True
+midi1237,kair1265,batu,b,initial,watu,w,w,watu,w,True
+midi1237,kair1265,naŋuy,ŋ,medial,nani,n,n,nani,n,True
+idat1237-cribas,idat1237,taliŋa,ŋ,medial,talinar,n,n,talina,n,True
+idat1237-cribas,idat1237,ŋajan,j,medial,naran,r,rhotic,naran,rhotic,True
+idat1237-cribas,idat1237,naŋuy,ŋ,medial,nani,n,n,nani,n,True

@@ -1,0 +1,43 @@
+{
+ "probable_loans_removed": 21,
+ "lects": 70,
+ "concepts": 152,
+ "bootstrap": {
+  "HULL-R": {
+   "UPGMA": 0.27,
+   "NJ": 0.607
+  },
+  "EDW-CT": {
+   "UPGMA": 0.129,
+   "NJ": 0.143
+  },
+  "GE-NCT": {
+   "UPGMA": 0.381,
+   "NJ": 0.735
+  },
+  "EDW-LI": {
+   "UPGMA": 0.991,
+   "NJ": 0.979
+  },
+  "EDW-TB": {
+   "UPGMA": 0.0,
+   "NJ": 0.0
+  },
+  "GE-ETLI": {
+   "UPGMA": 0.0,
+   "NJ": 0.001
+  },
+  "HULL98-W": {
+   "UPGMA": 0.481,
+   "NJ": 0.578
+  }
+ },
+ "ML_ufboot": {
+  "Lakalei-Idate + Central Timor (with Welaun)": 57.0,
+  "Timor-Babar incl. Lakalei-Idate": 0,
+  "Lakalei-Idate + Eastern Timor": 0,
+  "Central Timor (with Welaun)": 36.0,
+  "Nuclear Central Timor": 59.0,
+  "Lakalei-Idate": 31.0
+ }
+}

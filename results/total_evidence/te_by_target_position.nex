@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+  charset lex = lex.phy: 1-1353;
+  charset phon = phon_by_target_position.phy: 1-24;
+  charpartition mine = GTR2+FO+G4:lex, MK+G+ASC:phon;
+end;

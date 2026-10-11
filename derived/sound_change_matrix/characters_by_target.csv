@@ -1,0 +1,18 @@
+Character,Coded_Taxa,States
+*R,17,0=rhotic; 1=∅
+*aR,4,0=e; 1=∅
+*aw,14,0=a; 1=o; 2=ə; 3=∅
+*ay,15,0=a; 1=e; 2=i; 3=∅
+*b,21,0=h; 1=labial fricative; 2=labial stop; 3=w
+*d,8,0=coronal stop; 1=l; 2=n; 3=rhotic
+*j,19,0=l; 1=rhotic; 2=∅
+*k,5,0=glottal stop; 1=velar stop; 2=∅
+*ma-p,10,0=b; 1=f; 2=m
+*p,22,0=glottal stop; 1=h; 2=labial fricative; 3=labial stop; 4=∅
+*q,4,0=glottal stop; 1=∅
+*s,4,0=coronal stop; 1=h
+*uR,15,0=i; 1=o; 2=∅
+*w,12,0=labial fricative; 1=labial stop; 2=velar stop; 3=vowel; 4=w; 5=∅
+*z,19,0=coronal stop; 1=l; 2=rhotic; 3=sibilant; 4=velar stop; 5=y; 6=∅
+*ŋ,21,0=n; 1=velar stop; 2=∅
+*ə,15,0=a; 1=e; 2=o; 3=ə
