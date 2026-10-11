@@ -410,3 +410,57 @@ Written before E15 and E16 were run. No reflex, tree or support value from them 
   - Cells moving towards the Eastern Timor pattern (*ŋ > n, *j > r, *b- not h, *k kept) weaken the C1 lean.
   - Cells moving towards the Central Timor pattern strengthen it.
   - Cells that don't change mean the earlier coding is confirmed by an independent source.
+
+### Addendum 7 (2026-10-11, post hoc): separating inheritance from contact
+
+Written before E17–E19 were run.
+
+- **Already seen.** E4 (exclusive cognate links) and the E14/E15 hints of an Idaté–Habu link.
+- **Not yet seen.** No retention/innovation classification and no triplet counts have been computed.
+
+**Shared definitions (E17, E18).**
+
+- *Cognates.* D1 LexStat (0.55) cognates, `primary` variant, Austronesian lects only.
+- *Which concepts count.* Only concepts that have an ABVD Proto-Malayo-Polynesian form, matched through Concepticon.
+- *Retention or innovation.* A cognate set counts as a **retention** if any of its forms is within SCA NED 0.5 of a PMP form for that concept (the E9 rule). Otherwise it counts as an **innovation**, meaning it replaced the PMP word.
+- *Groups.*
+  - LI: idat1237, idat1237-cribas, laka1255.
+  - CT: all Mambae, Kemak, Tokodede and Welaun lects. NCT is CT without Welaun.
+  - Separate groups: Tetun; Habu; Kawaimina (Waima'a, Midiki, Naueti); Galoli.
+  - Everything else is "other".
+- *Stable concepts.* The 60 Leipzig-Jakarta concepts used in E1.
+
+**E17: shared lexical innovations.**
+
+- *Exclusive innovations.* Each innovation set that contains an LI lect is classed by which other groups have it. Exclusive LI + CT sets are counted against exclusive LI + Tetun, LI + Habu, LI + Kawaimina and LI + Galoli sets. The exclusive sets are listed as an inventory.
+- *Rates with geography controlled.* For every other Timor-region Austronesian lect, the rate is the share of commonly attested concepts on which it has the same innovation set as Idaté or Lakalei.
+  - This rate is regressed on log distance.
+  - Mean residuals are reported per group, for all concepts and for stable concepts.
+- *Reading.*
+  - More exclusive LI + CT innovations than exclusive LI + Tetun/Habu/Kawaimina ones, together with a positive Central Timor residual, supports the C1 lean.
+  - The reverse weakens it.
+
+**E18: triplet test for contact.** This is a site-pattern test, the lexical analogue of ABBA-BABA.
+
+- *Lects.* The step-7 taxa: Lakalei-Idate (Idaté-Cribas, Lakalei); NCT (Mambae-Leten, Kemak-Kailaku, Tokodede); Welaun; Tetun-Suai; Habu; Kawaimina (Waima'a, Midiki, Naueti); Galoli.
+- *Counting.* Take a triplet of groups (A, B, C). For each combination of one lect per group, and each concept attested in all three: if exactly two of the three share the same innovation set, count one for that pair.
+- *Reading the counts.*
+  - The pair with the largest total is the triplet's tree pair.
+  - The other two counts should be equal if there was no contact. Their imbalance is D = (n_AC − n_BC) / (n_AC + n_BC).
+  - The standard error comes from a delete-one-concept jackknife. |Z| ≥ 3 counts as significant.
+- *Known-answer check, run first.* (Welaun, NCT, Tetun) should give the tree pair Welaun + NCT and a significant Welaun–Tetun excess. If it doesn't, E18 is reported as uninformative.
+- *C1 tests.*
+  - (LI, NCT, X) for X = Tetun, Habu, Kawaimina, Galoli.
+  - (LI, Tetun, Habu).
+
+  NCT is used so that Welaun's Tetun layer doesn't enter the CT side. Each test is run on all concepts, stable concepts and other concepts.
+- *Reading for C1.*
+  - LI + NCT as the tree pair on stable concepts, with any LI–X excess falling in non-stable concepts, supports Central Timor descent with contact from X.
+  - LI + X as the tree pair on stable concepts supports Lakalei-Idate with X, with Central Timor contact.
+
+**E19: a phylogeny with contact edges (contacTrees; Neureiter et al. 2022).**
+
+- *Condition.* Run only if BEAST 2 and contacTrees can be compiled here from their GitHub sources, since Maven Central is unreachable.
+- *Model.* The 24 step-7 taxa, with concept-partitioned binary characters as in the contacTrees examples.
+- *What is reported.* Posterior support for contact edges between Lakalei-Idate and each other lineage, and the posterior of Lakalei-Idate + Central Timor.
+- *Status.* Exploratory. If the chain doesn't converge (ESS < 100 on the posterior), that is reported and nothing is read from it.
