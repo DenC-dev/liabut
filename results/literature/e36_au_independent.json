@@ -1,0 +1,20 @@
+{
+ "free": {
+  "logL": -7157.208699,
+  "deltaL": 0.0,
+  "p_AU": 0.979,
+  "rejected": false
+ },
+ "li_eastern_timor": {
+  "logL": -7176.68867,
+  "deltaL": 19.48,
+  "p_AU": 0.0248,
+  "rejected": true
+ },
+ "timor_babar": {
+  "logL": -7171.969294,
+  "deltaL": 14.761,
+  "p_AU": 0.042,
+  "rejected": true
+ }
+}

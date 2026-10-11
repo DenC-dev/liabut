@@ -11,4 +11,5 @@ get() {  # name url commit
 get lexirumah https://github.com/lessersunda/lexirumah-data.git e10af03128094a19ae62de32c14753869acaddbd
 get abvd      https://github.com/lexibank/abvd.git            4a5795e153120172428afed10195811ff5e19c6c
 get ids       https://github.com/lexibank/ids.git             bf6c9f8c7d25c15e61e338f3ed29ae46b844c0f8
+get acd       https://github.com/lexibank/acd.git             16085f25f14b43878d3d84d484ee1092f9e40335   # Addendum 10 (E35)
 echo "upstream data ready"

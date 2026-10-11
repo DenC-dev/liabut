@@ -64,4 +64,4 @@ Grimes and Edwards print their evidence as tables. Each has a gloss row and a PM
 Addendum 9 adds two files here:
 
 - `innovations/cognate_set_status_r2.csv`: the same classification with the reflex-aware rule chosen in E30 (balanced accuracy 0.791 against ABVD's experts, against 0.755 for the original rule).
-- `innovations/reviewer_packet_lakalei_idate_stable.csv`: the 24 cognate sets behind Lakalei-Idate's stable-vocabulary triplet counts, with forms, PMP etyma, status and how far the five codings agree, plus blank columns for a specialist's verdict.
+- `innovations/reviewer_packet_lakalei_idate_stable.csv`: the 24 cognate sets behind Lakalei-Idate's stable-vocabulary triplet counts, with forms, PMP etyma, status and how far the five codings agree, plus blank columns for a specialist's verdict. Addendum 10 added the closest Austronesian Comparative Dictionary etymon for each set (PAN to PCMP), under the declared and the strict gloss match, with the resulting status.

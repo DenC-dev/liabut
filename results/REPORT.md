@@ -379,6 +379,9 @@ The full scan, sources and tables are in [`LITERATURE.md`](LITERATURE.md).
   - **Correspondence test (E33).** No loan signal in Lakalei–Mambae or Idaté–Habu shared words; low power.
   - **Rooted clock (E34).** About 77% of samples put Lakalei-Idate with Central Timor; the split is again barely older than Central Timor's own diversification.
   - **Net.** C1 stays unresolved, but now leans Central Timor more clearly: the tree signal is robust and the counter-arguments don't discriminate. The contact story built on the triplet test is withdrawn for Lakalei-Idate.
+- **Addendum 10 (E35–E36).**
+  - **Expert etymologies (E35).** Words inherited from PAN, PMP, PCEMP or PCMP according to the Austronesian Comparative Dictionary were taken out of the innovation counts. The stable-vocabulary pairing of Lakalei-Idate with Central Timor stands, against Tetun as well. One of the seven "exclusive" Lakalei-Idate + Central Timor innovations ('wife') turns out to be a PAN retention.
+  - **AU tests on independent lists (E36).** Lakalei-Idate + Eastern Timor (p-AU 0.025) and Timor-Babar (0.042) are rejected as lexical groups; on the original lists they were not (0.07).
 - **Treelikeness.** Timor's Austronesian vocabulary is at least as network-like as the Timor-Alor-Pantar data, which Kaiping and Klamer read as a former dialect chain: mean Q residual 0.0072 against 0.0047. That supports a linkage reading.
 
 ## Novelty check (post hoc, 10 October 2026)

@@ -1,0 +1,142 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: lex_independent.phy
+Type of analysis: tree reconstruction
+Random seed number: 1234
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 21 sequences with 1192 binary sites
+Number of constant sites: 4 (= 0.33557% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4 (= 0.33557% of all sites)
+Number of parsimony informative sites: 469
+Number of distinct site patterns: 789
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR2+FO+G4
+
+Rate parameter R:
+
+  0-1: 1.0000
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(0) = 0.8703
+  pi(1) = 0.1297
+
+Rate matrix Q:
+
+  0   -0.5745    0.5745
+  1     3.855    -3.855
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 3.188
+
+ Category  Relative_rate  Proportion
+  1         0.4033         0.25
+  2         0.7415         0.25
+  3         1.083          0.25
+  4         1.772          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7171.2198 (s.e. 105.1024)
+Unconstrained log-likelihood (without tree): -7490.2027
+Number of free parameters (#branches + #model parameters): 41
+Akaike information criterion (AIC) score: 14424.4395
+Corrected Akaike information criterion (AICc) score: 14427.4343
+Bayesian information criterion (BIC) score: 14632.8584
+
+Total tree length (sum of branch lengths): 4.3275
+Sum of internal branch lengths: 1.5273 (35.2939% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0008) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'mamb1306' is drawn at root
+
++--mamb1306
+|
+|  +---kema1243
++--|
+|  +----tuku1254
+|
+|        +--idat1237_cribas
+|     +--|
+|     |  |        +----tetu1245_suai
+|     |  |     +--|
+|     |  |     |  |     +--habu1241
+|     |  |     |  |  +--|
+|     |  |     |  |  |  |        +---waim1252
+|     |  |     |  |  |  |     +--|
+|     |  |     |  |  |  |     |  +---naue1237
+|     |  |     |  |  |  +-----|
+|     |  |     |  |  |        +--midi1237
+|     |  |     |  +**|
+|     |  |     |     |        +---term1237
+|     |  |     |     +--------|
+|     |  |     |              +--dela1252
+|     |  |  +--|
+|     |  |  |  |       +---kisa1266
+|     |  |  |  +-------|
+|     |  |  |          |       +**luan1264
+|     |  |  |          +-------|
+|     |  |  |                  +------------------------------------tela1241
+|     |  +--|
+|     |     |     +--galo1243
+|     |     |  +--|
+|     |     |  |  +--dadu1237
+|     |     +--|
+|     |        |    +--ilma1240
+|     |        +----|
+|     |             +--kaha1239
+|  +--|
+|  |  +--laka1255
++--|
+   |         +-------lama1277_lewoi
+   +---------|
+             +--------sika1262_hewa
+
+Tree in newick format:
+
+(mamb1306:0.0946446379,(kema1243:0.1133829370,tuku1254:0.1334957215):0.0176534345,(((idat1237_cribas:0.0627952183,(((tetu1245_suai:0.1420386245,((habu1241:0.0794448972,((waim1252:0.1153260332,naue1237:0.1054408143):0.0612839893,midi1237:0.0428095297):0.1528918774):0.0083189374,(term1237:0.1200154192,dela1252:0.0592616184):0.2233619393):0.0000020162):0.0103517016,(kisa1266:0.1175812456,(luan1264:0.0000024297,tela1241:0.9215076755):0.2203300069):0.2075050479):0.0115761307,((galo1243:0.0465983082,dadu1237:0.0982405358):0.0162417144,(ilma1240:0.0194002189,kaha1239:0.0474894460):0.1425958706):0.0682755027):0.0395907526):0.0325470617,laka1255:0.0392188263):0.0034188703,(lama1277_lewoi:0.2075822321,sika1262_hewa:0.2338866421):0.2624008928):0.0490020291);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t au_timor_babar.treefile -m "GTR2+FO{0.870308,0.129692}+G4{3.18843}" --length 1192
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s lex_independent.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s lex_independent.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Oct 11 16:23:54 2026
+Total CPU time used: 15.417 seconds (0h:0m:15s)
+Total wall-clock time used: 15.8693 seconds (0h:0m:15s)
+

@@ -27,6 +27,8 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
 - **Welaun is Central Timor (C2).** The Bayes factor is +10.3, and its Tetun look disappears on borrowing-resistant vocabulary.
 - **Idaté-Lakalei (C1) remains unresolved, but leans Central Timor.**
   - Every tree puts it next to Central Timor (posterior 0.91; ln BF +8.0 for Hull's Ramelaic), and so do lists collected independently of Grimes and Edwards (97% UFBoot, a confirmatory test in Addendum 9).
+  - On those independent lists an AU test rejects Lakalei-Idate + Eastern Timor (p = 0.025) and Timor-Babar (p = 0.042) as lexical groups. On the original lists it did not (p = 0.07).
+  - Taking out words that the Austronesian Comparative Dictionary traces to PAN, PMP, Proto-Central-Eastern or Proto-Central Malayo-Polynesian leaves the stable-vocabulary pairing with Central Timor in place.
   - Its sound changes look like Timor-Babar's (*p > h, *ŋ > n, no *ŋ > g). But scored by parsimony, the coded changes cost the same on either placement (30 steps), and Welaun, a Central Timor language, also has *p > h.
   - A borrowing model with borrowing from both sides can't separate the two placements (posterior 0.58 against 0.42). An earlier one-way version had favoured Grimes and Edwards's (0.875); that preference doesn't survive.
   - On stable vocabulary, shared replacements pair Idaté-Lakalei with Central Timor against Habu and Kawaimina for every choice of dialect list, but not against Tetun: that prediction failed in both confirmatory replications (with Tetun Dili, and by one concept with both Tetun lists pooled).
@@ -77,7 +79,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 
 | Step | What | Where |
 |---|---|---|
-| 0 | Protocol frozen before any analysis; nine addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
+| 0 | Protocol frozen before any analysis; ten addenda, each dated and pushed before the tests it governs | `PROTOCOL.md`, `PROTOCOL.sha256` |
 | 1 | Datasets: D1 = LexiRumah (70 lects, 152 concepts); D2 = ABVD with expert cognates (30 lects) | `data/` |
 | 2 | Automatic cognates (LexStat, SCA), scored against the ABVD experts | `results/cognates/`, `results/scores/` |
 | 3 | Loan screening: Indonesian, Portuguese, Tetun look-alikes, Austronesian–Papuan contact sets | `results/loans/` |
@@ -96,6 +98,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 | Lit. 3 | E17 shared lexical innovations; E18 triplet contact test; E19 contacTrees (uninformative) | `results/literature/`, `derived/innovations/` |
 | Lit. 4 | E20 Idaté-vs-Lakalei split test; E21 borrowing simulation (ABC); E22 glottometry; E23 strict-clock dating; E24 other branches | `results/literature/` |
 | Lit. 5 | Addendum 9, the limitations tested: E25 multiple testing; E26 dialect replication and E28 independent data (confirmatory); E27 consensus cognates and reviewer packet; E29 sound changes on rival trees; E30 classifier validation; E31 triplet null and power; E32 two-way ABC; E33 correspondence loan test; E34 rooted clock | `results/literature/`, `derived/innovations/` |
+| Lit. 6 | Addendum 10: E35 words inherited from above the Timor groups (Austronesian Comparative Dictionary); E36 AU tests on the independent lists | `results/literature/` |
 
 ## Rerun
 
@@ -153,6 +156,7 @@ python3 36_triplet_power.py               # E31
 RETENTION_RULE=chosen python3 37_abc2.py  # E32 (about 15 minutes)
 python3 38_correspondences.py             # E33
 python3 33_dating.py run rooted && python3 33_dating.py summarize rooted   # E34
+python3 39_addendum10.py all              # E35 (needs data/upstream/acd), E36 (IQ-TREE)
 python3 12_decide.py              # step 8
 python3 13_figures.py
 ```
@@ -168,6 +172,7 @@ The paper and website rebuild from the results with `bash paper/build.sh` (pando
 - **Gray, Drummond and Greenhill (2009)** posterior trees, via phlorest/gray_et_al2009, CC-BY 4.0 (novelty check only).
 - **Concepticon**: the Leipzig-Jakarta list (Tadmor 2009), CC-BY 4.0.
 - **ASJP v21** (Wichmann, Holman and Brown), via lexibank/asjp, CC-BY 4.0. Used only for the E14 Idaté check.
+- **ACD**, the Austronesian Comparative Dictionary (Blust, Trussel and Smith), via lexibank/acd, CC-BY 4.0. Used only for E35.
 - **Natural Earth** 10m land and country boundaries, public domain, clipped in `paper/data/` for the maps.
 - **Fonts** in `paper/fonts/`: Alegreya and Gentium Book Plus, SIL Open Font License 1.1.
 - **Grimes and Edwards (2026)**, CC-BY 4.0. Their subgroups and comparative tables were read from the book's LaTeX source (github.com/langsci/526); the tables are re-released as data in `derived/ge2026_tables/` under the same licence. Their full wordlists are not released, so they aren't used.

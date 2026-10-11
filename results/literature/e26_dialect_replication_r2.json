@@ -1,0 +1,32 @@
+{
+ "Tetun": {
+  "combinations": 351,
+  "share_LI_NCT_largest_on_stable": 0.789
+ },
+ "Habu": {
+  "combinations": 175,
+  "share_LI_NCT_largest_on_stable": 0.943,
+  "share_LI_Habu_at_least_LI_NCT_on_other": 0.309
+ },
+ "Kawaimina": {
+  "combinations": 175,
+  "share_LI_NCT_largest_on_stable": 1.0
+ },
+ "Welaun-Mahein control": {
+  "combinations": 176,
+  "share_passing": 0.812,
+  "median_Z_other": 4.43,
+  "median_Z_stable": -0.16
+ },
+ "predictions": {
+  "P1 Tetun": false,
+  "P1 Habu": true,
+  "P1 Kawaimina": true,
+  "P2 Habu borrowable": false,
+  "P3 Welaun-Mahein control": true
+ },
+ "rule": {
+  "kind": "R2",
+  "t": 0.4
+ }
+}

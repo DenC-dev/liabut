@@ -519,6 +519,34 @@ E23 rerun with the 22 Timor-region taxa constrained to a clade, so the root sits
 - **Changed.** The borrowing simulation no longer prefers Grimes and Edwards's placement (E32), and the coded sound changes fit both placements equally (E29). The stable-vocabulary pairing with Central Timor replicates against Habu and Kawaimina, but not against Tetun Dili (E26) or, by one concept, the pooled Tetun lists (E28).
 - **Net for C1.** Still unresolved, but the balance has moved towards Central Timor: every tree places Lakalei-Idate there, now also on independent data, while the two arguments for the eastern placement (the coded sound changes and the borrowing simulation) turn out not to discriminate.
 
+## Sixth round: an expert etymological check and topology tests (Addendum 10)
+
+Script: `src/39_addendum10.py`. Outputs: `results/literature/e35_*`, `e36_au_independent.json`.
+
+### E35: words inherited from above the Timor groups (Austronesian Comparative Dictionary)
+
+A shared replacement only says something about subgrouping if it was not inherited from a higher node. The E17 rule compared each cognate set only with ABVD's PMP word for that meaning. E35 adds every ACD etymon reconstructed for PAN, PMP, PCEMP or PCMP whose gloss contains the concept's English keyword (ACD, Blust, Trussel and Smith; `lexibank/acd` commit `16085f2`), and reclassifies a set as inherited if it matches one (E30 rule, reflex-aware, NED ≤ 0.4).
+
+- **As declared**, 126 of 1,260 innovation sets become inherited. The keyword rule is loose and many matches are false ('head' against \*tabaN 'head trophy', 'small' against \*kaRaŋ 'small edible freshwater crab').
+- **Strict version (post hoc).** Requiring one sense of the ACD gloss to be exactly the keyword leaves 413 etyma and moves 55 sets. Those involving Lakalei-Idate include 'laugh' *mali* < PCEMP \*malip (shared with Tokodede, Welaun and others), 'stand' Lakalei *ʔamiri* ~ Mambae *məriː* < PMP \*ma-diRi, and 'wife' Idaté *mahinɑn* ~ Mambae *hinɛ* < PAN \*b<in>ahi. That last one was among the seven "exclusive Lakalei-Idate + Central Timor innovations" of E17, so it is a shared retention after all.
+- **The stable-vocabulary pairing stands under both versions.** Representative lists, stable concepts (as declared / strict): against Tetun 16 / 5 / 2 and 19 / 9 / 6; against Habu 18 / 12 / 4 and 23 / 14 / 5; against Kawaimina 58 / 25 / 13 and 74 / 32 / 17. Single-survey lists: against Tetun 24 / 17 / 4 and 32 / 25 / 22; Habu 17 / 9 / 4 and 23 / 11 / 9; Kawaimina 49 / 25 / 10 and 68 / 29 / 14.
+- **The Tetun Dili failure is partly a classifier effect.** With the E30 rule alone, on the single-survey data Lakalei-Idate + Nuclear Central Timor (36) exceeds Lakalei-Idate + Tetun (29) but only ties Nuclear Central Timor + Tetun (36); the E17 rule gave 44 against 45. Rerunning E26 with the E30 rule (post hoc) raises the Tetun share from 47% to 79%, just under the 80% bar (Habu 94%, Kawaimina 100%; the Habu borrowable-word excess drops to 31%).
+- **Reviewer packet.** 6 of the 24 decisive sets match an ACD etymon under the strict version ('good', 'sand', 'tail', 'fall', 'laugh', 'stand'). The packet now lists the matching etymon for each.
+- **Coverage.** ACD lists few forms for most Timor languages (Idaté 14, Mambai 12, Kemak 10; Tetun 523), so the check works through reconstructed etyma rather than attested Timor reflexes.
+
+### E36: AU tests on the independent lists
+
+IQ-TREE AU test, 10,000 RELL replicates, on the E28 matrix (no Edwards or Grimes lists).
+
+| Tree | ΔlnL | p-AU |
+|---|---|---|
+| Unconstrained (Lakalei-Idate + Nuclear Central Timor) | 0 | 0.98 |
+| Lakalei-Idate + Eastern Timor | 19.5 | **0.025** |
+| Timor-Babar (all Timor-region taxa outside Nuclear Central Timor) | 14.8 | **0.042** |
+
+- **Both alternatives are rejected** on the independent lists, and both survive a Holm correction for the two tests. On the original lists (E6) neither was rejected (p-AU 0.07 and 0.07).
+- **What this does and does not show.** The vocabulary of these lists is significantly better explained with Lakalei-Idate beside Central Timor. It says nothing about Timor-Babar as a phonological subgroup, and like every tree test here it treats borrowed words as inherited.
+
 ## Not yet used, and worth getting
 
 - **Alcantara's full corpus.** It has 800 words and 420 sentences, of which only 184 forms are published. The full corpus would give enough Idaté *ŋ, *j, *k and *d words to code every character.
