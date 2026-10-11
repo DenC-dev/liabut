@@ -1,0 +1,284 @@
+{
+ "(Welaun, NCT, Tetun)": {
+  "all": {
+   "concepts": 80,
+   "counts": {
+    "Welaun+NCT": 28,
+    "Welaun+Tetun": 24,
+    "NCT+Tetun": 6
+   },
+   "tree_pair": "Welaun+NCT",
+   "D": {
+    "pair_excess": "Welaun+Tetun vs NCT+Tetun",
+    "value": 0.6,
+    "se": 0.195,
+    "Z": 3.07
+   }
+  },
+  "stable": {
+   "concepts": 44,
+   "counts": {
+    "Welaun+NCT": 11,
+    "Welaun+Tetun": 8,
+    "NCT+Tetun": 5
+   },
+   "tree_pair": "Welaun+NCT",
+   "D": {
+    "pair_excess": "Welaun+Tetun vs NCT+Tetun",
+    "value": 0.231,
+    "se": 0.417,
+    "Z": 0.55
+   }
+  },
+  "other": {
+   "concepts": 36,
+   "counts": {
+    "Welaun+NCT": 17,
+    "Welaun+Tetun": 16,
+    "NCT+Tetun": 1
+   },
+   "tree_pair": "Welaun+NCT",
+   "D": {
+    "pair_excess": "Welaun+Tetun vs NCT+Tetun",
+    "value": 0.882,
+    "se": 0.128,
+    "Z": 6.89
+   }
+  }
+ },
+ "(LI, NCT, Tetun)": {
+  "all": {
+   "concepts": 80,
+   "counts": {
+    "LI+NCT": 57,
+    "LI+Tetun": 32,
+    "NCT+Tetun": 10
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Tetun vs NCT+Tetun",
+    "value": 0.524,
+    "se": 0.216,
+    "Z": 2.42
+   }
+  },
+  "stable": {
+   "concepts": 43,
+   "counts": {
+    "LI+NCT": 25,
+    "LI+Tetun": 19,
+    "NCT+Tetun": 6
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Tetun vs NCT+Tetun",
+    "value": 0.52,
+    "se": 0.302,
+    "Z": 1.72
+   }
+  },
+  "other": {
+   "concepts": 37,
+   "counts": {
+    "LI+NCT": 32,
+    "LI+Tetun": 13,
+    "NCT+Tetun": 4
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Tetun vs NCT+Tetun",
+    "value": 0.529,
+    "se": 0.362,
+    "Z": 1.46
+   }
+  }
+ },
+ "(LI, NCT, Habu)": {
+  "all": {
+   "concepts": 91,
+   "counts": {
+    "LI+NCT": 58,
+    "LI+Habu": 55,
+    "NCT+Habu": 20
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Habu vs NCT+Habu",
+    "value": 0.467,
+    "se": 0.204,
+    "Z": 2.29
+   }
+  },
+  "stable": {
+   "concepts": 52,
+   "counts": {
+    "LI+NCT": 31,
+    "LI+Habu": 22,
+    "NCT+Habu": 13
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Habu vs NCT+Habu",
+    "value": 0.257,
+    "se": 0.366,
+    "Z": 0.7
+   }
+  },
+  "other": {
+   "concepts": 39,
+   "counts": {
+    "LI+NCT": 27,
+    "LI+Habu": 33,
+    "NCT+Habu": 7
+   },
+   "tree_pair": "LI+Habu",
+   "D": {
+    "pair_excess": "LI+NCT vs NCT+Habu",
+    "value": 0.588,
+    "se": 0.233,
+    "Z": 2.53
+   }
+  }
+ },
+ "(LI, NCT, Kawaimina)": {
+  "all": {
+   "concepts": 98,
+   "counts": {
+    "LI+NCT": 184,
+    "LI+Kawaimina": 95,
+    "NCT+Kawaimina": 30
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Kawaimina vs NCT+Kawaimina",
+    "value": 0.52,
+    "se": 0.183,
+    "Z": 2.85
+   }
+  },
+  "stable": {
+   "concepts": 55,
+   "counts": {
+    "LI+NCT": 98,
+    "LI+Kawaimina": 62,
+    "NCT+Kawaimina": 19
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Kawaimina vs NCT+Kawaimina",
+    "value": 0.531,
+    "se": 0.262,
+    "Z": 2.02
+   }
+  },
+  "other": {
+   "concepts": 43,
+   "counts": {
+    "LI+NCT": 86,
+    "LI+Kawaimina": 33,
+    "NCT+Kawaimina": 11
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Kawaimina vs NCT+Kawaimina",
+    "value": 0.5,
+    "se": 0.263,
+    "Z": 1.9
+   }
+  }
+ },
+ "(LI, NCT, Galoli)": {
+  "all": {
+   "concepts": 76,
+   "counts": {
+    "LI+NCT": 39,
+    "LI+Galoli": 28,
+    "NCT+Galoli": 16
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Galoli vs NCT+Galoli",
+    "value": 0.273,
+    "se": 0.28,
+    "Z": 0.97
+   }
+  },
+  "stable": {
+   "concepts": 42,
+   "counts": {
+    "LI+NCT": 20,
+    "LI+Galoli": 14,
+    "NCT+Galoli": 11
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Galoli vs NCT+Galoli",
+    "value": 0.12,
+    "se": 0.45,
+    "Z": 0.27
+   }
+  },
+  "other": {
+   "concepts": 34,
+   "counts": {
+    "LI+NCT": 19,
+    "LI+Galoli": 14,
+    "NCT+Galoli": 5
+   },
+   "tree_pair": "LI+NCT",
+   "D": {
+    "pair_excess": "LI+Galoli vs NCT+Galoli",
+    "value": 0.474,
+    "se": 0.317,
+    "Z": 1.49
+   }
+  }
+ },
+ "(LI, Tetun, Habu)": {
+  "all": {
+   "concepts": 77,
+   "counts": {
+    "LI+Tetun": 9,
+    "LI+Habu": 14,
+    "Tetun+Habu": 8
+   },
+   "tree_pair": "LI+Habu",
+   "D": {
+    "pair_excess": "LI+Tetun vs Tetun+Habu",
+    "value": 0.059,
+    "se": 0.353,
+    "Z": 0.17
+   }
+  },
+  "stable": {
+   "concepts": 43,
+   "counts": {
+    "LI+Tetun": 7,
+    "LI+Habu": 5,
+    "Tetun+Habu": 3
+   },
+   "tree_pair": "LI+Tetun",
+   "D": {
+    "pair_excess": "LI+Habu vs Tetun+Habu",
+    "value": 0.25,
+    "se": 0.578,
+    "Z": 0.43
+   }
+  },
+  "other": {
+   "concepts": 34,
+   "counts": {
+    "LI+Tetun": 2,
+    "LI+Habu": 9,
+    "Tetun+Habu": 5
+   },
+   "tree_pair": "LI+Habu",
+   "D": {
+    "pair_excess": "LI+Tetun vs Tetun+Habu",
+    "value": -0.429,
+    "se": 0.469,
+    "Z": -0.91
+   }
+  }
+ }
+}

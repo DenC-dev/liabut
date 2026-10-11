@@ -1,0 +1,24 @@
+Class,Concept_ID,Stable,Cognateset_ID,Forms
+LI + CT,dry,False,dry-416,"Lakalei: kiʔɑs; Southern Mambae, Ainaro: glia; Northwest Mambae, Hatulia: glia; Central Mambae, Hatu-Builico: klea"
+LI + CT,tail,True,tail-1644,"Idate: jiʔan; Kemak: hiʔɔr; Kemak, Kailaku: hiʔor; Lakalei: hiʔɔn; Tokodede: ʔikɔ; Welaun: hiʔun; Kemak, Diirbati: hiʔoˑ; Kemak, Kutubaba: hiʔoŋ; Kemak, Lemia: hiʔor; Kemak, Leolima: hiʔoŋ; Kemak, Leosibe: hiʔon; Kemak, Saneri: hiʔor; Idate: iʔan"
+LI + CT,to_cry,True,to_cry-1808,"Idate: sɛro; Kemak: siɔ; Kemak, Kailaku: sio; Lakalei: sɛrɔ; Southern Mambae, Ainaro: sɛro; Tokodede: seːɔ; Welaun: soː; South Mambae, Letefoho: sero; Kemak, Diirbati: sio; Kemak, Kutubaba: sio; Kemak, Lemia: sio; Kemak, Leolima: sio; Kemak, Leosibe: sio; Kemak, Saneri: sio; Welaun, Mahein: soː; Idate: nasero"
+LI + CT,to_spit,False,to_spit-2149,"Kemak: lɔtaʔɑba; Kemak, Kailaku: loːtaban; Lakalei: lɛɔʔɑbɑr; Tokodede: luakabeː; Kemak, Kutubaba: lotaʔaba; Kemak, Lemia: lotaaba; Kemak, Leolima: lotaaba; Kemak, Leosibe: lota; Kemak, Saneri: lotaʔabar"
+LI + CT,who,True,who-2359,"Idate: ʔɛta; Lakalei: ʔɛtɛ; Northwest Mambae, Railaco: sepdua"
+LI + CT,wife,False,wife-2376,"Idate: mahinɑn; Southern Mambae, Ainaro: hinɛ; Northwest Mambae, Barzatete: hinan; Northwest Mambae, Hatulia: hinen; Central Mambae, Aileu Vila: hinan; Central Mambae, Liquidoe: heːnhinen; Central Mambae, Hatu-Builico: hinen; South Mambae, Hatu-Udo: hiːn; South Mambae, Betano: hine; South Mambae, Letefoho: hiːn"
+LI + CT,wife,False,wife-2380,"Kemak: hɛːr; Kemak, Kailaku: heːr; Lakalei: hɛːn; Tokodede: heː; Kemak, Diirbati: heːr; Kemak, Kutubaba: heːŋ; Kemak, Lemia: heːr; Kemak, Leolima: heːr; Kemak, Leosibe: heːr; Kemak, Saneri: heːr"
+LI + Habu,all,False,all-92,Lakalei: nɔbun; Habun: lobu; Idate: lobulobu
+LI + Habu,ash,True,ash-126,Habun: kalohan; Idate: alohar
+LI + Kawaimina,big,True,big-221,Waima'a: oli; Idate: kaʔoli
+LI + Kawaimina,new,True,new-1177,Idate: murin; Lakalei: morin; Waima'a: mori; Waima'a: m̥ori; Naueti: mori; Midiki: morin; Idate: mori
+LI + Kawaimina,to_sit,False,to_sit-2070,Waima'a: toʔe; Naueti: toʔe; Midiki: toʔe; Idate: taho
+LI + Tetun,to_spit,False,to_spit-2146,Tetun Dili: tɑfui; Idate: tahura
+LI + other,above,False,above-64,Ili'uun: hohon; Lakalei: deihɔhɔn
+LI + other,big,True,big-215,Dela: moko; Lakalei: bosuk; Tii: moʔo
+LI + other,hair,True,hair-716,"Idate: huhurɔːn; Sika, Hewa: loʔe; Sika, Hewa: loʔeroun"
+LI + other,house,True,house-811,"Lakalei: lehu; Sika, Hewa: ləpo"
+LI + other,this,True,this-1729,Kisar: ɛni; Roma: ɛki; Idate: enia
+LI + other,to_hear,True,to_hear-1934,"Ili'uun: liu; Lakalei: liː; Aputai: liuŋ; Ili'uun, Ilmaumau: liu; Perai: liuŋ; Tugun: liu"
+LI + other,to_kill,False,to_kill-1956,Idate: eaːr; Lakalei: ʔeɔr; Kusa-Manea: roːr; Idate: ear
+LI + several Eastern Timor,rotten,False,rotten-1406,Idate: karoek; Lakalei: kroɛːk; Waima'a: kroe; Habun: nakroek; Idate: taroek
+LI + several Eastern Timor,to_spit,False,to_spit-2163,"Tetun, Suai: kabawɛn; Habun: kabukwain; Idate: abuweːr"
+LI + several Eastern Timor,yellow,False,yellow-2423,Idate: kamodɔːk; Habun: modok; Midiki: m̥odo; Idate: kamodok

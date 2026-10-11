@@ -211,10 +211,93 @@ LI = Lakalei-Idate; CT = Central Timor with Welaun; ET = Eastern Timor.
 - **What it is.** A web-crawled Tetun (Dili) text corpus of 321.7k sentences, plus a Tetun tokenizer and language identifier.
 - **Relevance.** It doesn't bear on subgrouping. It could help a future loan study tell recent Tetun Dili loans from older Tetun Terik ones by corpus frequency.
 
+## Third round: inheritance or contact? (Addendum 7, post hoc)
+
+`src/28_innovations_contact.py` (E17, E18) and `src/29_contactrees.py` (E19). Outputs are in `results/literature/` and `derived/innovations/`.
+
+**The basic sorting.**
+
+- *Retentions and innovations.* For every concept with a Proto-Malayo-Polynesian form, each LexStat cognate set is classed as a **retention** (some form within SCA NED 0.5 of PMP) or an **innovation** (the PMP word was replaced).
+- *Result.* 1,234 innovation sets and 191 retentions, in `derived/innovations/cognate_set_status.csv`.
+- *Accuracy.* The rule is strict, so some heavily changed retentions are misclassed as innovations. For example, 'tail' *hiʔor* comes from *ikuR, yet it is counted as an innovation.
+
+### E17: shared lexical innovations
+
+**Innovation sets that Lakalei-Idate shares with exactly one other group.** Inventory: `e17_exclusive_innovations.csv`.
+
+| Shared with | Sets | Examples |
+|---|---|---|
+| Central Timor | 7 | 'cry' *sɛro*; 'dry' Lakalei *kiʔɑs* ~ Mambae *glia*; 'spit'; 'wife' (2 sets); 'tail'; 'who' (doubtful) |
+| Kawaimina | 3 | 'new' *mori(n)*; 'big' Idaté *kaʔoli* ~ Waima'a *oli*; 'sit' |
+| Several Eastern Timor groups | 3 | 'rotten' *kroek*; 'yellow' *modok*; 'spit' |
+| Habu | 2 | 'all' *lobu*; 'ash' *alohar* ~ *kalohan* |
+| Tetun | 1 | 'spit' |
+| Other groups | 7 | 'hear' *liː* ~ Wetar *liu* |
+| Only Lakalei-Idate | 28 | |
+| Mixed groups | 43 | |
+
+**Sharing rate by lect, with geography controlled.** This is the share of commonly attested concepts on which a lect has the same innovation as Idaté or Lakalei. Residuals are from a regression on log distance (58 lects).
+
+| Group | Mean residual, all concepts | Mean residual, stable concepts |
+|---|---|---|
+| Central Timor (22 lects) | +0.016 | +0.004 |
+| Tetun (2) | +0.031 | +0.048 |
+| Habu (1) | −0.034 | −0.035 |
+| Kawaimina (3) | −0.031 | −0.011 |
+| Galoli (1) | −0.032 | −0.044 |
+
+**Reading against Addendum 7.**
+
+- **Mixed.** Central Timor has the most exclusive shared innovations of any single group (7). But the three Eastern Timor groups together have 9.
+- **Tetun.** Per lect, Tetun shares more innovations with Lakalei-Idate than distance predicts, even on stable concepts.
+- **Habu.** Habu shares about what its closeness (5–11 km) predicts.
+- **What this does to the lean.** E17 does not strengthen the C1 lean.
+
+### E18: triplet test for contact
+
+For three groups, each pair's count is the number of concepts on which exactly that pair shares an innovation. The largest count is the tree pair. D measures the excess of one minor pair over the other, with a jackknife Z.
+
+| Triplet | All concepts | Stable concepts | Other concepts |
+|---|---|---|---|
+| **(Welaun, NCT, Tetun)**: known-answer check | Welaun+NCT 28, Welaun+Tetun 24, NCT+Tetun 6; Welaun–Tetun excess D 0.60, **Z 3.1** | 11 / 8 / 5; Z 0.6 | 17 / 16 / 1; **Z 6.9** |
+| (LI, NCT, Tetun) | **LI+NCT 57**, LI+Tetun 32, NCT+Tetun 10; D 0.52, Z 2.4 | **LI+NCT 25** / 19 / 6; Z 1.7 | **LI+NCT 32** / 13 / 4; Z 1.5 |
+| (LI, NCT, Habu) | **LI+NCT 58**, LI+Habu 55, NCT+Habu 20; D 0.47, Z 2.3 | **LI+NCT 31** / 22 / 13; Z 0.7 | **LI+Habu 33**, LI+NCT 27, NCT+Habu 7 |
+| (LI, NCT, Kawaimina) | **LI+NCT 184**, 95, 30; D 0.52, Z 2.9 | **LI+NCT 98** / 62 / 19; Z 2.0 | **LI+NCT 86** / 33 / 11; Z 1.9 |
+| (LI, NCT, Galoli) | **LI+NCT 39**, 28, 16; Z 1.0 | **LI+NCT 20** / 14 / 11 | **LI+NCT 19** / 14 / 5 |
+| (LI, Tetun, Habu) | LI+Habu 14, LI+Tetun 9, Tetun+Habu 8; Z 0.2 | LI+Tetun 7 / 5 / 3 | LI+Habu 9 / 2 / 5 |
+
+- **The check works.** It recovers Welaun's known Tetun contact (Z 3.1), and puts it where contact should be: borrowable concepts (Z 6.9) rather than stable ones (Z 0.6).
+- **On stable concepts, Lakalei-Idate + Nuclear Central Timor is the tree pair in every triplet.** This is the clearest support for Central Timor descent so far, because it counts only shared replacements of PMP words.
+- **Habu shows the contact pattern.**
+  - Lakalei-Idate's sharing with Habu overtakes its sharing with Central Timor only on borrowable concepts.
+  - That is the same pattern as Welaun–Tetun.
+  - It fits contact between Idaté and its 5–11 km neighbour.
+- **The excess sharing with Tetun and Kawaimina is not clearly contact.**
+  - It is consistent (D ≈ 0.5) but below the threshold (Z 2.4–2.9), and it doesn't concentrate in borrowable concepts.
+  - Some of it is expected even without contact. In the ML tree, Nuclear Central Timor's branches are about twice as long as Lakalei-Idate's (0.13–0.19 against 0.07–0.09 from their common ancestor). The faster-changing side loses more shared innovations.
+- **Lakalei-Idate's own branch is short.** It is conservative relative to Central Timor. That fits Hull's idea that Idalaka preserves an older stage of Ramelaic.
+
+### E19: contacTrees
+
+- **Setup.**
+  - BEAST 2.6.7 compiled from source, plus the contacTrees 1.1.0 jar.
+  - The 24 taxa and 152 concept blocks.
+  - Two configurations: without and with gamma rate variation, both allowing up to 200 contact edges.
+  - An earlier run with the case study's cap of 50 hit the cap within 100,000 steps.
+- **What happened.** Neither chain settled into a tree with a few contact edges.
+  - Within 30,000 steps, both had about 60–100 contact edges.
+  - By 250,000 steps, the run without gamma had about 110 edges, each moving 14–23% of the vocabulary. That is roughly 2,800 word transfers, against a prior expecting about 11% of words per edge.
+  - The likelihood was still climbing when the runs were stopped (250,000 and 110,000 steps, at about 1.9 hours per million steps).
+- **Result: uninformative, as Addendum 7 allowed.** Nothing is read about Lakalei-Idate.
+- **What the failure says.** These data can't be described as a tree plus a handful of loan events. That fits the dialect-chain reading (E15, treelikeness), but it could also be model misfit.
+- **Trajectories** are in `e19_trajectory.json`.
+
 ## Not yet used, and worth getting
 
 - **Alcantara's full corpus.** It has 800 words and 420 sentences, of which only 184 forms are published. The full corpus would give enough Idaté *ŋ, *j, *k and *d words to code every character.
 - **Purwa et al. (1994).** *Struktur bahasa Idate*: an Indonesian-era grammar, and the source of ASJP's Idaté list.
+- **Mandaru, Haan and Liufeto (1998).** *Morfologi dan sintaksis bahasa Kemak*, from the same national language centre. Both are probably in the Indonesian ministry's repository (repositori.kemendikdasmen.go.id), but that site blocks automated access, so they have to be downloaded by hand.
+- **Capell's Galoli notes.** Typed phrase lists and a draft paper, "Galoli: a language of Portuguese Timor" (PARADISEC, series TGAL).
 - **Hull (1998).** Wordlists and lexical percentages for all of Timor's Austronesian languages. Only the Habu and Naueti lists are reachable, through ASJP.
 - **Earlier phonological descriptions.**
   - H. Fogaça (2013): Mambae of Same, with a word list.
@@ -246,6 +329,8 @@ LI = Lakalei-Idate; CT = Central Timor with Welaun; ET = Eastern Timor.
 - Hull, Geoffrey. 2001b. A morphological overview of the Timoric Sprachbund. *Studies in Languages and Cultures of East Timor* 4.
 - Hull, Geoffrey. 2003. Lia-Bekais nia fatin iha dalen-lubun Timór. *Studies in Languages and Cultures of East Timor* 5: 55–78.
 - Kaiping, Gereon A. and Marian Klamer. 2022. The dialect chain of the Timor-Alor-Pantar language family: a new analysis using systematic Bayesian phylogenetics. *Language Dynamics and Change* 12(2): 274–326.
+- Neureiter, Nico et al. 2022. Detecting contact in language trees: a Bayesian phylogenetic model with horizontal transfer. *Humanities and Social Sciences Communications* 9. doi:10.1057/s41599-022-01211-7. Software: github.com/NicoNeureiter/contacTrees.
+- Mandaru, A. Mans, John W. Haan and Gomer Liufeto. 1998. *Morfologi dan sintaksis bahasa Kemak*. Jakarta: Pusat Pembinaan dan Pengembangan Bahasa.
 - Oliveira, Sandra et al. 2022. Ancient genomes from the last three millennia support multiple human dispersals into Wallacea. *Nature Ecology and Evolution* 6(7): 1024–1034.
 - Purwa, I Made et al. 1994. *Struktur bahasa Idate*. Jakarta: Pusat Pembinaan dan Pengembangan Bahasa.
 - Schapper, Antoinette. 2020. The origins of isolating word structure in eastern Timor. In David Gil and Antoinette Schapper (eds.), *Austronesian undressed*, 391–446. Amsterdam: Benjamins.

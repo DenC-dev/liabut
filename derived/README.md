@@ -54,3 +54,10 @@ Grimes and Edwards print their evidence as tables. Each has a gloss row and a PM
 
 184 Idaté forms from a phonological description based on fieldwork in Laclubar, with concept mapping and aligned PMP tokens (Addendum 6, E16). See the folder's own README for the source, corrections and rights.
 
+## `innovations/`: retention or innovation status of cognate sets
+
+`cognate_set_status.csv` lists every D1 LexStat cognate set, among the Austronesian lects, for concepts with an ABVD Proto-Malayo-Polynesian form. Each set is classed as a **retention** (a form within SCA NED 0.5 of PMP) or an **innovation** (the PMP word was replaced). The file gives the set's lects and forms.
+
+- **Built by** `src/28_innovations_contact.py` (Addendum 7, E17).
+- **Accuracy.** The rule is strict, so some heavily changed retentions are counted as innovations (for example, 'tail' *hiʔor* < *ikuR).
+

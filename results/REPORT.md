@@ -17,7 +17,7 @@ Run on 2026-10-10.
 | **Timor-Babar** (Edwards; Grimes and Edwards) | Not supported (0%) | Not a lexical group: ln BF −7.0 against it, and forcing it costs 12 log-likelihood units in ML. It stands on its sound changes only. | High that the vocabulary doesn't show it |
 | **Eastern Timor** (Edwards; Grimes and Edwards) | Not supported (0–3%) | Same as Timor-Babar | High |
 | **C2. Is Welaun a Tetun dialect (Hull 1998) or Central Timor (Edwards)?** | Unresolved, because the bootstrap trees don't reach 70% for Central Timor | **Central Timor.** ln BF +10.3, the ML tree puts it there, and its Tetun tie disappears on borrowing-resistant words. This agrees with the sound changes in Edwards (2019) and Grimes and Edwards. | High |
-| **C1. Do Idaté and Lakalei go with Mambae, Kemak and Tokodede (Hull's Ramelaic), or into Timor-Babar (Edwards)?** | Unresolved, because neither clade reaches 70% in the bootstrap trees | **Leans Central Timor (Hull's grouping, with Welaun added).** The vocabulary puts Lakalei-Idate next to Central Timor (posterior 0.91; ln BF +8.0 for Ramelaic). So does every analysis that adds Grimes and Edwards's own sound-change data (posterior 0.88; ML 56–80). Timor-Babar's one defining change, *p lenition, also occurs in Welaun. See *Expansion*. | Moderate: post hoc, the sound-change data are sparse, and support varies with cognate coding (15–92%; E15), though Timor-Babar gets 0 under every coding |
+| **C1. Do Idaté and Lakalei go with Mambae, Kemak and Tokodede (Hull's Ramelaic), or into Timor-Babar (Edwards)?** | Unresolved, because neither clade reaches 70% in the bootstrap trees | **Leans Central Timor (Hull's grouping, with Welaun added).** The vocabulary puts Lakalei-Idate next to Central Timor (posterior 0.91; ln BF +8.0 for Ramelaic). So does every analysis that adds Grimes and Edwards's own sound-change data (posterior 0.88; ML 56–80). Timor-Babar's one defining change, *p lenition, also occurs in Welaun. See *Expansion*. | Moderate: post hoc, the sound-change data are sparse, and support varies with cognate coding (15–92%; E15), though Timor-Babar gets 0 under every coding. On stable vocabulary, shared replacements of PMP words pair Lakalei-Idate with Central Timor in every triplet test (E18) |
 | **Low-level groups** | Supported (≥ 70% in every variant): Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang, Kisar-Roma, Babar, Peripheral Babar, South Babar | Settled. All of them are already in Grimes and Edwards and in Glottolog. | High |
 
 ## Gate (step 4)
@@ -353,6 +353,13 @@ The full scan, sources and tables are in [`LITERATURE.md`](LITERATURE.md).
 - **New Idaté data (E16).** Alcantara (2015) adds 184 Idaté forms from Laclubar.
   - Only 17 align to Proto-Malayo-Polynesian. The two characters they can code (*p lenition, *b- > h) agree with the existing coding.
   - Her 'cry' [ˈsɛ.ɾɔ] is an independent attestation of the word Lakalei-Idate shares only with Central Timor.
+- **Inheritance or contact (E17–E19).**
+  - The triplet test counts only shared replacements of PMP words. It recovers Welaun's known Tetun contact, concentrated in borrowable vocabulary (Z 6.9).
+  - On stable concepts it finds Lakalei-Idate + Nuclear Central Timor as the tree pair in every triplet, against Tetun, Habu, Kawaimina and Galoli.
+  - Lakalei-Idate's sharing with neighbouring Habu shows the contact signature: it overtakes Central Timor only in borrowable vocabulary.
+  - Counts of exclusive shared innovations are close: 7 with Central Timor, 9 with the three Eastern Timor groups combined. Per lect, Tetun shares more than distance predicts.
+  - contacTrees couldn't fit the data as a tree with a few contact edges, so it is uninformative.
+  - Net: Central Timor descent with eastern contact is the best-supported reading. Lakalei-Idate looks like a conservative, bridging member of a former dialect chain.
 - **Treelikeness.** Timor's Austronesian vocabulary is at least as network-like as the Timor-Alor-Pantar data, which Kaiping and Klamer read as a former dialect chain: mean Q residual 0.0072 against 0.0047. That supports a linkage reading.
 
 ## Novelty check (post hoc, 10 October 2026)

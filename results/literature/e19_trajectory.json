@@ -1,0 +1,134 @@
+{
+ "ct_A_nogamma": {
+  "samples_logged": 127,
+  "last_state": 252000,
+  "trajectory": [
+   {
+    "state": 0,
+    "likelihood": -8569.9,
+    "contact_edges": 0,
+    "borrowed_words": 0
+   },
+   {
+    "state": 30000,
+    "likelihood": -6054.7,
+    "contact_edges": 100,
+    "borrowed_words": 2009
+   },
+   {
+    "state": 60000,
+    "likelihood": -5931.1,
+    "contact_edges": 96,
+    "borrowed_words": 2172
+   },
+   {
+    "state": 90000,
+    "likelihood": -5794.6,
+    "contact_edges": 109,
+    "borrowed_words": 2413
+   },
+   {
+    "state": 120000,
+    "likelihood": -5638.0,
+    "contact_edges": 119,
+    "borrowed_words": 2739
+   },
+   {
+    "state": 150000,
+    "likelihood": -5546.7,
+    "contact_edges": 104,
+    "borrowed_words": 2629
+   },
+   {
+    "state": 180000,
+    "likelihood": -5597.0,
+    "contact_edges": 107,
+    "borrowed_words": 2808
+   },
+   {
+    "state": 210000,
+    "likelihood": -5550.7,
+    "contact_edges": 110,
+    "borrowed_words": 2790
+   },
+   {
+    "state": 240000,
+    "likelihood": -5508.4,
+    "contact_edges": 108,
+    "borrowed_words": 2814
+   },
+   {
+    "state": 252000,
+    "likelihood": -5519.7,
+    "contact_edges": 112,
+    "borrowed_words": 2952
+   }
+  ]
+ },
+ "ct_B_gamma": {
+  "samples_logged": 57,
+  "last_state": 112000,
+  "trajectory": [
+   {
+    "state": 0,
+    "likelihood": -8553.4,
+    "contact_edges": 0,
+    "borrowed_words": 0
+   },
+   {
+    "state": 14000,
+    "likelihood": -6644.8,
+    "contact_edges": 58,
+    "borrowed_words": 1357
+   },
+   {
+    "state": 28000,
+    "likelihood": -6123.1,
+    "contact_edges": 82,
+    "borrowed_words": 1904
+   },
+   {
+    "state": 42000,
+    "likelihood": -5987.9,
+    "contact_edges": 91,
+    "borrowed_words": 2298
+   },
+   {
+    "state": 56000,
+    "likelihood": -5881.3,
+    "contact_edges": 83,
+    "borrowed_words": 2297
+   },
+   {
+    "state": 70000,
+    "likelihood": -5718.0,
+    "contact_edges": 89,
+    "borrowed_words": 2476
+   },
+   {
+    "state": 84000,
+    "likelihood": -5784.6,
+    "contact_edges": 92,
+    "borrowed_words": 2633
+   },
+   {
+    "state": 98000,
+    "likelihood": -5647.6,
+    "contact_edges": 101,
+    "borrowed_words": 2933
+   },
+   {
+    "state": 112000,
+    "likelihood": -5688.7,
+    "contact_edges": 94,
+    "borrowed_words": 2754
+   },
+   {
+    "state": 112000,
+    "likelihood": -5688.7,
+    "contact_edges": 94,
+    "borrowed_words": 2754
+   }
+  ]
+ }
+}
