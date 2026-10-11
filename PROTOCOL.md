@@ -599,3 +599,29 @@ Written and pushed before E35 or E36 was computed.
 - *Reading.* If Lakalei-Idate + Nuclear Central Timor stays the largest pair on stable concepts against Habu and Kawaimina in both reruns, the stable-pairing result stands; if it does not, that result is withdrawn.
 
 **E36: topology tests on independent data.** IQ-TREE AU test (10,000 RELL replicates) on the E28 independent matrix, comparing the unconstrained tree with trees constrained to (a) Lakalei-Idate + Eastern Timor and (b) Timor-Babar (all Timor-region taxa outside Nuclear Central Timor). Reported: ΔlnL and p-AU. *Reading:* a constrained tree with p-AU < 0.05 is rejected by the vocabulary; otherwise the vocabulary prefers the unconstrained tree without excluding the alternative.
+
+### Addendum 11 (2026-10-11, post hoc): Grimes and Edwards's own judgements, a parametric bootstrap, and a capped contact model
+
+Written and pushed before E37–E39 were computed.
+
+- **Already seen.** All results through E36; the column layout of `derived/ge2026_tables/forms.csv` and its table captions, one of which is "Lakalei-Idate lexically specific innovations" (its rows have not been looked at).
+- **Not yet seen.** Any E37–E39 statistic.
+
+**E37: the decisive sets against Grimes and Edwards's tables.** Sets checked: the 24 reviewer-packet sets and the E17 sets that Lakalei-Idate shares exclusively with one other group.
+
+- *Matching.* A LexiRumah form matches a form in Grimes and Edwards's tables if the languages correspond (same Glottocode, or the E8 fallbacks), the table gloss contains the concept's English keyword as a whole word, and the SCA NED between the forms is at most 0.5.
+- *Verdict per set.* "Inherited" if a member matches a form the authors mark as cognate with a reconstructed etymon (its `Cognate` flag true); "Lakalei-Idate innovation" if a member matches a row of their Lakalei-Idate innovations table; "not in the tables" otherwise.
+- *Rerun.* E18 stable-concept triplets (representative and single-survey lists, E30 rule) with "inherited" sets reclassified as retentions.
+- *Reading.* As E35: the stable-vocabulary pairing stands if Lakalei-Idate + Nuclear Central Timor stays the largest pair against Habu and Kawaimina in both reruns.
+
+**E38: a parametric bootstrap of the eastern placement (SOWH test).** For the primary 24-taxon lexical matrix and the E28 independent matrix:
+
+- *Null.* Binary characters simulated on the tree constrained to Lakalei-Idate + Eastern Timor, with the GTR2+FO+G4 parameters IQ-TREE estimates on it. Each simulated matrix copies the observed missing cells, and each character must contain at least one 1 among its observed cells (as real cognate sets do).
+- *Statistic.* ΔlnL = lnL(unconstrained ML) − lnL(ML under the constraint), each by IQ-TREE with the same model.
+- *Replicates.* 100 per matrix. p = (1 + number of simulated ΔlnL ≥ observed) / 101.
+- *Reading.* p < 0.05 rejects the eastern placement for that matrix.
+
+**E39: contacTrees with a cap of five contact edges.** E19 configuration A (no rate variation) with the upper bound on contact edges set to 5 and the expected number of contacts fixed at 1. One chain, as long as 4 hours allow (up to 2,000,000 steps), 10% burn-in.
+
+- *Reported.* The number of contact edges sampled; Lakalei-Idate's sister in the base tree; the share of samples with a contact edge touching Lakalei-Idate; ESS of the posterior.
+- *Reading.* If the ESS of the posterior is below 100, the run is uninformative, as E19 was.
