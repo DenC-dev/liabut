@@ -1,0 +1,10 @@
+{
+ "marginals": {
+  "c1H": -8088.54,
+  "c1G": -8100.32,
+  "c2T": -8099.43,
+  "c2pos (Central Timor with Welaun, step 7)": -8091.87
+ },
+ "lnBF LI+CT vs LI+ET": 11.78,
+ "lnBF CT with Welaun vs Welaun+Tetun": 7.56
+}

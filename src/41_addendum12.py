@@ -785,7 +785,7 @@ def e47sum():
     wd = os.path.join(LIT, "e47")
     ml = {n: ss_marginal(os.path.join(wd, f"{n}.log")) for n in E47 if os.path.exists(os.path.join(wd, f"{n}.log"))}
     ml["c2pos (Central Timor with Welaun, step 7)"] = json.load(open(os.path.join(RES, "bayes", "bayes_factors.json")))[
-        "marginals"]["c2pos"]
+        "marginals"]["c2pos"]["lnML"]
     res = dict(marginals=ml)
     if ml.get("c1H") and ml.get("c1G"):
         res["lnBF LI+CT vs LI+ET"] = round(ml["c1H"] - ml["c1G"], 2)

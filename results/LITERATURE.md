@@ -547,6 +547,160 @@ IQ-TREE AU test, 10,000 RELL replicates, on the E28 matrix (no Edwards or Grimes
 - **Both alternatives are rejected** on the independent lists, and both survive a Holm correction for the two tests. On the original lists (E6) neither was rejected (p-AU 0.07 and 0.07).
 - **What this does and does not show.** The vocabulary of these lists is significantly better explained with Lakalei-Idate beside Central Timor. It says nothing about Timor-Babar as a phonological subgroup, and like every tree test here it treats borrowed words as inherited.
 
+## Seventh round: Grimes and Edwards's own judgements, a parametric bootstrap, a capped contact model (Addendum 11)
+
+Script: `src/40_addendum11.py`. Outputs: `results/literature/e37_*`, `e38_sowh_*.json`, `e39_contactrees_cap5.json`.
+
+### E37: the decisive sets against Grimes and Edwards's tables
+
+42 sets checked (the 24 packet sets and the E17 exclusive sets). 6 match a form the authors mark as cognate with a reconstructed etymon ('far', 'hair', 'root', 'tail', 'stand', 'water'), 7 are in the tables but not marked cognate, and 29 are not in the tables. The authors' table of Lakalei-Idate-specific innovations lists irregular reflexes ('road', 'far', 'land', 'fire', 'egg'), not shared replacements.
+
+- **The declared reading fails.** With the 6 inherited sets reclassified, Lakalei-Idate + Nuclear Central Timor stays largest on stable concepts against Tetun (16 / 6 / 10) and Kawaimina (58 / 34 / 21) on the representative lists, but Habu draws level (16 against 17). On the single-survey lists Nuclear Central Timor + Habu (20) and Nuclear Central Timor + Tetun (34) become the largest pairs. So the stable-vocabulary pairing does not stand.
+
+### E38: a parametric bootstrap of the eastern placement (SOWH)
+
+Null: binary characters simulated on the tree constrained to Lakalei-Idate + Eastern Timor, with IQ-TREE's GTR2+FO+G4 estimates, the observed missing cells and at least one 1 per character. 100 replicates per matrix.
+
+| Matrix | Observed ΔlnL | Largest simulated | 95th percentile | p |
+|---|---|---|---|---|
+| Primary (24 lects) | 10.5 | 3.2 | 1.2 | 0.0099 |
+| Independent (E28) | 19.4 | 4.8 | 1.5 | 0.0099 |
+
+- **The eastern placement is rejected on both matrices by the declared reading.** None of the simulated differences approaches the observed ones.
+- **Caveats.** SOWH tests are liberal when the model is misspecified (Susko 2014), and this model treats every shared word as inherited. Lakalei-Idate was free to split in these trees (as in E6 and E36). With it kept together and the root held by outgroups, the AU test does not reject the eastern placement (E45), and nothing survives Holm's correction across all topology tests.
+
+### E39: contacTrees with at most five contact edges
+
+E19 configuration A with the upper bound on contact edges set to 5 and the expected number of contacts fixed at 1, one chain for the declared four hours (1,554,000 steps, 10% burn-in). The session's container was reclaimed after 2.5 hours; the chain was resumed from its saved state for the remaining time, with the logs cut back to a common sample (1,160,000) first.
+
+- **Informative by the declared reading**: posterior ESS 534 (likelihood ESS 64).
+- **The cap binds.** Every sample has five contact edges, each moving a fifth to a third of the vocabulary. Some link unlikely partners: Dela and Habu in 99% of samples, Luang and Tela-Masbuar in all of them. The model wants more contact than it is allowed, so it is misspecified.
+- **Base tree.** Lakalei-Idate groups with Tetun + Habu (0.78), with Welaun beside them (1.00); Nuclear Central Timor stands apart (0.99); Lakalei-Idate + Central Timor 0.
+- **Contact edges on Lakalei-Idate.** Lakalei–Tokodede in every sample; Lakalei–Mambae and Idaté–Mambae in 8% each.
+- **Reading.** A few large transfer events can carry Lakalei-Idate's Central Timor resemblance as well as descent can. Because the cap binds, the base tree is not a credible history in its own right.
+
+## Eighth round: a second round after a mock referee report (Addendum 12)
+
+A mock referee report (`paper/review/referee_report.md`, written by Claude as a reviewer) asked four things: estimate the root without relying on the Flores pair; score the sound changes with a fixed ancestral state and irreversible change; keep Lakalei-Idate together; and clean and polarise the shared innovations. Addendum 12 declared E40 to E50 and a binding decision rule for C1 before any of them was run. Script: `src/41_addendum12.py`.
+
+### E40: the root, with outgroups beyond Flores
+
+Seven ABVD outgroups were coded together with all of D1 by LexStat (11,506 forms, 2,673 sets): Tagalog, Buginese and Uma (far); Kambera, Bima and Manggarai (near); Blust's PMP as a pseudo-taxon. Each tree is reduced to the 24 step-7 lects and rooted on the reference outgroup.
+
+| Analysis | Root on Flores | Root on Rote-Meto + Helong | Root on Central Timor stem | LI + CT rooted clade | Timor-Babar rooted clade |
+|---|---|---|---|---|---|
+| All seven, MrBayes (ASDSF 0.008) | 0.93 | 0.07 | 0.00 | 1.00 | 0.00 |
+| All seven, ML UFBoot | 0.87 | 0.12 | 0.00 | 0.98 | 0.00 |
+| Far only (Tagalog, Buginese, Uma) | 0.16 | 0.77 | 0.00 | 0.98 | 0.00 |
+| Near only (Kambera, Bima, Manggarai) | 0.94 | 0.03 | 0.00 | 0.98 | 0.00 |
+| PMP only | 0.04 | 0.70 | 0.00 | 0.97 | 0.00 |
+
+- **The root does not fall on the Central Timor stem in any analysis.** It sits on the Flores branch or the Rote-Meto + Helong branch, so Lakalei-Idate + Central Timor comes out as a rooted clade, and Timor-Babar never does.
+- **Caveat.** The outgroups attach by lexical similarity. Contact across the Savu Sea, or Rote-Meto's conservatism, could pull them westward.
+
+### E41: a relaxed clock
+
+MrBayes, independent-gamma-rates relaxed clock, no topology constraint, 3,000,000 generations, two runs (split-frequency differences 0.019 and 0.014). The no-Tela-Masbuar run was interrupted at 2,600,000 generations when the session's container was reclaimed, and resumed from its checkpoint.
+
+| Relaxed clock | Root on Flores | Root on Rote-Meto + Helong | Root on Kisar-Luang(-Tela) | Root on Central Timor stem | LI + CT rooted clade | Timor-Babar rooted clade |
+|---|---|---|---|---|---|---|
+| 24 lects | 0.11 | 0.42 | 0.17 | 0.00 | 0.96 | 0.00 |
+| Without Tela-Masbuar | 0.23 | 0.52 | 0.07 | 0.00 | 0.98 | 0.00 |
+
+- **The clock agrees with the outgroups**: the root sits on the western side and never on the Central Timor stem. Dropping Tela-Masbuar moves root mass from Kisar-Luang towards Flores and Rote-Meto, as the referee expected of a long-branch effect.
+
+### E42: the sound changes, polarised and irreversible
+
+The Flores pair coded from the atlases (\*p retained, 10 of 10 tokens); rooted on Flores.
+
+| Steps | H (lexical) | G (LI + Eastern Timor) | GE (Grimes and Edwards's split) |
+|---|---|---|---|
+| \*p lenition: Fitch / Camin-Sokal / Dollo | 2 / 6 / 2 | 2 / 4 / 2 | 2 / 2 / 2 |
+| All eleven: Fitch / Camin-Sokal / Dollo | 33 / 49 / 54 | 34 / 47 / 49 | 32 / 51 / 43 |
+
+- **If lenition cannot reverse, \*p lenition clearly favours Grimes and Edwards's tree** (2 origins against 6). The other characters are sparse and parallel; their totals point different ways under different cost models.
+- **One standard.** Changes recur outside their defining groups: \*ŋ > n throughout Timor-Babar and in Sika; \*d > r, l in Sika and Dela; \*p > h in Welaun; Hull's \*b- > h in Galoli and Ili'uun. If Sika's \*ŋ > n disqualifies that change as a diagnostic, Sika's and Dela's \*d > r, l disqualify that one too.
+- **Restated (E2).** Lakalei-Idate keeps \*p in 0 of 6 matched words, Nuclear Central Timor in 54 of 55 (Fisher p = 1.3 × 10⁻⁷).
+
+### E43: how often vocabulary recovers undisputed sound-change groups
+
+Of 10 Grimes and Edwards groups with two or more lects among the 24 (contested groups excluded), MrBayes recovers 6 at posterior ≥ 0.95 and ML 4 at UFBoot ≥ 95. Misses: West Rote-Meto (0.00 / 3), Kisar-Luang (0.00 / 2; Luang pairs with Tela-Masbuar), Tetun + Habu (0.00 / 22), Lakalei-Idate (0.94 / 53). Lexical non-recovery of a sound-change group is common here.
+
+### E44 and E48: Lakalei-Idate together, apart, and in other taxon sets
+
+| UFBoot % | With CT | With NCT | With Eastern Timor | With Habu |
+|---|---|---|---|---|
+| Primary, Lakalei-Idate kept together | 70 | 41 | 0 | 0 |
+| Primary, Idaté alone | 52 | 3 | 2 | 38 |
+| Primary, Lakalei alone | 84 | 75 | 0 | 0 |
+| Independent, kept together | 98 | 98 | 0 | 0 |
+| Independent, Idaté alone | 79 | 79 | 7 | 13 |
+| Independent, Lakalei alone | 99 | 99 | 0 | 0 |
+| Primary without Tetun | 94 | 8 | 1 | 2 |
+| Primary without the 132 sets shared with Papuan lects | 46 | 51 | 0 | 0 |
+
+- **Lakalei is consistently Central Timor-like; Idaté is pulled partly towards Habu.**
+- **Papuan-shared sets.** Mambae (49), Kemak (43), Idaté and Lakalei (42 each) and Welaun (40) share more sets with Papuan lects than Tokodede (31) or the Eastern Timor languages (30 to 37).
+
+### E45: AU tests with the root held by the outgroups
+
+Every candidate keeps Lakalei-Idate together; the seven outgroups hold the root.
+
+| Tree | Primary: ΔlnL, p | Independent: ΔlnL, p |
+|---|---|---|
+| Lakalei-Idate + Central Timor, rooted | 0.0, 0.63 | 0.0, 0.59 |
+| Timor-Babar, rooted | 29.9, 0.011 | 19.8, 0.022 |
+| Lakalei-Idate + Eastern Timor | 14.4, 0.17 | 15.8, 0.070 |
+
+- **With Lakalei-Idate kept together, the eastern placement is no longer rejected** on the independent lists (E36's p = 0.025 relied on Lakalei falling inside Nuclear Central Timor).
+- **Holm over all eleven topology tests in the project (E6, E36, E45): nothing is rejected** (smallest adjusted p = 0.12).
+
+### E46: shared innovations, cleaned and polarised
+
+66 innovation sets were reclassified as retentions or errors (the review's flags, E35 strict, E37). Stable concepts, representative lists (LI + NCT / LI + X / NCT + X):
+
+| X | Validated rule | Cleaned | Cleaned and polarised |
+|---|---|---|---|
+| Tetun | 21 / 12 / 10 | 10 / 5 / 6 | 8 / 5 / 0 |
+| Habu | 23 / 19 / 15 | 12 / 12 / 4 | 10 / 12 / 0 |
+| Kawaimina | 80 / 38 / 23 | 42 / 27 / 13 | 36 / 21 / 1 |
+
+- **Against Habu the pairing ties once cleaned and loses once polarised.**
+- **Exclusive sets (E17, R2).** Central Timor side 6 → 2 ('cry', 'spit') after the review; eastern side 9, checked only automatically.
+- **Calibration of the tree-pair rule** (no borrowing, 1,000 datasets each): Lakalei-Idate + NCT strictly largest against Tetun, Habu and Kawaimina at once in 21% of datasets on the lexical tree (15% polarised) and 3% on the eastern tree (5%). The rule rarely produces the pattern by accident but usually misses it when true.
+
+### E47: direct marginal likelihoods
+
+Stepping-stone runs with the step-7 settings (5,000,000 generations, 50 steps, two runs), each clade forced.
+
+| Comparison | ln marginal likelihoods | ln BF |
+|---|---|---|
+| Lakalei-Idate + Central Timor (with Welaun) against Lakalei-Idate + Eastern Timor | −8088.5 against −8100.3 | **+11.8** |
+| Central Timor with Welaun (c2pos) against Welaun + Tetun | −8091.9 against −8099.4 | **+7.6** |
+
+- **Both direct comparisons are strong** (|ln BF| > 5) and avoid the prior-odds problem of forced-against-forbidden factors. They treat borrowed words as inherited, like every tree test here.
+
+### E49 and E50: heights where the clade exists, glottometry with intervals
+
+- **E49.** In the strict clock (E34), where both Nuclear Central Timor and Lakalei-Idate + NCT are clades (49% of samples), the second is older by a median of 21% of the first's height (95%: 7 to 39%). Under the relaxed clock, where Central Timor with Welaun is a clade (72% of samples), the Lakalei-Idate + Central Timor ancestor is older by a median of 21% of Central Timor's height (95%: 4 to 71%); for Nuclear Central Timor, 32% (6 to 112%). The split is older than Central Timor's own diversification, by a variable margin; "barely older" is withdrawn.
+- **E50.** Bootstrapping concepts: Lakalei-Idate σ 1.42 (0 to 3.65); with Central Timor 0.06 (0 to 0.31); with Eastern Timor 0.08 (0 to 0.41); Ramelaic 0 in every resample; Lakalei-Idate + Central Timor exceeds Lakalei-Idate + Eastern Timor in 35% of resamples.
+
+### Housekeeping
+
+- **E26 by Tetun lect, stored** (`e26_tetun_breakdown.json`): with Tetun Suai Lakalei-Idate + NCT is the largest stable pair in 86% of combinations; with Tetun Dili in 9%, and Lakalei-Idate + Tetun is larger in 84%.
+- **E23 sister distribution, stored** in `e23_dating.json`: Central Timor side about 81%.
+
+### The decision (Addendum 12 rule)
+
+| Condition for Central Timor | Met? |
+|---|---|
+| 1. Root: LI + CT rooted clade, MrBayes ≥ 0.95 and UFBoot ≥ 95 in 2 of 3 outgroup sets | Yes (1.00; 98, 98, 97) |
+| 2. Kept together, UFBoot ≥ 95 with CT on both list sets | No (70 and 98) |
+| 3. LI + Eastern Timor and Timor-Babar rejected after Holm, root held | No |
+| 4. Polarised, cleaned stable pairing largest against all three; rule under G < 20% | No (Habu) |
+
+**C1 is unresolved by the vocabulary.** Grimes and Edwards's condition (Timor-Babar a rooted clade, or the root on the Central Timor stem) is not met either. The earlier "leans Central Timor" is withdrawn: the lexical trees do place Lakalei-Idate beside Central Timor, rooted by outgroups, but the placement is fragile, the shared innovations no longer favour it over Habu once cleaned, and the defining sound change favours Grimes and Edwards if lenition is irreversible.
+
 ## Not yet used, and worth getting
 
 - **Alcantara's full corpus.** It has 800 words and 420 sentences, of which only 184 forms are published. The full corpus would give enough Idaté *ŋ, *j, *k and *d words to code every character.

@@ -1,6 +1,6 @@
 # Liabut
 
-**A pre-registered computational test of how the Austronesian languages of Timor branch.**
+**A lexical-phylogenetic study of how the Austronesian languages of Timor branch, with a pre-registered core.**
 
 *Liabut* is coined from Tetun *lia* 'word, speech' and *abut* 'root': the roots of words. The project asks how Timor's languages branch from one another, and which of them are closest kin. (It was called Sanak until 11 October 2026.)
 
@@ -22,21 +22,16 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
 
 ## Results in brief
 
-- **Hull's Fabronic (Timoric A) gets no lexical support.** It gets 0% support in every analysis.
-- **Timor-Babar and Eastern Timor get no lexical support either.** They get 0–3% bootstrap support, and the Bayes factor runs against Timor-Babar (ln BF −7.0). They rest on sound changes, so this does not refute them.
-- **Welaun is Central Timor (C2).** The Bayes factor is +10.3, and its Tetun look disappears on borrowing-resistant vocabulary.
-- **Idaté-Lakalei (C1) remains unresolved, but leans Central Timor.**
-  - Every tree puts it next to Central Timor (posterior 0.91; ln BF +8.0 for Hull's Ramelaic), and so do lists collected independently of Grimes and Edwards (97% UFBoot, a confirmatory test in Addendum 9).
-  - On those independent lists an AU test rejects Lakalei-Idate + Eastern Timor (p = 0.025) and Timor-Babar (p = 0.042) as lexical groups. On the original lists it did not (p = 0.07).
-  - Taking out words that the Austronesian Comparative Dictionary traces to PAN, PMP, Proto-Central-Eastern or Proto-Central Malayo-Polynesian leaves the stable-vocabulary pairing with Central Timor in place.
-  - Its sound changes look like Timor-Babar's (*p > h, *ŋ > n, no *ŋ > g). But scored by parsimony, the coded changes cost the same on either placement (30 steps), and Welaun, a Central Timor language, also has *p > h.
-  - A borrowing model with borrowing from both sides can't separate the two placements (posterior 0.58 against 0.42). An earlier one-way version had favoured Grimes and Edwards's (0.875); that preference doesn't survive.
-  - On stable vocabulary, shared replacements pair Idaté-Lakalei with Central Timor against Habu and Kawaimina for every choice of dialect list, but not against Tetun: that prediction failed in both confirmatory replications (with Tetun Dili, and by one concept with both Tetun lists pooled).
-  - No contact signal for Idaté-Lakalei survives calibration against unequal rates or multiple-testing correction; only Welaun's Tetun loans do.
-  - Support depends on cognate coding (15–97%), though Timor-Babar gets 0 under every coding and data set.
-  - Hull (1998, 2001) and Carvalho (2001) already grouped Idaté-Lakalei this way. Hull's *b > h evidence shows up in Grimes and Edwards's own data, but Galoli and Ili'uun share it (see [`results/LITERATURE.md`](results/LITERATURE.md)).
+- **The pre-registered verdict is "unresolved" for both C1 and C2.** The two replications with predictions stated in advance (Addendum 9) failed against Tetun.
+- **Hull's Fabronic, Timor-Babar and Eastern Timor get no lexical support** (0–3% bootstrap; posterior 0.00), under every coding and on lists collected independently of Grimes and Edwards. Lexical trees here also miss about half of the undisputed sound-change subgroups (E43), so this does not refute Timor-Babar.
+- **Idaté-Lakalei (C1) is unresolved by the vocabulary, with no lean.** That is the verdict of the second round's decision rule, declared before it was run (Addendum 12).
+  - For Central Timor: the trees put Lakalei-Idate beside Central Timor and never with Eastern Timor; with seven outgroups beyond Flores the root falls on the Flores or Rote-Meto branch, not on the Central Timor stem, so the pair is a rooted clade (E40).
+  - Against it: kept together, Lakalei-Idate gets 70% with Central Timor on the main lists (E44); Idaté alone leans partly towards neighbouring Habu; once identified retentions are removed and the counts polarised, shared innovations tie or lose against Habu (E46); and if lenition cannot reverse, \*p lenition needs six origins on the lexical tree against two on Grimes and Edwards's (E42).
+  - After Holm correction over every AU topology test, nothing is rejected (E45). A direct Bayesian comparison does favour Lakalei-Idate + Central Timor over Lakalei-Idate + Eastern Timor (ln BF +11.8, E47), and parametric bootstraps reject the eastern placement (p = 0.01, E38); both treat borrowed words as inherited.
+  - A contact-aware tree capped at five transfer edges (E39) puts Lakalei-Idate with Tetun and Habu and carries its Central Timor resemblance through a transfer edge from Tokodede. The model always uses all five edges, so it is strained, but it shows the Central Timor signal can be explained by a few transfer events as well as by descent.
+- **Welaun (C2) is consistent with Edwards (2019) once borrowable vocabulary is set aside**: posterior 0.86 for Central Timor with Welaun, ln BF +7.6 against Welaun + Tetun, and its Tetun look sits in borrowable words. Distance trees and the consensus coding put it with Tetun, and the protocol said in advance that C2 can't be settled lexically.
 - **The low-level groups are confirmed:** Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang and Babar.
-- **The pre-registered step 8 verdict is "unresolved" for both C1 and C2.**
+- A mock referee report (`paper/review/referee_report.md`) prompted the second round; the earlier "leans Central Timor" reading is withdrawn.
 
 ## New data
 
@@ -99,6 +94,8 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 | Lit. 4 | E20 Idaté-vs-Lakalei split test; E21 borrowing simulation (ABC); E22 glottometry; E23 strict-clock dating; E24 other branches | `results/literature/` |
 | Lit. 5 | Addendum 9, the limitations tested: E25 multiple testing; E26 dialect replication and E28 independent data (confirmatory); E27 consensus cognates and reviewer packet; E29 sound changes on rival trees; E30 classifier validation; E31 triplet null and power; E32 two-way ABC; E33 correspondence loan test; E34 rooted clock | `results/literature/`, `derived/innovations/` |
 | Lit. 6 | Addendum 10: E35 words inherited from above the Timor groups (Austronesian Comparative Dictionary); E36 AU tests on the independent lists | `results/literature/` |
+| Lit. 7 | Addendum 11: E37 decisive sets against Grimes and Edwards's tables; E38 parametric bootstrap (SOWH); E39 contacTrees capped at five edges | `results/literature/` |
+| Lit. 8 | Addendum 12, a second round after a mock referee report: E40 root with seven outgroups; E41 relaxed clock; E42 irreversible sound changes; E43 known-group calibration; E44 Lakalei-Idate together and apart; E45 rooted AU tests with Holm over all; E46 cleaned and polarised innovations, tree-pair calibration; E47 direct marginal likelihoods; E48 without Tetun or Papuan-shared sets; E49 heights; E50 glottometry intervals | `results/literature/`, `derived/innovations/` |
 
 ## Rerun
 
@@ -157,6 +154,12 @@ RETENTION_RULE=chosen python3 37_abc2.py  # E32 (about 15 minutes)
 python3 38_correspondences.py             # E33
 python3 33_dating.py run rooted && python3 33_dating.py summarize rooted   # E34
 python3 39_addendum10.py all              # E35 (needs data/upstream/acd), E36 (IQ-TREE)
+python3 40_addendum11.py e37 && python3 40_addendum11.py e38 primary 100 && python3 40_addendum11.py e38 independent 100
+CT_CHAIN=2000000 CT_CAP=5 CT_FIXCONV=1 CT_TAG=ct_C_cap5 python3 29_contactrees.py xml   # E39, then run BEAST as for E19 (4-hour limit); python3 40_addendum11.py e39
+python3 41_addendum12.py e40code && python3 41_addendum12.py e40iq && python3 41_addendum12.py e40mb && python3 41_addendum12.py e40sum
+python3 41_addendum12.py e41 all && python3 41_addendum12.py e41 no_tela && python3 41_addendum12.py e41sum
+for e in e42 e43 e44 e45 e46 e46cal e48 e49 e50 house packet2; do python3 41_addendum12.py $e; done
+for n in c1H c1G c2T; do python3 41_addendum12.py e47 $n; done; python3 41_addendum12.py e47sum
 python3 12_decide.py              # step 8
 python3 13_figures.py
 ```
@@ -166,7 +169,7 @@ The paper and website rebuild from the results with `bash paper/build.sh` (pando
 ## Data and licences
 
 - **LexiRumah 3.0.1** (Kaiping, Edwards and Klamer 2019), CC-BY 4.0. Its cognate judgments are all automatic.
-- **ABVD** (Greenhill, Blust and Gray 2008), CC-BY 4.0. Source of the expert cognates and of the Proto-Malayo-Polynesian forms used in E2.
+- **ABVD** (Greenhill, Blust and Gray 2008), CC-BY 4.0. Source of the expert cognates, of the Proto-Malayo-Polynesian forms used in E2, and of the E40 outgroups (Tagalog, Buginese, Uma, Kambera, Bima, Manggarai).
 - **IDS** Portuguese list (Key and Comrie), CC-BY 4.0.
 - **Glottolog 5.3**, CC-BY 4.0.
 - **Gray, Drummond and Greenhill (2009)** posterior trees, via phlorest/gray_et_al2009, CC-BY 4.0 (novelty check only).

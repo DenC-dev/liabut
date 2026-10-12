@@ -50,6 +50,8 @@ NAME = {
     "ilma1240": "Ili’uun", "kaha1239": "Tugun", "kisa1266": "Kisar", "luan1264": "Luang",
     "tela1241": "Tela-Masbuar", "lama1277-lewoi": "Lamaholot", "sika1262-hewa": "Sika",
 }
+OUTG = {"og-tagalog": "Tagalog", "og-buginese": "Buginese", "og-uma": "Uma", "og-kambera": "Kambera",
+        "og-bima": "Bima", "og-manggarai": "Manggarai", "og-pmp": "PMP (reconstructed)"}
 GROUP = {t: "other" for t in NAME}
 GROUP.update({t: "CT" for t in ("mamb1306-Slete", "kema1243-kaila", "tuku1254", "west2547-welaun")})
 GROUP.update({t: "LI" for t in ("idat1237-cribas", "laka1255")})
@@ -225,13 +227,16 @@ def map_figure():
 # ---------------------------------------------------------------- tree
 def tree_figure():
     from Bio import Phylo
-    txt = open(os.path.join(REPO, "results", "bayes", "unconstrained.con.tre")).read()
+    e40 = os.path.join(REPO, "results", "literature", "e40", "mb", "primary.con.tre")
+    rooted = os.path.exists(e40)
+    names = dict(NAME, **OUTG) if rooted else NAME
+    txt = open(e40 if rooted else os.path.join(REPO, "results", "bayes", "unconstrained.con.tre")).read()
     trans = dict(re.findall(r"^\s*(\d+)\s+([^,;\s]+)[,;]?\s*$", txt.split("translate")[1].split(";")[0], re.M))
     nwk = [ln for ln in txt.splitlines() if ln.strip().startswith("tree con_")][0].split("=", 1)[1].strip()
     nwk = re.sub(r"\[&prob=([0-9.eE+-]+)[^\]]*\]", lambda m: f"PP{float(m.group(1)):.3f}", nwk)
     nwk = re.sub(r"\[[^\]]*\]", "", nwk)
     t = Phylo.read(StringIO(nwk), "newick")
-    key = {re.sub(r"[^A-Za-z0-9_]", "_", k): k for k in NAME}
+    key = {re.sub(r"[^A-Za-z0-9_]", "_", k): k for k in names}
     for c in t.find_clades():
         if c.is_terminal():
             nm = c.name.split("PP")[0]
@@ -241,7 +246,7 @@ def tree_figure():
             c.name = None
         elif c.confidence is not None and c.confidence > 1:
             c.confidence = None
-    t.root_with_outgroup([c for c in t.get_terminals() if c.name == "lama1277-lewoi"][0])
+    t.root_with_outgroup([c for c in t.get_terminals() if c.name == ("og-tagalog" if rooted else "lama1277-lewoi")][0])
     t.ladderize(reverse=True)
     tips = t.get_terminals()
     ypos = {id(c): i for i, c in enumerate(tips)}
@@ -261,7 +266,7 @@ def tree_figure():
 
     def x(c):
         return maxd if c.is_terminal() else depth[id(c)]
-    fig, ax = plt.subplots(figsize=(5.4, 4.6))
+    fig, ax = plt.subplots(figsize=(5.4, 4.6 * len(tips) / 24))
     for c in t.find_clades():
         if c.is_terminal():
             continue
@@ -276,6 +281,10 @@ def tree_figure():
                     va="bottom", family="Alegreya", style="italic")
     ax.plot([x(t.root) - 0.5, x(t.root)], [y(t.root)] * 2, color=INK, lw=1.0)
     for c in tips:
+        if c.name in OUTG:
+            ax.text(maxd + 0.28, y(c), OUTG[c.name], va="center", fontsize=8.8, color=INK3, style="italic")
+            ax.plot([maxd], [y(c)], marker="o", ms=3.2, mfc="white", mec=INK3, mew=0.8, zorder=5)
+            continue
         g = GROUP[c.name]
         marker(ax, maxd, y(c), g, s=22)
         col = OCHRE_TEXT if g == "LI" else BLUE if g == "CT" else INK

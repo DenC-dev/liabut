@@ -1,41 +1,41 @@
 {
- "samples": 385,
- "burnin": 38,
- "last_state": 768000,
- "posterior_ess": 202.2,
- "likelihood_ess": 24.5,
+ "samples": 778,
+ "burnin": 77,
+ "last_state": 1554000,
+ "posterior_ess": 533.6,
+ "likelihood_ess": 63.8,
  "contact_edges": {
-  "5": 347
+  "5": 701
  },
- "base_tree_samples": 139,
+ "base_tree_samples": 280,
  "lakalei_idate_sister": {
-  "habu1241 + tetu1245_suai": 0.813,
-  "habu1241 + tetu1245_suai + west2547_welaun": 0.18,
+  "habu1241 + tetu1245_suai": 0.775,
+  "habu1241 + tetu1245_suai + west2547_welaun": 0.218,
   "west2547_welaun": 0.007
  },
  "contact_edge_endpoints_top": {
-  "luan1264 <-> tela1241": 1.0,
   "laka1255 <-> tuku1254": 1.0,
+  "luan1264 <-> tela1241": 1.0,
   "dela1252 <-> habu1241": 0.993,
-  "habu1241 + tetu1245_suai <-> midi1237": 0.662,
-  "galo1243 <-> habu1241": 0.338,
-  "galo1243 <-> tetu1245_suai": 0.23,
-  "laka1255 <-> mamb1306_Slete": 0.223,
-  "idat1237_cribas <-> mamb1306_Slete": 0.209,
-  "habu1241 + tetu1245_suai <-> naue1237 + waim1252": 0.137,
-  "habu1241 + tetu1245_suai <-> waim1252": 0.108,
-  "habu1241 + tetu1245_suai <-> naue1237": 0.05,
-  "habu1241 + tetu1245_suai <-> midi1237 + waim1252": 0.029
+  "habu1241 + tetu1245_suai <-> midi1237": 0.629,
+  "galo1243 <-> habu1241": 0.507,
+  "galo1243 <-> tetu1245_suai": 0.336,
+  "habu1241 + tetu1245_suai <-> waim1252": 0.154,
+  "habu1241 + tetu1245_suai <-> naue1237 + waim1252": 0.104,
+  "laka1255 <-> mamb1306_Slete": 0.079,
+  "idat1237_cribas <-> mamb1306_Slete": 0.079,
+  "habu1241 + tetu1245_suai <-> naue1237": 0.057,
+  "habu1241 + tetu1245_suai <-> midi1237 + waim1252": 0.032
  },
  "base_tree_clades": {
   "Lakalei-Idate": 1.0,
-  "Nuclear Central Timor": 0.971,
+  "Nuclear Central Timor": 0.993,
   "Central Timor with Welaun": 0.0,
   "Lakalei-Idate + Nuclear Central Timor": 0.0,
   "Lakalei-Idate + Central Timor with Welaun": 0.0,
   "Tetun + Habu": 1.0,
-  "Lakalei-Idate + Tetun + Habu": 0.813,
-  "Welaun + Lakalei-Idate + Tetun + Habu": 0.978,
+  "Lakalei-Idate + Tetun + Habu": 0.775,
+  "Welaun + Lakalei-Idate + Tetun + Habu": 0.996,
   "Eastern Timor": 0.0,
   "Lakalei-Idate + Eastern Timor": 0.0
  },

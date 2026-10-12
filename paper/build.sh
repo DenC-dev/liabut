@@ -13,7 +13,7 @@ pandoc liabut.md -o liabut.pdf --pdf-engine=xelatex --number-sections \
   -H phaistos.tex -B title.tex --lua-filter=floattables.lua \
   -V documentclass=article -V fontsize=11pt -V papersize=a4 -V fontfamily=fontspec \
   -V geometry:top=26mm -V geometry:bottom=28mm -V geometry:left=30mm -V geometry:right=30mm \
-  -V pagetitle="Liabut: a pre-registered computational test of how Timor’s Austronesian languages branch" \
-  -V title-meta="Liabut: a pre-registered computational test of how Timor’s Austronesian languages branch" \
+  -V pagetitle="Liabut: a lexical-phylogenetic study of how Timor’s Austronesian languages branch, with a pre-registered core" \
+  -V title-meta="Liabut: a lexical-phylogenetic study of how Timor’s Austronesian languages branch, with a pre-registered core" \
   -V author-meta="Dennis Crowley" -V lang=en-GB
 echo "wrote paper/liabut.pdf"
