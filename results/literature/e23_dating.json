@@ -71,5 +71,19 @@
   ],
   "clade_posterior": 0.0
  },
- "_samples": 3002
+ "_samples": 3002,
+ "_lakalei_idate_sister": {
+  "kema1243_kaila + mamb1306_Slete + tuku1254 + west2547_welaun": 0.449,
+  "kema1243_kaila + mamb1306_Slete + tuku1254": 0.304,
+  "habu1241": 0.083,
+  "mamb1306_Slete + tuku1254": 0.049,
+  "habu1241 + tetu1245_suai + west2547_welaun": 0.043,
+  "habu1241 + tetu1245_suai": 0.034,
+  "tetu1245_suai + west2547_welaun": 0.02,
+  "tetu1245_suai": 0.007,
+  "kema1243_kaila + west2547_welaun": 0.005,
+  "west2547_welaun": 0.005,
+  "kema1243_kaila + mamb1306_Slete + tetu1245_suai + tuku1254 + west2547_welaun": 0.001,
+  "kema1243_kaila + tetu1245_suai + west2547_welaun": 0.0
+ }
 }

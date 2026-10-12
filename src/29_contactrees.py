@@ -13,6 +13,7 @@ Model (fixed before running):
 
     CT_CHAIN=1500000 CT_CAP=200 CT_TAG=ct_A_nogamma python3 src/29_contactrees.py xml
     CT_CHAIN=1500000 CT_CAP=200 CT_GAMMA=1 CT_TAG=ct_B_gamma python3 src/29_contactrees.py xml
+    CT_CHAIN=2000000 CT_CAP=5 CT_FIXCONV=1 CT_TAG=ct_C_cap5 python3 src/29_contactrees.py xml     # E39 (Addendum 11)
     java -cp <beast-2.6.7 classes and lib/*.jar>:contactrees.addon.jar:guava-23.0.jar \
         beast.app.beastapp.BeastMain -seed 7 -java results/literature/e19_contactrees/ct_A_nogamma.xml
 
@@ -41,6 +42,7 @@ CHAIN = int(os.environ.get("CT_CHAIN", "3000000"))
 CAP = int(os.environ.get("CT_CAP", "50"))          # upper bound on contact edges (50 in the IE study)
 GAMMA = os.environ.get("CT_GAMMA", "0") == "1"     # among-site rate heterogeneity (4 gamma categories)
 TAG = os.environ.get("CT_TAG", "timor_contactrees")
+FIXCONV = os.environ.get("CT_FIXCONV", "0") == "1"  # E39: expected number of contacts fixed at 1 (not estimated)
 
 
 def blocks():
@@ -181,7 +183,7 @@ def xml():
   </operator>
   <operator id="BirthRateScaler" spec="ScaleOperator" parameter="@birthRate" scaleFactor="0.5" weight="2.0"/>
   <operator id="FreqExchange" spec="DeltaExchangeOperator" parameter="@freqParameter" delta="0.015" weight="1.0"/>
-  <operator id="ExpConvScaler" spec="ScaleOperator" parameter="@expectedConversions" scaleFactor="0.6" weight="2.0"/>
+{'' if FIXCONV else '  <operator id="ExpConvScaler" spec="ScaleOperator" parameter="@expectedConversions" scaleFactor="0.6" weight="2.0"/>'}
   <operator id="pMoveScaler" spec="ScaleOperator" parameter="@pMove" scaleFactor="0.6" weight="2.0"/>
 {'  <operator id="gammaShapeScaler" spec="ScaleOperator" parameter="@gammaShape" scaleFactor="0.5" weight="2.0"/>' if GAMMA else ''}
   <logger id="screenlog" spec="Logger" logEvery="20000">

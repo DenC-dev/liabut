@@ -1,0 +1,584 @@
+{
+ "rule": {
+  "kind": "R2",
+  "t": 0.4
+ },
+ "sets_checked": 42,
+ "verdicts": {
+  "not in the tables": 29,
+  "inherited": 6,
+  "in the tables, not marked cognate": 7
+ },
+ "by_reason": {
+  "E17 LI + CT": {
+   "in the tables, not marked cognate": 1,
+   "not in the tables": 4
+  },
+  "E17 LI + Habu": {
+   "not in the tables": 1
+  },
+  "E17 LI + Kawaimina": {
+   "not in the tables": 1
+  },
+  "E17 LI + Tetun": {
+   "not in the tables": 1
+  },
+  "E17 LI + other": {
+   "not in the tables": 5,
+   "in the tables, not marked cognate": 2
+  },
+  "E17 LI + several Eastern Timor": {
+   "not in the tables": 3
+  },
+  "packet": {
+   "not in the tables": 14,
+   "inherited": 6,
+   "in the tables, not marked cognate": 4
+  }
+ },
+ "E30_rule": {
+  "representative": {
+   "(LI, NCT, Tetun)": {
+    "all": {
+     "concepts": 80,
+     "counts": {
+      "LI+NCT": 50,
+      "LI+Tetun": 25,
+      "NCT+Tetun": 16
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.22,
+     "Z": 0.83
+    },
+    "stable": {
+     "concepts": 43,
+     "counts": {
+      "LI+NCT": 21,
+      "LI+Tetun": 12,
+      "NCT+Tetun": 10
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.091,
+     "Z": 0.23
+    },
+    "other": {
+     "concepts": 37,
+     "counts": {
+      "LI+NCT": 29,
+      "LI+Tetun": 13,
+      "NCT+Tetun": 6
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.368,
+     "Z": 0.97
+    }
+   },
+   "(LI, NCT, Habu)": {
+    "all": {
+     "concepts": 91,
+     "counts": {
+      "LI+NCT": 47,
+      "LI+Habu": 46,
+      "NCT+Habu": 22
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.353,
+     "Z": 1.61
+    },
+    "stable": {
+     "concepts": 52,
+     "counts": {
+      "LI+NCT": 23,
+      "LI+Habu": 19,
+      "NCT+Habu": 15
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.118,
+     "Z": 0.34
+    },
+    "other": {
+     "concepts": 39,
+     "counts": {
+      "LI+NCT": 24,
+      "LI+Habu": 27,
+      "NCT+Habu": 7
+     },
+     "largest": "LI+Habu",
+     "ab_strictly_largest": false,
+     "D": 0.588,
+     "Z": 2.3
+    }
+   },
+   "(LI, NCT, Kawaimina)": {
+    "all": {
+     "concepts": 98,
+     "counts": {
+      "LI+NCT": 160,
+      "LI+Kawaimina": 71,
+      "NCT+Kawaimina": 31
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.392,
+     "Z": 1.82
+    },
+    "stable": {
+     "concepts": 55,
+     "counts": {
+      "LI+NCT": 80,
+      "LI+Kawaimina": 38,
+      "NCT+Kawaimina": 23
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.246,
+     "Z": 0.64
+    },
+    "other": {
+     "concepts": 43,
+     "counts": {
+      "LI+NCT": 80,
+      "LI+Kawaimina": 33,
+      "NCT+Kawaimina": 8
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.61,
+     "Z": 2.47
+    }
+   },
+   "(LI, NCT, Galoli)": {
+    "all": {
+     "concepts": 76,
+     "counts": {
+      "LI+NCT": 32,
+      "LI+Galoli": 28,
+      "NCT+Galoli": 22
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.12,
+     "Z": 0.45
+    },
+    "stable": {
+     "concepts": 42,
+     "counts": {
+      "LI+NCT": 16,
+      "LI+Galoli": 14,
+      "NCT+Galoli": 15
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": -0.034,
+     "Z": -0.09
+    },
+    "other": {
+     "concepts": 34,
+     "counts": {
+      "LI+NCT": 16,
+      "LI+Galoli": 14,
+      "NCT+Galoli": 7
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.333,
+     "Z": 1.01
+    }
+   }
+  },
+  "single_survey": {
+   "(LI, NCT, Tetun)": {
+    "all": {
+     "concepts": 91,
+     "counts": {
+      "LI+NCT": 87,
+      "LI+Tetun": 71,
+      "NCT+Tetun": 43
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.246,
+     "Z": 1.09
+    },
+    "stable": {
+     "concepts": 50,
+     "counts": {
+      "LI+NCT": 36,
+      "LI+Tetun": 29,
+      "NCT+Tetun": 36
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": false,
+     "D": -0.108,
+     "Z": -0.33
+    },
+    "other": {
+     "concepts": 41,
+     "counts": {
+      "LI+NCT": 51,
+      "LI+Tetun": 42,
+      "NCT+Tetun": 7
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.714,
+     "Z": 3.46
+    }
+   },
+   "(LI, NCT, Habu)": {
+    "all": {
+     "concepts": 88,
+     "counts": {
+      "LI+NCT": 48,
+      "LI+Habu": 32,
+      "NCT+Habu": 28
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.067,
+     "Z": 0.25
+    },
+    "stable": {
+     "concepts": 50,
+     "counts": {
+      "LI+NCT": 24,
+      "LI+Habu": 15,
+      "NCT+Habu": 21
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": -0.167,
+     "Z": -0.44
+    },
+    "other": {
+     "concepts": 38,
+     "counts": {
+      "LI+NCT": 24,
+      "LI+Habu": 17,
+      "NCT+Habu": 7
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.417,
+     "Z": 1.15
+    }
+   },
+   "(LI, NCT, Kawaimina)": {
+    "all": {
+     "concepts": 95,
+     "counts": {
+      "LI+NCT": 147,
+      "LI+Kawaimina": 60,
+      "NCT+Kawaimina": 30
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.333,
+     "Z": 1.23
+    },
+    "stable": {
+     "concepts": 53,
+     "counts": {
+      "LI+NCT": 75,
+      "LI+Kawaimina": 33,
+      "NCT+Kawaimina": 24
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.158,
+     "Z": 0.34
+    },
+    "other": {
+     "concepts": 42,
+     "counts": {
+      "LI+NCT": 72,
+      "LI+Kawaimina": 27,
+      "NCT+Kawaimina": 6
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.636,
+     "Z": 1.66
+    }
+   }
+  }
+ },
+ "with_GE_verdicts": {
+  "representative": {
+   "(LI, NCT, Tetun)": {
+    "all": {
+     "concepts": 80,
+     "counts": {
+      "LI+NCT": 45,
+      "LI+Tetun": 19,
+      "NCT+Tetun": 16
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.086,
+     "Z": 0.29
+    },
+    "stable": {
+     "concepts": 43,
+     "counts": {
+      "LI+NCT": 16,
+      "LI+Tetun": 6,
+      "NCT+Tetun": 10
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": -0.25,
+     "Z": -0.56
+    },
+    "other": {
+     "concepts": 37,
+     "counts": {
+      "LI+NCT": 29,
+      "LI+Tetun": 13,
+      "NCT+Tetun": 6
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.368,
+     "Z": 0.97
+    }
+   },
+   "(LI, NCT, Habu)": {
+    "all": {
+     "concepts": 91,
+     "counts": {
+      "LI+NCT": 40,
+      "LI+Habu": 44,
+      "NCT+Habu": 21
+     },
+     "largest": "LI+Habu",
+     "ab_strictly_largest": false,
+     "D": 0.354,
+     "Z": 1.54
+    },
+    "stable": {
+     "concepts": 52,
+     "counts": {
+      "LI+NCT": 16,
+      "LI+Habu": 17,
+      "NCT+Habu": 14
+     },
+     "largest": "LI+Habu",
+     "ab_strictly_largest": false,
+     "D": 0.097,
+     "Z": 0.25
+    },
+    "other": {
+     "concepts": 39,
+     "counts": {
+      "LI+NCT": 24,
+      "LI+Habu": 27,
+      "NCT+Habu": 7
+     },
+     "largest": "LI+Habu",
+     "ab_strictly_largest": false,
+     "D": 0.588,
+     "Z": 2.3
+    }
+   },
+   "(LI, NCT, Kawaimina)": {
+    "all": {
+     "concepts": 98,
+     "counts": {
+      "LI+NCT": 138,
+      "LI+Kawaimina": 67,
+      "NCT+Kawaimina": 29
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.396,
+     "Z": 1.71
+    },
+    "stable": {
+     "concepts": 55,
+     "counts": {
+      "LI+NCT": 58,
+      "LI+Kawaimina": 34,
+      "NCT+Kawaimina": 21
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.236,
+     "Z": 0.53
+    },
+    "other": {
+     "concepts": 43,
+     "counts": {
+      "LI+NCT": 80,
+      "LI+Kawaimina": 33,
+      "NCT+Kawaimina": 8
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.61,
+     "Z": 2.47
+    }
+   },
+   "(LI, NCT, Galoli)": {
+    "all": {
+     "concepts": 76,
+     "counts": {
+      "LI+NCT": 29,
+      "LI+Galoli": 26,
+      "NCT+Galoli": 22
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.083,
+     "Z": 0.3
+    },
+    "stable": {
+     "concepts": 42,
+     "counts": {
+      "LI+NCT": 13,
+      "LI+Galoli": 12,
+      "NCT+Galoli": 15
+     },
+     "largest": "NCT+Galoli",
+     "ab_strictly_largest": false,
+     "D": -0.111,
+     "Z": -0.27
+    },
+    "other": {
+     "concepts": 34,
+     "counts": {
+      "LI+NCT": 16,
+      "LI+Galoli": 14,
+      "NCT+Galoli": 7
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.333,
+     "Z": 1.01
+    }
+   }
+  },
+  "single_survey": {
+   "(LI, NCT, Tetun)": {
+    "all": {
+     "concepts": 91,
+     "counts": {
+      "LI+NCT": 75,
+      "LI+Tetun": 59,
+      "NCT+Tetun": 41
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.18,
+     "Z": 0.72
+    },
+    "stable": {
+     "concepts": 50,
+     "counts": {
+      "LI+NCT": 24,
+      "LI+Tetun": 17,
+      "NCT+Tetun": 34
+     },
+     "largest": "NCT+Tetun",
+     "ab_strictly_largest": false,
+     "D": -0.333,
+     "Z": -0.98
+    },
+    "other": {
+     "concepts": 41,
+     "counts": {
+      "LI+NCT": 51,
+      "LI+Tetun": 42,
+      "NCT+Tetun": 7
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.714,
+     "Z": 3.46
+    }
+   },
+   "(LI, NCT, Habu)": {
+    "all": {
+     "concepts": 88,
+     "counts": {
+      "LI+NCT": 39,
+      "LI+Habu": 30,
+      "NCT+Habu": 27
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.053,
+     "Z": 0.19
+    },
+    "stable": {
+     "concepts": 50,
+     "counts": {
+      "LI+NCT": 15,
+      "LI+Habu": 13,
+      "NCT+Habu": 20
+     },
+     "largest": "NCT+Habu",
+     "ab_strictly_largest": false,
+     "D": -0.212,
+     "Z": -0.51
+    },
+    "other": {
+     "concepts": 38,
+     "counts": {
+      "LI+NCT": 24,
+      "LI+Habu": 17,
+      "NCT+Habu": 7
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.417,
+     "Z": 1.15
+    }
+   },
+   "(LI, NCT, Kawaimina)": {
+    "all": {
+     "concepts": 95,
+     "counts": {
+      "LI+NCT": 119,
+      "LI+Kawaimina": 56,
+      "NCT+Kawaimina": 28
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.333,
+     "Z": 1.14
+    },
+    "stable": {
+     "concepts": 53,
+     "counts": {
+      "LI+NCT": 47,
+      "LI+Kawaimina": 29,
+      "NCT+Kawaimina": 22
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.137,
+     "Z": 0.25
+    },
+    "other": {
+     "concepts": 42,
+     "counts": {
+      "LI+NCT": 72,
+      "LI+Kawaimina": 27,
+      "NCT+Kawaimina": 6
+     },
+     "largest": "LI+NCT",
+     "ab_strictly_largest": true,
+     "D": 0.636,
+     "Z": 1.66
+    }
+   }
+  }
+ },
+ "stable_pairing_stands": false
+}

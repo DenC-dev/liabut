@@ -1,0 +1,12 @@
+#NEXUS
+begin mrbayes;
+  set autoclose=yes nowarn=yes seed=1234 swapseed=1235;
+  execute matrix.nex;
+  outgroup og_tagalog;
+  lset coding=noabsencesites rates=gamma;
+  prset brlenspr=unconstrained:exp(10.0);
+  mcmcp ngen=2000000 samplefreq=1000 diagnfreq=50000 nruns=2 nchains=2 printfreq=100000 filename=primary;
+  mcmc;
+  sumt filename=primary burnin=500 contype=allcompat;
+  sump filename=primary burnin=500;
+end;

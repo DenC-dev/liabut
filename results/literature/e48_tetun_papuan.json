@@ -1,0 +1,52 @@
+{
+ "without Tetun": {
+  "support": {
+   "with Central Timor (with Welaun if present)": 94.0,
+   "with Nuclear Central Timor": 8.0,
+   "with Eastern Timor": 1.0,
+   "with Habu": 2.0,
+   "focal": 47.0
+  },
+  "sister": "focal not monophyletic in the ML tree",
+  "characters": 1335
+ },
+ "without Papuan-shared sets": {
+  "support": {
+   "with Central Timor (with Welaun if present)": 46.0,
+   "with Nuclear Central Timor": 51.0,
+   "with Eastern Timor": 0.0,
+   "with Habu": 0,
+   "with Tetun": 1.0,
+   "focal": 39.0
+  },
+  "sister": "focal not monophyletic in the ML tree",
+  "characters": 1221,
+  "sets_dropped": 132
+ },
+ "sets_shared_with_Papuan_per_taxon": {
+  "mamb1306-Slete": 49,
+  "kema1243-kaila": 43,
+  "tuku1254": 31,
+  "west2547-welaun": 40,
+  "idat1237-cribas": 42,
+  "laka1255": 42,
+  "tetu1245-suai": 32,
+  "habu1241": 34,
+  "waim1252": 36,
+  "midi1237": 30,
+  "naue1237": 37,
+  "galo1243": 32,
+  "dadu1237": 31,
+  "funa1237": 31,
+  "koto1251": 29,
+  "term1237": 26,
+  "dela1252": 26,
+  "ilma1240": 31,
+  "kaha1239": 29,
+  "kisa1266": 34,
+  "luan1264": 28,
+  "tela1241": 11,
+  "lama1277-lewoi": 31,
+  "sika1262-hewa": 33
+ }
+}

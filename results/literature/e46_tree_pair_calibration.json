@@ -1,0 +1,12 @@
+{
+ "true tree H": {
+  "unpolarised: LI+NCT strictly largest vs all three": 0.206,
+  "polarised on Flores": 0.148,
+  "datasets": 1000
+ },
+ "true tree G": {
+  "unpolarised: LI+NCT strictly largest vs all three": 0.034,
+  "polarised on Flores": 0.048,
+  "datasets": 1000
+ }
+}

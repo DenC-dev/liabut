@@ -1,0 +1,640 @@
+{
+ "polarised by outgroups (E40 coding)": {
+  "representative (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 23,
+     "LI+Tetun": 14,
+     "NCT+Tetun": 5
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 35,
+     "LI+Tetun": 43,
+     "NCT+Tetun": 17
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 21,
+     "LI+Habu": 21,
+     "NCT+Habu": 5
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 32,
+     "LI+Habu": 44,
+     "NCT+Habu": 17
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 69,
+     "LI+Kawaimina": 38,
+     "NCT+Kawaimina": 9
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 140,
+     "LI+Kawaimina": 41,
+     "NCT+Kawaimina": 21
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 46,
+     "LI+Tetun": 34,
+     "NCT+Tetun": 12
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 68,
+     "LI+Tetun": 100,
+     "NCT+Tetun": 28
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 24,
+     "LI+Habu": 20,
+     "NCT+Habu": 5
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 33,
+     "LI+Habu": 34,
+     "NCT+Habu": 19
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 67,
+     "LI+Kawaimina": 40,
+     "NCT+Kawaimina": 9
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 140,
+     "LI+Kawaimina": 38,
+     "NCT+Kawaimina": 19
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "LI+NCT strictly largest on stable vs all three": {
+   "representative": false,
+   "single_survey": true
+  }
+ },
+ "R2, absent from Flores, Rote-Meto + Helong and Wetar": {
+  "representative (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 9,
+     "LI+Tetun": 9,
+     "NCT+Tetun": 0
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 12,
+     "LI+Tetun": 13,
+     "NCT+Tetun": 4
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 12,
+     "LI+Habu": 14,
+     "NCT+Habu": 1
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 11,
+     "LI+Habu": 22,
+     "NCT+Habu": 5
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 43,
+     "LI+Kawaimina": 25,
+     "NCT+Kawaimina": 3
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 39,
+     "LI+Kawaimina": 29,
+     "NCT+Kawaimina": 2
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 14,
+     "LI+Tetun": 18,
+     "NCT+Tetun": 2
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 28,
+     "LI+Tetun": 35,
+     "NCT+Tetun": 4
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 12,
+     "LI+Habu": 11,
+     "NCT+Habu": 1
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 12,
+     "LI+Habu": 16,
+     "NCT+Habu": 5
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 37,
+     "LI+Kawaimina": 22,
+     "NCT+Kawaimina": 2
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 41,
+     "LI+Kawaimina": 20,
+     "NCT+Kawaimina": 0
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "LI+NCT strictly largest on stable vs all three": {
+   "representative": false,
+   "single_survey": false
+  }
+ },
+ "R2 baseline": {
+  "representative (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 21,
+     "LI+Tetun": 12,
+     "NCT+Tetun": 10
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 29,
+     "LI+Tetun": 13,
+     "NCT+Tetun": 6
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "representative (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 23,
+     "LI+Habu": 19,
+     "NCT+Habu": 15
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 24,
+     "LI+Habu": 27,
+     "NCT+Habu": 7
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 80,
+     "LI+Kawaimina": 38,
+     "NCT+Kawaimina": 23
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 80,
+     "LI+Kawaimina": 33,
+     "NCT+Kawaimina": 8
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 36,
+     "LI+Tetun": 29,
+     "NCT+Tetun": 36
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 51,
+     "LI+Tetun": 42,
+     "NCT+Tetun": 7
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 24,
+     "LI+Habu": 15,
+     "NCT+Habu": 21
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 24,
+     "LI+Habu": 17,
+     "NCT+Habu": 7
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 75,
+     "LI+Kawaimina": 33,
+     "NCT+Kawaimina": 24
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 72,
+     "LI+Kawaimina": 27,
+     "NCT+Kawaimina": 6
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "LI+NCT strictly largest on stable vs all three": {
+   "representative": true,
+   "single_survey": false
+  }
+ },
+ "R2 cleaned": {
+  "representative (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 10,
+     "LI+Tetun": 5,
+     "NCT+Tetun": 6
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 27,
+     "LI+Tetun": 13,
+     "NCT+Tetun": 4
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "representative (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 12,
+     "LI+Habu": 12,
+     "NCT+Habu": 4
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 22,
+     "LI+Habu": 27,
+     "NCT+Habu": 5
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 42,
+     "LI+Kawaimina": 27,
+     "NCT+Kawaimina": 13
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 76,
+     "LI+Kawaimina": 33,
+     "NCT+Kawaimina": 8
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 18,
+     "LI+Tetun": 13,
+     "NCT+Tetun": 22
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 43,
+     "LI+Tetun": 42,
+     "NCT+Tetun": 3
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 13,
+     "LI+Habu": 9,
+     "NCT+Habu": 8
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 20,
+     "LI+Habu": 17,
+     "NCT+Habu": 5
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 39,
+     "LI+Kawaimina": 21,
+     "NCT+Kawaimina": 12
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 63,
+     "LI+Kawaimina": 24,
+     "NCT+Kawaimina": 6
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "LI+NCT strictly largest on stable vs all three": {
+   "representative": false,
+   "single_survey": false
+  }
+ },
+ "R2 cleaned and polarised (Flores, Rote-Meto + Helong, Wetar)": {
+  "representative (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 8,
+     "LI+Tetun": 5,
+     "NCT+Tetun": 0
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 10,
+     "LI+Tetun": 13,
+     "NCT+Tetun": 2
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 10,
+     "LI+Habu": 12,
+     "NCT+Habu": 0
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 9,
+     "LI+Habu": 22,
+     "NCT+Habu": 3
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 36,
+     "LI+Kawaimina": 21,
+     "NCT+Kawaimina": 1
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 35,
+     "LI+Kawaimina": 29,
+     "NCT+Kawaimina": 2
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 12,
+     "LI+Tetun": 10,
+     "NCT+Tetun": 2
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 20,
+     "LI+Tetun": 35,
+     "NCT+Tetun": 0
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 10,
+     "LI+Habu": 9,
+     "NCT+Habu": 0
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 8,
+     "LI+Habu": 16,
+     "NCT+Habu": 3
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 30,
+     "LI+Kawaimina": 18,
+     "NCT+Kawaimina": 0
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 32,
+     "LI+Kawaimina": 20,
+     "NCT+Kawaimina": 0
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "LI+NCT strictly largest on stable vs all three": {
+   "representative": false,
+   "single_survey": true
+  }
+ },
+ "cleaning": {
+  "referee_flags": {
+   "2sg_informal-32": "retention (PMP *(i)kahu)",
+   "to_eat-1843": "retention (PMP *kaən)",
+   "water-2293": "retention (PMP *wahiR)",
+   "leaf-949": "retention (*kayu + *dahun)",
+   "hair-710": "retention (compound with *qulu, *dahun)",
+   "tail-1644": "retention (*ikuR)",
+   "good-637": "retention (*ma-pia)",
+   "to_laugh-1997": "retention (PCEMP *malip)",
+   "to_stand-2176": "retention (*ma-diRi)",
+   "far-478": "retention, very probably (*ma-zauq)",
+   "small-1519": "retention, very probably (*anak)",
+   "wife-2376": "retention (*b<in>ahi; split by LexStat)",
+   "wife-2380": "retention (*b<in>ahi; split by LexStat)",
+   "who-2359": "not cognate (ʔɛta ~ sepdua)",
+   "dry-416": "doubtful cognate (kiʔɑs ~ glia)"
+  },
+  "e35_strict": 55,
+  "e37_inherited": [
+   "far-478",
+   "hair-710",
+   "root-1381",
+   "tail-1644",
+   "to_stand-2176",
+   "water-2293"
+  ],
+  "innovations_reclassified": 66
+ },
+ "E17 exclusive (R2)": {
+  "before": {
+   "Central Timor": 6,
+   "eastern": 9,
+   "other": 8
+  },
+  "after_cleaning": {
+   "Central Timor": 2,
+   "eastern": 9,
+   "other": 7
+  },
+  "kept": {
+   "Central Timor": [
+    "to_cry (to_cry-1808)",
+    "to_spit (to_spit-2149)"
+   ],
+   "eastern": [
+    "all (all-92)",
+    "ash (ash-126)",
+    "big (big-221)",
+    "new (new-1177)",
+    "to_sit (to_sit-2070)",
+    "to_spit (to_spit-2146)",
+    "rotten (rotten-1406)",
+    "to_spit (to_spit-2163)",
+    "yellow (yellow-2423)"
+   ],
+   "other": [
+    "above (above-64)",
+    "big (big-215)",
+    "hair (hair-716)",
+    "house (house-811)",
+    "to_hear (to_hear-1934)",
+    "to_kill (to_kill-1956)",
+    "to_sit (to_sit-2066)"
+   ]
+  },
+  "note": "Central Timor side checked by the referee and by E35/E37; the eastern side by E35/E37 only"
+ }
+}

@@ -1,0 +1,361 @@
+
+
+                            MrBayes 3.2.7a x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "igr_no_tela.nex"
+   UNIX line termination
+   Longest line length = 110
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting seed to 1234
+      Setting swapseed to 1235
+
+      Executing file "igr_no_tela_matrix.nex"...
+
+   UNIX line termination
+   Longest line length = 1291
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 23 taxa and 1261 characters
+      Data is Restriction
+      Missing data coded as ?
+      Gaps coded as -
+      Taxon  1 -> mamb1306_Slete
+      Taxon  2 -> kema1243_kaila
+      Taxon  3 -> tuku1254
+      Taxon  4 -> west2547_welaun
+      Taxon  5 -> idat1237_cribas
+      Taxon  6 -> laka1255
+      Taxon  7 -> tetu1245_suai
+      Taxon  8 -> habu1241
+      Taxon  9 -> waim1252
+      Taxon 10 -> midi1237
+      Taxon 11 -> naue1237
+      Taxon 12 -> galo1243
+      Taxon 13 -> dadu1237
+      Taxon 14 -> funa1237
+      Taxon 15 -> koto1251
+      Taxon 16 -> term1237
+      Taxon 17 -> dela1252
+      Taxon 18 -> ilma1240
+      Taxon 19 -> kaha1239
+      Taxon 20 -> kisa1266
+      Taxon 21 -> luan1264
+      Taxon 22 -> lama1277_lewoi
+      Taxon 23 -> sika1262_hewa
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1234
+      Setting output file names to "igr_no_tela_matrix.nex.run<i>.<p|t>"
+   Exiting data block
+   Reached end of file
+
+   Returning execution to calling file ...
+
+      Enabling Coding Noabsencesites
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting Brlenspr to Clock:Uniform
+      Setting Clockvarpr to Igr
+      Setting Clockratepr to Fixed(1.000000)
+      Successfully set prior model parameters
+      Setting number of generations to 3000000
+      Setting sample frequency to 1000
+      Setting diagnosing frequency to 50000
+      Setting number of runs to 2
+      WARNING: Allocation of zero size attempted. This is probably a bug; problems may follow.
+      Setting number of chains to 2
+      Setting print frequency to 200000
+      Setting chain output file names to "igr_no_tela.run<i>.<p/t>"
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 8228136662
+      Seed = 1485212028
+      Swapseed = 1235
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = Restriction
+            Coding    = Noabsencesites
+            # States  = 2
+                        State frequencies have a Dirichlet (1.00,1.00) prior
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Shape               2
+         Ratemultiplier      3
+         Topology            4
+         Brlens              5
+         Igrvar              6
+         Igrbranchrates      7
+         Clockrate           8
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         2 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         3 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         4 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         5 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Clock:Uniform
+                            Tree age has a Gamma(1.00,1.00) distribution
+                            Node ages are not constrained
+               Subparam.  = IgrBrlens
+
+         6 --  Parameter  = Igrvar
+               Type       = Variance increase of igr model branch lenths
+               Prior      = Exponential(10.00)
+               Subparam.  = IgrBrlens
+
+         7 --  Parameter  = IgrBrlens
+               Type       = Branch lengths of IGR relaxed clock
+               Prior      = Gamma (expectation = v, variance = Igrvar * v) 
+                               [where v is branch length]
+
+         8 --  Parameter  = Clockrate
+               Type       = Base rate of clock
+               Prior      = Fixed(1.000000)
+                            The clock rate varies according to an independent gamma (white noise) model
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.69 %   Dirichlet(Pi)
+            0.69 %   Slider(Pi)
+            1.39 %   Multiplier(Alpha)
+           13.89 %   ExtSprClock(Tau,V)
+           16.67 %   NNIClock(Tau,V)
+           11.11 %   ParsSPRClock(Tau,V)
+           27.78 %   NodesliderClock(V)
+            4.17 %   TreeStretch(V)
+            2.78 %   Multiplier(Igrvar)
+           20.83 %   Multiplier(IgrBrlens)
+
+      Division 1 has 873 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -11127.013261 -- -68.704355
+         Chain 2 -- -11050.575132 -- -68.179608
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -11137.354058 -- -70.944918
+         Chain 2 -- -10992.627121 -- -71.680969
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (3000000 generations requested):
+
+          0 -- [-11127.013] (-11050.575) * [-11137.354] (-10992.627) 
+
+      Average standard deviation of split frequencies: 0.067752
+
+
+      Average standard deviation of split frequencies: 0.045152
+
+
+      Average standard deviation of split frequencies: 0.046426
+
+      200000 -- (-7438.076) [-7437.035] * (-7449.711) [-7442.600] -- 0:42:00
+
+      Average standard deviation of split frequencies: 0.044274
+
+
+      Average standard deviation of split frequencies: 0.037764
+
+
+      Average standard deviation of split frequencies: 0.034215
+
+
+      Average standard deviation of split frequencies: 0.026784
+
+      400000 -- (-7440.313) [-7447.369] * (-7440.269) [-7444.139] -- 0:39:19
+
+      Average standard deviation of split frequencies: 0.021730
+
+
+      Average standard deviation of split frequencies: 0.020142
+
+
+      Average standard deviation of split frequencies: 0.013286
+
+
+      Average standard deviation of split frequencies: 0.019161
+
+      600000 -- [-7441.129] (-7444.250) * [-7444.473] (-7441.820) -- 0:36:56
+
+      Average standard deviation of split frequencies: 0.017638
+
+
+      Average standard deviation of split frequencies: 0.021550
+
+
+      Average standard deviation of split frequencies: 0.030659
+
+
+      Average standard deviation of split frequencies: 0.028067
+
+      800000 -- [-7446.528] (-7443.060) * [-7447.236] (-7452.435) -- 0:33:57
+
+      Average standard deviation of split frequencies: 0.023569
+
+
+      Average standard deviation of split frequencies: 0.021668
+
+
+      Average standard deviation of split frequencies: 0.018390
+
+
+      Average standard deviation of split frequencies: 0.020829
+
+      1000000 -- [-7450.997] (-7435.607) * [-7443.554] (-7444.428) -- 0:29:34
+
+      Average standard deviation of split frequencies: 0.019287
+
+
+      Average standard deviation of split frequencies: 0.018676
+
+
+      Average standard deviation of split frequencies: 0.016597
+
+
+      Average standard deviation of split frequencies: 0.013702
+
+      1200000 -- [-7443.232] (-7451.265) * [-7443.704] (-7434.060) -- 0:25:18
+
+      Average standard deviation of split frequencies: 0.013063
+
+
+      Average standard deviation of split frequencies: 0.010373
+
+
+      Average standard deviation of split frequencies: 0.012457
+
+
+      Average standard deviation of split frequencies: 0.012305
+
+      1400000 -- (-7444.387) [-7448.262] * (-7444.227) [-7442.189] -- 0:21:39
+
+      Average standard deviation of split frequencies: 0.012609
+
+
+      Average standard deviation of split frequencies: 0.011478
+
+
+      Average standard deviation of split frequencies: 0.012215
+
+
+      Average standard deviation of split frequencies: 0.010817
+
+      1600000 -- [-7433.517] (-7437.478) * (-7436.200) [-7449.795] -- 0:18:30
+
+      Average standard deviation of split frequencies: 0.009838
+
+
+      Average standard deviation of split frequencies: 0.008800
+
+
+      Average standard deviation of split frequencies: 0.008491
+
+
+      Average standard deviation of split frequencies: 0.010051
+
+      1800000 -- (-7445.319) [-7446.190] * [-7445.019] (-7446.504) -- 0:15:28
+
+      Average standard deviation of split frequencies: 0.010333
+
+
+      Average standard deviation of split frequencies: 0.009722
+
+
+      Average standard deviation of split frequencies: 0.010557
+
+
+      Average standard deviation of split frequencies: 0.009598
+
+      2000000 -- [-7435.152] (-7447.399) * [-7437.770] (-7443.567) -- 0:12:40
+
+      Average standard deviation of split frequencies: 0.009315
+
+
+      Average standard deviation of split frequencies: 0.007900
+
+
+      Average standard deviation of split frequencies: 0.007902
+
+
+      Average standard deviation of split frequencies: 0.007999
+
+      2200000 -- (-7447.093) [-7442.540] * [-7444.997] (-7455.144) -- 0:09:57
+
+      Average standard deviation of split frequencies: 0.007695
+
+
+      Average standard deviation of split frequencies: 0.006888
+
+
+      Average standard deviation of split frequencies: 0.008233
+
+
+      Average standard deviation of split frequencies: 0.010073
+
+      2400000 -- [-7443.899] (-7442.444) * (-7441.481) [-7452.428] -- 0:07:22
+
+      Average standard deviation of split frequencies: 0.010854
+
+
+      Average standard deviation of split frequencies: 0.010034
+
+
+      Average standard deviation of split frequencies: 0.011332
+
+
+      Average standard deviation of split frequencies: 0.012239
+
+      2600000 -- (-7450.552) [-7434.802] * (-7451.987) [-7435.428] -- 0:04:50
+
+      Average standard deviation of split frequencies: 0.014030
+

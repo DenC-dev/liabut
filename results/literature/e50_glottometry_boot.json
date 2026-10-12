@@ -1,0 +1,108 @@
+{
+ "replicates": 1000,
+ "concepts": 78,
+ "items": 199,
+ "observed": {
+  "Lakalei-Idate": 1.42,
+  "Nuclear Central Timor": 0.24,
+  "Central Timor": 0.16,
+  "Lakalei-Idate + Nuclear Central Timor (Ramelaic)": 0.0,
+  "Lakalei-Idate + Central Timor": 0.06,
+  "Eastern Timor": 0.0,
+  "Lakalei-Idate + Eastern Timor": 0.08,
+  "Lakalei-Idate + Habu": 0.18,
+  "Tetun + Habu": 0.0,
+  "Habu + Kawaimina": 0.14,
+  "Kawaimina": 1.67,
+  "Waima'a + Naueti": 2.09,
+  "Wetar-Atauro (with Galoli)": 0.14,
+  "Wetar": 6.69,
+  "Rote-Meto": 0.76,
+  "Helong + Meto": 0.93
+ },
+ "interval95": {
+  "Lakalei-Idate": [
+   0.0,
+   3.65
+  ],
+  "Nuclear Central Timor": [
+   0.0,
+   0.98
+  ],
+  "Central Timor": [
+   0.1,
+   0.24
+  ],
+  "Lakalei-Idate + Nuclear Central Timor (Ramelaic)": [
+   0.0,
+   0.0
+  ],
+  "Lakalei-Idate + Central Timor": [
+   0.0,
+   0.31
+  ],
+  "Eastern Timor": [
+   0.0,
+   0.0
+  ],
+  "Lakalei-Idate + Eastern Timor": [
+   0.0,
+   0.41
+  ],
+  "Lakalei-Idate + Habu": [
+   0.0,
+   0.8
+  ],
+  "Tetun + Habu": [
+   0.0,
+   0.0
+  ],
+  "Habu + Kawaimina": [
+   0.0,
+   0.63
+  ],
+  "Kawaimina": [
+   0.28,
+   4.0
+  ],
+  "Waima'a + Naueti": [
+   0.43,
+   4.64
+  ],
+  "Wetar-Atauro (with Galoli)": [
+   0.0,
+   0.71
+  ],
+  "Wetar": [
+   2.73,
+   11.92
+  ],
+  "Rote-Meto": [
+   0.09,
+   2.47
+  ],
+  "Helong + Meto": [
+   0.11,
+   2.91
+  ]
+ },
+ "share_zero": {
+  "Lakalei-Idate": 0.049,
+  "Nuclear Central Timor": 0.363,
+  "Central Timor": 0.0,
+  "Lakalei-Idate + Nuclear Central Timor (Ramelaic)": 1.0,
+  "Lakalei-Idate + Central Timor": 0.337,
+  "Eastern Timor": 1.0,
+  "Lakalei-Idate + Eastern Timor": 0.367,
+  "Lakalei-Idate + Habu": 0.337,
+  "Tetun + Habu": 1.0,
+  "Habu + Kawaimina": 0.348,
+  "Kawaimina": 0.004,
+  "Waima'a + Naueti": 0.014,
+  "Wetar-Atauro (with Galoli)": 0.376,
+  "Wetar": 0.0,
+  "Rote-Meto": 0.013,
+  "Helong + Meto": 0.016
+ },
+ "share_LI_CT_gt_LI_ET": 0.352
+}

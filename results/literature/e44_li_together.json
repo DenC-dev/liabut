@@ -1,0 +1,99 @@
+{
+ "primary: Lakalei-Idate monophyletic": {
+  "support": {
+   "with Central Timor (with Welaun if present)": 70.0,
+   "with Nuclear Central Timor": 41.0,
+   "with Eastern Timor": 0.0,
+   "with Habu": 0.0,
+   "with Tetun": 1.0,
+   "focal": 100.0
+  },
+  "sister": [
+   "kema1243_kaila",
+   "mamb1306_Slete",
+   "tuku1254",
+   "west2547_welaun"
+  ],
+  "lnL": -8560.1477
+ },
+ "primary: Idate alone": {
+  "support": {
+   "with Central Timor (with Welaun if present)": 52.0,
+   "with Nuclear Central Timor": 3.0,
+   "with Eastern Timor": 2.0,
+   "with Habu": 38.0,
+   "with Tetun": 0.0,
+   "focal": null
+  },
+  "sister": [
+   "kema1243_kaila",
+   "mamb1306_Slete",
+   "tuku1254",
+   "west2547_welaun"
+  ],
+  "characters": 1339
+ },
+ "primary: Lakalei alone": {
+  "support": {
+   "with Central Timor (with Welaun if present)": 84.0,
+   "with Nuclear Central Timor": 75.0,
+   "with Eastern Timor": 0,
+   "with Habu": 0,
+   "with Tetun": 0,
+   "focal": null
+  },
+  "sister": [
+   "mamb1306_Slete",
+   "tuku1254"
+  ],
+  "characters": 1335
+ },
+ "independent: Lakalei-Idate monophyletic": {
+  "support": {
+   "with Central Timor (with Welaun if present)": 98.0,
+   "with Nuclear Central Timor": 98.0,
+   "with Eastern Timor": 0.0,
+   "with Habu": 0.0,
+   "with Tetun": 0.0,
+   "focal": 100.0
+  },
+  "sister": [
+   "kema1243",
+   "mamb1306",
+   "tuku1254"
+  ],
+  "lnL": -7162.5472
+ },
+ "independent: Idate alone": {
+  "support": {
+   "with Central Timor (with Welaun if present)": 79.0,
+   "with Nuclear Central Timor": 79.0,
+   "with Eastern Timor": 7.0,
+   "with Habu": 13.0,
+   "with Tetun": 1.0,
+   "focal": null
+  },
+  "sister": [
+   "kema1243",
+   "mamb1306",
+   "tuku1254"
+  ],
+  "characters": 1179
+ },
+ "independent: Lakalei alone": {
+  "support": {
+   "with Central Timor (with Welaun if present)": 99.0,
+   "with Nuclear Central Timor": 99.0,
+   "with Eastern Timor": 0,
+   "with Habu": 0,
+   "with Tetun": 0,
+   "focal": null
+  },
+  "sister": [
+   "kema1243",
+   "mamb1306",
+   "tuku1254"
+  ],
+  "characters": 1172
+ }
+}

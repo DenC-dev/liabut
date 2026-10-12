@@ -1,0 +1,156 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: independent.phy
+Type of analysis: tree reconstruction
+Random seed number: 1234
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 28 sequences with 1454 binary sites
+Number of constant sites: 2 (= 0.137552% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2 (= 0.137552% of all sites)
+Number of parsimony informative sites: 534
+Number of distinct site patterns: 1063
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR2+FO+G4
+
+Rate parameter R:
+
+  0-1: 1.0000
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(0) = 0.8878
+  pi(1) = 0.1122
+
+Rate matrix Q:
+
+  0   -0.5632    0.5632
+  1     4.456    -4.456
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 4.907
+
+ Category  Relative_rate  Proportion
+  1         0.4982         0.25
+  2         0.8017         0.25
+  3         1.083          0.25
+  4         1.617          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -9606.1158 (s.e. 145.3292)
+Unconstrained log-likelihood (without tree): -9748.4158
+Number of free parameters (#branches + #model parameters): 55
+Akaike information criterion (AIC) score: 19322.2316
+Corrected Akaike information criterion (AICc) score: 19326.6379
+Bayesian information criterion (BIC) score: 19612.7456
+
+Total tree length (sum of branch lengths): 3.9368
+Sum of internal branch lengths: 0.9880 (25.0956% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'mamb1306' is drawn at root
+
++---mamb1306
+|
+|  +----kema1243
++--|
+|  |     +---idat1237_cribas
+|  |  +--|
+|  |  |  +--laka1255
+|  +--|
+|     |           +-----tetu1245_suai
+|     |        +--|
+|     |        |  |          +-----kisa1266
+|     |        |  |  +-------|
+|     |        |  |  |       |    +--luan1264
+|     |        |  |  |       +----|
+|     |        |  |  |            +-------------------------------------tela1241
+|     |        |  +--|
+|     |        |     |           +-------lama1277_lewoi
+|     |        |     |        +--|
+|     |        |     |        |  +---------sika1262_hewa
+|     |        |     |     +--|
+|     |        |     |     |  +------og_manggarai
+|     |        |     |  +--|
+|     |        |     |  |  +-------og_kambera
+|     |        |     +--|
+|     |        |        |        +--------og_tagalog
+|     |        |        |     +--|
+|     |        |        |     |  +--og_pmp
+|     |        |        |  +--|
+|     |        |        |  |  +------og_buginese
+|     |        |        +--|
+|     |        |           |  +--------og_uma
+|     |        |           +**|
+|     |        |              +---------og_bima
+|     |     +--|
+|     |     |  |  +----habu1241
+|     |     |  +--|
+|     |     |     |       +---waim1252
+|     |     |     |    +--|
+|     |     |     |    |  +----naue1237
+|     |     |     +----|
+|     |     |          +--midi1237
+|     |  +--|
+|     |  |  |       +---term1237
+|     |  |  +-------|
+|     |  |          +--dela1252
+|     +--|
+|        |     +--galo1243
+|        |  +--|
+|        |  |  +----dadu1237
+|        +--|
+|           |     +--ilma1240
+|           +-----|
+|                 +--kaha1239
+|
++-----tuku1254
+
+Tree in newick format:
+
+(mamb1306:0.0718694970,(kema1243:0.0846981967,((idat1237_cribas:0.0670988660,laka1255:0.0407166940):0.0229147734,((((tetu1245_suai:0.0994715736,((kisa1266:0.0980701458,(luan1264:0.0471724020,tela1241:0.6008643765):0.0818626225):0.1315947236,((((lama1277_lewoi:0.1375387306,sika1262_hewa:0.1627360687):0.0293529204,og_manggarai:0.1081631664):0.0478124089,og_kambera:0.1278067255):0.0014539048,(((og_tagalog:0.1402424225,og_pmp:0.0340827452):0.0438142341,og_buginese:0.1228490855):0.0139254889,(og_uma:0.1440266043,og_bima:0.1551432231):0.0000022010):0.0121196294):0.0510418806):0.0017826371):0.0071119466,(habu1241:0.0826558472,((waim1252:0.0719132223,naue1237:0.0824237135):0.0453671910,midi1237:0.0407832153):0.0909043639):0.0120798751):0.0113377293,(term1237:0.0768001972,dela1252:0.0607571897):0.1326143350):0.0119646232,((galo1243:0.0322411337,dadu1237:0.0870201411):0.0188473876,(ilma1240:0.0279541739,kaha1239:0.0392353190):0.1050405103):0.0350501158):0.0364814856):0.0280522451):0.0154425362,tuku1254:0.1045236146);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t independent_c0.treefile -m "GTR2+FO{0.887788,0.112212}+G4{4.9068}" --length 1454
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s independent.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s independent.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Oct 11 18:19:49 2026
+Total CPU time used: 18.7021 seconds (0h:0m:18s)
+Total wall-clock time used: 50.7867 seconds (0h:0m:50s)
+

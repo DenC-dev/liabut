@@ -1,0 +1,11 @@
+ID,Name,Taxa_in_24,Members,Distance_UPGMA,Distance_NJ,MrBayes,ML_UFBoot,E40_rooted
+EDW-LI,Lakalei-Idate,2,idat1237-cribas laka1255,0.997,0.991,0.936,53.0,0.919
+EDW-CTA,Central Timoric A,2,tetu1245-suai habu1241,0.249,0.262,0.0,22.0,0.043
+EDW-KW,Kawaimina,3,waim1252 midi1237 naue1237,1.0,1.0,1.0,100.0,1.0
+EDW-WA,Wetar-Atauro,4,galo1243 dadu1237 ilma1240 kaha1239,0.879,0.965,0.997,98.0,0.978
+EDW-SWM,Southwest Maluku,3,kisa1266 luan1264 tela1241,0.0,0.295,1.0,99.0,1.0
+GE-NCT,"Nuclear Central Timor (Kemak, Tokodede, Mambae)",3,mamb1306-Slete kema1243-kaila tuku1254,0.369,0.75,0.952,59.0,0.514
+GE-WN,Waima'a-Naueti,2,waim1252 naue1237,0.637,0.642,1.0,93.0,1.0
+GE-WET,"Wetar (Tugun, Ili'uun, Aputai-Perai)",2,ilma1240 kaha1239,1.0,1.0,1.0,100.0,1.0
+GE-WRM,West Rote-Meto (Dela-Oenale + Meto),2,koto1251 dela1252,0.0,0.0,0.0,3.0,0.006
+GE-KL,Kisar-Luang,2,kisa1266 luan1264,0.999,0.986,0.0,2.0,0.008

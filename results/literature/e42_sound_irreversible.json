@@ -1,0 +1,333 @@
+{
+ "characters": [
+  "p_lenited",
+  "ng_velar",
+  "ng_n",
+  "j_rhotic",
+  "j_l",
+  "R_zero",
+  "b_lenited",
+  "d_liquid",
+  "b_h_initial",
+  "k_lost_initial",
+  "k_lost_medial"
+ ],
+ "flores_coding": {
+  "lama1277-lewoi p_lenited": "0 (E2: *p kept in 10 of 10 Flores-Lembata tokens)",
+  "lama1277-lewoi ng_velar": "0 (automatic atlas: {'ŋ': 6, 'n': 2})",
+  "lama1277-lewoi ng_n": "0 (automatic atlas: {'ŋ': 6, 'n': 2})",
+  "lama1277-lewoi j_rhotic": "1 (automatic atlas: {'rhotic': 3})",
+  "lama1277-lewoi j_l": "0 (automatic atlas: {'rhotic': 3})",
+  "lama1277-lewoi R_zero": "1 (automatic atlas: {'∅': 5, 'glottal stop': 2, 'vowel': 1})",
+  "lama1277-lewoi b_lenited": "0 (automatic atlas: {'w': 4, 'labial stop': 2})",
+  "lama1277-lewoi d_liquid": "? (automatic atlas: {'coronal stop': 2, 'labial stop': 1, 'n': 1, 'w': 1, 'rhotic': 2})",
+  "sika1262-hewa p_lenited": "0 (E2: *p kept in 10 of 10 Flores-Lembata tokens)"
+ },
+ "trees": {
+  "H, rooted on Flores pair": {
+   "per_character": {
+    "p_lenited": {
+     "fitch": 2,
+     "camin_sokal": 6,
+     "dollo": 2
+    },
+    "ng_velar": {
+     "fitch": 1,
+     "camin_sokal": 1,
+     "dollo": 1
+    },
+    "ng_n": {
+     "fitch": 3,
+     "camin_sokal": 7,
+     "dollo": 4
+    },
+    "j_rhotic": {
+     "fitch": 4,
+     "camin_sokal": 7,
+     "dollo": 5
+    },
+    "j_l": {
+     "fitch": 2,
+     "camin_sokal": 2,
+     "dollo": 7
+    },
+    "R_zero": {
+     "fitch": 5,
+     "camin_sokal": 8,
+     "dollo": 7
+    },
+    "b_lenited": {
+     "fitch": 4,
+     "camin_sokal": 4,
+     "dollo": 6
+    },
+    "d_liquid": {
+     "fitch": 2,
+     "camin_sokal": 3,
+     "dollo": 3
+    },
+    "b_h_initial": {
+     "fitch": 4,
+     "camin_sokal": 4,
+     "dollo": 7
+    },
+    "k_lost_initial": {
+     "fitch": 3,
+     "camin_sokal": 4,
+     "dollo": 8
+    },
+    "k_lost_medial": {
+     "fitch": 3,
+     "camin_sokal": 3,
+     "dollo": 4
+    }
+   },
+   "totals": {
+    "fitch": 33,
+    "camin_sokal": 49,
+    "dollo": 54
+   }
+  },
+  "G, rooted on Flores pair": {
+   "per_character": {
+    "p_lenited": {
+     "fitch": 2,
+     "camin_sokal": 4,
+     "dollo": 2
+    },
+    "ng_velar": {
+     "fitch": 1,
+     "camin_sokal": 1,
+     "dollo": 1
+    },
+    "ng_n": {
+     "fitch": 3,
+     "camin_sokal": 5,
+     "dollo": 4
+    },
+    "j_rhotic": {
+     "fitch": 4,
+     "camin_sokal": 6,
+     "dollo": 5
+    },
+    "j_l": {
+     "fitch": 2,
+     "camin_sokal": 2,
+     "dollo": 5
+    },
+    "R_zero": {
+     "fitch": 5,
+     "camin_sokal": 7,
+     "dollo": 7
+    },
+    "b_lenited": {
+     "fitch": 5,
+     "camin_sokal": 6,
+     "dollo": 6
+    },
+    "d_liquid": {
+     "fitch": 2,
+     "camin_sokal": 3,
+     "dollo": 3
+    },
+    "b_h_initial": {
+     "fitch": 4,
+     "camin_sokal": 4,
+     "dollo": 6
+    },
+    "k_lost_initial": {
+     "fitch": 3,
+     "camin_sokal": 4,
+     "dollo": 6
+    },
+    "k_lost_medial": {
+     "fitch": 3,
+     "camin_sokal": 5,
+     "dollo": 4
+    }
+   },
+   "totals": {
+    "fitch": 34,
+    "camin_sokal": 47,
+    "dollo": 49
+   }
+  },
+  "GE, rooted on Flores pair": {
+   "per_character": {
+    "p_lenited": {
+     "fitch": 2,
+     "camin_sokal": 2,
+     "dollo": 2
+    },
+    "ng_velar": {
+     "fitch": 1,
+     "camin_sokal": 1,
+     "dollo": 1
+    },
+    "ng_n": {
+     "fitch": 3,
+     "camin_sokal": 8,
+     "dollo": 4
+    },
+    "j_rhotic": {
+     "fitch": 4,
+     "camin_sokal": 7,
+     "dollo": 5
+    },
+    "j_l": {
+     "fitch": 2,
+     "camin_sokal": 2,
+     "dollo": 5
+    },
+    "R_zero": {
+     "fitch": 6,
+     "camin_sokal": 8,
+     "dollo": 7
+    },
+    "b_lenited": {
+     "fitch": 3,
+     "camin_sokal": 6,
+     "dollo": 4
+    },
+    "d_liquid": {
+     "fitch": 2,
+     "camin_sokal": 3,
+     "dollo": 3
+    },
+    "b_h_initial": {
+     "fitch": 4,
+     "camin_sokal": 4,
+     "dollo": 5
+    },
+    "k_lost_initial": {
+     "fitch": 3,
+     "camin_sokal": 4,
+     "dollo": 4
+    },
+    "k_lost_medial": {
+     "fitch": 2,
+     "camin_sokal": 6,
+     "dollo": 3
+    }
+   },
+   "totals": {
+    "fitch": 32,
+    "camin_sokal": 51,
+    "dollo": 43
+   }
+  }
+ },
+ "e40_root": {
+  "position": "Flores pair | rest",
+  "posterior": 0.927
+ },
+ "outside_defining_group": {
+  "p_lenited": {
+   "group": "Timor-Babar",
+   "taxa": [
+    "west2547-welaun"
+   ]
+  },
+  "ng_velar": {
+   "group": "Central Timor",
+   "taxa": []
+  },
+  "ng_n": {
+   "group": "Eastern Timor",
+   "taxa": [
+    "idat1237-cribas",
+    "laka1255",
+    "galo1243",
+    "dadu1237",
+    "koto1251",
+    "dela1252",
+    "ilma1240",
+    "kaha1239",
+    "kisa1266",
+    "luan1264",
+    "sika1262-hewa"
+   ]
+  },
+  "j_rhotic": {
+   "group": "Eastern Timor",
+   "taxa": [
+    "idat1237-cribas",
+    "kisa1266",
+    "luan1264",
+    "lama1277-lewoi",
+    "sika1262-hewa"
+   ]
+  },
+  "j_l": {
+   "group": "Central Timor",
+   "taxa": [
+    "galo1243"
+   ]
+  },
+  "R_zero": {
+   "group": "Eastern Timor",
+   "taxa": [
+    "kema1243-kaila",
+    "tuku1254",
+    "west2547-welaun",
+    "laka1255",
+    "galo1243",
+    "lama1277-lewoi"
+   ]
+  },
+  "b_lenited": {
+   "group": "Central Timor + Lakalei-Idate",
+   "taxa": [
+    "tetu1245-suai",
+    "galo1243",
+    "ilma1240",
+    "kaha1239",
+    "sika1262-hewa"
+   ]
+  },
+  "d_liquid": {
+   "group": "Central Timor",
+   "taxa": [
+    "dela1252",
+    "sika1262-hewa"
+   ]
+  },
+  "b_h_initial": {
+   "group": "Ramelaic",
+   "taxa": [
+    "galo1243",
+    "ilma1240"
+   ]
+  },
+  "k_lost_initial": {
+   "group": "Ramelaic",
+   "taxa": [
+    "west2547-welaun",
+    "sika1262-hewa"
+   ]
+  },
+  "k_lost_medial": {
+   "group": "Ramelaic",
+   "taxa": [
+    "west2547-welaun",
+    "tetu1245-suai",
+    "galo1243",
+    "dadu1237",
+    "kisa1266",
+    "sika1262-hewa"
+   ]
+  }
+ },
+ "e2_p_kept": {
+  "lakalei_idate": [
+   0,
+   6
+  ],
+  "nuclear_central_timor": [
+   54,
+   55
+  ],
+  "fisher_p": 1.2606849351680164e-07,
+  "note": "all matched words, Tetun-shaped included (E2); E2b lists the native cases"
+ }
+}

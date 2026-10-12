@@ -1,0 +1,16 @@
+{
+ "tetu1246": {
+  "combinations": 176,
+  "share_LI_NCT_largest_on_stable": 0.085,
+  "share_LI_Tetun_larger_than_LI_NCT_on_stable": 0.835
+ },
+ "tetu1245-suai": {
+  "combinations": 175,
+  "share_LI_NCT_largest_on_stable": 0.863,
+  "share_LI_Tetun_larger_than_LI_NCT_on_stable": 0.074
+ },
+ "rule": {
+  "kind": "R0",
+  "t": 0.5
+ }
+}

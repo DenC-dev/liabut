@@ -1,0 +1,92 @@
+{
+ "E34 strict clock": {
+  "LI + NCT over NCT": {
+   "samples": 3002,
+   "both_clades": 0.486,
+   "diff_q": [
+    0.003,
+    0.007,
+    0.012
+   ],
+   "relative_q": [
+    0.071,
+    0.208,
+    0.386
+   ]
+  },
+  "LI + CT (with Welaun) over CT": {
+   "samples": 3002,
+   "both_clades": 0.258,
+   "diff_q": [
+    0.001,
+    0.004,
+    0.009
+   ],
+   "relative_q": [
+    0.03,
+    0.12,
+    0.243
+   ]
+  }
+ },
+ "E41 relaxed clock": {
+  "LI + NCT over NCT": {
+   "samples": 4502,
+   "both_clades": 0.236,
+   "diff_q": [
+    0.002,
+    0.011,
+    0.026
+   ],
+   "relative_q": [
+    0.058,
+    0.32,
+    1.123
+   ]
+  },
+  "LI + CT (with Welaun) over CT": {
+   "samples": 4502,
+   "both_clades": 0.717,
+   "diff_q": [
+    0.002,
+    0.009,
+    0.024
+   ],
+   "relative_q": [
+    0.035,
+    0.21,
+    0.711
+   ]
+  }
+ },
+ "E41 relaxed clock, no Tela-Masbuar": {
+  "LI + NCT over NCT": {
+   "samples": 4502,
+   "both_clades": 0.301,
+   "diff_q": [
+    0.002,
+    0.009,
+    0.022
+   ],
+   "relative_q": [
+    0.055,
+    0.252,
+    0.822
+   ]
+  },
+  "LI + CT (with Welaun) over CT": {
+   "samples": 4502,
+   "both_clades": 0.661,
+   "diff_q": [
+    0.001,
+    0.007,
+    0.019
+   ],
+   "relative_q": [
+    0.03,
+    0.183,
+    0.558
+   ]
+  }
+ }
+}

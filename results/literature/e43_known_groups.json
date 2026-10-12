@@ -1,0 +1,136 @@
+{
+ "summary": {
+  "groups": 10,
+  "recovered_MrBayes_095": 6,
+  "recovered_ML_95": 4,
+  "by_size": {
+   "2-2 taxa": {
+    "n": 6,
+    "MrBayes_095": 2,
+    "ML_95": 1
+   },
+   "3-4 taxa": {
+    "n": 4,
+    "MrBayes_095": 4,
+    "ML_95": 3
+   },
+   "5-30 taxa": {
+    "n": 0,
+    "MrBayes_095": 0,
+    "ML_95": 0
+   }
+  }
+ },
+ "groups": [
+  {
+   "ID": "EDW-LI",
+   "Name": "Lakalei-Idate",
+   "Taxa_in_24": 2,
+   "Members": "idat1237-cribas laka1255",
+   "Distance_UPGMA": "0.997",
+   "Distance_NJ": "0.991",
+   "MrBayes": 0.936,
+   "ML_UFBoot": 53.0,
+   "E40_rooted": 0.919
+  },
+  {
+   "ID": "EDW-CTA",
+   "Name": "Central Timoric A",
+   "Taxa_in_24": 2,
+   "Members": "tetu1245-suai habu1241",
+   "Distance_UPGMA": "0.249",
+   "Distance_NJ": "0.262",
+   "MrBayes": 0.0,
+   "ML_UFBoot": 22.0,
+   "E40_rooted": 0.043
+  },
+  {
+   "ID": "EDW-KW",
+   "Name": "Kawaimina",
+   "Taxa_in_24": 3,
+   "Members": "waim1252 midi1237 naue1237",
+   "Distance_UPGMA": "1.0",
+   "Distance_NJ": "1.0",
+   "MrBayes": 1.0,
+   "ML_UFBoot": 100.0,
+   "E40_rooted": 1.0
+  },
+  {
+   "ID": "EDW-WA",
+   "Name": "Wetar-Atauro",
+   "Taxa_in_24": 4,
+   "Members": "galo1243 dadu1237 ilma1240 kaha1239",
+   "Distance_UPGMA": "0.879",
+   "Distance_NJ": "0.965",
+   "MrBayes": 0.997,
+   "ML_UFBoot": 98.0,
+   "E40_rooted": 0.978
+  },
+  {
+   "ID": "EDW-SWM",
+   "Name": "Southwest Maluku",
+   "Taxa_in_24": 3,
+   "Members": "kisa1266 luan1264 tela1241",
+   "Distance_UPGMA": "0.0",
+   "Distance_NJ": "0.295",
+   "MrBayes": 1.0,
+   "ML_UFBoot": 99.0,
+   "E40_rooted": 1.0
+  },
+  {
+   "ID": "GE-NCT",
+   "Name": "Nuclear Central Timor (Kemak, Tokodede, Mambae)",
+   "Taxa_in_24": 3,
+   "Members": "mamb1306-Slete kema1243-kaila tuku1254",
+   "Distance_UPGMA": "0.369",
+   "Distance_NJ": "0.75",
+   "MrBayes": 0.952,
+   "ML_UFBoot": 59.0,
+   "E40_rooted": 0.514
+  },
+  {
+   "ID": "GE-WN",
+   "Name": "Waima'a-Naueti",
+   "Taxa_in_24": 2,
+   "Members": "waim1252 naue1237",
+   "Distance_UPGMA": "0.637",
+   "Distance_NJ": "0.642",
+   "MrBayes": 1.0,
+   "ML_UFBoot": 93.0,
+   "E40_rooted": 1.0
+  },
+  {
+   "ID": "GE-WET",
+   "Name": "Wetar (Tugun, Ili'uun, Aputai-Perai)",
+   "Taxa_in_24": 2,
+   "Members": "ilma1240 kaha1239",
+   "Distance_UPGMA": "1.0",
+   "Distance_NJ": "1.0",
+   "MrBayes": 1.0,
+   "ML_UFBoot": 100.0,
+   "E40_rooted": 1.0
+  },
+  {
+   "ID": "GE-WRM",
+   "Name": "West Rote-Meto (Dela-Oenale + Meto)",
+   "Taxa_in_24": 2,
+   "Members": "koto1251 dela1252",
+   "Distance_UPGMA": "0.0",
+   "Distance_NJ": "0.0",
+   "MrBayes": 0.0,
+   "ML_UFBoot": 3.0,
+   "E40_rooted": 0.006
+  },
+  {
+   "ID": "GE-KL",
+   "Name": "Kisar-Luang",
+   "Taxa_in_24": 2,
+   "Members": "kisa1266 luan1264",
+   "Distance_UPGMA": "0.999",
+   "Distance_NJ": "0.986",
+   "MrBayes": 0.0,
+   "ML_UFBoot": 2.0,
+   "E40_rooted": 0.008
+  }
+ ]
+}

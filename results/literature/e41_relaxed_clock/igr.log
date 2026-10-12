@@ -1,0 +1,1090 @@
+
+
+                            MrBayes 3.2.7a x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "igr.nex"
+   UNIX line termination
+   Longest line length = 102
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Setting seed to 1234
+      Setting swapseed to 1235
+
+      Executing file "igr_matrix.nex"...
+
+   UNIX line termination
+   Longest line length = 1383
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 24 taxa and 1353 characters
+      Data is Restriction
+      Missing data coded as ?
+      Gaps coded as -
+      Taxon  1 -> mamb1306_Slete
+      Taxon  2 -> kema1243_kaila
+      Taxon  3 -> tuku1254
+      Taxon  4 -> west2547_welaun
+      Taxon  5 -> idat1237_cribas
+      Taxon  6 -> laka1255
+      Taxon  7 -> tetu1245_suai
+      Taxon  8 -> habu1241
+      Taxon  9 -> waim1252
+      Taxon 10 -> midi1237
+      Taxon 11 -> naue1237
+      Taxon 12 -> galo1243
+      Taxon 13 -> dadu1237
+      Taxon 14 -> funa1237
+      Taxon 15 -> koto1251
+      Taxon 16 -> term1237
+      Taxon 17 -> dela1252
+      Taxon 18 -> ilma1240
+      Taxon 19 -> kaha1239
+      Taxon 20 -> kisa1266
+      Taxon 21 -> luan1264
+      Taxon 22 -> tela1241
+      Taxon 23 -> lama1277_lewoi
+      Taxon 24 -> sika1262_hewa
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1234
+      Setting output file names to "igr_matrix.nex.run<i>.<p|t>"
+   Exiting data block
+   Reached end of file
+
+   Returning execution to calling file ...
+
+      Enabling Coding Noabsencesites
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting Brlenspr to Clock:Uniform
+      Setting Clockvarpr to Igr
+      Setting Clockratepr to Fixed(1.000000)
+      Successfully set prior model parameters
+      Setting number of generations to 3000000
+      Setting sample frequency to 1000
+      Setting diagnosing frequency to 50000
+      Setting number of runs to 2
+      WARNING: Allocation of zero size attempted. This is probably a bug; problems may follow.
+      Setting number of chains to 2
+      Setting print frequency to 200000
+      Setting chain output file names to "igr.run<i>.<p/t>"
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 8309892941
+      Seed = 558174365
+      Swapseed = 1235
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = Restriction
+            Coding    = Noabsencesites
+            # States  = 2
+                        State frequencies have a Dirichlet (1.00,1.00) prior
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Shape               2
+         Ratemultiplier      3
+         Topology            4
+         Brlens              5
+         Igrvar              6
+         Igrbranchrates      7
+         Clockrate           8
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         2 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         3 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         4 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         5 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Clock:Uniform
+                            Tree age has a Gamma(1.00,1.00) distribution
+                            Node ages are not constrained
+               Subparam.  = IgrBrlens
+
+         6 --  Parameter  = Igrvar
+               Type       = Variance increase of igr model branch lenths
+               Prior      = Exponential(10.00)
+               Subparam.  = IgrBrlens
+
+         7 --  Parameter  = IgrBrlens
+               Type       = Branch lengths of IGR relaxed clock
+               Prior      = Gamma (expectation = v, variance = Igrvar * v) 
+                               [where v is branch length]
+
+         8 --  Parameter  = Clockrate
+               Type       = Base rate of clock
+               Prior      = Fixed(1.000000)
+                            The clock rate varies according to an independent gamma (white noise) model
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.69 %   Dirichlet(Pi)
+            0.69 %   Slider(Pi)
+            1.39 %   Multiplier(Alpha)
+           13.89 %   ExtSprClock(Tau,V)
+           16.67 %   NNIClock(Tau,V)
+           11.11 %   ParsSPRClock(Tau,V)
+           27.78 %   NodesliderClock(V)
+            4.17 %   TreeStretch(V)
+            2.78 %   Multiplier(Igrvar)
+           20.83 %   Multiplier(IgrBrlens)
+
+      Division 1 has 935 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -11880.095834 -- -71.849681
+         Chain 2 -- -11973.752029 -- -73.628588
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -12032.994047 -- -70.245139
+         Chain 2 -- -12085.994114 -- -74.279142
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (3000000 generations requested):
+
+          0 -- [-11880.096] (-11973.752) * [-12032.994] (-12085.994) 
+
+      Average standard deviation of split frequencies: 0.077510
+
+
+      Average standard deviation of split frequencies: 0.072217
+
+
+      Average standard deviation of split frequencies: 0.065786
+
+      200000 -- (-7961.404) [-7950.455] * (-7958.760) [-7971.146] -- 1:30:46
+
+      Average standard deviation of split frequencies: 0.047963
+
+
+      Average standard deviation of split frequencies: 0.021568
+
+
+      Average standard deviation of split frequencies: 0.026192
+
+
+      Average standard deviation of split frequencies: 0.031174
+
+      400000 -- (-7958.438) [-7955.376] * [-7953.078] (-7955.329) -- 1:06:44
+
+      Average standard deviation of split frequencies: 0.034063
+
+
+      Average standard deviation of split frequencies: 0.027638
+
+
+      Average standard deviation of split frequencies: 0.025653
+
+
+      Average standard deviation of split frequencies: 0.022758
+
+      600000 -- [-7947.064] (-7954.015) * [-7950.941] (-7956.920) -- 0:55:32
+
+      Average standard deviation of split frequencies: 0.023984
+
+
+      Average standard deviation of split frequencies: 0.028217
+
+
+      Average standard deviation of split frequencies: 0.026195
+
+
+      Average standard deviation of split frequencies: 0.029266
+
+      800000 -- [-7953.243] (-7955.442) * [-7951.547] (-7962.492) -- 0:47:56
+
+      Average standard deviation of split frequencies: 0.025245
+
+
+      Average standard deviation of split frequencies: 0.023507
+
+
+      Average standard deviation of split frequencies: 0.023239
+
+
+      Average standard deviation of split frequencies: 0.025267
+
+      1000000 -- (-7962.797) [-7956.427] * [-7953.489] (-7953.633) -- 0:42:00
+
+      Average standard deviation of split frequencies: 0.025956
+
+
+      Average standard deviation of split frequencies: 0.026712
+
+
+      Average standard deviation of split frequencies: 0.027345
+
+
+      Average standard deviation of split frequencies: 0.027428
+
+      1200000 -- [-7960.746] (-7961.053) * (-7955.663) [-7958.292] -- 0:38:27
+
+      Average standard deviation of split frequencies: 0.027444
+
+
+      Average standard deviation of split frequencies: 0.025991
+
+
+      Average standard deviation of split frequencies: 0.026214
+
+
+      Average standard deviation of split frequencies: 0.027564
+
+      1400000 -- (-7968.981) [-7948.835] * [-7951.131] (-7957.221) -- 0:34:28
+
+      Average standard deviation of split frequencies: 0.025734
+
+
+      Average standard deviation of split frequencies: 0.024062
+
+
+      Average standard deviation of split frequencies: 0.022792
+
+
+      Average standard deviation of split frequencies: 0.024126
+
+      1600000 -- [-7954.282] (-7954.925) * (-7952.437) [-7952.787] -- 0:30:27
+
+      Average standard deviation of split frequencies: 0.021566
+
+
+      Average standard deviation of split frequencies: 0.020757
+
+
+      Average standard deviation of split frequencies: 0.021391
+
+
+      Average standard deviation of split frequencies: 0.021177
+
+      1800000 -- (-7966.432) [-7947.817] * (-7959.794) [-7954.115] -- 0:25:56
+
+      Average standard deviation of split frequencies: 0.018919
+
+
+      Average standard deviation of split frequencies: 0.019015
+
+
+      Average standard deviation of split frequencies: 0.019339
+
+
+      Average standard deviation of split frequencies: 0.019730
+
+      2000000 -- [-7959.776] (-7960.856) * (-7960.275) [-7957.396] -- 0:21:03
+
+      Average standard deviation of split frequencies: 0.020825
+
+
+      Average standard deviation of split frequencies: 0.020857
+
+
+      Average standard deviation of split frequencies: 0.018627
+
+
+      Average standard deviation of split frequencies: 0.016170
+
+      2200000 -- (-7962.445) [-7954.262] * [-7954.247] (-7961.185) -- 0:16:30
+
+      Average standard deviation of split frequencies: 0.014276
+
+
+      Average standard deviation of split frequencies: 0.014082
+
+
+      Average standard deviation of split frequencies: 0.015604
+
+
+      Average standard deviation of split frequencies: 0.015916
+
+      2400000 -- [-7971.873] (-7956.706) * [-7960.308] (-7950.395) -- 0:12:07
+
+      Average standard deviation of split frequencies: 0.015455
+
+
+      Average standard deviation of split frequencies: 0.015112
+
+
+      Average standard deviation of split frequencies: 0.016642
+
+
+      Average standard deviation of split frequencies: 0.017576
+
+      2600000 -- [-7968.731] (-7954.830) * [-7947.641] (-7962.325) -- 0:07:55
+
+      Average standard deviation of split frequencies: 0.018253
+
+
+      Average standard deviation of split frequencies: 0.018971
+
+
+      Average standard deviation of split frequencies: 0.020130
+
+
+      Average standard deviation of split frequencies: 0.021694
+
+      2800000 -- (-7961.251) [-7958.212] * (-7959.227) [-7957.370] -- 0:03:54
+
+      Average standard deviation of split frequencies: 0.020639
+
+      Average standard deviation of split frequencies: 0.020710
+
+      Average standard deviation of split frequencies: 0.019880
+
+      Average standard deviation of split frequencies: 0.018195
+      3000000 -- [-7945.315] (-7964.509) * [-7966.714] (-7959.648) -- 0:00:00
+
+      Average standard deviation of split frequencies: 0.019162
+
+      Analysis completed in 57 mins 44 seconds
+      Analysis used 2015.13 seconds of CPU time
+      Likelihood of best state for "cold" chain of run 1 was -7937.44
+      Likelihood of best state for "cold" chain of run 2 was -7937.44
+
+      Acceptance rates for the moves in the "cold" chain of run 1:
+         With prob.   (last 100)   chain accepted proposals by move
+            22.0 %     ( 28 %)     Dirichlet(Pi)
+            10.1 %     ( 22 %)     Slider(Pi)
+            26.6 %     ( 29 %)     Multiplier(Alpha)
+             2.1 %     (  0 %)     ExtSprClock(Tau,V)
+            10.8 %     (  8 %)     NNIClock(Tau,V)
+             2.0 %     (  0 %)     ParsSPRClock(Tau,V)
+            31.1 %     ( 31 %)     NodesliderClock(V)
+            36.8 %     ( 31 %)     TreeStretch(V)
+            37.0 %     ( 26 %)     Multiplier(Igrvar)
+            27.3 %     ( 24 %)     Multiplier(IgrBrlens)
+
+      Acceptance rates for the moves in the "cold" chain of run 2:
+         With prob.   (last 100)   chain accepted proposals by move
+            21.7 %     ( 27 %)     Dirichlet(Pi)
+             9.6 %     ( 20 %)     Slider(Pi)
+            26.8 %     ( 31 %)     Multiplier(Alpha)
+             2.0 %     (  4 %)     ExtSprClock(Tau,V)
+            10.6 %     (  7 %)     NNIClock(Tau,V)
+             2.0 %     (  3 %)     ParsSPRClock(Tau,V)
+            31.0 %     ( 24 %)     NodesliderClock(V)
+            36.3 %     ( 27 %)     TreeStretch(V)
+            36.9 %     ( 26 %)     Multiplier(Igrvar)
+            27.4 %     ( 20 %)     Multiplier(IgrBrlens)
+
+      Chain swap information for run 1:
+
+                    1        2 
+           --------------------
+         1 |              0.56 
+         2 |  3000000          
+
+      Chain swap information for run 2:
+
+                    1        2 
+           --------------------
+         1 |              0.55 
+         2 |  3000000          
+
+      Upper diagonal: Proportion of successful state exchanges between chains
+      Lower diagonal: Number of attempted state exchanges between chains
+
+      Chain information:
+
+        ID -- Heat 
+       -----------
+         1 -- 1.00  (cold chain)
+         2 -- 0.91 
+
+      Heat = 1 / (1 + T * (ID - 1))
+         (where T = 0.10 is the temperature and ID is the chain number)
+
+      Setting sumt filename and outputname to igr
+      Setting urn-in to 750
+      Setting sumt contype to Allcompat
+      Summarizing trees in files "igr.run1.t" and "igr.run2.t"
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of sampled trees
+      Writing statistics to files igr.<parts|tstat|vstat|trprobs|con>
+      Examining first file ...
+      Found one tree block in file "igr.run1.t" with 3001 trees in last block
+      Expecting the same number of trees in the last tree block of all files
+
+      Tree reading status:
+
+      0      10      20      30      40      50      60      70      80      90     100
+      v-------v-------v-------v-------v-------v-------v-------v-------v-------v-------v
+      *********************************************************************************
+
+      Read a total of 6002 trees in 2 files (sampling 4502 of them)
+         (Each file contained 3001 trees of which 2251 were sampled)
+                                                                                   
+      General explanation:                                                          
+                                                                                   
+      In an unrooted tree, a taxon bipartition (split) is specified by removing a   
+      branch, thereby dividing the species into those to the left and those to the  
+      right of the branch. Here, taxa to one side of the removed branch are denoted 
+      '.' and those to the other side are denoted '*'. Specifically, the '.' symbol 
+      is used for the taxa on the same side as the outgroup.                        
+                                                                                   
+      In a rooted or clock tree, the tree is rooted using the model and not by      
+      reference to an outgroup. Each bipartition therefore corresponds to a clade,  
+      that is, a group that includes all the descendants of a particular branch in  
+      the tree.  Taxa that are included in each clade are denoted using '*', and    
+      taxa that are not included are denoted using the '.' symbol.                  
+                                                                                   
+      The output first includes a key to all the bipartitions with frequency larger 
+      or equual to (Minpartfreq) in at least one run. Minpartfreq is a parameter to 
+      sumt command and currently it is set to 0.10.  This is followed by a table  
+      with statistics for the informative bipartitions (those including at least    
+      two taxa), sorted from highest to lowest probability. For each bipartition,   
+      the table gives the number of times the partition or split was observed in all
+      runs (#obs) and the posterior probability of the bipartition (Probab.), which 
+      is the same as the split frequency. If several runs are summarized, this is   
+      followed by the minimum split frequency (Min(s)), the maximum frequency       
+      (Max(s)), and the standard deviation of frequencies (Stddev(s)) across runs.  
+      The latter value should approach 0 for all bipartitions as MCMC runs converge.
+                                                                                   
+      This is followed by a table summarizing branch lengths, node heights (if a    
+      clock model was used) and relaxed clock parameters (if a relaxed clock model  
+      was used). The mean, variance, and 95 % credible interval are given for each 
+      of these parameters. If several runs are summarized, the potential scale      
+      reduction factor (PSRF) is also given; it should approach 1 as runs converge. 
+      Node heights will take calibration points into account, if such points were   
+      used in the analysis.                                                         
+                                                                                    
+      Note that Stddev may be unreliable if the partition is not present in all     
+      runs (the last column indicates the number of runs that sampled the partition 
+      if more than one run is summarized). The PSRF is not calculated at all if     
+      the partition is not present in all runs.The PSRF is also sensitive to small  
+      sample sizes and it should only be considered a rough guide to convergence    
+      since some of the assumptions allowing one to interpret it as a true potential
+      scale reduction factor are violated in MrBayes.                               
+                                                                                    
+      List of taxa in bipartitions:                                                 
+                                                                                   
+         1 -- mamb1306_Slete
+         2 -- kema1243_kaila
+         3 -- tuku1254
+         4 -- west2547_welaun
+         5 -- idat1237_cribas
+         6 -- laka1255
+         7 -- tetu1245_suai
+         8 -- habu1241
+         9 -- waim1252
+        10 -- midi1237
+        11 -- naue1237
+        12 -- galo1243
+        13 -- dadu1237
+        14 -- funa1237
+        15 -- koto1251
+        16 -- term1237
+        17 -- dela1252
+        18 -- ilma1240
+        19 -- kaha1239
+        20 -- kisa1266
+        21 -- luan1264
+        22 -- tela1241
+        23 -- lama1277_lewoi
+        24 -- sika1262_hewa
+
+      Key to taxon bipartitions (saved to file "igr.parts"):
+
+      ID -- Partition
+      ------------------------------
+       0 -- ************************
+       1 -- *.......................
+       2 -- .*......................
+       3 -- ..*.....................
+       4 -- ...*....................
+       5 -- ....*...................
+       6 -- .....*..................
+       7 -- ......*.................
+       8 -- .......*................
+       9 -- ........*...............
+      10 -- .........*..............
+      11 -- ..........*.............
+      12 -- ...........*............
+      13 -- ............*...........
+      14 -- .............*..........
+      15 -- ..............*.........
+      16 -- ...............*........
+      17 -- ................*.......
+      18 -- .................*......
+      19 -- ..................*.....
+      20 -- ...................*....
+      21 -- ....................*...
+      22 -- .....................*..
+      23 -- ......................*.
+      24 -- .......................*
+      25 -- ........***.............
+      26 -- .................**.....
+      27 -- ...........**....**.....
+      28 -- ......................**
+      29 -- ...............**.......
+      30 -- ........*.*.............
+      31 -- ...................***..
+      32 -- ....................**..
+      33 -- *.*.....................
+      34 -- ..............***.......
+      35 -- ....**..................
+      36 -- .............****.......
+      37 -- ...........**...........
+      38 -- ***.....................
+      39 -- *******.................
+      40 -- ****....................
+      41 -- ******..................
+      42 -- .............****.....**
+      43 -- *************....*****..
+      44 -- ***********.............
+      45 -- ********................
+      46 -- .......****.............
+      47 -- ...........**....*****..
+      48 -- *************....**.....
+      49 -- ***.**..................
+      50 -- ...*..*.................
+      51 -- ********...**....**.....
+      52 -- *******************...**
+      53 -- *************....*******
+      54 -- ......**................
+      55 -- .*.*....................
+      56 -- ********...**....*****..
+      57 -- **********************..
+      ------------------------------
+
+      Summary statistics for informative taxon bipartitions (clades)
+         (saved to file "igr.tstat"):
+
+      ID   #obs    Probab.     Sd(s)+      Min(s)      Max(s)   Nruns 
+      ----------------------------------------------------------------
+      25  4502    1.000000    0.000000    1.000000    1.000000    2
+      26  4502    1.000000    0.000000    1.000000    1.000000    2
+      27  4502    1.000000    0.000000    1.000000    1.000000    2
+      28  4502    1.000000    0.000000    1.000000    1.000000    2
+      29  4502    1.000000    0.000000    1.000000    1.000000    2
+      30  4500    0.999556    0.000628    0.999112    1.000000    2
+      31  4495    0.998445    0.000942    0.997779    0.999112    2
+      32  4486    0.996446    0.002513    0.994669    0.998223    2
+      33  4467    0.992226    0.000314    0.992004    0.992448    2
+      34  4464    0.991559    0.003770    0.988894    0.994225    2
+      35  4451    0.988672    0.004712    0.985340    0.992004    2
+      36  3818    0.848068    0.008796    0.841848    0.854287    2
+      37  3747    0.832297    0.034240    0.808085    0.856508    2
+      38  3710    0.824078    0.038952    0.796535    0.851622    2
+      39  3557    0.790093    0.055601    0.750777    0.829409    2
+      40  3390    0.752999    0.049633    0.717903    0.788094    2
+      41  3363    0.747001    0.049947    0.711684    0.782319    2
+      42  2874    0.638383    0.010052    0.631275    0.645491    2
+      43  2404    0.533985    0.002513    0.532208    0.535762    2
+      44  2290    0.508663    0.021361    0.493558    0.523767    2
+      45  2018    0.448245    0.020733    0.433585    0.462905    2
+      46  1624    0.360729    0.048376    0.326522    0.394936    2
+      47  1212    0.269214    0.010680    0.261661    0.276766    2
+      48  1185    0.263216    0.015392    0.252332    0.274100    2
+      49  1062    0.235895    0.050261    0.200355    0.271435    2
+      50   968    0.215016    0.044606    0.183474    0.246557    2
+      51   787    0.174811    0.041151    0.145713    0.203909    2
+      52   783    0.173923    0.007853    0.168370    0.179476    2
+      53   756    0.167925    0.003770    0.165260    0.170591    2
+      54   755    0.167703    0.048062    0.133718    0.201688    2
+      55   754    0.167481    0.040209    0.139049    0.195913    2
+      56   662    0.147046    0.011937    0.138605    0.155486    2
+      57   485    0.107730    0.005340    0.103954    0.111506    2
+      ----------------------------------------------------------------
+      + Convergence diagnostic (standard deviation of split frequencies)
+        should approach 0.0 as runs converge.
+
+
+      Summary statistics for branch and node parameters
+         (saved to file "igr.vstat"):
+
+                                                        95% HPD Interval
+                                                      --------------------
+      Parameter                Mean       Variance     Lower       Upper       Median     PSRF+  Nruns
+      ------------------------------------------------------------------------------------------------
+      length[1]               0.022920    0.000066    0.006296    0.037160    0.022669    1.001    2
+      length[2]               0.031930    0.000076    0.014956    0.048619    0.031509    1.013    2
+      length[3]               0.022916    0.000066    0.006296    0.037178    0.022656    1.002    2
+      length[4]               0.038260    0.000113    0.017194    0.059760    0.038139    1.008    2
+      length[5]               0.028303    0.000088    0.009923    0.045826    0.027374    1.000    2
+      length[6]               0.028197    0.000086    0.010383    0.045750    0.027292    1.000    2
+      length[7]               0.051499    0.000203    0.023481    0.079806    0.051854    1.000    2
+      length[8]               0.060162    0.000197    0.034104    0.089316    0.059871    1.007    2
+      length[9]               0.024032    0.000080    0.007394    0.040726    0.023575    1.019    2
+      length[10]              0.038779    0.000117    0.017673    0.060111    0.038125    1.012    2
+      length[11]              0.024029    0.000080    0.007394    0.040726    0.023575    1.019    2
+      length[12]              0.033911    0.000124    0.013154    0.056430    0.033134    1.000    2
+      length[13]              0.033903    0.000124    0.014545    0.057456    0.033048    1.000    2
+      length[14]              0.070114    0.000232    0.043690    0.102186    0.068573    1.000    2
+      length[15]              0.050864    0.000170    0.026913    0.078272    0.050017    1.001    2
+      length[16]              0.027919    0.000107    0.008308    0.047560    0.027201    1.000    2
+      length[17]              0.027919    0.000107    0.008308    0.047560    0.027201    1.000    2
+      length[18]              0.015032    0.000056    0.002167    0.029342    0.014166    1.001    2
+      length[19]              0.015032    0.000056    0.002167    0.029342    0.014166    1.001    2
+      length[20]              0.053732    0.000187    0.028283    0.082371    0.053008    1.010    2
+      length[21]              0.034411    0.000155    0.011686    0.058652    0.033817    1.023    2
+      length[22]              0.034394    0.000155    0.012001    0.058879    0.033802    1.022    2
+      length[23]              0.048666    0.000196    0.022274    0.076228    0.048060    1.002    2
+      length[24]              0.048666    0.000196    0.022274    0.076228    0.048060    1.002    2
+      length[25]              0.031773    0.000181    0.007545    0.059155    0.030312    1.002    2
+      length[26]              0.031885    0.000143    0.010384    0.055769    0.031011    1.003    2
+      length[27]              0.026784    0.000137    0.006949    0.051029    0.025662    1.000    2
+      length[28]              0.032211    0.000206    0.006062    0.060609    0.030776    1.004    2
+      length[29]              0.022974    0.000117    0.004291    0.044603    0.021865    1.001    2
+      length[30]              0.014756    0.000078    0.000969    0.032054    0.013166    1.000    2
+      length[31]              0.027027    0.000156    0.004697    0.051424    0.025658    1.017    2
+      length[32]              0.019419    0.000116    0.002608    0.040378    0.017814    1.002    2
+      length[33]              0.011131    0.000045    0.000240    0.023785    0.010063    1.000    2
+      length[34]              0.020040    0.000117    0.001809    0.040449    0.018614    1.000    2
+      length[35]              0.021407    0.000096    0.003297    0.039990    0.020517    1.000    2
+      length[36]              0.013679    0.000076    0.000194    0.030805    0.012145    1.000    2
+      length[37]              0.016390    0.000093    0.000630    0.034821    0.015083    1.000    2
+      length[38]              0.009867    0.000036    0.000286    0.021033    0.008896    1.001    2
+      length[39]              0.011383    0.000051    0.000435    0.025172    0.010101    1.000    2
+      length[40]              0.009664    0.000034    0.000839    0.020910    0.008635    1.000    2
+      length[41]              0.009572    0.000041    0.000377    0.022129    0.008274    1.000    2
+      length[42]              0.008691    0.000039    0.000090    0.020578    0.007442    1.005    2
+      length[43]              0.008639    0.000039    0.000113    0.021132    0.007186    1.013    2
+      length[44]              0.009331    0.000039    0.000475    0.021305    0.008203    1.000    2
+      length[45]              0.010963    0.000053    0.000166    0.024313    0.009627    1.004    2
+      length[46]              0.012486    0.000076    0.000412    0.029144    0.010743    0.999    2
+      length[47]              0.006744    0.000032    0.000049    0.017903    0.005078    0.999    2
+      length[48]              0.006403    0.000028    0.000066    0.017219    0.004914    1.008    2
+      length[49]              0.010324    0.000041    0.001046    0.022990    0.008996    0.999    2
+      length[50]              0.019990    0.000096    0.002522    0.038322    0.019194    1.004    2
+      length[51]              0.008044    0.000036    0.000113    0.019980    0.006736    1.007    2
+      length[52]              0.007656    0.000037    0.000090    0.019675    0.005879    1.000    2
+      length[53]              0.006278    0.000025    0.000139    0.016607    0.004911    0.999    2
+      length[54]              0.017946    0.000110    0.001305    0.038292    0.016635    1.000    2
+      length[55]              0.012447    0.000070    0.000710    0.029962    0.010686    1.024    2
+      length[56]              0.006594    0.000022    0.000100    0.015270    0.005668    1.000    2
+      length[57]              0.005412    0.000021    0.000017    0.014862    0.003996    1.011    2
+      height[0]               0.092485    0.000203    0.066132    0.120515    0.091375    1.000    2
+      height[1]               0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[2]               0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[3]               0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[4]               0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[5]               0.000000    0.000000    0.000000    0.000000    0.000000    1.001    2
+      height[6]               0.000000    0.000000    0.000000    0.000000    0.000000    1.001    2
+      height[7]               0.000000    0.000000    0.000000    0.000000    0.000000    1.001    2
+      height[8]               0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[9]               0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[10]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[11]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[12]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[13]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[14]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[15]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[16]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[17]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[18]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[19]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[20]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[21]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[22]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[23]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[24]              0.000000    0.000000    0.000000    0.000000    0.000000    1.000    2
+      height[25]              0.038782    0.000117    0.017673    0.060111    0.038129    1.012    2
+      height[26]              0.015032    0.000056    0.002167    0.029342    0.014166    1.001    2
+      height[27]              0.048180    0.000135    0.027787    0.073208    0.047262    1.000    2
+      height[28]              0.048666    0.000196    0.022274    0.076228    0.048060    1.002    2
+      height[29]              0.027919    0.000107    0.008308    0.047560    0.027201    1.000    2
+      height[30]              0.024026    0.000080    0.007394    0.040726    0.023570    1.019    2
+      height[31]              0.053717    0.000185    0.028054    0.081836    0.053008    1.010    2
+      height[32]              0.034317    0.000152    0.011667    0.058365    0.033761    1.021    2
+      height[33]              0.022851    0.000065    0.006467    0.037136    0.022625    1.002    2
+      height[34]              0.050853    0.000170    0.026913    0.078272    0.050017    1.001    2
+      height[35]              0.028119    0.000085    0.010576    0.045826    0.027229    1.000    2
+      height[36]              0.069038    0.000206    0.043645    0.098382    0.067901    1.001    2
+      height[37]              0.032439    0.000109    0.013270    0.054171    0.031832    1.000    2
+      height[38]              0.032613    0.000072    0.016702    0.048860    0.032131    1.006    2
+      height[39]              0.057767    0.000113    0.039170    0.079835    0.056959    1.000    2
+      height[40]              0.040856    0.000080    0.023446    0.058608    0.040256    1.005    2
+      height[41]              0.050422    0.000099    0.032396    0.070359    0.049571    1.002    2
+      height[42]              0.078186    0.000184    0.051875    0.102994    0.076912    1.001    2
+      height[43]              0.081512    0.000166    0.057682    0.106043    0.080216    1.001    2
+      height[44]              0.071666    0.000139    0.048882    0.094682    0.070731    1.000    2
+      height[45]              0.064459    0.000124    0.043535    0.087369    0.063493    1.004    2
+      height[46]              0.059281    0.000149    0.036919    0.084125    0.058293    1.000    2
+      height[47]              0.075056    0.000161    0.053404    0.100360    0.074186    1.000    2
+      height[48]              0.076986    0.000143    0.056751    0.101845    0.075976    1.000    2
+      height[49]              0.046472    0.000083    0.026894    0.063150    0.046179    1.003    2
+      height[50]              0.037166    0.000110    0.018210    0.058316    0.037038    0.999    2
+      height[51]              0.073076    0.000132    0.051918    0.096521    0.072116    1.005    2
+      height[52]              0.085646    0.000156    0.063300    0.111054    0.084665    0.999    2
+      height[53]              0.088014    0.000182    0.062411    0.113569    0.086749    1.000    2
+      height[54]              0.046111    0.000156    0.023180    0.069746    0.044789    1.016    2
+      height[55]              0.028600    0.000082    0.010264    0.044517    0.028717    1.048    2
+      height[56]              0.077949    0.000146    0.055196    0.101019    0.076940    0.999    2
+      height[57]              0.090427    0.000199    0.063944    0.115541    0.088754    0.998    2
+      IgrBrlens_length[1]     0.032128    0.000032    0.021971    0.043857    0.031831    1.002    2
+      IgrBrlens_length[2]     0.028339    0.000025    0.018265    0.037635    0.028095    1.000    2
+      IgrBrlens_length[3]     0.034075    0.000035    0.022610    0.045553    0.033691    1.000    2
+      IgrBrlens_length[4]     0.028871    0.000022    0.019835    0.037814    0.028515    1.000    2
+      IgrBrlens_length[5]     0.021465    0.000015    0.014341    0.029300    0.021135    1.000    2
+      IgrBrlens_length[6]     0.016208    0.000012    0.009784    0.023379    0.015945    1.000    2
+      IgrBrlens_length[7]     0.032679    0.000034    0.021205    0.044041    0.032348    1.000    2
+      IgrBrlens_length[8]     0.030527    0.000026    0.020855    0.040506    0.030306    1.000    2
+      IgrBrlens_length[9]     0.030269    0.000024    0.021015    0.040648    0.030094    1.000    2
+      IgrBrlens_length[10]    0.018139    0.000017    0.010535    0.026092    0.017857    1.000    2
+      IgrBrlens_length[11]    0.025924    0.000024    0.016479    0.035101    0.025585    1.000    2
+      IgrBrlens_length[12]    0.015014    0.000012    0.008842    0.022203    0.014799    1.001    2
+      IgrBrlens_length[13]    0.023737    0.000018    0.015809    0.032391    0.023459    1.000    2
+      IgrBrlens_length[14]    0.072721    0.000128    0.051302    0.095679    0.071995    1.000    2
+      IgrBrlens_length[15]    0.064292    0.000103    0.043994    0.083075    0.063455    1.002    2
+      IgrBrlens_length[16]    0.028202    0.000028    0.018727    0.039024    0.027889    1.000    2
+      IgrBrlens_length[17]    0.018556    0.000020    0.010072    0.026799    0.018228    1.000    2
+      IgrBrlens_length[18]    0.007655    0.000007    0.003047    0.012906    0.007492    1.000    2
+      IgrBrlens_length[19]    0.011100    0.000009    0.005407    0.016551    0.010874    1.000    2
+      IgrBrlens_length[20]    0.034078    0.000057    0.020568    0.049456    0.033451    1.000    2
+      IgrBrlens_length[21]    0.020364    0.000118    0.000780    0.039892    0.019587    1.010    2
+      IgrBrlens_length[22]    0.165216    0.000827    0.114584    0.223770    0.162048    1.001    2
+      IgrBrlens_length[23]    0.056129    0.000097    0.038526    0.075545    0.055296    1.000    2
+      IgrBrlens_length[24]    0.048119    0.000086    0.030728    0.066053    0.047624    1.001    2
+      IgrBrlens_length[25]    0.033134    0.000036    0.021530    0.044609    0.032913    1.000    2
+      IgrBrlens_length[26]    0.036345    0.000034    0.025579    0.048119    0.035897    1.001    2
+      IgrBrlens_length[27]    0.015172    0.000019    0.006873    0.023981    0.015002    1.001    2
+      IgrBrlens_length[28]    0.037077    0.000090    0.017835    0.054755    0.036427    1.000    2
+      IgrBrlens_length[29]    0.018170    0.000035    0.007153    0.029982    0.017711    1.000    2
+      IgrBrlens_length[30]    0.013288    0.000017    0.005974    0.021434    0.012965    1.000    2
+      IgrBrlens_length[31]    0.049830    0.000133    0.027631    0.073912    0.050157    1.000    2
+      IgrBrlens_length[32]    0.037914    0.000144    0.014677    0.061219    0.037083    1.006    2
+      IgrBrlens_length[33]    0.011316    0.000020    0.003317    0.020478    0.010997    1.002    2
+      IgrBrlens_length[34]    0.020914    0.000061    0.006191    0.036561    0.020411    1.000    2
+      IgrBrlens_length[35]    0.010110    0.000011    0.003610    0.016767    0.009935    1.000    2
+      IgrBrlens_length[36]    0.013127    0.000061    0.000000    0.027195    0.012469    1.000    2
+      IgrBrlens_length[37]    0.004594    0.000008    0.000000    0.009748    0.004279    1.001    2
+      IgrBrlens_length[38]    0.009110    0.000015    0.001548    0.016896    0.008921    1.001    2
+      IgrBrlens_length[39]    0.007341    0.000011    0.000625    0.013523    0.007201    1.000    2
+      IgrBrlens_length[40]    0.008570    0.000009    0.002982    0.014565    0.008386    1.000    2
+      IgrBrlens_length[41]    0.006426    0.000010    0.000000    0.011975    0.006129    1.002    2
+      IgrBrlens_length[42]    0.008403    0.000036    0.000000    0.018985    0.008033    1.002    2
+      IgrBrlens_length[43]    0.007642    0.000032    0.000000    0.017636    0.007297    1.001    2
+      IgrBrlens_length[44]    0.004992    0.000010    0.000000    0.010919    0.004666    1.000    2
+      IgrBrlens_length[45]    0.004839    0.000011    0.000000    0.010552    0.004652    1.000    2
+      IgrBrlens_length[46]    0.003840    0.000008    0.000000    0.008623    0.003576    1.000    2
+      IgrBrlens_length[47]    0.002279    0.000007    0.000000    0.007857    0.001273    0.999    2
+      IgrBrlens_length[48]    0.001623    0.000005    0.000000    0.005874    0.000694    1.003    2
+      IgrBrlens_length[49]    0.006689    0.000008    0.001743    0.012424    0.006387    1.000    2
+      IgrBrlens_length[50]    0.009181    0.000012    0.002552    0.015982    0.008940    0.999    2
+      IgrBrlens_length[51]    0.002077    0.000004    0.000000    0.006120    0.001529    1.005    2
+      IgrBrlens_length[52]    0.011822    0.000197    0.000000    0.042916    0.006218    0.999    2
+      IgrBrlens_length[53]    0.005888    0.000044    0.000000    0.019282    0.003530    1.000    2
+      IgrBrlens_length[54]    0.005079    0.000012    0.000000    0.011166    0.004780    1.000    2
+      IgrBrlens_length[55]    0.005748    0.000012    0.000000    0.011766    0.005445    1.000    2
+      IgrBrlens_length[56]    0.002396    0.000004    0.000000    0.006593    0.002023    0.999    2
+      IgrBrlens_length[57]    0.004681    0.000046    0.000000    0.018173    0.001572    1.028    2
+      IgrBrlens_rate[1]       1.624260    0.707562    0.611200    3.142431    1.402977    1.009    2
+      IgrBrlens_rate[2]       0.959045    0.125064    0.428505    1.587868    0.891780    1.017    2
+      IgrBrlens_rate[3]       1.721332    0.779892    0.653686    3.369026    1.500272    1.006    2
+      IgrBrlens_rate[4]       0.819211    0.092378    0.396603    1.367515    0.754235    1.011    2
+      IgrBrlens_rate[5]       0.846369    0.117938    0.319655    1.540794    0.772205    1.002    2
+      IgrBrlens_rate[6]       0.637684    0.066991    0.238800    1.120198    0.584517    1.000    2
+      IgrBrlens_rate[7]       0.679333    0.046806    0.358935    1.076853    0.631405    1.000    2
+      IgrBrlens_rate[8]       0.532094    0.021120    0.293867    0.806905    0.509217    1.008    2
+      IgrBrlens_rate[9]       1.470961    0.541063    0.522739    2.927917    1.272500    1.013    2
+      IgrBrlens_rate[10]      0.503356    0.032398    0.215294    0.870920    0.470235    1.010    2
+      IgrBrlens_rate[11]      1.257317    0.397948    0.489244    2.541443    1.091176    1.016    2
+      IgrBrlens_rate[12]      0.498120    0.081048    0.185905    0.876044    0.449102    1.003    2
+      IgrBrlens_rate[13]      0.794130    0.209510    0.317747    1.360987    0.709343    1.005    2
+      IgrBrlens_rate[14]      1.076244    0.062140    0.645364    1.552529    1.048171    1.001    2
+      IgrBrlens_rate[15]      1.345317    0.170278    0.679327    2.131295    1.267928    1.000    2
+      IgrBrlens_rate[16]      1.194345    0.457922    0.333015    2.401072    1.012767    1.000    2
+      IgrBrlens_rate[17]      0.774385    0.180556    0.243494    1.520445    0.671837    1.000    2
+      IgrBrlens_rate[18]      0.692680    0.429415    0.091818    1.736180    0.524812    1.005    2
+      IgrBrlens_rate[19]      1.046721    1.233899    0.170795    2.668546    0.777460    1.003    2
+      IgrBrlens_rate[20]      0.669334    0.044115    0.331061    1.088076    0.639445    1.007    2
+      IgrBrlens_rate[21]      0.615676    0.106132    0.040363    1.226972    0.566451    1.000    2
+      IgrBrlens_rate[22]      5.568526    7.404456    1.942411   10.767669    4.797668    1.030    2
+      IgrBrlens_rate[23]      1.257144    0.225353    0.601582    2.182046    1.151334    1.002    2
+      IgrBrlens_rate[24]      1.074979    0.164005    0.499620    1.836412    0.985198    1.004    2
+      IgrBrlens_rate[25]      1.311057    0.926244    0.400153    2.736528    1.089224    1.000    2
+      IgrBrlens_rate[26]      1.336519    0.478776    0.425541    2.575465    1.159584    1.004    2
+      IgrBrlens_rate[27]      0.712198    0.329279    0.147813    1.539138    0.578091    1.008    2
+      IgrBrlens_rate[28]      1.490784    1.790187    0.360427    3.320548    1.185091    1.009    2
+      IgrBrlens_rate[29]      1.019207    0.714419    0.199930    2.309890    0.809690    1.000    2
+      IgrBrlens_rate[30]      1.432510    2.929689    0.190018    3.830286    0.983109    1.000    2
+      IgrBrlens_rate[31]      2.383015    3.180518    0.381654    5.584744    1.922806    1.024    2
+      IgrBrlens_rate[32]      2.701265    5.774983    0.562289    6.746025    2.033185    1.000    2
+      IgrBrlens_rate[33]      1.604292    5.914696    0.140315    4.177414    1.061873    1.001    2
+      IgrBrlens_rate[34]      1.433253    1.916090    0.000002    3.455191    1.065858    1.000    2
+      IgrBrlens_rate[35]      0.604016    0.294565    0.117446    1.375127    0.476594    1.000    2
+      IgrBrlens_rate[36]      1.305360    2.185414    0.000002    3.459323    0.937660    1.000    2
+      IgrBrlens_rate[37]      0.364905    0.220250    0.000002    0.964115    0.269928    1.000    2
+      IgrBrlens_rate[38]      1.457367    5.010819    0.000001    4.023880    0.965695    1.000    2
+      IgrBrlens_rate[39]      0.995703    1.378491    0.000003    2.795236    0.684186    1.002    2
+      IgrBrlens_rate[40]      1.362773    3.185612    0.090006    3.471212    0.971766    1.001    2
+      IgrBrlens_rate[41]      1.080840    3.015271    0.000001    2.915581    0.699964    1.001    2
+      IgrBrlens_rate[42]      1.553388    8.232977    0.000001    4.910139    0.901778    1.000    2
+      IgrBrlens_rate[43]      1.424237    7.288572    0.000001    4.372746    0.816242    1.000    2
+      IgrBrlens_rate[44]      0.852401    3.660678    0.000002    2.335079    0.518733    1.000    2
+      IgrBrlens_rate[45]      0.617532    0.719054    0.000001    1.802272    0.427905    1.003    2
+      IgrBrlens_rate[46]      0.450749    0.552987    0.000004    1.302009    0.286723    0.999    2
+      IgrBrlens_rate[47]      0.440518    1.611414    0.000001    1.466578    0.208475    1.000    2
+      IgrBrlens_rate[48]      0.295450    0.605336    0.000001    1.106469    0.131809    1.000    2
+      IgrBrlens_rate[49]      1.012628    1.243278    0.109222    3.072267    0.698989    0.999    2
+      IgrBrlens_rate[50]      0.628528    0.551345    0.000480    1.502103    0.466295    1.000    2
+      IgrBrlens_rate[51]      0.365816    0.673685    0.000001    0.929070    0.182623    0.999    2
+      IgrBrlens_rate[52]      1.789244    7.403924    0.000002    6.551751    0.818813    0.999    2
+      IgrBrlens_rate[53]      1.181238    3.193347    0.000001    4.657088    0.592184    0.999    2
+      IgrBrlens_rate[54]      0.359988    0.207835    0.000002    0.859308    0.261883    1.005    2
+      IgrBrlens_rate[55]      0.694515    1.231521    0.000002    1.762484    0.451983    0.999    2
+      IgrBrlens_rate[56]      0.568809    1.866170    0.000006    1.721317    0.319801    0.999    2
+      IgrBrlens_rate[57]      1.089614    5.177341    0.000002    4.294052    0.298659    1.003    2
+      ------------------------------------------------------------------------------------------------
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge. NA is reported when
+        deviation of parameter values within all runs is 0 or when a parameter
+        value (a branch length, for instance) is not sampled in all runs.
+
+
+      Summary statistics for partitions with frequency >= 0.10 in at least one run:
+          Average standard deviation of split frequencies = 0.019162
+          Maximum standard deviation of split frequencies = 0.055601
+          Average PSRF for parameter values (excluding NA and >10.0) = 1.003
+          Maximum PSRF for parameter values = 1.048
+
+
+      Clade credibility values:
+
+                                             /-------------------- funa1237 (14)
+                                             |                                        
+                                       /--85-+      /------------- koto1251 (15)
+                                       |     |      |                                 
+                                       |     \--99--+     /------- term1237 (16)
+                                       |            \-100-+                           
+      /---------------64---------------+                  \------- dela1252 (17)
+      |                                |                                              
+      |                                |                  /------- lama1277_lewoi (23)
+      |                                \--------100-------+                           
+      |                                                   \------- sika1262_hewa (24)
+      |                                                                               
+      |                                                   /------- mamb1306_Slete (1)
+      |                                             /--99-+                           
+      |                                             |     \------- tuku1254 (3)
+      |                                      /--82--+                                 
+      |                                      |      \------------- kema1243_kaila (2)
+      |                                /--75-+                                        
+      |                                |     \-------------------- west2547_welaun (4)
+      |                         /--75--+                                              
+      |                         |      |                  /------- idat1237_cribas (5)
+      +                         |      \--------99--------+                           
+      |                   /--79-+                         \------- laka1255 (6)
+      |                   |     |                                                     
+      |            /--45--+     \--------------------------------- tetu1245_suai (7)
+      |            |      |                                                           
+      |            |      \--------------------------------------- habu1241 (8)
+      |            |                                                                  
+      |      /--51-+                                      /------- waim1252 (9)
+      |      |     |                                /-100-+                           
+      |      |     |                                |     \------- naue1237 (11)
+      |      |     \---------------100--------------+                                 
+      |      |                                      \------------- midi1237 (10)
+      |      |                                                                        
+      |      |                                            /------- galo1243 (12)
+      \--53--+                                      /--83-+                           
+             |                                      |     \------- dadu1237 (13)
+             |                               /--100-+                                 
+             |                               |      |     /------- ilma1240 (18)
+             |                               |      \-100-+                           
+             |                               |            \------- kaha1239 (19)
+             \---------------27--------------+                                        
+                                             |      /------------- kisa1266 (20)
+                                             |      |                                 
+                                             \--100-+     /------- luan1264 (21)
+                                                    \-100-+                           
+                                                          \------- tela1241 (22)
+                                                                                      
+
+      Phylogram (based on median node depths):
+
+                     /-------------------------------------------- funa1237 (14)
+                     |                                                                
+               /-----+           /-------------------------------- koto1251 (15)
+               |     |           |                                                    
+               |     \-----------+             /------------------ term1237 (16)
+               |                 \-------------+                                      
+      /--------+                               \------------------ dela1252 (17)
+      |        |                                                                      
+      |        |                  /------------------------------- lama1277_lewoi (23)
+      |        \------------------+                                                   
+      |                           \------------------------------- sika1262_hewa (24)
+      |                                                                               
+      |                                           /--------------- mamb1306_Slete (1)
+      |                                     /-----+                                   
+      |                                     |     \--------------- tuku1254 (3)
+      |                                /----+                                         
+      |                                |    \--------------------- kema1243_kaila (2)
+      |                          /-----+                                              
+      |                          |     \-------------------------- west2547_welaun (4)
+      |                     /----+                                                    
+      |                     |    |             /------------------ idat1237_cribas (5)
+      +                     |    \-------------+                                      
+      |                 /---+                  \------------------ laka1255 (6)
+      |                 |   |                                                         
+      |            /----+   \------------------------------------- tetu1245_suai (7)
+      |            |    |                                                             
+      |            |    \----------------------------------------- habu1241 (8)
+      |            |                                                                  
+      |      /-----+                              /--------------- waim1252 (9)
+      |      |     |                    /---------+                                   
+      |      |     |                    |         \--------------- naue1237 (11)
+      |      |     \--------------------+                                             
+      |      |                          \------------------------- midi1237 (10)
+      |      |                                                                        
+      |      |                              /--------------------- galo1243 (12)
+      \------+                    /---------+                                         
+             |                    |         \--------------------- dadu1237 (13)
+             |   /----------------+                                                   
+             |   |                |                     /--------- ilma1240 (18)
+             |   |                \---------------------+                             
+             |   |                                      \--------- kaha1239 (19)
+             \---+                                                                    
+                 |             /---------------------------------- kisa1266 (20)
+                 |             |                                                      
+                 \-------------+           /---------------------- luan1264 (21)
+                               \-----------+                                          
+                                           \---------------------- tela1241 (22)
+                                                                                      
+      --------|------------|------------|------------|-----------|                    
+          8.00e-02     6.00e-02     4.00e-02     2.00e-02    -6.94e-18                
+
+      [Expected changes per site]
+
+      Calculating tree probabilities...
+
+      Credible sets of trees (2562 trees sampled):
+         50 % credible set contains 446 trees
+         90 % credible set contains 2112 trees
+         95 % credible set contains 2337 trees
+         99 % credible set contains 2517 trees
+
+      Setting sump filename and output file name to igr
+      Setting burn-in to 750
+      Summarizing parameters in files igr.run1.p and igr.run2.p
+      Writing summary statistics to file igr.pstat
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of samples
+
+      Below are rough plots of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use these     
+      graphs to determine what the burn in for your analysis should be. 
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      tionarity. Also examine the convergence diagnostics provided by   
+      the 'sump' and 'sumt' commands for all the parameters in your     
+      model. Remember that the burn in is the number of samples to dis- 
+      card. There are a total of ngen / samplefreq samples taken during 
+      a MCMC analysis.                                                  
+
+      Overlay plot for both runs:
+      (1 = Run number 1; 2 = Run number 2; * = Both runs)
+
+      +------------------------------------------------------------+ -7954.86
+      |   2          1      22            211 1       2         1  |
+      | 2      1 1                    1         2 11 1 2      1    |
+      |    1       1     2   1     111 12                          |
+      |   1 2     2     1  1     2 2     2  22 2 1  2   1  *    2 2|
+      |       2 2  2      *     2 2     1    1 11 2  2           1 |
+      | 12   21 12    2221     21     22         2 2    2*   1     |
+      |1   21  2  1 12     21 2   1       1           11      2   1|
+      |2     1         1            2    1                         |
+      |  1            1                    2  2     1        2 1   |
+      |                        1                          2 1  2   |
+      |             2                2                      2    2 |
+      |                                                            |
+      |                          1                        1        |
+      |                                                            |
+      |                       1                                    |
+      +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -7962.17
+      ^                                                            ^
+      750000                                                       3000000
+
+
+      Estimated marginal likelihoods for runs sampled in files
+         "igr.run1.p" and "igr.run2.p":
+         (Use the harmonic mean for Bayes factor comparisons of models)
+
+         (Values are saved to the file igr.lstat)
+
+      Run   Arithmetic mean   Harmonic mean
+      --------------------------------------
+        1      -7947.56         -7971.49
+        2      -7947.31         -7975.17
+      --------------------------------------
+      TOTAL    -7947.42         -7974.50
+      --------------------------------------
+
+
+      Model parameter summaries over the runs sampled in files
+         "igr.run1.p" and "igr.run2.p":
+         Summaries are based on a total of 4502 samples from 2 runs.
+         Each run produced 3001 samples of which 2251 samples were included.
+         Parameter summaries saved to file "igr.pstat".
+
+                                            95% HPD Interval
+                                          --------------------
+      Parameter      Mean      Variance     Lower       Upper       Median    min ESS*  avg ESS    PSRF+ 
+      --------------------------------------------------------------------------------------------------
+      TH          0.092485    0.000203    0.066132    0.120515    0.091375    187.74    195.01    1.000
+      TL          1.236115    0.025779    0.949872    1.575232    1.226168    210.08    215.86    1.000
+      pi(0)       0.958185    0.000008    0.952625    0.963765    0.958318   1115.43   1156.73    1.000
+      pi(1)       0.041815    0.000008    0.036221    0.047370    0.041684   1115.44   1156.73    1.000
+      alpha       1.530136    0.031778    1.208543    1.909772    1.519209   1441.89   1670.38    1.002
+      igrvar      0.012709    0.000018    0.005755    0.020813    0.012004    315.87    323.21    1.000
+      --------------------------------------------------------------------------------------------------
+      * Convergence diagnostic (ESS = Estimated Sample Size); min and avg values
+        correspond to minimal and average ESS among runs. 
+        ESS value below 100 may indicate that the parameter is undersampled. 
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge.
+
+
+   Exiting mrbayes block
+   Reached end of file
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+

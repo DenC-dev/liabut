@@ -1,0 +1,43 @@
+Cognateset_ID,Checked_because,Concept,Verdict,Evidence
+2sg_informal-32,packet,2sg_informal,not in the tables,
+ash-126,packet,ash,not in the tables,
+big-221,packet,big,not in the tables,
+far-478,packet,far,inherited,"eray1237:soː ~ Iliʔuun soo (*zauq; table 04-21 'Wetar-Atauro *z, *ŋ, and *b'; cognate True; NED 0.33); idat1237:arɔːk ~ Idate arook (*zauq; table 04-16 'Eastern Timor and Lakalei-Idate *z and *b'; cognate True; NED 0.20); koto1251:ʔroː ~ Kotos na-ʔroo (*zauq; table 04-08 'Meto sound changes'; cognate True; NED 0.50); laka1255:rɔːn ~ Lakalei roon (*zauq; table 04-16 'Eastern Timor and Lakalei-Idate *z and *b'; cognate True; NED 0.25); mamb1306:rɔː ~ C. Mambae roo (*zauq; table 05-14 'Central Timor *z'; cognate True; NED 0.33); tuku1254:kɔrɔ ~ Tokodede kroo (*zauq; table 05-14 'Central Timor *z'; cognate True; NED 0.50); kusa1252:roː ~ Kusa-M. roo (*zauq; table 04-08 'Meto sound changes'; cognate True; NED 0.33); ilpu1239:soː ~ Aputai soo (*zauq; table 04-21 'Wetar-Atauro *z, *ŋ, and *b'; cognate True; NED 0.33); ilma1240:soː ~ Iliʔuun soo (*zauq; table 04-21 'Wetar-Atauro *z, *ŋ, and *b';"
+good-637,packet,good,not in the tables,
+hair-710,packet,hair,inherited,mamb1306:ʔululaha ~ NW. Mambae hulu-n (*bulu; table 05-15 'Central Timor *b'; cognate True; NED 0.50); mamb1306-NWhat:ululaun ~ NW. Mambae hulu-n (*bulu; table 05-15 'Central Timor *b'; cognate True; NED 0.43); mamb1306-NWrai:ulun ~ NW. Mambae hulu-n (*bulu; table 05-15 'Central Timor *b'; cognate True; NED 0.20); mamb1306-Chatu:ulun ~ NW. Mambae hulu-n (*bulu; table 05-15 'Central Timor *b'; cognate True; NED 0.20); mamb1306-Sudo:ulu ~ S. Mambae hulu (*bulu; table 05-15 'Central Timor *b'; cognate True; NED 0.25); mamb1306-Slete:ulu ~ S. Mambae hulu (*bulu; table 05-15 'Central Timor *b'; cognate True; NED 0.25)
+hair-713,packet,hair,not in the tables,
+leaf-949,packet,leaf,not in the tables,
+mouth-1111,packet,mouth,"in the tables, not marked cognate",idat1237:jipar ~ Idate yibar (*baqbaq; table 04-16 'Eastern Timor and Lakalei-Idate *z and *b'; cognate False; NED 0.20); laka1255:ʔibɑr ~ Lakalei ibar (*baqbaq; table 04-16 'Eastern Timor and Lakalei-Idate *z and *b'; cognate False; NED 0.20); tetu1245-suai:ʔibun ~ E. Tetun ibun (*baqbaq; table 04-16 'Eastern Timor and Lakalei-Idate *z and *b'; cognate False; NED 0.20); tetu1246:ʔibun ~ E. Tetun ibun (*baqbaq; table 04-16 'Eastern Timor and Lakalei-Idate *z and *b'; cognate False; NED 0.20); idat1237-cribas:ibar ~ Idate yibar (*baqbaq; table 04-16 'Eastern Timor and Lakalei-Idate *z and *b'; cognate False; NED 0.20)
+neck-1156,packet,neck,not in the tables,
+neck-1157,packet,neck,not in the tables,
+new-1177,packet,new,"in the tables, not marked cognate",idat1237:murin ~ Idate morin (*baqəRu; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate False; NED 0.20); laka1255:morin ~ Lakalei morin (*baqəRu; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate False; NED 0.00); waim1252:mori ~ Waimaʔa mori (*baqəRu; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate False; NED 0.00); waim1252:m̥ori ~ Waimaʔa mori (*baqəRu; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate False; NED 0.00); naue1237:mori ~ Naueti mori (*baqəRu; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate False; NED 0.00); midi1237:morin ~ Midiki morin (*baqəRu; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate False; NED 0.00); idat1237-cribas:mori ~ Idate mori (*baqəRu; table 04-14 'Eastern Timor and Lakalei-Idate *ə'; cognate False; NED 0.00)
+night-1197,packet,night,not in the tables,
+root-1381,packet,root,inherited,tuku1254:kɑirɑmut ~ Tokodede ramut (*Ramut; table 05-06 'Central Timor *R = **r'; cognate True; NED 0.38)
+sand-1422,packet,sand,"in the tables, not marked cognate",sika1262-hewa:neːn ~ Sika nee (*qənay; table 02-08b 'Origins of schwa in some languages of Flores'; cognate False; NED 0.33); kisa1266:ʈosle ~ Kisar ʈosle (*qənay; table 04-33 'Kisar-Luang *w and *-ay'; cognate False; NED 0.00)
+small-1519,packet,small,not in the tables,
+tail-1644,packet,tail,inherited,idat1237:jiʔan ~ Idate yiʔan (*ikuR; table 04-11 'Eastern Timor and Lakalei-Idate word final *R'; cognate True; NED 0.20); kema1243:hiʔɔr ~ Kemak hiʔo-r (*ikuR; table 05-11 'Central Timor *-uR\# and *-iR\#'; cognate True; NED 0.00); kema1243-kaila:hiʔor ~ Kemak hiʔo-r (*ikuR; table 05-11 'Central Timor *-uR\# and *-iR\#'; cognate True; NED 0.00); laka1255:hiʔɔn ~ Lakalei hiʔon (*ikuR; table 04-11 'Eastern Timor and Lakalei-Idate word final *R'; cognate True; NED 0.00); tuku1254:ʔikɔ ~ Tokodede iko (*ikuR; table 05-11 'Central Timor *-uR\# and *-iR\#'; cognate True; NED 0.25); west2547-welaun:hiʔun ~ Welaun hiʔu-n (*ikuR; table 05-11 'Central Timor *-uR\# and *-iR\#'; cognate True; NED 0.00); kema1243-diir:hiʔoˑ ~ Kemak hiʔo-r (*ikuR; table 05-11 'Central Timor *-uR\# and *-iR\#'; cognate True; NED 0.20); kema1243-kutu:hiʔoŋ ~ Kemak hiʔo-r (*ikuR; table 05-11 'Central Timor *-uR\# and *-i
+to_bite-1776,packet,to_bite,"in the tables, not marked cognate",mamb1306-Slete:hoi ~ S. Mambae hoi (*kaRat; table 05-05 'Central Timor *R > ∅'; cognate False; NED 0.00)
+to_cry-1808,packet,to_cry,not in the tables,
+to_eat-1843,packet,to_eat,not in the tables,
+to_fall_from_above-1871,packet,to_fall_from_above,not in the tables,
+to_laugh-1997,packet,to_laugh,not in the tables,
+to_stand-2176,packet,to_stand,inherited,laka1255:ʔamiri ~ Lakalei amiri (*diRi; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate True; NED 0.17); mamb1306:məriː ~ S. Mambae mrii (*diRi; table 05-10 'Central Timor *d'; cognate True; NED 0.50); tetu1245-suai:hariːk ~ E. Tetun ha-rii (*diRi; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate True; NED 0.20); tetu1246:hɑmriːk ~ E. Tetun ha-rii (*diRi; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate True; NED 0.33)
+water-2293,packet,water,inherited,eray1237:eːr ~ Iliʔuun eer (*wahiyəR; table 04-18 'Wetar-Atauro *w'; cognate True; NED 0.33); tuku1254:ʔɛː ~ Tokodede ee (*wahiyəR; table 05-06 'Central Timor *R = **r'; cognate True; NED 0.50); dadu1237:eːh ~ Daduʔa eeh (*wahiyəR; table 04-18 'Wetar-Atauro *w'; cognate True; NED 0.33); ilpu1239:ɛːr ~ Aputai eer (*wahiyəR; table 04-18 'Wetar-Atauro *w'; cognate True; NED 0.33); uhak1237:ɛːr ~ Perai eer (*wahiyəR; table 04-18 'Wetar-Atauro *w'; cognate True; NED 0.33); kaha1239:ɛːr ~ Tugun eer (*wahiyəR; table 04-18 'Wetar-Atauro *w'; cognate True; NED 0.33)
+dry-416,E17 LI + CT,dry,"in the tables, not marked cognate",laka1255:kiʔɑs ~ Lakalei kiʔas (*maja; table 04-09 'Eastern Timor and Lakalei-Idate *j'; cognate False; NED 0.00)
+to_spit-2149,E17 LI + CT,to_spit,not in the tables,
+who-2359,E17 LI + CT,who,not in the tables,
+wife-2376,E17 LI + CT,wife,not in the tables,
+wife-2380,E17 LI + CT,wife,not in the tables,
+all-92,E17 LI + Habu,all,not in the tables,
+to_sit-2070,E17 LI + Kawaimina,to_sit,not in the tables,
+to_spit-2146,E17 LI + Tetun,to_spit,not in the tables,
+above-64,E17 LI + other,above,not in the tables,
+big-215,E17 LI + other,big,not in the tables,
+hair-716,E17 LI + other,hair,not in the tables,
+house-811,E17 LI + other,house,"in the tables, not marked cognate",laka1255:lehu ~ Lakalei lehu (*Rumaq; table 04-10 'Eastern Timor and Lakalei-Idate *R'; cognate False; NED 0.00); sika1262-hewa:ləpo ~ Sika ləpo (*Rumaq; table 03-09 'East Sumbawa and Komodo *R > ∅'; cognate False; NED 0.00)
+this-1729,E17 LI + other,this,not in the tables,
+to_hear-1934,E17 LI + other,to_hear,"in the tables, not marked cognate",laka1255:liː ~ Lakalei lii (*dəŋəR; table 04-14 'Eastern Timor and Lakalei-Idate *ə'; cognate False; NED 0.33)
+to_kill-1956,E17 LI + other,to_kill,not in the tables,
+rotten-1406,E17 LI + several Eastern Timor,rotten,not in the tables,
+to_spit-2163,E17 LI + several Eastern Timor,to_spit,not in the tables,
+yellow-2423,E17 LI + several Eastern Timor,yellow,not in the tables,

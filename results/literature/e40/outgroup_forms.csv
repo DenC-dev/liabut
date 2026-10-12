@@ -1,0 +1,952 @@
+ID,Lect_ID,Concept_ID,Segments
+abvd-14-1_hand-1-0-hand,og-bima,hand,r i m a
+abvd-14-5_towalk-1-0-to_walk,og-bima,to_walk,l a m p a
+abvd-14-7_tocome-1-0-to_come,og-bima,to_come,m a i
+abvd-14-9_toswim-1-0-to_swim,og-bima,to_swim,l i w a
+abvd-14-12_skin-1-0-skin,og-bima,skin,h u r i
+abvd-14-15_bone-1-0-bone,og-bima,bone,p e k e
+abvd-14-17_liver-1-0-liver,og-bima,liver,a d e
+abvd-14-23_blood-1-0-blood,og-bima,blood,r a ʔ a
+abvd-14-24_head-1-0-head,og-bima,head,t u t a
+abvd-14-25_neck-1-0-neck,og-bima,neck,w o ʔ o
+abvd-14-26_hair-1-0-hair,og-bima,hair,h o n gg o
+abvd-14-27_nose-1-0-nose,og-bima,nose,i l u
+abvd-14-30_mouth-1-0-mouth,og-bima,mouth,a s a
+abvd-14-31_tooth-1-0-teeth,og-bima,teeth,w o i
+abvd-14-32_tongue-1-0-tongue,og-bima,tongue,l e r a
+abvd-14-33_tolaugh-1-0-to_laugh,og-bima,to_laugh,h a r i
+abvd-14-34_tocry-1-0-to_cry,og-bima,to_cry,n a n g i
+abvd-14-35_tovomit-1-0-to_vomit,og-bima,to_vomit,l o h i
+abvd-14-36_tospit-1-0-to_spit,og-bima,to_spit,k a t u f e
+abvd-14-37_toeat-1-0-to_eat,og-bima,to_eat,n g a h a
+abvd-14-40_todrink-1-0-to_drink,og-bima,to_drink,n o n o
+abvd-14-41_tobite-1-0-to_bite,og-bima,to_bite,n g e n g e
+abvd-14-43_ear-1-0-ear,og-bima,ear,f i k o
+abvd-14-44_tohear-1-0-to_hear,og-bima,to_hear,k a d e ʔ e
+abvd-14-45_eye-1-0-eye,og-bima,eye,m a d a
+abvd-14-46_tosee-1-0-to_see,og-bima,to_see,t i o
+abvd-14-46_tosee-2-0-to_see,og-bima,to_see,n t a n d e
+abvd-14-48_tosleep-1-0-to_sleep,og-bima,to_sleep,m a r u
+abvd-14-51_tosit-1-0-to_sit,og-bima,to_sit,d o h o
+abvd-14-52_tostand-1-0-to_stand,og-bima,to_stand,k i ḏ i
+abvd-14-53_personhumanbeing-1-0-person,og-bima,person,d o u
+abvd-14-56_child-1-0-child,og-bima,child,a n a
+abvd-14-57_husband-1-0-husband,og-bima,husband,r a h i
+abvd-14-58_wife-1-0-wife,og-bima,wife,w e i
+abvd-14-59_mother-1-0-mother,og-bima,mother,i n a
+abvd-14-60_father-1-0-father,og-bima,father,a m a
+abvd-14-60_father-2-0-father,og-bima,father,u b a
+abvd-14-61_house-1-0-house,og-bima,house,u m a
+abvd-14-63_name-1-0-name,og-bima,name,n g a r a
+abvd-14-65_rope-1-0-rope,og-bima,rope,a i
+abvd-14-74_tokill-1-0-to_kill,og-bima,to_kill,h a d e
+abvd-14-95_tofall-1-0-to_fall_from_above,og-bima,to_fall_from_above,m a ḇ u
+abvd-14-96_dog-1-0-dog,og-bima,dog,l a k o
+abvd-14-97_bird-1-0-bird,og-bima,bird,n a s i
+abvd-14-98_egg-1-0-egg,og-bima,egg,d o l u
+abvd-14-101_tofly-1-0-to_fly,og-bima,to_fly,n g e m o
+abvd-14-104_fatgrease-1-0-fat,og-bima,fat,a p a
+abvd-14-105_tail-1-0-tail,og-bima,tail,k e t o
+abvd-14-106_snake-1-0-snake,og-bima,snake,s a w a
+abvd-14-111_fish-1-0-fish,og-bima,fish,u t a
+abvd-14-112_rotten-1-0-rotten,og-bima,rotten,m b a i
+abvd-14-112_rotten-2-0-rotten,og-bima,rotten,m b u r u
+abvd-14-114_leaf-1-0-leaf,og-bima,leaf,r o ʔ o
+abvd-14-115_root-1-0-root,og-bima,root,a m u
+abvd-14-116_flower-1-0-flower,og-bima,flower,b u n g a
+abvd-14-117_fruit-1-0-fruit,og-bima,fruit,w u a h a j u
+abvd-14-119_earthsoil-1-0-soil,og-bima,soil,d a n a
+abvd-14-120_stone-1-0-stone,og-bima,stone,w a d u
+abvd-14-121_sand-1-0-sand,og-bima,sand,s a r a e
+abvd-14-122_water-1-0-water,og-bima,water,o i
+abvd-14-124_sea-1-0-sea,og-bima,sea,m o t i
+abvd-14-125_salt-1-0-salt,og-bima,salt,s i a
+abvd-14-127_woodsforest-1-0-forest,og-bima,forest,w u ḇ a
+abvd-14-128_sky-1-0-sky,og-bima,sky,l a n g i
+abvd-14-129_moon-1-0-moon,og-bima,moon,w u r a
+abvd-14-130_star-1-0-star,og-bima,star,n t a r a
+abvd-14-131_cloud-1-0-cloud,og-bima,cloud,r i r u
+abvd-14-133_rain-1-0-rain,og-bima,rain,u r a
+abvd-14-136_wind-1-0-wind,og-bima,wind,a n g i
+abvd-14-139_cold-1-0-cold,og-bima,cold,ḇ u s i
+abvd-14-140_dry-1-0-dry,og-bima,dry,m a n g o
+abvd-14-143_fire-1-0-fire,og-bima,fire,a f i
+abvd-14-145_smoke-1-0-smoke,og-bima,smoke,o ḇ u
+abvd-14-146_ashes-1-0-ash,og-bima,ash,k a l u ḇ u
+abvd-14-147_black-1-0-black,og-bima,black,m e ʔ e
+abvd-14-148_white-1-0-white,og-bima,white,ḇ u r a
+abvd-14-149_red-1-0-red,og-bima,red,k a l a
+abvd-14-150_yellow-1-0-yellow,og-bima,yellow,m o n c a
+abvd-14-151_green-1-0-green,og-bima,green,j a o
+abvd-14-152_small-1-0-small,og-bima,small,t o ʔ i
+abvd-14-152_small-2-0-small,og-bima,small,l i k o
+abvd-14-153_big-1-0-big,og-bima,big,n a ʔ e
+abvd-14-154_short-1-0-short,og-bima,short,p o r o
+abvd-14-154_short-2-0-short,og-bima,short,p a d a
+abvd-14-155_long-1-0-long,og-bima,long,n a r u
+abvd-14-156_thin-1-0-thin,og-bima,thin,n i p i
+abvd-14-163_new-1-0-new,og-bima,new,ḇ o u
+abvd-14-164_good-1-0-good,og-bima,good,t a h o
+abvd-14-167_night-1-0-night,og-bima,night,a i m a n g a ḏ i
+abvd-14-175_above-1-0-above,og-bima,above,t a e s e
+abvd-14-176_below-1-0-below,og-bima,below,t aa w a
+abvd-14-177_this-1-0-this,og-bima,this,a k e
+abvd-14-179_near-1-0-near,og-bima,near,ḏ e n i
+abvd-14-180_far-1-0-far,og-bima,far,d o ʔ o
+abvd-14-181_where-1-0-where,og-bima,where,t a ḇ e
+abvd-14-182_i-1-0-1sg,og-bima,1sg,n a h u
+abvd-14-182_i-2-0-1sg,og-bima,1sg,l a m a d a
+abvd-14-183_thou-1-0-2sg_informal,og-bima,2sg_informal,n gg o m i
+abvd-14-183_thou-2-0-2sg_informal,og-bima,2sg_informal,n d a i m u
+abvd-14-188_what-1-0-what,og-bima,what,a u
+abvd-14-189_who-1-0-who,og-bima,who,c o u
+abvd-14-191_all-1-0-all,og-bima,all,s a r a ʔ a
+abvd-14-191_all-2-0-all,og-bima,all,s a m e n a
+abvd-14-194_how-1-0-how,og-bima,how,ḇ u n e
+abvd-14-195_nonot-1-0-no_not,og-bima,no_not,w a t i
+abvd-14-197_one-1-0-one,og-bima,one,i c a
+abvd-14-198_two-1-0-two,og-bima,two,ḏ u a
+abvd-14-199_three-1-0-three,og-bima,three,t o l u
+abvd-14-200_four-1-0-four,og-bima,four,u p a
+abvd-14-201_five-1-0-five,og-bima,five,l i m a
+abvd-14-202_six-1-0-six,og-bima,six,i n i
+abvd-14-203_seven-1-0-seven,og-bima,seven,p i d u
+abvd-14-204_eight-1-0-eight,og-bima,eight,w a r u
+abvd-14-205_nine-1-0-nine,og-bima,nine,c i w i
+abvd-14-206_ten-1-0-ten,og-bima,ten,s e m p u r u
+abvd-14-207_twenty-1-0-twenty,og-bima,twenty,d u a m p u r u
+abvd-14-209_onehundred-1-0-one_hundred,og-bima,one_hundred,s e r a t u
+abvd-14-210_onethousand-1-0-thousand,og-bima,thousand,s e r i w u
+abvd-32-1_hand-1-0-hand,og-kambera,hand,l i m a
+abvd-32-5_towalk-1-0-to_walk,og-kambera,to_walk,l a k u
+abvd-32-7_tocome-1-0-to_come,og-kambera,to_come,m a i
+abvd-32-12_skin-1-0-skin,og-kambera,skin,m a n u l a
+abvd-32-15_bone-1-0-bone,og-kambera,bone,r ii
+abvd-32-17_liver-1-0-liver,og-kambera,liver,e t i
+abvd-32-23_blood-1-0-blood,og-kambera,blood,r i a
+abvd-32-24_head-1-0-head,og-kambera,head,k a t ii k u
+abvd-32-25_neck-1-0-neck,og-kambera,neck,ŋ g o r u
+abvd-32-26_hair-1-0-hair,og-kambera,hair,l u ŋ g i
+abvd-32-27_nose-1-0-nose,og-kambera,nose,u r u
+abvd-32-30_mouth-1-0-mouth,og-kambera,mouth,ŋ a r u
+abvd-32-31_tooth-1-0-teeth,og-kambera,teeth,ŋ a n d u
+abvd-32-32_tongue-1-0-tongue,og-kambera,tongue,l a m a
+abvd-32-33_tolaugh-1-0-to_laugh,og-kambera,to_laugh,r i k i
+abvd-32-34_tocry-1-0-to_cry,og-kambera,to_cry,h ī
+abvd-32-35_tovomit-1-0-to_vomit,og-kambera,to_vomit,m u tt a
+abvd-32-36_tospit-1-0-to_spit,og-kambera,to_spit,i l u
+abvd-32-37_toeat-1-0-to_eat,og-kambera,to_eat,ŋ a ŋ u
+abvd-32-40_todrink-1-0-to_drink,og-kambera,to_drink,u n u ŋ u
+abvd-32-41_tobite-1-0-to_bite,og-kambera,to_bite,k a t i
+abvd-32-43_ear-1-0-ear,og-kambera,ear,k a h i l u
+abvd-32-44_tohear-1-0-to_hear,og-kambera,to_hear,r o ŋ u
+abvd-32-45_eye-1-0-eye,og-kambera,eye,m a t a
+abvd-32-46_tosee-1-0-to_see,og-kambera,to_see,i t a
+abvd-32-48_tosleep-1-0-to_sleep,og-kambera,to_sleep,m a h u rr u
+abvd-32-51_tosit-1-0-to_sit,og-kambera,to_sit,u h u k u
+abvd-32-51_tosit-2-0-to_sit,og-kambera,to_sit,m a n d a p u
+abvd-32-52_tostand-1-0-to_stand,og-kambera,to_stand,n d u a l a k u
+abvd-32-53_personhumanbeing-1-0-person,og-kambera,person,t a u
+abvd-32-56_child-1-0-child,og-kambera,child,a n a
+abvd-32-57_husband-1-0-husband,og-kambera,husband,l e i
+abvd-32-58_wife-1-0-wife,og-kambera,wife,k u r uu m a n g
+abvd-32-59_mother-1-0-mother,og-kambera,mother,i n a
+abvd-32-60_father-1-0-father,og-kambera,father,a m a
+abvd-32-61_house-1-0-house,og-kambera,house,u m a
+abvd-32-63_name-1-0-name,og-kambera,name,t a m u
+abvd-32-65_rope-1-0-rope,og-kambera,rope,l i k u
+abvd-32-74_tokill-1-0-to_kill,og-kambera,to_kill,p a m e t i
+abvd-32-95_tofall-1-0-to_fall_from_above,og-kambera,to_fall_from_above,k a n a b u
+abvd-32-96_dog-1-0-dog,og-kambera,dog,a h u
+abvd-32-97_bird-1-0-bird,og-kambera,bird,m a h a w u r u ŋ u
+abvd-32-98_egg-1-0-egg,og-kambera,egg,t i l u
+abvd-32-101_tofly-1-0-to_fly,og-kambera,to_fly,h a w u r u ŋ u
+abvd-32-104_fatgrease-1-0-fat,og-kambera,fat,m i ñ a
+abvd-32-104_fatgrease-2-0-fat,og-kambera,fat,m b u a k a
+abvd-32-104_fatgrease-3-0-fat,og-kambera,fat,m i n a
+abvd-32-105_tail-1-0-tail,og-kambera,tail,k i k u
+abvd-32-106_snake-1-0-snake,og-kambera,snake,u l a r u
+abvd-32-111_fish-1-0-fish,og-kambera,fish,i a ŋ u
+abvd-32-112_rotten-1-0-rotten,og-kambera,rotten,m u h u ŋ u
+abvd-32-112_rotten-2-0-rotten,og-kambera,rotten,m b a i
+abvd-32-114_leaf-1-0-leaf,og-kambera,leaf,r a u
+abvd-32-115_root-1-0-root,og-kambera,root,a m u
+abvd-32-116_flower-1-0-flower,og-kambera,flower,m b u ŋ a
+abvd-32-117_fruit-1-0-fruit,og-kambera,fruit,w u a
+abvd-32-119_earthsoil-1-0-soil,og-kambera,soil,t a n a
+abvd-32-120_stone-1-0-stone,og-kambera,stone,w a t u
+abvd-32-121_sand-1-0-sand,og-kambera,sand,w a r a
+abvd-32-122_water-1-0-water,og-kambera,water,w a i
+abvd-32-124_sea-1-0-sea,og-kambera,sea,t e h i k u
+abvd-32-125_salt-1-0-salt,og-kambera,salt,m e h i
+abvd-32-127_woodsforest-1-0-forest,og-kambera,forest,o m a ŋ
+abvd-32-128_sky-1-0-sky,og-kambera,sky,a w a ŋ u
+abvd-32-129_moon-1-0-moon,og-kambera,moon,w u l a ŋ u
+abvd-32-130_star-1-0-star,og-kambera,star,k a d u nn u
+abvd-32-131_cloud-1-0-cloud,og-kambera,cloud,k a r u mm a ŋ u
+abvd-32-133_rain-1-0-rain,og-kambera,rain,u r a ŋ u
+abvd-32-136_wind-1-0-wind,og-kambera,wind,ŋ i l u
+abvd-32-139_cold-1-0-cold,og-kambera,cold,m a r i ŋ u
+abvd-32-140_dry-1-0-dry,og-kambera,dry,m a d u
+abvd-32-140_dry-2-0-dry,og-kambera,dry,m a r a
+abvd-32-143_fire-1-0-fire,og-kambera,fire,a p i
+abvd-32-143_fire-2-0-fire,og-kambera,fire,e p i
+abvd-32-145_smoke-1-0-smoke,og-kambera,smoke,k a w u
+abvd-32-146_ashes-1-0-ash,og-kambera,ash,a w u
+abvd-32-147_black-1-0-black,og-kambera,black,m i t i ŋŋ u
+abvd-32-148_white-1-0-white,og-kambera,white,b a r a
+abvd-32-149_red-1-0-red,og-kambera,red,r a r a
+abvd-32-150_yellow-1-0-yellow,og-kambera,yellow,w i ŋ i r
+abvd-32-151_green-1-0-green,og-kambera,green,m u r u
+abvd-32-152_small-1-0-small,og-kambera,small,k u d u
+abvd-32-153_big-1-0-big,og-kambera,big,b a k u l u
+abvd-32-154_short-1-0-short,og-kambera,short,k a b a b a
+abvd-32-155_long-1-0-long,og-kambera,long,m a l a i
+abvd-32-155_long-2-0-long,og-kambera,long,m a d i t a
+abvd-32-156_thin-1-0-thin,og-kambera,thin,m a n i p a
+abvd-32-163_new-1-0-new,og-kambera,new,b i d i
+abvd-32-164_good-1-0-good,og-kambera,good,h a m u
+abvd-32-167_night-1-0-night,og-kambera,night,r u d u ŋ u
+abvd-32-175_above-1-0-above,og-kambera,above,d i t a
+abvd-32-176_below-1-0-below,og-kambera,below,w a w a
+abvd-32-177_this-1-0-this,og-kambera,this,j i a n a
+abvd-32-179_near-1-0-near,og-kambera,near,m a r e n i
+abvd-32-180_far-1-0-far,og-kambera,far,m a r a u
+abvd-32-181_where-1-0-where,og-kambera,where,l a ŋ g ii
+abvd-32-182_i-1-0-1sg,og-kambera,1sg,ñ u ŋ g a
+abvd-32-183_thou-1-0-2sg_informal,og-kambera,2sg_informal,ñ u m u
+abvd-32-188_what-1-0-what,og-kambera,what,ŋ g a r a
+abvd-32-189_who-1-0-who,og-kambera,who,ŋ g a m u
+abvd-32-191_all-1-0-all,og-kambera,all,m b u l u n d a b a n a
+abvd-32-194_how-1-0-how,og-kambera,how,ŋ g i k i n a
+abvd-32-195_nonot-1-0-no_not,og-kambera,no_not,n d i a
+abvd-32-197_one-1-0-one,og-kambera,one,d i h a
+abvd-32-198_two-1-0-two,og-kambera,two,d u a
+abvd-32-199_three-1-0-three,og-kambera,three,t i l u
+abvd-32-200_four-1-0-four,og-kambera,four,p a t u
+abvd-32-201_five-1-0-five,og-kambera,five,l i m a
+abvd-32-202_six-1-0-six,og-kambera,six,n o m u
+abvd-32-203_seven-1-0-seven,og-kambera,seven,p i h u
+abvd-32-204_eight-1-0-eight,og-kambera,eight,w a l u
+abvd-32-205_nine-1-0-nine,og-kambera,nine,h i w a
+abvd-32-206_ten-1-0-ten,og-kambera,ten,m b u l u
+abvd-48-1_hand-1-0-hand,og-buginese,hand,l i m a
+abvd-48-5_towalk-1-0-to_walk,og-buginese,to_walk,j o pp a
+abvd-48-5_towalk-2-0-to_walk,og-buginese,to_walk,j o kk a
+abvd-48-7_tocome-1-0-to_come,og-buginese,to_come,l a o k o m a i
+abvd-48-9_toswim-1-0-to_swim,og-buginese,to_swim,n a ŋ e
+abvd-48-12_skin-1-0-skin,og-buginese,skin,o l i
+abvd-48-12_skin-2-0-skin,og-buginese,skin,u l i
+abvd-48-15_bone-1-0-bone,og-buginese,bone,b u k u
+abvd-48-17_liver-1-0-liver,og-buginese,liver,a t e
+abvd-48-23_blood-1-0-blood,og-buginese,blood,d a r a
+abvd-48-24_head-1-0-head,og-buginese,head,u l u
+abvd-48-25_neck-1-0-neck,og-buginese,neck,ə ll o ŋ
+abvd-48-26_hair-1-0-hair,og-buginese,hair,g ə mm ə ʔ
+abvd-48-27_nose-1-0-nose,og-buginese,nose,i ŋ ə ʔ
+abvd-48-30_mouth-1-0-mouth,og-buginese,mouth,b a w a
+abvd-48-31_tooth-1-0-teeth,og-buginese,teeth,i s i
+abvd-48-32_tongue-1-0-tongue,og-buginese,tongue,l i l a
+abvd-48-33_tolaugh-1-0-to_laugh,og-buginese,to_laugh,m a c a w a
+abvd-48-34_tocry-1-0-to_cry,og-buginese,to_cry,t a r ii
+abvd-48-34_tocry-2-0-to_cry,og-buginese,to_cry,t ə r ii
+abvd-48-35_tovomit-1-0-to_vomit,og-buginese,to_vomit,t a ll u a
+abvd-48-36_tospit-1-0-to_spit,og-buginese,to_spit,m a mm e cc u
+abvd-48-36_tospit-2-0-to_spit,og-buginese,to_spit,m a mm i cc u
+abvd-48-37_toeat-1-0-to_eat,og-buginese,to_eat,m a n r e
+abvd-48-40_todrink-1-0-to_drink,og-buginese,to_drink,m e n u ŋ
+abvd-48-40_todrink-2-0-to_drink,og-buginese,to_drink,m i n u ŋ
+abvd-48-41_tobite-1-0-to_bite,og-buginese,to_bite,m a kk o kk o
+abvd-48-43_ear-1-0-ear,og-buginese,ear,d o cc i l i
+abvd-48-44_tohear-1-0-to_hear,og-buginese,to_hear,m a r e ŋ k a l i ŋ a
+abvd-48-45_eye-1-0-eye,og-buginese,eye,m a t a
+abvd-48-46_tosee-1-0-to_see,og-buginese,to_see,m a kk i t a
+abvd-48-48_tosleep-1-0-to_sleep,og-buginese,to_sleep,m a t i n r o
+abvd-48-51_tosit-1-0-to_sit,og-buginese,to_sit,t u d a ŋ
+abvd-48-52_tostand-1-0-to_stand,og-buginese,to_stand,t ə tt o ŋ
+abvd-48-53_personhumanbeing-1-0-person,og-buginese,person,t a u
+abvd-48-56_child-1-0-child,og-buginese,child,a n a ʔ
+abvd-48-57_husband-1-0-husband,og-buginese,husband,l a kk a i
+abvd-48-58_wife-1-0-wife,og-buginese,wife,b a i n e
+abvd-48-59_mother-1-0-mother,og-buginese,mother,i n d o ʔ
+abvd-48-60_father-1-0-father,og-buginese,father,a m b o ʔ
+abvd-48-61_house-1-0-house,og-buginese,house,b o l a
+abvd-48-63_name-1-0-name,og-buginese,name,a s ə ŋ
+abvd-48-65_rope-1-0-rope,og-buginese,rope,t u l u
+abvd-48-74_tokill-1-0-to_kill,og-buginese,to_kill,m a ʔ b u n o
+abvd-48-95_tofall-1-0-to_fall_from_above,og-buginese,to_fall_from_above,m a b u ə ŋ
+abvd-48-96_dog-1-0-dog,og-buginese,dog,a s u
+abvd-48-97_bird-1-0-bird,og-buginese,bird,m a n u ʔ m a n u ʔ
+abvd-48-98_egg-1-0-egg,og-buginese,egg,t ə ll o
+abvd-48-101_tofly-1-0-to_fly,og-buginese,to_fly,l u tt u
+abvd-48-104_fatgrease-1-0-fat,og-buginese,fat,l u n r a ʔ
+abvd-48-105_tail-1-0-tail,og-buginese,tail,i kk o ʔ
+abvd-48-106_snake-1-0-snake,og-buginese,snake,u l a
+abvd-48-111_fish-1-0-fish,og-buginese,fish,b a l e
+abvd-48-112_rotten-1-0-rotten,og-buginese,rotten,m a k ə bb o ŋ
+abvd-48-114_leaf-1-0-leaf,og-buginese,leaf,d a u ŋ
+abvd-48-115_root-1-0-root,og-buginese,root,u r ə ʔ
+abvd-48-116_flower-1-0-flower,og-buginese,flower,b u ŋ a
+abvd-48-117_fruit-1-0-fruit,og-buginese,fruit,b u a
+abvd-48-119_earthsoil-1-0-soil,og-buginese,soil,t a n a
+abvd-48-120_stone-1-0-stone,og-buginese,stone,b a t u
+abvd-48-121_sand-1-0-sand,og-buginese,sand,k ə ss i ʔ
+abvd-48-122_water-1-0-water,og-buginese,water,u a e
+abvd-48-124_sea-1-0-sea,og-buginese,sea,t a s i ʔ
+abvd-48-125_salt-1-0-salt,og-buginese,salt,p ə jj e
+abvd-48-127_woodsforest-1-0-forest,og-buginese,forest,a l ə ʔ
+abvd-48-128_sky-1-0-sky,og-buginese,sky,l a ŋ i
+abvd-48-129_moon-1-0-moon,og-buginese,moon,w u l ə ŋ
+abvd-48-129_moon-2-0-moon,og-buginese,moon,u l ə ŋ
+abvd-48-130_star-1-0-star,og-buginese,star,w i tt a i ŋ
+abvd-48-130_star-2-0-star,og-buginese,star,w i tt u i ŋ
+abvd-48-131_cloud-1-0-cloud,og-buginese,cloud,ə ll u ŋ
+abvd-48-133_rain-1-0-rain,og-buginese,rain,b o s i
+abvd-48-136_wind-1-0-wind,og-buginese,wind,a ŋ i ŋ
+abvd-48-139_cold-1-0-cold,og-buginese,cold,m a k ə cc e ʔ
+abvd-48-140_dry-1-0-dry,og-buginese,dry,m a r a kk o
+abvd-48-143_fire-1-0-fire,og-buginese,fire,a p i
+abvd-48-145_smoke-1-0-smoke,og-buginese,smoke,r u m p u
+abvd-48-146_ashes-1-0-ash,og-buginese,ash,a w u
+abvd-48-147_black-1-0-black,og-buginese,black,m a l o t o ŋ
+abvd-48-148_white-1-0-white,og-buginese,white,m a p u t e
+abvd-48-149_red-1-0-red,og-buginese,red,m a c ə ll a ʔ
+abvd-48-150_yellow-1-0-yellow,og-buginese,yellow,m a r i d i
+abvd-48-151_green-1-0-green,og-buginese,green,m a k u d a r a ʔ
+abvd-48-152_small-1-0-small,og-buginese,small,m a b i cc u ʔ
+abvd-48-152_small-2-0-small,og-buginese,small,m a r ə nn i ʔ
+abvd-48-153_big-1-0-big,og-buginese,big,m a r a j a
+abvd-48-154_short-1-0-short,og-buginese,short,m a p o n c o ʔ
+abvd-48-155_long-1-0-long,og-buginese,long,m a l a m p e
+abvd-48-156_thin-1-0-thin,og-buginese,thin,m a n i p i
+abvd-48-163_new-1-0-new,og-buginese,new,m a b a r u
+abvd-48-164_good-1-0-good,og-buginese,good,m a d e c e ŋ
+abvd-48-167_night-1-0-night,og-buginese,night,w ə nn i
+abvd-48-175_above-1-0-above,og-buginese,above,r i a s e ʔ
+abvd-48-175_above-2-0-above,og-buginese,above,y a s é ʔ
+abvd-48-176_below-1-0-below,og-buginese,below,r i a w a
+abvd-48-176_below-2-0-below,og-buginese,below,y a w a
+abvd-48-177_this-1-0-this,og-buginese,this,i a e
+abvd-48-179_near-1-0-near,og-buginese,near,m a c a w e ʔ
+abvd-48-180_far-1-0-far,og-buginese,far,m a b e l a
+abvd-48-181_where-1-0-where,og-buginese,where,k e g i
+abvd-48-182_i-1-0-1sg,og-buginese,1sg,i a ʔ
+abvd-48-183_thou-1-0-2sg_informal,og-buginese,2sg_informal,i k o
+abvd-48-188_what-1-0-what,og-buginese,what,a g a
+abvd-48-189_who-1-0-who,og-buginese,who,n i g a
+abvd-48-191_all-1-0-all,og-buginese,all,m a n ə ŋ
+abvd-48-194_how-1-0-how,og-buginese,how,p e k u a
+abvd-48-195_nonot-1-0-no_not,og-buginese,no_not,d e
+abvd-48-197_one-1-0-one,og-buginese,one,s e ʔ d i
+abvd-48-198_two-1-0-two,og-buginese,two,d u a
+abvd-48-199_three-1-0-three,og-buginese,three,t ə ll u
+abvd-48-200_four-1-0-four,og-buginese,four,ə pp a
+abvd-48-201_five-1-0-five,og-buginese,five,l i m a
+abvd-48-202_six-1-0-six,og-buginese,six,ə nn ə ŋ
+abvd-48-203_seven-1-0-seven,og-buginese,seven,f i t u
+abvd-48-204_eight-1-0-eight,og-buginese,eight,a r u a
+abvd-48-205_nine-1-0-nine,og-buginese,nine,a s e r a
+abvd-48-206_ten-1-0-ten,og-buginese,ten,s ə pp u l o
+abvd-48-207_twenty-1-0-twenty,og-buginese,twenty,d u a pp u l o
+abvd-48-209_onehundred-1-0-one_hundred,og-buginese,one_hundred,s ə r a t uu
+abvd-48-210_onethousand-1-0-thousand,og-buginese,thousand,s i s ə bb u
+abvd-84-1_hand-1-0-hand,og-manggarai,hand,l i m é
+abvd-84-5_towalk-1-0-to_walk,og-manggarai,to_walk,l a k o
+abvd-84-7_tocome-1-0-to_come,og-manggarai,to_come,c a i
+abvd-84-7_tocome-2-0-to_come,og-manggarai,to_come,m a i
+abvd-84-9_toswim-1-0-to_swim,og-manggarai,to_swim,a ŋ i ŋ
+abvd-84-12_skin-1-0-skin,og-manggarai,skin,l o k é
+abvd-84-15_bone-1-0-bone,og-manggarai,bone,t o k o
+abvd-84-17_liver-1-0-liver,og-manggarai,liver,a t i
+abvd-84-24_head-1-0-head,og-manggarai,head,u l u
+abvd-84-25_neck-1-0-neck,og-manggarai,neck,b o k a k
+abvd-84-26_hair-1-0-hair,og-manggarai,hair,w u k
+abvd-84-27_nose-1-0-nose,og-manggarai,nose,i s u ŋ
+abvd-84-30_mouth-1-0-mouth,og-manggarai,mouth,m u ʔ u
+abvd-84-31_tooth-1-0-teeth,og-manggarai,teeth,ŋ i s
+abvd-84-32_tongue-1-0-tongue,og-manggarai,tongue,l e m a
+abvd-84-33_tolaugh-1-0-to_laugh,og-manggarai,to_laugh,t a w a
+abvd-84-34_tocry-1-0-to_cry,og-manggarai,to_cry,r é t a ŋ
+abvd-84-35_tovomit-1-0-to_vomit,og-manggarai,to_vomit,r o a
+abvd-84-36_tospit-1-0-to_spit,og-manggarai,to_spit,i p o
+abvd-84-37_toeat-1-0-to_eat,og-manggarai,to_eat,h a ŋ
+abvd-84-40_todrink-1-0-to_drink,og-manggarai,to_drink,i n u ŋ
+abvd-84-41_tobite-1-0-to_bite,og-manggarai,to_bite,a k i t
+abvd-84-43_ear-1-0-ear,og-manggarai,ear,t i l u
+abvd-84-44_tohear-1-0-to_hear,og-manggarai,to_hear,d e ŋ é
+abvd-84-45_eye-1-0-eye,og-manggarai,eye,m a t a
+abvd-84-46_tosee-1-0-to_see,og-manggarai,to_see,l e l o
+abvd-84-48_tosleep-1-0-to_sleep,og-manggarai,to_sleep,t o k o
+abvd-84-51_tosit-1-0-to_sit,og-manggarai,to_sit,l o n t o
+abvd-84-52_tostand-1-0-to_stand,og-manggarai,to_stand,h e s é
+abvd-84-53_personhumanbeing-1-0-person,og-manggarai,person,a t a
+abvd-84-56_child-1-0-child,og-manggarai,child,a n a k
+abvd-84-57_husband-1-0-husband,og-manggarai,husband,r o n a
+abvd-84-58_wife-1-0-wife,og-manggarai,wife,w i n a
+abvd-84-59_mother-1-0-mother,og-manggarai,mother,e n d e
+abvd-84-60_father-1-0-father,og-manggarai,father,e m a
+abvd-84-61_house-1-0-house,og-manggarai,house,m b a r u
+abvd-84-63_name-1-0-name,og-manggarai,name,ŋ a s a ŋ
+abvd-84-65_rope-1-0-rope,og-manggarai,rope,w a s e
+abvd-84-65_rope-2-0-rope,og-manggarai,rope,t a l i
+abvd-84-74_tokill-1-0-to_kill,og-manggarai,to_kill,m b e l e
+abvd-84-95_tofall-1-0-to_fall_from_above,og-manggarai,to_fall_from_above,p a ʔ u
+abvd-84-96_dog-1-0-dog,og-manggarai,dog,a c u
+abvd-84-97_bird-1-0-bird,og-manggarai,bird,k a k a
+abvd-84-98_egg-1-0-egg,og-manggarai,egg,r u h a
+abvd-84-98_egg-2-0-egg,og-manggarai,egg,t e l o
+abvd-84-101_tofly-1-0-to_fly,og-manggarai,to_fly,l é l a p
+abvd-84-105_tail-1-0-tail,og-manggarai,tail,i k o
+abvd-84-106_snake-1-0-snake,og-manggarai,snake,u l a r
+abvd-84-111_fish-1-0-fish,og-manggarai,fish,i k a ŋ
+abvd-84-112_rotten-1-0-rotten,og-manggarai,rotten,w a u
+abvd-84-114_leaf-1-0-leaf,og-manggarai,leaf,s a u ŋ
+abvd-84-115_root-1-0-root,og-manggarai,root,w a k e
+abvd-84-116_flower-1-0-flower,og-manggarai,flower,w e l a
+abvd-84-117_fruit-1-0-fruit,og-manggarai,fruit,w u a
+abvd-84-119_earthsoil-1-0-soil,og-manggarai,soil,t a n a
+abvd-84-120_stone-1-0-stone,og-manggarai,stone,w a t u
+abvd-84-121_sand-1-0-sand,og-manggarai,sand,l a i ŋ
+abvd-84-122_water-1-0-water,og-manggarai,water,w a é
+abvd-84-124_sea-1-0-sea,og-manggarai,sea,t a c i k
+abvd-84-125_salt-1-0-salt,og-manggarai,salt,c i ʔ e
+abvd-84-127_woodsforest-1-0-forest,og-manggarai,forest,p u a r
+abvd-84-128_sky-1-0-sky,og-manggarai,sky,a w a ŋ
+abvd-84-128_sky-2-0-sky,og-manggarai,sky,l a ŋ i t
+abvd-84-129_moon-1-0-moon,og-manggarai,moon,w u l a ŋ
+abvd-84-130_star-1-0-star,og-manggarai,star,n t a l a
+abvd-84-131_cloud-1-0-cloud,og-manggarai,cloud,r e w u ŋ
+abvd-84-133_rain-1-0-rain,og-manggarai,rain,u s a ŋ
+abvd-84-136_wind-1-0-wind,og-manggarai,wind,b u r u
+abvd-84-139_cold-1-0-cold,og-manggarai,cold,m e n e s
+abvd-84-140_dry-1-0-dry,og-manggarai,dry,d a ŋ o
+abvd-84-143_fire-1-0-fire,og-manggarai,fire,a p i
+abvd-84-145_smoke-1-0-smoke,og-manggarai,smoke,n u s
+abvd-84-146_ashes-1-0-ash,og-manggarai,ash,r a w u k
+abvd-84-147_black-1-0-black,og-manggarai,black,m i t e ŋ
+abvd-84-148_white-1-0-white,og-manggarai,white,b a k o k
+abvd-84-149_red-1-0-red,og-manggarai,red,n d e r a ŋ
+abvd-84-150_yellow-1-0-yellow,og-manggarai,yellow,l e r o s
+abvd-84-150_yellow-2-0-yellow,og-manggarai,yellow,t é ʔ é
+abvd-84-151_green-1-0-green,og-manggarai,green,t a ʔ a
+abvd-84-152_small-1-0-small,og-manggarai,small,k o é
+abvd-84-153_big-1-0-big,og-manggarai,big,m és é
+abvd-84-154_short-1-0-short,og-manggarai,short,w o k o k
+abvd-84-155_long-1-0-long,og-manggarai,long,l é w é
+abvd-84-156_thin-1-0-thin,og-manggarai,thin,l a r o ŋ
+abvd-84-156_thin-2-0-thin,og-manggarai,thin,m i p i s
+abvd-84-163_new-1-0-new,og-manggarai,new,w e r u
+abvd-84-164_good-1-0-good,og-manggarai,good,d i a
+abvd-84-167_night-1-0-night,og-manggarai,night,w i e
+abvd-84-175_above-1-0-above,og-manggarai,above,é t a
+abvd-84-176_below-1-0-below,og-manggarai,below,w a
+abvd-84-177_this-1-0-this,og-manggarai,this,h o ʔ o
+abvd-84-179_near-1-0-near,og-manggarai,near,b a l i ŋ
+abvd-84-180_far-1-0-far,og-manggarai,far,o l u
+abvd-84-181_where-1-0-where,og-manggarai,where,b a t é
+abvd-84-182_i-1-0-1sg,og-manggarai,1sg,a k u
+abvd-84-183_thou-1-0-2sg_informal,og-manggarai,2sg_informal,h a u
+abvd-84-188_what-1-0-what,og-manggarai,what,a p a
+abvd-84-189_who-1-0-who,og-manggarai,who,c e i ŋ
+abvd-84-191_all-1-0-all,og-manggarai,all,s a ŋ g a n t a u ŋ
+abvd-84-194_how-1-0-how,og-manggarai,how,c o ʔ o
+abvd-84-195_nonot-1-0-no_not,og-manggarai,no_not,t o a
+abvd-84-197_one-1-0-one,og-manggarai,one,c a
+abvd-84-198_two-1-0-two,og-manggarai,two,s u a
+abvd-84-199_three-1-0-three,og-manggarai,three,t e l u
+abvd-84-200_four-1-0-four,og-manggarai,four,p a t
+abvd-84-201_five-1-0-five,og-manggarai,five,l i m a
+abvd-84-202_six-1-0-six,og-manggarai,six,e n e m
+abvd-84-203_seven-1-0-seven,og-manggarai,seven,p i t u
+abvd-84-204_eight-1-0-eight,og-manggarai,eight,a l o
+abvd-84-205_nine-1-0-nine,og-manggarai,nine,c i o k
+abvd-84-206_ten-1-0-ten,og-manggarai,ten,c e m p u l u
+abvd-84-207_twenty-1-0-twenty,og-manggarai,twenty,s u a m p u l u
+abvd-84-209_onehundred-1-0-one_hundred,og-manggarai,one_hundred,c e r a t u s
+abvd-84-210_onethousand-1-0-thousand,og-manggarai,thousand,c e s e b u
+abvd-269-1_hand-1-0-hand,og-pmp,hand,q a l i m a
+abvd-269-5_towalk-1-0-to_walk,og-pmp,to_walk,l a k a w
+abvd-269-5_towalk-2-0-to_walk,og-pmp,to_walk,p a ñ a w
+abvd-269-7_tocome-1-0-to_come,og-pmp,to_come,m a R i
+abvd-269-9_toswim-1-0-to_swim,og-pmp,to_swim,l a ŋ u y
+abvd-269-9_toswim-2-0-to_swim,og-pmp,to_swim,n a ŋ u y
+abvd-269-12_skin-1-0-skin,og-pmp,skin,k u l i t
+abvd-269-15_bone-1-0-bone,og-pmp,bone,t u q ə l a n
+abvd-269-15_bone-2-0-bone,og-pmp,bone,t u q ə l a ŋ
+abvd-269-17_liver-1-0-liver,og-pmp,liver,q a t a y
+abvd-269-23_blood-1-0-blood,og-pmp,blood,d a R a q
+abvd-269-24_head-1-0-head,og-pmp,head,q u l u
+abvd-269-25_neck-1-0-neck,og-pmp,neck,l i q ə R
+abvd-269-26_hair-1-0-hair,og-pmp,hair,b u h ə k
+abvd-269-27_nose-1-0-nose,og-pmp,nose,i j u ŋ
+abvd-269-27_nose-2-0-nose,og-pmp,nose,u j u ŋ
+abvd-269-30_mouth-1-0-mouth,og-pmp,mouth,b a q b a q
+abvd-269-31_tooth-1-0-teeth,og-pmp,teeth,i p ə n
+abvd-269-31_tooth-2-0-teeth,og-pmp,teeth,n i p ə n
+abvd-269-32_tongue-1-0-tongue,og-pmp,tongue,d i l a q
+abvd-269-32_tongue-2-0-tongue,og-pmp,tongue,h ə m a
+abvd-269-33_tolaugh-1-0-to_laugh,og-pmp,to_laugh,t a w a
+abvd-269-34_tocry-1-0-to_cry,og-pmp,to_cry,t a ŋ i s
+abvd-269-35_tovomit-1-0-to_vomit,og-pmp,to_vomit,u t a q
+abvd-269-36_tospit-1-0-to_spit,og-pmp,to_spit,l u z a q
+abvd-269-37_toeat-1-0-to_eat,og-pmp,to_eat,k a ə n
+abvd-269-40_todrink-1-0-to_drink,og-pmp,to_drink,i n u m
+abvd-269-41_tobite-1-0-to_bite,og-pmp,to_bite,k a R a t
+abvd-269-43_ear-1-0-ear,og-pmp,ear,t a l i ŋ a
+abvd-269-44_tohear-1-0-to_hear,og-pmp,to_hear,d ə ŋ ə R
+abvd-269-45_eye-1-0-eye,og-pmp,eye,m a t a
+abvd-269-46_tosee-1-0-to_see,og-pmp,to_see,k i t a
+abvd-269-48_tosleep-1-0-to_sleep,og-pmp,to_sleep,t i d u R
+abvd-269-48_tosleep-2-0-to_sleep,og-pmp,to_sleep,t u d u R
+abvd-269-51_tosit-1-0-to_sit,og-pmp,to_sit,t u d a n
+abvd-269-52_tostand-1-0-to_stand,og-pmp,to_stand,d i R i
+abvd-269-52_tostand-2-0-to_stand,og-pmp,to_stand,t u q u d
+abvd-269-53_personhumanbeing-1-0-person,og-pmp,person,t a u
+abvd-269-56_child-1-0-child,og-pmp,child,a n a k
+abvd-269-57_husband-1-0-husband,og-pmp,husband,b a n a
+abvd-269-57_husband-2-0-husband,og-pmp,husband,q a s a w a
+abvd-269-58_wife-1-0-wife,og-pmp,wife,q a s a w a
+abvd-269-59_mother-1-0-mother,og-pmp,mother,t i n a
+abvd-269-60_father-1-0-father,og-pmp,father,t a m a
+abvd-269-61_house-1-0-house,og-pmp,house,R u m a q
+abvd-269-61_house-2-0-house,og-pmp,house,b a l a y
+abvd-269-61_house-3-0-house,og-pmp,house,b a n u a
+abvd-269-63_name-1-0-name,og-pmp,name,ŋ a j a n
+abvd-269-65_rope-1-0-rope,og-pmp,rope,t a l i h
+abvd-269-74_tokill-1-0-to_kill,og-pmp,to_kill,b u n u q
+abvd-269-95_tofall-1-0-to_fall_from_above,og-pmp,to_fall_from_above,n a b u q
+abvd-269-96_dog-1-0-dog,og-pmp,dog,a s u
+abvd-269-97_bird-1-0-bird,og-pmp,bird,m a n u k
+abvd-269-97_bird-2-0-bird,og-pmp,bird,q a y a m
+abvd-269-98_egg-1-0-egg,og-pmp,egg,q a t ə l u R
+abvd-269-98_egg-2-0-egg,og-pmp,egg,q i t ə l u R
+abvd-269-101_tofly-1-0-to_fly,og-pmp,to_fly,R ə b ə k
+abvd-269-101_tofly-2-0-to_fly,og-pmp,to_fly,l a y a p
+abvd-269-104_fatgrease-1-0-fat,og-pmp,fat,m ə n a k
+abvd-269-104_fatgrease-2-0-fat,og-pmp,fat,h i m a R
+abvd-269-104_fatgrease-3-0-fat,og-pmp,fat,m i n a k
+abvd-269-105_tail-1-0-tail,og-pmp,tail,i k u R
+abvd-269-106_snake-1-0-snake,og-pmp,snake,n i p a y
+abvd-269-106_snake-2-0-snake,og-pmp,snake,h u l a R
+abvd-269-111_fish-1-0-fish,og-pmp,fish,h i k a n
+abvd-269-112_rotten-1-0-rotten,og-pmp,rotten,m a b u R u k
+abvd-269-112_rotten-2-0-rotten,og-pmp,rotten,m a b u s u k
+abvd-269-114_leaf-1-0-leaf,og-pmp,leaf,d a h u n
+abvd-269-115_root-1-0-root,og-pmp,root,u R a t
+abvd-269-115_root-2-0-root,og-pmp,root,w a k a R
+abvd-269-116_flower-1-0-flower,og-pmp,flower,b u ŋ a
+abvd-269-117_fruit-1-0-fruit,og-pmp,fruit,b u a q
+abvd-269-119_earthsoil-1-0-soil,og-pmp,soil,t a n a q
+abvd-269-119_earthsoil-2-0-soil,og-pmp,soil,t a n ə q
+abvd-269-120_stone-1-0-stone,og-pmp,stone,b a t u
+abvd-269-121_sand-1-0-sand,og-pmp,sand,q ə n a y
+abvd-269-122_water-1-0-water,og-pmp,water,d a n u m
+abvd-269-122_water-2-0-water,og-pmp,water,w a h i R
+abvd-269-124_sea-1-0-sea,og-pmp,sea,t a s i k
+abvd-269-124_sea-2-0-sea,og-pmp,sea,l a u d
+abvd-269-125_salt-1-0-salt,og-pmp,salt,q a s i R a
+abvd-269-125_salt-2-0-salt,og-pmp,salt,t i m u s
+abvd-269-127_woodsforest-1-0-forest,og-pmp,forest,a l a s
+abvd-269-127_woodsforest-2-0-forest,og-pmp,forest,k a h i w k a h i w a n
+abvd-269-128_sky-1-0-sky,og-pmp,sky,l a ŋ i t
+abvd-269-129_moon-1-0-moon,og-pmp,moon,b u l a n
+abvd-269-130_star-1-0-star,og-pmp,star,b i t u q ə n
+abvd-269-131_cloud-1-0-cloud,og-pmp,cloud,R a b u n
+abvd-269-133_rain-1-0-rain,og-pmp,rain,q u z a n
+abvd-269-136_wind-1-0-wind,og-pmp,wind,h a ŋ i n
+abvd-269-139_cold-1-0-cold,og-pmp,cold,m a d i ŋ d i ŋ
+abvd-269-140_dry-1-0-dry,og-pmp,dry,m a R a ŋ a w
+abvd-269-143_fire-1-0-fire,og-pmp,fire,h a p u y
+abvd-269-145_smoke-1-0-smoke,og-pmp,smoke,q ə b ə l
+abvd-269-145_smoke-2-0-smoke,og-pmp,smoke,q a s u
+abvd-269-146_ashes-1-0-ash,og-pmp,ash,q a b u
+abvd-269-147_black-1-0-black,og-pmp,black,m a q i t ə m
+abvd-269-148_white-1-0-white,og-pmp,white,m a p u t i q
+abvd-269-149_red-1-0-red,og-pmp,red,m a i R a q
+abvd-269-150_yellow-1-0-yellow,og-pmp,yellow,m a k u n i j
+abvd-269-151_green-1-0-green,og-pmp,green,m a t a q
+abvd-269-152_small-1-0-small,og-pmp,small,d i k i q
+abvd-269-152_small-2-0-small,og-pmp,small,k ə d i
+abvd-269-153_big-1-0-big,og-pmp,big,m a R a y a
+abvd-269-154_short-1-0-short,og-pmp,short,m a b a b a q
+abvd-269-155_long-1-0-long,og-pmp,long,a n a d u q
+abvd-269-156_thin-1-0-thin,og-pmp,thin,m a n i p i s
+abvd-269-163_new-1-0-new,og-pmp,new,m a b a q ə R u
+abvd-269-164_good-1-0-good,og-pmp,good,m a p i a
+abvd-269-167_night-1-0-night,og-pmp,night,b ə R ŋ i
+abvd-269-175_above-1-0-above,og-pmp,above,i t a q a s
+abvd-269-175_above-2-0-above,og-pmp,above,i b a b a w
+abvd-269-176_below-1-0-below,og-pmp,below,i
+abvd-269-177_this-1-0-this,og-pmp,this,i
+abvd-269-179_near-1-0-near,og-pmp,near,m a a z a n i
+abvd-269-180_far-1-0-far,og-pmp,far,m a z a u q
+abvd-269-181_where-1-0-where,og-pmp,where,i
+abvd-269-182_i-1-0-1sg,og-pmp,1sg,i a k u
+abvd-269-183_thou-1-0-2sg_informal,og-pmp,2sg_informal,i k a h u
+abvd-269-188_what-1-0-what,og-pmp,what,a p a
+abvd-269-188_what-2-0-what,og-pmp,what,a n u
+abvd-269-189_who-1-0-who,og-pmp,who,i s a i
+abvd-269-191_all-1-0-all,og-pmp,all,a m i n
+abvd-269-194_how-1-0-how,og-pmp,how,k u j a
+abvd-269-194_how-2-0-how,og-pmp,how,k u a
+abvd-269-195_nonot-1-0-no_not,og-pmp,no_not,q a z i
+abvd-269-195_nonot-2-0-no_not,og-pmp,no_not,d i a q
+abvd-269-197_one-1-0-one,og-pmp,one,ə s a
+abvd-269-197_one-2-0-one,og-pmp,one,i s a
+abvd-269-198_two-1-0-two,og-pmp,two,d u h a
+abvd-269-199_three-1-0-three,og-pmp,three,t ə l u
+abvd-269-200_four-1-0-four,og-pmp,four,ə p a t
+abvd-269-201_five-1-0-five,og-pmp,five,l i m a
+abvd-277-1_hand-1-0-hand,og-tagalog,hand,k a m á y
+abvd-277-5_towalk-1-0-to_walk,og-tagalog,to_walk,l u m á k a d
+abvd-277-7_tocome-1-0-to_come,og-tagalog,to_come,d a t í ŋ
+abvd-277-9_toswim-1-0-to_swim,og-tagalog,to_swim,l u m a n g ó y
+abvd-277-12_skin-1-0-skin,og-tagalog,skin,b a l á t
+abvd-277-15_bone-1-0-bone,og-tagalog,bone,b u t ó
+abvd-277-17_liver-1-0-liver,og-tagalog,liver,a t á y
+abvd-277-23_blood-1-0-blood,og-tagalog,blood,d u g ó q
+abvd-277-24_head-1-0-head,og-tagalog,head,ú l o
+abvd-277-25_neck-1-0-neck,og-tagalog,neck,l i q í g
+abvd-277-26_hair-1-0-hair,og-tagalog,hair,b u h ó k
+abvd-277-27_nose-1-0-nose,og-tagalog,nose,i l óŋ
+abvd-277-30_mouth-1-0-mouth,og-tagalog,mouth,b i b í g
+abvd-277-31_tooth-1-0-teeth,og-tagalog,teeth,ŋ í p i n
+abvd-277-32_tongue-1-0-tongue,og-tagalog,tongue,d í l a q
+abvd-277-33_tolaugh-1-0-to_laugh,og-tagalog,to_laugh,t u m á w a
+abvd-277-34_tocry-1-0-to_cry,og-tagalog,to_cry,u m i y á k
+abvd-277-35_tovomit-1-0-to_vomit,og-tagalog,to_vomit,s u m ú k a
+abvd-277-36_tospit-1-0-to_spit,og-tagalog,to_spit,l u m u r á q
+abvd-277-36_tospit-2-0-to_spit,og-tagalog,to_spit,d u m u r á q
+abvd-277-37_toeat-1-0-to_eat,og-tagalog,to_eat,k u m á i n
+abvd-277-40_todrink-1-0-to_drink,og-tagalog,to_drink,u m i n ó m
+abvd-277-41_tobite-1-0-to_bite,og-tagalog,to_bite,k a g a t í n
+abvd-277-43_ear-1-0-ear,og-tagalog,ear,t a q i ŋ a
+abvd-277-44_tohear-1-0-to_hear,og-tagalog,to_hear,m a k i n í g
+abvd-277-45_eye-1-0-eye,og-tagalog,eye,m a t á
+abvd-277-46_tosee-1-0-to_see,og-tagalog,to_see,m a k í t a
+abvd-277-46_tosee-2-0-to_see,og-tagalog,to_see,t u m i ŋ í n
+abvd-277-48_tosleep-1-0-to_sleep,og-tagalog,to_sleep,t ú l u g
+abvd-277-51_tosit-1-0-to_sit,og-tagalog,to_sit,u m u p ó q
+abvd-277-51_tosit-2-0-to_sit,og-tagalog,to_sit,t u m i r á
+abvd-277-52_tostand-1-0-to_stand,og-tagalog,to_stand,t u m i n d í g
+abvd-277-53_personhumanbeing-1-0-person,og-tagalog,person,t aː o
+abvd-277-56_child-1-0-child,og-tagalog,child,a n á k
+abvd-277-57_husband-1-0-husband,og-tagalog,husband,a s á w a ŋ l a l á k i
+abvd-277-58_wife-1-0-wife,og-tagalog,wife,a s á w a ŋ b a b á q i
+abvd-277-59_mother-1-0-mother,og-tagalog,mother,i n á
+abvd-277-60_father-1-0-father,og-tagalog,father,a m á
+abvd-277-61_house-1-0-house,og-tagalog,house,b á h a y
+abvd-277-63_name-1-0-name,og-tagalog,name,p a ŋ á l a n
+abvd-277-65_rope-1-0-rope,og-tagalog,rope,t á l i q
+abvd-277-74_tokill-1-0-to_kill,og-tagalog,to_kill,m a g p a t á y
+abvd-277-95_tofall-1-0-to_fall_from_above,og-tagalog,to_fall_from_above,m a h ú l o g
+abvd-277-96_dog-1-0-dog,og-tagalog,dog,á s o
+abvd-277-97_bird-1-0-bird,og-tagalog,bird,ī b o n
+abvd-277-98_egg-1-0-egg,og-tagalog,egg,i t l ó g
+abvd-277-101_tofly-1-0-to_fly,og-tagalog,to_fly,l u m i p á d
+abvd-277-104_fatgrease-1-0-fat,og-tagalog,fat,t a b á q
+abvd-277-105_tail-1-0-tail,og-tagalog,tail,b u n t ó t
+abvd-277-106_snake-1-0-snake,og-tagalog,snake,á h a s
+abvd-277-111_fish-1-0-fish,og-tagalog,fish,i s d á q
+abvd-277-112_rotten-1-0-rotten,og-tagalog,rotten,m a b á h o q
+abvd-277-114_leaf-1-0-leaf,og-tagalog,leaf,d á h o n
+abvd-277-115_root-1-0-root,og-tagalog,root,u g á t
+abvd-277-116_flower-1-0-flower,og-tagalog,flower,b u l a k l á k
+abvd-277-117_fruit-1-0-fruit,og-tagalog,fruit,b u ŋ á
+abvd-277-119_earthsoil-1-0-soil,og-tagalog,soil,l ú p a q
+abvd-277-120_stone-1-0-stone,og-tagalog,stone,b a t ú
+abvd-277-121_sand-1-0-sand,og-tagalog,sand,p á s i g
+abvd-277-121_sand-2-0-sand,og-tagalog,sand,b u h á ŋ i n
+abvd-277-122_water-1-0-water,og-tagalog,water,t ú b i g
+abvd-277-124_sea-1-0-sea,og-tagalog,sea,l á u d
+abvd-277-124_sea-2-0-sea,og-tagalog,sea,d a g a t
+abvd-277-125_salt-1-0-salt,og-tagalog,salt,a s í n
+abvd-277-127_woodsforest-1-0-forest,og-tagalog,forest,g ú b a t
+abvd-277-128_sky-1-0-sky,og-tagalog,sky,l á ŋ i t
+abvd-277-129_moon-1-0-moon,og-tagalog,moon,b u w á n
+abvd-277-130_star-1-0-star,og-tagalog,star,b i t u q í n
+abvd-277-131_cloud-1-0-cloud,og-tagalog,cloud,ú l a p
+abvd-277-133_rain-1-0-rain,og-tagalog,rain,u l á n
+abvd-277-136_wind-1-0-wind,og-tagalog,wind,h á ŋ i ŋ
+abvd-277-139_cold-1-0-cold,og-tagalog,cold,m a l a m í g
+abvd-277-140_dry-1-0-dry,og-tagalog,dry,t u y ó q
+abvd-277-143_fire-1-0-fire,og-tagalog,fire,a p ó y
+abvd-277-145_smoke-1-0-smoke,og-tagalog,smoke,h u m i th í t
+abvd-277-145_smoke-2-0-smoke,og-tagalog,smoke,ú s o k
+abvd-277-146_ashes-1-0-ash,og-tagalog,ash,a b ú
+abvd-277-147_black-1-0-black,og-tagalog,black,i t í m
+abvd-277-148_white-1-0-white,og-tagalog,white,p u t i q
+abvd-277-149_red-1-0-red,og-tagalog,red,p u l á
+abvd-277-150_yellow-1-0-yellow,og-tagalog,yellow,d i l á w
+abvd-277-151_green-2-0-green,og-tagalog,green,l u n t i a n
+abvd-277-152_small-1-0-small,og-tagalog,small,m a l i q í t
+abvd-277-153_big-1-0-big,og-tagalog,big,m a l a k í
+abvd-277-154_short-1-0-short,og-tagalog,short,p a n d á k
+abvd-277-155_long-1-0-long,og-tagalog,long,m a h á b a q
+abvd-277-156_thin-1-0-thin,og-tagalog,thin,m a n i p í s
+abvd-277-163_new-1-0-new,og-tagalog,new,b á g o
+abvd-277-164_good-1-0-good,og-tagalog,good,m a b ú t i
+abvd-277-167_night-1-0-night,og-tagalog,night,g a b í
+abvd-277-175_above-1-0-above,og-tagalog,above,i t a q á s
+abvd-277-176_below-1-0-below,og-tagalog,below,i b a b á q
+abvd-277-177_this-1-0-this,og-tagalog,this,i t ó
+abvd-277-179_near-1-0-near,og-tagalog,near,m a l á p i t
+abvd-277-180_far-1-0-far,og-tagalog,far,m a l á y o q
+abvd-277-181_where-1-0-where,og-tagalog,where,s a q á n
+abvd-277-182_i-1-0-1sg,og-tagalog,1sg,a k ó
+abvd-277-183_thou-1-0-2sg_informal,og-tagalog,2sg_informal,k a y ó
+abvd-277-188_what-1-0-what,og-tagalog,what,a n ó
+abvd-277-189_who-1-0-who,og-tagalog,who,s í n o
+abvd-277-191_all-1-0-all,og-tagalog,all,l a h á t
+abvd-277-194_how-1-0-how,og-tagalog,how,p a p a q á n o
+abvd-277-195_nonot-1-0-no_not,og-tagalog,no_not,h i n d i q
+abvd-277-197_one-1-0-one,og-tagalog,one,i s á
+abvd-277-198_two-1-0-two,og-tagalog,two,d a l a w á
+abvd-277-199_three-1-0-three,og-tagalog,three,t a t l ó
+abvd-277-200_four-1-0-four,og-tagalog,four,á p a t
+abvd-277-201_five-1-0-five,og-tagalog,five,l í m a
+abvd-277-202_six-1-0-six,og-tagalog,six,á n i m
+abvd-277-202_six-2-0-six,og-tagalog,six,a n e m
+abvd-277-203_seven-1-0-seven,og-tagalog,seven,p i t ó
+abvd-277-204_eight-1-0-eight,og-tagalog,eight,w a l ó
+abvd-277-205_nine-1-0-nine,og-tagalog,nine,s i y á m
+abvd-277-206_ten-1-0-ten,og-tagalog,ten,s a m p ú '
+abvd-277-206_ten-2-0-ten,og-tagalog,ten,s a m p ú q
+abvd-277-207_twenty-1-0-twenty,og-tagalog,twenty,d a l a w a m p ú q
+abvd-277-209_onehundred-1-0-one_hundred,og-tagalog,one_hundred,i s á n g d a q á n
+abvd-277-210_onethousand-1-0-thousand,og-tagalog,thousand,i s á n g l í b o
+abvd-277-1_hand-2-0-hand,og-tagalog,hand,k a m a y
+abvd-277-5_towalk-2-0-to_walk,og-tagalog,to_walk,m a g l a k a d
+abvd-277-7_tocome-2-0-to_come,og-tagalog,to_come,p u m u n t a
+abvd-277-9_toswim-2-0-to_swim,og-tagalog,to_swim,l u m a n g o y
+abvd-277-12_skin-2-0-skin,og-tagalog,skin,b a l a t
+abvd-277-15_bone-2-0-bone,og-tagalog,bone,b u t o
+abvd-277-17_liver-2-0-liver,og-tagalog,liver,a t a y
+abvd-277-23_blood-2-0-blood,og-tagalog,blood,d u g o
+abvd-277-24_head-2-0-head,og-tagalog,head,u l o
+abvd-277-25_neck-2-0-neck,og-tagalog,neck,l ee g
+abvd-277-26_hair-2-0-hair,og-tagalog,hair,b u h o k
+abvd-277-27_nose-2-0-nose,og-tagalog,nose,i l o n g
+abvd-277-30_mouth-2-0-mouth,og-tagalog,mouth,b i b i g
+abvd-277-31_tooth-2-0-teeth,og-tagalog,teeth,n g i p i n
+abvd-277-32_tongue-2-0-tongue,og-tagalog,tongue,d i l a
+abvd-277-33_tolaugh-2-0-to_laugh,og-tagalog,to_laugh,t u m a w a
+abvd-277-34_tocry-2-0-to_cry,og-tagalog,to_cry,u m i y a k
+abvd-277-35_tovomit-2-0-to_vomit,og-tagalog,to_vomit,s u m u k a
+abvd-277-36_tospit-3-0-to_spit,og-tagalog,to_spit,d u m u r a
+abvd-277-37_toeat-2-0-to_eat,og-tagalog,to_eat,k u m a i n
+abvd-277-40_todrink-2-0-to_drink,og-tagalog,to_drink,u m i n o m
+abvd-277-41_tobite-2-0-to_bite,og-tagalog,to_bite,k u m a g a t
+abvd-277-43_ear-2-0-ear,og-tagalog,ear,t a i n g a
+abvd-277-44_tohear-2-0-to_hear,og-tagalog,to_hear,m a k i n i g
+abvd-277-45_eye-2-0-eye,og-tagalog,eye,m a t a
+abvd-277-46_tosee-3-0-to_see,og-tagalog,to_see,m a k i t a
+abvd-277-46_tosee-4-0-to_see,og-tagalog,to_see,t u m i n g i n
+abvd-277-48_tosleep-2-0-to_sleep,og-tagalog,to_sleep,m a t u l o g
+abvd-277-51_tosit-3-0-to_sit,og-tagalog,to_sit,u m u p o
+abvd-277-52_tostand-2-0-to_stand,og-tagalog,to_stand,t u m a y o
+abvd-277-53_personhumanbeing-2-0-person,og-tagalog,person,t a o
+abvd-277-56_child-2-0-child,og-tagalog,child,b a t a
+abvd-277-57_husband-2-0-husband,og-tagalog,husband,a s a w a n g l a l a k i
+abvd-277-58_wife-2-0-wife,og-tagalog,wife,s a s w a n g b a b a e
+abvd-277-59_mother-2-0-mother,og-tagalog,mother,i n a
+abvd-277-60_father-2-0-father,og-tagalog,father,a m a
+abvd-277-61_house-2-0-house,og-tagalog,house,bh a y
+abvd-277-63_name-2-0-name,og-tagalog,name,p a n g a l a n
+abvd-277-65_rope-2-0-rope,og-tagalog,rope,l u b i d
+abvd-277-74_tokill-2-0-to_kill,og-tagalog,to_kill,p u m a t a y
+abvd-277-95_tofall-2-0-to_fall_from_above,og-tagalog,to_fall_from_above,b u m a ks a k
+abvd-277-96_dog-2-0-dog,og-tagalog,dog,a s o
+abvd-277-97_bird-2-0-bird,og-tagalog,bird,i b o n
+abvd-277-98_egg-2-0-egg,og-tagalog,egg,i t l o g
+abvd-277-101_tofly-2-0-to_fly,og-tagalog,to_fly,l u m i p a d
+abvd-277-104_fatgrease-2-0-fat,og-tagalog,fat,t a b a
+abvd-277-105_tail-2-0-tail,og-tagalog,tail,b u n t o t
+abvd-277-106_snake-2-0-snake,og-tagalog,snake,a h a s
+abvd-277-111_fish-2-0-fish,og-tagalog,fish,i s d a
+abvd-277-112_rotten-2-0-rotten,og-tagalog,rotten,n a n g a m o y
+abvd-277-114_leaf-2-0-leaf,og-tagalog,leaf,d a h o n
+abvd-277-115_root-2-0-root,og-tagalog,root,u g a t
+abvd-277-116_flower-2-0-flower,og-tagalog,flower,b u l a k l a k
+abvd-277-117_fruit-2-0-fruit,og-tagalog,fruit,b u n g a
+abvd-277-119_earthsoil-2-0-soil,og-tagalog,soil,l u p a
+abvd-277-120_stone-2-0-stone,og-tagalog,stone,b a t o
+abvd-277-121_sand-3-0-sand,og-tagalog,sand,b u h a n g i n
+abvd-277-122_water-2-0-water,og-tagalog,water,t u b i g
+abvd-277-124_sea-3-0-sea,og-tagalog,sea,d a g a t
+abvd-277-125_salt-2-0-salt,og-tagalog,salt,a s i n
+abvd-277-127_woodsforest-2-0-forest,og-tagalog,forest,g u b a t
+abvd-277-128_sky-2-0-sky,og-tagalog,sky,l a n g i t
+abvd-277-129_moon-2-0-moon,og-tagalog,moon,b u w a n
+abvd-277-130_star-2-0-star,og-tagalog,star,b i t u i n
+abvd-277-131_cloud-2-0-cloud,og-tagalog,cloud,u l a p
+abvd-277-133_rain-2-0-rain,og-tagalog,rain,u l a n
+abvd-277-136_wind-2-0-wind,og-tagalog,wind,h a n g i n
+abvd-277-139_cold-2-0-cold,og-tagalog,cold,m a l a m i g
+abvd-277-140_dry-2-0-dry,og-tagalog,dry,t u y o
+abvd-277-140_dry-3-0-dry,og-tagalog,dry,t u m u y o
+abvd-277-143_fire-2-0-fire,og-tagalog,fire,a p o y
+abvd-277-143_fire-3-0-fire,og-tagalog,fire,s u n o g
+abvd-277-145_smoke-3-0-smoke,og-tagalog,smoke,u s o k
+abvd-277-146_ashes-2-0-ash,og-tagalog,ash,a b o
+abvd-277-147_black-2-0-black,og-tagalog,black,i t i m
+abvd-277-148_white-2-0-white,og-tagalog,white,p u t i
+abvd-277-149_red-2-0-red,og-tagalog,red,p u l a
+abvd-277-150_yellow-2-0-yellow,og-tagalog,yellow,d i l a w
+abvd-277-152_small-2-0-small,og-tagalog,small,m a l ii t
+abvd-277-153_big-2-0-big,og-tagalog,big,m a l a k i
+abvd-277-154_short-2-0-short,og-tagalog,short,m a i ks i
+abvd-277-155_long-2-0-long,og-tagalog,long,m a h a b a
+abvd-277-156_thin-2-0-thin,og-tagalog,thin,m a n i p i s
+abvd-277-163_new-2-0-new,og-tagalog,new,b a g o
+abvd-277-164_good-2-0-good,og-tagalog,good,m a b u t i
+abvd-277-167_night-2-0-night,og-tagalog,night,g a b i
+abvd-277-175_above-2-0-above,og-tagalog,above,i b a b a w
+abvd-277-175_above-3-0-above,og-tagalog,above,i t aa s
+abvd-277-176_below-2-0-below,og-tagalog,below,i l a l i m
+abvd-277-176_below-3-0-below,og-tagalog,below,i b a b a
+abvd-277-177_this-2-0-this,og-tagalog,this,i t o
+abvd-277-179_near-2-0-near,og-tagalog,near,m a l a p i t
+abvd-277-180_far-2-0-far,og-tagalog,far,m a l a y o
+abvd-277-181_where-2-0-where,og-tagalog,where,s aa n
+abvd-277-182_i-2-0-1sg,og-tagalog,1sg,a k o
+abvd-277-183_thou-2-0-2sg_informal,og-tagalog,2sg_informal,i k a w
+abvd-277-188_what-2-0-what,og-tagalog,what,a n o
+abvd-277-189_who-2-0-who,og-tagalog,who,s i n o
+abvd-277-191_all-2-0-all,og-tagalog,all,l a h a t
+abvd-277-194_how-2-0-how,og-tagalog,how,p aa n o
+abvd-277-195_nonot-2-0-no_not,og-tagalog,no_not,h i n d i
+abvd-277-197_one-2-0-one,og-tagalog,one,i s a
+abvd-277-198_two-2-0-two,og-tagalog,two,d a l a w a
+abvd-277-199_three-2-0-three,og-tagalog,three,t a t l o
+abvd-277-200_four-2-0-four,og-tagalog,four,a p a t
+abvd-277-201_five-2-0-five,og-tagalog,five,l i m a
+abvd-277-202_six-3-0-six,og-tagalog,six,a n i m
+abvd-277-203_seven-2-0-seven,og-tagalog,seven,p i t o
+abvd-277-204_eight-2-0-eight,og-tagalog,eight,w a l o
+abvd-277-205_nine-2-0-nine,og-tagalog,nine,s i y a m
+abvd-277-206_ten-3-0-ten,og-tagalog,ten,s a m p u
+abvd-277-207_twenty-2-0-twenty,og-tagalog,twenty,d a l a w a m p u
+abvd-277-209_onehundred-2-0-one_hundred,og-tagalog,one_hundred,i s a n d aa n
+abvd-277-210_onethousand-2-0-thousand,og-tagalog,thousand,i s a n l i b o
+abvd-999-1_hand-1-0-hand,og-uma,hand,p a l e
+abvd-999-5_towalk-1-0-to_walk,og-uma,to_walk,m a k o ʔ
+abvd-999-7_tocome-1-0-to_come,og-uma,to_come,r a t a
+abvd-999-9_toswim-1-0-to_swim,og-uma,to_swim,m o n a ŋ u
+abvd-999-12_skin-1-0-skin,og-uma,skin,k u l u m a
+abvd-999-15_bone-1-0-bone,og-uma,bone,β u k u
+abvd-999-17_liver-1-0-liver,og-uma,liver,a t e
+abvd-999-23_blood-1-0-blood,og-uma,blood,r aa ʔ
+abvd-999-24_head-1-0-head,og-uma,head,β oo ʔ
+abvd-999-25_neck-1-0-neck,og-uma,neck,β u r o k o ʔ
+abvd-999-26_hair-1-0-hair,og-uma,hair,β u l u β oo ʔ
+abvd-999-27_nose-1-0-nose,og-uma,nose,o ŋ e
+abvd-999-30_mouth-1-0-mouth,og-uma,mouth,ŋ a ŋ a
+abvd-999-30_mouth-2-0-mouth,og-uma,mouth,β i β i
+abvd-999-31_tooth-1-0-teeth,og-uma,teeth,ŋ i h i ʔ
+abvd-999-32_tongue-1-0-tongue,og-uma,tongue,j i l a ʔ
+abvd-999-33_tolaugh-1-0-to_laugh,og-uma,to_laugh,t a β a
+abvd-999-34_tocry-1-0-to_cry,og-uma,to_cry,g e o ʔ
+abvd-999-35_tovomit-1-0-to_vomit,og-uma,to_vomit,t e l u a ʔ
+abvd-999-36_tospit-1-0-to_spit,og-uma,to_spit,m e t i l i k u
+abvd-999-37_toeat-1-0-to_eat,og-uma,to_eat,ŋ k o n i ʔ
+abvd-999-40_todrink-1-0-to_drink,og-uma,to_drink,ŋ i n u
+abvd-999-41_tobite-1-0-to_bite,og-uma,to_bite,b e n č i ʔ
+abvd-999-43_ear-1-0-ear,og-uma,ear,t i l i ŋ a
+abvd-999-44_tohear-1-0-to_hear,og-uma,to_hear,e p e
+abvd-999-45_eye-1-0-eye,og-uma,eye,m a t a
+abvd-999-46_tosee-1-0-to_see,og-uma,to_see,h i l o
+abvd-999-48_tosleep-1-0-to_sleep,og-uma,to_sleep,l e t a ʔ
+abvd-999-51_tosit-1-0-to_sit,og-uma,to_sit,m o h u r a
+abvd-999-52_tostand-1-0-to_stand,og-uma,to_stand,m o k o r e
+abvd-999-53_personhumanbeing-1-0-person,og-uma,person,t a u n a
+abvd-999-56_child-1-0-child,og-uma,child,a n a ʔ
+abvd-999-57_husband-1-0-husband,og-uma,husband,t o m a n e
+abvd-999-58_wife-1-0-wife,og-uma,wife,t o b i n e
+abvd-999-59_mother-1-0-mother,og-uma,mother,t i n a
+abvd-999-60_father-1-0-father,og-uma,father,t u a m a
+abvd-999-61_house-1-0-house,og-uma,house,t o m i
+abvd-999-63_name-1-0-name,og-uma,name,h a ŋ a ʔ
+abvd-999-65_rope-1-0-rope,og-uma,rope,k o l o r o
+abvd-999-74_tokill-1-0-to_kill,og-uma,to_kill,p a t e h i
+abvd-999-95_tofall-1-0-to_fall_from_above,og-uma,to_fall_from_above,m o n a β u ʔ
+abvd-999-96_dog-1-0-dog,og-uma,dog,d i k e ʔ
+abvd-999-97_bird-1-0-bird,og-uma,bird,d a n č i
+abvd-999-98_egg-1-0-egg,og-uma,egg,n t o l u
+abvd-999-101_tofly-1-0-to_fly,og-uma,to_fly,n g k a l i m o k o
+abvd-999-101_tofly-2-0-to_fly,og-uma,to_fly,m e l i m o k o
+abvd-999-104_fatgrease-1-0-fat,og-uma,fat,b o k o
+abvd-999-104_fatgrease-2-0-fat,og-uma,fat,t a b a ʔ
+abvd-999-105_tail-1-0-tail,og-uma,tail,i k u
+abvd-999-106_snake-1-0-snake,og-uma,snake,u l e
+abvd-999-111_fish-1-0-fish,og-uma,fish,b a u ʔ
+abvd-999-111_fish-2-0-fish,og-uma,fish,u r u
+abvd-999-112_rotten-1-0-rotten,og-uma,rotten,p o p e
+abvd-999-114_leaf-1-0-leaf,og-uma,leaf,r a u
+abvd-999-115_root-1-0-root,og-uma,root,r a l i ʔ
+abvd-999-116_flower-1-0-flower,og-uma,flower,β u ŋ a
+abvd-999-117_fruit-1-0-fruit,og-uma,fruit,β u a ʔ
+abvd-999-119_earthsoil-1-0-soil,og-uma,soil,t a n a ʔ
+abvd-999-120_stone-1-0-stone,og-uma,stone,β a t u
+abvd-999-121_sand-1-0-sand,og-uma,sand,β o ʔ o n e
+abvd-999-122_water-1-0-water,og-uma,water,u e
+abvd-999-124_sea-1-0-sea,og-uma,sea,t a h i ʔ
+abvd-999-125_salt-1-0-salt,og-uma,salt,p o i ʔ
+abvd-999-127_woodsforest-1-0-forest,og-uma,forest,β a n a ʔ
+abvd-999-127_woodsforest-2-0-forest,og-uma,forest,p o n u l u
+abvd-999-127_woodsforest-3-0-forest,og-uma,forest,o m a
+abvd-999-128_sky-1-0-sky,og-uma,sky,l a ŋ i ʔ
+abvd-999-129_moon-1-0-moon,og-uma,moon,β u l a
+abvd-999-130_star-1-0-star,og-uma,star,b e t u e ʔ
+abvd-999-131_cloud-1-0-cloud,og-uma,cloud,l i m u ʔ
+abvd-999-133_rain-1-0-rain,og-uma,rain,u d a
+abvd-999-136_wind-1-0-wind,og-uma,wind,ŋ o l u ʔ
+abvd-999-139_cold-1-0-cold,og-uma,cold,m o l e ŋ i ʔ
+abvd-999-140_dry-1-0-dry,og-uma,dry,b a ŋ i
+abvd-999-143_fire-1-0-fire,og-uma,fire,a p u
+abvd-999-145_smoke-1-0-smoke,og-uma,smoke,r a ŋ a h u
+abvd-999-146_ashes-1-0-ash,og-uma,ash,a β u
+abvd-999-147_black-1-0-black,og-uma,black,m o ʔ e t a
+abvd-999-148_white-1-0-white,og-uma,white,b u l a
+abvd-999-149_red-1-0-red,og-uma,red,m o l e i
+abvd-999-150_yellow-1-0-yellow,og-uma,yellow,m o k u n i
+abvd-999-151_green-1-0-green,og-uma,green,m o l e β u e
+abvd-999-152_small-1-0-small,og-uma,small,k e d i ʔ
+abvd-999-153_big-1-0-big,og-uma,big,b o h e
+abvd-999-154_short-1-0-short,og-uma,short,d i ŋ k i ʔ
+abvd-999-154_short-2-0-short,og-uma,short,r e d e ʔ
+abvd-999-155_long-1-0-long,og-uma,long,m o l a ŋ a
+abvd-999-156_thin-1-0-thin,og-uma,thin,m o r e n i ʔ
+abvd-999-163_new-1-0-new,og-uma,new,b o ʔ u
+abvd-999-164_good-1-0-good,og-uma,good,l o m p e ʔ
+abvd-999-167_night-1-0-night,og-uma,night,b e ŋ i
+abvd-999-175_above-1-0-above,og-uma,above,h i l o l o
+abvd-999-176_below-1-0-below,og-uma,below,h i u n e ʔ
+abvd-999-177_this-1-0-this,og-uma,this,t o i
+abvd-999-177_this-2-0-this,og-uma,this,t o h e ʔ i
+abvd-999-179_near-1-0-near,og-uma,near,m o h u ʔ
+abvd-999-180_far-1-0-far,og-uma,far,m o l aa
+abvd-999-181_where-1-0-where,og-uma,where,h i a p a
+abvd-999-182_i-1-0-1sg,og-uma,1sg,a k u ʔ
+abvd-999-183_thou-1-0-2sg_informal,og-uma,2sg_informal,i k o
+abvd-999-188_what-1-0-what,og-uma,what,n a p a
+abvd-999-189_who-1-0-who,og-uma,who,h e m a
+abvd-999-191_all-1-0-all,og-uma,all,o m e a
+abvd-999-191_all-2-0-all,og-uma,all,h a β e ʔ e a
+abvd-999-194_how-1-0-how,og-uma,how,b e i β a
+abvd-999-195_nonot-1-0-no_not,og-uma,no_not,u m a
+abvd-999-197_one-1-0-one,og-uma,one,i s a ʔ
+abvd-999-197_one-2-0-one,og-uma,one,h a
+abvd-999-198_two-1-0-two,og-uma,two,d u a
+abvd-999-198_two-2-0-two,og-uma,two,r o
+abvd-999-199_three-1-0-three,og-uma,three,t o l u
+abvd-999-200_four-1-0-four,og-uma,four,o p o ʔ
+abvd-999-201_five-1-0-five,og-uma,five,l i m a
+abvd-999-202_six-1-0-six,og-uma,six,o n o
+abvd-999-203_seven-1-0-seven,og-uma,seven,p i t u
+abvd-999-204_eight-1-0-eight,og-uma,eight,β a l u
+abvd-999-205_nine-1-0-nine,og-uma,nine,s i o
+abvd-999-206_ten-1-0-ten,og-uma,ten,h a m p u l u ʔ
+abvd-999-207_twenty-1-0-twenty,og-uma,twenty,r o m p u l u ʔ
+abvd-999-209_onehundred-1-0-one_hundred,og-uma,one_hundred,h a ʔ a t u
+abvd-999-210_onethousand-1-0-thousand,og-uma,thousand,h a n č o b u

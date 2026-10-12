@@ -1,0 +1,11 @@
+#NEXUS
+begin mrbayes;
+  set autoclose=yes nowarn=yes seed=1234 swapseed=1235;
+  execute igr_no_tela_matrix.nex;
+  lset coding=noabsencesites rates=gamma;
+  prset brlenspr=clock:uniform clockvarpr=igr clockratepr=fixed(1.0);
+  mcmcp ngen=3000000 samplefreq=1000 diagnfreq=50000 nruns=2 nchains=2 printfreq=200000 filename=igr_no_tela append=yes;
+  mcmc;
+  sumt filename=igr_no_tela burnin=750 contype=allcompat;
+  sump filename=igr_no_tela burnin=750;
+end;
