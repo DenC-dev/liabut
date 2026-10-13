@@ -73,3 +73,10 @@ results/literature/e41_relaxed_clock/*.p~
 results/literature/e41_relaxed_clock/*.mcmc~
 results/literature/e19_contactrees/*.part1.*
 results/literature/e19_contactrees/*.stdout
+results/literature/e51/*.ckp.gz
+results/literature/e51/code.log
+results/literature/e53/*.t
+results/literature/e53/*.p
+results/literature/e53/*.ckp*
+results/literature/e53/*.mcmc
+results/literature/e53/*.trprobs

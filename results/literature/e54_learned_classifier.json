@@ -1,0 +1,34 @@
+{
+ "forms": 3801,
+ "retentions": 1969,
+ "features": [
+  "raw_ned",
+  "r2_ned",
+  "r2_mean",
+  "acd_ned",
+  "has_acd",
+  "r2_consonant_ned",
+  "log_lects",
+  "best_len"
+ ],
+ "models": {
+  "logistic": {
+   "balanced_accuracy": 0.7743,
+   "retention_recall": 0.7527,
+   "innovation_recall": 0.7959
+  },
+  "gradient_boosting": {
+   "balanced_accuracy": 0.788,
+   "retention_recall": 0.8019,
+   "innovation_recall": 0.774
+  }
+ },
+ "R2_same_forms": {
+  "balanced_accuracy": 0.7914,
+  "retention_recall": 0.7466,
+  "innovation_recall": 0.8362
+ },
+ "R2_stored": 0.7914,
+ "best_model": "gradient_boosting",
+ "adopted": false
+}

@@ -701,6 +701,83 @@ Stepping-stone runs with the step-7 settings (5,000,000 generations, 50 steps, t
 
 **C1 is unresolved by the vocabulary.** Grimes and Edwards's condition (Timor-Babar a rooted clade, or the root on the Central Timor stem) is not met either. The earlier "leans Central Timor" is withdrawn: the lexical trees do place Lakalei-Idate beside Central Timor, rooted by outgroups, but the placement is fragile, the shared innovations no longer favour it over Habu once cleaned, and the defining sound change favours Grimes and Edwards if lenition is irreversible.
 
+## Ninth round: known error classes, and what the data in hand can still test (Addendum 13)
+
+Five exploratory analyses, declared and pushed before any was run. The Addendum 12 verdict stands whatever they show. Script: `src/42_addendum13.py`.
+
+### E51: partial cognates
+
+LingPy `Partial` on all D1 forms, with word and morpheme boundaries both treated as morpheme boundaries; each morpheme set is one binary character (loose coding), 1,367 characters for the 24 lects.
+
+- **The split sets merge.** The two 'wife' sets now share a morpheme set. Of the 18 flagged decisive sets checked, 16 share a morpheme set with at least one other full-word set, and 'wife', 'leaf', 'hair' and 'spit' with at least eight (the check lists eight at most), which also shows how widely loose coding merges.
+- **Trees.** Lakalei-Idate with Central Timor 23% (UFBoot), with Nuclear Central Timor 65%, with Habu 10%, with Eastern Timor 0%. Kept together: 28%, 73%, 12% and 0%. Partial coding sharpens Nuclear Central Timor rather than Central Timor with Welaun.
+- **Triplets (R2 rule, stable concepts, representative lists; LI + NCT / LI + X / NCT + X).**
+
+| X | Unpolarised | Polarised (Flores, Rote-Meto + Helong, Wetar) |
+|---|---|---|
+| Tetun | 26 / 25 / 13 | 10 / 18 / 3 |
+| Habu | 29 / 33 / 14 | 13 / 14 / 1 |
+| Kawaimina | 91 / 52 / 24 | 48 / 24 / 6 |
+
+- **Reading.** Once polarised, morpheme-level innovations pair Lakalei-Idate with Tetun more than with Nuclear Central Timor (18 to 10), and narrowly with Habu (14 to 13). These counts are not cleaned by hand, and loose coding counts any shared morpheme, which picks up Tetun loans inside compounds, so the shift towards Tetun may be partly the lingua franca.
+
+### E52: regular correspondences in the decisive sets
+
+SCA alignments for eight lect pairs (Lakalei with Mambae Letefoho, Tokodede, Kemak Kailaku, Habu and Tetun Suai; Idaté-Cribas with Mambae Letefoho, Habu and Tetun Suai), baselines of 24 to 30 shared retentions per pair.
+
+- **Almost no diagnostic correspondences.** Each pair has 0 to 2 sound classes whose regular correspondence is not identity, so most sets have nothing to test.
+- **Counts.** Central Timor side: of 18 decisive sets, 10 uninformative, 3 without a pair, 2 loan-like, 3 inherited-like (reference: 3 loan-like, 2 inherited-like, 27 uninformative). Eastern side: 9 uninformative, 4 without a pair, 3 loan-like, 2 inherited-like (reference: 0, 1, 18). Fisher p = 1.0 on both sides.
+- **Reading.** Uninformative, as E33 was. These short lists do not carry enough regular non-identity correspondences to separate loans from inheritance.
+
+### E53: a fuller phonology
+
+Every non-retention reflex class in the expert atlas becomes a character: 36 characters after the variability filter, 5 to 35 coded per lect.
+
+| Steps, rooted on Flores | H (lexical) | G (LI + Eastern Timor) | GE (Grimes and Edwards's split) |
+|---|---|---|---|
+| Fitch | 88 | 87 | 90 |
+| Camin-Sokal | 108 | 100 | 107 |
+| Dollo | 144 | 139 | 141 |
+
+- **G beats H under Camin-Sokal on 6 characters to 0** (sign test p = 0.03). The six (\*R medial > ∅, \*j medial > rhotic, \*p initial > h, \*p medial > h, \*ŋ initial > n, \*ŋ medial > n) are all shared by Tetun and Kawaimina and, where it is coded, Habu, which G groups and the lexical tree separates (Tetun sits with Central Timor there); only two of them involve Lakalei-Idate. So the gain comes from the shape of Eastern Timor more than from where Lakalei-Idate sits.
+- **GE ties H**: 2 to 2 (Camin-Sokal), 8 to 6 (Dollo), 1 to 3 (Fitch).
+- **Phonology-only MrBayes** (converged, ASDSF 0.010): Lakalei-Idate 0.81, Central Timor 0.41, Nuclear Central Timor 0.42; Lakalei-Idate + Central Timor, Lakalei-Idate + Eastern Timor, Timor-Babar and Eastern Timor all 0.00. Rooted on Flores, the root is spread thinly (largest single position 0.28).
+- **Reading.** The fuller phonology does not choose between the two placements of Lakalei-Idate. Its one clear preference, under irreversible change, is for keeping Tetun with Habu and Kawaimina, as Grimes and Edwards do and the vocabulary does not.
+
+### E54: a learned retention classifier
+
+Eight features per set, trained on D2 against ABVD's experts, five-fold cross-validation grouped by concept, scored on the same 3,801 forms as R2.
+
+| Model | Balanced accuracy | Retention recall | Innovation recall |
+|---|---|---|---|
+| R2 (current rule) | 0.791 | 0.747 | 0.836 |
+| Gradient boosting | 0.788 | 0.802 | 0.774 |
+| Logistic regression | 0.774 | 0.753 | 0.796 |
+
+- **Not adopted** (needed > 0.801). R2 stays; nothing was rerun.
+
+### E55: network split support
+
+NeighborNet on the 24-lect primary distances, 200 concept bootstraps.
+
+| Split | Observed weight | Bootstrap networks with the split |
+|---|---|---|
+| Lakalei-Idate | 0.054 | 89% |
+| Lakalei-Idate + Central Timor | 0.028 | 47% |
+| Lakalei-Idate + Nuclear Central Timor | 0 | 28% |
+| Lakalei + Nuclear Central Timor | 0.024 | 30% |
+| Lakalei-Idate + Habu | 0 | 22% |
+| Idaté + Habu | 0 | 45% |
+| Lakalei-Idate + Eastern Timor | 0 | 2% |
+| Central Timor | 0 | 24% |
+| Nuclear Central Timor | 0.003 | 66% |
+
+- **Reading: unclear** under the declared rule (neither side reaches 50%). The two sides are nearly level (47% and 45%), the eastern-side signal coming from Idaté and Habu rather than from Lakalei-Idate as a whole, and Lakalei-Idate + Eastern Timor is almost absent (2%).
+
+### What changes
+
+Nothing in the verdict. Two details sharpen. Partial coding fixes the split 'wife' sets and strengthens Nuclear Central Timor in the trees, while its polarised innovations lean towards Tetun and Habu. And the phonology's advantage for the eastern tree, beyond \*p lenition, comes from grouping Tetun with Habu and Kawaimina, not from Lakalei-Idate.
+
 ## Not yet used, and worth getting
 
 - **Alcantara's full corpus.** It has 800 words and 420 sentences, of which only 184 forms are published. The full corpus would give enough Idaté *ŋ, *j, *k and *d words to code every character.

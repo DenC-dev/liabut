@@ -1,0 +1,142 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    vm (AVX512, FMA3, 7 GB RAM)
+Command: /home/claude/tools/iqtree-2.3.6-Linux-intel/bin/iqtree2 -T 1 -seed 1234 -redo -quiet -s partial.phy -m GTR2+FO+G4 -pre partial -B 1000
+Seed:    1234 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Oct 13 02:09:38 2026
+Kernel:  AVX+FMA - 1 threads (2 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 2 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file partial.phy ... Phylip format detected
+Alignment most likely contains binary sequences
+Alignment has 24 sequences with 1367 columns, 1000 distinct patterns
+633 parsimony-informative, 728 singleton sites, 6 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.367e-05 secs
+   1  mamb1306_Slete     6.14%    passed     87.06%
+   2  kema1243_kaila     3.22%    passed     28.02%
+   3  tuku1254          11.56%    passed     43.69%
+   4  west2547_welaun    3.73%    passed     83.15%
+   5  idat1237_cribas    7.68%    passed     25.53%
+   6  laka1255          12.44%    passed     46.01%
+   7  tetu1245_suai     17.78%    passed     28.05%
+   8  habu1241           8.05%    passed      7.00%
+   9  waim1252           2.12%    failed      0.45%
+  10  midi1237           5.71%    passed     38.41%
+  11  naue1237          11.12%    passed     65.42%
+  12  galo1243          25.46%    passed      6.15%
+  13  dadu1237          11.49%    passed     42.17%
+  14  funa1237           7.02%    passed     50.17%
+  15  koto1251           2.49%    failed      0.07%
+  16  term1237           7.46%    failed      0.00%
+  17  dela1252          11.78%    passed      6.67%
+  18  ilma1240          11.19%    failed      0.21%
+  19  kaha1239          12.00%    failed      0.23%
+  20  kisa1266           6.14%    passed     20.03%
+  21  luan1264           5.85%    passed     78.51%
+  22  tela1241           5.41%    failed      0.00%
+  23  lama1277_lewoi     5.27%    passed      8.29%
+  24  sika1262_hewa      4.83%    passed     66.55%
+****  TOTAL              8.58%  6 sequences failed composition chi2 test (p-value<5%; df=1)
+Creating fast initial parsimony tree by random order stepwise addition...
+0.005 seconds, parsimony score: 2548 (based on 1361 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 1234)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10093.290
+2. Current log-likelihood: -9732.176
+3. Current log-likelihood: -9690.943
+4. Current log-likelihood: -9671.082
+5. Current log-likelihood: -9663.861
+6. Current log-likelihood: -9662.083
+7. Current log-likelihood: -9661.745
+Optimal log-likelihood: -9661.684
+State frequencies:  0: 0.842  1: 0.158
+Gamma shape alpha: 5.319
+Parameters optimization took 7 rounds (0.124 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0014916 secs using 99.96% CPU
+Computing ML distances took 0.001591 sec (of wall-clock time) 0.001593 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 3.5978e-05 secs using 97.28% CPU
+Computing RapidNJ tree took 0.000154 sec (of wall-clock time) 0.000153 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -9651.708
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.141 second
+Computing log-likelihood of 98 initial trees ... 0.320 seconds
+Current best score: -9640.617
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9625.792
+Iteration 10 / LogL: -9629.256 / Time: 0h:0m:1s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -9624.529
+Iteration 20 / LogL: -9635.062 / Time: 0h:0m:1s
+Finish initializing candidate tree set (9)
+Current best tree score: -9624.529 / CPU time: 1.713
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -9625.833 / Time: 0h:0m:2s (0h:0m:7s left)
+Iteration 40 / LogL: -9626.792 / Time: 0h:0m:3s (0h:0m:6s left)
+Iteration 50 / LogL: -9628.886 / Time: 0h:0m:4s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -9656.021
+Iteration 60 / LogL: -9628.853 / Time: 0h:0m:5s (0h:0m:4s left)
+Iteration 70 / LogL: -9625.819 / Time: 0h:0m:6s (0h:0m:4s left)
+Iteration 80 / LogL: -9625.895 / Time: 0h:0m:7s (0h:0m:3s left)
+Iteration 90 / LogL: -9624.731 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 100 / LogL: -9624.795 / Time: 0h:0m:8s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -9656.021
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -9624.854 / Time: 0h:0m:9s (0h:0m:7s left)
+TREE SEARCH COMPLETED AFTER 115 ITERATIONS / Time: 0h:0m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9624.529
+Optimal log-likelihood: -9624.526
+State frequencies:  0: 0.844  1: 0.156
+Gamma shape alpha: 5.307
+Parameters optimization took 1 rounds (0.011 sec)
+BEST SCORE FOUND : -9624.526
+Creating bootstrap support values...
+Split supports printed to NEXUS file partial.splits.nex
+Total tree length: 3.689
+
+Total number of iterations: 115
+CPU time used for tree search: 9.448 sec (0h:0m:9s)
+Wall-clock time used for tree search: 9.731 sec (0h:0m:9s)
+Total CPU time used: 9.697 sec (0h:0m:9s)
+Total wall-clock time used: 10.006 sec (0h:0m:10s)
+
+Computing bootstrap consensus tree...
+Reading input file partial.splits.nex...
+24 taxa and 154 splits.
+Consensus tree written to partial.contree
+Reading input trees file partial.contree
+Log-likelihood of consensus tree: -9626.782
+
+Analysis results written to: 
+  IQ-TREE report:                partial.iqtree
+  Maximum-likelihood tree:       partial.treefile
+  Likelihood distances:          partial.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          partial.splits.nex
+  Consensus tree:                partial.contree
+  Screen log file:               partial.log
+
+Date and Time: Tue Oct 13 02:09:48 2026

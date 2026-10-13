@@ -1,0 +1,465 @@
+{
+ "merge_check": {
+  "wife-2376": {
+   "morpheme_sets": {
+    "wife-p13081": 10,
+    "wife-p13083": 5,
+    "wife-p13092": 1
+   },
+   "full_sets_linked": [
+    "wife-2369",
+    "wife-2370",
+    "wife-2372",
+    "wife-2377",
+    "wife-2380",
+    "wife-2384",
+    "wife-2385",
+    "wife-2387"
+   ]
+  },
+  "wife-2380": {
+   "morpheme_sets": {
+    "wife-p13092": 11
+   },
+   "full_sets_linked": [
+    "wife-2376"
+   ]
+  },
+  "leaf-949": {
+   "morpheme_sets": {
+    "leaf-p5288": 8,
+    "leaf-p5289": 4,
+    "leaf-p5300": 3,
+    "leaf-p5293": 1
+   },
+   "full_sets_linked": [
+    "leaf-947",
+    "leaf-948",
+    "leaf-950",
+    "leaf-951",
+    "leaf-952",
+    "leaf-953",
+    "leaf-957",
+    "leaf-958"
+   ]
+  },
+  "hair-710": {
+   "morpheme_sets": {
+    "hair-p4138": 18,
+    "hair-p4139": 8,
+    "hair-p4141": 5,
+    "hair-p4148": 4
+   },
+   "full_sets_linked": [
+    "hair-711",
+    "hair-712",
+    "hair-713",
+    "hair-716",
+    "hair-717",
+    "hair-719",
+    "hair-720",
+    "hair-721"
+   ]
+  },
+  "hair-713": {
+   "morpheme_sets": {
+    "hair-p4138": 5,
+    "hair-p4139": 4,
+    "hair-p4148": 1
+   },
+   "full_sets_linked": [
+    "hair-710",
+    "hair-711",
+    "hair-712",
+    "hair-716",
+    "hair-719",
+    "hair-721"
+   ]
+  },
+  "to_spit-2149": {
+   "morpheme_sets": {
+    "to_spit-p11784": 9,
+    "to_spit-p11790": 8
+   },
+   "full_sets_linked": [
+    "to_spit-2139",
+    "to_spit-2142",
+    "to_spit-2144",
+    "to_spit-2152",
+    "to_spit-2156",
+    "to_spit-2157",
+    "to_spit-2162",
+    "to_spit-2163"
+   ]
+  },
+  "2sg_informal-32": {
+   "morpheme_sets": {
+    "2sg_informal-p230": 29
+   },
+   "full_sets_linked": [
+    "2sg_informal-34",
+    "2sg_informal-36",
+    "2sg_informal-43"
+   ]
+  },
+  "to_eat-1843": {
+   "morpheme_sets": {
+    "to_eat-p10631": 11
+   },
+   "full_sets_linked": []
+  },
+  "water-2293": {
+   "morpheme_sets": {
+    "water-p12660": 6,
+    "water-p12659": 2,
+    "water-p12658": 1
+   },
+   "full_sets_linked": [
+    "water-2291",
+    "water-2292",
+    "water-2294"
+   ]
+  },
+  "tail-1644": {
+   "morpheme_sets": {
+    "tail-p9413": 12,
+    "tail-p9416": 1
+   },
+   "full_sets_linked": [
+    "tail-1638",
+    "tail-1639",
+    "tail-1647"
+   ]
+  },
+  "good-637": {
+   "morpheme_sets": {
+    "good-p3765": 8,
+    "good-p3777": 2
+   },
+   "full_sets_linked": []
+  },
+  "to_laugh-1997": {
+   "morpheme_sets": {
+    "to_laugh-p11252": 22,
+    "to_laugh-p11251": 5
+   },
+   "full_sets_linked": [
+    "to_laugh-1998",
+    "to_laugh-2000",
+    "to_laugh-2004"
+   ]
+  },
+  "to_stand-2176": {
+   "morpheme_sets": {
+    "to_stand-p11898": 4,
+    "to_stand-p11897": 1
+   },
+   "full_sets_linked": [
+    "to_stand-2175"
+   ]
+  },
+  "far-478": {
+   "morpheme_sets": {
+    "far-p2683": 17,
+    "far-p2680": 6,
+    "far-p2682": 1
+   },
+   "full_sets_linked": [
+    "far-481"
+   ]
+  },
+  "small-1519": {
+   "morpheme_sets": {
+    "small-p8718": 13,
+    "small-p8722": 1,
+    "small-p8729": 1,
+    "small-p8731": 1
+   },
+   "full_sets_linked": [
+    "small-1520",
+    "small-1522",
+    "small-1523",
+    "small-1525",
+    "small-1527",
+    "small-1531",
+    "small-1537"
+   ]
+  },
+  "who-2359": {
+   "morpheme_sets": {
+    "who-p13007": 2,
+    "who-p13002": 1
+   },
+   "full_sets_linked": [
+    "who-2354",
+    "who-2361",
+    "who-2362",
+    "who-2365"
+   ]
+  },
+  "dry-416": {
+   "morpheme_sets": {
+    "dry-p2153": 3,
+    "dry-p2144": 1
+   },
+   "full_sets_linked": [
+    "dry-407"
+   ]
+  },
+  "to_cry-1808": {
+   "morpheme_sets": {
+    "to_cry-p10403": 16
+   },
+   "full_sets_linked": [
+    "to_cry-1804",
+    "to_cry-1810"
+   ]
+  }
+ },
+ "wife_sets_share_a_morpheme_set": true,
+ "characters": 1367,
+ "UFBoot unconstrained": {
+  "with Central Timor (with Welaun if present)": 23.0,
+  "with Nuclear Central Timor": 65.0,
+  "with Eastern Timor": 0,
+  "with Habu": 10.0,
+  "with Tetun": 0.0,
+  "focal": 84.0
+ },
+ "UFBoot Lakalei-Idate kept together": {
+  "with Central Timor (with Welaun if present)": 28.0,
+  "with Nuclear Central Timor": 73.0,
+  "with Eastern Timor": 0,
+  "with Habu": 12.0,
+  "with Tetun": 0,
+  "focal": 100.0
+ },
+ "triplets R2": {
+  "representative (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 26,
+     "LI+Tetun": 25,
+     "NCT+Tetun": 13
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 27,
+     "LI+Tetun": 21,
+     "NCT+Tetun": 17
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "representative (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 29,
+     "LI+Habu": 33,
+     "NCT+Habu": 14
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 27,
+     "LI+Habu": 39,
+     "NCT+Habu": 15
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 91,
+     "LI+Kawaimina": 52,
+     "NCT+Kawaimina": 24
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 82,
+     "LI+Kawaimina": 56,
+     "NCT+Kawaimina": 40
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 50,
+     "LI+Tetun": 45,
+     "NCT+Tetun": 34
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 43,
+     "LI+Tetun": 60,
+     "NCT+Tetun": 20
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 30,
+     "LI+Habu": 27,
+     "NCT+Habu": 17
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 25,
+     "LI+Habu": 28,
+     "NCT+Habu": 17
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 81,
+     "LI+Kawaimina": 44,
+     "NCT+Kawaimina": 26
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 67,
+     "LI+Kawaimina": 47,
+     "NCT+Kawaimina": 38
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "LI+NCT strictly largest on stable vs all three": {
+   "representative": false,
+   "single_survey": true
+  }
+ },
+ "triplets R2 polarised": {
+  "representative (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 10,
+     "LI+Tetun": 18,
+     "NCT+Tetun": 3
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 9,
+     "LI+Tetun": 12,
+     "NCT+Tetun": 12
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 13,
+     "LI+Habu": 14,
+     "NCT+Habu": 1
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 14,
+     "LI+Habu": 16,
+     "NCT+Habu": 3
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "representative (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 48,
+     "LI+Kawaimina": 24,
+     "NCT+Kawaimina": 6
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 32,
+     "LI+Kawaimina": 29,
+     "NCT+Kawaimina": 27
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Tetun)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 14,
+     "LI+Tetun": 39,
+     "NCT+Tetun": 10
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 19,
+     "LI+Tetun": 23,
+     "NCT+Tetun": 11
+    },
+    "ab_strictly_largest": false
+   }
+  },
+  "single_survey (LI, NCT, Habu)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 12,
+     "LI+Habu": 14,
+     "NCT+Habu": 1
+    },
+    "ab_strictly_largest": false
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 15,
+     "LI+Habu": 10,
+     "NCT+Habu": 3
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "single_survey (LI, NCT, Kawaimina)": {
+   "stable": {
+    "counts": {
+     "LI+NCT": 39,
+     "LI+Kawaimina": 24,
+     "NCT+Kawaimina": 4
+    },
+    "ab_strictly_largest": true
+   },
+   "other": {
+    "counts": {
+     "LI+NCT": 33,
+     "LI+Kawaimina": 25,
+     "NCT+Kawaimina": 20
+    },
+    "ab_strictly_largest": true
+   }
+  },
+  "LI+NCT strictly largest on stable vs all three": {
+   "representative": false,
+   "single_survey": false
+  }
+ }
+}

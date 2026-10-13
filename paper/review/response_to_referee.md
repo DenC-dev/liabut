@@ -61,3 +61,14 @@ These are addressed as listed, with the following exceptions:
 - Figure 3 token counts (minor 18) remain in the repository.
 - No Zenodo DOI yet (minor 24). `CITATION.cff` and `.zenodo.json` are added, and the GitHub–Zenodo link needs enabling by the repository owner.
 - Two numbers that could not be verified are now stored: the E23 sister distribution (81% on the Central Timor side) and the E26 Tetun Dili breakdown (84%).
+
+## After the second round
+
+Addendum 13 (13 October) added five exploratory checks on points the report raised but the second round could not reach. None changes the verdict.
+
+- *Split and compound cognate sets (M4).* Cognates coded by morpheme (E51) merge the two 'wife' sets. Lakalei-Idate then goes with Nuclear Central Timor at 65% (73% kept together), but polarised morpheme-level innovations favour Tetun (18 to 10) and Habu (14 to 13) over Nuclear Central Timor.
+- *Loans against inheritance (M10).* Regular correspondences (E52) are too few in these lists to classify the decisive sets (Fisher p = 1.0 on both sides).
+- *The sound changes (M2).* With 36 sound-change characters (E53), Grimes and Edwards's split ties the lexical tree. The eastern tree's 6 to 0 advantage under irreversible change comes from grouping Tetun with Habu and Kawaimina.
+- *Retention classifier (M4).* A learned classifier (E54) reaches 0.788 against the rule's 0.791 and is not adopted.
+- *Linkage (M10).* NeighborNet (E55) gives "unclear" by the declared reading (47% against 45%).
+

@@ -1,0 +1,55 @@
+{
+ "bootstrap": 200,
+ "splits": {
+  "Lakalei-Idate": {
+   "observed_weight": 0.054,
+   "share_nonzero": 0.885,
+   "median_weight": 0.0412
+  },
+  "Lakalei-Idate + Central Timor": {
+   "observed_weight": 0.0276,
+   "share_nonzero": 0.47,
+   "median_weight": 0.0
+  },
+  "Lakalei-Idate + Nuclear Central Timor": {
+   "observed_weight": 0.0,
+   "share_nonzero": 0.28,
+   "median_weight": 0.0
+  },
+  "Lakalei + Nuclear Central Timor": {
+   "observed_weight": 0.0238,
+   "share_nonzero": 0.295,
+   "median_weight": 0.0
+  },
+  "Lakalei-Idate + Habu": {
+   "observed_weight": 0.0,
+   "share_nonzero": 0.215,
+   "median_weight": 0.0
+  },
+  "Idate + Habu": {
+   "observed_weight": 0.0,
+   "share_nonzero": 0.45,
+   "median_weight": 0.0
+  },
+  "Lakalei-Idate + Eastern Timor": {
+   "observed_weight": 0.0,
+   "share_nonzero": 0.015,
+   "median_weight": 0.0
+  },
+  "Central Timor": {
+   "observed_weight": 0.0,
+   "share_nonzero": 0.235,
+   "median_weight": 0.0
+  },
+  "Nuclear Central Timor": {
+   "observed_weight": 0.0028,
+   "share_nonzero": 0.655,
+   "median_weight": 0.0119
+  }
+ },
+ "reading": "unclear",
+ "max_share": {
+  "central_timor_side": 0.47,
+  "eastern_side": 0.45
+ }
+}

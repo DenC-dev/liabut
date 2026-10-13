@@ -3,3 +3,6 @@ python-igraph
 pandas
 numpy
 scipy
+biopython
+scikit-learn
+SplitsPy==0.0.10

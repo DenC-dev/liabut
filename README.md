@@ -32,6 +32,7 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
 - **Welaun (C2) is consistent with Edwards (2019) once borrowable vocabulary is set aside**: posterior 0.86 for Central Timor with Welaun, ln BF +7.6 against Welaun + Tetun, and its Tetun look sits in borrowable words. Distance trees and the consensus coding put it with Tetun, and the protocol said in advance that C2 can't be settled lexically.
 - **The low-level groups are confirmed:** Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang and Babar.
 - A mock referee report (`paper/review/referee_report.md`) prompted the second round; the earlier "leans Central Timor" reading is withdrawn.
+- **Five last checks (Addendum 13, exploratory) leave the verdict unchanged.** Cognates coded by morpheme merge the split 'wife' sets and favour Nuclear Central Timor more sharply (UFBoot 65%), while their polarised innovations lean towards Tetun and Habu (E51). The decisive sets have too few regular correspondences to tell loans from inheritance (E52). A fuller phonology of 36 characters ties Grimes and Edwards's split with the lexical tree (E53). A learned retention classifier doesn't beat the current rule (0.788 against 0.791; E54). A split network puts Lakalei-Idate with Central Timor in 47% of bootstrap networks and Idaté with Habu in 45% (E55).
 
 ## New data
 
@@ -96,6 +97,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 | Lit. 6 | Addendum 10: E35 words inherited from above the Timor groups (Austronesian Comparative Dictionary); E36 AU tests on the independent lists | `results/literature/` |
 | Lit. 7 | Addendum 11: E37 decisive sets against Grimes and Edwards's tables; E38 parametric bootstrap (SOWH); E39 contacTrees capped at five edges | `results/literature/` |
 | Lit. 8 | Addendum 12, a second round after a mock referee report: E40 root with seven outgroups; E41 relaxed clock; E42 irreversible sound changes; E43 known-group calibration; E44 Lakalei-Idate together and apart; E45 rooted AU tests with Holm over all; E46 cleaned and polarised innovations, tree-pair calibration; E47 direct marginal likelihoods; E48 without Tetun or Papuan-shared sets; E49 heights; E50 glottometry intervals | `results/literature/`, `derived/innovations/` |
+| Lit. 9 | Addendum 13 (exploratory): E51 partial cognates; E52 regular correspondences in the decisive sets; E53 a fuller phonology; E54 a learned retention classifier (not adopted); E55 NeighborNet split support | `results/literature/` |
 
 ## Rerun
 
@@ -160,6 +162,9 @@ python3 41_addendum12.py e40code && python3 41_addendum12.py e40iq && python3 41
 python3 41_addendum12.py e41 all && python3 41_addendum12.py e41 no_tela && python3 41_addendum12.py e41sum
 for e in e42 e43 e44 e45 e46 e46cal e48 e49 e50 house packet2; do python3 41_addendum12.py $e; done
 for n in c1H c1G c2T; do python3 41_addendum12.py e47 $n; done; python3 41_addendum12.py e47sum
+python3 42_addendum13.py e51code && python3 42_addendum13.py e51   # E51 (Partial is slow; needs IQ-TREE)
+for e in e52 e53; do python3 42_addendum13.py $e; done; MRBAYES=/path/to/mb python3 42_addendum13.py e53mb && python3 42_addendum13.py e53sum
+for e in e54 e55; do python3 42_addendum13.py $e; done
 python3 12_decide.py              # step 8
 python3 13_figures.py
 ```

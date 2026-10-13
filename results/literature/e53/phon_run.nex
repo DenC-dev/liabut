@@ -1,0 +1,11 @@
+#NEXUS
+begin mrbayes;
+  set autoclose=yes nowarn=yes seed=1234 swapseed=1235;
+  execute phon.nex;
+  outgroup lama1277_lewoi;
+  lset coding=variable rates=gamma;
+  mcmcp ngen=2000000 samplefreq=1000 diagnfreq=50000 nruns=2 nchains=2 printfreq=200000 filename=phon;
+  mcmc;
+  sumt filename=phon burnin=500 contype=allcompat;
+  sump filename=phon burnin=500;
+end;

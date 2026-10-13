@@ -1,0 +1,435 @@
+{
+ "pairs": {
+  "laka1255 ~ mamb1306-Slete": {
+   "shared": 64,
+   "baseline": 29,
+   "diagnostic": {}
+  },
+  "laka1255 ~ tuku1254": {
+   "shared": 64,
+   "baseline": 30,
+   "diagnostic": {
+    "K": "H"
+   }
+  },
+  "laka1255 ~ kema1243-kaila": {
+   "shared": 67,
+   "baseline": 30,
+   "diagnostic": {
+    "K": "N",
+    "R": "N"
+   }
+  },
+  "idat1237-cribas ~ mamb1306-Slete": {
+   "shared": 61,
+   "baseline": 26,
+   "diagnostic": {}
+  },
+  "laka1255 ~ habu1241": {
+   "shared": 59,
+   "baseline": 30,
+   "diagnostic": {
+    "W": "H"
+   }
+  },
+  "laka1255 ~ tetu1245-suai": {
+   "shared": 52,
+   "baseline": 29,
+   "diagnostic": {
+    "H": "-",
+    "K": "N"
+   }
+  },
+  "idat1237-cribas ~ habu1241": {
+   "shared": 73,
+   "baseline": 28,
+   "diagnostic": {
+    "H": "-",
+    "W": "H"
+   }
+  },
+  "idat1237-cribas ~ tetu1245-suai": {
+   "shared": 54,
+   "baseline": 24,
+   "diagnostic": {
+    "H": "-"
+   }
+  }
+ },
+ "decisive": {
+  "2sg_informal-32": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "above-64": {
+   "source": "exclusive LI + other",
+   "by_side": {}
+  },
+  "all-92": {
+   "source": "exclusive LI + Habu",
+   "by_side": {
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "ash-126": {
+   "source": "packet exclusive LI + Habu",
+   "by_side": {
+    "east": {
+     "loan_like_positions": 1,
+     "inheritance_like_positions": 0,
+     "verdict": "loan-like"
+    }
+   }
+  },
+  "big-215": {
+   "source": "exclusive LI + other",
+   "by_side": {}
+  },
+  "big-221": {
+   "source": "packet exclusive LI + Kawaimina",
+   "by_side": {}
+  },
+  "dry-416": {
+   "source": "exclusive LI + CT",
+   "by_side": {}
+  },
+  "far-478": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "good-637": {
+   "source": "packet",
+   "by_side": {
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 2,
+     "verdict": "inherited-like"
+    }
+   }
+  },
+  "hair-710": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    },
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "hair-713": {
+   "source": "packet",
+   "by_side": {}
+  },
+  "hair-716": {
+   "source": "exclusive LI + other",
+   "by_side": {}
+  },
+  "house-811": {
+   "source": "exclusive LI + other",
+   "by_side": {}
+  },
+  "leaf-949": {
+   "source": "packet",
+   "by_side": {}
+  },
+  "mouth-1111": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 1,
+     "inheritance_like_positions": 0,
+     "verdict": "loan-like"
+    },
+    "east": {
+     "loan_like_positions": 1,
+     "inheritance_like_positions": 1,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "neck-1156": {
+   "source": "packet",
+   "by_side": {
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "neck-1157": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 1,
+     "inheritance_like_positions": 0,
+     "verdict": "loan-like"
+    }
+   }
+  },
+  "new-1177": {
+   "source": "packet exclusive LI + Kawaimina",
+   "by_side": {}
+  },
+  "night-1197": {
+   "source": "packet",
+   "by_side": {}
+  },
+  "root-1381": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    },
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "rotten-1406": {
+   "source": "exclusive LI + several Eastern Timor",
+   "by_side": {
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "sand-1422": {
+   "source": "packet",
+   "by_side": {}
+  },
+  "small-1519": {
+   "source": "packet",
+   "by_side": {}
+  },
+  "tail-1644": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 2,
+     "verdict": "inherited-like"
+    }
+   }
+  },
+  "this-1729": {
+   "source": "exclusive LI + other",
+   "by_side": {}
+  },
+  "to_bite-1776": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    },
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 2,
+     "verdict": "inherited-like"
+    }
+   }
+  },
+  "to_cry-1808": {
+   "source": "packet exclusive LI + CT",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "to_eat-1843": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "to_fall_from_above-1871": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    },
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "to_hear-1934": {
+   "source": "exclusive LI + other",
+   "by_side": {}
+  },
+  "to_kill-1956": {
+   "source": "exclusive LI + other",
+   "by_side": {}
+  },
+  "to_laugh-1997": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    },
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "to_sit-2066": {
+   "source": "exclusive LI + other",
+   "by_side": {}
+  },
+  "to_sit-2070": {
+   "source": "exclusive LI + Kawaimina",
+   "by_side": {}
+  },
+  "to_spit-2146": {
+   "source": "exclusive LI + Tetun",
+   "by_side": {}
+  },
+  "to_spit-2149": {
+   "source": "exclusive LI + CT",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 1,
+     "verdict": "inherited-like"
+    }
+   }
+  },
+  "to_spit-2163": {
+   "source": "exclusive LI + several Eastern Timor",
+   "by_side": {
+    "east": {
+     "loan_like_positions": 1,
+     "inheritance_like_positions": 0,
+     "verdict": "loan-like"
+    }
+   }
+  },
+  "to_stand-2176": {
+   "source": "packet",
+   "by_side": {
+    "east": {
+     "loan_like_positions": 1,
+     "inheritance_like_positions": 0,
+     "verdict": "loan-like"
+    }
+   }
+  },
+  "water-2293": {
+   "source": "packet",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  },
+  "who-2359": {
+   "source": "exclusive LI + CT",
+   "by_side": {}
+  },
+  "wife-2376": {
+   "source": "exclusive LI + CT",
+   "by_side": {}
+  },
+  "wife-2380": {
+   "source": "exclusive LI + CT",
+   "by_side": {
+    "CT": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 1,
+     "verdict": "inherited-like"
+    }
+   }
+  },
+  "yellow-2423": {
+   "source": "exclusive LI + several Eastern Timor",
+   "by_side": {
+    "east": {
+     "loan_like_positions": 0,
+     "inheritance_like_positions": 0,
+     "verdict": "uninformative"
+    }
+   }
+  }
+ },
+ "summary": {
+  "CT": {
+   "decisive": {
+    "uninformative": 10,
+    "no pair available": 3,
+    "loan-like": 2,
+    "inherited-like": 3
+   },
+   "reference": {
+    "loan_like": 3,
+    "inherited_like": 2,
+    "uninformative": 27
+   },
+   "decisive_loan_share": 0.4,
+   "reference_loan_share": 0.6,
+   "fisher_p": 1.0
+  },
+  "east": {
+   "decisive": {
+    "uninformative": 9,
+    "loan-like": 3,
+    "no pair available": 4,
+    "inherited-like": 2
+   },
+   "reference": {
+    "loan_like": 0,
+    "inherited_like": 1,
+    "uninformative": 18
+   },
+   "decisive_loan_share": 0.6,
+   "reference_loan_share": 0.0,
+   "fisher_p": 1.0
+  }
+ }
+}
