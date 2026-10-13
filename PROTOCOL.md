@@ -678,3 +678,35 @@ Written and pushed before any E40–E50 statistic was computed. Prompted by a mo
 - *Grimes and Edwards* is reported as lexically supported if Timor-Babar including Lakalei-Idate is a rooted clade with posterior at least 0.95 in E40(a), or if E40(a) puts the root on the Central Timor stem with posterior at least 0.95 and Lakalei-Idate + Eastern Timor is not rejected in E45.
 - *Otherwise* C1 is reported as unresolved by the vocabulary, with no lean, in the title, abstract and conclusion. What the vocabulary does show is reported as such (for example, that Lakalei-Idate + Eastern Timor is disfavoured).
 - C2 gets no new decision; the write-up reports all C2 results, including those against Central Timor.
+
+### Addendum 13 (2026-10-13, post hoc): fixing known error classes, and what the data in hand can still test
+
+Written and pushed before any E51–E55 statistic was computed.
+
+- **Already seen.** All results through E50 and the Addendum 12 verdict; that 1,506 D1 forms carry morpheme boundaries (`+`) and 1,200 word boundaries (`_`); the segmentation of a few decisive forms (for example Lakalei *ulu _ rɔː* 'hair', Idaté-Cribas *ai _ roː* 'leaf'); the E30 validation code.
+- **Not yet seen.** Any E51–E55 statistic.
+- **Status.** Exploratory. The Addendum 12 verdict on C1 stands whatever these show.
+
+**E51: partial cognates.** LingPy `Partial` on all D1 forms (LexStat scorer, 1,000 runs, threshold 0.55, Infomap, seed 1234), with word boundaries and morpheme boundaries both treated as morpheme boundaries. Each morpheme cognate set is a binary character (loose coding): a lect is coded 1 if any of its forms for the concept contains a morpheme of the set, and missing if it lacks the concept. Primary screening as in step 7.
+
+- *Reported.* (a) Whether the sets the review flagged as split or compounded (the two 'wife' sets, 'leaf', 'hair' and the packet's other compounds) now share morpheme sets. (b) IQ-TREE (GTR2+FO+G4, 1,000 UFBoot) on the 24 taxa, unconstrained and with Lakalei-Idate kept together: support for Lakalei-Idate with Central Timor, Nuclear Central Timor, Eastern Timor and Habu. (c) E46-style stable-concept triplets (representative and single-survey lists), with morpheme sets classed by the R2 rule and polarised by Flores, Rote-Meto + Helong and Wetar.
+
+**E52: regular correspondences in the decisive sets.** Lect pairs: Lakalei with Mambae Letefoho, Tokodede, Kemak Kailaku, Habu and Tetun Suai; Idaté-Cribas with Mambae Letefoho, Habu and Tetun Suai. Every set a pair shares is aligned (LingPy SCA, global) and compared in SCA sound classes. The pair's baseline is its shared R2 retentions. A sound class is *diagnostic* for the pair when its most frequent baseline correspondence is not identity and occurs at least twice. In a set, identity at a diagnostic position is *loan-like*; the regular baseline correspondence there is *inheritance-like*.
+
+- *Per set.* Loan-like if at least one loan-like and no inheritance-like position; inherited-like if the reverse; otherwise uninformative.
+- *Applied to* the 24 review-packet sets and the 23 exclusive sets, each with the pair matching its partner group, and, as a reference, every other shared innovation of the same pair.
+- *Reported.* Counts per side (Central Timor side, eastern side) against the reference; Fisher's exact test of the loan-like share, decisive sets against reference, for each side.
+
+**E53: a fuller phonology.** From the expert atlas, every (target, position, reflex class) other than the class that keeps the PMP sound becomes a binary character: 1 if it is the lect's majority class (at least two tokens), 0 if another class is, missing otherwise. A character is kept if at least two of the 24 taxa have it and at least two lack it. The Flores pair is coded from the automatic atlas where the expert atlas lacks it.
+
+- *Reported.* (a) Fitch, Camin-Sokal and Dollo totals on the E42 trees H, G and GE, rooted on Flores, and for each character which tree it favours under Camin-Sokal, with a sign test. (b) A phonology-only MrBayes tree (binary Mk, coding=variable, gamma, 2,000,000 generations, two runs, rooted on Lamaholot): posterior of Lakalei-Idate + Central Timor, Lakalei-Idate + Eastern Timor, Timor-Babar and Lakalei-Idate.
+
+**E54: a learned retention classifier.** Features per cognate set: the R0 and R2 minimum NED to the PMP forms; the mean R2 NED over members; the minimum R2 NED to the strict ACD etyma (PAN to PCMP) of the concept; the consonant-only R2 NED; the number of member lects; the length of the best-matching member. Logistic regression (balanced class weights) and gradient boosting are trained on the D2 sets against ABVD's expert judgements, with five-fold cross-validation grouped by concept, and scored at the form level as in E30.
+
+- *Choice.* The better model is adopted if its cross-validated balanced accuracy beats R2's (0.791) by more than 0.01.
+- *If adopted*, the E17 exclusive counts and the E46 triplets (validated, cleaned, cleaned and polarised) are rerun with it, and condition 4 of Addendum 12 is re-evaluated as a sensitivity. The Addendum 12 verdict does not change.
+
+**E55: network split support.** NeighborNet (SplitsPy) on the 24-taxon primary distances (the share of jointly attested concepts with no shared set) and on 200 bootstrap resamples of concepts.
+
+- *Reported.* Weight in the observed network, and the share of bootstrap networks with nonzero weight, for the splits Lakalei-Idate, Lakalei-Idate + Central Timor, Lakalei-Idate + Nuclear Central Timor, Lakalei + Nuclear Central Timor, Lakalei-Idate + Habu, Idaté + Habu, Lakalei-Idate + Eastern Timor, Central Timor and Nuclear Central Timor.
+- *Reading.* A linkage signature: a Central Timor-side split containing Lakalei-Idate or Lakalei, and an eastern-side split containing Lakalei-Idate or Idaté, both present in at least 50% of bootstrap networks. A subgroup signature: one side present in at least 50% and the other in at most 10%. Anything else is unclear.
