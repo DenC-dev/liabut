@@ -2,6 +2,7 @@
 import csv
 import os
 import re
+import unicodedata
 
 import numpy as np
 from lingpy.sequence.sound_classes import ipa2tokens, tokens2class
@@ -82,7 +83,14 @@ PORT = [("ção", "sãw"), ("ões", "õjs"), ("ão", "ãw"), ("ch", "ʃ"), ("lh"
 
 
 def ortho_tokens(word, rules, articles=()):
-    """Rough IPA tokens from a standard-orthography word (Indonesian or Portuguese), first variant only."""
+    """Rough IPA tokens from a standard-orthography word (Indonesian or Portuguese), first variant only.
+
+    The word is put in Unicode NFC first, because the rules are written with precomposed letters (ç, ã, é) and 278
+    of the 1,683 IDS Portuguese forms are stored decomposed (NFD). Before 13 October 2026 this step was missing, so
+    no accented rule fired on those forms; LEGACY_NFD=1 restores that behaviour to reproduce the stored loan flags.
+    The difference is one D2 form (results/LITERATURE.md, eleventh round)."""
+    if os.environ.get("LEGACY_NFD") != "1":
+        word = unicodedata.normalize("NFC", word)
     w = word.strip().lower()
     w = re.split(r"[,;/(]", w)[0].strip()
     for art in articles:

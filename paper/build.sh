@@ -3,6 +3,10 @@
 #   bash paper/build.sh        (needs python3 with matplotlib, shapely, biopython, fonttools; pandoc >= 3; xelatex)
 set -euo pipefail
 export LC_ALL=C.UTF-8   # pandoc reads -V values in the locale encoding; without UTF-8 the PDF title metadata is garbled
+# Reproducible builds: the date of this version stands in for "now" in the PDF and SVG metadata, so rebuilding
+# unchanged sources gives identical files. Change it with the version line in title.tex.
+export SOURCE_DATE_EPOCH="${SOURCE_DATE_EPOCH:-1791849600}"   # 13 October 2026
+export FORCE_SOURCE_DATE=1
 cd "$(dirname "$0")"
 python3 make_figures.py
 mkdir -p build/fonts

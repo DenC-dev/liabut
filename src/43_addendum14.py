@@ -234,7 +234,7 @@ def audit():
             out.append(dict(Level="cognate set", ID=sid, Lect_ID="", In_24=True, Concept_ID=sid.rsplit("-", 1)[0],
                             Form="", Code="POL-WEST", Applies_to="polarised counts only (E46, E51)",
                             Reason="R2 innovation also present in " + ", ".join(sorted(
-                                lects[l]["Name"] for l in members[sid] & west)), Source_analysis="E46"))
+                                f'{lects[l]["Name"]} ({l})' for l in members[sid] & west)), Source_analysis="E46"))
     tap = {l for l, v in lects.items() if v["Role"] == "TAP"}
     chars = {r["Cognateset_ID"] for r in read_csv(os.path.join(RES, "bayes", "characters.csv"))}
     for sid in sorted(chars):
@@ -242,7 +242,7 @@ def audit():
             out.append(dict(Level="cognate set", ID=sid, Lect_ID="", In_24=True, Concept_ID=sid.rsplit("-", 1)[0],
                             Form="", Code="PAPUAN-SHARED", Applies_to="the E48 sensitivity run only",
                             Reason="set has a member in a Papuan lect: " + ", ".join(sorted(
-                                lects[l]["Name"] for l in members[sid] & tap))[:200], Source_analysis="E48"))
+                                f'{lects[l]["Name"]} ({l})' for l in members[sid] & tap)), Source_analysis="E48"))
     write_csv(os.path.join(AUDIT, "exclusions.csv"), out)
     c = Counter(r["Code"] for r in out)
     json.dump(dict(rows=len(out), by_code=dict(c)), open(os.path.join(AUDIT, "exclusions_summary.json"), "w"), indent=1)

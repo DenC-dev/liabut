@@ -6,7 +6,7 @@ E9  automatic atlas from LexiRumah forms (all concepts, all D1 Austronesian lect
 
 Reflexes are grouped into classes (A4.1): place of articulation matters, voicing does not.
 
-Writes derived/reflex_atlas/{expert,automatic,agreement}.csv and automatic_tokens.csv.
+Writes derived/reflex_atlas/{expert,automatic}.csv, {expert,automatic,agreement}_tokens.csv.
 
     python3 src/19_reflex_atlas.py
 """

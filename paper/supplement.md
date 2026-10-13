@@ -5,7 +5,7 @@ The main text reports the pre-registered tests, the replications, the primary an
 | Analyses | Addendum | Class | What they do | Reported |
 |------|----|------|------------------|------|
 | Steps 1 to 8 | Protocol | Pre-registered | Distance trees, the gate, Bayesian trees, the decision | Main text |
-| E1 to E6 | 3 | Exploratory | Stable against borrowable concepts; \*p retention; geography; AU tests | S2, S5 |
+| E1 to E6 | 2, 3 (E4 undeclared) | Exploratory | Stable against borrowable concepts; \*p retention; geography; AU tests | S2, S5 |
 | E7 to E12 | 4 | Exploratory | Grimes and Edwards's tables as data; reflex atlases; total-evidence trees; Tetun loans | S7; repository |
 | E13 to E16 | 5, 6 | Exploratory | Hull's \*b and \*k; an ASJP check; cognate-coding robustness; Alcantara's Idaté data | S3; repository |
 | E17 to E24 | 7, 8 | Exploratory | Shared innovations; triplet tests; contact-aware trees; the split test; borrowing simulation; glottometry; dating; other branches | S6, S8, S9, S10 |

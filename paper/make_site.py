@@ -4,8 +4,13 @@
 
 Writes docs/index.html (for GitHub Pages, with docs/liabut.pdf beside it) and paper/build/site.html (the same page
 without the document wrapper, for publishing as an artifact). Run paper/make_figures.py first.
+
+The PDF links carry a content hash so that browsers never show a stale cached copy: `liabut.pdf?v=<hash>` on GitHub
+Pages, and `liabut-<hash>.pdf` for the artifact, whose files are listed in paper/build/artifact_files.json.
 """
 import base64
+import glob
+import hashlib
 import html
 import importlib.util
 import json
@@ -428,13 +433,26 @@ def build():
     full = ("<!doctype html>\n<html lang=\"en-GB\">\n<head>\n<meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
             f"<link rel=\"icon\" type=\"image/png\" href=\"{logo}\">\n{head}</head>\n<body>\n{body}</body>\n</html>\n")
+    pdfs = {k: (f, hashlib.sha256(open(os.path.join(HERE, f), "rb").read()).hexdigest()[:10])
+            for k, f in (("{{PDF}}", "liabut.pdf"), ("{{SUPP}}", "liabut_supplement.pdf"))}
     os.makedirs(os.path.join(REPO, "docs"), exist_ok=True)
-    open(os.path.join(REPO, "docs", "index.html"), "w", encoding="utf-8").write(full)
-    shutil.copy(os.path.join(HERE, "liabut.pdf"), os.path.join(REPO, "docs", "liabut.pdf"))
-    shutil.copy(os.path.join(HERE, "liabut_supplement.pdf"), os.path.join(REPO, "docs", "liabut_supplement.pdf"))
+    docs = full
+    for k, (f, h) in pdfs.items():
+        docs = docs.replace(k, f"{f}?v={h}")
+        shutil.copy(os.path.join(HERE, f), os.path.join(REPO, "docs", f))
+    open(os.path.join(REPO, "docs", "index.html"), "w", encoding="utf-8").write(docs)
     os.makedirs(os.path.join(HERE, "build"), exist_ok=True)
     head_artifact = head.replace("<title>Liabut · Phaistos Labs</title>", "<title>Liabut</title>")
-    open(os.path.join(HERE, "build", "site.html"), "w", encoding="utf-8").write(head_artifact + body)
+    art, files = head_artifact + body, {}
+    for old in glob.glob(os.path.join(HERE, "build", "liabut*-*.pdf")):
+        os.remove(old)
+    for k, (f, h) in pdfs.items():
+        name = f.replace(".pdf", f"-{h}.pdf")
+        art = art.replace(k, name)
+        shutil.copy(os.path.join(HERE, f), os.path.join(HERE, "build", name))
+        files[name] = f"paper/build/{name}"
+    open(os.path.join(HERE, "build", "site.html"), "w", encoding="utf-8").write(art)
+    json.dump(files, open(os.path.join(HERE, "build", "artifact_files.json"), "w"), indent=1)
     print("wrote docs/index.html and paper/build/site.html", len(full) // 1024, "KB")
 
 

@@ -127,7 +127,7 @@ python3 15_post_hoc.py e5         # E5, geography
 python3 15_post_hoc.py e6         # E6: needs IQ-TREE 2 on the PATH or in $IQTREE
 python3 16_posterior.py           # posterior clade probabilities
 python3 17_gray2009.py            # novelty check against Gray et al. 2009 posterior trees
-python3 18_ge_tables.py <path to a clone of github.com/langsci/526>   # E7
+python3 18_ge_tables.py ../data/upstream/langsci526   # E7
 python3 19_reflex_atlas.py        # E8, E9
 python3 20_total_evidence.py matrix   # E10
 python3 21_innovations.py         # E10b

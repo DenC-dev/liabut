@@ -4,7 +4,10 @@ Forms of Idate and Lakalei in cognate sets shared with Central Timor but not Tet
 e4_lakalei_idate_sets.csv) are checked, target by target, against the Lakalei-Idate and Central Timor expert majority
 reflexes (derived/reflex_atlas/expert_tokens.csv). Only targets where the two differ are diagnostic.
 
-Writes derived/loans/central_timor_in_lakalei_idate.csv.
+Writes derived/loans/central_timor_in_lakalei_idate.csv, and derived/loans/lakalei_idate_central_timor_exclusive_sets.csv:
+the cognate sets found only in Lakalei-Idate and Central Timor (Welaun included), with the Tetun, Habu and Kawaimina
+forms for the same concept. (That second file was first made by hand-run code that was not kept; exclusive_sets()
+reproduces it exactly.)
 
     python3 src/23_ct_loans.py
 """
@@ -14,7 +17,7 @@ import sys
 from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(__file__))
-from common import REPO, RES, read_csv, write_csv  # noqa: E402
+from common import REF, REPO, RES, read_csv, write_csv  # noqa: E402
 from pipeline import variant_rows  # noqa: E402
 
 loans = importlib.import_module("22_tetun_loans")
@@ -32,6 +35,33 @@ def pooled_majority(cells, gs, target, position):
         for g in gs:
             c.update(cells.get((g, target, None)) or Counter())
     return c.most_common(1)[0][0] if sum(c.values()) >= 2 else None
+
+
+def exclusive_sets():
+    grp = {r["Lect_ID"]: r["Group"] for r in read_csv(os.path.join(REF, "d1_lects.csv"))}
+    forms = {r["ID"]: r for r in read_csv(os.path.join(REPO, "data", "d1", "forms.csv"))}
+    li, ct = {"Idate", "Lakalei"}, {"Mambae", "Kemak", "Tokodede", "Welaun"}
+    rows = variant_rows("d1", "lexstat", "primary")
+    members, by_concept = defaultdict(list), defaultdict(lambda: defaultdict(set))
+    for r in rows:
+        members[r["Cognateset_ID"]].append(r)
+        by_concept[r["Concept_ID"]][grp[r["Lect_ID"]]].add(forms[r["Form_ID"]]["Form"])
+
+    def joined(rs, groups):
+        return " ~ ".join(sorted({forms[r["Form_ID"]]["Form"] for r in rs if grp[r["Lect_ID"]] in groups}))
+
+    out = []
+    for r in read_csv(os.path.join(RES, "exploratory", "e4_lakalei_idate_sets.csv")):
+        if r["With_CentralTimor"] != "True" or not set(r["Groups"].split()) <= li | ct:
+            continue
+        s, c = r["Cognateset_ID"], r["Concept_ID"]
+        out.append(dict(Concept=c, Leipzig_Jakarta=r["Stable"], Groups=r["Groups"],
+                        Lakalei_Idate=joined(members[s], li), Central_Timor=joined(members[s], ct),
+                        **{g: " ~ ".join(sorted(by_concept[c][g])) for g in ("Tetun", "Habu", "Kawaimina")},
+                        Cognateset_ID=s))
+    out.sort(key=lambda r: (r["Concept"], r["Cognateset_ID"]))
+    write_csv(os.path.join(REPO, "derived", "loans", "lakalei_idate_central_timor_exclusive_sets.csv"), out)
+    print(len(out), "cognate sets found only in Lakalei-Idate and Central Timor")
 
 
 def main():
@@ -79,3 +109,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    exclusive_sets()

@@ -8,11 +8,12 @@ Grimes and Edwards print their evidence as tables. Each has a gloss row and a PM
 
 | File | Contents |
 |---|---|
-| `forms.csv` | One row per language form. Covers 257 table blocks (239 numbered tables) and 14,401 forms, 12,537 of them marked cognate. Each row has the gloss, the PMP etymon (with the target marked `⟦ ⟧`), the form (with the authors' highlight marked `⟦ ⟧`) and the cognacy flag. |
+| `forms.csv` | One row per language form. Covers 257 comparative tables, 250 of which have language rows, and 14,401 forms, 12,537 of them marked cognate. Each row has the gloss, the PMP etymon (with the target marked `⟦ ⟧`), the form (with the authors' highlight marked `⟦ ⟧`) and the cognacy flag. |
 | `reflexes.csv` | One row per highlighted target: PMP segment → reflex. |
 | `languages.csv` | The 328 row labels, mapped to 207 Glottocodes through the book's Appendix A plus an alias list. That covers 93% of forms. |
 
-- **Built by** `src/18_ge_tables.py`, from the book's LaTeX source (github.com/langsci/526).
+- **Built by** `src/18_ge_tables.py`, from the book's LaTeX source (github.com/langsci/526, commit 9169a5c of 18 March 2026).
+- **Table labels.** `Table` is the book's own label (`03-28` is Table 3.28). Six tables have no label and are identified by file and character offset. Until 13 October 2026, 13 tables whose captions contain environment notation had a wrong label (`\#` or `\gap`) and a truncated caption; the forms themselves were unaffected (results/LITERATURE.md, eleventh round).
 - **Licence.** CC-BY 4.0, following the book. Cite: Grimes, Charles E. and Owen Edwards. 2026. *The Austronesian languages of eastern Indonesia and Timor-Leste: Unravelling their prehistory and classification*. Berlin: Language Science Press.
 - **What the data mean.** The highlights are the authors' judgments. Errors in parsing or mapping are ours.
 
@@ -34,7 +35,6 @@ Grimes and Edwards print their evidence as tables. Each has a gloss row and a PM
 | `innovation_profiles.csv` | Eight diagnostic changes (A4.4), coded 1, 0 or ? for 65 Timor-region languages, with token counts. |
 | `innovation_matrix_24.csv` | The same characters for the 24 taxa used in the Bayesian analyses. |
 | `characters_*.csv`, `matrix_*.csv`, `phon_*.phy` | Multistate characters (E10): one per PMP target, and one per target and position. |
-
 | `hull_ramelaic_profiles.csv`, `innovation_matrix_24_hull.csv` | Three more characters (Addendum 5, E13): word-initial *b > h; initial and medial *k loss. Each cell is flagged by whether it comes from the expert or the automatic atlas. |
 
 - **Built by** `src/20_total_evidence.py`, `src/21_innovations.py` and `src/25_literature_checks.py`.

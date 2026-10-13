@@ -127,6 +127,32 @@ def segments(text):
     return parts
 
 
+def braced(s, i):
+    """Content of the brace group opening at s[i] == '{', and the index just after it."""
+    depth, k = 0, i
+    while k < len(s):
+        depth += {"{": 1, "}": -1}.get(s[k], 0)
+        k += 1
+        if depth == 0:
+            return s[i + 1:k - 1], k
+    return None, k
+
+
+def last_tcp(before, window=600):
+    """(caption, label) of the last \\tcp{caption}{label} in the window before a table.
+
+    Captions contain brace groups such as /{\\#}{\\gap}, so both arguments are read with balanced braces.
+    (Before 13 October 2026 a regex stopped at the first '}{' and gave 13 tables the label '\\#' or '\\gap'.)"""
+    j = before.rfind("\\tcp{", max(0, len(before) - window))
+    if j < 0:
+        return None
+    cap, k = braced(before, j + 4)
+    if cap is None or k >= len(before) or before[k] != "{":
+        return None
+    lab, _ = braced(before, k)
+    return (cap, lab) if lab is not None else None
+
+
 def lookup(name, langs):
     if name in ALIASES:
         return dict(Glottocode=ALIASES[name])
@@ -163,9 +189,9 @@ def main(root):
                 if pi is None:
                     continue
                 before = src[:m.start()]
-                lab = re.findall(r"\\tcp\{(.*?)\}\{([^}]*)\}", before[-600:], re.S)
-                table_id = lab[-1][1] if lab else f"{fn}:{m.start()}"
-                caption = clean(lab[-1][0])[0] if lab else ""
+                lab = last_tcp(before)
+                table_id = lab[1] if lab else f"{fn}:{m.start()}"
+                caption = clean(lab[0].replace("\\gap", "_").replace("\\#", "#"))[0] if lab else ""
                 gloss_row = rows[pi - 1] if pi > 0 and GLOSS_ROW.search(clean(rows[pi - 1][0])[0]) else None
                 proto = [clean(c)[0] for c in rows[pi]]
                 table_count += 1

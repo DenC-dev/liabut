@@ -39,6 +39,7 @@ plt.rcParams.update({
     "font.family": "Gentium Book Plus", "font.size": 8.5, "text.color": INK, "axes.edgecolor": RULE,
     "axes.labelcolor": INK2, "xtick.color": INK3, "ytick.color": INK3, "figure.facecolor": "white",
     "savefig.facecolor": "white", "pdf.fonttype": 42,
+    "svg.hashsalt": "liabut",  # stable SVG ids, so a rebuild with unchanged data changes no file (dates: SOURCE_DATE_EPOCH)
 })
 
 # ---------------------------------------------------------------- the 24 lects

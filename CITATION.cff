@@ -6,7 +6,7 @@ authors:
   - family-names: Crowley
     given-names: Dennis
     affiliation: Phaistos Labs
-version: "3.0"
+version: "3.0.1"
 date-released: 2026-10-13
 license: MIT
 repository-code: "https://github.com/DenC-dev/liabut"
@@ -21,4 +21,5 @@ abstract: >-
   Data, code, protocol and results for a pre-registered computational test of two disputed placements in the
   Austronesian languages of Timor (Lakalei-Idate and Welaun), with a second round of analyses declared after a
   mock referee report. Derived datasets include Grimes and Edwards's (2026) comparative tables as data, expert and
-  automatic reflex atlases, sound-change matrices and a specialist review packet.
+  automatic reflex atlases, sound-change matrices, a specialist review packet, an audit trail of every exclusion,
+  a data dictionary, provenance notes and a one-command reproduction script.

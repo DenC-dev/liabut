@@ -1,6 +1,6 @@
 # Provenance and permissions
 
-Every dataset Liabut uses, where it came from, the exact version, its licence, and what it is used for. Upstream repositories are cloned by `src/01_fetch.sh` into `data/upstream/` at the commits below.
+Every dataset Liabut uses, where it came from, the exact version, its licence, and what it is used for. Upstream repositories are cloned by `src/01_fetch.sh` into `data/upstream/` at the commits below (except ASJP, used once for E14, which is cloned by hand).
 
 | Source | Version | Licence | Used for |
 |---|---|---|---|
@@ -8,12 +8,12 @@ Every dataset Liabut uses, where it came from, the exact version, its licence, a
 | ABVD (Greenhill, Blust and Gray 2008) | `lexibank/abvd` commit `4a5795e` (2026-10-04) | CC BY 4.0 | Expert cognate judgements (D2), PMP forms, and the six outgroup lists (E40, E57) |
 | Blust's Proto-Malayo-Polynesian, as in ABVD | same | CC BY 4.0 | E2, the retention rule, and the PMP pseudo-taxon (E40, E57) |
 | Austronesian Comparative Dictionary (Blust, Trussel and Smith) | `lexibank/acd` commit `16085f2` (2025-01-07) | CC BY 4.0 | Etymological check of the decisive sets (E35) |
-| Intercontinental Dictionary Series, Portuguese (Key and Comrie) | `intercontinental-dictionary-series/ids` commit `bf6c9f8` | CC BY 4.0 | Loan screen (step 3) |
-| Gray, Drummond and Greenhill (2009) posterior trees | `phlorest/gray_et_al2009` commit `85dd9d8` | CC BY 4.0 | Novelty check only |
-| ASJP v21 | via `lexibank/asjp` | CC BY 4.0 | E14 only |
+| Intercontinental Dictionary Series, Portuguese (Key and Comrie) | `lexibank/ids` commit `bf6c9f8` (2026-10-09) | CC BY 4.0 | Loan screen (step 3) |
+| Gray, Drummond and Greenhill (2009) posterior trees | `phlorest/gray_et_al2009` commit `85dd9d8` (2026-10-10) | CC BY 4.0 | Novelty check only |
+| ASJP v21 | `lexibank/asjp`, CLDF release v21.1 (cloned by hand) | CC BY 4.0 | E14 only |
 | Glottolog | 5.3 | CC BY 4.0 | Classification labels |
 | Concepticon, Leipzig-Jakarta list (Tadmor 2009) | `data/screen/leipzig_jakarta_tadmor2009.tsv` | CC BY 4.0 | Stable concepts |
-| Grimes and Edwards (2026), *The Austronesian languages of eastern Indonesia and Timor-Leste* | Language Science Press, LaTeX source `langsci/526` | CC BY 4.0 | Classification and comparative tables, re-released as data in `derived/ge2026_tables/` under the same licence |
+| Grimes and Edwards (2026), *The Austronesian languages of eastern Indonesia and Timor-Leste* | Language Science Press, LaTeX source `langsci/526` commit `9169a5c` (2026-03-18) | CC BY 4.0 | Classification and comparative tables, re-released as data in `derived/ge2026_tables/` under the same licence |
 | Alcantara (2015), MA thesis, Universidade de São Paulo | 184 forms transcribed from the thesis | Author's data, not covered by this repository's licence | E16 only; reproduced for research with attribution |
 | Natural Earth | 10m land and boundaries | Public domain | Maps |
 | Alegreya, Gentium Book Plus | `paper/fonts/` | SIL Open Font License 1.1 | Paper and website |

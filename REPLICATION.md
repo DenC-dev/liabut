@@ -10,8 +10,8 @@ Liabut's analyses have so far been run only by the author (with AI assistance). 
 
 ## Two levels
 
-1. **From the stored codings** (`bash reproduce.sh principal`, about 15 minutes). Reruns the deterministic analyses behind the main text and rebuilds `results/principal_estimates.csv`. Agreement here checks the code that turns codings and tree samples into the reported numbers.
-2. **From the upstream data** (`bash reproduce.sh full`, many hours). Recodes cognates, reruns every tree. Agreement here checks the whole pipeline.
+1. **From the stored codings** (`bash reproduce.sh principal`, about two minutes, longer if the stored E57 IQ-TREE runs are deleted first). Reruns the deterministic analyses behind the main text and rebuilds `results/principal_estimates.csv`. Agreement here checks the code that turns codings and tree samples into the reported numbers.
+2. **From the upstream data** (`bash reproduce.sh full`, many hours). Recodes cognates, reruns every tree. Agreement here checks the whole pipeline. It sets `LEGACY_NFD=1`, so the Portuguese loan screen behaves as it did when the stored results were made; with `LEGACY_NFD=0` it flags one more D2 form (Waima'a *kasa* 'to hunt', like Portuguese *caçar*), a cognate set of one that carries no grouping information.
 
 ## What to compare
 

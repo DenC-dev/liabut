@@ -271,7 +271,7 @@ The comparison was widened until it produced data that didn't exist before. Deta
 
 **The new datasets.**
 
-- **Machine-readable Grimes and Edwards (2026) tables.** 14,401 forms from 257 table blocks, mapped to 207 Glottocodes, with the authors' highlighted reflexes kept.
+- **Machine-readable Grimes and Edwards (2026) tables.** 14,401 forms from 257 comparative tables, mapped to 207 Glottocodes, with the authors' highlighted reflexes kept.
 - **Two reflex atlases of PMP consonants.**
   - Expert: 8,426 tokens across 186 languages.
   - Automatic: 4,978 tokens across 64 LexiRumah lects.

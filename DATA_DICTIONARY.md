@@ -24,7 +24,7 @@ This file describes every lect, character, cognate assignment and exclusion code
 | `Glottocode` | Glottolog 5.3 code |
 | `Latitude`, `Longitude` | LexiRumah coordinates (used for the maps only) |
 | `Group` | LexiRumah's group label |
-| `Role` | `AN` (Austronesian, analysed), `TAP` (Papuan, used only for screening and E48) |
+| `Role` | `Timor AN` (37 Austronesian lists from Timor), `Outgroup AN` (24 lists from Rote, Wetar, Luangic-Kisaric and Babar), `Root AN` (3 Flores-Lembata lists, the pre-registered root), `TAP` (6 Papuan lists, used only for loan screening and E48) |
 | `Concepts` | Number of the 152 concepts attested |
 
 ### The 24 lects in the model-based analyses
@@ -71,7 +71,8 @@ Group abbreviations used throughout: **CT**, Central Timor (Mambae, Kemak, Tokod
 | File | Columns | Method |
 |---|---|---|
 | `results/cognates/d1_lexstat.csv` | `Form_ID`, `Lect_ID`, `Concept_ID`, `Cognateset_ID` | Primary coding: LingPy LexStat, threshold 0.55, Infomap, 1,000 scorer runs, seed 1234 |
-| `results/cognates/` (other files) | same | SCA (0.45) and LexStat at 0.35 and 0.75 (E15); consensus coding (E27) |
+| `results/cognates/` (other files) | same | SCA (0.45) and LexStat at 0.35 and 0.75 (E15) |
+| `results/literature/e27/consensus_cognates.csv` | same | Consensus coding (E27) |
 | `results/literature/e40/cognates_lexstat.csv` | same | Primary method on D1 plus the seven outgroups together (E40, E57) |
 | `results/literature/e51/partial_cognates.csv` | adds `Morpheme`, `Segments` | LingPy Partial, morpheme-level sets (E51) |
 
