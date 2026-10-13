@@ -2,6 +2,7 @@
 # Build the Liabut working paper: figures, static Alegreya instances, then pandoc + XeLaTeX.
 #   bash paper/build.sh        (needs python3 with matplotlib, shapely, biopython, fonttools; pandoc >= 3; xelatex)
 set -euo pipefail
+export LC_ALL=C.UTF-8   # pandoc reads -V values in the locale encoding; without UTF-8 the PDF title metadata is garbled
 cd "$(dirname "$0")"
 python3 make_figures.py
 mkdir -p build/fonts
