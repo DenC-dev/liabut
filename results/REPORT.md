@@ -10,6 +10,7 @@ Run on 2026-10-10.
 - **Labels.** Everything marked *exploratory* or *post hoc* sits outside the pre-registered decision.
 - **Later rounds.** Addenda 4 to 12 (10 to 11 October) are summarised in `results/LITERATURE.md`. Addendum 12 is a second round after a mock referee report, with its own binding decision rule; its verdict on C1 is in the table below.
 - **Addendum 13** (13 October, exploratory) adds E51 to E55: partial cognates, regular correspondences, a fuller phonology, a learned retention classifier and split networks. None changes the verdict below.
+- **Addendum 14** (13 October), requested in a review of version 2: E56 (reversibility of sound change) and E57 (the root under other outgroups and missing-data treatments), plus an audit trail, a data dictionary and a provenance record. Version 3 of the paper restructures it around one primary analysis, the second-round rule.
 
 ## Answers
 

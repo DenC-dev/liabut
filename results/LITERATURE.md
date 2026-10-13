@@ -778,6 +778,50 @@ NeighborNet on the 24-lect primary distances, 200 concept bootstraps.
 
 Nothing in the verdict. Two details sharpen. Partial coding fixes the split 'wife' sets and strengthens Nuclear Central Timor in the trees, while its polarised innovations lean towards Tetun and Habu. And the phonology's advantage for the eastern tree, beyond \*p lenition, comes from grouping Tetun with Habu and Kawaimina, not from Lakalei-Idate.
 
+## Tenth round: two sensitivity analyses requested in review (Addendum 14)
+
+A review of version 2 asked for fewer new analyses and a clearer account of the existing ones, with two exceptions, declared and pushed before they were run. Script: `src/43_addendum14.py`. The review also asked for documentation, now in `derived/audit/`, `DATA_DICTIONARY.md`, `PROVENANCE.md`, `REPLICATION.md`, `SPECIALIST_REVIEW.md` and `reproduce.sh`.
+
+### E56: reversibility of sound change
+
+Sankoff parsimony on H, G and GE, rooted on Flores, root state fixed at the PMP state; a change costs 1 and a restoration r.
+
+| r | \*p lenition: H / G / GE | Eleven characters | 36 characters |
+|---|---|---|---|
+| 0.1 | 1.1 / 1.1 / 1.1 | 22.1 / 21.8 / **21.4** | 60.1 / 59.8 / **59.6** |
+| 0.5 | 1.5 / 1.5 / 1.5 | 31.5 / 31.5 / **30.0** | 85.5 / 85.5 / **85.0** |
+| 1 | 2 / 2 / 2 | 38 / 38 / **37** | 99 / **97** / 99 |
+| 2 | 3 / 3 / **2** | **44** / 45 / **44** | 107 / **100** / 103 |
+| 3 | 4 / 4 / **2** | 47 / 47 / 47 | 108 / **100** / 105 |
+| 5 to 1,000 | 6 / 4 / **2** | 49 / **47** / 50–51 | 108 / **100** / 107 |
+
+- **\*p lenition favours Grimes and Edwards's tree as soon as a restoration costs twice a change**, and ties below that.
+- **The lexical tree is never the uniquely cheapest**, for any character set at any cost. Grimes and Edwards's tree wins when restorations are cheap; G wins when they are costly, mainly by grouping Tetun with Habu and Kawaimina (E53).
+
+### E57: the root under other outgroups and missing-data treatments
+
+| Variant (UFBoot) | Root on Flores | Root on Rote-Meto + Helong | Root on Central Timor stem | LI + CT rooted clade | Timor-Babar rooted clade |
+|---|---|---|---|---|---|
+| Without Tagalog | 0.89 | 0.10 | 0.00 | 0.97 | 0.00 |
+| Without Buginese | 0.87 | 0.12 | 0.00 | 0.96 | 0.00 |
+| Without Uma | 0.83 | 0.15 | 0.00 | 0.97 | 0.00 |
+| Without Kambera | 0.81 | 0.17 | 0.00 | 0.95 | 0.00 |
+| Without Bima | 0.92 | 0.07 | 0.00 | 0.97 | 0.00 |
+| Without Manggarai | 0.46 | 0.51 | 0.00 | 0.98 | 0.00 |
+| Without PMP | 0.96 | 0.03 | 0.00 | 0.97 | 0.00 |
+| Missing data coded as absence | 0.36 | 0.60 | 0.00 | 0.86 | 0.00 |
+| Only the 99 concepts attested in all seven outgroups | 0.83 | 0.13 | 0.00 | 0.96 | 0.00 |
+
+- **Robust by the declared reading**: the Central Timor stem gets 0.00 in every variant.
+- **Flores against Rote-Meto depends on the choices**: dropping Manggarai or coding missing data as absence moves the root to Rote-Meto + Helong.
+
+### Documentation
+
+- `derived/audit/exclusions.csv`: 4,527 rows, every excluded or reclassified form and set with a reason code (codes in `DATA_DICTIONARY.md`).
+- `derived/audit/decisive_comparisons.csv`: the 47 decisive sets, both sides; 30 still counted after cleaning.
+- `derived/audit/p_reflexes.csv`: every \*p token for 13 focal lects, with its environment. It shows that \*palu 'hit', earlier read as a counter-example for Lakalei-Idate, has b in the eastern languages too (Tetun *baku*, Waima'a *baː*), so it counts for neither side.
+- `results/principal_estimates.csv` (`src/44_principal.py`): every estimate in the paper's main text, with its file and key.
+
 ## Not yet used, and worth getting
 
 - **Alcantara's full corpus.** It has 800 words and 420 sentences, of which only 184 forms are published. The full corpus would give enough Idaté *ŋ, *j, *k and *d words to code every character.

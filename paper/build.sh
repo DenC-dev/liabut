@@ -13,7 +13,14 @@ pandoc liabut.md -o liabut.pdf --pdf-engine=xelatex --number-sections \
   -H phaistos.tex -B title.tex --lua-filter=floattables.lua \
   -V documentclass=article -V fontsize=11pt -V papersize=a4 -V fontfamily=fontspec \
   -V geometry:top=26mm -V geometry:bottom=28mm -V geometry:left=30mm -V geometry:right=30mm \
-  -V pagetitle="Liabut: a lexical-phylogenetic study of how Timor’s Austronesian languages branch, with a pre-registered core" \
-  -V title-meta="Liabut: a lexical-phylogenetic study of how Timor’s Austronesian languages branch, with a pre-registered core" \
+  -V pagetitle="Where do Idaté and Lakalei belong?" \
+  -V title-meta="Where do Idaté and Lakalei belong? A pre-registered lexical-phylogenetic test of two classifications of Timor’s Austronesian languages" \
   -V author-meta="Dennis Crowley" -V lang=en-GB
-echo "wrote paper/liabut.pdf"
+pandoc supplement.md -o liabut_supplement.pdf --pdf-engine=xelatex --number-sections \
+  -H phaistos.tex -H supp_numbering.tex -B supp_title.tex --lua-filter=floattables.lua \
+  -V documentclass=article -V fontsize=11pt -V papersize=a4 -V fontfamily=fontspec \
+  -V geometry:top=26mm -V geometry:bottom=28mm -V geometry:left=30mm -V geometry:right=30mm \
+  -V pagetitle="Where do Idaté and Lakalei belong? Supplement" \
+  -V title-meta="Where do Idaté and Lakalei belong? Supplement: the exploratory analyses" \
+  -V author-meta="Dennis Crowley" -V lang=en-GB
+echo "wrote paper/liabut.pdf and paper/liabut_supplement.pdf"

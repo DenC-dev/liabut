@@ -1,0 +1,34 @@
+Section,Estimate,Value,File,Key,Produced_by
+Pre-registered,C1 decision (step 8),"""unresolved""",results/decision.json,C1 > decision,src/12_decide.py
+Pre-registered,C2 decision (step 8),"""unresolved""",results/decision.json,C2 > decision,src/12_decide.py
+Trees,"Posterior, Lakalei-Idate + Central Timor (unrooted)",0.905,results/bayes/posterior_clades.json,Central Timor with Welaun + Lakalei-Idate,src/09_bayes.py
+Trees,"Posterior, Timor-Babar (unrooted)",0.0,results/bayes/posterior_clades.json,Timor-Babar (Edwards; G&E),src/09_bayes.py
+Trees,"Posterior, Lakalei-Idate + Eastern Timor (unrooted)",0.0,results/bayes/posterior_clades.json,"Eastern Timor + Lakalei-Idate (G&E, possible)",src/09_bayes.py
+Root,"Root on Flores, seven outgroups, MrBayes",0.927,results/literature/e40_root.json,primary MrBayes > root_categories > Flores pair | rest,src/41_addendum12.py e40sum
+Root,"Root on Rote-Meto + Helong, seven outgroups, MrBayes",0.073,results/literature/e40_root.json,primary MrBayes > root_categories > Rote-Meto + Helong (with or without Flores) | rest,src/41_addendum12.py e40sum
+Root,"Root on Central Timor stem, seven outgroups, MrBayes",0.0,results/literature/e40_root.json,primary MrBayes > root_categories > Central Timor (with or without Welaun) | rest,src/41_addendum12.py e40sum
+Root,"Lakalei-Idate + Central Timor rooted clade, MrBayes",0.999,results/literature/e40_root.json,primary MrBayes > rooted_clades > LI + Central Timor (with or without Welaun),src/41_addendum12.py e40sum
+Root,"Same, UFBoot, all seven outgroups",0.98,results/literature/e40_root.json,primary UFBoot > rooted_clades > LI + Central Timor (with or without Welaun),src/41_addendum12.py e40sum
+Root,"Same, UFBoot, far outgroups",0.979,results/literature/e40_root.json,far UFBoot > rooted_clades > LI + Central Timor (with or without Welaun),src/41_addendum12.py e40sum
+Root,"Same, UFBoot, near outgroups",0.978,results/literature/e40_root.json,near UFBoot > rooted_clades > LI + Central Timor (with or without Welaun),src/41_addendum12.py e40sum
+Root,"Timor-Babar rooted clade, MrBayes",0.0,results/literature/e40_root.json,primary MrBayes > rooted_clades > Timor-Babar incl. LI,src/41_addendum12.py e40sum
+Root,Root on Central Timor stem in every E57 variant below 0.05,true,results/literature/e57_root_sensitivity.json,robust (CT stem share < 0.05 in every variant),src/43_addendum14.py e57
+Kept together,"UFBoot with Central Timor, primary lists",70.0,results/literature/e44_li_together.json,primary: Lakalei-Idate monophyletic > support > with Central Timor (with Welaun if present),src/41_addendum12.py e44
+Kept together,"UFBoot with Central Timor, independent lists",98.0,results/literature/e44_li_together.json,independent: Lakalei-Idate monophyletic > support > with Central Timor (with Welaun if present),src/41_addendum12.py e44
+Kept together,"UFBoot with Habu, Idaté alone, primary lists",38.0,results/literature/e44_li_together.json,primary: Idate alone > support > with Habu,src/41_addendum12.py e44
+Topology tests,"AU p, Timor-Babar rooted, primary",0.0107,results/literature/e45_au_rooted.json,"primary > Timor-Babar incl. Lakalei-Idate, rooted > p_AU",src/41_addendum12.py e45
+Topology tests,"AU p, Lakalei-Idate + Eastern Timor, primary",0.173,results/literature/e45_au_rooted.json,primary > Lakalei-Idate + Eastern Timor > p_AU,src/41_addendum12.py e45
+Topology tests,"AU p, Lakalei-Idate + Eastern Timor, independent",0.0701,results/literature/e45_au_rooted.json,independent > Lakalei-Idate + Eastern Timor > p_AU,src/41_addendum12.py e45
+Topology tests,Smallest Holm-adjusted p over all eleven tests,0.1177,results/literature/e45_au_rooted.json,"holm_all_topology_tests > E45 primary Timor-Babar incl. Lakalei-Idate, rooted > holm",src/41_addendum12.py e45
+Topology tests,"SOWH p, eastern placement, primary",0.0099,results/literature/e38_sowh_primary.json,p,src/40_addendum11.py e38
+Bayes factors,"ln BF, Lakalei-Idate + Central Timor against Lakalei-Idate + Eastern Timor",11.78,results/literature/e47_direct_bf.json,lnBF LI+CT vs LI+ET,src/41_addendum12.py e47sum
+Bayes factors,"ln BF, Central Timor with Welaun against Welaun + Tetun",7.56,results/literature/e47_direct_bf.json,lnBF CT with Welaun vs Welaun+Tetun,src/41_addendum12.py e47sum
+Shared innovations,"Cleaned, polarised, stable: LI + NCT against Habu",10,results/literature/e46_triplets_clean.json,"R2 cleaned and polarised (Flores, Rote-Meto + Helong, Wetar) > representative (LI, NCT, Habu) > stable > counts > LI+NCT",src/41_addendum12.py e46
+Shared innovations,"Cleaned, polarised, stable: LI + Habu",12,results/literature/e46_triplets_clean.json,"R2 cleaned and polarised (Flores, Rote-Meto + Helong, Wetar) > representative (LI, NCT, Habu) > stable > counts > LI+Habu",src/41_addendum12.py e46
+Sound changes,"*p kept, Lakalei-Idate (kept, words)","[0, 6]",results/literature/e42_sound_irreversible.json,e2_p_kept > lakalei_idate,src/41_addendum12.py e42
+Sound changes,"*p kept, Nuclear Central Timor (kept, words)","[54, 55]",results/literature/e42_sound_irreversible.json,e2_p_kept > nuclear_central_timor,src/41_addendum12.py e42
+Sound changes,"*p lenition, origins on the lexical tree if irreversible",6.0,results/literature/e56_reversibility.json,p lenition > 1000 > cost > H,src/43_addendum14.py e56
+Sound changes,"*p lenition, origins on Grimes and Edwards's split if irreversible",2.0,results/literature/e56_reversibility.json,p lenition > 1000 > cost > GE,src/43_addendum14.py e56
+Sound changes,"*p lenition, cheapest tree when a restoration costs as much as a change","[""H"", ""G"", ""GE""]",results/literature/e56_reversibility.json,p lenition > 1 > cheapest,src/43_addendum14.py e56
+Sound changes,"*p lenition, cheapest tree when a restoration costs twice a change","[""GE""]",results/literature/e56_reversibility.json,p lenition > 2 > cheapest,src/43_addendum14.py e56
+Calibration,Undisputed sound-change groups recovered at posterior 0.95 (of 10),6,results/literature/e43_known_groups.json,summary > recovered_MrBayes_095,src/41_addendum12.py e43

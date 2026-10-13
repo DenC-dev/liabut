@@ -1,12 +1,14 @@
 # Liabut
 
-**A lexical-phylogenetic study of how the Austronesian languages of Timor branch, with a pre-registered core.**
+**Where do Idaté and Lakalei belong? A pre-registered lexical-phylogenetic test of two classifications of Timor's Austronesian languages.**
 
 *Liabut* is coined from Tetun *lia* 'word, speech' and *abut* 'root': the roots of words. The project asks how Timor's languages branch from one another, and which of them are closest kin. (It was called Sanak until 11 October 2026.)
 
 Dennis Crowley, Phaistos Labs.
 
-- **Working paper:** [`paper/liabut.pdf`](paper/liabut.pdf), a Phaistos Labs preprint (not peer reviewed). Source in [`paper/`](paper); rebuild with `bash paper/build.sh`.
+- **Working paper:** [`paper/liabut.pdf`](paper/liabut.pdf), version 3, a Phaistos Labs preprint (not peer reviewed), with a [supplement](paper/liabut_supplement.pdf) of the exploratory analyses. Source in [`paper/`](paper); rebuild with `bash paper/build.sh`.
+- **Reproduce:** `bash reproduce.sh principal` rebuilds every estimate in the paper's main text (listed with its source in [`results/principal_estimates.csv`](results/principal_estimates.csv)); `bash reproduce.sh full` reruns everything. See [`REPLICATION.md`](REPLICATION.md).
+- **Documentation:** [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) (lects, characters, cognate assignments, exclusion codes), [`PROVENANCE.md`](PROVENANCE.md) (sources, versions, permissions), [`derived/audit/`](derived/audit) (exclusion trail, decisive comparisons, \*p reflexes), [`SPECIALIST_REVIEW.md`](SPECIALIST_REVIEW.md) (what a specialist reviewer is asked to check).
 - **Website:** [`docs/index.html`](docs/index.html), for GitHub Pages at <https://denc-dev.github.io/liabut/>.
 
 ## The question
@@ -33,6 +35,7 @@ The method follows Robinson and Holton (2012), who used lexical data to find sub
 - **The low-level groups are confirmed:** Lakalei-Idate, Kawaimina, Wetar-Atauro, Wetar, Nuclear Rote, Kisar-Luang and Babar.
 - A mock referee report (`paper/review/referee_report.md`) prompted the second round; the earlier "leans Central Timor" reading is withdrawn.
 - **Five last checks (Addendum 13, exploratory) leave the verdict unchanged.** Cognates coded by morpheme merge the split 'wife' sets and favour Nuclear Central Timor more sharply (UFBoot 65%), while their polarised innovations lean towards Tetun and Habu (E51). The decisive sets have too few regular correspondences to tell loans from inheritance (E52). A fuller phonology of 36 characters ties Grimes and Edwards's split with the lexical tree (E53). A learned retention classifier doesn't beat the current rule (0.788 against 0.791; E54). A split network puts Lakalei-Idate with Central Timor in 47% of bootstrap networks and Idaté with Habu in 45% (E55).
+- **Two sensitivity analyses requested in review (Addendum 14) support the framing.** With the cost of restoring a lost \*p varied from a tenth to a thousand times the cost of losing it, \*p lenition favours Grimes and Edwards's tree from twice the cost upwards, and no set of sound changes ever favours the lexical tree (E56). Leaving out each outgroup in turn, coding missing data as absence, or keeping only concepts all outgroups attest never puts the root on the Central Timor stem (E57).
 
 ## New data
 
@@ -98,6 +101,7 @@ See [`results/REPORT.md`](results/REPORT.md) for the full write-up and [`results
 | Lit. 7 | Addendum 11: E37 decisive sets against Grimes and Edwards's tables; E38 parametric bootstrap (SOWH); E39 contacTrees capped at five edges | `results/literature/` |
 | Lit. 8 | Addendum 12, a second round after a mock referee report: E40 root with seven outgroups; E41 relaxed clock; E42 irreversible sound changes; E43 known-group calibration; E44 Lakalei-Idate together and apart; E45 rooted AU tests with Holm over all; E46 cleaned and polarised innovations, tree-pair calibration; E47 direct marginal likelihoods; E48 without Tetun or Papuan-shared sets; E49 heights; E50 glottometry intervals | `results/literature/`, `derived/innovations/` |
 | Lit. 9 | Addendum 13 (exploratory): E51 partial cognates; E52 regular correspondences in the decisive sets; E53 a fuller phonology; E54 a learned retention classifier (not adopted); E55 NeighborNet split support | `results/literature/` |
+| Lit. 10 | Addendum 14, requested in review: E56 reversibility of sound change; E57 root under other outgroups and missing-data treatments; audit trail, decisive comparisons, \*p reflex table | `results/literature/`, `derived/audit/` |
 
 ## Rerun
 
@@ -165,6 +169,9 @@ for n in c1H c1G c2T; do python3 41_addendum12.py e47 $n; done; python3 41_adden
 python3 42_addendum13.py e51code && python3 42_addendum13.py e51   # E51 (Partial is slow; needs IQ-TREE)
 for e in e52 e53; do python3 42_addendum13.py $e; done; MRBAYES=/path/to/mb python3 42_addendum13.py e53mb && python3 42_addendum13.py e53sum
 for e in e54 e55; do python3 42_addendum13.py $e; done
+python3 43_addendum14.py e56 && python3 43_addendum14.py e57   # E56, E57 (IQ-TREE)
+for e in audit decisive reflexes; do python3 43_addendum14.py $e; done
+python3 44_principal.py           # results/principal_estimates.csv
 python3 12_decide.py              # step 8
 python3 13_figures.py
 ```

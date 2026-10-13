@@ -1,0 +1,339 @@
+{
+ "without tagalog": {
+  "characters": 1558,
+  "taxa": 30,
+  "reference": "og-buginese",
+  "concepts": null,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Flores pair | rest": 0.889,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.103,
+    "other: funa1237": 0.004,
+    "other: lama1277_lewoi": 0.002,
+    "other: midi1237 naue1237 waim1252": 0.001,
+    "other: funa1237 lama1277_lewoi sika1262_hewa": 0.001
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.889,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.103,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.0
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.973,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.0,
+    "Timor-region taxa (all but Flores)": 0.891,
+    "Central Timor (with Welaun)": 0.203,
+    "Nuclear Central Timor": 0.356,
+    "Lakalei-Idate": 0.86
+   }
+  },
+  "ML_root": "Flores pair | rest",
+  "ct_stem_share": 0.0
+ },
+ "without buginese": {
+  "characters": 1561,
+  "taxa": 30,
+  "reference": "og-tagalog",
+  "concepts": null,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Flores pair | rest": 0.866,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.125,
+    "other: lama1277_lewoi": 0.003,
+    "other (7 taxa)": 0.002,
+    "other: funa1237": 0.002,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.001,
+    "other (11 taxa)": 0.001
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.866,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.125,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.001
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.963,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.0,
+    "Timor-region taxa (all but Flores)": 0.869,
+    "Central Timor (with Welaun)": 0.208,
+    "Nuclear Central Timor": 0.317,
+    "Lakalei-Idate": 0.856
+   }
+  },
+  "ML_root": "Flores pair | rest",
+  "ct_stem_share": 0.0
+ },
+ "without uma": {
+  "characters": 1562,
+  "taxa": 30,
+  "reference": "og-tagalog",
+  "concepts": null,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Flores pair | rest": 0.828,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.152,
+    "other: funa1237": 0.01,
+    "other: funa1237 lama1277_lewoi sika1262_hewa": 0.004,
+    "other: lama1277_lewoi": 0.003,
+    "other: dela1252 koto1251 term1237": 0.002,
+    "other (11 taxa)": 0.001
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.828,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.152,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.0
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.975,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.0,
+    "Timor-region taxa (all but Flores)": 0.831,
+    "Central Timor (with Welaun)": 0.164,
+    "Nuclear Central Timor": 0.346,
+    "Lakalei-Idate": 0.909
+   }
+  },
+  "ML_root": "Flores pair | rest",
+  "ct_stem_share": 0.0
+ },
+ "without kambera": {
+  "characters": 1569,
+  "taxa": 30,
+  "reference": "og-tagalog",
+  "concepts": null,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Flores pair | rest": 0.81,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.171,
+    "other: funa1237": 0.008,
+    "other: dela1252 koto1251 term1237": 0.004,
+    "other: dela1252 funa1237 koto1251 sika1262_hewa term1237": 0.003,
+    "other: funa1237 lama1277_lewoi sika1262_hewa": 0.003,
+    "other (9 taxa)": 0.001
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.81,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.171,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.0
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.953,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.0,
+    "Timor-region taxa (all but Flores)": 0.81,
+    "Central Timor (with Welaun)": 0.262,
+    "Nuclear Central Timor": 0.398,
+    "Lakalei-Idate": 0.903
+   }
+  },
+  "ML_root": "Flores pair | rest",
+  "ct_stem_share": 0.0
+ },
+ "without bima": {
+  "characters": 1564,
+  "taxa": 30,
+  "reference": "og-tagalog",
+  "concepts": null,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Flores pair | rest": 0.919,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.072,
+    "other: lama1277_lewoi": 0.003,
+    "other: dela1252 koto1251 term1237": 0.002,
+    "other: sika1262_hewa": 0.001,
+    "other: funa1237": 0.001,
+    "other: lama1277_lewoi sika1262_hewa tetu1245_suai": 0.001,
+    "other: tetu1245_suai": 0.001
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.919,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.072,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.0
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.97,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.0,
+    "Timor-region taxa (all but Flores)": 0.923,
+    "Central Timor (with Welaun)": 0.141,
+    "Nuclear Central Timor": 0.29,
+    "Lakalei-Idate": 0.921
+   }
+  },
+  "ML_root": "Flores pair | rest",
+  "ct_stem_share": 0.0
+ },
+ "without manggarai": {
+  "characters": 1571,
+  "taxa": 30,
+  "reference": "og-tagalog",
+  "concepts": null,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.508,
+    "Flores pair | rest": 0.461,
+    "other: dela1252 koto1251 term1237": 0.014,
+    "other: funa1237": 0.008,
+    "other: lama1277_lewoi": 0.004,
+    "other: dela1252 funa1237 koto1251 sika1262_hewa term1237": 0.003,
+    "other (9 taxa)": 0.001,
+    "other: dela1252 funa1237 term1237": 0.001
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.461,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.508,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.0
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.981,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.0,
+    "Timor-region taxa (all but Flores)": 0.465,
+    "Central Timor (with Welaun)": 0.147,
+    "Nuclear Central Timor": 0.365,
+    "Lakalei-Idate": 0.842
+   }
+  },
+  "ML_root": "Rote-Meto + Helong (with or without Flores) | rest",
+  "ct_stem_share": 0.0
+ },
+ "without pmp": {
+  "characters": 1586,
+  "taxa": 30,
+  "reference": "og-tagalog",
+  "concepts": null,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Flores pair | rest": 0.958,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.034,
+    "other: lama1277_lewoi": 0.006,
+    "other: kisa1266 lama1277_lewoi luan1264 sika1262_hewa tela1241": 0.002
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.958,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.034,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.0
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.975,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.0,
+    "Timor-region taxa (all but Flores)": 0.963,
+    "Central Timor (with Welaun)": 0.215,
+    "Nuclear Central Timor": 0.404,
+    "Lakalei-Idate": 0.856
+   }
+  },
+  "ML_root": "Flores pair | rest",
+  "ct_stem_share": 0.0
+ },
+ "missing coded as absent": {
+  "characters": 1599,
+  "taxa": 31,
+  "reference": "og-tagalog",
+  "concepts": null,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.6,
+    "Flores pair | rest": 0.364,
+    "other: funa1237": 0.02,
+    "other: dela1252 koto1251 term1237": 0.009,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.003,
+    "other (7 taxa)": 0.002,
+    "other (9 taxa)": 0.001,
+    "other: funa1237 lama1277_lewoi sika1262_hewa": 0.001
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.364,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.6,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.003
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.863,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.002,
+    "Timor-region taxa (all but Flores)": 0.364,
+    "Central Timor (with Welaun)": 0.239,
+    "Nuclear Central Timor": 0.325,
+    "Lakalei-Idate": 0.887
+   }
+  },
+  "ML_root": "Rote-Meto + Helong (with or without Flores) | rest",
+  "ct_stem_share": 0.0
+ },
+ "only concepts attested in all seven outgroups": {
+  "characters": 1123,
+  "taxa": 31,
+  "reference": "og-tagalog",
+  "concepts": 99,
+  "UFBoot": {
+   "n": 1000,
+   "root_positions": {
+    "Flores pair | rest": 0.834,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.13,
+    "other: lama1277_lewoi": 0.01,
+    "other: funa1237 lama1277_lewoi sika1262_hewa": 0.009,
+    "other (11 taxa)": 0.004,
+    "other: funa1237": 0.004,
+    "other: sika1262_hewa": 0.004,
+    "other: habu1241 midi1237 naue1237 tetu1245_suai waim1252": 0.002,
+    "other: funa1237 koto1251": 0.001,
+    "other: dela1252 koto1251 lama1277_lewoi sika1262_hewa term1237": 0.001,
+    "other: dela1252 koto1251 term1237": 0.001
+   },
+   "root_categories": {
+    "Flores pair | rest": 0.834,
+    "Central Timor (with or without Welaun) | rest": 0.0,
+    "Lakalei-Idate + Central Timor | rest": 0.0,
+    "Lakalei-Idate | rest": 0.0,
+    "Rote-Meto + Helong (with or without Flores) | rest": 0.13,
+    "Kisar-Luang-Tela-Masbuar or part | rest": 0.0
+   },
+   "rooted_clades": {
+    "LI + Central Timor (with or without Welaun)": 0.957,
+    "Timor-Babar incl. LI": 0.0,
+    "LI + Eastern Timor": 0.0,
+    "Timor-region taxa (all but Flores)": 0.848,
+    "Central Timor (with Welaun)": 0.647,
+    "Nuclear Central Timor": 0.874,
+    "Lakalei-Idate": 0.501
+   }
+  },
+  "ML_root": "Flores pair | rest",
+  "ct_stem_share": 0.0
+ },
+ "robust (CT stem share < 0.05 in every variant)": true
+}

@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use these data or this code, please cite them as below."
-title: "Liabut: a lexical-phylogenetic study of how Timor's Austronesian languages branch, with a pre-registered core"
+title: "Where do Idaté and Lakalei belong? A pre-registered lexical-phylogenetic test of two classifications of Timor's Austronesian languages"
 type: software
 authors:
   - family-names: Crowley
     given-names: Dennis
     affiliation: Phaistos Labs
-version: "2.0"
-date-released: 2026-10-11
+version: "3.0"
+date-released: 2026-10-13
 license: MIT
 repository-code: "https://github.com/DenC-dev/liabut"
 keywords:

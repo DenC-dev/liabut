@@ -1,0 +1,17 @@
+{
+ "rows": 4527,
+ "by_code": {
+  "CONTACT-SCREEN": 2714,
+  "LOAN-INDONESIAN": 385,
+  "LOAN-PORTUGUESE": 29,
+  "TETUN-LOOKALIKE": 740,
+  "RET-REVIEW": 11,
+  "ERR-SPLIT": 2,
+  "ERR-NONCOGNATE": 1,
+  "DOUBTFUL": 1,
+  "RET-ACD": 55,
+  "RET-GE-TABLES": 6,
+  "POL-WEST": 451,
+  "PAPUAN-SHARED": 132
+ }
+}

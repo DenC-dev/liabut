@@ -1,0 +1,99 @@
+Atlas,Lect_ID,Concept,PMP,Position,Environment,Form,Reflex,Reflex_class,NED_to_PMP,Note
+automatic,kema1243-kaila,teeth,*nipən,medial,between vowels,nipar,p,labial stop,0.4,
+automatic,kema1243-kaila,blunt,*dumpul,medial,after a consonant,tukun,k,velar stop,0.5,
+automatic,kema1243-kaila,to_hit,*palu,initial,word-initial,para,p,labial stop,0.5,
+automatic,kema1243-kaila,four,*əpat,medial,between vowels,paːt,p,labial stop,0.25,
+automatic,laka1255,teeth,*nipən,medial,between vowels,niɑn,-,∅,0.4,
+automatic,laka1255,thin,*manipis,medial,between vowels,mihis,h,h,0.429,
+automatic,laka1255,to_hit,*palu,initial,word-initial,baʔu,b,labial stop,0.25,
+automatic,laka1255,four,*əpat,medial,between vowels,ʔaːt,ʔ,glottal stop,0.5,
+automatic,lama1277-lewoi,teeth,*ipən,medial,between vowels,ipəʔ,p,labial stop,0.25,
+automatic,lama1277-lewoi,teeth,*nipən,medial,between vowels,ipəʔ,p,labial stop,0.4,
+automatic,lama1277-lewoi,thin,*manipis,medial,between vowels,mənipi,p,labial stop,0.286,
+automatic,lama1277-lewoi,to_walk,*pañaw,initial,word-initial,pana,p,labial stop,0.2,
+automatic,lama1277-lewoi,to_choose,*piliq,initial,word-initial,pileʔ,p,labial stop,0.4,
+automatic,lama1277-lewoi,to_shoot,*panaq,initial,word-initial,pɑsɑk,p,labial stop,0.2,
+automatic,lama1277-lewoi,four,*əpat,medial,between vowels,paː,p,labial stop,0.5,
+automatic,sika1262-hewa,what,*apa,medial,between vowels,apa,p,labial stop,0.0,
+automatic,sika1262-hewa,wing,*kapak,medial,between vowels,kapik,p,labial stop,0.2,
+automatic,sika1262-hewa,to_walk,*pañaw,initial,word-initial,pano,p,labial stop,0.4,
+automatic,sika1262-hewa,to_dream,*hipi,medial,between vowels,mipin,p,labial stop,0.4,
+automatic,sika1262-hewa,to_squeeze,*pərəq,initial,word-initial,pəra,p,labial stop,0.4,
+automatic,sika1262-hewa,to_shoot,*panaq,initial,word-initial,pana,p,labial stop,0.2,
+automatic,tetu1245-suai,teeth,*nipən,medial,between vowels,nihaŋ,h,h,0.4,
+automatic,tetu1245-suai,thin,*manipis,medial,between vowels,miʔis,ʔ,glottal stop,0.429,
+automatic,tetu1245-suai,to_hit,*palu,initial,word-initial,baku,b,labial stop,0.25,
+automatic,tetu1245-suai,to_choose,*piliq,initial,word-initial,hili,h,h,0.4,
+automatic,tetu1245-suai,four,*əpat,medial,between vowels,haːt,h,h,0.5,
+automatic,tuku1254,teeth,*nipən,medial,between vowels,nipa,p,labial stop,0.4,
+automatic,tuku1254,snake,*nipay,medial,between vowels,nipɛ,p,labial stop,0.4,
+automatic,tuku1254,to_hit,*palu,initial,word-initial,bɔnu,b,labial stop,0.5,
+automatic,tuku1254,four,*əpat,medial,between vowels,paːt,p,labial stop,0.25,
+automatic,tuku1254,narrow,*kəpit,medial,between vowels,kmeʔɑt,ʔ,glottal stop,0.5,
+automatic,waim1252,blunt,*dumpul,medial,after a consonant,tubu,b,labial stop,0.333,
+automatic,waim1252,to_hit,*palu,initial,word-initial,baː,b,labial stop,0.5,
+automatic,waim1252,to_shoot,*panaq,initial,word-initial,hana,h,h,0.4,
+automatic,west2547-welaun,what,*apa,medial,between vowels,sasaː,s,sibilant,0.5,
+automatic,west2547-welaun,thin,*manipis,medial,between vowels,niʔis,ʔ,glottal stop,0.429,
+automatic,west2547-welaun,to_choose,*piliq,initial,word-initial,hili,h,h,0.4,
+automatic,west2547-welaun,four,*əpat,medial,between vowels,hoat,-,∅,0.5,
+automatic,naue1237,to_count,*ihap,final,word-final,ˀniha,-,∅,0.5,
+automatic,naue1237,to_hit,*palu,initial,word-initial,buku,b,labial stop,0.5,
+automatic,mamb1306-Slete,four,*əpat,medial,between vowels,faːt,f,labial fricative,0.5,
+automatic,habu1241,teeth,*nipən,medial,between vowels,niʔin,ʔ,glottal stop,0.4,
+automatic,habu1241,to_dream,*hipi,medial,between vowels,nihi,h,h,0.5,
+automatic,idat1237-cribas,four,*əpat,medial,between vowels,aːt,-,∅,0.5,
+expert (Grimes and Edwards tables),kema1243,Central Timor *p = **p,*əpat,medial,between vowels,paat,p,labial stop,,"Kemak, table 05-01"
+expert (Grimes and Edwards tables),kema1243,Central Timor *p = **p,*pija,initial,word-initial,pila,p,labial stop,,"Kemak, table 05-01"
+expert (Grimes and Edwards tables),kema1243,Central Timor *p = **p,*puqun,initial,word-initial,ai puun,p,labial stop,,"Kemak, table 05-01"
+expert (Grimes and Edwards tables),kema1243,Central Timor *p = **p,*pusəj,initial,word-initial,pusr-aar,p,labial stop,,"Kemak, table 05-01"
+expert (Grimes and Edwards tables),kema1243,Central Timor *p = **p,*hapuy,medial,between vowels,api,p,labial stop,,"Kemak, table 05-01"
+expert (Grimes and Edwards tables),kema1243,Central Timor *p = **p,*nipən,medial,between vowels,nipa-r,p,labial stop,,"Kemak, table 05-01"
+expert (Grimes and Edwards tables),tuku1254,Central Timor *p = **p,*əpat,medial,between vowels,paat,p,labial stop,,"Tokodede, table 05-01"
+expert (Grimes and Edwards tables),tuku1254,Central Timor *p = **p,*pija,initial,word-initial,piil,p,labial stop,,"Tokodede, table 05-01"
+expert (Grimes and Edwards tables),tuku1254,Central Timor *p = **p,*puqun,initial,word-initial,puu,p,labial stop,,"Tokodede, table 05-01"
+expert (Grimes and Edwards tables),tuku1254,Central Timor *p = **p,*pusəj,initial,word-initial,kupusa,p,labial stop,,"Tokodede, table 05-01"
+expert (Grimes and Edwards tables),tuku1254,Central Timor *p = **p,*hapuy,medial,between vowels,api,p,labial stop,,"Tokodede, table 05-01"
+expert (Grimes and Edwards tables),tuku1254,Central Timor *p = **p,*nipən,medial,between vowels,nipa,p,labial stop,,"Tokodede, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*əpat,medial,between vowels,paat,p,labial stop,,"NW. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*pija,initial,word-initial,arpiil,p,labial stop,,"NW. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*puqun,initial,word-initial,puu,p,labial stop,,"NW. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*hapuy,medial,between vowels,aep-a,p,labial stop,,"NW. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*nipən,medial,between vowels,nipan,p,labial stop,,"NW. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*əpat,medial,between vowels,faat,f,labial fricative,,"C. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*pija,initial,word-initial,arfiil,f,labial fricative,,"C. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*puqun,initial,word-initial,fuu,f,labial fricative,,"C. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*hapuy,medial,between vowels,aif-a,f,labial fricative,,"C. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*nipən,medial,between vowels,nifan,f,labial fricative,,"C. Mambae, table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*əpat,medial,between vowels,paat,p,labial stop,,"S. Mambae (H.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*pija,initial,word-initial,arpiil,p,labial stop,,"S. Mambae (H.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*pusəj,initial,word-initial,pusa,p,labial stop,,"S. Mambae (H.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*hapuy,medial,between vowels,aap,p,labial stop,,"S. Mambae (H.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*nipən,medial,between vowels,nipa,p,labial stop,,"S. Mambae (H.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*əpat,medial,between vowels,faat,f,labial fricative,,"S. Mambae (B.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*pija,initial,word-initial,arfiil,f,labial fricative,,"S. Mambae (B.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*puqun,initial,word-initial,fuu,f,labial fricative,,"S. Mambae (B.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*pusəj,initial,word-initial,fusu,f,labial fricative,,"S. Mambae (B.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*hapuy,medial,between vowels,aef,f,labial fricative,,"S. Mambae (B.), table 05-01"
+expert (Grimes and Edwards tables),mamb1306,Central Timor *p = **p,*nipən,medial,between vowels,nifa,f,labial fricative,,"S. Mambae (B.), table 05-01"
+expert (Grimes and Edwards tables),habu1241,Timor-Babar *p > **h,*əpat,medial,between vowels,haʔa,h,h,,"Habun, table 04-01"
+expert (Grimes and Edwards tables),habu1241,Timor-Babar *p > **h,*pitu,initial,word-initial,hitu,h,h,,"Habun, table 04-01"
+expert (Grimes and Edwards tables),habu1241,Timor-Babar *p > **h,*pija,initial,word-initial,hira,h,h,,"Habun, table 04-01"
+expert (Grimes and Edwards tables),habu1241,Timor-Babar *p > **h,*hapuy,medial,between vowels,ahi,h,h,,"Habun, table 04-01"
+expert (Grimes and Edwards tables),waim1252,Timor-Babar *p > **h,*əpat,medial,between vowels,kai-haa,h,h,,"Waimaha, table 04-01"
+expert (Grimes and Edwards tables),waim1252,Timor-Babar *p > **h,*pitu,initial,word-initial,kai-hitu,h,h,,"Waimaha, table 04-01"
+expert (Grimes and Edwards tables),waim1252,Timor-Babar *p > **h,*pija,initial,word-initial,kai-hire,h,h,,"Waimaha, table 04-01"
+expert (Grimes and Edwards tables),waim1252,Timor-Babar *p > **h,*punti,initial,word-initial,hudi,h,h,,"Waimaha, table 04-01"
+expert (Grimes and Edwards tables),waim1252,Timor-Babar *p > **h,*ma-nipis,medial,between vowels,nihi,h,h,,"Waimaha, table 04-01"
+expert (Grimes and Edwards tables),naue1237,Timor-Babar *p > **h,*əpat,medial,between vowels,kai-haa,h,h,,"Naueti, table 04-01"
+expert (Grimes and Edwards tables),naue1237,Timor-Babar *p > **h,*pija,initial,word-initial,kai-hire,h,h,,"Naueti, table 04-01"
+expert (Grimes and Edwards tables),naue1237,Timor-Babar *p > **h,*punti,initial,word-initial,hudi,h,h,,"Naueti, table 04-01"
+expert (Grimes and Edwards tables),laka1255,Timor-Babar *p > **h,*əpat,medial,between vowels,aat,-,∅,,"Lakalei, table 04-01"
+expert (Grimes and Edwards tables),laka1255,Timor-Babar *p > **h,*pitu,initial,word-initial,hitu,h,h,,"Lakalei, table 04-01"
+expert (Grimes and Edwards tables),laka1255,Timor-Babar *p > **h,*pija,initial,word-initial,ila,-,∅,,"Lakalei, table 04-01"
+expert (Grimes and Edwards tables),laka1255,Timor-Babar *p > **h,*hapuy,medial,between vowels,wai,w,w,,"Lakalei, table 04-01"
+expert (Grimes and Edwards tables),idat1237,Timor-Babar *p > **h,*əpat,medial,between vowels,aat,-,∅,,"Idate, table 04-01"
+expert (Grimes and Edwards tables),idat1237,Timor-Babar *p > **h,*pitu,initial,word-initial,hitu,h,h,,"Idate, table 04-01"
+expert (Grimes and Edwards tables),idat1237,Timor-Babar *p > **h,*pija,initial,word-initial,yila,-,∅,,"Idate, table 04-01"
+expert (Grimes and Edwards tables),idat1237,Timor-Babar *p > **h,*hapuy,medial,between vowels,wai,w,w,,"Idate, table 04-01"
+expert (Grimes and Edwards tables),idat1237,Timor-Babar *p > **h,*ma-nipis,medial,between vowels,mihis,h,h,,"Idate, table 04-01"

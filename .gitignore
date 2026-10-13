@@ -80,3 +80,7 @@ results/literature/e53/*.p
 results/literature/e53/*.ckp*
 results/literature/e53/*.mcmc
 results/literature/e53/*.trprobs
+results/literature/e57/*.ckp.gz
+results/literature/e57/*.log
+results/literature/e57/*.mldist
+results/literature/e57/*.bionj
