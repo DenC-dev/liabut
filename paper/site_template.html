@@ -1,9 +1,11 @@
 <title>Liabut · Phaistos Labs</title>
-<meta name="description" content="A pre-registered computational test of how the Austronesian languages of Timor branch, with the data, the code and a working paper.">
+<meta name="description" content="Where do Idaté and Lakalei belong? A pre-registered computational test of two classifications of Timor's Austronesian languages, with the data, the code and a working paper.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400;1,500&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
+/* Phaistos Labs paper look, single light theme by design: a field notebook on aged paper.
+   Identity colours carry through every chart: blue = Central Timor, ochre = Lakalei-Idate, violet = Eastern Timor. */
 :root {
   --paper: #ede5d0;
   --paper-deep: #e3d8bd;
@@ -14,13 +16,21 @@
   --rule: #c9bc9b;
   --coast: #a8987a;
   --blue: #1f6a9e;
+  --blue-text: #1a5a87;
+  --blue-tint: #d6e0e3;
+  --violet: #6d5a9c;
+  --violet-text: #5a4887;
+  --violet-tint: #e2dbe3;
   --ochre: #b5451f;
   --ochre-text: #963a1c;
+  --ochre-tint: #efd9c8;
   --tip-bg: #2a2723;
   --tip-fg: #ede5d0;
-  --tip-form: #f4e3c4;
+  --tip-muted: #c9bc9b;
+  --select: #d9c79c;
   --serif: "Alegreya", "Palatino Linotype", Palatino, Georgia, serif;
   --forms: "Gentium Book Plus", "Gentium Plus", "Charis SIL", "Doulos SIL", Georgia, serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   --measure: 38rem;
   --margin: 15rem;
   --gutter: clamp(16px, 4vw, 48px);
@@ -34,36 +44,44 @@ body {
   font-size: 1.1875rem; line-height: 1.55; font-variant-numeric: oldstyle-nums proportional-nums;
   text-rendering: optimizeLegibility;
 }
-::selection { background: #d9c79c; }
+::selection { background: var(--select); }
 a { color: inherit; text-decoration-color: var(--ink-3); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
 a:hover { text-decoration-color: var(--ochre); }
 :focus-visible { outline: 2px solid var(--ochre-text); outline-offset: 2px; border-radius: 2px; }
-code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8em; background: var(--paper-deep); padding: 0.05em 0.3em; border-radius: 3px; overflow-wrap: anywhere; }
+code { font-family: var(--mono); font-size: 0.8em; background: var(--paper-deep); padding: 0.05em 0.3em; border-radius: 3px; overflow-wrap: anywhere; }
 .form { font-family: var(--forms); font-style: italic; font-size: 0.97em; }
-.ochre { color: var(--ochre-text); }
-.blue { color: var(--blue); }
-.muted { color: var(--ink-3); }
-.skip { position: absolute; left: -999px; top: 0; background: var(--ink); color: var(--paper); padding: 0.5rem 1rem; z-index: 10; }
+.skip { position: absolute; left: -999px; top: 0; background: var(--ink); color: var(--paper); padding: 0.5rem 1rem; z-index: 30; }
 .skip:focus { left: var(--gutter); }
+.term { text-decoration: underline dotted var(--ink-3); text-decoration-thickness: 1.5px; text-underline-offset: 0.22em; cursor: help; }
+.term:hover { text-decoration-color: var(--ochre); }
 
-/* masthead */
-.masthead { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem 2rem; flex-wrap: wrap;
+/* masthead and section nav */
+.masthead { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem 2rem; flex-wrap: wrap;
   max-width: 76rem; margin: 0 auto; padding: 1.25rem var(--gutter) 0; }
 .brand { display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; font-weight: 500; font-size: 1.15rem; letter-spacing: 0.01em; }
 .brand-mark { width: 28px; height: auto; display: block; }
-.masthead nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-size: 1rem; }
-.masthead nav a { text-decoration: none; color: var(--ink-2); }
-.masthead nav a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--ochre); }
+.mast-links { display: flex; flex-wrap: wrap; gap: 0.2rem 1.2rem; font-size: 1rem; }
+.mast-links a { text-decoration: none; color: var(--ink-2); }
+.mast-links a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--ochre); }
+.toc { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 15; background: var(--paper); border-bottom: 1px solid var(--rule); }
+.toc-inner { max-width: 76rem; margin: 0 auto; padding: 0 var(--gutter); display: flex; gap: 1.35rem; overflow-x: auto; white-space: nowrap;
+  scrollbar-width: none; font-size: 0.98rem; }
+.toc-inner::-webkit-scrollbar { display: none; }
+.toc a { display: inline-block; padding: 0.55rem 0 0.5rem; text-decoration: none; color: var(--ink-2); border-bottom: 2px solid transparent; }
+.toc a:hover { color: var(--ink); }
+.toc a[aria-current="true"] { color: var(--ink); border-bottom-color: var(--ochre); }
 
 /* hero */
-.hero { max-width: 76rem; margin: 0 auto; padding: clamp(2rem, 6vw, 4.5rem) var(--gutter) 1.5rem;
-  display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(1.5rem, 4vw, 4rem); align-items: center; }
+.hero { max-width: 76rem; margin: 0 auto; padding: clamp(2rem, 6vw, 4rem) var(--gutter) 2rem;
+  display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr); gap: clamp(1.5rem, 4vw, 4rem); align-items: center; }
 .hero-text { min-width: 0; }
 .kicker { margin: 0 0 0.9rem; font-style: italic; color: var(--ink-2); font-size: 1.15rem; }
 h1 { font-weight: 500; font-size: clamp(2.3rem, 5vw, 3.5rem); line-height: 1.06; letter-spacing: -0.012em;
-  margin: 0 0 1.4rem; max-width: 15ch; font-variant-numeric: lining-nums; text-wrap: balance; }
-.lede { font-size: 1.24rem; line-height: 1.5; margin: 0 0 1rem; max-width: 34rem; }
-.lede-2 { margin: 0 0 1.4rem; max-width: 34rem; color: var(--ink-2); }
+  margin: 0 0 1.3rem; max-width: 14ch; font-variant-numeric: lining-nums; text-wrap: balance; }
+.lede { font-size: 1.24rem; line-height: 1.5; margin: 0 0 1.1rem; max-width: 34rem; }
+.brief { list-style: none; margin: 0 0 1.4rem; padding: 0; max-width: 34rem; display: grid; gap: 0.45rem; }
+.brief li { display: grid; grid-template-columns: 5.6rem minmax(0, 1fr); gap: 0.8rem; align-items: baseline; color: var(--ink-2); }
+.brief b { font-weight: 500; color: var(--ink); font-size: 0.9rem; letter-spacing: 0.06em; text-transform: uppercase; }
 .paper-link { display: inline-flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; margin: 0; }
 .button { display: inline-block; font: inherit; font-size: 1.02rem; text-decoration: none; color: var(--paper-light); background: var(--ink);
   border-radius: 999px; padding: 0.35rem 1rem; }
@@ -82,87 +100,242 @@ h1 { font-weight: 500; font-size: clamp(2.3rem, 5vw, 3.5rem); line-height: 1.06;
 .map .lab { font-family: var(--forms); font-size: 16.5px; fill: var(--ink); }
 .map .lab.small { font-size: 12.5px; }
 .map .lab.li { fill: var(--ochre-text); }
-.map .lab.ct { fill: var(--blue); }
+.map .lab.ct { fill: var(--blue-text); }
+.map .lab.et { fill: var(--violet-text); }
 .map .leader { stroke: var(--rule); stroke-width: 1; }
 .map .zoombox { fill: none; stroke: var(--ink-2); stroke-width: 1; }
 .pt { cursor: pointer; stroke-width: 1.6; }
 .pt.li { fill: var(--ochre); stroke: var(--paper-light); }
 .pt.ct { fill: var(--blue); stroke: var(--paper-light); }
-.pt.et { fill: var(--ink-2); stroke: var(--paper-light); }
+.pt.et { fill: var(--violet); stroke: var(--paper-light); }
 .pt.oth { fill: var(--paper-light); stroke: var(--ink); }
 .pt:hover, .pt:focus { stroke: var(--ink); stroke-width: 3; outline: none; }
 .legend { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; margin: 0.7rem 0 0; padding: 0; list-style: none; font-size: 0.93rem; color: var(--ink-2); }
 .legend li { display: inline-flex; align-items: center; gap: 0.45rem; }
 .sw { width: 0.72rem; height: 0.72rem; border-radius: 50%; display: inline-block; flex: none; }
-.sw.li { background: var(--ochre); } .sw.ct { background: var(--blue); } .sw.et { background: var(--ink-2); }
+.sw.li { background: var(--ochre); } .sw.ct { background: var(--blue); } .sw.et { background: var(--violet); }
 .sw.oth { background: var(--paper-light); border: 1.6px solid var(--ink); }
+.sw.fl { background: var(--ink-2); border-radius: 2px; } .sw.rm { background: var(--coast); border-radius: 2px; }
+.sw.ot { background: var(--paper-deep); border: 1px solid var(--rule); border-radius: 2px; }
+.sw.none { background: var(--paper); border: 1.6px solid var(--ink-2); }
 figcaption, .caption { font-size: 0.95rem; color: var(--ink-2); line-height: 1.45; margin-top: 0.6rem; max-width: var(--measure); }
 
 /* sections */
 main { max-width: 76rem; margin: 0 auto; padding: 0 var(--gutter) 3rem; }
-section { padding-top: clamp(2.5rem, 6vw, 4.25rem); scroll-margin-top: 1rem; }
+section { padding-top: clamp(2.5rem, 6vw, 4.25rem); scroll-margin-top: 2.8rem; }
 h2 { font-weight: 500; font-size: clamp(1.75rem, 3.4vw, 2.3rem); line-height: 1.15; margin: 0 0 1.1rem; letter-spacing: -0.005em; text-wrap: balance; }
 h3 { font-weight: 500; font-size: 1.4rem; margin: 2.2rem 0 0.8rem; text-wrap: balance; }
 section > h2 { padding-top: 1.1rem; border-top: 1px solid var(--rule); }
 p { margin: 0 0 1rem; }
+.inshort { font-size: 1.24rem; line-height: 1.45; margin: 0 0 1.2rem; max-width: var(--measure); }
+.inshort::before { content: "In short"; display: block; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ochre-text); margin-bottom: 0.15rem; }
 .with-margin { display: grid; grid-template-columns: minmax(0, var(--measure)) var(--margin); gap: 0 clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
 .col { min-width: 0; }
+.measure { max-width: var(--measure); }
 .margin { font-size: 0.93rem; line-height: 1.45; color: var(--ink-2); border-left: 1px solid var(--rule); padding-left: 1rem; margin-top: 0.2rem; }
 .margin p { margin: 0 0 1rem; }
 .margin b { font-weight: 500; color: var(--ink); font-style: italic; }
-.findings { list-style: none; padding: 0; margin: 1.4rem 0 0.5rem; }
-.findings li { position: relative; padding: 0 0 1rem 1.5rem; }
-.findings li::before { content: ""; position: absolute; left: 0.1rem; top: 0.62em; width: 0.55rem; height: 0.55rem; border-radius: 50%; border: 1.5px solid var(--ink-2); }
-.findings li.lead::before { background: var(--ochre); border-color: var(--ochre); }
-.findings b, .col b { font-weight: 500; }
-
-/* figures */
-.figure { margin: 1.8rem 0 2.4rem; }
-.figure.wide { max-width: calc(var(--measure) + var(--margin) + 3.5rem); }
-.chart-title { font-size: 1.15rem; font-weight: 500; margin: 0 0 0.7rem; text-wrap: balance; }
+.col b, .measure b { font-weight: 500; }
+.figure { margin: 1.6rem 0 2.2rem; }
+.chart-title { font-size: 1.15rem; font-weight: 500; margin: 0 0 0.5rem; text-wrap: balance; }
 .fig-svg { display: block; width: 100%; height: auto; }
-.fig-svg.tree { max-width: 36rem; }
 .fig-svg.sounds { max-width: 40rem; }
+.hint { font-size: 0.9rem; color: var(--ink-3); font-style: italic; margin: 0.4rem 0 0; }
 
-/* triplet bars */
-.triplets { font-variant-numeric: lining-nums tabular-nums; }
-.trow { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) minmax(0, 1fr); gap: 0.4rem 1.1rem; align-items: center;
-  padding: 0.45rem 0; border-bottom: 1px solid var(--rule); }
-.trow.head { border-bottom: 0; padding-bottom: 0.2rem; font-size: 0.98rem; font-weight: 500; }
-.trow.head .sub { display: block; font-weight: 400; font-style: italic; color: var(--ink-2); font-size: 0.9rem; }
-.trow.control { border-bottom: 1.5px solid var(--ink-3); }
-.tlabel { font-size: 1rem; line-height: 1.3; }
-.trow.control .tlabel { color: var(--ink-2); font-style: italic; }
-.bar-cell { min-width: 0; }
-.stratum { display: none; font-size: 0.85rem; font-style: italic; color: var(--ink-2); }
-.stack { display: flex; gap: 2px; height: 1.7rem; }
-.seg { display: flex; align-items: center; justify-content: center; min-width: 0; font-size: 0.86rem; color: var(--paper-light);
-  border-radius: 2px; cursor: default; overflow: hidden; }
-.seg:hover, .seg:focus { outline: 2px solid var(--ink); outline-offset: -2px; }
-.seg.s0 { background: var(--blue); }
-.seg.s1 { background: var(--ink-2); }
-.seg.s2 { background: var(--paper-deep); color: var(--ink); box-shadow: inset 0 0 0 1px var(--rule); }
-.key { display: flex; flex-wrap: wrap; gap: 0.3rem 1.3rem; list-style: none; padding: 0; margin: 0.9rem 0 0; font-size: 0.93rem; color: var(--ink-2); }
+/* controls */
+.ctl-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.9rem; margin: 1rem 0 0.9rem; }
+.ctl-label { font-size: 0.93rem; color: var(--ink-2); font-style: italic; }
+.ctl { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--rule); border-radius: 1.2rem; padding: 2px; background: var(--paper-light); }
+.ctl button { font: inherit; font-size: 0.95rem; border: 0; background: transparent; color: var(--ink-2); padding: 0.28rem 0.85rem; border-radius: 999px; cursor: pointer; }
+.ctl button[aria-pressed="true"] { background: var(--ink); color: var(--paper-light); }
+.ctl button:hover:not([aria-pressed="true"]) { color: var(--ink); background: var(--paper-deep); }
+.tabs { display: flex; flex-wrap: wrap; gap: 0.1rem 1.5rem; border-bottom: 1px solid var(--rule); margin: 1.2rem 0 0; }
+.tabs button { font: inherit; font-size: 1.08rem; background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px;
+  padding: 0.35rem 0 0.45rem; color: var(--ink-2); cursor: pointer; }
+.tabs button:hover { color: var(--ink); }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ochre); }
+.tabs .pmp { font-family: var(--forms); font-style: italic; color: var(--ink-3); margin-left: 0.4rem; font-size: 0.95em; }
+.panel { background: var(--paper-light); border: 1px solid var(--rule); border-top: 0; border-radius: 0 0 4px 4px; padding: clamp(1rem, 3vw, 1.6rem); }
+.panel.solo { border-top: 1px solid var(--rule); border-radius: 4px; }
+
+/* the disagreement: tree switcher */
+.switcher { margin: 0.5rem 0 1rem; }
+.switcher svg { display: block; width: 100%; height: auto; max-width: 36rem; }
+.sw-e { fill: none; stroke: var(--ink); stroke-width: 1.5; stroke-linecap: round; }
+.sw-layer { transition: opacity 0.45s ease; }
+.sw-leaf { transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1); }
+.sw-leaf text { font-family: var(--forms); font-size: 15px; fill: var(--ink); }
+.sw-leaf.moves text { font-weight: 700; }
+.sw-leaf circle { stroke: var(--paper-light); stroke-width: 1.5; }
+.sw-br { fill: none; stroke: var(--ink-3); stroke-width: 1.1; }
+.sw-gname { font-family: var(--serif); font-size: 14.5px; font-weight: 500; fill: var(--ink); }
+.sw-gnote { font-family: var(--forms); font-style: italic; font-size: 12.5px; fill: var(--ink-2); }
+.dot-ct { fill: var(--blue); } .dot-li { fill: var(--ochre); } .dot-et { fill: var(--violet); }
+.dot-oth { fill: var(--paper-light); stroke: var(--ink) !important; }
+.sw-cap { min-height: 5.2em; max-width: var(--measure); font-size: 1rem; color: var(--ink-2); }
+.sw-cap b { color: var(--ink); font-weight: 500; }
+@media (prefers-reduced-motion: reduce) { .sw-leaf, .sw-layer { transition: none; } }
+
+/* word explorer */
+.wx-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 1rem; margin-bottom: 1rem; }
+.wx-pmp { font-family: var(--forms); font-size: 1.45rem; }
+.wx-pmp i { font-style: italic; }
+.wx-look { color: var(--ink-2); font-size: 1rem; }
+.wx-cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.1rem 1.5rem; }
+.wx-col h4 { margin: 0 0 0.5rem; font-size: 0.95rem; font-weight: 500; display: flex; align-items: center; gap: 0.45rem; }
+.wx-col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.45rem; }
+.w { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 0 0.5rem; }
+.w-lang { font-size: 0.84rem; color: var(--ink-2); grid-column: 1 / -1; line-height: 1.15; }
+.w-form { font-family: var(--forms); font-size: 1.15rem; overflow-wrap: anywhere; }
+.w-form mark { background: var(--ochre-tint); color: var(--ochre-text); padding: 0 2px; border-radius: 2px; font-weight: 700; }
+.chip { font-family: var(--forms); font-size: 0.82rem; line-height: 1; padding: 0.25rem 0.5rem; border-radius: 999px; white-space: nowrap; }
+.chip.k-ct { background: var(--blue-tint); color: var(--blue-text); }
+.chip.k-east { background: var(--violet-tint); color: var(--violet-text); }
+.chip.k-old { box-shadow: inset 0 0 0 1px var(--rule); color: var(--ink-2); }
+.take { margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid var(--rule); display: grid; grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.5rem 1rem; align-items: start; }
+.take p { margin: 0; max-width: var(--measure); }
+.lean { font-size: 0.86rem; padding: 0.25rem 0.65rem; border-radius: 999px; white-space: nowrap; font-weight: 500; margin-top: 0.15rem; }
+.lean.ct { background: var(--blue); color: var(--paper-light); }
+.lean.east { background: var(--violet); color: var(--paper-light); }
+.lean.both, .lean.none { box-shadow: inset 0 0 0 1.5px var(--ink-2); color: var(--ink); }
+.key { display: flex; flex-wrap: wrap; gap: 0.35rem 1.3rem; list-style: none; padding: 0; margin: 0.9rem 0 0; font-size: 0.92rem; color: var(--ink-2); }
 .key li { display: inline-flex; align-items: center; gap: 0.45rem; }
-.key .k { width: 1.1rem; height: 0.7rem; border-radius: 2px; display: inline-block; }
-.k.s0 { background: var(--blue); } .k.s1 { background: var(--ink-2); } .k.s2 { background: var(--paper-deep); box-shadow: inset 0 0 0 1px var(--rule); }
 
-/* tooltip */
-.tip { position: fixed; z-index: 20; pointer-events: none; background: var(--tip-bg); color: var(--tip-fg); font-size: 0.88rem; line-height: 1.38;
-  padding: 0.45rem 0.65rem; border-radius: 4px; max-width: 17rem; box-shadow: 0 2px 8px rgba(42, 39, 35, 0.25); }
-.tip b { font-weight: 500; }
-.tip .muted { color: #c9bc9b; font-size: 0.8rem; }
+/* show / suggest / unknown */
+.sss { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem 1.8rem; margin: 1.4rem 0 1.6rem; }
+.sss > div { min-width: 0; border-top: 3px solid var(--ink); padding-top: 0.7rem; }
+.sss > div.suggest { border-top-color: var(--ink-3); }
+.sss > div.unknown { border-top-color: var(--rule); }
+.sss h3 { margin: 0 0 0.6rem; font-size: 1.15rem; }
+.sss ul { margin: 0; padding-left: 1.1rem; font-size: 1rem; }
+.sss li { margin-bottom: 0.45rem; }
+.sss p { font-size: 1rem; }
+
+/* evidence board */
+.ev-ends { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.95rem; margin: 1.2rem 0 0.35rem; }
+.ev-ends span:first-child { color: var(--blue-text); } .ev-ends span:last-child { color: var(--violet-text); text-align: right; }
+.ev-strip { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 4px; }
+.ev-col { background: var(--paper-light); border-radius: 3px; min-height: 8.6rem; padding: 0.55rem 0.25rem; display: flex; flex-direction: column-reverse;
+  align-items: center; justify-content: flex-start; gap: 5px; }
+.ev-col.mid { background: var(--paper-deep); }
+.ev-dot { width: 28px; height: 28px; border-radius: 50%; border: 0; padding: 0; display: grid; place-items: center; cursor: pointer;
+  font: 500 0.8rem/1 var(--serif); font-variant-numeric: lining-nums; color: var(--paper-light); flex: none; }
+.ev-dot.ct { background: var(--blue); } .ev-dot.east { background: var(--violet); }
+.ev-dot.none { background: var(--paper-light); box-shadow: inset 0 0 0 1.6px var(--ink-2); color: var(--ink); }
+.ev-dot:hover { outline: 2px solid var(--ink); outline-offset: 1px; }
+.ev-axis { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 4px; font-size: 0.8rem; color: var(--ink-2); text-align: center;
+  line-height: 1.2; margin-top: 0.35rem; }
+.ev-note { font-size: 0.92rem; color: var(--ink-3); font-style: italic; margin: 0.8rem 0 0; max-width: var(--measure); }
+.ev-list { list-style: none; padding: 0; margin: 1.6rem 0 0; border-top: 1.5px solid var(--ink); }
+.ev-item { border-bottom: 1px solid var(--rule); }
+.ev-btn { width: 100%; display: grid; grid-template-columns: 1.9rem minmax(0, 1fr) 6.2rem 1rem; gap: 0.25rem 0.9rem; align-items: center;
+  text-align: left; background: none; border: 0; font: inherit; color: inherit; padding: 0.75rem 0; cursor: pointer; }
+.ev-btn:hover .ev-title { text-decoration: underline; text-decoration-color: var(--ochre); text-underline-offset: 0.18em; }
+.ev-num { width: 1.6rem; height: 1.6rem; border-radius: 50%; display: grid; place-items: center; font-size: 0.78rem; font-weight: 500;
+  font-variant-numeric: lining-nums; color: var(--paper-light); }
+.ev-num.ct { background: var(--blue); } .ev-num.east { background: var(--violet); }
+.ev-num.none { box-shadow: inset 0 0 0 1.5px var(--ink-2); color: var(--ink); }
+.ev-cat { display: block; font-size: 0.74rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); }
+.ev-title { font-weight: 500; }
+.ev-short { display: block; color: var(--ink-2); font-size: 0.98rem; line-height: 1.4; margin-top: 0.1rem; }
+.meter { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; height: 0.65rem; }
+.meter i { background: var(--paper-deep); border-radius: 1px; }
+.meter i:nth-child(3) { background: var(--rule); }
+.meter i.on.ct { background: var(--blue); } .meter i.on.east { background: var(--violet); } .meter i.on.none { background: var(--ink-2); }
+.chev { width: 0.6rem; height: 0.6rem; border-right: 1.5px solid var(--ink-2); border-bottom: 1.5px solid var(--ink-2); transform: rotate(45deg);
+  transition: transform 0.2s; justify-self: center; margin-top: -0.3rem; }
+.ev-btn[aria-expanded="true"] .chev { transform: rotate(225deg); margin-top: 0.2rem; }
+.ev-more { padding: 0 0 1.1rem 2.8rem; max-width: calc(var(--measure) + 3rem); font-size: 1rem; }
+.ev-more p { margin: 0 0 0.5rem; }
+.ev-refs { font-size: 0.88rem; color: var(--ink-3); }
+
+/* interactive vocabulary tree */
+.vt-wrap { margin: 0.4rem 0 0; }
+.vt { display: block; width: 100%; height: auto; max-width: 34rem; }
+.vt-e, .vt-stem { fill: none; stroke: var(--ink); stroke-width: 1.2; }
+.vt-e.on { stroke: var(--ochre); stroke-width: 2.6; }
+.vt-n { cursor: pointer; outline: none; }
+.vt-hit { fill: transparent; }
+.vt-dot { fill: var(--ink-2); }
+.vt-n:hover .vt-dot, .vt-n:focus .vt-dot { fill: var(--ochre); }
+.vt-n:focus-visible .vt-hit { stroke: var(--ochre-text); stroke-width: 1.5; }
+.vt-pp { font-family: var(--serif); font-style: italic; font-size: 10.5px; fill: var(--ink-2); font-variant-numeric: lining-nums; }
+.leaf { cursor: default; outline: none; }
+.leaf text { font-family: var(--forms); font-size: 13px; fill: var(--ink); }
+.leaf.li text { font-weight: 700; }
+.leaf.og text { font-style: italic; fill: var(--ink-3); }
+.leaf circle { fill: var(--paper-light); stroke: var(--ink); stroke-width: 1.2; }
+.leaf.og circle { stroke: var(--ink-3); }
+.vt.by-ge .leaf[data-ge="CT"] circle, .vt.by-hull .leaf[data-hull="R"] circle { fill: var(--blue); stroke: var(--paper-light); }
+.vt.by-ge .leaf[data-ge="LI"] circle { fill: var(--ochre); stroke: var(--paper-light); }
+.vt.by-ge .leaf[data-ge="ET"] circle, .vt.by-hull .leaf[data-hull="F"] circle { fill: var(--violet); stroke: var(--paper-light); }
+
+/* root chart */
+.rc { font-variant-numeric: lining-nums tabular-nums; }
+.rc-row { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) 5.2rem 5.2rem; gap: 0.3rem 1rem; align-items: center;
+  padding: 0.42rem 0; border-bottom: 1px solid var(--rule); }
+.rc-row.head { font-size: 0.86rem; color: var(--ink-2); border-bottom: 1.5px solid var(--ink); align-items: end; line-height: 1.25; }
+.rc-label { font-size: 0.98rem; line-height: 1.3; }
+.rc-bar { display: flex; gap: 2px; height: 1.55rem; }
+.rc-seg { min-width: 0; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; border-radius: 2px; overflow: hidden; cursor: default; }
+.rc-seg.fl { background: var(--ink-2); color: var(--paper-light); }
+.rc-seg.rm { background: var(--coast); color: var(--ink); }
+.rc-seg.ot { background: var(--paper-deep); box-shadow: inset 0 0 0 1px var(--rule); color: var(--ink-2); }
+.rc-seg:hover, .rc-seg:focus { outline: 2px solid var(--ink); outline-offset: -2px; }
+.rc-num { text-align: right; font-size: 0.98rem; }
+.rc-zero { text-align: right; font-weight: 500; color: var(--ochre-text); }
+.rc-row .mob { display: none; }
+
+/* triplet steps */
+.tc-legend { margin-top: 0.2rem; }
+.tc-row { display: grid; grid-template-columns: minmax(0, 17rem) minmax(0, 1fr) 9.5rem; gap: 0.45rem 1.2rem; align-items: center;
+  padding: 0.75rem 0; border-bottom: 1px solid var(--rule); font-variant-numeric: lining-nums tabular-nums; }
+.tc-row:first-child { border-top: 1.5px solid var(--ink); }
+.tc-label b { font-weight: 500; display: block; line-height: 1.3; }
+.tc-label span { font-size: 0.86rem; color: var(--ink-2); line-height: 1.35; display: block; margin-top: 0.15rem; }
+.tc-bars { display: grid; gap: 3px; min-width: 0; }
+.tc-bar { display: grid; grid-template-columns: minmax(0, 1fr) 2.2rem; align-items: center; gap: 0.45rem; cursor: default; }
+.tc-track { min-width: 0; }
+.tc-fill { height: 0.9rem; border-radius: 0 3px 3px 0; min-width: 2px; }
+.tc-fill.s0 { background: var(--blue); } .tc-fill.s1 { background: var(--violet); }
+.tc-fill.s2 { background: var(--paper-deep); box-shadow: inset 0 0 0 1px var(--coast); }
+.tc-val { font-size: 0.88rem; color: var(--ink-2); }
+.verdict { justify-self: start; font-size: 0.86rem; padding: 0.22rem 0.65rem; border-radius: 999px; font-weight: 500; }
+.verdict.ct { background: var(--blue-tint); color: var(--blue-text); }
+.verdict.east { background: var(--violet-tint); color: var(--violet-text); }
+.verdict.tie { box-shadow: inset 0 0 0 1px var(--coast); color: var(--ink-2); }
+.k { width: 1.1rem; height: 0.7rem; border-radius: 2px; display: inline-block; }
+.k.s0 { background: var(--blue); } .k.s1 { background: var(--violet); } .k.s2 { background: var(--paper-deep); box-shadow: inset 0 0 0 1px var(--coast); }
+
+/* reversibility */
+.rv-ctl { display: grid; gap: 0.3rem; margin: 0.6rem 0 1rem; max-width: 34rem; }
+.rv-ctl label { font-size: 1rem; }
+.rv-ctl input[type="range"] { width: 100%; accent-color: var(--ochre); }
+.rv-ticks { position: relative; height: 1.1rem; font-size: 0.78rem; color: var(--ink-3); font-variant-numeric: lining-nums; }
+.rv-ticks span { position: absolute; top: 0; left: calc(8px + (100% - 16px) * var(--i) / 8); transform: translateX(-50%); white-space: nowrap; }
+.rv-ticks span:first-child { transform: none; left: 0; } .rv-ticks span:last-child { transform: none; left: auto; right: 0; }
+.rv-read { font-size: 1.05rem; margin: 0 0 0.8rem; min-height: 3em; max-width: var(--measure); }
+.rv-row { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) 7.5rem; gap: 0.3rem 1rem; align-items: center;
+  padding: 0.45rem 0; border-bottom: 1px solid var(--rule); font-variant-numeric: lining-nums tabular-nums; }
+.rv-name { font-size: 0.98rem; line-height: 1.3; }
+.rv-track { height: 1.1rem; background: var(--paper-light); border-radius: 2px; position: relative; min-width: 0; }
+.rv-fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--ink-2); border-radius: 2px; transition: width 0.3s ease; }
+.rv-row.best .rv-fill { background: var(--ochre); }
+.rv-val { font-size: 0.92rem; }
+.rv-row.best .rv-val { font-weight: 500; color: var(--ochre-text); }
+@media (prefers-reduced-motion: reduce) { .rv-fill { transition: none; } }
 
 /* tables */
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1.2rem 0 1.4rem; border-top: 1.5px solid var(--ink); }
 table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: 1rem; line-height: 1.4; font-variant-numeric: lining-nums tabular-nums; }
-caption { text-align: left; font-style: italic; color: var(--ink-2); padding: 0.5rem 0; caption-side: bottom; }
 th, td { text-align: left; padding: 0.5rem 0.9rem 0.5rem 0; vertical-align: top; border-bottom: 1px solid var(--rule); }
 th { font-weight: 500; }
-td.num, th.num { text-align: right; }
 tbody tr:hover { background: var(--paper-light); }
-tr.focus td { background: rgba(181, 69, 31, 0.07); }
+tr.focus td { background: var(--ochre-tint); }
 table.checks { min-width: 40rem; }
+details.numbers { margin: 0.4rem 0 1.4rem; }
+details.numbers summary { cursor: pointer; font-size: 0.95rem; color: var(--ink-2); }
 
 /* method */
 .stages { padding-left: 1.4rem; margin: 0 0 1rem; }
@@ -175,12 +348,16 @@ table.checks { min-width: 40rem; }
 .timeline li.key-event::before { background: var(--ochre); border-color: var(--ochre); }
 .timeline .when { display: block; font-size: 0.88rem; color: var(--ink-2); font-style: italic; }
 .timeline b { font-weight: 500; }
-
-/* files */
 .files { margin: 1.2rem 0; }
-.files dt { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.85rem; margin-top: 1rem; }
+.files dt { font-family: var(--mono); font-size: 0.85rem; margin-top: 1rem; }
 .files dd { margin: 0.2rem 0 0; }
 .cite { font-size: 0.98rem; color: var(--ink-2); }
+
+/* tooltip */
+.tip { position: fixed; z-index: 40; pointer-events: none; background: var(--tip-bg); color: var(--tip-fg); font-size: 0.9rem; line-height: 1.4;
+  padding: 0.5rem 0.7rem; border-radius: 4px; max-width: 19rem; box-shadow: 0 2px 10px rgba(42, 39, 35, 0.28); }
+.tip b { font-weight: 500; }
+.tip .muted { color: var(--tip-muted); font-size: 0.8rem; }
 
 .colophon { text-align: center; padding: 2.5rem var(--gutter) 3rem; color: var(--ink-2); border-top: 1px solid var(--rule); max-width: 76rem; margin: 0 auto; font-size: 1rem; }
 .colophon p { margin: 0.3rem 0; }
@@ -190,20 +367,35 @@ table.checks { min-width: 40rem; }
   .hero { grid-template-columns: minmax(0, 1fr); }
   .with-margin { grid-template-columns: minmax(0, 1fr); }
   .margin { border-left: 0; border-top: 1px solid var(--rule); padding: 0.8rem 0 0; margin: 0.5rem 0 1rem; max-width: var(--measure); }
+  .sss { grid-template-columns: minmax(0, 1fr); }
+  .wx-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 640px) {
   body { font-size: 1.09rem; }
-  .lede { font-size: 1.14rem; }
-  .masthead nav { font-size: 0.95rem; gap: 0.2rem 0.9rem; }
-  .trow { grid-template-columns: minmax(0, 1fr); gap: 0.35rem; }
-  .trow.head { display: none; }
-  .bar-cell { display: grid; grid-template-columns: 5.6rem minmax(0, 1fr); align-items: center; gap: 0.5rem; }
-  .stratum { display: block; }
-  .seg { font-size: 0.78rem; }
+  .lede, .inshort { font-size: 1.14rem; }
+  .brief li { grid-template-columns: minmax(0, 1fr); gap: 0; }
   .map .lab { font-size: 21px; }
   .map .lab.small { font-size: 17px; }
   .map .place { font-size: 15px; }
   th, td { padding-right: 0.6rem; }
+  .take { grid-template-columns: minmax(0, 1fr); }
+  .ev-btn { grid-template-columns: 1.9rem minmax(0, 1fr) 1rem; }
+  .ev-btn .meter { grid-column: 2; grid-row: 2; max-width: 8rem; }
+  .ev-btn .chev { grid-column: 3; grid-row: 1; }
+  .ev-more { padding-left: 2.8rem; }
+  .ev-axis { font-size: 0.7rem; }
+  .rc-row { grid-template-columns: minmax(0, 1fr) 3.4rem 3.6rem; gap: 0.25rem 0.6rem; }
+  .rc-row .rc-label { grid-column: 1 / -1; }
+  .rc-row.head .rc-h1 { display: none; }
+  .rc-row .desk { display: none; } .rc-row .mob { display: inline; }
+  .leaf text { font-size: 15.5px; }
+  .vt-pp { font-size: 12px; }
+  .tc-row { grid-template-columns: minmax(0, 1fr); }
+  .rv-row { grid-template-columns: minmax(0, 1fr) 6.5rem; }
+  .rv-row .rv-name { grid-column: 1 / -1; }
+}
+@media (max-width: 420px) {
+  .wx-cols { grid-template-columns: minmax(0, 1fr); }
 }
 </style>
 <!--BODY-->
@@ -214,24 +406,24 @@ table.checks { min-width: 40rem; }
     <img class="brand-mark" src="{{LOGO}}" alt="" width="28" height="31">
     <span>Phaistos Labs</span>
   </a>
-  <nav aria-label="Sections">
-    <a href="#findings">Findings</a>
-    <a href="#lakalei">Lakalei-Idate</a>
-    <a href="#checks">Second round</a>
-    <a href="#branches">Other branches</a>
-    <a href="#method">Method</a>
-    <a href="#data">Data</a>
-    <a href="#paper">Paper</a>
+  <nav class="mast-links" aria-label="Downloads">
+    <a href="liabut.pdf" target="_blank" rel="noopener">Paper (PDF)</a>
+    <a href="liabut_supplement.pdf" target="_blank" rel="noopener">Supplement</a>
+    <a href="{{GH}}" target="_blank" rel="noopener">Data and code</a>
   </nav>
 </header>
 
 <section class="hero" aria-labelledby="title">
   <div class="hero-text">
     <p class="kicker">Project Liabut</p>
-    <h1 id="title">How do Timor’s Austronesian languages branch?</h1>
-    <p class="lede">Two classifications of the Austronesian languages of Timor disagree. Geoffrey Hull puts Lakalei and Idaté with Mambae, Kemak and Tokodede. Charles Grimes and Owen Edwards make Mambae, Kemak, Tokodede and Welaun a branch of their own and put Lakalei and Idaté with the languages to the east. Liabut asks what the basic vocabulary of 24 languages says, starting from a protocol frozen before any analysis.</p>
-    <p class="lede-2">In brief: the vocabulary puts Lakalei-Idate beside Central Timor and never with the eastern languages, and outgroups place the root outside that pair. But the placement is fragile, its shared innovations no longer favour Central Timor once retentions are removed, and the sound change that defines Timor-Babar points the other way. By a rule declared before the last round, the question stays unresolved. Welaun fits Central Timor once borrowable words are set aside.</p>
-    <p class="paper-link"><a class="button" href="liabut.pdf" target="_blank" rel="noopener">Read the working paper (PDF)</a> <a class="button ghost" href="{{GH}}" target="_blank" rel="noopener">Data and code</a></p>
+    <h1 id="title">Where do Idaté and Lakalei belong?</h1>
+    <p class="lede">Two classifications of Timor’s Austronesian languages disagree about two small languages of central Timor-Leste. Geoffrey Hull puts Lakalei and Idaté with Mambae, Kemak and Tokodede. Charles Grimes and Owen Edwards put them with the languages to the east. Liabut asks what their basic vocabulary says, under rules fixed before any analysis.</p>
+    <ul class="brief">
+      <li><b>Shows</b><span>The vocabulary trees place them beside Mambae, Kemak and Tokodede, but not robustly; the key sound change points the other way.</span></li>
+      <li><b>Suggests</b><span>A history shaped by contact or a dialect chain as well as descent.</span></li>
+      <li><b>Unknown</b><span>Which classification is right. That needs specialists and fuller word lists.</span></li>
+    </ul>
+    <p class="paper-link"><a class="button" href="#question">Start with the question</a> <a class="button ghost" href="liabut.pdf" target="_blank" rel="noopener">Read the paper (PDF)</a></p>
   </div>
   <figure class="hero-map">
     {{ZOOM_MAP}}
@@ -241,125 +433,196 @@ table.checks { min-width: 40rem; }
       <li><span class="sw et"></span>Eastern Timor</li>
       <li><span class="sw oth"></span>Other</li>
     </ul>
-    <figcaption id="map-cap">The contested languages of central and eastern Timor, as sampled in LexiRumah. Lakalei-Idate sits between Central Timor and the eastern languages; the dashed line is the border with Indonesia. Hover over or tap a dot for its groupings.</figcaption>
+    <figcaption id="map-cap">The contested languages of central and eastern Timor, as sampled in LexiRumah. Lakalei and Idaté sit between Central Timor and the eastern languages; the dashed line is the border with Indonesia. Hover over or tap a dot for its groupings.</figcaption>
   </figure>
 </section>
 
+<nav class="toc" aria-label="Sections">
+  <div class="toc-inner">
+    <a href="#question">The question</a>
+    <a href="#clues">Two kinds of clue</a>
+    <a href="#findings">Findings</a>
+    <a href="#evidence">Weigh the evidence</a>
+    <a href="#tree">The tree and its root</a>
+    <a href="#words">Shared words</a>
+    <a href="#sounds">Sound changes</a>
+    <a href="#rule">The decision rule</a>
+    <a href="#method">Method</a>
+    <a href="#data">Data</a>
+    <a href="#paper">Paper</a>
+  </div>
+</nav>
+
 <main id="main">
 
-<section id="findings">
-  <h2>What the vocabulary says</h2>
+<section id="question">
+  <h2>The disagreement</h2>
   <div class="with-margin">
     <div class="col">
-      <p>Two questions divide the classifications. <b>C1</b>: does Lakalei-Idate belong with Central Timor, as in Hull, or with Timor-Babar, as in Grimes and Edwards (2026)? <b>C2</b>: is Welaun a dialect of Tetun, as Hull (1998) first had it, or a Central Timor language, as Edwards (2019) argued?</p>
-      <ul class="findings">
-        <li class="lead"><b>Lakalei-Idate is unresolved by the vocabulary, with no lean.</b> The trees place it beside Mambae, Kemak and Tokodede and never with the eastern languages, and seven outgroups beyond Flores put the root on the western side, outside that pair. Against that, kept together it reaches only 70% with Central Timor on the main lists, Idaté alone leans partly towards its neighbour Habu, and once identified retentions are removed its shared innovations tie or lose against Habu. If lenition cannot reverse, *p lenition needs six separate origins on the lexical tree and two on Grimes and Edwards’s. After correction no AU topology test rejects any placement, though a direct Bayesian comparison favours Central Timor over the eastern placement (log Bayes factor +11.8).</li>
-        <li><b>Welaun fits Central Timor once borrowable words are set aside.</b> The model-based trees put it there (posterior 0.86; log Bayes factor +7.6 against Welaun + Tetun) and its Tetun look sits in borrowable vocabulary. Distance trees and a strict consensus coding put it with Tetun, and the protocol said in advance that this question can’t be settled from vocabulary alone.</li>
-        <li><b>Fabronic, Timor-Babar and Eastern Timor get no lexical support</b>, under five cognate codings and on independent lists. That says little about Timor-Babar: the same trees miss about half of the subgroups that sound changes define and nobody disputes.</li>
-        <li><b>The low-level groups hold.</b> Lakalei-Idate, Kawaimina, Wetar-Atauro, Nuclear Rote, Kisar-Luang and Babar all pass the bar.</li>
-        <li><b>The pre-registered rule returned “unresolved” for both questions</b>, and the two replications with predictions stated in advance failed against Tetun. A mock referee report then prompted a second round, declared before it was run, with its own decision rule; it returned “unresolved” again.</li>
-      </ul>
+      <p class="inshort">Two family trees for the same languages. Switch between them: only Lakalei and Idaté, and Welaun, change places.</p>
+      <p>Languages that descend from a common ancestor form a family tree. Linguists draw its branches from changes that one group of languages went through together and no other did. Hull groups Lakalei and Idaté with Mambae, Kemak and Tokodede as <span data-term="ramelaic">Ramelaic</span>. Grimes and Edwards (2026) split off Central Timor first, and put Lakalei and Idaté in <span data-term="timorbabar">Timor-Babar</span> with everything to the east, because they share the loss of an old <i>p</i>.</p>
     </div>
     <aside class="margin">
-      <p><b>Ramelaic.</b> Hull’s group of Mambae, Kemak, Tokodede and Idalaka, his name for Idaté and Lakalei together.</p>
-      <p><b>Timor-Babar.</b> Grimes and Edwards’s branch for every Austronesian language of Timor outside Central Timor, defined by the change of *p to *h.</p>
-      <p><b>Pre-registered.</b> The protocol was frozen and fingerprinted (SHA-256) on 10 October 2026, before any analysis. Thirteen dated addenda followed, each pushed before the tests it governs.</p>
+      <p><b>C1 and C2.</b> The project’s two questions. C1: where does Lakalei-Idate go? C2: is Welaun a dialect of Tetun or a Central Timor language? This page is mostly about C1.</p>
     </aside>
   </div>
+  <div class="switcher">
+    <div class="ctl-row">
+      <span class="ctl-label" id="sw-label">Show the tree of</span>
+      <div class="ctl" role="group" aria-labelledby="sw-label">
+        <button type="button" id="sw-hull" aria-pressed="true">Hull</button>
+        <button type="button" id="sw-ge" aria-pressed="false">Grimes and Edwards</button>
+      </div>
+    </div>
+    <div id="sw-svg"></div>
+    <p class="sw-cap" id="sw-cap" aria-live="polite"></p>
+  </div>
+</section>
 
+<section id="clues">
+  <h2>Two kinds of clue</h2>
+  <div class="with-margin">
+    <div class="col">
+      <p class="inshort">Sound changes point one way, new words the other, and many words say nothing at all.</p>
+      <p>Two kinds of evidence can show which languages belong together. One is a <b>sound change</b> they share, such as old <i>p</i> becoming <i>h</i>. The other is a <b>new word</b> they share, one that replaced an older word. A word that every language kept, a <span data-term="retention">retention</span>, proves nothing. The words below are real, from the LexiRumah word lists. Hover over or tap a word for its source.</p>
+    </div>
+    <aside class="margin">
+      <p><b>The star.</b> A starred form, like *mata ‘eye’, is a word reconstructed for <span data-term="pmp">Proto-Malayo-Polynesian</span>, the ancestor of all these languages.</p>
+    </aside>
+  </div>
+  <div id="wx"></div>
+  <ul class="key" aria-label="Chip key">
+    <li><span class="chip k-ct">p</span>as in Mambae, Kemak and Tokodede</li>
+    <li><span class="chip k-east">h</span>as in the eastern languages</li>
+    <li><span class="chip k-old">*mata</span>the old word, kept</li>
+  </ul>
+</section>
+
+<section id="findings">
+  <h2>What the data show, suggest and leave open</h2>
+  <div class="sss">
+    <div class="show">
+      <h3>What the data show</h3>
+      <ul>
+        <li>The vocabulary trees place Lakalei-Idate beside Central Timor and never with the eastern languages, and outside languages put the <span data-term="root">root</span> outside that pair, whatever outgroups are used.</li>
+        <li>That placement depends on choices that shouldn’t matter (0 to 98% <span data-term="bootstrap">bootstrap</span> support), and Idaté on its own leans towards its neighbour Habu.</li>
+        <li>Once old words are removed, the shared new words no longer favour Central Timor over Habu.</li>
+        <li>The loss of *p fits Grimes and Edwards’s tree better if a lost sound rarely comes back, and the sound changes never fit the vocabulary tree best.</li>
+      </ul>
+    </div>
+    <div class="suggest">
+      <h3>What they suggest</h3>
+      <p>A history shaped by contact or a dialect chain, a <span data-term="linkage">linkage</span>, as well as by descent. Lakalei resembles Mambae, its neighbour 10 km away; Idaté resembles Habu, 5 to 11 km away.</p>
+    </div>
+    <div class="unknown">
+      <h3>What remains unknown</h3>
+      <p>Whether either classification is historically right. Settling it needs specialists to review the 47 decisive word comparisons, fuller word lists with regular sound correspondences, and an independent rerun of the analyses.</p>
+    </div>
+  </div>
   <div class="table-wrap">
     <table>
       <thead><tr><th scope="col">Question</th><th scope="col">Hull</th><th scope="col">Grimes and Edwards</th><th scope="col">What the vocabulary says</th></tr></thead>
       <tbody>
-        <tr class="focus"><td>C1: where does Lakalei-Idate go?</td><td>With Central Timor (Ramelaic)</td><td>Timor-Babar, apart from Central Timor</td><td>Unresolved. The trees put it beside Central Timor, but kept together, cleaned and set against the sound changes, that placement doesn’t hold up.</td></tr>
+        <tr class="focus"><td>C1: where does Lakalei-Idate go?</td><td>With Central Timor (Ramelaic)</td><td>Timor-Babar, apart from Central Timor</td><td>Unresolved by a rule fixed in advance. The trees put it beside Central Timor, but not robustly.</td></tr>
         <tr><td>C2: is Welaun Central Timor?</td><td>A dialect of Tetun (1998), withdrawn in 2003</td><td>Central Timor</td><td>Consistent with Central Timor once borrowable words are set aside</td></tr>
-        <tr><td>Fabronic</td><td>Tetun, Habu, Kawaimina, Galoli, Wetarese, Dawan, Welaun</td><td>Not in their scheme</td><td>No support (0 to 3% bootstrap)</td></tr>
-        <tr><td>Timor-Babar and Eastern Timor</td><td>Not in his scheme</td><td>Branches</td><td>No lexical support (posterior 0.00), which vocabulary can’t turn into a refutation</td></tr>
+        <tr><td>Timor-Babar and Eastern Timor</td><td>Not in his scheme</td><td>Branches</td><td>No lexical support, which vocabulary can’t turn into a refutation: the same trees miss half the groups that sound changes define and nobody disputes</td></tr>
+        <tr><td>Low-level groups</td><td colspan="2">Lakalei-Idate, Kawaimina, Wetar-Atauro, Nuclear Rote, Kisar-Luang, Babar</td><td>All confirmed</td></tr>
       </tbody>
     </table>
   </div>
 </section>
 
-<section id="lakalei">
-  <h2>Lakalei-Idate: where does it go?</h2>
+<section id="evidence">
+  <h2>Weigh the evidence</h2>
   <div class="with-margin">
     <div class="col">
-      <p>Lakalei and Idaté, spoken in central Timor-Leste, carry the whole disagreement. Their vocabulary puts them beside Central Timor, while their sound changes look eastern: they have *p lenition and *ŋ &gt; n, and lack Central Timor’s *ŋ &gt; g, k. Two questions follow. Where is the root of the tree, since “beside Central Timor” and “first branch of Timor-Babar” can be the same tree rooted in two places? And how much of the Central Timor signal is inheritance rather than shared retention or contact?</p>
+      <p class="inshort">Fifteen lines of evidence bear on where Lakalei-Idate belongs. They split almost evenly.</p>
+      <p>Each dot is one line of evidence, placed by which way it points. Tap a dot or a row to see what it found and why it matters. Filter by kind to see how each kind of evidence leans.</p>
     </div>
     <aside class="margin">
-      <p><b>Posterior probability.</b> The share of sampled trees that contain a group.</p>
-      <p><b>Outgroup.</b> A language known to sit outside the group being studied, used to find the root.</p>
+      <p><b>Not a vote.</b> Where each item sits is a judgement made for this page. The verdict comes from a rule fixed before the analyses were run, shown further down.</p>
     </aside>
   </div>
+  <div class="ctl-row">
+    <span class="ctl-label" id="ev-label">Show</span>
+    <div class="ctl" role="group" aria-labelledby="ev-label" id="ev-filter"></div>
+  </div>
+  <div class="ev-ends" aria-hidden="true"><span>← With Central Timor, as Hull has it</span><span>In Timor-Babar, as Grimes and Edwards have it →</span></div>
+  <div class="ev-strip" id="ev-strip"></div>
+  <div class="ev-axis" aria-hidden="true"><span>Clearly Central Timor</span><span>Leans Central Timor</span><span>Neither way</span><span>Leans Timor-Babar</span><span>Clearly Timor-Babar</span></div>
+  <ol class="ev-list" id="ev-list"></ol>
+</section>
 
-  <figure class="figure">
-    <p class="chart-title">Rooted with outgroups beyond Flores, Lakalei-Idate sits beside Central Timor</p>
-    {{TREE}}
-    <figcaption>Consensus tree of the Bayesian analysis with seven outgroups (grey) coded together with the Timor data: 31 lects, 1,599 cognate characters, rooted on Tagalog. Numbers are posterior probabilities; unlabelled nodes exceed 0.99.</figcaption>
+<section id="tree">
+  <h2>The vocabulary tree and its root</h2>
+  <div class="with-margin">
+    <div class="col">
+      <p class="inshort">The vocabulary puts Lakalei-Idate beside Central Timor, and seven outside languages root the tree outside that pair.</p>
+      <p>This is the Bayesian tree from 1,599 sets of related words (<span data-term="cognate">cognates</span>), with seven outside languages in grey. Colour it by either classification: Hull’s Ramelaic comes out as a group, except that Welaun joins it; Grimes and Edwards’s Eastern Timor does not, because Tetun sits next to Central Timor. Hover over or tap a branch point to see its <span data-term="posterior">posterior</span>, the share of sampled trees that contain that group.</p>
+    </div>
+    <aside class="margin">
+      <p><b>Why the root matters.</b> “Lakalei-Idate beside Central Timor” and “Lakalei-Idate as the first branch of Timor-Babar” can be the same unrooted tree. Only the root tells them apart.</p>
+    </aside>
+  </div>
+  <div class="ctl-row">
+    <span class="ctl-label" id="vt-label">Colour by</span>
+    <div class="ctl" role="group" aria-labelledby="vt-label">
+      <button type="button" id="vt-ge" aria-pressed="true">Grimes and Edwards</button>
+      <button type="button" id="vt-hull" aria-pressed="false">Hull</button>
+    </div>
+  </div>
+  <ul class="legend" id="vt-legend" aria-live="polite"></ul>
+  <figure class="figure vt-wrap">
+    {{VTREE}}
+    <figcaption id="vt-cap">Consensus tree of the Bayesian analysis with seven outgroups (E40): 31 lects, rooted on Tagalog. Lakalei and Idaté are in bold. Numbers are posteriors below 0.995.</figcaption>
   </figure>
 
+  <h3>Where the root falls</h3>
   <div class="with-margin">
     <div class="col">
-      <h3>Where the root falls</h3>
-      <p>The two Flores lects first used as the root don’t sit outside Timor: they attach to Rote-Meto and Helong. So seven more outgroups were coded together with the Timor data: Tagalog, Buginese and Uma, three Central Malayo-Polynesian languages from Sumba, Sumbawa and western Flores, and the reconstructed Proto-Malayo-Polynesian words. A relaxed clock gives a root without outgroups.</p>
+      <p>Grimes and Edwards’s tree needs the root on the Central Timor stem. It never falls there: not with any set of <span data-term="outgroup">outgroups</span>, not without the reconstructed proto-language, not under a relaxed clock, and not when missing words are counted as absent. It moves between the Flores and the Rote-Meto branches depending on those choices.</p>
+      <p>That rules out one reconciliation, but it doesn’t prove an inherited subgroup. A <span data-term="rooted">rooted group</span> in a word tree only means its members share more words with each other than with the outgroups. It shows common descent only if those shared words are new, inherited and not borrowed.</p>
     </div>
     <aside class="margin">
-      <p><b>Rooted clade.</b> A group that excludes every outgroup, so that it really descends from one common ancestor within the tree.</p>
+      <p><b>The reconstruction as a language.</b> Proto-Malayo-Polynesian is built partly from these languages’ relatives and has no loans or gaps, so it can pull the root towards conservative languages. It is used only as a check.</p>
     </aside>
   </div>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th scope="col">Analysis</th><th scope="col">Root on Flores</th><th scope="col">Root on Rote-Meto + Helong</th><th scope="col">Root on Central Timor stem</th><th scope="col">Lakalei-Idate + Central Timor a rooted clade</th></tr></thead>
-      <tbody>
-        <tr class="focus"><td>All seven outgroups, Bayesian</td><td>0.93</td><td>0.07</td><td>0.00</td><td>1.00</td></tr>
-        <tr><td>All seven outgroups, bootstrap</td><td>0.87</td><td>0.12</td><td>0.00</td><td>0.98</td></tr>
-        <tr><td>Far outgroups only</td><td>0.16</td><td>0.77</td><td>0.00</td><td>0.98</td></tr>
-        <tr><td>Near outgroups only</td><td>0.94</td><td>0.03</td><td>0.00</td><td>0.98</td></tr>
-        <tr><td>Proto-Malayo-Polynesian only</td><td>0.04</td><td>0.70</td><td>0.00</td><td>0.97</td></tr>
-        <tr><td>Relaxed clock, no outgroups</td><td>0.11</td><td>0.42</td><td>0.00</td><td>0.96</td></tr>
-        <tr><td>Relaxed clock, without Tela-Masbuar</td><td>0.23</td><td>0.52</td><td>0.00</td><td>0.98</td></tr>
-      </tbody>
-    </table>
+  <div class="ctl-row">
+    <span class="ctl-label" id="rc-label">Show</span>
+    <div class="ctl" role="group" aria-labelledby="rc-label">
+      <button type="button" id="rc-main" aria-pressed="true">Main analyses</button>
+      <button type="button" id="rc-e57" aria-pressed="false">Sensitivity runs</button>
+    </div>
   </div>
+  <ul class="legend" aria-label="Root chart key">
+    <li><span class="sw fl"></span>Root on the Flores branch</li>
+    <li><span class="sw rm"></span>On Rote-Meto + Helong</li>
+    <li><span class="sw ot"></span>Elsewhere</li>
+  </ul>
+  <div class="rc figure" id="rc"></div>
+</section>
 
+<section id="words">
+  <h2>Shared words: old and new</h2>
   <div class="with-margin">
     <div class="col">
-      <p>In none of these does the root fall on the Central Timor stem, where Grimes and Edwards’s tree would need it, so Lakalei-Idate and Central Timor end up together on one side. That answers the rooting worry but doesn’t settle the question: outgroups attach by lexical similarity too, and Rote-Meto’s place next to the root could reflect conservatism or contact across the Savu Sea.</p>
-
-      <h3>Kept together, and taken apart</h3>
-      <p>Both classifications treat Lakalei-Idate as one unit, but the trees don’t always keep it together. Held together, it joins Central Timor at 70% on the main lists and 98% on lists collected independently of Grimes and Edwards. Taken apart, Lakalei is Central Timor-like every time (84% and 99%), while Idaté leans partly towards Habu, its neighbour 5 to 11 km away (38% on the main lists). Removing Tetun raises the Central Timor link to 94%; removing the 132 cognate sets shared with Papuan languages halves it, because Mambae, Kemak, Idaté and Lakalei share more words with their Papuan neighbours than the eastern languages do. Coding cognates by morpheme, which joins compounds the whole-word coding split, moves support from Central Timor as a whole to Mambae, Kemak and Tokodede (65%, and 73% held together). No coding or subset ever puts Lakalei-Idate with the eastern group.</p>
-
-      <h3>Shared replacements, cleaned and polarised</h3>
-      <p>The triplet test counts concepts on which exactly two of three groups share a word that replaced the Proto-Malayo-Polynesian one. Of the six replacements Lakalei-Idate shares only with Central Timor, review found four to be errors: two ‘wife’ sets continue one old word (coding by morpheme merges them), ‘who’ pairs unrelated forms, and ‘dry’ is doubtful. That leaves ‘cry’ <span class="form">sɛro</span> and ‘spit’, against nine shared only with eastern groups, which have been checked only automatically. Once 66 identified retentions are removed and words also found in Flores, Rote-Meto or Wetar are set aside, the pairing with Central Timor still beats Tetun and Kawaimina on stable vocabulary but loses to Habu (10 against 12). Coded by morpheme and polarised, though not cleaned by hand, the counts lean further east, towards Tetun (18 against 10) and narrowly Habu (14 against 13); some of that may be Tetun loans inside compounds.</p>
+      <p class="inshort">Counted naively, the shared words favour Central Timor. Clean out old words mistaken for new ones and the lead disappears against Habu.</p>
+      <p>The triplet test takes three groups and counts the basic concepts on which exactly two of them share a new word (an <span data-term="innovation">innovation</span>). Each row below removes another source of error: first old words the automatic rule mistook for new, then words also found in languages outside Timor. The last row codes compound words by their parts, without checking by hand.</p>
     </div>
     <aside class="margin">
-      <p><b>The check.</b> Welaun’s contact with Tetun is documented. The test finds it in borrowable words (Z = 6.9, beyond 99.8% of contact-free simulations) and not in stable ones (Z = 0.6).</p>
-      <p><b>Polarised.</b> Counting only words absent from languages outside the triplet, so that an old shared word lost by one group isn’t mistaken for a new one.</p>
+      <p><b>The control.</b> Welaun’s contact with Tetun is documented. The same test finds it in borrowable words and not in stable ones, which is the one contact signal that survives correction for the many tests run.</p>
     </aside>
   </div>
-
-  <figure class="figure wide" aria-labelledby="trip-title">
-    <p class="chart-title" id="trip-title">Before cleaning, Lakalei-Idate pairs with Central Timor on stable vocabulary</p>
-    <div class="triplets">
-      <div class="trow head" aria-hidden="true"><div></div><div>Stable concepts<span class="sub">Leipzig-Jakarta, 60</span></div><div>Borrowable concepts<span class="sub">the other 92</span></div></div>
-      {{TRIPLETS}}
-    </div>
-    <ul class="key" aria-label="Bar key">
-      <li><span class="k s0"></span>Focal group + Nuclear Central Timor</li>
-      <li><span class="k s1"></span>Focal group + third group</li>
-      <li><span class="k s2"></span>Nuclear Central Timor + third group</li>
-    </ul>
-    <figcaption>Original retention rule (the one the simulations were calibrated on), representative lists, before cleaning. Numbers are summed over combinations of dialect lists, so they exceed the number of concepts. Nuclear Central Timor is Mambae, Kemak and Tokodede. After cleaning and polarising, Habu overtakes Central Timor on stable words. Lakalei-Idate’s extra sharing with the east is what unequal branch lengths alone predict, so it is not read as contact. Source: <code>results/literature/e18_triplets.json</code>, <code>e46_triplets_clean.json</code>.</figcaption>
-  </figure>
-
+  <div class="tabs" role="tablist" aria-label="Third group" id="tc-tabs"></div>
+  <div class="panel" id="tc-panel" role="tabpanel">
+    <ul class="key tc-legend" id="tc-key"></ul>
+    <div id="tc"></div>
+  </div>
+  <p class="caption">Stable concepts, representative lists (E46, E51). Counts are summed over combinations of dialect lists, so they exceed the number of concepts. Mambae, Kemak and Tokodede are Nuclear Central Timor.</p>
   <div class="with-margin">
     <div class="col">
-      <h3>Borrowing models and other views</h3>
-      <p>Approximate Bayesian computation simulated 20,000 histories under each placement, with borrowing allowed from both sides. It can’t tell them apart: the random forest splits its votes 0.45 to 0.55 and misclassifies 36% of its own simulations, and the borrowing estimates (medians 22 to 25%) barely move from their prior (median 30%). Historical glottometry finds Lakalei-Idate cohesive on its own and tied about equally weakly to Central Timor (0.06, interval 0 to 0.31) and to the east (0.08, interval 0 to 0.41). A contact-aware tree capped at five transfer edges used all five in every sample, and its base tree puts Lakalei-Idate with Tetun and Habu, carrying the Central Timor resemblance through a transfer edge between Lakalei and Tokodede. The model is strained (some edges link unlikely partners), so this shows only that a few transfer events can explain the Central Timor signal as well as descent can. A split network, resampled 200 times, shows Lakalei-Idate with Central Timor in 47% of networks and Idaté with Habu in 45%, and Lakalei-Idate with the eastern group in 2%: the near balance a linkage would leave, though a short branch would look the same.</p>
+      <p>Words shared with only one other group are few. After review, two remain on the Central Timor side, ‘cry’ and ‘spit’, against up to nine on the eastern side that nobody has yet checked by hand. A test of regular sound correspondences in these words found too few in these short lists to tell loans from inheritance.</p>
     </div>
-    <aside class="margin">
-      <p><b>Prior error.</b> How often the method picks the wrong placement on its own simulated data. At 36%, it can barely tell the placements apart.</p>
-    </aside>
   </div>
 </section>
 
@@ -367,85 +630,71 @@ table.checks { min-width: 40rem; }
   <h2>Sound changes</h2>
   <div class="with-margin">
     <div class="col">
-      <p>Grimes and Edwards’s comparative tables were turned into data: 257 tables and 14,401 forms, with the reflexes the authors mark. On the comparative method’s own terms, Lakalei-Idate sides with Timor-Babar. It keeps *p in 0 of 6 matched words, against 54 of 55 in Mambae, Kemak and Tokodede, and native words show the loss too: ‘four’ <span class="form">aːt</span>, ‘tooth’ <span class="form">niɑn</span>, and Grimes and Edwards’s ‘how much’ and ‘fire’. It also lacks Central Timor’s *ŋ &gt; g (‘ear’ <span class="form">talina</span> against Mambae <span class="form">teliga</span>). Two facts limit these as markers. Welaun, Central Timor on every other count, has *p &gt; h in native words, so the change happened more than once on Timor. And several changes recur outside their groups, in Sika, Dela, Galoli and Ili’uun.</p>
-      <p>Scored on the rival trees, the answer depends on whether a change can reverse. If lenition is irreversible, as historical linguists usually assume, *p lenition must arise six separate times on the lexical tree and only twice on Grimes and Edwards’s, which clearly favours theirs. The other ten characters are sparse and often parallel, and their totals point different ways under different scoring rules. The vocabulary and the phonology disagree, and that disagreement is the main finding here.</p>
-      <p>A fuller phonology, with every reflex the expert tables mark coded as a character (36 in all), doesn’t break the tie. Grimes and Edwards’s split and the lexical tree score level. The tree with Lakalei-Idate in Eastern Timor wins 6 characters to 0, but all six are changes Tetun shares with Kawaimina and, where it is coded, Habu, and only two involve Lakalei-Idate. Beyond *p lenition, the sounds say more about where Tetun belongs than about Lakalei-Idate.</p>
+      <p class="inshort">Lakalei and Idaté have lost the old *p, like the eastern languages. Whether that counts depends on whether a lost sound can come back.</p>
+      <p>Mambae, Kemak and Tokodede keep *p in 54 of 55 matched words; Lakalei and Idaté in none of 6. Lakalei-Idate has <i>h</i> at the start of a word (*pitu &gt; <span class="form">hitu</span> ‘seven’), loss or <i>h</i> between vowels (*əpat &gt; <span class="form">aːt</span> ‘four’), and <i>w</i> before *u (*hapuy &gt; <span class="form">wai</span> ‘fire’). The eastern languages have <i>h</i> throughout. And Welaun, a Central Timor language on every other count, lost *p too, so the change happened at least twice on Timor.</p>
     </div>
     <aside class="margin">
-      <p><b>Reflex.</b> The sound a language has where the proto-language had a given sound, as Tetun <span class="form">h</span> where Proto-Malayo-Polynesian had *p.</p>
-      <p><b>Irreversible.</b> A change like *p &gt; h that is not undone later. Counting it that way, each separate appearance costs a step.</p>
+      <p><b>Lenition.</b> A weakening of a consonant, like <i>p</i> becoming <i>h</i> or disappearing. The reverse, <i>h</i> becoming <i>p</i>, is almost unknown.</p>
     </aside>
   </div>
   <div class="table-wrap">
     <table>
-      <thead><tr><th scope="col">*p lenition, separate origins</th><th scope="col">Lexical tree</th><th scope="col">Lakalei-Idate in Eastern Timor</th><th scope="col">Grimes and Edwards’s split</th></tr></thead>
+      <thead><tr><th scope="col">Explanation for the loss of *p</th><th scope="col">Assessment</th></tr></thead>
       <tbody>
-        <tr><td>Changes may reverse (Fitch)</td><td>2</td><td>2</td><td>2</td></tr>
-        <tr class="focus"><td>Irreversible (Camin-Sokal)</td><td>6</td><td>4</td><td>2</td></tr>
-        <tr><td>All eleven changes, irreversible</td><td>49</td><td>47</td><td>51</td></tr>
-        <tr><td>Cost in the vocabulary (log-likelihood)</td><td>0</td><td>−10.5</td><td>−12.0</td></tr>
+        <tr><td>One change in an ancestor shared with the eastern languages</td><td>Possible. Lakalei-Idate’s outcomes differ a little from the eastern <i>h</i>, but later changes could explain that.</td></tr>
+        <tr><td>Separate changes in different lineages</td><td>Possible. Welaun shows it has happened at least twice.</td></tr>
+        <tr><td>Central Timor lost *p and then got it back</td><td>Very unlikely. <i>h</i> &gt; <i>p</i> is almost unknown, and loans couldn’t restore it so regularly.</td></tr>
+        <tr><td>The change spread by contact between languages already apart</td><td>Possible, and these data can’t tell it apart from a shared ancestor.</td></tr>
       </tbody>
     </table>
   </div>
+  <h3>How much the assumption matters</h3>
+  <p class="measure">Score each tree by how many changes it needs. Move the slider to make a lost sound easier or harder to restore.</p>
+  <div class="ctl-row">
+    <span class="ctl-label" id="rv-set-label">Characters</span>
+    <div class="ctl" role="group" aria-labelledby="rv-set-label" id="rv-set">
+      <button type="button" data-set="p" aria-pressed="true">*p lenition</button>
+      <button type="button" data-set="e42" aria-pressed="false">Eleven changes</button>
+      <button type="button" data-set="e53" aria-pressed="false">All 36</button>
+    </div>
+  </div>
+  <div class="rv-ctl">
+    <label for="rv-slider">Restoring a lost sound costs <b id="rv-r">2×</b> as much as losing it</label>
+    <input type="range" id="rv-slider" min="0" max="8" step="1" value="4" aria-describedby="rv-read">
+    <div class="rv-ticks" aria-hidden="true"><span style="--i:0">0.1×</span><span style="--i:3">1×</span><span style="--i:5">3×</span><span style="--i:7">10×</span><span style="--i:8">1,000×</span></div>
+  </div>
+  <p class="rv-read" id="rv-read" aria-live="polite"></p>
+  <div id="rv"></div>
+  <p class="caption">Sankoff parsimony on three rooted trees, with the root fixed at the Proto-Malayo-Polynesian state (E56). Bars show the extra steps each tree needs beyond the cheapest.</p>
   <figure class="figure">
     {{SOUNDS}}
-    <figcaption>Eight diagnostic sound changes, from the reflexes Grimes and Edwards (2026) mark in their tables. Filled cells: the language has the change. Outlined cells rest on fewer than two expert tokens. Southwest Maluku is shown in the repository.</figcaption>
+    <figcaption>Eight diagnostic sound changes, from the reflexes Grimes and Edwards (2026) mark in their tables. Filled cells: the language has the change. Outlined cells rest on fewer than two tokens.</figcaption>
   </figure>
 </section>
 
-<section id="checks">
-  <h2>The second round</h2>
+<section id="rule">
+  <h2>The decision rule</h2>
   <div class="with-margin">
     <div class="col">
-      <p>A mock referee report argued that the earlier “leans Central Timor” reading rested on an unrooted tree, on sound changes scored in a way that allowed reversals, and on shared “innovations” that included retentions. Each point became a test, declared with a binding decision rule before any was run. Central Timor would be reported as lexically supported only if all four conditions below held.</p>
+      <p class="inshort">A rule fixed before the second round asked for four things before calling it for Central Timor. Only one came through.</p>
+      <p>This is the study’s primary analysis. Grimes and Edwards’s placement would have been reported as supported if Timor-Babar came out as a rooted group, or if the root sat on the Central Timor stem. Neither happened either.</p>
     </div>
     <aside class="margin">
-      <p><b>Holm correction.</b> A way of keeping the chance of any false positive at 5% when many tests are run together.</p>
+      <p><b><span data-term="holm">Holm correction</span>.</b> Eleven topology tests were run in the project. Corrected together, none rejects any placement.</p>
     </aside>
   </div>
   <div class="table-wrap">
     <table class="checks">
       <thead><tr><th scope="col">Condition for Central Timor</th><th scope="col">Result</th><th scope="col">Met?</th></tr></thead>
       <tbody>
-        <tr><td>The pair is a rooted clade with outgroups (posterior ≥ 0.95, bootstrap ≥ 95 in two of three outgroup sets)</td><td>Posterior 1.00; bootstrap 98, 98 and 97</td><td>Yes</td></tr>
+        <tr><td>The pair is a rooted group with outgroups (posterior ≥ 0.95, bootstrap ≥ 95 in two of three outgroup sets)</td><td>Posterior 1.00; bootstrap 98, 98 and 97</td><td>Yes</td></tr>
         <tr><td>Kept together, bootstrap ≥ 95 with Central Timor on both list sets</td><td>70 on the main lists, 98 on the independent lists</td><td>No</td></tr>
-        <tr><td>Eastern placement and Timor-Babar rejected after Holm, with the root held by outgroups</td><td>Nothing rejected after correcting over all eleven topology tests</td><td>No</td></tr>
-        <tr><td>Cleaned, polarised stable replacements pair it with Central Timor against Tetun, Habu and Kawaimina</td><td>Loses to Habu, 10 against 12</td><td>No</td></tr>
+        <tr><td>Eastern placement and Timor-Babar rejected after Holm, with the root held by outgroups</td><td>Nothing rejected after correction</td><td>No</td></tr>
+        <tr><td>Cleaned, polarised stable new words pair it with Central Timor against Tetun, Habu and Kawaimina</td><td>Loses to Habu, 10 against 12</td><td>No</td></tr>
       </tbody>
     </table>
   </div>
-  <p class="col" style="max-width: var(--measure)">Grimes and Edwards’s placement would have been reported as supported if Timor-Babar came out as a rooted clade, or if the root sat on the Central Timor stem. Neither happened. So the vocabulary leaves the question open. What it does show: no tree, coding or subset groups Lakalei-Idate with the eastern languages, and the outgroups put the root on the western side.</p>
-  <h3 class="col">Last checks</h3>
-  <p class="col" style="max-width: var(--measure)">Five more analyses, aimed at known sources of error, were declared before they were run (Addendum 13). None could change the verdict, and none did.</p>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th scope="col">Check</th><th scope="col">Result</th></tr></thead>
-      <tbody>
-        <tr><td>Cognates coded by morpheme</td><td>The split ‘wife’ sets merge; the trees favour Mambae, Kemak and Tokodede more sharply (65%); polarised replacements lean towards Tetun and Habu</td></tr>
-        <tr><td>Regular sound correspondences in the decisive words</td><td>Too few regular correspondences in these short lists to tell loans from inheritance</td></tr>
-        <tr><td>A fuller phonology, 36 characters</td><td>Grimes and Edwards’s split ties the lexical tree; a phonology-only tree recovers Lakalei-Idate (0.81) and neither placement</td></tr>
-        <tr><td>A learned retention classifier</td><td>No better than the current rule (balanced accuracy 0.788 against 0.791), so not adopted</td></tr>
-        <tr><td>Split networks</td><td>Unclear: Lakalei-Idate with Central Timor in 47% of networks, Idaté with Habu in 45%</td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-<section id="branches">
-  <h2>Other disputed branches</h2>
-  <p class="col" style="max-width: var(--measure)">The same triplet test, run on other placements that the two classifications or the trees leave open. Counts are for all concepts, with stable concepts in brackets. The largest pairs are robust to the classifier change. The imbalances between the other two pairs are uncalibrated for these triplets and none survives multiple-testing correction, so they are not read as contact.</p>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th scope="col">Triplet</th><th scope="col">Counts</th><th scope="col">Reading</th></tr></thead>
-      <tbody>
-        <tr><td>Habu, Tetun, Kawaimina</td><td>Habu + Tetun 15 (5); Habu + Kawaimina 11 (5); Tetun + Kawaimina 4 (2)</td><td>Unresolved</td></tr>
-        <tr><td>Waima’a, Naueti, Midiki</td><td>Waima’a + Naueti 10 (7); Waima’a + Midiki 7 (4); Naueti + Midiki 2 (1)</td><td>Waima’a + Naueti largest, as in Grimes and Edwards</td></tr>
-        <tr><td>Galoli, Wetar, Dadu’a</td><td>Galoli + Dadu’a 20 (13); Galoli + Wetar 6 (2); Wetar + Dadu’a 6 (4)</td><td>Galoli + Dadu’a largest</td></tr>
-        <tr><td>Galoli, Wetar, Tetun</td><td>Galoli + Wetar 12 (8); Galoli + Tetun 6 (4); Wetar + Tetun 0 (0)</td><td>Galoli + Wetar largest</td></tr>
-        <tr><td>Helong, Meto, Rote</td><td>Meto + Rote 17 (12); Helong + Meto 10 (8); Helong + Rote 3 (2)</td><td>Meto + Rote largest</td></tr>
-      </tbody>
-    </table>
-  </div>
+  <p class="measure">A direct Bayesian comparison does favour Central Timor (log <span data-term="bf">Bayes factor</span> +11.8). It answers a narrower question: which placement fits better under a model that treats every shared word as inherited. The corrected <span data-term="au">AU tests</span> ask whether the preference survives resampling the word list, and it doesn’t.</p>
 </section>
 
 <section id="method">
@@ -453,31 +702,40 @@ table.checks { min-width: 40rem; }
   <div class="with-margin">
     <div class="col">
       <ol class="stages">
-        <li><b>Data.</b> Basic vocabulary from LexiRumah 3.0.1: 70 lects of the Timor region and 152 concepts, with 24 lects, one per language, in the model-based analyses. ABVD’s expert cognate judgements served as a benchmark. The Idaté and Lakalei lists come from surveys by Marian Klamer (2002) and Virginia Dawson (2014).</li>
-        <li><b>Cognates.</b> Automatic detection with LexStat in LingPy, scored against the experts at a B-cubed F of 0.81, and checked under five codings and their consensus. A gate of known low-level groups had to be recovered before any contested group was scored.</li>
-        <li><b>Trees.</b> Distance trees with 1,000 concept bootstraps, Bayesian trees in MrBayes with stepping-stone marginal likelihoods, maximum-likelihood trees and AU tests in IQ-TREE, a root from seven outgroups beyond Flores and from a relaxed clock.</li>
-        <li><b>Sound changes.</b> Grimes and Edwards’s tables as an expert reflex atlas, checked against an automatic atlas (94% agreement), coded as characters and scored on the rival trees with and without reversals.</li>
-        <li><b>Inheritance or contact.</b> Retention and innovation classes for every cognate set, validated against experts and cleaned by review; the triplet test, polarised and calibrated by simulation; a split test; approximate Bayesian computation with random forests; historical glottometry with resampling intervals; clock analyses; a contact-aware tree.</li>
+        <li><b>Data.</b> Basic vocabulary from LexiRumah 3.0.1: 70 lects of the Timor region and 152 concepts, with 24 lects, one per language, in the model-based analyses. The Idaté and Lakalei lists come from surveys by Marian Klamer (2002) and Virginia Dawson (2014).</li>
+        <li><b>Cognates.</b> Automatic detection with LexStat, scored against expert judgements (B-cubed F 0.81) and checked under five other codings.</li>
+        <li><b>Trees.</b> Distance, Bayesian and maximum-likelihood trees; a root from seven outgroups and a relaxed clock, with nine sensitivity runs.</li>
+        <li><b>Old and new words.</b> Every cognate set classed as a retention or an innovation, validated against experts, checked by review and against two etymological sources, with an audit trail for every change.</li>
+        <li><b>Sound changes.</b> Grimes and Edwards’s tables as an expert reflex atlas, checked against an automatic atlas (94% agreement), scored on the rival trees under different assumptions about reversibility.</li>
       </ol>
     </div>
     <aside class="margin">
-      <p><b>B-cubed F.</b> A score from 0 to 1 for how well automatic cognate sets match expert ones. 0.81 is usable but below the 0.89 that List, Greenhill and Gray (2017) report across families, which is why the results are checked under several codings.</p>
+      <p><b><span data-term="prereg">Pre-registered</span>.</b> The protocol was frozen and fingerprinted (SHA-256) on 10 October 2026, before any analysis. Fourteen dated addenda followed, each pushed before the tests it governs.</p>
     </aside>
   </div>
-
+  <h3>What each kind of analysis can establish</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Class</th><th scope="col">What it includes</th><th scope="col">What it can establish</th></tr></thead>
+      <tbody>
+        <tr><td>Original pre-registered tests</td><td>Distance trees with a 70% bar</td><td>Results under the initial protocol, subject to the reported deviations. Verdict: unresolved.</td></tr>
+        <tr><td>Pre-declared replications</td><td>Other dialect lists; lists collected independently</td><td>Tests of predictions stated beforehand. Partly failed, against Tetun.</td></tr>
+        <tr class="focus"><td>Second-round analyses</td><td>Root, pair kept together, topology tests, cleaned new words</td><td>Tests under a rule declared in advance. The primary analysis. Verdict: unresolved.</td></tr>
+        <tr><td>Exploratory analyses</td><td>Everything else, including the Bayes factors and the sound-change scoring</td><td>Hypotheses and robustness checks, not independent confirmation.</td></tr>
+      </tbody>
+    </table>
+  </div>
   <h3>The pre-registration trail</h3>
   <ol class="timeline">
-    <li class="key-event"><span class="when">10 October 2026</span><b>Protocol v1 frozen</b> and fingerprinted before any analysis, with the decision rule: a contested group needs 70% bootstrap support in both distance trees, on the primary data and two screened variants.</li>
-    <li><span class="when">10 October</span><b>Addenda 1 and 2.</b> The gate of known groups first failed on one group. A revised gate was adopted (post hoc), and further rules were fixed before any contested group was scored.</li>
+    <li class="key-event"><span class="when">10 October 2026</span><b>Protocol v1 frozen</b> and fingerprinted before any analysis, with its decision rule.</li>
+    <li><span class="when">10 October</span><b>Addenda 1 and 2.</b> The gate of known groups first failed on one group; a revised gate was adopted (post hoc), and further rules were fixed before any contested group was scored.</li>
     <li class="key-event"><span class="when">10 October</span><b>Pre-registered tests run.</b> Decision: unresolved for C1 and C2.</li>
-    <li><span class="when">10 to 11 October</span><b>Addenda 3 and 4 (post hoc).</b> Bayesian reruns, Grimes and Edwards’s tables as data, reflex atlases and total-evidence trees.</li>
-    <li><span class="when">11 October</span><b>Addenda 5 and 6 (post hoc).</b> Hull’s *b and *k as characters, an ASJP check, cognate-coding robustness and Alcantara’s (2015) Idaté list.</li>
-    <li><span class="when">11 October</span><b>Addenda 7 and 8 (post hoc).</b> Shared innovations, the triplet test, contact-aware trees, the split test, borrowing simulation, glottometry, clock dating and other branches.</li>
-    <li class="key-event"><span class="when">11 October</span><b>Addendum 9.</b> Ten checks on the first version’s weaknesses, two of them confirmatory, declared before any was run.</li>
-    <li><span class="when">11 October</span><b>Addendum 10.</b> An etymological check against the Austronesian Comparative Dictionary, and AU tests on the independent lists.</li>
-    <li><span class="when">11 October</span><b>Addendum 11.</b> The decisive words checked against Grimes and Edwards’s own tables, a parametric bootstrap, and a contact model capped at five transfer edges.</li>
-    <li class="key-event"><span class="when">11 October</span><b>Addendum 12.</b> A second round after a mock referee report: the root with seven outgroups, a relaxed clock, irreversible sound changes, Lakalei-Idate kept together, cleaned innovations, and a decision rule declared in advance. Verdict: unresolved.</li>
-    <li><span class="when">13 October</span><b>Addendum 13 (exploratory).</b> Partial cognates, regular correspondences, a fuller phonology, a learned retention classifier and split networks. The verdict stands.</li>
+    <li><span class="when">10 to 11 October</span><b>Addenda 3 to 8 (post hoc).</b> Bayesian reruns, Grimes and Edwards’s tables as data, shared innovations, contact tests, borrowing simulations, dating.</li>
+    <li class="key-event"><span class="when">11 October</span><b>Addendum 9.</b> Ten checks, two of them confirmatory replications, declared before any was run.</li>
+    <li><span class="when">11 October</span><b>Addenda 10 and 11.</b> Etymological checks, the decisive words against Grimes and Edwards’s own tables, a parametric bootstrap, a capped contact model.</li>
+    <li class="key-event"><span class="when">11 October</span><b>Addendum 12.</b> A second round after a mock referee report, with a decision rule declared in advance. Verdict: unresolved.</li>
+    <li><span class="when">13 October</span><b>Addendum 13 (exploratory).</b> Partial cognates, regular correspondences, a fuller phonology, a learned classifier, split networks. The verdict stands.</li>
+    <li class="key-event"><span class="when">13 October</span><b>Addendum 14, after a review of version 2.</b> Two requested sensitivity analyses (reversibility of sound change; the root under other outgroups and missing-data treatments), an audit trail and full documentation. Version 3 of the paper.</li>
   </ol>
 </section>
 
@@ -485,20 +743,20 @@ table.checks { min-width: 40rem; }
   <h2>Data and code</h2>
   <div class="with-margin">
     <div class="col">
-      <p>Every analysis reruns from pinned upstream data with the numbered scripts in <code>src/</code>. Several datasets were built for Liabut that did not exist in machine-readable form before.</p>
+      <p>Every estimate in the paper’s main text can be rebuilt with one command, <code>bash reproduce.sh principal</code>, and is listed with the file it comes from. The whole pipeline reruns from pinned upstream data.</p>
       <dl class="files">
+        <dt><a href="{{GH}}/tree/main/derived/audit" target="_blank" rel="noopener">derived/audit/</a></dt>
+        <dd>Every excluded or reclassified form and word set with a reason code; the 47 decisive comparisons, ready for a specialist; every *p reflex with its environment.</dd>
+        <dt><a href="{{GH}}/blob/main/DATA_DICTIONARY.md" target="_blank" rel="noopener">DATA_DICTIONARY.md</a> · <a href="{{GH}}/blob/main/PROVENANCE.md" target="_blank" rel="noopener">PROVENANCE.md</a></dt>
+        <dd>Every lect, character, cognate assignment and exclusion code; every source with its version and licence.</dd>
         <dt><a href="{{GH}}/tree/main/derived/ge2026_tables" target="_blank" rel="noopener">derived/ge2026_tables/</a></dt>
         <dd>Grimes and Edwards’s 257 comparative tables as data: 14,401 forms, with the authors’ marked reflexes.</dd>
         <dt><a href="{{GH}}/tree/main/derived/reflex_atlas" target="_blank" rel="noopener">derived/reflex_atlas/</a></dt>
         <dd>Reflexes of the Proto-Malayo-Polynesian consonants, language by language, from the expert tables and from automatic alignment.</dd>
-        <dt><a href="{{GH}}/tree/main/derived/sound_change_matrix" target="_blank" rel="noopener">derived/sound_change_matrix/</a></dt>
-        <dd>Sound-change characters for the Timor-region languages, including Hull’s *b and *k.</dd>
-        <dt><a href="{{GH}}/tree/main/derived/innovations" target="_blank" rel="noopener">derived/innovations/</a></dt>
-        <dd>The retention or innovation status of every cognate set, under both rules, and two specialist review packets: Lakalei-Idate’s 24 decisive stable-vocabulary sets, and its exclusive sets on both sides.</dd>
-        <dt><a href="{{GH}}/tree/main/derived/alcantara2015_idate" target="_blank" rel="noopener">derived/alcantara2015_idate/</a></dt>
-        <dd>184 Idaté forms from Alcantara’s (2015) fieldwork in Laclubar.</dd>
         <dt><a href="{{GH}}/blob/main/PROTOCOL.md" target="_blank" rel="noopener">PROTOCOL.md</a></dt>
-        <dd>The frozen protocol and its thirteen addenda.</dd>
+        <dd>The frozen protocol and its fourteen addenda.</dd>
+        <dt><a href="{{GH}}/blob/main/SPECIALIST_REVIEW.md" target="_blank" rel="noopener">SPECIALIST_REVIEW.md</a> · <a href="{{GH}}/blob/main/REPLICATION.md" target="_blank" rel="noopener">REPLICATION.md</a></dt>
+        <dd>What a specialist reviewer and an independent replicator are asked to do.</dd>
       </dl>
       <p class="cite">Code is MIT-licensed; data keep their sources’ licences.</p>
     </div>
@@ -506,31 +764,28 @@ table.checks { min-width: 40rem; }
       <p><b>Liabut</b> is coined from Tetun <span class="form">lia</span> ‘word, speech’ and <span class="form">abut</span> ‘root’: the roots of words.</p>
     </aside>
   </div>
-  <figure class="figure wide">
+  <figure class="figure">
     <p class="chart-title">All 24 languages in the tree analyses</p>
     {{OVERVIEW_MAP}}
-    <figcaption id="overview-cap">The box marks the area of the map above. Coordinates from LexiRumah; coastlines from Natural Earth.</figcaption>
+    <figcaption id="overview-cap">The box marks the area of the map at the top. Coordinates from LexiRumah; coastlines from Natural Earth.</figcaption>
   </figure>
-</section>
-
-<section id="limits">
-  <h2>What still limits the result</h2>
-  <div class="with-margin">
-    <div class="col">
-      <p>Little of this is confirmatory: the pre-registered rule returned “unresolved”, the replications failed against Tetun, and the second round’s rule returned “unresolved” again. Everything else is exploratory and was planned after earlier results had been seen. The cognates are automatic and only partly checked by hand. LexiRumah is a single compilation, although its Idaté, Lakalei and replacement Central Timor lists come from other collectors than Edwards and Grimes. Some sound-change cells rest on a handful of words. The simulated nulls use trees fitted to the same data. The outgroups attach by lexical similarity and could be pulled west by contact across the Savu Sea. Hull (1998) and Carvalho (2001) could not be obtained.</p>
-      <p>What would settle C1: a specialist’s review of the decisive cognate sets on both sides (the packets are ready), Grimes and Edwards’s full field lists for Idaté and Lakalei, Hull’s 1998 percentages, Alcantara’s complete Idaté corpus, and a regular-correspondence analysis of complete wordlists (the short lists here have too few regular correspondences to carry one).</p>
-      <p><b>Use of AI.</b> The code, the analyses, the drafting and the mock referee report were produced with substantial assistance from Claude (Anthropic), an AI system, under the author’s direction. Every analysis, decision and correction is recorded in the public repository so that it can be checked.</p>
-    </div>
-  </div>
+  <h3>What would settle it</h3>
+  <ul class="measure">
+    <li>Historical linguists who know these languages reviewing the 47 decisive word comparisons on both sides.</li>
+    <li>Regular sound correspondences from fuller word lists. Grimes and Edwards’s 494-item lists for Idaté and Lakalei aren’t public.</li>
+    <li>Hull’s 1998 lexical percentages, and Alcantara’s full Idaté corpus.</li>
+    <li>Someone independent rerunning the main analyses.</li>
+  </ul>
+  <p class="measure"><b>Use of AI.</b> The code, the analyses, the drafting and the mock referee report were produced with substantial assistance from Claude (Anthropic), an AI system, under the author’s direction. Every analysis, decision and correction is recorded in the public repository.</p>
 </section>
 
 <section id="paper">
   <h2>The working paper</h2>
   <div class="with-margin">
     <div class="col">
-      <p>The full account, with methods, tables and references, is a Phaistos Labs working paper of twenty-one pages. It is a preprint and has not been peer reviewed.</p>
-      <p class="cite">Crowley, Dennis. 2026. <i>Liabut: a lexical-phylogenetic study of how Timor’s Austronesian languages branch, with a pre-registered core.</i> Phaistos Labs working paper, version 2.1.</p>
-      <p class="paper-link"><a class="button" href="liabut.pdf" target="_blank" rel="noopener">Open the PDF</a> <a class="button ghost" href="{{GH}}/blob/main/paper/liabut.pdf" target="_blank" rel="noopener">PDF on GitHub</a></p>
+      <p>The full account is a Phaistos Labs working paper of twenty pages, with an eight-page supplement of the exploratory analyses. It is a preprint and has not been peer reviewed.</p>
+      <p class="cite">Crowley, Dennis. 2026. <i>Where do Idaté and Lakalei belong? A pre-registered lexical-phylogenetic test of two classifications of Timor’s Austronesian languages.</i> Phaistos Labs working paper, version 3.</p>
+      <p class="paper-link"><a class="button" href="liabut.pdf" target="_blank" rel="noopener">Open the paper</a> <a class="button ghost" href="liabut_supplement.pdf" target="_blank" rel="noopener">Supplement</a> <a class="button ghost" href="{{GH}}" target="_blank" rel="noopener">GitHub</a></p>
     </div>
   </div>
 </section>
@@ -539,15 +794,68 @@ table.checks { min-width: 40rem; }
 
 <footer class="colophon">
   <img src="{{LOGO}}" alt="" width="30" height="33">
-  <p>Phaistos Labs · Project Liabut · version 2.1, 13 October 2026</p>
+  <p>Phaistos Labs · Project Liabut · version 3, 13 October 2026</p>
   <p><a href="https://phaistoslabs.com" target="_blank" rel="noopener">phaistoslabs.com</a> · <a href="{{GH}}" target="_blank" rel="noopener">GitHub repository</a></p>
 </footer>
 
 <div class="tip" id="tip" role="tooltip" hidden></div>
+<script type="application/json" id="liabut-data">{{DATA}}</script>
 <script>
 (function () {
-  var tip = document.getElementById('tip');
-  var current = null;
+  'use strict';
+  var DATA = JSON.parse(document.getElementById('liabut-data').textContent);
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  function $(s, r) { return (r || document).querySelector(s); }
+  function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
+  function el(tag, attrs, kids) {
+    var e = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) {
+      if (k === 'class') e.className = attrs[k];
+      else if (k === 'text') e.textContent = attrs[k];
+      else if (k === 'html') e.innerHTML = attrs[k];
+      else e.setAttribute(k, attrs[k]);
+    });
+    (kids || []).forEach(function (c) { if (c != null) e.append(c); });
+    return e;
+  }
+  function sv(tag, attrs) {
+    var e = document.createElementNS(SVGNS, tag);
+    Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); });
+    return e;
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function pct(v) { return Math.round(v * 100) + '%'; }
+
+  /* ---------- glossary ---------- */
+  var GLOSS = {
+    cognate: 'Words in different languages that come from the same ancestral word, like English <i>father</i> and German <i>Vater</i>.',
+    retention: 'An old word or sound kept from the ancestor. Languages that share one are not shown to be closer kin.',
+    innovation: 'A new word or sound change. Languages that share one may have inherited it from a common ancestor, or borrowed it.',
+    posterior: 'The share of trees sampled by a Bayesian analysis that contain a group. 0.91 means 91% of them.',
+    bootstrap: 'Resampling the word list many times and redrawing the tree. The percentage is how often a group comes back; 95 is the usual bar.',
+    outgroup: 'A language known to sit outside the group being studied, used to find where the tree’s root is.',
+    root: 'The tree’s oldest split. Where it falls decides which groups count as real branches.',
+    bf: 'How much better one hypothesis predicts the data than another, on a log scale. Above 5 usually counts as strong.',
+    linkage: 'Languages that grew out of a dialect network, so neighbours share changes without one common ancestor.',
+    au: 'A test of whether a tree fits the data significantly worse than the best tree.',
+    holm: 'A correction that keeps the chance of any false positive at 5% when many tests are run together.',
+    pmp: 'Proto-Malayo-Polynesian: the reconstructed ancestor of most Austronesian languages outside Taiwan.',
+    prereg: 'Fixing the tests, and the rule for reading them, before seeing any results, and publishing that plan.',
+    ramelaic: 'Hull’s group of Mambae, Kemak, Tokodede and Idalaka (Idaté and Lakalei).',
+    timorbabar: 'Grimes and Edwards’s branch for every Austronesian language of Timor outside Central Timor, defined by *p &gt; h.',
+    rooted: 'A group that excludes every outside language, so it descends from one ancestor inside the tree.'
+  };
+  $$('[data-term]').forEach(function (e) {
+    var g = GLOSS[e.getAttribute('data-term')];
+    if (!g) return;
+    e.setAttribute('data-tip', g);
+    e.classList.add('term');
+    e.tabIndex = 0;
+  });
+
+  /* ---------- tooltip (delegated) ---------- */
+  var tip = $('#tip'), cur = null;
   function place(x, y) {
     var r = tip.getBoundingClientRect();
     var left = Math.min(Math.max(8, x + 14), window.innerWidth - r.width - 8);
@@ -556,30 +864,361 @@ table.checks { min-width: 40rem; }
     tip.style.left = left + 'px';
     tip.style.top = Math.max(8, top) + 'px';
   }
-  function show(el, x, y) {
-    current = el;
-    tip.innerHTML = el.getAttribute('data-tip');
-    tip.hidden = false;
-    place(x, y);
-  }
-  function hide() { current = null; tip.hidden = true; }
-  document.querySelectorAll('[data-tip]').forEach(function (el) {
-    el.addEventListener('pointerenter', function (e) { if (e.pointerType === 'mouse') show(el, e.clientX, e.clientY); });
-    el.addEventListener('pointermove', function (e) { if (current === el && e.pointerType === 'mouse') place(e.clientX, e.clientY); });
-    el.addEventListener('pointerleave', function (e) { if (e.pointerType === 'mouse') hide(); });
-    el.addEventListener('click', function (e) {
-      e.stopPropagation();
-      if (current === el) { hide(); return; }
-      show(el, e.clientX, e.clientY);
-    });
-    el.addEventListener('focus', function () {
-      var r = el.getBoundingClientRect();
-      show(el, r.left + r.width / 2, r.top + r.height / 2);
-    });
-    el.addEventListener('blur', hide);
+  function show(t, x, y) { cur = t; tip.innerHTML = t.getAttribute('data-tip'); tip.hidden = false; place(x, y); }
+  function hide() { cur = null; tip.hidden = true; }
+  document.addEventListener('pointerover', function (e) {
+    if (e.pointerType !== 'mouse') return;
+    var t = e.target.closest ? e.target.closest('[data-tip]') : null;
+    if (t && t !== cur) show(t, e.clientX, e.clientY);
+    else if (!t && cur) hide();
   });
-  document.addEventListener('click', hide);
-  window.addEventListener('scroll', function () { if (current) hide(); }, { passive: true });
+  document.addEventListener('pointermove', function (e) { if (cur && e.pointerType === 'mouse') place(e.clientX, e.clientY); });
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest ? e.target.closest('[data-tip]') : null;
+    if (t && !t.closest('button')) {
+      if (cur === t) { hide(); return; }
+      show(t, e.clientX, e.clientY);
+    } else if (!t) hide();
+  });
+  document.addEventListener('focusin', function (e) {
+    var t = e.target.closest ? e.target.closest('[data-tip]') : null;
+    if (t) { var r = t.getBoundingClientRect(); show(t, r.left + r.width / 2, r.bottom); }
+  });
+  document.addEventListener('focusout', function () { if (cur) hide(); });
+  window.addEventListener('scroll', function () { if (cur) hide(); }, { passive: true });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') hide(); });
+
+  function pressGroup(buttons, active) { buttons.forEach(function (b) { b.setAttribute('aria-pressed', b === active ? 'true' : 'false'); }); }
+  function tablist(container, labels, onSelect) {
+    var btns = labels.map(function (lab, i) {
+      var b = el('button', { type: 'button', role: 'tab', 'aria-selected': i === 0 ? 'true' : 'false', tabindex: i === 0 ? '0' : '-1' });
+      if (typeof lab === 'string') b.textContent = lab; else lab.forEach(function (n) { b.append(n); });
+      b.addEventListener('click', function () { select(i, false); });
+      container.append(b);
+      return b;
+    });
+    function select(i, focus) {
+      btns.forEach(function (b, j) { b.setAttribute('aria-selected', j === i ? 'true' : 'false'); b.tabIndex = j === i ? 0 : -1; });
+      if (focus) btns[i].focus();
+      onSelect(i);
+    }
+    container.addEventListener('keydown', function (e) {
+      var i = btns.indexOf(document.activeElement);
+      if (i < 0) return;
+      if (e.key === 'ArrowRight') { e.preventDefault(); select((i + 1) % btns.length, true); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); select((i - 1 + btns.length) % btns.length, true); }
+    });
+    select(0, false);
+  }
+
+  /* ---------- the disagreement: two trees ---------- */
+  (function () {
+    var host = $('#sw-svg');
+    if (!host) return;
+    var GRP = { Mambae: 'ct', Kemak: 'ct', Tokodede: 'ct', Welaun: 'ct', Lakalei: 'li', 'Idaté': 'li', Tetun: 'et', Habu: 'et', Kawaimina: 'et', Galoli: 'oth' };
+    var MOVES = { Lakalei: 1, 'Idaté': 1, Welaun: 1 };
+    var T = {
+      hull: { k: [{ n: 'Ramelaic', k: ['Mambae', 'Kemak', 'Tokodede', { k: ['Lakalei', 'Idaté'] }] },
+                  { n: 'Fabronic', k: [{ k: ['Tetun', 'Welaun'] }, 'Habu', 'Kawaimina', 'Galoli'] }] },
+      ge: { k: [{ n: 'Central Timor', note: '*ŋ > g; keeps *p', k: ['Mambae', 'Kemak', 'Tokodede', 'Welaun'] },
+                { n: 'Timor-Babar', note: '*p > h', k: [{ k: ['Lakalei', 'Idaté'] },
+                  { n: 'Eastern Timor', k: [{ k: ['Tetun', 'Habu'] }, 'Kawaimina'] }, 'Galoli'] }] }
+    };
+    var CAP = {
+      hull: '<b>Hull (2001, 2003).</b> Lakalei and Idaté, his Idalaka, sit with Mambae, Kemak and Tokodede in Ramelaic. The other languages form Fabronic. He first treated Welaun as a dialect of Tetun (1998), a view he withdrew in 2003.',
+      ge: '<b>Grimes and Edwards (2026).</b> Central Timor (Mambae, Kemak, Tokodede, Welaun) is a branch of its own, defined by *ŋ becoming g and by keeping *p. Every other language, Lakalei and Idaté included, is in Timor-Babar, defined by the loss of *p. Branching inside Timor-Babar is simplified here.'
+    };
+    var narrow = host.clientWidth < 520;
+    var W = narrow ? 430 : 560, row = 29, top = 24, x0 = narrow ? 10 : 14, xl = narrow ? 150 : 248, xb = narrow ? [240, 334] : [352, 456];
+    function named(o) { return o.kids && o.kids.some(function (k) { return k.kids && (k.n || named(k)); }); }
+    function layout(tree) {
+      var leaves = [], nodes = [];
+      function walk(n, d) {
+        if (typeof n === 'string') { var lf = { leaf: n, d: d, y: top + leaves.length * row, x: xl }; leaves.push(lf); return lf; }
+        var o = { n: n.n, note: n.note, d: d, kids: n.k.map(function (c) { return walk(c, d + 1); }) };
+        o.y = (o.kids[0].y + o.kids[o.kids.length - 1].y) / 2;
+        o.ymin = Math.min.apply(null, o.kids.map(function (k) { return k.ymin != null ? k.ymin : k.y; }));
+        o.ymax = Math.max.apply(null, o.kids.map(function (k) { return k.ymax != null ? k.ymax : k.y; }));
+        nodes.push(o);
+        return o;
+      }
+      var root = walk(tree, 0);
+      var maxd = Math.max.apply(null, leaves.map(function (l) { return l.d; }));
+      var dx = (xl - x0) / maxd;
+      nodes.forEach(function (o) { o.x = x0 + o.d * dx; });
+      return { root: root, leaves: leaves, nodes: nodes };
+    }
+    var H = top + 9 * row + 24;
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': 'Family tree of ten Timor languages' });
+    var layers = {};
+    Object.keys(T).forEach(function (k) {
+      var L = layout(T[k]);
+      var g = sv('g', { class: 'sw-layer' });
+      L.nodes.forEach(function (o) {
+        g.append(sv('path', { class: 'sw-e', d: 'M' + o.x + ',' + o.kids[0].y + 'V' + o.kids[o.kids.length - 1].y }));
+        o.kids.forEach(function (c) { g.append(sv('path', { class: 'sw-e', d: 'M' + o.x + ',' + c.y + 'H' + c.x })); });
+      });
+      g.append(sv('path', { class: 'sw-e', d: 'M' + (x0 - 10) + ',' + L.root.y + 'H' + x0 }));
+      L.nodes.filter(function (o) { return o.n; }).forEach(function (o) {
+        var x = xb[named(o) ? 1 : 0], y1 = o.ymin - 10, y2 = o.ymax + 10, ym = (o.ymin + o.ymax) / 2;
+        g.append(sv('path', { class: 'sw-br', d: 'M' + (x - 5) + ',' + y1 + 'H' + x + 'V' + y2 + 'H' + (x - 5) }));
+        var t = sv('text', { class: 'sw-gname', x: x + 8, y: o.note ? ym - 2 : ym + 5 }); t.textContent = o.n; g.append(t);
+        if (o.note) { var t2 = sv('text', { class: 'sw-gnote', x: x + 8, y: ym + 15 }); t2.textContent = o.note; g.append(t2); }
+      });
+      svg.append(g);
+      layers[k] = { L: L, g: g };
+    });
+    var leafG = {};
+    Object.keys(GRP).forEach(function (name) {
+      var g = sv('g', { class: 'sw-leaf' + (MOVES[name] ? ' moves' : '') });
+      g.append(sv('circle', { cx: xl, cy: 0, r: 5.5, class: 'dot-' + GRP[name] }));
+      var t = sv('text', { x: xl + 11, y: 5 }); t.textContent = name; g.append(t);
+      svg.append(g);
+      leafG[name] = g;
+    });
+    var bh = $('#sw-hull'), bg = $('#sw-ge'), cap = $('#sw-cap');
+    function view(k) {
+      Object.keys(layers).forEach(function (j) { layers[j].g.style.opacity = j === k ? '1' : '0'; });
+      layers[k].L.leaves.forEach(function (l) { leafG[l.leaf].style.transform = 'translate(0px, ' + l.y + 'px)'; });
+      cap.innerHTML = CAP[k];
+      pressGroup([bh, bg], k === 'hull' ? bh : bg);
+    }
+    view('hull');
+    host.append(svg);
+    bh.addEventListener('click', function () { view('hull'); });
+    bg.addEventListener('click', function () { view('ge'); });
+  })();
+
+  /* ---------- two kinds of clue: word explorer ---------- */
+  (function () {
+    var host = $('#wx');
+    if (!host || !DATA.words) return;
+    var GN = { CT: ['Central Timor', 'ct'], LI: ['Lakalei-Idate', 'li'], ET: ['Eastern Timor', 'et'], OUT: ['Flores, outside Timor', 'oth'] };
+    var tabs = el('div', { class: 'tabs', role: 'tablist', 'aria-label': 'Example words' });
+    var panel = el('div', { class: 'panel', role: 'tabpanel', id: 'wx-panel' });
+    host.append(tabs, panel);
+    tablist(tabs, DATA.words.map(function (w) {
+      return [document.createTextNode('‘' + w.gloss + '’'), el('span', { class: 'pmp', text: w.pmp })];
+    }), function (i) {
+      var w = DATA.words[i];
+      panel.innerHTML = '';
+      panel.append(el('div', { class: 'wx-head' }, [
+        el('span', { class: 'wx-pmp', html: '<i>' + esc(w.pmp) + '</i> ‘' + esc(w.gloss) + '’' }),
+        el('span', { class: 'wx-look', text: w.look })]));
+      var cols = el('div', { class: 'wx-cols' });
+      w.cols.forEach(function (c) {
+        var g = GN[c.group];
+        var ul = el('ul');
+        c.items.forEach(function (it) {
+          ul.append(el('li', { class: 'w' }, [
+            el('span', { class: 'w-lang', text: it.lang }),
+            el('span', { class: 'w-form', html: it.form, 'data-tip': 'LexiRumah list <b>' + esc(it.src) + '</b><br><span class="muted">' + esc(it.lang) + ' ‘' + esc(w.gloss) + '’</span>' }),
+            el('span', { class: 'chip k-' + it.kind, text: it.chip })]));
+        });
+        cols.append(el('div', { class: 'wx-col' }, [el('h4', {}, [el('span', { class: 'sw ' + g[1] }), document.createTextNode(g[0])]), ul]));
+      });
+      panel.append(cols);
+      panel.append(el('div', { class: 'take' }, [el('span', { class: 'lean ' + w.lean, text: w.lean_text }), el('p', { text: w.take })]));
+    });
+  })();
+
+  /* ---------- weigh the evidence ---------- */
+  (function () {
+    var strip = $('#ev-strip'), list = $('#ev-list'), filt = $('#ev-filter');
+    if (!strip) return;
+    var CATS = { all: 'All', trees: 'Family trees', words: 'Shared words', sounds: 'Sound changes', contact: 'Contact models' };
+    var LAB = { '-2': 'Clearly Central Timor', '-1': 'Leans Central Timor', '0': 'Neither way', '1': 'Leans Timor-Babar', '2': 'Clearly Timor-Babar' };
+    var EV = [
+      ['trees', -1, 'The Bayesian family tree', 'Lakalei-Idate sits next to Central Timor in 91% of sampled trees, and never with the eastern languages.', 'The same analysis gives 0.00 to Timor-Babar, to Lakalei-Idate with the eastern languages, and to Hull’s Fabronic. Without a root, though, it can’t tell “next to Central Timor” from “first branch of Timor-Babar”.', 'Step 7; Supplement S2'],
+      ['trees', -1, 'Where the root falls', 'With seven outside languages as reference points, the root never falls on the Central Timor stem, where Grimes and Edwards’s tree needs it.', 'It falls on the Flores or Rote-Meto branch in every analysis, under a relaxed clock, without any one outgroup, and with missing words counted as absent. The outside languages attach by shared words too, so contact across the Savu Sea could pull them west.', 'E40, E41, E57'],
+      ['trees', -2, 'A head-to-head comparison', 'Compared directly, the vocabulary favours Lakalei-Idate with Central Timor by a log Bayes factor of +11.8.', 'Above +5 usually counts as strong. But it compares the placements under a model that treats every shared word as inherited, so contact could produce the same result.', 'E47'],
+      ['trees', -1, 'Holding the pair together', 'Kept as one unit, Lakalei-Idate joins Central Timor in 70% of bootstrap trees on the main lists and 98% on independent lists.', 'The rule fixed in advance needed 95% on both. Lakalei on its own is Central Timor-like every time.', 'E44'],
+      ['trees', 1, 'Idaté on its own', 'Taken alone, Idaté leans towards Habu, its neighbour 5 to 11 km away, in 38% of bootstrap trees.', 'On the independent lists it is 13%. Idaté shares more stable new words with Habu (13) than with Mambae, Kemak and Tokodede (10); Lakalei the reverse (13 against 6).', 'E44'],
+      ['trees', 0, 'Taking out possible loans', 'Without Tetun, support for Central Timor rises to 94%. Without 132 word sets shared with Papuan neighbours, it falls to 46%.', 'So Tetun loans don’t hold the pair together, but shared contact with Papuan languages such as Bunak might.', 'E48'],
+      ['trees', 0, 'Topology tests', 'After correcting for the eleven tests run, no test rejects either placement.', 'Uncorrected, a rooted Timor-Babar gets p = 0.011 and 0.022. Corrected, the smallest adjusted p is 0.12.', 'E6, E36, E45'],
+      ['trees', 0, 'A split network', 'Lakalei-Idate groups with Central Timor in 47% of resampled networks, and Idaté with Habu in 45%.', 'A split network shows conflicting groupings at once. Neither reaches half, so the reading fixed in advance is “unclear”. The near balance is what a dialect chain would leave, though a short branch would look the same.', 'E55'],
+      ['trees', -1, 'Coding words by their parts', 'Treating each part of a compound as its own word, the trees favour Mambae, Kemak and Tokodede more sharply (65%).', 'This fixes words the automatic coding had split, such as the two ‘wife’ sets.', 'E51'],
+      ['words', 1, 'Shared new words, cleaned', 'Once old words mistaken for new ones are removed, Lakalei-Idate shares more new basic words with Habu (12) than with Mambae, Kemak and Tokodede (10).', 'Against Tetun and Kawaimina, Central Timor still comes out ahead. Words also found in Flores, Rote-Meto or Wetar are left out as probably old.', 'E46'],
+      ['words', 1, 'Shared new words, by word parts', 'Coded by word parts, Lakalei-Idate shares more new words with Tetun (18 against 10) and slightly more with Habu (14 against 13).', 'These counts haven’t been checked by hand, and some may be Tetun loans hidden inside compounds.', 'E51'],
+      ['sounds', 2, 'The loss of *p', 'If a lost *p can’t come back, it must be lost 6 separate times on the vocabulary tree and twice on Grimes and Edwards’s.', 'Lakalei-Idate keeps *p in 0 of 6 matched words; Mambae, Kemak and Tokodede in 54 of 55. If restoring a sound costs no more than losing it, the trees tie. As soon as it costs twice as much, Grimes and Edwards’s tree wins.', 'E2, E42, E56'],
+      ['sounds', 0, 'All 36 sound changes', 'Scored on every sound change in Grimes and Edwards’s tables, their tree and the vocabulary tree tie.', 'Under no assumption about reversibility is the vocabulary tree the cheapest. A tree built from sound changes alone recovers Lakalei-Idate as a pair, but neither of its placements.', 'E53, E56'],
+      ['contact', 0, 'Borrowing simulations', 'Simulated histories with borrowing from both sides can’t tell the placements apart.', 'The classifier splits its votes 0.45 to 0.55 and gets 36% of its own test cases wrong.', 'E32'],
+      ['contact', 1, 'A contact-aware tree', 'Allowed five borrowing events, the model puts Lakalei-Idate with Tetun and Habu and explains the Central Timor likeness through borrowing.', 'It uses all five in every sample, some between unlikely partners, so the model is strained. It shows only that a few borrowing events can explain the likeness as well as descent can.', 'E39']
+    ];
+    function cls(v) { return v < 0 ? 'ct' : v > 0 ? 'east' : 'none'; }
+    var cols = [-2, -1, 0, 1, 2].map(function (v) { var c = el('div', { class: 'ev-col' + (v === 0 ? ' mid' : '') }); strip.append(c); return c; });
+    var dots = [], items = [];
+    EV.forEach(function (e, i) {
+      var n = String(i + 1);
+      var d = el('button', { type: 'button', class: 'ev-dot ' + cls(e[1]), text: n,
+        'data-tip': '<b>' + n + '. ' + esc(e[2]) + '</b><br><span class="muted">' + LAB[String(e[1])] + '</span>',
+        'aria-label': n + '. ' + e[2] + ': ' + LAB[String(e[1])] });
+      d.addEventListener('click', function () { open(i, true); });
+      cols[e[1] + 2].append(d);
+      dots.push(d);
+      var meter = el('span', { class: 'meter', 'aria-hidden': 'true' });
+      for (var k = -2; k <= 2; k++) meter.append(el('i', { class: k === e[1] ? 'on ' + cls(e[1]) : '' }));
+      var more = el('div', { class: 'ev-more', id: 'ev-more-' + i }, [el('p', { text: e[4] }), el('p', { class: 'ev-refs', text: 'Analyses: ' + e[5] + ' · ' + LAB[String(e[1])] })]);
+      more.hidden = true;
+      var btn = el('button', { type: 'button', class: 'ev-btn', 'aria-expanded': 'false', 'aria-controls': 'ev-more-' + i }, [
+        el('span', { class: 'ev-num ' + cls(e[1]), text: n }),
+        el('span', {}, [el('span', { class: 'ev-cat', text: CATS[e[0]] }), el('span', { class: 'ev-title', text: e[2] }), el('span', { class: 'ev-short', text: e[3] })]),
+        meter, el('span', { class: 'chev', 'aria-hidden': 'true' })]);
+      btn.addEventListener('click', function () { toggle(i); });
+      var li = el('li', { class: 'ev-item' }, [btn, more]);
+      list.append(li);
+      items.push({ li: li, btn: btn, more: more });
+    });
+    function toggle(i) { var it = items[i], o = it.btn.getAttribute('aria-expanded') === 'true'; it.btn.setAttribute('aria-expanded', o ? 'false' : 'true'); it.more.hidden = o; }
+    function open(i, scroll) {
+      var it = items[i];
+      it.btn.setAttribute('aria-expanded', 'true'); it.more.hidden = false;
+      if (scroll) { it.li.scrollIntoView({ block: 'center', behavior: reduce ? 'auto' : 'smooth' }); it.btn.focus({ preventScroll: true }); }
+    }
+    var fb = Object.keys(CATS).map(function (c) {
+      var b = el('button', { type: 'button', 'aria-pressed': c === 'all' ? 'true' : 'false', text: CATS[c] });
+      b.addEventListener('click', function () {
+        pressGroup(fb, b);
+        EV.forEach(function (e, i) { var on = c === 'all' || e[0] === c; dots[i].hidden = !on; items[i].li.hidden = !on; });
+      });
+      filt.append(b);
+      return b;
+    });
+  })();
+
+  /* ---------- vocabulary tree ---------- */
+  (function () {
+    var svg = $('#vt');
+    if (!svg) return;
+    var bge = $('#vt-ge'), bhull = $('#vt-hull'), leg = $('#vt-legend');
+    var LEG = {
+      ge: [['ct', 'Central Timor'], ['li', 'Lakalei-Idate'], ['et', 'Eastern Timor'], ['oth', 'Other Timor-Babar'], ['none', 'Outgroups']],
+      hull: [['ct', 'Ramelaic'], ['et', 'Fabronic'], ['oth', 'Not classified by Hull here'], ['none', 'Outgroups']]
+    };
+    function mode(m) {
+      svg.classList.toggle('by-ge', m === 'ge');
+      svg.classList.toggle('by-hull', m === 'hull');
+      pressGroup([bge, bhull], m === 'ge' ? bge : bhull);
+      leg.innerHTML = '';
+      LEG[m].forEach(function (x) { leg.append(el('li', {}, [el('span', { class: 'sw ' + x[0] }), document.createTextNode(x[1])])); });
+    }
+    bge.addEventListener('click', function () { mode('ge'); });
+    bhull.addEventListener('click', function () { mode('hull'); });
+    mode('ge');
+    function hl(n, on) { (n.getAttribute('data-desc') || '').split(' ').forEach(function (id) { var e = id && document.getElementById(id); if (e) e.classList.toggle('on', on); }); }
+    svg.addEventListener('pointerover', function (e) { var n = e.target.closest('.vt-n'); if (n) hl(n, true); });
+    svg.addEventListener('pointerout', function (e) { var n = e.target.closest('.vt-n'); if (n) hl(n, false); });
+    svg.addEventListener('focusin', function (e) { var n = e.target.closest('.vt-n'); if (n) hl(n, true); });
+    svg.addEventListener('focusout', function (e) { var n = e.target.closest('.vt-n'); if (n) hl(n, false); });
+  })();
+
+  /* ---------- root chart ---------- */
+  (function () {
+    var host = $('#rc');
+    if (!host || !DATA.root) return;
+    var bm = $('#rc-main'), be = $('#rc-e57');
+    function f2(v) { return v.toFixed(2); }
+    function seg(cls, v, tipHtml) {
+      var s = el('span', { class: 'rc-seg ' + cls, style: 'flex:' + v + ' 1 0', tabindex: '0', 'data-tip': tipHtml });
+      if (v >= 0.09) s.textContent = f2(v);
+      return s;
+    }
+    function render(group) {
+      host.innerHTML = '';
+      host.append(el('div', { class: 'rc-row head', 'aria-hidden': 'true' }, [el('span', { class: 'rc-h1', text: 'Analysis' }), el('span', { text: 'Where the root falls (share of trees)' }),
+        el('span', { class: 'rc-zero', html: '<span class="desk">On the Central Timor stem</span><span class="mob">CT stem</span>' }),
+        el('span', { class: 'rc-num', html: '<span class="desk">Pair a rooted group</span><span class="mob">Rooted pair</span>' })]));
+      DATA.root.filter(function (r) { return r.group === group; }).forEach(function (r) {
+        var bar = el('div', { class: 'rc-bar', role: 'img', 'aria-label': r.label + ': Flores ' + f2(r.flores) + ', Rote-Meto ' + f2(r.rmh) + ', elsewhere ' + f2(r.other) + ', Central Timor stem 0.00' });
+        if (r.flores > 0) bar.append(seg('fl', r.flores, '<b>' + f2(r.flores) + '</b> root on the Flores branch'));
+        if (r.rmh > 0) bar.append(seg('rm', r.rmh, '<b>' + f2(r.rmh) + '</b> root on Rote-Meto + Helong'));
+        if (r.other > 0.004) bar.append(seg('ot', r.other, '<b>' + f2(r.other) + '</b> elsewhere' + (r.kl > 0.01 ? ', ' + f2(r.kl) + ' of it on Kisar-Luang-Tela-Masbuar' : '')));
+        host.append(el('div', { class: 'rc-row' }, [el('span', { class: 'rc-label', text: r.label }), bar,
+          el('span', { class: 'rc-zero', text: f2(r.ct) }), el('span', { class: 'rc-num', text: f2(r.clade), 'data-tip': 'Lakalei-Idate + Central Timor is a rooted group in <b>' + pct(r.clade) + '</b> of trees' })]));
+      });
+      pressGroup([bm, be], group === 'main' ? bm : be);
+    }
+    bm.addEventListener('click', function () { render('main'); });
+    be.addEventListener('click', function () { render('e57'); });
+    render('main');
+  })();
+
+  /* ---------- shared words: triplet steps ---------- */
+  (function () {
+    var tabs = $('#tc-tabs'), host = $('#tc'), key = $('#tc-key');
+    if (!tabs || !DATA.triplets) return;
+    var XS = ['Tetun', 'Habu', 'Kawaimina'];
+    tablist(tabs, XS.map(function (x) { return 'Against ' + x; }), function (i) {
+      var X = XS[i], rows = DATA.triplets[X];
+      var max = Math.max.apply(null, rows.map(function (r) { return Math.max.apply(null, r.v); }));
+      var names = ['Lakalei-Idate + Mambae, Kemak, Tokodede', 'Lakalei-Idate + ' + X, 'Mambae, Kemak, Tokodede + ' + X];
+      key.innerHTML = '';
+      names.forEach(function (n, k) { key.append(el('li', {}, [el('span', { class: 'k s' + k }), document.createTextNode(n)])); });
+      host.innerHTML = '';
+      rows.forEach(function (r) {
+        var bars = el('div', { class: 'tc-bars' });
+        r.v.forEach(function (v, k) {
+          bars.append(el('div', { class: 'tc-bar', 'data-tip': '<b>' + v + '</b> concepts<br><span class="muted">' + esc(names[k]) + '</span>', tabindex: '0' }, [
+            el('div', { class: 'tc-track' }, [el('div', { class: 'tc-fill s' + k, style: 'width:' + (100 * v / max).toFixed(1) + '%' })]),
+            el('span', { class: 'tc-val', text: String(v) })]));
+        });
+        var a = r.v[0], b = r.v[1];
+        var vd = a > b ? ['ct', 'Central Timor ahead'] : b > a ? ['east', X + ' ahead'] : ['tie', 'Tie'];
+        host.append(el('div', { class: 'tc-row' }, [el('div', { class: 'tc-label' }, [el('b', { text: r.label }), el('span', { text: r.note })]), bars,
+          el('span', { class: 'verdict ' + vd[0], text: vd[1] })]));
+      });
+    });
+  })();
+
+  /* ---------- reversibility ---------- */
+  (function () {
+    var host = $('#rv'), slider = $('#rv-slider'), read = $('#rv-read'), rlab = $('#rv-r');
+    if (!host || !DATA.rev) return;
+    var R = DATA.rev.ratios, S = DATA.rev.sets, set = 'p';
+    var NAMES = { H: 'Vocabulary tree: Lakalei-Idate beside Central Timor', G: 'Lakalei-Idate inside Eastern Timor', GE: 'Grimes and Edwards’s split' };
+    var SETN = { p: '*p lenition', e42: 'the eleven changes', e53: 'all 36 changes' };
+    function fmt(v) { return Math.abs(v - Math.round(v)) < 1e-9 ? String(Math.round(v)) : v.toFixed(2).replace(/0$/, ''); }
+    function rtext(r) { return r >= 1000 ? '1,000×' : (r < 1 ? r : String(r)) + '×'; }
+    function draw() {
+      var i = +slider.value, r = R[i], costs = S[set][i];
+      var maxExtra = 0;
+      S[set].forEach(function (c) { var m = Math.min(c.H, c.G, c.GE); ['H', 'G', 'GE'].forEach(function (k) { maxExtra = Math.max(maxExtra, c[k] - m); }); });
+      var min = Math.min(costs.H, costs.G, costs.GE);
+      var best = ['H', 'G', 'GE'].filter(function (k) { return Math.abs(costs[k] - min) < 1e-9; });
+      rlab.textContent = rtext(r);
+      slider.setAttribute('aria-valuetext', rtext(r));
+      host.innerHTML = '';
+      ['H', 'G', 'GE'].forEach(function (k) {
+        var extra = costs[k] - min, isBest = best.indexOf(k) >= 0;
+        host.append(el('div', { class: 'rv-row' + (isBest ? ' best' : '') }, [el('span', { class: 'rv-name', text: NAMES[k] }),
+          el('div', { class: 'rv-track' }, [el('div', { class: 'rv-fill', style: 'width:' + (maxExtra ? (100 * extra / maxExtra) : 0).toFixed(1) + '%' })]),
+          el('span', { class: 'rv-val', text: fmt(costs[k]) + ' steps' + (isBest ? ', fewest' : ', ' + fmt(extra) + ' more') })]));
+      });
+      var who = best.length === 3 ? 'all three trees tie' : best.length === 2 ? best.map(function (k) { return NAMES[k].split(':')[0]; }).join(' and ') + ' tie for fewest steps'
+        : NAMES[best[0]].split(':')[0] + ' needs the fewest steps';
+      read.textContent = 'For ' + SETN[set] + ', with restoring a lost sound ' + (r >= 1000 ? 'effectively impossible' : rtext(r) + ' as costly as losing it') + ': ' + who + '. The vocabulary tree is never the only cheapest.';
+    }
+    slider.addEventListener('input', draw);
+    var sb = $$('#rv-set button');
+    sb.forEach(function (b) { b.addEventListener('click', function () { set = b.getAttribute('data-set'); pressGroup(sb, b); draw(); }); });
+    draw();
+  })();
+
+  /* ---------- section nav ---------- */
+  (function () {
+    var links = $$('.toc a');
+    if (!('IntersectionObserver' in window) || !links.length) return;
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var io = new IntersectionObserver(function (ents) {
+      ents.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        links.forEach(function (a) { a.removeAttribute('aria-current'); });
+        var a = map[en.target.id];
+        if (a) { a.setAttribute('aria-current', 'true'); var p = a.parentNode; if (p.scrollWidth > p.clientWidth) p.scrollTo({ left: a.offsetLeft - 16, behavior: reduce ? 'auto' : 'smooth' }); }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    Object.keys(map).forEach(function (id) { var s = document.getElementById(id); if (s) io.observe(s); });
+  })();
 })();
 </script>
