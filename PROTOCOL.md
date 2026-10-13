@@ -710,3 +710,23 @@ Written and pushed before any E51–E55 statistic was computed.
 
 - *Reported.* Weight in the observed network, and the share of bootstrap networks with nonzero weight, for the splits Lakalei-Idate, Lakalei-Idate + Central Timor, Lakalei-Idate + Nuclear Central Timor, Lakalei + Nuclear Central Timor, Lakalei-Idate + Habu, Idaté + Habu, Lakalei-Idate + Eastern Timor, Central Timor and Nuclear Central Timor.
 - *Reading.* A linkage signature: a Central Timor-side split containing Lakalei-Idate or Lakalei, and an eastern-side split containing Lakalei-Idate or Idaté, both present in at least 50% of bootstrap networks. A subgroup signature: one side present in at least 50% and the other in at most 10%. Anything else is unclear.
+
+### Addendum 14 (2026-10-13, post hoc): two sensitivity analyses requested in review
+
+Written and pushed before any E56 or E57 statistic was computed. A review of version 2 asked for fewer new analyses and a clearer account of the existing ones, with two targeted exceptions: sensitivity to assumptions about the reversibility of sound change, and sensitivity of the root to the choice of outgroups and the treatment of missing data. Nothing else is added.
+
+- **Already seen.** All results through E55.
+- **Not yet seen.** Any E56 or E57 statistic.
+- **Status.** Exploratory robustness checks. The Addendum 12 verdict stands whatever they show.
+
+**E56: reversibility of sound change.** Sankoff parsimony on the trees H, G and GE of E42, rooted on the Flores pair, with the root state fixed at 0 (the Proto-Malayo-Polynesian state). A change (0 → 1) costs 1; a restoration (1 → 0) costs r, for r = 0.1, 0.25, 0.5, 1, 2, 3, 5, 10 and 1,000. r = 1 is Fitch with a fixed root, r = 1,000 approximates Camin-Sokal, and small r approaches a single origin with cheap restorations (Dollo-like). Applied to \*p lenition alone, the eleven E42 characters and the 36 E53 characters.
+
+- *Reported.* Cost on each tree at each r, and the range of r over which each tree is cheapest.
+
+**E57: the root under other outgroups and missing-data treatments.** The E40 joint coding (D1 primary screening; seven outgroups), IQ-TREE GTR2+FO+G4 with 1,000 UFBoot, each tree reduced to the 24 lects and rooted on Tagalog (Buginese where Tagalog is absent), as in E40.
+
+- *Variants.* (a) Each outgroup left out in turn (seven runs; the PMP run is "without the reconstruction"). (b) All seven outgroups, missing data coded as absence: a lect without a concept gets 0 for every set of that concept. (c) All seven outgroups, only concepts attested in all seven.
+- *Reported.* Root position shares; Lakalei-Idate + Central Timor and Timor-Babar as rooted clades.
+- *Reading.* E40's finding that the root does not fall on the Central Timor stem is robust if that share stays below 0.05 in every variant.
+
+**Documentation, no new statistics.** An audit trail with a reason code for every form or set excluded or reclassified (`derived/audit/`); a table of the decisive cognate comparisons on both sides; a table of every \*p reflex in the expert and automatic atlases for the focal lects, with its phonological environment.
