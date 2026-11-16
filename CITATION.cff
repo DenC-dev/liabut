@@ -6,8 +6,8 @@ authors:
   - family-names: Crowley
     given-names: Dennis
     affiliation: Phaistos Labs
-version: "3.0.1"
-date-released: 2026-10-13
+version: "4.0.0"
+date-released: 2026-11-16
 license: MIT
 repository-code: "https://github.com/DenC-dev/liabut"
 keywords:

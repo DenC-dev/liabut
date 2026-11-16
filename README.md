@@ -6,7 +6,7 @@
 
 Dennis Crowley, Phaistos Labs.
 
-- **Working paper:** [`paper/liabut.pdf`](paper/liabut.pdf), version 3, a Phaistos Labs preprint (not peer reviewed), with a [supplement](paper/liabut_supplement.pdf) of the exploratory analyses. Source in [`paper/`](paper); rebuild with `bash paper/build.sh`.
+- **Working paper:** [`paper/liabut.pdf`](paper/liabut.pdf), version 4 (November 16, 2026), a Phaistos Labs preprint (not peer reviewed). The supplement of exploratory analyses is included as an appendix and is also on its own as [`paper/liabut_supplement.pdf`](paper/liabut_supplement.pdf). LaTeX source in [`paper/latex/`](paper/latex), with the same text in Markdown in `paper/liabut.md` and `paper/supplement.md`; rebuild with `bash paper/build.sh`.
 - **Reproduce:** `bash reproduce.sh principal` rebuilds every estimate in the paper's main text (listed with its source in [`results/principal_estimates.csv`](results/principal_estimates.csv)); `bash reproduce.sh full` reruns everything. See [`REPLICATION.md`](REPLICATION.md).
 - **Documentation:** [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) (lects, characters, cognate assignments, exclusion codes), [`PROVENANCE.md`](PROVENANCE.md) (sources, versions, permissions), [`derived/audit/`](derived/audit) (exclusion trail, decisive comparisons, \*p reflexes), [`SPECIALIST_REVIEW.md`](SPECIALIST_REVIEW.md) (what a specialist reviewer is asked to check).
 - **Website:** [`docs/index.html`](docs/index.html), for GitHub Pages at <https://denc-dev.github.io/liabut/>.
@@ -176,7 +176,7 @@ python3 12_decide.py              # step 8
 python3 13_figures.py
 ```
 
-The paper and website rebuild from the results with `bash paper/build.sh` (pandoc 3 and XeLaTeX) and `python3 paper/make_site.py`.
+The paper and website rebuild with `bash paper/build.sh` (pdfLaTeX, from `paper/latex/liabut.tex`) and `python3 paper/make_site.py`.
 
 ## Data and licences
 
