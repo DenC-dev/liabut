@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Build the Liabut working paper: figures, static Alegreya instances, then pandoc + XeLaTeX.
-#   bash paper/build.sh        (needs python3 with matplotlib, shapely, biopython, fonttools; pandoc >= 3; xelatex)
+# Build the Liabut paper: figures, static Alegreya instances (website), then pdfLaTeX.
+#   bash paper/build.sh        (needs python3 with matplotlib, shapely, biopython, fonttools; pdflatex; qpdf)
 set -euo pipefail
-export LC_ALL=C.UTF-8   # pandoc reads -V values in the locale encoding; without UTF-8 the PDF title metadata is garbled
+export LC_ALL=C.UTF-8   # the scripts read and write UTF-8 (Idaté, Waima’a)
 # Reproducible builds: the date of this version stands in for "now" in the PDF and SVG metadata, so rebuilding
-# unchanged sources gives identical files. Change it with the version line in title.tex.
-export SOURCE_DATE_EPOCH="${SOURCE_DATE_EPOCH:-1791849600}"   # 13 October 2026
+# unchanged sources gives identical files. Change it with each new version of the paper.
+export SOURCE_DATE_EPOCH="${SOURCE_DATE_EPOCH:-1794787200}"   # 16 November 2026
 export FORCE_SOURCE_DATE=1
 cd "$(dirname "$0")"
 python3 make_figures.py
@@ -14,18 +14,11 @@ for w in 400 500; do
   python3 -m fontTools.varLib.instancer fonts/Alegreya-Variable.ttf "wght=$w" -o "build/fonts/Alegreya-$w.ttf" -q
   python3 -m fontTools.varLib.instancer fonts/Alegreya-Italic-Variable.ttf "wght=$w" -o "build/fonts/Alegreya-Italic-$w.ttf" -q
 done
-pandoc liabut.md -o liabut.pdf --pdf-engine=xelatex --number-sections \
-  -H phaistos.tex -B title.tex --lua-filter=floattables.lua \
-  -V documentclass=article -V fontsize=11pt -V papersize=a4 -V fontfamily=fontspec \
-  -V geometry:top=26mm -V geometry:bottom=28mm -V geometry:left=30mm -V geometry:right=30mm \
-  -V pagetitle="Where do Idaté and Lakalei belong?" \
-  -V title-meta="Where do Idaté and Lakalei belong? A pre-registered lexical-phylogenetic test of two classifications of Timor’s Austronesian languages" \
-  -V author-meta="Dennis Crowley" -V lang=en-GB
-pandoc supplement.md -o liabut_supplement.pdf --pdf-engine=xelatex --number-sections \
-  -H phaistos.tex -H supp_numbering.tex -B supp_title.tex --lua-filter=floattables.lua \
-  -V documentclass=article -V fontsize=11pt -V papersize=a4 -V fontfamily=fontspec \
-  -V geometry:top=26mm -V geometry:bottom=28mm -V geometry:left=30mm -V geometry:right=30mm \
-  -V pagetitle="Where do Idaté and Lakalei belong? Supplement" \
-  -V title-meta="Where do Idaté and Lakalei belong? Supplement: the exploratory analyses" \
-  -V author-meta="Dennis Crowley" -V lang=en-GB
+# The paper: pdfLaTeX from latex/liabut.tex (supplement included as an appendix). liabut_supplement.pdf is that
+# appendix on its own, for the website. The figures in latex/figures/ are Latin Modern versions of the ones above.
+rm -rf build/latex && mkdir -p build/latex && cp -r latex/liabut.tex latex/figures build/latex/
+( cd build/latex && for i in 1 2 3; do pdflatex -interaction=nonstopmode -halt-on-error liabut.tex >/dev/null; done )
+cp build/latex/liabut.pdf liabut.pdf
+first=$(sed -n 's/^\\newlabel{supplement}{{[^}]*}{\([0-9]*\)}.*/\1/p' build/latex/liabut.aux)
+qpdf --deterministic-id liabut.pdf --pages . "$first"-z -- liabut_supplement.pdf
 echo "wrote paper/liabut.pdf and paper/liabut_supplement.pdf"

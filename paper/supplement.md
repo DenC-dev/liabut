@@ -5,13 +5,13 @@ The main text reports the pre-registered tests, the replications, the primary an
 | Analyses | Addendum | Class | What they do | Reported |
 |------|----|------|------------------|------|
 | Steps 1 to 8 | Protocol | Pre-registered | Distance trees, the gate, Bayesian trees, the decision | Main text |
-| E1 to E6 | 2, 3 (E4 undeclared) | Exploratory | Stable against borrowable concepts; \*p retention; geography; AU tests | S2, S5 |
+| E1 to E6 | 2, 3 (E4 undeclared) | Exploratory | Stable against borrowable concepts; \*p retention; geography; AU tests | S2, S4 |
 | E7 to E12 | 4 | Exploratory | Grimes and Edwards's tables as data; reflex atlases; total-evidence trees; Tetun loans | S7; repository |
-| E13 to E16 | 5, 6 | Exploratory | Hull's \*b and \*k; an ASJP check; cognate-coding robustness; Alcantara's Idaté data | S3; repository |
+| E13 to E16 | 5, 6 | Exploratory | Hull's \*b and \*k; an ASJP check (Wichmann et al. 2025); cognate-coding robustness; Alcantara's Idaté data | S3; repository |
 | E17 to E24 | 7, 8 | Exploratory | Shared innovations; triplet tests; contact-aware trees; the split test; borrowing simulation; glottometry; dating; other branches | S6, S8, S9, S10 |
-| E25 to E34 | 9 | Two confirmatory (E26, E28), the rest exploratory | Multiple testing; replications; consensus cognates; sound changes on rival trees; classifier validation; triplet null and power; two-way borrowing model; correspondences; rooted clock | Main text; S4, S6, S7, S8 |
-| E35, E36 | 10 | Exploratory | Etymological check; AU tests on independent lists | Main text; S5 |
-| E37 to E39 | 11 | Exploratory | Grimes and Edwards's own judgements; parametric bootstrap; capped contact model | Main text; S8 |
+| E25 to E34 | 9 | Two confirmatory (E26, E28), the rest exploratory | Multiple testing; replications; consensus cognates; sound changes on rival trees; classifier validation; triplet null and power; two-way borrowing model; correspondences; rooted clock | Main text; S5, S6, S7, S8 |
+| E35, E36 | 10 | Exploratory | Etymological check; AU tests on independent lists | Main text; S4 |
+| E37 to E39 | 11 | Exploratory | Grimes and Edwards's own judgments; parametric bootstrap; capped contact model | Main text; S8 |
 | E40 to E50 | 12 | Second round (E40, E44, E45, E46 under the rule); the rest exploratory | Root; relaxed clock; irreversible sound changes; calibration; kept together; rooted AU tests; cleaned innovations; direct Bayes factors; other taxon sets; heights; glottometry intervals | Main text; S2, S4, S5, S7, S9 |
 | E51 to E55 | 13 | Exploratory | Partial cognates; regular correspondences; fuller phonology; learned classifier; split networks | Main text; S3, S6, S7, S8 |
 | E56, E57 | 14 | Exploratory, requested in review | Reversibility of sound change; root sensitivity | Main text |
@@ -73,21 +73,21 @@ E36's rejection of the eastern placement on the independent lists (uncorrected p
 
 **Known groups (E43).** Of the ten Grimes and Edwards groups with at least two lects among the 24, other than the contested ones, the unrooted MrBayes tree recovers six at posterior 0.95 and the ML tree four at UFBoot 95. The failures include groups nobody disputes: West Rote-Meto (Dela + Meto: posterior 0.00, UFBoot 3), Kisar-Luang (0.00, UFBoot 2; Luang pairs with Tela-Masbuar instead), Tetun + Habu (0.00) and, narrowly, Lakalei-Idate itself (0.94, UFBoot 53). In the pre-registered distance trees Southwest Maluku gets 0% and 30%.
 
-**The triplet test (E31).** With unequal branch lengths and no borrowing, the null D for Lakalei-Idate's triplets centres on 0.44 to 0.47; every observed value lies inside it, and the naive Z ≥ 2 rule fires in 27% of contact-free datasets. The calibrated test has a 5% false-positive rate and detects 20% borrowing from Habu 30% of the time.
+**The triplet test (E31).** With unequal branch lengths and no borrowing, the null D for Lakalei-Idate's triplets centers on 0.44 to 0.47; every observed value lies inside it, and the naive Z ≥ 2 rule fires in 27% of contact-free datasets. The calibrated test has a 5% false-positive rate and detects 20% borrowing from Habu 30% of the time.
 
-**Treelikeness.** The protocol reports tree results as weak when mean delta (Holland et al. 2002; Gray, Bryant and Greenhill 2010) exceeds 0.3. For the 24 lects it is 0.33. The most reticulate lects are Welaun, Tokodede, Galoli, Lakalei, Tetun Dili and Idaté, followed by Habu and Tetun Suai.
+**Treelikeness.** The protocol reports tree results as weak when mean delta (Holland et al. 2002; Gray, Bryant and Greenhill 2010) for the Timor Austronesian lects exceeds 0.3. For those 37 lects it is 0.24, below the bar; for the 24 lects of the model-based analyses, a set the protocol did not specify, it is 0.33, above it. Among the 37, the most reticulate lists are the two Welaun lists, Tokodede, Galoli, Lakalei, Tetun Dili and Idaté, followed by Habu and Tetun Suai.
 
 # Shared innovations: other counts
 
 | Stable concepts | LI + NCT | LI + X | NCT + X |
 |-----------------------------|-----|-----|-----|
-| Single-survey lists, cleaned and polarised: Tetun, Habu, Kawaimina | 12, 10, 30 | 10, 9, 18 | 2, 0, 0 |
-| Polarised by all nine outgroups, representative: Tetun, Habu, Kawaimina | 23, 21, 69 | 14, 21, 38 | 5, 5, 9 |
-| Partial cognates, polarised, not cleaned (E51): Tetun, Habu, Kawaimina | 10, 13, 48 | 18, 14, 24 | 3, 1, 6 |
+| Single-survey lists, cleaned and polarized: Tetun, Habu, Kawaimina | 12, 10, 30 | 10, 9, 18 | 2, 0, 0 |
+| Polarized by all nine outgroups, representative: Tetun, Habu, Kawaimina | 23, 21, 69 | 14, 21, 38 | 5, 5, 9 |
+| Partial cognates, polarized, not cleaned (E51): Tetun, Habu, Kawaimina | 10, 13, 48 | 18, 14, 24 | 3, 1, 6 |
 
 : Other triplet counts on stable concepts (E46, E51).
 
-On the single-survey lists Nuclear Central Timor + Tetun matches or beats Lakalei-Idate + Nuclear Central Timor until the counts are polarised. In the two halves of Lakalei-Idate, five of the eight stable Central Timor items are shared by both Idaté and Lakalei, while six of eight borrowable ones are found only in Lakalei and match Mambae, spoken 10 km away (binomial p = 0.125); with the other Idaté list the stable split becomes 3 shared, 4 in Lakalei only and 2 in Idaté only.
+On the single-survey lists Nuclear Central Timor + Tetun matches or beats Lakalei-Idate + Nuclear Central Timor until the counts are polarized. With the original retention rule, in the two halves of Lakalei-Idate five of the eight stable Central Timor items are shared by both Idaté and Lakalei, while six of eight borrowable ones are found only in Lakalei and match Mambae, spoken 10 km away (binomial p = 0.125); with the other Idaté list the stable split becomes 3 shared, 4 in Lakalei only and 2 in Idaté only. Rule R2 gives the same picture (4, 2 and 1 stable; 1, 6 and 1 borrowable).
 
 ![Triplet counts on stable (Leipzig-Jakarta) and borrowable concepts, with the original retention rule, representative lists. Each bar is one triplet of the focal group (Welaun or Lakalei-Idate), Nuclear Central Timor and a third group. Welaun, whose Tetun contact is documented, is the control: against a simulated null with unequal rates, only its jackknife Z in borrowable words stands out.](figures/triplets.pdf){width=100%}
 
@@ -111,11 +111,11 @@ Several changes recur outside their defining groups: \*ŋ > n throughout Timor-B
 
 # Contact and linkage models
 
-**Borrowing simulations (E21, E32).** Approximate Bayesian computation (Csilléry et al. 2010) with borrowing from both sides into proto-Lakalei-Idate cannot separate the placements: the random forest (Pudlo et al. 2016) splits its votes 0.45 to 0.55 and misclassifies 36% of its own simulations, and the four stable-vocabulary borrowing parameters end with posterior medians of 22 to 25% and 90% intervals of about 2 to 57%, close to their U(0, 0.6) prior. The design's statistics are a handful of counts (Robert et al. 2011), and its simulator moves both Lakalei-Idate lects together, so it cannot represent Idaté's and Lakalei's different neighbours.
+**Borrowing simulations (E21, E32).** Approximate Bayesian computation (Csilléry et al. 2010) with borrowing from both sides into proto-Lakalei-Idate cannot separate the placements: the random forest (Pudlo et al. 2016) splits its votes 0.45 to 0.55 and misclassifies 36% of its own simulations, and the four stable-vocabulary borrowing parameters end with posterior medians of 22 to 25% and 90% intervals of about 2 to 57%, close to their U(0, 0.6) prior. The design's statistics are a handful of counts (Robert et al. 2011), and its simulator moves both Lakalei-Idate lects together, so it cannot represent Idaté's and Lakalei's different neighbors.
 
 **Glottometry (E22, E50).** Historical glottometry (Kalyan and François 2018) finds cohesive groups only at low levels. With 95% intervals from resampling concepts, Lakalei-Idate's subgroupiness is 1.42 (0 to 3.65), its ties to Central Timor 0.06 (0 to 0.31) and to Eastern Timor 0.08 (0 to 0.41), and Hull's Ramelaic 0 in every resample.
 
-**A contact-aware tree (E19, E39).** contacTrees (Neureiter et al. 2022) did not settle when left free. Capped at five transfer edges, it used all five in every sample, some between unlikely partners (Dela and Habu in 99% of samples). Its base tree puts Lakalei-Idate with Tetun and Habu (0.78), with a transfer edge between Lakalei and Tokodede in every sample. Because the model always uses the maximum number of edges it is misspecified, and its base tree should not be read as the history; it shows only that a few transfer events can carry the Central Timor signal as well as descent can.
+**A contact-aware tree (E19, E39).** contacTrees (Neureiter et al. 2022) did not settle when left free. Capped at five transfer edges, it used all five in every sample, some between unlikely partners (Dela and Habu in 99% of samples). Its base tree puts Lakalei-Idate with Tetun and Habu (0.78), with a transfer edge between Lakalei and Tokodede in every sample. Because the model always uses the maximum number of edges it is misspecified, and its base tree should not be read as the history; it shows only that a few transfer events can carry the Central Timor signal as well as descent can. The run also mixed poorly (likelihood effective sample size 64), so its posterior shares are rough.
 
 **A split network (E55).** NeighborNet (Bryant and Moulton 2004) on the primary distances, with 200 concept bootstraps, shows Lakalei-Idate as a split in 89% of networks, Lakalei-Idate + Central Timor in 47%, Idaté + Habu in 45%, Lakalei + Nuclear Central Timor in 30%, and Lakalei-Idate + Eastern Timor in 2%. By the reading declared in advance this is "unclear": a linkage signature needed both sides in at least half of the networks.
 
@@ -123,11 +123,11 @@ Several changes recur outside their defining groups: \*ŋ > n throughout Timor-B
 
 # Dating
 
-Measured only in samples where both groups are clades (E49), the common ancestor of Lakalei-Idate and Central Timor is older than Central Timor's own by a median of 21% of the latter's height under the relaxed clock (95%: 4 to 71%), where Central Timor with Welaun is a clade in 72% of samples. Under the strict clock (E34), where both Nuclear Central Timor and Lakalei-Idate + Nuclear Central Timor are clades (49% of samples), the second is older by a median of 21% of the first's height (95%: 7 to 39%). Dropping Tela-Masbuar moves the relaxed clock's root mass from Kisar-Luang towards the western branches (E41).
+Measured only in samples where both groups are clades (E49), the common ancestor of Lakalei-Idate and Central Timor is older than Central Timor's own by a median of 21% of the latter's height under the relaxed clock (95%: 4 to 71%), where Central Timor with Welaun is a clade in 72% of samples. Under the strict clock (E34), where both Nuclear Central Timor and Lakalei-Idate + Nuclear Central Timor are clades (49% of samples), the second is older by a median of 21% of the first's height (95%: 7 to 39%). Dropping Tela-Masbuar moves the relaxed clock's root mass from Kisar-Luang toward the western branches (E41).
 
 # Welaun (C2)
 
-On the 60 stable concepts Welaun + Tetun gets 2% (UPGMA) and 4% (NJ), on the other 92 concepts 74% and 81% (E1), and the triplet test locates the excess there (Z = 6.9 against 0.6). Under the consensus coding the Welaun control's tree pair becomes Welaun + Tetun even on stable concepts (10 to 8). Under the strict clock (E34) Central Timor with Welaun has posterior 0.29. Hull (2003) called Bekais a distinct language "structurally intermediate between Belunese Tetum and Dawan".
+On the 60 stable concepts Welaun + Tetun gets 2% (UPGMA) and 4% (NJ), on the other 92 concepts 74% and 81% (E1), and the triplet test locates the excess there (Z = 6.9 against 0.6). Under the consensus coding the Welaun control's tree pair becomes Welaun + Tetun even on stable concepts (10 to 8). Under the strict clock (E34) Central Timor with Welaun has posterior 0.29. Hull (2003) called Bekais a distinct language "structurally intermediate between Belunese Tetum and Dawan" (in the article's English abstract).
 
 # Other disputed branches
 
@@ -139,12 +139,12 @@ On the 60 stable concepts Welaun + Tetun gets 2% (UPGMA) and 4% (NJ), on the oth
 | Galoli, Wetar, Tetun | Galoli+Wetar 12 (8); Galoli+Tetun 6 (4); Wetar+Tetun 0 (0) | Galoli+Wetar largest |
 | Helong, Meto, Rote | Meto+Rote 17 (12); Helong+Meto 10 (8); Helong+Rote 3 (2) | Meto+Rote largest |
 
-: Triplet tests on other disputed placements (E24). The imbalances between the other two pairs are uncalibrated for these triplets and none survives multiple-testing correction, so they are not read as contact.
+: Triplet tests on other disputed placements (E24), with the original retention rule; rule R2 gives the same largest pair in every triplet. The imbalances between the other two pairs are uncalibrated for these triplets and none survives multiple-testing correction, so they are not read as contact.
 
 # References {.unnumbered}
 
 ::: {.refs}
-Bergsten, Johannes, Anders N. Nilsson and Fredrik Ronquist. 2013. Bayesian tests of topology hypotheses with an example from diving beetles. *Systematic Biology* 62(5): 660–673.
+Bergsten, Johannes, Anders N. Nilsson and Fredrik Ronquist. 2013. Bayesian tests of topology hypotheses with an example from diving beetles. *Systematic Biology* 62(5): 660–673. doi:10.1093/sysbio/syt029.
 
 Bryant, David and Vincent Moulton. 2004. Neighbor-Net: an agglomerative method for the construction of phylogenetic networks. *Molecular Biology and Evolution* 21(2): 255–265.
 
@@ -156,9 +156,9 @@ Holland, Barbara R., Katharina T. Huber, Andreas Dress and Vincent Moulton. 2002
 
 Hull, Geoffrey. 2003. Lia-Bekais nia fatin iha dalen-lubun Timór. *Studies in Languages and Cultures of East Timor* 5: 55–78.
 
-Kalyan, Siva and Alexandre François. 2018. Freeing the comparative method from the tree model: a framework for historical glottometry. *Senri Ethnological Studies* 98: 59–89.
+Kalyan, Siva and Alexandre François. 2018. Freeing the comparative method from the tree model: a framework for historical glottometry. In Ritsuko Kikusawa and Lawrence A. Reid (eds.), *Let's Talk about Trees: Genetic Relationships of Languages and Their Phylogenic Representation* (Senri Ethnological Studies 98), 59–89. Osaka: National Museum of Ethnology.
 
-Neureiter, Nico et al. 2022. Detecting contact in language trees: a Bayesian phylogenetic model with horizontal transfer. *Humanities and Social Sciences Communications* 9.
+Neureiter, Nico et al. 2022. Detecting contact in language trees: a Bayesian phylogenetic model with horizontal transfer. *Humanities and Social Sciences Communications* 9. doi:10.1057/s41599-022-01211-7.
 
 Nicholls, Geoff K. and Russell D. Gray. 2008. Dated ancestral trees from binary trait data and their application to the diversification of languages. *Journal of the Royal Statistical Society B* 70(3): 545–566.
 
@@ -169,4 +169,6 @@ Ringe, Don, Tandy Warnow and Ann Taylor. 2002. Indo-European and computational c
 Robert, Christian P., Jean-Marie Cornuet, Jean-Michel Marin and Natesh S. Pillai. 2011. Lack of confidence in approximate Bayesian computation model choice. *Proceedings of the National Academy of Sciences* 108(37): 15112–15117.
 
 Shimodaira, Hidetoshi. 2002. An approximately unbiased test of phylogenetic tree selection. *Systematic Biology* 51(3): 492–508.
+
+Wichmann, Søren, Eric W. Holman, Cecil H. Brown, Matthew S. Dryer and Qibin Ran, eds. 2025. *The ASJP Database* (version 21). https://asjp.clld.org.
 :::

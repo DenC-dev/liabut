@@ -24,7 +24,7 @@ LexiRumah compiles lists from many collectors; the `Source` column of `data/d1/f
 
 ## What is not available
 
-- **Grimes and Edwards's 494-item field lists** for Idaté and Lakalei are not public. Their appendices on DataverseNO (doi:10.18710/3CT9RO, CC BY-NC 4.0) contain the language list and the questionnaire only.
+- **Fuller lists for Idaté and Lakalei.** Grimes and Edwards (2026, Appendix A) give the same surveys (Klamer 2002; Dawson 2014) plus Ferreira (2005) as their sources for these two languages; their 494-item word list (Appendix D) is a questionnaire, not a collected dataset. Their appendices on DataverseNO (doi:10.18710/3CT9RO, CC BY-NC 4.0) contain the language list and the questionnaire only.
 - **Hull (1998)**, **Hull (2001b)** and **Carvalho (2001)** could not be obtained.
 
 ## Material written with AI assistance
