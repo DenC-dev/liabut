@@ -28,7 +28,7 @@ jobs:
       - name: Install pinned analysis dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt matplotlib
+          pip install -r requirements.txt
       - name: Reproduce principal analysis, figures, paper, supplement and website
         env:
           IQTREE: iqtree2
