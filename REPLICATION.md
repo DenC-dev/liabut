@@ -5,7 +5,8 @@ Liabut's analyses have so far been run only by the author (with AI assistance). 
 ## Set-up
 
 - Python 3.10 or later, `pip install -r requirements.txt` (LingPy is pinned at 2.6.14; other versions change the cognate sets).
-- IQ-TREE 2.3.6 (`$IQTREE`), MrBayes 3.2.7a (`$MRBAYES`), pandoc 3 and XeLaTeX for the paper.
+- For the paper build: pandoc 3, XeLaTeX/pdfLaTeX and qpdf. The map figures also require Matplotlib and Shapely; both are listed in `requirements.txt`.
+- For the full upstream rerun: IQ-TREE 2.3.6 (`$IQTREE`) and MrBayes 3.2.7a (`$MRBAYES`).
 - `./src/01_fetch.sh` clones the upstream data at the commits listed in `PROVENANCE.md`.
 
 ## Two levels
