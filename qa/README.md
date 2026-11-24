@@ -1,12 +1,12 @@
-# Release QA
+# Release QA and research validation
 
-Run `python qa/check_release.py` from the repository root (or any directory).
+Run from the repository root (or any directory):
 
-The dependency-free check verifies the committed D1 corpus record counts,
-unique identifiers, form-to-lect and form-to-concept references, source
-attribution, and that every file cited by `results/principal_estimates.csv`
-exists in the release.
+- `python qa/check_release.py` checks release integrity.
+- `python qa/benchmark_cognates.py` compares D2 automatic LexStat/SCA clusters with confident expert-coded cognate judgments and writes `qa/cognate_benchmark.json`.
 
-GitHub Actions runs this check on pushes, pull requests, and manual dispatch.
-It checks release integrity, not the linguistic validity of cognate judgments,
-retention classifications, tree models, or interpretations.
+The cognate benchmark scores unordered form pairs within each concept. Expert rows marked `Doubt=True` are excluded. A pair is reference-positive when the forms share at least one confident expert cognate-set label. The benchmark currently covers the forms for which expert judgments exist; it does not treat unlabeled forms as negatives.
+
+The committed benchmark report is a reproducible agreement assessment, not an independent gold standard. Pairwise observations are dependent, and this release does not include held-out threshold tuning or independent expert adjudication. Precision, recall and F1 should therefore be read as descriptive agreement with the supplied coding.
+
+GitHub Actions runs both the release check and benchmark on pushes, pull requests and manual dispatch. These checks do not establish the validity of the project's historical classification.
