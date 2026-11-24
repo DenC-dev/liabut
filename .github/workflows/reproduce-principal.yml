@@ -34,6 +34,8 @@ jobs:
         env:
           IQTREE: iqtree2
         run: bash reproduce.sh principal
+      - name: Verify principal estimates match the committed release
+        run: git diff --exit-code -- results/principal_estimates.csv
       - name: Upload reproduction outputs
         if: always()
         uses: actions/upload-artifact@v4
