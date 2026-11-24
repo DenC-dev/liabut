@@ -5,43 +5,43 @@
     {
       "coding": "lexstat",
       "characters": 1353,
-      "lakalei_idate_plus_central_timor_bootstrap": 65,
-      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "lakalei_idate_plus_central_timor_bootstrap": 65.0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0.0,
       "abvd_expert_distance_fit_mantel_r": 0.898
     },
     {
       "coding": "lexstat035",
       "characters": 2270,
-      "lakalei_idate_plus_central_timor_bootstrap": 15,
-      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "lakalei_idate_plus_central_timor_bootstrap": 15.0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0.0,
       "abvd_expert_distance_fit_mantel_r": 0.712
     },
     {
       "coding": "lexstat075",
       "characters": 560,
-      "lakalei_idate_plus_central_timor_bootstrap": 20,
-      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "lakalei_idate_plus_central_timor_bootstrap": 20.0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0.0,
       "abvd_expert_distance_fit_mantel_r": 0.894
     },
     {
       "coding": "sca",
       "characters": 957,
-      "lakalei_idate_plus_central_timor_bootstrap": 92,
-      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "lakalei_idate_plus_central_timor_bootstrap": 92.0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0.0,
       "abvd_expert_distance_fit_mantel_r": 0.86
     },
     {
       "coding": "biglexstat",
       "characters": 1965,
-      "lakalei_idate_plus_central_timor_bootstrap": 0,
-      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "lakalei_idate_plus_central_timor_bootstrap": 0.0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0.0,
       "abvd_expert_distance_fit_mantel_r": 0.696
     }
   ],
   "summary": {
-    "focal_clade_support_min": 0,
-    "focal_clade_support_max": 92,
-    "focal_clade_support_primary_lexstat": 65,
+    "focal_clade_support_min": 0.0,
+    "focal_clade_support_max": 92.0,
+    "focal_clade_support_primary_lexstat": 65.0,
     "alternative_eastern_timor_clade_support_all_codings": true
   },
   "interpretation": [
