@@ -11,6 +11,10 @@ Dennis Crowley, Phaistos Labs.
 - **Documentation:** [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) (lects, characters, cognate assignments, exclusion codes), [`PROVENANCE.md`](PROVENANCE.md) (sources, versions, permissions), [`derived/audit/`](derived/audit) (exclusion trail, decisive comparisons, \*p reflexes), [`SPECIALIST_REVIEW.md`](SPECIALIST_REVIEW.md) (what a specialist reviewer is asked to check).
 - **Website:** [`docs/index.html`](docs/index.html), for GitHub Pages at <https://denc-dev.github.io/liabut/>.
 
+## Release integrity checks
+
+Run `python qa/check_release.py` to verify the committed D1 corpus counts, unique IDs, lect/concept references, source attribution, and the existence of every file cited by the principal-estimates table. The same dependency-free check runs automatically on pushes and pull requests through [GitHub Actions](.github/workflows/release-qa.yml). It checks release integrity, not linguistic interpretation or independent replication. See [`qa/README.md`](qa/README.md).
+
 ## The question
 
 Two classifications disagree.
