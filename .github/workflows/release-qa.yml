@@ -18,3 +18,7 @@ jobs:
           python-version: "3.11"
       - name: Validate committed corpus and estimate references
         run: python qa/check_release.py
+      - name: Benchmark automatic cognate clusters against expert judgments
+        run: python qa/benchmark_cognates.py
+      - name: Ensure benchmark output is reproducible
+        run: git diff --exit-code -- qa/cognate_benchmark.json
