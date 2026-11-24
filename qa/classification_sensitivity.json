@@ -13,14 +13,14 @@
       "coding": "lexstat035",
       "characters": 2270,
       "lakalei_idate_plus_central_timor_bootstrap": 15.0,
-      "lakalei_idate_plus_eastern_timor_bootstrap": 0.0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
       "abvd_expert_distance_fit_mantel_r": 0.712
     },
     {
       "coding": "lexstat075",
       "characters": 560,
       "lakalei_idate_plus_central_timor_bootstrap": 20.0,
-      "lakalei_idate_plus_eastern_timor_bootstrap": 0.0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
       "abvd_expert_distance_fit_mantel_r": 0.894
     },
     {
@@ -34,7 +34,7 @@
       "coding": "biglexstat",
       "characters": 1965,
       "lakalei_idate_plus_central_timor_bootstrap": 0.0,
-      "lakalei_idate_plus_eastern_timor_bootstrap": 0.0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
       "abvd_expert_distance_fit_mantel_r": 0.696
     }
   ],
