@@ -22,3 +22,7 @@ jobs:
         run: python qa/benchmark_cognates.py
       - name: Ensure benchmark output is reproducible
         run: git diff --exit-code -- qa/cognate_benchmark.json
+      - name: Summarize existing classification sensitivity analyses
+        run: python qa/classification_sensitivity.py
+      - name: Ensure sensitivity report is reproducible
+        run: git diff --exit-code -- qa/classification_sensitivity.json
