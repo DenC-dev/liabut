@@ -1,0 +1,53 @@
+{
+  "title": "Liabut sensitivity of focal Lakalei–Idaté placement to cognate coding",
+  "source": "results/literature/e15_coding_robustness.json",
+  "results": [
+    {
+      "coding": "lexstat",
+      "characters": 1353,
+      "lakalei_idate_plus_central_timor_bootstrap": 65,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "abvd_expert_distance_fit_mantel_r": 0.898
+    },
+    {
+      "coding": "lexstat035",
+      "characters": 2270,
+      "lakalei_idate_plus_central_timor_bootstrap": 15,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "abvd_expert_distance_fit_mantel_r": 0.712
+    },
+    {
+      "coding": "lexstat075",
+      "characters": 560,
+      "lakalei_idate_plus_central_timor_bootstrap": 20,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "abvd_expert_distance_fit_mantel_r": 0.894
+    },
+    {
+      "coding": "sca",
+      "characters": 957,
+      "lakalei_idate_plus_central_timor_bootstrap": 92,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "abvd_expert_distance_fit_mantel_r": 0.86
+    },
+    {
+      "coding": "biglexstat",
+      "characters": 1965,
+      "lakalei_idate_plus_central_timor_bootstrap": 0,
+      "lakalei_idate_plus_eastern_timor_bootstrap": 0,
+      "abvd_expert_distance_fit_mantel_r": 0.696
+    }
+  ],
+  "summary": {
+    "focal_clade_support_min": 0,
+    "focal_clade_support_max": 92,
+    "focal_clade_support_primary_lexstat": 65,
+    "alternative_eastern_timor_clade_support_all_codings": true
+  },
+  "interpretation": [
+    "Support for Lakalei–Idaté with Central Timor changes substantially across cognate codings and thresholds.",
+    "The primary LexStat result is 65%, below the project's 70% clade-support criterion.",
+    "No tested coding supports the alternative Lakalei–Idaté plus Eastern Timor clade.",
+    "This is a sensitivity summary of existing analyses, not a new tree inference or proof that either classification is correct."
+  ]
+}
