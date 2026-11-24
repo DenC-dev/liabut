@@ -25,7 +25,7 @@ jobs:
       - name: Install system tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended qpdf
       - name: Install pinned analysis dependencies
         run: |
           python -m pip install --upgrade pip
