@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'reproduce.sh'
+      - 'requirements.txt'
       - 'src/**'
       - 'paper/**'
       - '.github/workflows/reproduce-principal.yml'
