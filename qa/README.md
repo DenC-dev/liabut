@@ -11,4 +11,4 @@ The benchmark also reports the protocol's B-cubed scores (using the first expert
 
 The committed benchmark report is a reproducible agreement assessment, not an independent gold standard. Pairwise observations are dependent, and this release does not include held-out threshold tuning or independent expert adjudication. Precision, recall and F1 should therefore be read as descriptive agreement with the supplied coding.
 
-GitHub Actions runs both the release check and benchmark on pushes, pull requests and manual dispatch. These checks do not establish the validity of the project's historical classification.
+GitHub Actions runs both the release check and benchmark on pushes, pull requests and manual dispatch. The separate [principal reproduction workflow](../.github/workflows/reproduce-principal.yml) reruns the stored-coding analyses and rebuilds the figures, paper, supplement and website. It is not a full upstream-data rerun and does not replace independent replication. None of these checks establishes the validity of the project's historical classification.
