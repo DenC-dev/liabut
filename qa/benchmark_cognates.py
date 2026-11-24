@@ -33,8 +33,8 @@ def bcubed(pred, gold):
         recall += shared / len(by_g[gold[item]])
     n = len(gold)
     p, r = precision / n, recall / n
-    return {"forms": n, "precision": round(p, 4), "recall": round(r, 4),
-            "f1": round(2 * p * r / (p + r), 4) if p + r else 0.0}
+    return {"forms": n, "precision": p, "recall": r,
+            "f1": 2 * p * r / (p + r) if p + r else 0.0}
 
 
 def pairwise(method, automatic, expert, concept_by_form):
