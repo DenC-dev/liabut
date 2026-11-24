@@ -5,47 +5,61 @@
     "results/cognates/d2_lexstat.csv",
     "results/cognates/d2_sca.csv"
   ],
-  "reference_forms_with_confident_judgments": 3556,
-  "doubtful_reference_rows_excluded": 295,
-  "scoring": {
-    "unit": "unordered form pairs within the same concept",
-    "positive_rule": "the two forms share at least one confident expert cognate-set label",
-    "automatic_rule": "the two forms have the same automatically assigned cognate-set ID",
-    "multiple_expert_labels": "retained as a set; any shared label is positive",
-    "scope": "only forms with confident expert labels are scored"
-  },
+  "doubtful_expert_rows": 295,
+  "protocol_b_cubed_rule": "first expert cognate-set label per form; forms without expert labels excluded; B-cubed calculated within concept",
+  "secondary_pairwise_rule": "unordered pairs within concept; only confident expert rows retained; pair positive if any confident expert cognate-set label is shared",
   "results": [
     {
       "method": "lexstat",
-      "forms_scored": 3556,
-      "concepts_scored": 206,
-      "form_pairs_scored": 37948,
-      "true_positive_pairs": 13628,
-      "false_positive_pairs": 2340,
-      "false_negative_pairs": 5328,
-      "true_negative_pairs": 16652,
-      "precision": 0.853457,
-      "recall": 0.718928,
-      "f1": 0.780438
+      "protocol_b_cubed": {
+        "forms": 3844,
+        "concepts": 208,
+        "precision": 0.8789,
+        "recall": 0.7542,
+        "f1": 0.8118
+      },
+      "pairwise_sensitivity_excluding_doubtful_rows": {
+        "method": "lexstat",
+        "forms_scored": 3556,
+        "concepts_scored": 206,
+        "form_pairs_scored": 37948,
+        "true_positive_pairs": 13628,
+        "false_positive_pairs": 2340,
+        "false_negative_pairs": 5328,
+        "true_negative_pairs": 16652,
+        "precision": 0.853457,
+        "recall": 0.718928,
+        "f1": 0.780438
+      }
     },
     {
       "method": "sca",
-      "forms_scored": 3556,
-      "concepts_scored": 206,
-      "form_pairs_scored": 37948,
-      "true_positive_pairs": 14970,
-      "false_positive_pairs": 3867,
-      "false_negative_pairs": 3986,
-      "true_negative_pairs": 15125,
-      "precision": 0.794713,
-      "recall": 0.789724,
-      "f1": 0.79221
+      "protocol_b_cubed": {
+        "forms": 3844,
+        "concepts": 208,
+        "precision": 0.7983,
+        "recall": 0.8115,
+        "f1": 0.8049
+      },
+      "pairwise_sensitivity_excluding_doubtful_rows": {
+        "method": "sca",
+        "forms_scored": 3556,
+        "concepts_scored": 206,
+        "form_pairs_scored": 37948,
+        "true_positive_pairs": 14970,
+        "false_positive_pairs": 3867,
+        "false_negative_pairs": 3986,
+        "true_negative_pairs": 15125,
+        "precision": 0.794713,
+        "recall": 0.789724,
+        "f1": 0.79221
+      }
     }
   ],
   "limitations": [
+    "The expert coding is a reference standard for this benchmark, not an independent adjudication.",
     "Pairwise observations are dependent because each form occurs in multiple pairs.",
-    "This is agreement with this expert-coded reference, not an independent gold standard.",
-    "The benchmark does not measure semantic correctness, borrowing detection, or phylogenetic accuracy.",
-    "No threshold tuning or held-out validation is performed here."
+    "No threshold tuning or held-out validation is performed.",
+    "Cognate agreement does not measure semantic correctness, borrowing detection, or phylogenetic accuracy."
   ]
 }
