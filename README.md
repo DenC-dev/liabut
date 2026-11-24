@@ -13,7 +13,7 @@ Dennis Crowley, Phaistos Labs.
 
 ## Release integrity checks
 
-Run `python qa/check_release.py` to verify the committed D1 corpus counts, unique IDs, lect/concept references, source attribution, and the existence of every file cited by the principal-estimates table. The same dependency-free check runs automatically on pushes and pull requests through [GitHub Actions](.github/workflows/release-qa.yml). It checks release integrity, not linguistic interpretation or independent replication. See [`qa/README.md`](qa/README.md).
+Run `python qa/check_release.py` to verify release integrity, `python qa/benchmark_cognates.py` to reproduce D2 B-cubed cognate scores against expert judgments (plus a separate pairwise sensitivity score), and `python qa/classification_sensitivity.py` to summarize the existing threshold/method robustness runs. All three run in [GitHub Actions](.github/workflows/release-qa.yml). The cognate benchmark is agreement with the supplied expert reference, not independent adjudication; the sensitivity report summarizes existing trees, not a new inference. See [`qa/README.md`](qa/README.md).
 
 ## The question
 
