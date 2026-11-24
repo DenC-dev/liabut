@@ -1,0 +1,48 @@
+name: Reproduce Liabut principal results
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'reproduce.sh'
+      - 'src/**'
+      - 'paper/**'
+      - '.github/workflows/reproduce-principal.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install system tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended
+      - name: Install pinned analysis dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Reproduce principal analysis, figures, paper, supplement and website
+        env:
+          IQTREE: iqtree2
+        run: bash reproduce.sh principal
+      - name: Upload reproduction outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: liabut-principal-reproduction
+          path: |
+            results/principal_estimates.csv
+            paper/*.pdf
+            paper/*.tex
+            paper/*.html
+            docs/
+          if-no-files-found: warn
+          retention-days: 30
